@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-05T23:42:39.489Z",
+  "lockedAt": "2026-05-06T14:28:13.278Z",
   "version": 1,
   "slugs": [
     {
@@ -244,6 +244,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-monash-2026-05-06"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-umelb-2026-04-24"
     },
     {
@@ -332,6 +336,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-usyd-2026-05-06"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-uts-2026-04-24"
     },
     {
@@ -341,6 +349,10 @@
     {
       "type": "article",
       "slug": "world-models-vs-llm-lecun-ami"
+    },
+    {
+      "type": "book",
+      "slug": "aider-guide"
     },
     {
       "type": "book",
@@ -425,6 +437,31 @@
     {
       "type": "book",
       "slug": "windsurf-guide"
+    },
+    {
+      "type": "chapter",
+      "book": "aider-guide",
+      "slug": "01-what-is-aider"
+    },
+    {
+      "type": "chapter",
+      "book": "aider-guide",
+      "slug": "02-getting-started"
+    },
+    {
+      "type": "chapter",
+      "book": "aider-guide",
+      "slug": "03-core-features"
+    },
+    {
+      "type": "chapter",
+      "book": "aider-guide",
+      "slug": "04-advanced-tips"
+    },
+    {
+      "type": "chapter",
+      "book": "aider-guide",
+      "slug": "05-faq"
     },
     {
       "type": "chapter",
