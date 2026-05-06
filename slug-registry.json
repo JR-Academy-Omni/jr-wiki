@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-06T23:49:20.922Z",
+  "lockedAt": "2026-05-06T23:50:01.161Z",
   "version": 1,
   "slugs": [
     {
@@ -232,6 +232,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-05-07"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -321,6 +325,10 @@
     {
       "type": "article",
       "slug": "uni-news-uq-2026-05-04"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-uq-2026-05-07"
     },
     {
       "type": "article",

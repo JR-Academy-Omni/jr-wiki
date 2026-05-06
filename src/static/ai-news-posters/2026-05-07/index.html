@@ -1,0 +1,308 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-06T23:49:24.284Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-07（Canvas 版）</title>
+<meta name="description" content="2026-05-07 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-07.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-07",
+  "summary": {
+    "hook": [
+      "今日 5 条",
+      "AI",
+      "大事"
+    ],
+    "sub": "GPT-5.5进Bedrock · Mythos扫漏300+ · Meta版权战 · DeepMind组工会 · DeepSeek V4联华为",
+    "items": [
+      {
+        "num": "01",
+        "cat": "OpenAI × AWS",
+        "numColor": "#10A37F",
+        "t": "GPT-5.5 登陆 Amazon Bedrock，企业直接调用"
+      },
+      {
+        "num": "02",
+        "cat": "AI 安全警报",
+        "numColor": "#CC4400",
+        "t": "Anthropic Mythos 扫出 Firefox 近 300 个漏洞"
+      },
+      {
+        "num": "03",
+        "cat": "AI 版权大战",
+        "numColor": "#1877F2",
+        "t": "五大出版商起诉 Meta 用盗版数据训练 Llama"
+      },
+      {
+        "num": "04",
+        "cat": "AI 伦理 & 劳工",
+        "numColor": "#4285F4",
+        "t": "DeepMind 英国员工投票组建全球首个 AI 工会"
+      },
+      {
+        "num": "05",
+        "cat": "中国 AI 突围",
+        "numColor": "#FF6B35",
+        "t": "DeepSeek V4 携华为 Ascend 950 挑战前沿模型"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt55-bedrock",
+      "idx": "01",
+      "catText": "OpenAI × AWS",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#0a2a1f",
+        "mid": "#0d3326",
+        "bot": "#061a12",
+        "topRight": "#1a4d35"
+      },
+      "title": [
+        {
+          "text": "GPT-5.5 登陆 "
+        },
+        {
+          "text": "Amazon Bedrock",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenAI 将旗舰模型送进 AWS 生态，"
+        },
+        {
+          "text": "企业通过 Bedrock API 直接调用 GPT-5.5 与 Codex",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 宣布 GPT-5.5、GPT-5.4 等模型入驻 Amazon Bedrock，同时将 Codex 代码助手带入 AWS，Bedrock Managed Agents 也将由 OpenAI 模型驱动"
+        },
+        {
+          "k": "为什么重要",
+          "v": "OpenAI 打破以自有 API 为主的分发策略，借 AWS 全球基础设施触达企业客户，与已在 Bedrock 上线的 Anthropic Claude 正面竞争"
+        },
+        {
+          "k": "对你的影响",
+          "v": "澳洲及亚太企业可通过现有 AWS 账号调用 GPT-5.5，合规与计费走 Bedrock 统一管理，技术整合成本大幅降低"
+        }
+      ],
+      "src": "📎 aws.amazon.com · openai.com"
+    },
+    {
+      "slug": "02-anthropic-mythos-security",
+      "idx": "02",
+      "catText": "AI 安全警报",
+      "accent": "#CC4400",
+      "bg": {
+        "top": "#2a0e00",
+        "mid": "#331200",
+        "bot": "#1a0900",
+        "topRight": "#4d1a00"
+      },
+      "title": [
+        {
+          "text": "Anthropic Mythos "
+        },
+        {
+          "text": "扫出 Firefox 近 300 漏洞",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "CEO 发出「网络安全危险时刻」警告，"
+        },
+        {
+          "text": "Mythos 找漏洞效率是前代模型的 15 倍",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 安全模型 Mythos 仅在 Firefox 一款浏览器上发现近 300 个漏洞，前代模型只找到 20 个，Mythos 目前仅向少数合作伙伴开放"
+        },
+        {
+          "k": "为什么重要",
+          "v": "CEO Dario Amodei 公开警告 AI 正引发「网络安全危险时刻」，大规模自动化漏洞挖掘工具一旦被恶意方利用，全球软件安全格局将被颠覆"
+        },
+        {
+          "k": "对你的影响",
+          "v": "企业需加速渗透测试和漏洞修复频率；IT 安全从业者应密切关注 AI 驱动威胁情报的快速演化，提前规划防御策略升级"
+        }
+      ],
+      "src": "📎 cnbc.com · red.anthropic.com"
+    },
+    {
+      "slug": "03-meta-llama-lawsuit",
+      "idx": "03",
+      "catText": "AI 版权大战",
+      "accent": "#1877F2",
+      "bg": {
+        "top": "#001a3d",
+        "mid": "#002050",
+        "bot": "#001128",
+        "topRight": "#003580"
+      },
+      "title": [
+        {
+          "text": "五大出版商起诉 Meta："
+        },
+        {
+          "text": "Llama 用盗版数据训练",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Hachette 等五家出版巨头联名控告，"
+        },
+        {
+          "text": "指 Zuckerberg 亲自批准「史上最大版权侵权」",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Hachette、Macmillan、麦格劳希尔等五家出版商在纽约联邦法院起诉 Meta，指控 Llama 系列模型使用来自盗版网站的数百万册书籍和期刊进行训练"
+        },
+        {
+          "k": "为什么重要",
+          "v": "此案与 2025 年被法院驳回的案件不同，教育出版商可精确量化 AI 答题对教材销售的直接替代损失，法律突破口更清晰，判决将影响全行业训练数据合规标准"
+        },
+        {
+          "k": "对你的影响",
+          "v": "若裁决不利 Meta，开源 Llama 生态将受冲击；使用 Llama 微调模型的企业应提前评估版权合规风险，留意训练数据来源的法律审查趋严"
+        }
+      ],
+      "src": "📎 thenextweb.com · techstartups.com"
+    },
+    {
+      "slug": "04-google-deepmind-union",
+      "idx": "04",
+      "catText": "AI 伦理 & 劳工",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#001540",
+        "mid": "#001d55",
+        "bot": "#000d2b",
+        "topRight": "#002b80"
+      },
+      "title": [
+        {
+          "text": "DeepMind 英国员工"
+        },
+        {
+          "text": "发起全球首个 AI 实验室工会投票",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "五角大楼合同引发内部反弹，"
+        },
+        {
+          "text": "研究人员拒绝参与军事 AI 并启动罢工",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google 同意将 Gemini 模型部署至美国国防部机密网络后，英国 DeepMind 员工发起工会化投票，要求拒绝五角大楼及以色列国防军相关合同，并已启动「研究罢工」"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这将成为全球首个前沿 AI 实验室工会，意味着 AI 研究人员开始通过集体行动影响公司伦理决策，为科技行业的劳工权利与 AI 伦理监督设立新先例"
+        },
+        {
+          "k": "对你的影响",
+          "v": "AI 应用的伦理边界将成为顶尖人才选择雇主的关键指标；企业需主动公开 AI 应用场景的「禁止清单」，否则可能面临顶尖研究人才流失"
+        }
+      ],
+      "src": "📎 fortune.com · cnbc.com"
+    },
+    {
+      "slug": "05-deepseek-v4-huawei",
+      "idx": "05",
+      "catText": "中国 AI 突围",
+      "accent": "#FF6B35",
+      "bg": {
+        "top": "#2a1100",
+        "mid": "#331600",
+        "bot": "#1a0b00",
+        "topRight": "#4d2200"
+      },
+      "title": [
+        {
+          "text": "DeepSeek V4 携华为 Ascend 950"
+        },
+        {
+          "text": "挑战全球前沿模型",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "1.6 万亿参数 + 100 万 token 上下文，"
+        },
+        {
+          "text": "无需英伟达芯片仍对标一线 AI 能力",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 发布 V4-Pro（1.6 万亿总参数、490 亿激活参数）和 V4-Flash，均支持 100 万 token 上下文窗口，全面开源，算力依托华为 Ascend 950「超节点」集群"
+        },
+        {
+          "k": "为什么重要",
+          "v": "NIST 评估显示 V4 落后前沿约 8 个月，但开源策略和华为供应链证明中国 AI 可在出口管制下持续迭代；DeepSeek 发布再度引发 AI 产业链股票重估"
+        },
+        {
+          "k": "对你的影响",
+          "v": "亚太企业使用开源 AI 的成本将进一步降低；但使用 DeepSeek 需评估数据隐私和合规风险，尤其是在涉及敏感业务场景时应谨慎对待"
+        }
+      ],
+      "src": "📎 technologyreview.com · cnn.com · nist.gov"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.5进Bedrock / Mythos扫漏300+ / Meta版权诉讼 / DeepMind组工会 / DeepSeek V4联华为"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-07"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>
