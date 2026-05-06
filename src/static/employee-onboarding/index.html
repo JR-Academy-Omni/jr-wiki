@@ -1,0 +1,1741 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>新员工 Onboarding · 匠人学院</title>
+<style>
+  :root {
+    --bg: #faf9f5;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --ink-2: #555;
+    --ink-3: #888;
+    --line: #000;
+    --primary: #d97757;
+    --primary-dark: #b85c3f;
+    --warn-bg: #fff8e7;
+    --warn-line: #ffb800;
+    --warn-ink: #4d3800;
+    --danger-bg: #ffe8e8;
+    --danger-line: #d62828;
+    --danger-ink: #8b1818;
+    --good-bg: #dcfce7;
+    --good-line: #16a34a;
+    --info-bg: #dbeafe;
+    --info-line: #3b82f6;
+    color-scheme: light;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--primary-dark); }
+  a:hover { text-decoration: underline; }
+  code {
+    background: #f0eee5;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+
+  /* Hero */
+  .hero {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    box-shadow: 6px 6px 0 var(--line);
+    padding: 40px 36px;
+    margin-bottom: 40px;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 999px;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0 0 12px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 .accent { color: var(--primary); }
+  .hero-sub {
+    font-size: 17px;
+    color: var(--ink-2);
+    margin: 0 0 28px;
+    max-width: 720px;
+  }
+  .values {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 0 28px;
+  }
+  .value-chip {
+    border: 1px solid var(--line);
+    background: #fff;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 999px;
+    box-shadow: 2px 2px 0 var(--line);
+  }
+  .value-chip.v1 { background: #fef3c7; }
+  .value-chip.v2 { background: #dcfce7; }
+  .value-chip.v3 { background: #ffe4d4; }
+  .value-chip.v4 { background: #dbeafe; }
+  .hero-meta {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    border-top: 1px dashed #ccc;
+    padding-top: 24px;
+    font-size: 13px;
+  }
+  .hero-meta .label { color: var(--ink-3); margin-bottom: 4px; }
+  .hero-meta .val { font-weight: 600; }
+
+  /* Section header */
+  .section { margin: 56px 0 0; }
+  .section-eyebrow {
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 6px;
+  }
+  .section h2 {
+    font-size: 28px;
+    margin: 0 0 8px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+  }
+  .section-desc {
+    color: var(--ink-2);
+    margin: 0 0 24px;
+    max-width: 720px;
+  }
+
+  /* Day 1 quick start cards */
+  .day1-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .day1-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: 4px 4px 0 var(--line);
+    padding: 24px;
+    transition: transform 0.15s ease;
+  }
+  .day1-card:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--line); }
+  .day1-card .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .day1-card h3 { margin: 0 0 8px; font-size: 18px; font-weight: 700; }
+  .day1-card p { color: var(--ink-2); margin: 0 0 14px; font-size: 14px; }
+  .day1-card ul { padding-left: 18px; margin: 0 0 14px; font-size: 14px; }
+  .day1-card ul li { margin-bottom: 4px; }
+  .day1-card .cta {
+    display: inline-block;
+    background: var(--ink);
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid var(--line);
+  }
+  .day1-card .cta:hover { background: var(--primary-dark); text-decoration: none; }
+  .day1-card .time {
+    display: inline-block;
+    background: #f0eee5;
+    border: 1px solid #ccc;
+    color: var(--ink-2);
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+  }
+
+  /* Role grid */
+  .role-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .role-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 3px 3px 0 var(--line);
+    padding: 18px 18px 16px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.15s ease;
+  }
+  .role-card:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--line); }
+  .role-card .icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid var(--line);
+  }
+  .role-card .icon.c1 { background: #ffe4d4; }
+  .role-card .icon.c2 { background: #fef3c7; }
+  .role-card .icon.c3 { background: #dcfce7; }
+  .role-card .icon.c4 { background: #dbeafe; }
+  .role-card .icon.c5 { background: #f3e8ff; }
+  .role-card .icon.c6 { background: #fce7f3; }
+  .role-card h3 {
+    margin: 0 0 4px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .role-card .group {
+    color: var(--ink-3);
+    font-size: 11px;
+    margin: 0 0 10px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .role-card p {
+    color: var(--ink-2);
+    font-size: 13px;
+    line-height: 1.55;
+    margin: 0 0 14px;
+    flex: 1;
+  }
+  .role-card .links {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    border-top: 1px dashed #ddd;
+    padding-top: 10px;
+  }
+  .role-card .links a {
+    font-size: 12px;
+    color: var(--ink-2);
+    text-decoration: none;
+    background: #f6f4ed;
+    border: 1px solid #ddd;
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+  .role-card .links a:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+  /* Timeline */
+  .timeline {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: 4px 4px 0 var(--line);
+    padding: 28px 24px;
+    overflow-x: auto;
+  }
+  .timeline-track {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    position: relative;
+    min-width: 720px;
+  }
+  .timeline-track::before {
+    content: '';
+    position: absolute;
+    top: 18px;
+    left: 8%;
+    right: 8%;
+    height: 2px;
+    background: var(--primary);
+  }
+  .timeline-step {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+  }
+  .timeline-step .dot {
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: var(--primary);
+    font-size: 13px;
+  }
+  .timeline-step.active .dot { background: var(--primary); color: #fff; }
+  .timeline-step h4 {
+    margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .timeline-step ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    font-size: 12px;
+    color: var(--ink-2);
+    line-height: 1.5;
+  }
+  .timeline-step ul li {
+    padding: 3px 0 3px 14px;
+    position: relative;
+  }
+  .timeline-step ul li::before {
+    content: '·';
+    position: absolute;
+    left: 4px;
+    color: var(--primary);
+    font-weight: 800;
+  }
+
+  /* Membership pricing */
+  .pricing-warn {
+    background: var(--danger-bg);
+    border: 2px solid var(--danger-line);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    color: var(--danger-ink);
+  }
+  .pricing-warn strong { color: var(--danger-line); }
+  .pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 4px 4px 0 var(--line);
+  }
+  .pricing-table th, .pricing-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    text-align: left;
+    font-size: 14px;
+  }
+  .pricing-table th {
+    background: #f6f4ed;
+    font-weight: 700;
+    border-bottom: 2px solid var(--line);
+  }
+  .pricing-table tr:last-child td { border-bottom: none; }
+  .pricing-table td:last-child, .pricing-table th:last-child { border-right: none; }
+  .pricing-table .tier-name {
+    font-weight: 800;
+    color: var(--primary-dark);
+  }
+  .pricing-table .price {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-weight: 700;
+  }
+  .pricing-do-dont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .pricing-box {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 13px;
+  }
+  .pricing-box.bad { background: var(--danger-bg); }
+  .pricing-box.good { background: var(--good-bg); }
+  .pricing-box h4 { margin: 0 0 8px; font-size: 13px; font-weight: 700; }
+  .pricing-box.bad h4 { color: var(--danger-ink); }
+  .pricing-box.good h4 { color: #14532d; }
+  .pricing-box ul { padding-left: 16px; margin: 0; }
+  .pricing-box ul li { margin-bottom: 4px; line-height: 1.5; }
+
+  /* 3-column bottom section */
+  .three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .info-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 3px 3px 0 var(--line);
+    padding: 20px;
+  }
+  .info-card h3 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--primary);
+  }
+  .info-card ol, .info-card ul {
+    padding-left: 18px;
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .info-card ol li, .info-card ul li {
+    margin-bottom: 6px;
+  }
+  .info-card .rule-num {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: 6px;
+  }
+  .notion-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+  }
+  .notion-list li {
+    padding: 6px 0;
+    border-bottom: 1px dashed #eee;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .notion-list li:last-child { border-bottom: none; }
+  .notion-list a {
+    color: var(--ink);
+    text-decoration: none;
+    flex: 1;
+  }
+  .notion-list a:hover { color: var(--primary-dark); text-decoration: underline; }
+  .notion-list .id {
+    color: var(--ink-3);
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 11px;
+  }
+  .contact-table {
+    width: 100%;
+    font-size: 13px;
+  }
+  .contact-table td {
+    padding: 6px 4px;
+    border-bottom: 1px dashed #eee;
+    vertical-align: top;
+  }
+  .contact-table td:first-child { color: var(--ink-2); width: 50%; }
+  .contact-table td:last-child { font-weight: 600; }
+  .contact-table tr:last-child td { border-bottom: none; }
+
+  /* Footer chips */
+  .footer-tools {
+    margin-top: 56px;
+    padding: 24px;
+    background: #f0eee5;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    text-align: center;
+  }
+  .footer-tools h3 {
+    margin: 0 0 14px;
+    font-size: 15px;
+    color: var(--ink-2);
+    font-weight: 600;
+  }
+  .footer-chips {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footer-chip {
+    background: #fff;
+    border: 1px solid var(--line);
+    box-shadow: 3px 3px 0 var(--line);
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--ink);
+    transition: transform 0.15s ease;
+  }
+  .footer-chip:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0 var(--line);
+    text-decoration: none;
+  }
+  .footer-meta {
+    margin-top: 24px;
+    font-size: 12px;
+    color: var(--ink-3);
+  }
+  .footer-meta a { color: var(--ink-3); }
+
+  /* Role switcher */
+  .role-switcher {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--ink-2);
+  }
+  .role-switcher select {
+    border: 1px solid var(--line);
+    background: #fff;
+    padding: 6px 28px 6px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 var(--line);
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M3 5l3 3 3-3' stroke='%23000' stroke-width='1.5' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+  }
+  .role-switcher select:hover { background-color: #fff8f4; }
+  .hero { position: relative; }
+
+  /* Role personalized section */
+  .role-section {
+    margin-top: 40px;
+    background: linear-gradient(135deg, #fff 0%, #fff8f4 100%);
+    border: 2px solid var(--primary);
+    border-radius: 16px;
+    box-shadow: 6px 6px 0 var(--line);
+    padding: 32px;
+    display: none;
+  }
+  .role-section.active { display: block; }
+  .role-section-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 18px;
+    border-bottom: 2px dashed #e0c9b8;
+    margin-bottom: 20px;
+  }
+  .role-section-header .icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    background: var(--primary);
+    color: #fff;
+    border: 1px solid var(--line);
+    box-shadow: 3px 3px 0 var(--line);
+  }
+  .role-section-header h3 { margin: 0 0 4px; font-size: 22px; font-weight: 800; }
+  .role-section-header .group { font-size: 12px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 1px; }
+  .role-section-header .tagline { color: var(--ink-2); margin: 4px 0 0; font-size: 14px; }
+  .role-grid-mini {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 18px;
+  }
+  .role-block {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 20px;
+  }
+  .role-block.tasks { grid-row: span 2; }
+  .role-block h4 {
+    margin: 0 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-dark);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #f0e6d8;
+  }
+  .role-block ol, .role-block ul { padding-left: 18px; margin: 0; font-size: 14px; line-height: 1.7; }
+  .role-block ol li, .role-block ul li { margin-bottom: 6px; }
+  .role-block.compact ol li, .role-block.compact ul li { margin-bottom: 4px; font-size: 13px; }
+  .role-block ol li a, .role-block ul li a {
+    color: var(--primary-dark);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(217, 119, 87, 0.3);
+    padding: 1px 2px;
+    margin: -1px -2px;
+    border-radius: 3px;
+    transition: all 0.15s ease;
+  }
+  .role-block ol li a:hover, .role-block ul li a:hover {
+    background: var(--primary);
+    color: #fff;
+    border-bottom-color: var(--primary);
+    text-decoration: none;
+  }
+  .role-block ol li a::after, .role-block ul li a::after {
+    content: ' ↗';
+    font-size: 11px;
+    color: var(--primary);
+    opacity: 0.7;
+  }
+  .role-block ol li a:hover::after, .role-block ul li a:hover::after {
+    color: #fff;
+    opacity: 1;
+  }
+  .role-block ol li:not(:has(a))::before, .role-block ul li:not(:has(a))::before {
+    content: '';
+  }
+  .role-block .skill-row {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee;
+  }
+  .role-block .skill-row:last-child { border-bottom: none; padding-bottom: 0; }
+  .role-block .skill-row:first-child { padding-top: 0; }
+  .role-block .skill-row .scen {
+    color: var(--ink-2);
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .role-block .skill-row .skill {
+    color: var(--primary-dark);
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.45;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+  .role-block .label { font-size: 11px; color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.5px; }
+  .role-block .val { font-size: 14px; font-weight: 600; }
+  .role-goal {
+    background: #fef3c7;
+    border: 1px solid #f59e0b;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-top: 14px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: #78350f;
+  }
+  .role-goal strong { color: #92400e; }
+  .role-redline {
+    background: var(--danger-bg);
+    border: 1px solid var(--danger-line);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 1.55;
+    color: var(--danger-ink);
+  }
+  .role-redline strong { color: var(--danger-line); }
+
+  /* Role card highlight when role is active */
+  .role-card.is-current {
+    background: linear-gradient(135deg, #fff8f4 0%, #ffe4d4 100%);
+    border-color: var(--primary);
+    border-width: 2px;
+    box-shadow: 5px 5px 0 var(--line);
+  }
+  .role-card.is-current::after {
+    content: '当前';
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    background: var(--primary);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+  }
+  .role-card { position: relative; }
+  body.has-role .role-card:not(.is-current) {
+    opacity: 0.55;
+    filter: saturate(0.7);
+  }
+  body.has-role .role-card:not(.is-current):hover {
+    opacity: 1;
+    filter: none;
+  }
+
+  /* Top banner */
+  .top-banner {
+    background: var(--warn-bg);
+    border: 2px solid var(--warn-line);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 24px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--warn-ink);
+  }
+  .top-banner strong { color: #B85C00; font-weight: 700; }
+  .top-banner a { color: #B85C00; text-decoration: underline; }
+
+  /* Mobile responsive */
+  @media (max-width: 1023px) {
+    .role-switcher { position: static; margin-bottom: 16px; justify-content: flex-start; }
+    .role-grid-mini { grid-template-columns: 1fr; }
+    .role-block.tasks { grid-row: auto; }
+    .role-grid { grid-template-columns: repeat(3, 1fr); }
+    .hero-meta { grid-template-columns: repeat(2, 1fr); }
+    .hero h1 { font-size: 32px; }
+  }
+  @media (max-width: 767px) {
+    .container { padding: 16px 14px 60px; }
+    .hero { padding: 28px 22px; }
+    .hero h1 { font-size: 26px; }
+    .hero-sub { font-size: 15px; }
+    .day1-grid { grid-template-columns: 1fr; }
+    .role-grid { grid-template-columns: repeat(2, 1fr); }
+    .role-card { padding: 14px; }
+    .role-card h3 { font-size: 14px; }
+    .role-card p { font-size: 12px; }
+    .timeline-track {
+      grid-template-columns: 1fr;
+      min-width: 0;
+      gap: 20px;
+    }
+    .timeline-track::before {
+      top: 0;
+      bottom: 0;
+      left: 17px;
+      right: auto;
+      width: 2px;
+      height: auto;
+    }
+    .timeline-step { text-align: left; display: grid; grid-template-columns: 36px 1fr; gap: 12px; align-items: start; }
+    .timeline-step .dot { margin: 0; }
+    .three-col { grid-template-columns: 1fr; }
+    .pricing-do-dont { grid-template-columns: 1fr; }
+    .section h2 { font-size: 22px; }
+    .pricing-table { font-size: 12px; display: block; overflow-x: auto; white-space: nowrap; }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .day1-grid { grid-template-columns: 1fr; }
+    .three-col { grid-template-columns: 1fr 1fr; }
+    .three-col .info-card:last-child { grid-column: span 2; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="top-banner">
+    ⚠️ <strong>员工内部页</strong>（noindex / 不参与对外索引）。本页是 <code>.claude/skills/employee-onboarding/</code> 的人类可读镜像；HR 敏感内容（薪酬/绩效/请假流程）一律以
+    <a href="https://www.notion.so/jracademy/Onboarding-Wiki-53e61ffe9dba4308a66089f268e99aac" target="_blank" rel="noopener">Notion Onboarding Wiki</a> 为准。
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="role-switcher">
+      <span>👤 切换岗位视角：</span>
+      <select id="role-switcher" aria-label="切换岗位视角">
+        <option value="">通用入口（不指定岗位）</option>
+        <optgroup label="Marketing">
+          <option value="marketing">Marketing 通用</option>
+          <option value="xiaohongshu">小红书运营</option>
+          <option value="content">内容策划 / 文案</option>
+          <option value="video">视频剪辑</option>
+        </optgroup>
+        <optgroup label="Sales / 服务">
+          <option value="sales">Sales / 课程顾问</option>
+          <option value="course-ops">课程运营（班主任）</option>
+          <option value="career-coaching">Career Coaching</option>
+        </optgroup>
+        <optgroup label="教学 / 产品">
+          <option value="course-pm">课程产品经理</option>
+          <option value="it-tutor">IT 辅导员</option>
+          <option value="teaching-lead">教学主管</option>
+        </optgroup>
+        <optgroup label="设计 / 工程">
+          <option value="ui-designer">UI Designer</option>
+          <option value="developer">Developer / 工程师</option>
+        </optgroup>
+      </select>
+    </div>
+    <span class="hero-eyebrow" id="hero-eyebrow">DAY 1 · 总入口</span>
+    <h1 id="hero-title">欢迎加入<span class="accent">匠人学院</span></h1>
+    <p class="hero-sub" id="hero-sub">这是给你 Day 1 的总入口页。下面 5 分钟你能搞清楚：你是谁、第一周做什么、找谁问什么、公司产品是怎么卖的。</p>
+
+    <div class="values">
+      <span class="value-chip v1">PLAY as a TEAM</span>
+      <span class="value-chip v2">Be GOOD</span>
+      <span class="value-chip v3">WOW the Customer</span>
+      <span class="value-chip v4">Commit to GREATNESS</span>
+    </div>
+
+    <div class="hero-meta">
+      <div>
+        <div class="label">公司</div>
+        <div class="val">匠人学院 / JR Academy</div>
+      </div>
+      <div>
+        <div class="label">中文官网</div>
+        <div class="val"><a href="https://jiangren.com.au" target="_blank" rel="noopener">jiangren.com.au</a></div>
+      </div>
+      <div>
+        <div class="label">定位</div>
+        <div class="val">全球华人学习 AI 第一站</div>
+      </div>
+      <div>
+        <div class="label">创立</div>
+        <div class="val">2017 · 布里斯班</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROLE-SPECIFIC SECTION (only shows when ?role=xxx) -->
+  <section class="role-section" id="role-section" aria-live="polite">
+    <div class="role-section-header">
+      <div class="icon" id="rs-icon">📣</div>
+      <div>
+        <p class="group" id="rs-group">MARKETING</p>
+        <h3 id="rs-name">Marketing 通用</h3>
+        <p class="tagline" id="rs-tagline">策划 + 分发对外内容（活动 / 课程 / 招生），新媒体 + 文案 + 设计的总指挥。</p>
+      </div>
+    </div>
+
+    <div class="role-grid-mini">
+      <div class="role-block tasks">
+        <h4>📚 你的第一周必做（角色专属）</h4>
+        <ol id="rs-tasks"></ol>
+        <div class="role-goal" id="rs-goal-wrap">
+          <strong>🎯 Week 1 产出标准：</strong> <span id="rs-goal"></span>
+        </div>
+        <div class="role-redline" id="rs-redline-wrap" style="display:none;">
+          <strong>🚨 角色红线：</strong> <span id="rs-redline"></span>
+        </div>
+      </div>
+
+      <div class="role-block compact">
+        <h4>🛠 关键 AI Skill</h4>
+        <div id="rs-skills"></div>
+      </div>
+
+      <div class="role-block compact">
+        <h4>👥 Buddy / Manager</h4>
+        <p style="margin:0 0 10px;font-size:13px;line-height:1.6;">
+          <span class="label">Buddy</span><br>
+          <span class="val" id="rs-buddy">—</span>
+        </p>
+        <p style="margin:0;font-size:13px;line-height:1.6;">
+          <span class="label">Manager</span><br>
+          <span class="val" id="rs-manager">—</span>
+        </p>
+        <p style="margin:14px 0 0;font-size:11px;color:var(--ink-3);border-top:1px dashed #eee;padding-top:8px;">
+          完整 ramp-up：<a id="rs-source-link" href="#" target="_blank" rel="noopener">查看源文件 →</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAY 1 QUICK START -->
+  <section class="section">
+    <p class="section-eyebrow">Step 1</p>
+    <h2>Day 1 上午 · 必做三件事</h2>
+    <p class="section-desc">下班前这三件事必须勾完。卡住任何一步直接找 Buddy / HR，不要憋着。</p>
+
+    <div class="day1-grid">
+      <div class="day1-card">
+        <div class="num">1</div>
+        <h3>开账号 <span class="time">~60 min</span></h3>
+        <p>邮箱 / Notion / VPN / Zoom / 企业微信，按 HR 给你的 CheckList 走。</p>
+        <ul>
+          <li>Marketing 加：Canva Pro / Eventbrite / 小红书号 / 公众号</li>
+          <li>Sales 加：Sales CRM / Zoho Form</li>
+          <li>Dev 加：GitHub Org / AWS / MongoDB Atlas</li>
+        </ul>
+        <a class="cta" href="https://www.notion.so/1f9dd76b576d809e8e3ccbb94e587d89" target="_blank" rel="noopener">入职权限 CheckList →</a>
+      </div>
+
+      <div class="day1-card">
+        <div class="num">2</div>
+        <h3>看 5 个必看视频 <span class="time">~60 min</span></h3>
+        <p>不只是看，要能讲出公司是干嘛的、课程长什么样、学员长什么样。</p>
+        <ul>
+          <li><a href="https://www.notion.so/229e98574e4c4c75a341a02f04ae7aef" target="_blank" rel="noopener">公司介绍</a></li>
+          <li><a href="https://www.notion.so/871000abc99640489ffd75a7fef1ddda" target="_blank" rel="noopener">课程介绍</a></li>
+          <li><a href="https://www.notion.so/edf6f737c0ec4b689542967ebac41841" target="_blank" rel="noopener">P3 Demo 集锦</a></li>
+          <li><a href="https://www.notion.so/89862790b4f74efe83d4921840c40bcd" target="_blank" rel="noopener">老师采访</a> + <a href="https://www.notion.so/90a72e3b7f0d4a8791d070e38bd0dc08" target="_blank" rel="noopener">学员采访</a></li>
+        </ul>
+        <a class="cta" href="https://www.notion.so/jracademy/Onboarding-Wiki-53e61ffe9dba4308a66089f268e99aac" target="_blank" rel="noopener">完整 Onboarding Wiki →</a>
+      </div>
+
+      <div class="day1-card">
+        <div class="num">3</div>
+        <h3>找 Buddy 1:1 <span class="time">~30 min</span></h3>
+        <p>HR 第一天会指定一个老员工当你的 Buddy。第一次 1:1 让他/她讲：</p>
+        <ul>
+          <li>部门日常长什么样</li>
+          <li>你这一周要做什么（上手任务）</li>
+          <li>怎么找他 / 紧急情况怎么办</li>
+          <li>本部门微信群 / 周会节奏</li>
+        </ul>
+        <a class="cta" href="#contact">谁负责什么 ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROLE ROUTING -->
+  <section class="section">
+    <p class="section-eyebrow">Step 2</p>
+    <h2>找你的角色路径</h2>
+    <p class="section-desc">点你对应的卡片，进 Day 2-7 的角色专属 ramp-up。每个角色的完整任务清单在源文件里。</p>
+
+    <div class="role-grid">
+
+      <!-- Marketing 类 -->
+      <div class="role-card" data-role="marketing">
+        <div class="icon c1">📣</div>
+        <p class="group">Marketing</p>
+        <h3>Marketing 通用</h3>
+        <p>策划 + 分发对外内容（活动 / 课程 / 招生），新媒体 + 文案 + 设计的总指挥。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/marketing.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/9863b85984d347a9b00b5abcb047d1d6" target="_blank" rel="noopener">Notion 培训</a>
+        </div>
+      </div>
+
+      <div class="role-card" data-role="xiaohongshu">
+        <div class="icon c2">📕</div>
+        <p class="group">Marketing</p>
+        <h3>小红书运营</h3>
+        <p>用 1-N 个账号给匠人引流（本部 + 大学课代表矩阵）。不是发广告，是做内容让用户自己来找。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/xiaohongshu.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/44c7abeef0ce437a9d7a232d65fb1f8f" target="_blank" rel="noopener">小红书培训</a>
+        </div>
+      </div>
+
+      <div class="role-card" data-role="content">
+        <div class="icon c3">✍️</div>
+        <p class="group">Marketing</p>
+        <h3>内容策划 / 文案</h3>
+        <p>公众号、官网长文、活动文章、招生 EDM 的核心写手。SEO 是命，模版化内容直接降权。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/content.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/6f2f52d80d774f81b8d4ab592d07d516" target="_blank" rel="noopener">活动文章</a>
+        </div>
+      </div>
+
+      <div class="role-card" data-role="video">
+        <div class="icon c4">🎬</div>
+        <p class="group">Marketing</p>
+        <h3>视频剪辑</h3>
+        <p>剪学员采访 / 老师课程 / 活动 Recap / 短视频投流素材。视频是匠人 SEO + 信任建立的核心通道。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/video.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/29a3231f93d5437aa22abe4287d6b5e4" target="_blank" rel="noopener">剪辑培训</a>
+        </div>
+      </div>
+
+      <!-- Sales / 课程 类 -->
+      <div class="role-card" data-role="sales">
+        <div class="icon c5">📞</div>
+        <p class="group">Sales / 服务</p>
+        <h3>Sales / 课程顾问</h3>
+        <p>把 EOI / 微信咨询 / 活动来访 → 转成付费学员。销售不是说服，是诊断学员痛点 + 推合适的课。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/sales.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/5ffbd2c4e27b480183e96520da1da8fe" target="_blank" rel="noopener">Sales 培训</a>
+        </div>
+      </div>
+
+      <div class="role-card" data-role="course-ops">
+        <div class="icon c1">🎒</div>
+        <p class="group">Sales / 服务</p>
+        <h3>课程运营（班主任）</h3>
+        <p>管 1-N 个 Bootcamp cohort 的日常运营 — 学员社群 / 考勤 / 作业 / 完课率 / Offer 跟进。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/course-ops.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/d11679378dff46baaa9b5ef637f19c93" target="_blank" rel="noopener">课程介绍</a>
+        </div>
+      </div>
+
+      <div class="role-card" data-role="career-coaching">
+        <div class="icon c6">🎯</div>
+        <p class="group">Sales / 服务</p>
+        <h3>Career Coaching</h3>
+        <p>把毕业 cohort / 求职辅导学员推进到 Offer。简历 / 面试 / 内推 / 心理建设你都管。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/career-coaching.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/ad5d2757a6ac434b9c4cfede5e3f10ad" target="_blank" rel="noopener">就业 & 移民</a>
+        </div>
+      </div>
+
+      <!-- 教学 / 产品 -->
+      <div class="role-card" data-role="course-pm">
+        <div class="icon c2">🧭</div>
+        <p class="group">教学 / 产品</p>
+        <h3>课程产品经理</h3>
+        <p>定义"我们要做什么课 / 怎么排"。需要懂技术 + 懂学员 + 懂市场。AI 驱动 Bootcamp pipeline 执行核心。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/course-pm.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/1d21cce9f7c148598f85fcc7b4eae9ed" target="_blank" rel="noopener">BA & PM 培训</a>
+        </div>
+      </div>
+
+      <div class="role-card" data-role="it-tutor">
+        <div class="icon c3">👨‍🏫</div>
+        <p class="group">教学 / 产品</p>
+        <h3>IT 辅导员（TA）</h3>
+        <p>Bootcamp / Web 全栈 / DevOps 等课程的 TA。学员代码不通 / 项目卡了 → 你来救。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/it-tutor.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/34670bf2a95d4e8189f995a045cabbfe" target="_blank" rel="noopener">课程 Roadmap</a>
+        </div>
+      </div>
+
+      <div class="role-card" data-role="teaching-lead">
+        <div class="icon c4">🏛</div>
+        <p class="group">教学 / 产品</p>
+        <h3>教学主管</h3>
+        <p>管 IT 辅导员团队 + 老师 + 课程交付质量。完课率 + 学员满意度 + Offer 率是 KPI。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/teaching-lead.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/111dd76b576d800cbcddced0f0a97225" target="_blank" rel="noopener">P3 商业项目</a>
+        </div>
+      </div>
+
+      <!-- 设计 / 工程 -->
+      <div class="role-card" data-role="ui-designer">
+        <div class="icon c5">🎨</div>
+        <p class="group">设计 / 工程</p>
+        <h3>UI Designer</h3>
+        <p>公司一切视觉 — 网站 / 海报 / 课程内 UI / 招生物料 / banner。<strong>Less is More</strong> 是公司设计哲学。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/ui-designer.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://www.notion.so/c69676b1a40e472db7fa71f2117fd9b5" target="_blank" rel="noopener">设计哲学</a>
+        </div>
+      </div>
+
+      <div class="role-card" data-role="developer">
+        <div class="icon c6">💻</div>
+        <p class="group">设计 / 工程</p>
+        <h3>Developer / 工程师</h3>
+        <p>jr-academy / web-zh / admin / pbl-service / survey 多 repo 开发。<strong>项目级 CLAUDE.md 是命</strong> — 不读会被 PR review 打回 N 次。</p>
+        <div class="links">
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/developer.md" target="_blank" rel="noopener">完整 ramp-up</a>
+          <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/CLAUDE.md" target="_blank" rel="noopener">CLAUDE.md</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WEEK 1 TIMELINE -->
+  <section class="section">
+    <p class="section-eyebrow">Step 3</p>
+    <h2>Week 1 七天节奏</h2>
+    <p class="section-desc">不论岗位，第一周这五个节点都要跑过。详细每天 checklist 在 <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/week-1-checklist.md" target="_blank" rel="noopener">week-1-checklist.md</a>。</p>
+
+    <div class="timeline">
+      <div class="timeline-track">
+        <div class="timeline-step active">
+          <div class="dot">D1</div>
+          <div>
+            <h4>Day 1 入职</h4>
+            <ul>
+              <li>开账号 + 加群</li>
+              <li>看 5 个必看视频</li>
+              <li>Buddy 1:1（30 min）</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="dot">D2</div>
+          <div>
+            <h4>Day 2 规则</h4>
+            <ul>
+              <li>员工手册（成都 / 澳洲）</li>
+              <li>工作沟通 4 阶段</li>
+              <li>员工行为规范</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="dot">D3</div>
+          <div>
+            <h4>Day 3 角色</h4>
+            <ul>
+              <li>读你的 role-track 文件</li>
+              <li>工具培训（Notion / Canva）</li>
+              <li>项目 + 任务管理</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="dot">D4-5</div>
+          <div>
+            <h4>Day 4-5 上手</h4>
+            <ul>
+              <li>Buddy 给的真实任务</li>
+              <li>第一次写周报</li>
+              <li>旁听部门周会</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="dot">D7</div>
+          <div>
+            <h4>Day 7 Review</h4>
+            <ul>
+              <li>Manager 1:1（30 min）</li>
+              <li>提交本周周报</li>
+              <li>对齐 30/60/90 天目标</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBERSHIP PRICING -->
+  <section class="section">
+    <p class="section-eyebrow">Step 4 · 写文案 / 报价 / 答学员前必读</p>
+    <h2>公司产品 & Membership 速查</h2>
+    <p class="section-desc">最容易踩的坑：<strong>把会员权益当成独立产品推销</strong>。以下数字以代码为准：<code>jr-academy/src/modules/membership/membership-plan.service.ts</code>。</p>
+
+    <div class="pricing-warn">
+      🚨 <strong>红线：考证匠 ≠ 独立订阅产品。</strong> 考证匠是 BASIC / PLUS / PREMIUM 三档 membership 全部包含的权益之一。绝不能写"考证匠 ¥X/月" / "考证匠订阅" / "买考证匠送会员"，正确话术是"$8/月 BASIC 会员含考证匠"。
+    </div>
+
+    <table class="pricing-table">
+      <thead>
+        <tr>
+          <th>Tier</th>
+          <th>月度 (AUD)</th>
+          <th>年度 (AUD)</th>
+          <th>年度省</th>
+          <th>核心权益（除考证匠 + VPN + Tech Interview Handbook）</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="tier-name">BASIC<br><span style="font-weight:400;color:#888;font-size:11px;">基础版</span></td>
+          <td class="price">$8</td>
+          <td class="price">$60</td>
+          <td>37%</td>
+          <td>课程 95 折 / 内推 / 付费活动免费 / VIP 席位</td>
+        </tr>
+        <tr>
+          <td class="tier-name">PLUS<br><span style="font-weight:400;color:#888;font-size:11px;">进阶版</span></td>
+          <td class="price">$19.90</td>
+          <td class="price">$119</td>
+          <td>50%</td>
+          <td>+ AI Tutor 无限 / 大学课 AI 辅导 / 复习助手 / 资料库 2GB</td>
+        </tr>
+        <tr>
+          <td class="tier-name">PREMIUM<br><span style="font-weight:400;color:#888;font-size:11px;">高级版</span></td>
+          <td class="price">$88</td>
+          <td class="price">$550</td>
+          <td>—</td>
+          <td>+ 1 对 1 导师 / 模拟面试 / 简历修改 / 岗位代投 10 次</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="pricing-do-dont">
+      <div class="pricing-box bad">
+        <h4>❌ 错的角度</h4>
+        <ul>
+          <li>"考证匠订阅 $X/月"</li>
+          <li>把考证匠当成猿题库竞品</li>
+          <li>推考证匠 = 转化考证匠 DAU</li>
+          <li>BASIC + PLUS 权益叠加（PLUS 没有内推 / VIP 席位）</li>
+          <li>同时推三档</li>
+        </ul>
+      </div>
+      <div class="pricing-box good">
+        <h4>✅ 对的角度</h4>
+        <ul>
+          <li>"$8/月 BASIC 会员含考证匠"</li>
+          <li>把考证匠当作"留学生综合服务包"切入点</li>
+          <li>推考证匠 = 转化 BASIC 会员订阅</li>
+          <li>漏斗：BASIC → PLUS / PREMIUM 升级路径</li>
+          <li>iOS IAP 价格另算（30% 抽成可能 gross-up）</li>
+        </ul>
+      </div>
+    </div>
+
+    <p style="font-size:12px;color:#888;margin-top:14px;">完整权益对照见 <a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/company-products-pricing.md" target="_blank" rel="noopener">company-products-pricing.md</a>。改价必须同步 3 处：代码 / skill 文档 / 本页。</p>
+  </section>
+
+  <!-- WORK MODE / NOTION INDEX / CONTACT -->
+  <section class="section" id="contact">
+    <p class="section-eyebrow">Step 5</p>
+    <h2>工作模式 / 文档 / 找谁</h2>
+    <p class="section-desc">下面这三块平时翻得最多。不熟没关系，第一周看一遍就有印象。</p>
+
+    <div class="three-col">
+
+      <!-- 三大工作模式 -->
+      <div class="info-card">
+        <h3>🧭 三大工作铁律</h3>
+        <ol>
+          <li><strong>Single Responsibility + due date</strong>。每条任务 1 个负责人 + 1 个截止时间，进 Notion <code>Projects</code>，群里口头分配不算数。</li>
+          <li><strong>求助 4 阶段</strong>。阻塞 1 小时内必须求助；先 Google + ChatGPT + 文档；同级 → 上级 → 跨部门；带"问题描述 + 试过什么 + 推荐方案"。</li>
+          <li><strong>Invoice 流程</strong>。报销 / 第三方账单一律发 <code>invoice@jiangren.com.au</code>，写清支出内容 + 附收据，不发个人邮箱。</li>
+        </ol>
+
+        <h3 style="margin-top:18px;">🚨 内容红线</h3>
+        <ul>
+          <li>禁说"副业 / 月入 X / 包就业"（监管 + 信任）</li>
+          <li>禁"在当今 / 准备好了吗"等 AI 味句</li>
+          <li>禁模版化群公告 / 课表海报</li>
+          <li>禁微信群带工作机密（薪资 / 价格策略）</li>
+        </ul>
+      </div>
+
+      <!-- 必读 Notion 索引 -->
+      <div class="info-card">
+        <h3>📖 高频 Notion 文档</h3>
+        <ul class="notion-list">
+          <li><a href="https://www.notion.so/jracademy/Onboarding-Wiki-53e61ffe9dba4308a66089f268e99aac" target="_blank" rel="noopener">Onboarding Wiki 总入口</a></li>
+          <li><a href="https://www.notion.so/d9cf6a839f934456aab5fa1c25893a60" target="_blank" rel="noopener">公司简介</a></li>
+          <li><a href="https://www.notion.so/7e5759bef8cd4978a529697a9a7cc4e6" target="_blank" rel="noopener">产品及服务</a></li>
+          <li><a href="https://www.notion.so/0ae5336b545c47dbabf7202dc79ff2fc" target="_blank" rel="noopener">组织架构图</a></li>
+          <li><a href="https://www.notion.so/1f9dd76b576d809e8e3ccbb94e587d89" target="_blank" rel="noopener">入职权限 CheckList</a></li>
+          <li><a href="https://www.notion.so/f9f46a277a0b441c94d6f2e0a05708c0" target="_blank" rel="noopener">工作沟通规则</a></li>
+          <li><a href="https://www.notion.so/17c21578884b4083b6a5f7e1fb6c7920" target="_blank" rel="noopener">正确的工作模式</a></li>
+          <li><a href="https://www.notion.so/e4b6768c4c5c47919993ace6f97367b0" target="_blank" rel="noopener">员工行为规范</a></li>
+          <li><a href="https://www.notion.so/62d7fc80836c49599e9863c11530e4ea" target="_blank" rel="noopener">VPN 下载</a></li>
+          <li><a href="https://www.notion.so/099b1484f5fc45a6a19ed9a6345b0b37" target="_blank" rel="noopener">Notion 快捷键</a></li>
+          <li><a href="https://www.notion.so/5bcdd867cd8940469ba507f7d55df1b7" target="_blank" rel="noopener">Canva 培训</a></li>
+          <li><a href="https://www.notion.so/14ddd76b576d8084811ff07ded4ab38b" target="_blank" rel="noopener">项目管理</a></li>
+          <li><a href="https://www.notion.so/de519387e77d44dca63f84fb75099f61" target="_blank" rel="noopener">任务管理</a></li>
+          <li><a href="https://www.notion.so/1fbdd76b576d805f81e8f77256c7625d" target="_blank" rel="noopener">Onboarding Information Form</a></li>
+        </ul>
+      </div>
+
+      <!-- 联系人 -->
+      <div class="info-card">
+        <h3>👥 找谁问什么</h3>
+        <table class="contact-table">
+          <tbody>
+            <tr><td>"我不知道这个怎么做"</td><td>Buddy</td></tr>
+            <tr><td>业务方向 / 优先级 / 周报</td><td>Manager</td></tr>
+            <tr><td>工资 / 请假 / 入职手续 / 合同</td><td>HR（成都 / 澳洲按 base）</td></tr>
+            <tr><td>账号 / 工卡 / VPN / 设备故障</td><td>IT / Admin</td></tr>
+            <tr><td>报销 / Invoice / 财务</td><td><code>invoice@jiangren.com.au</code></td></tr>
+            <tr><td>调岗 / 内推 / 加薪</td><td>Manager 1:1（不要群里说）</td></tr>
+            <tr><td>紧急 / on-call</td><td>电话 / Zoom（不发邮件等）</td></tr>
+            <tr><td>Code review / 部署 / 技术</td><td>Tech Lead</td></tr>
+            <tr><td>设计需求 / 海报</td><td>UI Designer（走需求 brief）</td></tr>
+            <tr><td>EOI / 报价 / 客户投诉</td><td>Sales 主管（不能私自报价）</td></tr>
+          </tbody>
+        </table>
+
+        <h3 style="margin-top:18px;">⚠️ Anti-pattern</h3>
+        <ul>
+          <li>卡问题 2 小时没人知道你在卡</li>
+          <li>群 @ 老板问工资（应 1:1 / HR）</li>
+          <li>紧急用邮件等回复（用电话 / Zoom）</li>
+          <li>同时 @ 5 人问同一问题（破坏 single responsibility）</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER TOOLS -->
+  <div class="footer-tools">
+    <h3>相关内部工具</h3>
+    <div class="footer-chips">
+      <a class="footer-chip" href="https://jr-academy-ai.github.io/jr-wiki/skills-workflow/" target="_blank" rel="noopener">📊 Skills Workflow 图谱</a>
+      <a class="footer-chip" href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/docs/SKILLS_CATALOG.md" target="_blank" rel="noopener">📚 Skills 总目录（76 个 AI 工具）</a>
+      <a class="footer-chip" href="https://www.notion.so/jracademy/Onboarding-Wiki-53e61ffe9dba4308a66089f268e99aac" target="_blank" rel="noopener">📖 Notion Onboarding Wiki</a>
+      <a class="footer-chip" href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/" target="_blank" rel="noopener">💻 Skill 源文件</a>
+    </div>
+    <div class="footer-meta">
+      源：<code>.claude/skills/employee-onboarding/</code> · 实施 PRD：<code>docs/prd/EMPLOYEE_ONBOARDING_PAGE_PRD.md</code> · 改 Membership 价格必须同步 3 处（代码 / skill 文档 / 本页）
+    </div>
+  </div>
+
+</div>
+
+<script>
+const ROLES = {
+  marketing: {
+    icon: '📣', group: 'Marketing', name: 'Marketing 通用',
+    tagline: '策划 + 分发对外内容（活动 / 课程 / 招生），新媒体 + 文案 + 设计的总指挥。',
+    sourceFile: 'marketing.md',
+    tasks: [
+      ['账号开通 Checklist（Canva / Eventbrite / 公众号 / 小红书）', 'https://www.notion.so/155cb1c1ac3540ad95f9160f7a69290b'],
+      ['Marketing 新人项目 / 任务管理指南', 'https://www.notion.so/1e9dd76b576d80aa94a8ea8627fa0826'],
+      ['Marketing Onboarding 培训任务分配', 'https://www.notion.so/9863b85984d347a9b00b5abcb047d1d6'],
+      ['用户画像 & 客户利益点（Marketing 灵魂）', 'https://www.notion.so/2225237648084ec597b249a5bfdcea26'],
+      ['课程推广方案 1.0', 'https://www.notion.so/7ebc7a37d78547ae92aa770ec14db635'],
+      ['SEO + Digital Marketing 培训', 'https://www.notion.so/aeb33ec80eab408aafd3c914222ca704'],
+      ['LinkedIn / Facebook 海外发帖（如做海外）', 'https://www.notion.so/1e5dd76b576d80ceb5f7deda0e641b6c'],
+      ['跟一次现有线下活动从筹备到上线全流程（旁观）', null]
+    ],
+    skills: [
+      ['策划线下活动', 'offline-event-content-design → offline-event-sop'],
+      ['审策划案 100 分量表', 'offline-event-content-design'],
+      ['写公众号文章', 'wechat-article-quality / blog-longform-writer'],
+      ['审小红书内容', 'xhs-review + xhs-score'],
+      ['设计课程付费漏斗', 'course-funnel-architect'],
+      ['找平台已有资源', 'platform-resources']
+    ],
+    buddy: '现有 Marketing 同事',
+    manager: 'Marketing 主管',
+    goal: '能独立给一个未上线活动写出"宣发计划 + 内容审核标准"，过 Manager review 一次能改对。',
+    redline: '考证匠不是独立订阅产品 — 是 BASIC $8 会员的入口爆品。把考证匠当成 "$X/月 题库 App" 推 = 文案废稿 + 误导用户。'
+  },
+
+  xiaohongshu: {
+    icon: '📕', group: 'Marketing', name: '小红书运营',
+    tagline: '用 1-N 个账号给匠人引流（本部 + 大学课代表矩阵）。不是发广告，是做内容让用户自己来找。',
+    sourceFile: 'xiaohongshu.md',
+    tasks: [
+      ['拿到分配的小红书账号（看做哪个矩阵号）', null],
+      ['小红书培训', 'https://www.notion.so/44c7abeef0ce437a9d7a232d65fb1f8f'],
+      ['用户画像 & 客户利益点', 'https://www.notion.so/2225237648084ec597b249a5bfdcea26'],
+      ['Role Play 角色扮演（学怎么从用户视角写）', 'https://www.notion.so/152dd76b576d8029adfbe57641f309d7'],
+      ['把账号近 30 篇拉数据 — 找爆款 / 拉胯规律', null],
+      ['跟老员工走完一个"选题 → 写 → 发 → 数据复盘"循环', null]
+    ],
+    skills: [
+      ['选题灵感（AI 干货 / 深度分析）', 'saiwen-qiaoyi-style / wushi-caijing-style'],
+      ['发文前合规审查 + 降 AI 率', 'xhs-review'],
+      ['9 维度打分（发布线 75）', 'xhs-score'],
+      ['写长文', 'blog-longform-writer'],
+      ['找平台已有资源', 'platform-resources']
+    ],
+    buddy: '同矩阵的资深账号运营',
+    manager: '新媒体主管（成都 or 澳洲）',
+    goal: '独立完成 ≥ 1 篇过 xhs-score 75 分的笔记，发布后 24h 内有数据反馈给 Manager。',
+    redline: 'AI 味词（在当今 / 让我们一起 / 至关重要）+ 万能句式 = 平台直接降权。每篇必须 ≥ 1 个真实数据 / 案例 / 命令。'
+  },
+
+  content: {
+    icon: '✍️', group: 'Marketing', name: '内容策划 / 文案',
+    tagline: '公众号、官网长文、活动文章、招生 EDM 的核心写手。SEO 是命，模版化内容直接降权。',
+    sourceFile: 'content.md',
+    tasks: [
+      ['拿到公众号编辑权限', null],
+      ['用户画像 & 客户利益点', 'https://www.notion.so/2225237648084ec597b249a5bfdcea26'],
+      ['基础活动文章撰写及发布', 'https://www.notion.so/6f2f52d80d774f81b8d4ab592d07d516'],
+      ['官网文章同步', 'https://www.notion.so/ded105dbbd6249cc889ccce20cfe1d65'],
+      ['SEO 培训', 'https://www.notion.so/aeb33ec80eab408aafd3c914222ca704'],
+      ['行文标点 + 编号手册（避免低级错误）', 'https://www.notion.so/2f1dd76b576d805dab35d1fd9c2767bb'],
+      ['过去 3 个月公众号 / 官网 爆款 + 拉胯文案各拉 5 篇 找规律', null]
+    ],
+    skills: [
+      ['写公众号长文', 'blog-longform-writer'],
+      ['审公众号文章 9 维度量表', 'wechat-article-quality'],
+      ['写小红书文案', 'saiwen-qiaoyi-style / wushi-caijing-style'],
+      ['审小红书', 'xhs-review + xhs-score'],
+      ['写活动文章', 'offline-event-article-quality'],
+      ['AI 检测', 'ai-content-detector']
+    ],
+    buddy: '现有文案策划同事',
+    manager: '文案策划主管（成都）',
+    goal: '独立完成 1 篇公众号文章，过 wechat-article-quality 75 分以上，发布后 Manager 不需要大改。',
+    redline: '严禁"在当今 / 让我们一起 / 深入探讨 / 至关重要"。月入 / 副业 / 接单 / 包就业不允许。3 句有用 > 3 段废话。'
+  },
+
+  video: {
+    icon: '🎬', group: 'Marketing', name: '视频剪辑',
+    tagline: '剪学员采访 / 老师课程 / 活动 Recap / 短视频投流素材。视频是匠人 SEO + 信任建立的核心通道。',
+    sourceFile: 'video.md',
+    tasks: [
+      ['IT 装机：剪映 / Premiere / FCP', null],
+      ['视频剪辑培训', 'https://www.notion.so/29a3231f93d5437aa22abe4287d6b5e4'],
+      ['视频录制规范', 'https://www.notion.so/1057160da4794678830d78ff3e2be62d'],
+      ['看公司 5 个必看视频，拆结构 / 节奏 / 转场', null],
+      ['摸清素材在哪存（公司 NAS / S3 / Google Drive）', null],
+      ['P3 项目简介 + 学员成长（理解卖什么）', 'https://www.notion.so/b94babad42d54a97938c1b316f4ae61c']
+    ],
+    skills: [
+      ['视频合成 / 动态模板', 'hyperframes / remotion-best-practices'],
+      ['海报 / 封面（Canvas 2D）', 'Canvas + Canva'],
+      ['字幕 + ASR', '剪映 / hyperframes-cli transcribe'],
+      ['AI 配音', 'ElevenLabs（已接入 jr-video-system）'],
+      ['跨仓视频系统', 'github.com/JR-Academy-AI/jr-academy-videos']
+    ],
+    buddy: '现有视频剪辑同事',
+    manager: 'Marketing 主管 / 视频内容主管',
+    goal: '独立交付 1 条 30-60s 短视频成片（横+竖两版），Manager 一次过。',
+    redline: '横版（YouTube/B 站）+ 竖版（小红书/抖音/视频号）至少剪两版；字幕必加（70% 用户静音看）；开头 3s 必须有钩子。'
+  },
+
+  sales: {
+    icon: '📞', group: 'Sales / 服务', name: 'Sales / 课程顾问',
+    tagline: '把 EOI / 微信咨询 / 活动来访 → 转成付费学员。销售不是说服，是诊断学员痛点 + 推合适的课。',
+    sourceFile: 'sales.md',
+    tasks: [
+      ['Sales 培训 #1', 'https://www.notion.so/1e9dd76b576d800a9475eed582db26db'],
+      ['Sales 培训 #2', 'https://www.notion.so/1f2dd76b576d801cb309d559b4731f42'],
+      ['Sales Onboarding 培训任务分配', 'https://www.notion.so/5ffbd2c4e27b480183e96520da1da8fe'],
+      ['Bootcamp 以及课程介绍（销售必须比学员还懂）', 'https://www.notion.so/d11679378dff46baaa9b5ef637f19c93'],
+      ['课程 Roadmap', 'https://www.notion.so/34670bf2a95d4e8189f995a045cabbfe'],
+      ['澳洲岗位分类', 'https://www.notion.so/9c8899e82d964ca9a492fa5c1a729bfb'],
+      ['Offer 收集 SOP', 'https://www.notion.so/3838307881dd45648cf9e06862d0bf24'],
+      ['旁听 1 次老员工跟客户的咨询通话（Zoom 录屏）', null]
+    ],
+    skills: [
+      ['Membership 三档报价（先读）', 'company-products-pricing.md'],
+      ['EOI 24h/72h/7d 跟进', 'eoi-followup'],
+      ['课程 + 平台资源', 'platform-resources']
+    ],
+    buddy: '现有 Sales 同事',
+    manager: 'Sales 主管',
+    goal: '独立完成 ≥ 3 单 EOI 跟进的完整记录（24h/72h/7 天三档），Manager review 一次能改对话术。',
+    redline: '禁承诺金钱 / 包就业 / 月入 X / 退款（监管+信任）。不能私自报价 / 给学员超出授权的折扣。考证匠不单卖（会员权益）。PLUS 不含 BASIC 的内推 / VIP 席位 — 不要叠加承诺。'
+  },
+
+  'course-ops': {
+    icon: '🎒', group: 'Sales / 服务', name: '课程运营（班主任）',
+    tagline: '管 Bootcamp cohort 日常运营 — 学员社群 / 考勤 / 作业 / 完课率 / Offer 跟进。',
+    sourceFile: 'course-ops.md',
+    tasks: [
+      ['拿 jr-academy-admin 后台权限（找 Tech Lead）', null],
+      ['Bootcamp 以及课程介绍', 'https://www.notion.so/d11679378dff46baaa9b5ef637f19c93'],
+      ['Offer 收集 SOP', 'https://www.notion.so/3838307881dd45648cf9e06862d0bf24'],
+      ['学员打卡返现规则', 'https://www.notion.so/525c069984d7402191dedfbe2feb2158'],
+      ['实训营和实习', 'https://www.notion.so/3e68f10c20404690b7bec242014fd154'],
+      ['实习业务培训', 'https://www.notion.so/d08aa4157c1a4c0ba3730134152fd387'],
+      ['跟一个老班主任值班一天（看怎么处理学员问题）', null],
+      ['看 curriculum/ 目录结构（理解 AI 驱动课程 pipeline）', null]
+    ],
+    skills: [
+      ['给班级抓今日 3 个岗位', 'daily-jobs'],
+      ['学员答疑（找平台已有资源）', 'platform-resources'],
+      ['Bootcamp 同步 / 数据问题', 'bootcamp-sync / Skills Data Manager'],
+      ['招生漏斗复盘', 'curriculum-positioning-audit']
+    ],
+    buddy: '现有班主任 / 课程运营',
+    manager: '课程运营主管',
+    goal: '独立带 1 个班半天（值班），Manager 不需要救场；值班记录有完整学员问题 + 处理结果。',
+    redline: '禁群发模版化群公告 / 课表海报；禁群里私自承诺 offer / 退款；学员问技术不回 / 拖很久会投诉。运营中心是外部信息聚合器，不是内部内容工厂。'
+  },
+
+  'career-coaching': {
+    icon: '🎯', group: 'Sales / 服务', name: 'Career Coaching',
+    tagline: '把毕业 cohort / 求职辅导学员推进到 Offer。简历 / 面试 / 内推 / 心理建设你都管。',
+    sourceFile: 'career-coaching.md',
+    tasks: [
+      ['IT 就业服务 & 移民', 'https://www.notion.so/ad5d2757a6ac434b9c4cfede5e3f10ad'],
+      ['如何在澳洲就业', 'https://www.notion.so/b010bd813da043a9858950a5751acc0f'],
+      ['澳洲岗位分类', 'https://www.notion.so/9c8899e82d964ca9a492fa5c1a729bfb'],
+      ['澳洲常见企业', 'https://www.notion.so/3999fbd4b6a646beb080f8f11a3d0ef8'],
+      ['KYC（关键学员信息收集）', 'https://www.notion.so/78ab279f2e7b4a399f65c26cd431bb70'],
+      ['Offer 收集 SOP', 'https://www.notion.so/3838307881dd45648cf9e06862d0bf24'],
+      ['看公司过去 6 个月 Offer case study', null],
+      ['跟一次 Career Coach 跟学员的 1:1 面试模拟', null]
+    ],
+    skills: [
+      ['面试题搜集', 'real-interview-question-scraper / examtopics-scraper'],
+      ['面试题生成', 'interview-question-generator'],
+      ['面试流程数据', 'interview-content-generator'],
+      ['公司情报', 'company-intelligence-enhancer'],
+      ['内推数据库', '公司内部 CRM + 求职匠 Chrome 插件']
+    ],
+    buddy: '现有 Career Coach',
+    manager: '求职服务主管 / Sales 主管',
+    goal: '独立完成 1 份学员简历 review + 1 次面试模拟（含反馈记录），Manager review 一次能改对方法。',
+    redline: '禁承诺金钱 / 包就业 / 月薪 X / 一定有 Offer。简历必须真实 — 经验可包装，事实不能编。私下接学员简历单 = 立即开除。'
+  },
+
+  'course-pm': {
+    icon: '🧭', group: '教学 / 产品', name: '课程产品经理',
+    tagline: '定义"我们要做什么课 / 怎么排"。需要懂技术 + 懂学员 + 懂市场。AI 驱动 Bootcamp pipeline 的执行核心。',
+    sourceFile: 'course-pm.md',
+    tasks: [
+      ['BA & PM 培训', 'https://www.notion.so/1d21cce9f7c148598f85fcc7b4eae9ed'],
+      ['Bootcamp 以及课程介绍', 'https://www.notion.so/d11679378dff46baaa9b5ef637f19c93'],
+      ['课程 Roadmap', 'https://www.notion.so/34670bf2a95d4e8189f995a045cabbfe'],
+      ['curriculum/ 目录结构 + OUTLINE_JSON_FORMAT.md', null],
+      ['curriculum/WORKFLOW.md + BOOTCAMP_AUTOMATION_STATUS.md', null],
+      ['skills-data-manager/BOOTCAMP_GUIDE.md', null],
+      ['澳洲岗位分类（怎么从市场反推课程）', 'https://www.notion.so/9c8899e82d964ca9a492fa5c1a729bfb'],
+      ['商业项目 P3', 'https://www.notion.so/111dd76b576d800cbcddced0f0a97225']
+    ],
+    skills: [
+      ['从零创 Bootcamp（有岗位名）', 'career-bootcamp'],
+      ['从零创 Bootcamp（自定义）', 'bootcamp-curriculum-creator'],
+      ['设计单 Lesson', 'lesson-design'],
+      ['同步到 prod', 'bootcamp-sync'],
+      ['检查质量', 'curriculum-review'],
+      ['市场调研', 'bootcamp-research'],
+      ['设计漏斗', 'course-funnel-architect']
+    ],
+    buddy: '现有课程 PM',
+    manager: '课程产品 / Tech Lead',
+    goal: '独立用 bootcamp-research + bootcamp-plan 出 1 份新课程市场调研 + 4 周大纲提案，Manager review 一次能改对。',
+    redline: '本地 = source of truth — 本地没确认绝不动 production。ID-First：用 ObjectId，slug 仅 URL/SEO。课程是数据不是硬编码（feature 必须 data-driven via backend schema）。'
+  },
+
+  'it-tutor': {
+    icon: '👨‍🏫', group: '教学 / 产品', name: 'IT 辅导员（TA）',
+    tagline: 'Bootcamp / Web 全栈 / DevOps 等课程的 TA。学员代码不通 / 项目卡了 → 你来救。',
+    sourceFile: 'it-tutor.md',
+    tasks: [
+      ['课程 Roadmap 培训', 'https://www.notion.so/34670bf2a95d4e8189f995a045cabbfe'],
+      ['Web 全栈班', 'https://www.notion.so/6f8f6643df9e4b7ba878fb524a1708c9'],
+      ['DevOps', 'https://www.notion.so/06f9d737d1d841078f50adda797fdc63'],
+      ['实训营和实习 + 职位培训', 'https://www.notion.so/3e68f10c20404690b7bec242014fd154'],
+      ['商业项目 P3（最高难度，必须能讲清楚）', 'https://www.notion.so/111dd76b576d800cbcddced0f0a97225'],
+      ['澳洲 IT 基本知识 + 岗位分类', 'https://www.notion.so/cfaff1dd8dae4814a46eb559d192f93b'],
+      ['AI 工具速通：Prompt / AI Coding / ChatGPT4', 'https://www.notion.so/2abdd76b576d80628a00d55477178d43'],
+      ['跟一节现有课从课前到答疑结束（影子 mode）', null]
+    ],
+    skills: [
+      ['找平台已有资源', 'platform-resources'],
+      ['Lab 类 skill 按方向', 'aws-lab-enhancer / python-lab-creator / frontend-lab-enhancer 等'],
+      ['Lab 设计', 'lesson-design']
+    ],
+    buddy: '资深 IT 辅导员（同方向）',
+    manager: '教学主管',
+    goal: '独立答疑 ≥ 5 个学员问题（记录在 Notion FAQ），learner 反馈"讲清楚了"。',
+    redline: '禁直接给答案 — 给方向 + 调试方法 + 查文档技能；禁"这个不重要 / 跳过"；禁群里嘲笑学员代码（HR 谈话）。同一问题答 2 次 = 必须落 Notion FAQ。'
+  },
+
+  'teaching-lead': {
+    icon: '🏛', group: '教学 / 产品', name: '教学主管',
+    tagline: '管 IT 辅导员团队 + 老师 + 课程交付质量。完课率 + 学员满意度 + Offer 率是 KPI。',
+    sourceFile: 'teaching-lead.md',
+    tasks: [
+      ['Bootcamp 以及课程介绍（1 分钟介绍每门课）', 'https://www.notion.so/d11679378dff46baaa9b5ef637f19c93'],
+      ['课程 Roadmap', 'https://www.notion.so/34670bf2a95d4e8189f995a045cabbfe'],
+      ['Web 全栈 / DevOps / P3 商业项目', 'https://www.notion.so/111dd76b576d800cbcddced0f0a97225'],
+      ['看每个 cohort 当前状态（jr-academy-admin 后台）', null],
+      ['看现有教学团队 KPI 表', null],
+      ['看每个班级学员满意度数据（Zoho Form 反馈）', null],
+      ['跟一次教学周会 / 老师交付会', null],
+      ['P3 项目简介 + 学员成长', 'https://www.notion.so/b94babad42d54a97938c1b316f4ae61c']
+    ],
+    skills: [
+      ['课程内容质量审核', 'curriculum-review / curriculum-positioning-audit'],
+      ['学习路径设计', 'learning-journey'],
+      ['找平台已有资源', 'platform-resources'],
+      ['周报 / 月报模板', 'retro / Notion 模板']
+    ],
+    buddy: '上一任教学主管 / 课程 PM',
+    manager: 'CEO / Founder',
+    goal: '独立产出"在跑 cohort 教学健康度报告"——含完课率 / 满意度 / 老师答疑量 + 风险点 + 行动计划。',
+    redline: '老师 / 辅导员有学员投诉 → 1 周内查 + 反馈 不能压。完课率掉 → 立即 root cause（不是简单催学员）。课程内容跟课程页 / 销售承诺不符 → 立即整改。教学问题永远用数据说话。'
+  },
+
+  'ui-designer': {
+    icon: '🎨', group: '设计 / 工程', name: 'UI Designer',
+    tagline: '公司一切视觉——网站 / 海报 / 课程内 UI / 招生物料 / banner。Less is More 是公司设计哲学。',
+    sourceFile: 'ui-designer.md',
+    tasks: [
+      ['设计培训 Less is More（公司设计哲学）', 'https://www.notion.so/c69676b1a40e472db7fa71f2117fd9b5'],
+      ['设计需求提交路径（你怎么收 brief）', 'https://www.notion.so/a6921b40c2ea451d92b9624f0a58f9a5'],
+      ['Canva 培训', 'https://www.notion.so/5bcdd867cd8940469ba507f7d55df1b7'],
+      ['看公司现有视觉资产：网站 / 海报 / 课程封面 / banner（找 brand 一致性）', null],
+      ['装 Figma + 进入公司 Figma workspace', null],
+      ['跟一次 Marketing brief → 设计 → 评审 → 上线流程', null]
+    ],
+    skills: [
+      ['写代码生成的设计', 'frontend-design'],
+      ['设计 review', 'design-review / plan-design-review'],
+      ['Mockup 探索', 'design-shotgun'],
+      ['设计咨询', 'design-consultation'],
+      ['上传图片到 S3', 's3-image-uploader']
+    ],
+    buddy: '现有 UI Designer / 资深设计师',
+    manager: 'Marketing 主管 / 设计主管',
+    goal: '独立完成 1 个真实设计需求（海报 / 网页改版 / banner），过 Manager + 业务方一次评审。',
+    redline: '禁用 @mui/material / antd / @ant-design/icons — 用 styled-components + framer-motion + 内联 SVG。Canvas 海报最小字号 24px（社媒 1242×1660 竖版）。已有 HTML 海报修下载 → 用 html-to-image，不要 Canvas 重写（57 张实战翻车）。'
+  },
+
+  developer: {
+    icon: '💻', group: '设计 / 工程', name: 'Developer / 工程师',
+    tagline: 'jr-academy / web-zh / admin / pbl-service / survey 多 repo 开发。项目级 CLAUDE.md 是命。',
+    sourceFile: 'developer.md',
+    tasks: [
+      ['装机：Node 22 / bun / Docker / VS Code', null],
+      ['拿 GitHub Org 权限（JR-Academy-AI）', null],
+      ['Clone 主 monorepo jr-academy-ai（含所有子项目）', null],
+      ['项目根 CLAUDE.md（绝对规则 + ID-First + 服务架构 + 兜底禁令）', 'https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/CLAUDE.md'],
+      ['docs/PROJECT_CONVENTIONS.md', 'https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/docs/PROJECT_CONVENTIONS.md'],
+      ['成都内网共享', 'https://www.notion.so/c446e499779e4db2819eb674ff7bd91a'],
+      ['跑通本地：jr-academy(3010) + web-zh(8000) + admin', null],
+      ['看 git log 最近 50 条 commit + 跟一次 PR review', null]
+    ],
+    skills: [
+      ['Code review', 'code-review / review'],
+      ['Feature dev', 'feature-dev'],
+      ['写测试', 'unit-test'],
+      ['Pre-commit', 'pre-commit-check'],
+      ['Ship PR', 'ship'],
+      ['部署 Land', 'land-and-deploy'],
+      ['Debug 性能', 'chrome-devtools-mcp:debug-optimize-lcp'],
+      ['第三方库文档', 'context7 MCP（项目 ABSOLUTE RULE）']
+    ],
+    buddy: '资深工程师',
+    manager: 'Tech Lead / CTO',
+    goal: '独立提交 1 个 PR（小 feature 或 bug fix），过 review 一次能 merge 进 main。',
+    redline: '禁用 slug 做关联（用 ObjectId）；禁兜底代码（item.id || item._id 等）；禁 @mui/material / antd；service 不能 > 600 行；admin 功能不能放 web-zh；PBL 代码不能放回 jr-academy；模版化内容（SEO 致命）。全用 bun（jr-academy 已 lock，禁 npm/pnpm）。'
+  }
+};
+
+(function() {
+  const $ = (id) => document.getElementById(id);
+  const params = new URLSearchParams(location.search);
+  const select = $('role-switcher');
+
+  function applyRole(slug) {
+    const role = slug ? ROLES[slug] : null;
+    const section = $('role-section');
+    const body = document.body;
+
+    // Reset all role-card highlights
+    document.querySelectorAll('.role-card').forEach(card => {
+      card.classList.toggle('is-current', card.dataset.role === slug);
+    });
+
+    if (!role) {
+      section.classList.remove('active');
+      body.classList.remove('has-role');
+      $('hero-eyebrow').textContent = 'DAY 1 · 总入口';
+      $('hero-title').innerHTML = '欢迎加入<span class="accent">匠人学院</span>';
+      $('hero-sub').textContent = '这是给你 Day 1 的总入口页。下面 5 分钟你能搞清楚：你是谁、第一周做什么、找谁问什么、公司产品是怎么卖的。';
+      document.title = '新员工 Onboarding · 匠人学院';
+      return;
+    }
+
+    body.classList.add('has-role');
+    section.classList.add('active');
+
+    // Hero 文案
+    $('hero-eyebrow').textContent = `DAY 1 · ${role.group.toUpperCase()}`;
+    $('hero-title').innerHTML = `欢迎加入匠人学院 · <span class="accent">${role.name}</span>`;
+    $('hero-sub').textContent = `${role.tagline} 下面是这个角色 Day 1 的专属入口。`;
+    document.title = `${role.name} Onboarding · 匠人学院`;
+
+    // Role section
+    $('rs-icon').textContent = role.icon;
+    $('rs-group').textContent = role.group;
+    $('rs-name').textContent = role.name;
+    $('rs-tagline').textContent = role.tagline;
+    $('rs-buddy').textContent = role.buddy;
+    $('rs-manager').textContent = role.manager;
+    $('rs-goal').textContent = role.goal;
+    $('rs-source-link').href = `https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/reference/role-tracks/${role.sourceFile}`;
+
+    // Tasks
+    const tasksEl = $('rs-tasks');
+    tasksEl.innerHTML = role.tasks.map(([text, url]) => {
+      if (url) return `<li><a href="${url}" target="_blank" rel="noopener">${text}</a></li>`;
+      return `<li>${text}</li>`;
+    }).join('');
+
+    // Skills
+    $('rs-skills').innerHTML = role.skills.map(([scen, sk]) =>
+      `<div class="skill-row"><span class="scen">${scen}</span><span class="skill">${sk}</span></div>`
+    ).join('');
+
+    // Redline (optional)
+    const redlineWrap = $('rs-redline-wrap');
+    if (role.redline) {
+      redlineWrap.style.display = 'block';
+      $('rs-redline').textContent = role.redline;
+    } else {
+      redlineWrap.style.display = 'none';
+    }
+
+    // Sync select
+    if (select.value !== slug) select.value = slug;
+  }
+
+  function navTo(slug) {
+    const url = new URL(location.href);
+    if (slug) url.searchParams.set('role', slug);
+    else url.searchParams.delete('role');
+    history.pushState({ role: slug }, '', url);
+    applyRole(slug);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // Init
+  applyRole(params.get('role'));
+
+  // Switcher
+  select.addEventListener('change', (e) => navTo(e.target.value));
+
+  // Role card click → navigate to ?role=
+  document.querySelectorAll('.role-card').forEach(card => {
+    card.addEventListener('click', (e) => {
+      // Don't intercept clicks on real <a> links inside the card
+      if (e.target.closest('a')) return;
+      const slug = card.dataset.role;
+      if (slug) navTo(slug);
+    });
+    card.style.cursor = 'pointer';
+  });
+
+  // Browser back/forward
+  window.addEventListener('popstate', () => {
+    const params = new URLSearchParams(location.search);
+    applyRole(params.get('role'));
+  });
+})();
+</script>
+</body>
+</html>
