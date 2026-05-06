@@ -28,7 +28,7 @@
 
 ## P1 · 缺图
 
-- [ ] lovable-guide/05-faq.md — add-image: 加 1 张截图（Lovable 价格页 / 项目 dashboard）
+- [x] lovable-guide/05-faq.md — add-image: 加 1 张截图（Lovable 价格页 / 项目 dashboard）
 
 ## P2 · 短书扩章（5 章 → 7 章）
 

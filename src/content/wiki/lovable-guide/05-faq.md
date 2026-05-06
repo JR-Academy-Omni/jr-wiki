@@ -110,6 +110,8 @@ A：免费计划适合：学习、个人项目、验证想法。限制是每月 
 - 更高的 AI 生成速度
 - 优先客服
 
+![Lovable 价格方案一览（Free · Pro · Business）](https://i.ytimg.com/vi/Pk84MnCSQQc/hqdefault.jpg)
+
 ---
 
 **Q：Lovable 生成的代码，我拿去商用有版权问题吗？**
