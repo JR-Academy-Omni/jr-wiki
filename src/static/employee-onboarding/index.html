@@ -717,6 +717,116 @@
     filter: none;
   }
 
+  /* AI mandatory banner */
+  .ai-banner {
+    background: linear-gradient(135deg, #1a1a1a 0%, #b85c3f 60%, #d97757 100%);
+    color: #fff;
+    border: 2px solid var(--line);
+    border-radius: 16px;
+    box-shadow: 6px 6px 0 var(--line);
+    padding: 32px 32px 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ai-banner::before {
+    content: '';
+    position: absolute;
+    top: -40px; right: -40px;
+    width: 220px; height: 220px;
+    background: radial-gradient(circle, rgba(255,212,77,0.25), transparent 70%);
+    pointer-events: none;
+  }
+  .ai-banner-header {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 18px;
+    position: relative;
+  }
+  .ai-banner-header .ai-icon {
+    width: 64px; height: 64px;
+    background: rgba(255,255,255,0.18);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    border: 2px solid rgba(255,255,255,0.3);
+    flex-shrink: 0;
+  }
+  .ai-banner-header .ai-eyebrow {
+    color: #ffd44d;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 4px;
+  }
+  .ai-banner-header h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+  }
+  .ai-banner-pitch {
+    font-size: 15px;
+    line-height: 1.75;
+    margin: 0 0 20px;
+    background: rgba(0,0,0,0.25);
+    padding: 14px 18px;
+    border-radius: 10px;
+    border-left: 4px solid #ffd44d;
+    position: relative;
+  }
+  .ai-banner-pitch strong { color: #ffd44d; }
+  .ai-links-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 16px;
+    position: relative;
+  }
+  .ai-link {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 10px;
+    padding: 12px 14px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.15s ease;
+  }
+  .ai-link:hover {
+    background: rgba(255,255,255,0.22);
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.4);
+    text-decoration: none;
+  }
+  .ai-link-num {
+    width: 28px; height: 28px;
+    background: #ffd44d;
+    color: #1a1a1a;
+    border-radius: 50%;
+    font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+  .ai-link-content { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+  .ai-link-content strong { font-size: 13px; font-weight: 700; }
+  .ai-link-content span { font-size: 11px; opacity: 0.85; }
+  .ai-banner-footer {
+    font-size: 13px;
+    margin: 0;
+    opacity: 0.9;
+    position: relative;
+  }
+  .ai-banner-footer a { color: #ffd44d; text-decoration: underline; font-weight: 600; }
+  .ai-banner-footer a:hover { color: #fff; }
+
   /* Top banner */
   .top-banner {
     background: var(--warn-bg);
@@ -744,6 +854,11 @@
     .container { padding: 16px 14px 60px; }
     .hero { padding: 28px 22px; }
     .hero h1 { font-size: 26px; }
+    .ai-banner { padding: 22px 18px; }
+    .ai-banner-header h2 { font-size: 20px; }
+    .ai-banner-header .ai-icon { width: 48px; height: 48px; font-size: 26px; }
+    .ai-banner-pitch { font-size: 14px; }
+    .ai-links-grid { grid-template-columns: 1fr; gap: 8px; }
     .hero-sub { font-size: 15px; }
     .day1-grid { grid-template-columns: 1fr; }
     .role-grid { grid-template-columns: repeat(2, 1fr); }
@@ -902,7 +1017,7 @@
         <p>邮箱 / Notion / VPN / Zoom / 企业微信，按 HR 给你的 CheckList 走。</p>
         <ul>
           <li>Marketing 加：Canva Pro / Eventbrite / 小红书号 / 公众号</li>
-          <li>Sales 加：Sales CRM / Zoho Form</li>
+          <li>Sales / 课程运营 加：<a href="https://admin.jiangren.com.au" target="_blank" rel="noopener">admin.jiangren.com.au</a>（学员 / 订单 / EOI 管理）</li>
           <li>Dev 加：GitHub Org / AWS / MongoDB Atlas</li>
         </ul>
         <a class="cta" href="https://www.notion.so/1f9dd76b576d809e8e3ccbb94e587d89" target="_blank" rel="noopener">入职权限 CheckList →</a>
@@ -933,6 +1048,62 @@
         </ul>
         <a class="cta" href="#contact">谁负责什么 ↓</a>
       </div>
+    </div>
+  </section>
+
+  <!-- AI 全员必修（Step 1.5 — 不是建议，是工作必备）-->
+  <section class="section">
+    <div class="ai-banner">
+      <div class="ai-banner-header">
+        <div class="ai-icon">🤖</div>
+        <div>
+          <p class="ai-eyebrow">不是 step 1.5 · 是 STEP 0</p>
+          <h2>全员必修：你必须会用 AI</h2>
+        </div>
+      </div>
+
+      <p class="ai-banner-pitch">
+        匠人学院定位 <strong>"全球华人学习 AI 第一站"</strong> — 自己员工先得会。<br>
+        <strong>这不是技能加分，是工作必备。</strong> 你写小红书 / 公众号 / 文案 / 代码 / 邮件 / 课程 / 海报 / 调研 / 周报 — 全程都该用 AI 加速。
+        <strong>不会用 = 工作慢 5x = 不达 KPI</strong>。
+      </p>
+
+      <div class="ai-links-grid">
+        <a class="ai-link" href="https://www.notion.so/2abdd76b576d80628a00d55477178d43" target="_blank" rel="noopener">
+          <div class="ai-link-num">1</div>
+          <div class="ai-link-content">
+            <strong>Prompt 培训</strong>
+            <span>怎么跟 AI 说话最有效</span>
+          </div>
+        </a>
+        <a class="ai-link" href="https://www.notion.so/8ba7ebea917a440aae44d8ea1f0373b5" target="_blank" rel="noopener">
+          <div class="ai-link-num">2</div>
+          <div class="ai-link-content">
+            <strong>ChatGPT4 培训</strong>
+            <span>日常工作 + 写作 + 数据 + 调研</span>
+          </div>
+        </a>
+        <a class="ai-link" href="https://www.notion.so/25cdd76b576d8018aef8f3bf7ed80486" target="_blank" rel="noopener">
+          <div class="ai-link-num">3</div>
+          <div class="ai-link-content">
+            <strong>AI Coding 培训</strong>
+            <span>Cursor / Claude Code 编程</span>
+          </div>
+        </a>
+        <a class="ai-link" href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/docs/SKILLS_CATALOG.md" target="_blank" rel="noopener">
+          <div class="ai-link-num">4</div>
+          <div class="ai-link-content">
+            <strong>76 个 AI Skill 总目录</strong>
+            <span>每个角色对应的 AI 工具</span>
+          </div>
+        </a>
+      </div>
+
+      <p class="ai-banner-footer">
+        🎯 <strong>Day 1 必做</strong>：你接下来一周要做的工作 — 哪些环节能用 AI 加速？去
+        <a href="https://jr-academy-ai.github.io/jr-wiki/skills-workflow/" target="_blank" rel="noopener">Skills Workflow 图谱</a>
+        看 9 大工作流的 AI / 人工分工。看完心里有数：「这件事 AI 能帮我做到 80%」就对了。
+      </p>
     </div>
   </section>
 
@@ -1563,7 +1734,7 @@ const ROLES = {
       ['Web 全栈 / DevOps / P3 商业项目', 'https://www.notion.so/111dd76b576d800cbcddced0f0a97225'],
       ['看每个 cohort 当前状态（jr-academy-admin 后台）', null],
       ['看现有教学团队 KPI 表', null],
-      ['看每个班级学员满意度数据（Zoho Form 反馈）', null],
+      ['看每个班级学员满意度数据（admin.jiangren.com.au 反馈系统）', 'https://admin.jiangren.com.au'],
       ['跟一次教学周会 / 老师交付会', null],
       ['P3 项目简介 + 学员成长', 'https://www.notion.so/b94babad42d54a97938c1b316f4ae61c']
     ],
