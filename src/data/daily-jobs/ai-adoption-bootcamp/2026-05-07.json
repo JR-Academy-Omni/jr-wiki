@@ -1,0 +1,39 @@
+{
+  "bootcamp": "ai-adoption-bootcamp",
+  "date": "2026-05-07",
+  "cohort": "AU",
+  "generatedAt": "2026-05-07T07:30:00+10:00",
+  "source": "WebSearch(careers.ey.com + jobs-au.pwc.com + gradconnection.com.au)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "AI Engineer (Enterprise Data Platforms) — AI and Data, Technology Consulting",
+      "company": "EY",
+      "location": "Sydney, NSW",
+      "posted": "recent",
+      "url": "https://careers.ey.com/ey/job/Sydney-AI-Engineer-(Enterprise-Data-Platforms),-AI-and-Data,-Technology-Consulting-NSW-2000/1291634301/",
+      "why": "EY T2 四大，Technology Consulting 部门专职 AI Engineer，主导企业级数据平台 AI 化改造；AI Adoption Bootcamp 的 'AI roadmap + stakeholder alignment + implementation' 体系正好是这个岗位所需技能，6-12 个月后有竞争力。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior / Graduate",
+      "title": "Graduate Program — Technology Consulting",
+      "company": "PwC Australia",
+      "location": "Sydney, NSW",
+      "posted": "2026 Graduate intake open",
+      "url": "https://jobs-au.pwc.com/au/en/graduate-program",
+      "why": "PwC T2 四大 2026 Grad Program，全体应届生接受一周 AI Immersion 培训（ChatPwC + Copilot 实战）；Adoption Bootcamp 结业生带着可运行的 AI 用例 demo 去面试，直接跳过 PwC 内部 AI 新手阶段，差异化明显。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特殊档 · Named Graduate Program",
+      "title": "2026 Technology Rotational Graduate Program",
+      "company": "Westpac",
+      "location": "Sydney / Adelaide / Melbourne / Brisbane, AU",
+      "posted": "2026 Graduate cycle",
+      "url": "https://au.gradconnection.com/employers/westpac/jobs/westpac-group-2026-technology-rotational-graduate-program-sydney-adelaide-melbourne-brisbane-gold-coast-perth/",
+      "why": "Westpac T1 四大行，Technology Rotational Grad Program 含最多 4 次 6 个月 rotation，可轮转至 AI / Data / Digital 团队；Adoption Bootcamp 的 'change management + ROI analysis' 课程覆盖银行数字化转型项目核心，应届即可投。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "bootcamp": "techscrum-devops",
+  "date": "2026-05-07",
+  "cohort": "AU",
+  "generatedAt": "2026-05-07T07:30:00+10:00",
+  "source": "WebSearch(careers.xero.com + gradconnection.com.au + nab.com.au)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Senior DevOps Engineer",
+      "company": "Xero",
+      "location": "Sydney, NSW",
+      "posted": "recent",
+      "url": "https://careers.xero.com/jobs/8f5f0e73-61b6-4bb2-b124-638417756eae/senior-devops-engineer/",
+      "why": "Xero 澳洲顶级 SaaS 公司，Senior DevOps 负责推动 CI/CD 成熟度和工程团队平滑部署；Bootcamp 第 3-5 周的 Kubernetes + Helm + GitOps 项目直接对应 Xero 面试 take-home task，是学员 12 个月后的明确晋级目标。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior / Graduate",
+      "title": "2026 Technology (Cloud) Graduate Program",
+      "company": "Westpac",
+      "location": "Sydney / Melbourne, AU",
+      "posted": "2026 Graduate cycle",
+      "url": "https://au.gradconnection.com/employers/westpac/jobs/westpac-group-2026-technology-cloud-graduate-program-sydney-melbourne/",
+      "why": "Westpac T1 四大行 2026 Cloud Graduate Program，两轮各 6 个月 AWS / Azure 云架构 + DevOps rotation；Bootcamp 的 Terraform + GitHub Actions + Docker compose pipeline 作品集直接对上面试要求，应届即可投。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特殊档 · Named Program",
+      "title": "Technology Talent Program 2026",
+      "company": "NAB",
+      "location": "Sydney / Melbourne, AU",
+      "posted": "2026 intake coming",
+      "url": "https://www.nab.com.au/about-us/careers/early-careers/technology-talent-program",
+      "why": "NAB T1 四大行 Technology Talent Program，完成后转正为 DevOps / Cloud Engineer 职级；全程附带 AWS + Azure 双认证培训，Bootcamp 学员用 Terraform + Ansible 项目展示基础功底，面试差异化最强。"
+    }
+  ]
+}

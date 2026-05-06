@@ -1,0 +1,39 @@
+{
+  "bootcamp": "ai-engineer-rag",
+  "date": "2026-05-07",
+  "cohort": "AU",
+  "generatedAt": "2026-05-07T07:30:00+10:00",
+  "source": "WebSearch(linkedin.com + prosple.com + atlassian.com)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Lead AI Engineer",
+      "company": "IAG",
+      "location": "Sydney, NSW",
+      "posted": "recent (2026)",
+      "url": "https://au.linkedin.com/jobs/view/lead-ai-engineer-at-iag-4394350509",
+      "why": "IAG 澳洲最大综合保险集团，Lead AI Engineer 负责带队把 RAG 系统推上生产并持续优化；RAG Bootcamp 后期 Phase（embeddings + vector DB + evaluation + deployment）就是这个岗位的日常，学员 12-18 个月后的明确晋级目标。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior / Graduate",
+      "title": "Intern — Machine Learning Engineer",
+      "company": "Xero",
+      "location": "Melbourne / Sydney, AU",
+      "posted": "Feb 2026 intake",
+      "url": "https://au.prosple.com/graduate-employers/xero-australia/jobs-internships/intern-machine-learning-engineer-0",
+      "why": "Xero 澳洲最知名 SaaS 公司，12 个月全职 ML Engineer Intern，含真实 LLM 特性研发；RAG Bootcamp Week 3-5 覆盖 Python + LLM pipeline + cloud AI 基础，正好满足 Xero 面试要求，倒数第二年生直接可投。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特殊档 · Named Graduate Program",
+      "title": "Software Engineer, 2026 Graduate — Australia & New Zealand",
+      "company": "Atlassian",
+      "location": "Sydney, NSW",
+      "posted": "2026 Graduate cycle",
+      "url": "https://www.atlassian.com/company/careers/details/17823",
+      "why": "Atlassian 2026 Grad++ 计划，录取后可加入 Central AI 团队参与 RAG / AI feature 开发；T0 品牌 + 正式 grad rotation 培养体系，RAG Bootcamp GitHub 项目是最强面试敲门砖，小众竞争赛道。"
+    }
+  ]
+}

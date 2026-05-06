@@ -1,0 +1,39 @@
+{
+  "bootcamp": "business-analyst",
+  "date": "2026-05-07",
+  "cohort": "AU",
+  "generatedAt": "2026-05-07T07:30:00+10:00",
+  "source": "WebSearch(prosple.com + linkedin.com + au.gradconnection.com)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Business Analyst",
+      "company": "McKinsey & Company ANZ",
+      "location": "Sydney, NSW",
+      "posted": "Jul 2026 intake",
+      "url": "https://au.prosple.com/graduate-employers/mckinsey-company-australia/jobs-internships/business-analyst",
+      "why": "McKinsey 顶级战略咨询 BA 通道，是 BA 学员最梦幻的品牌背书；Bootcamp 的 stakeholder management + data storytelling + process mapping 完全对准麦肯锡案例面试维度，学员提前 6 个月系统备战结构化思维即可。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior / Graduate",
+      "title": "Business Analyst",
+      "company": "Westpac Group",
+      "location": "Sydney, NSW",
+      "posted": "recent",
+      "url": "https://au.linkedin.com/jobs/view/business-analyst-at-westpac-group-4117216282",
+      "why": "Westpac T1 四大行 Sydney CBD 核心 BA 岗；Bootcamp 的 JIRA + Confluence + Agile ceremony 实战直接对应 Westpac 技术 BA 日常，1-2 年经验即可投递，不限行业背景。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特殊档 · Named Graduate Program",
+      "title": "Graduate Business Analyst",
+      "company": "Leidos Australia",
+      "location": "Canberra / Sydney, AU",
+      "posted": "Feb 2026 intake",
+      "url": "https://au.prosple.com/graduate-employers/leidos-australia/jobs-internships/graduate-business-analyst",
+      "why": "Leidos Australia 国防科技 Graduate BA Program，安全背景无硬性要求；BA Bootcamp 培养的 requirements elicitation + BRD 写作技能完全覆盖 Leidos 面试评分点，是小众赛道中差异化入口，竞争远小于银行 grad 通道。"
+    }
+  ]
+}

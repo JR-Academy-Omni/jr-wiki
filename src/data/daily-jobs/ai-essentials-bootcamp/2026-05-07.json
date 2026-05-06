@@ -1,0 +1,39 @@
+{
+  "bootcamp": "ai-essentials-bootcamp",
+  "date": "2026-05-07",
+  "cohort": "AU",
+  "generatedAt": "2026-05-07T07:30:00+10:00",
+  "source": "WebSearch(linkedin.com + prosple.com + seek.com.au)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "GenAI Solution Engineer (Databricks AI / Snowflake AI preferred)",
+      "company": "Deloitte",
+      "location": "Sydney, NSW",
+      "posted": "recent (2026)",
+      "url": "https://www.linkedin.com/jobs/view/genai-solution-engineer-databricks-ai-snowflake-ai-pref-d-at-deloitte-4403557382",
+      "why": "Deloitte T2 咨询巨头，GenAI Solution Engineer 专注 Databricks + Snowflake AI 企业接入；Essentials Bootcamp 的 '如何在现有系统中接入 AI' 正是该岗位核心技能，学员 6-12 个月后可直接冲该档。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior / Graduate",
+      "title": "Technology and Digital Graduate Program",
+      "company": "KPMG Australia",
+      "location": "Sydney, NSW",
+      "posted": "Feb 2026 intake",
+      "url": "https://au.prosple.com/graduate-employers/kpmg-australia/jobs-internships/technology-and-digital-graduate-program-0",
+      "why": "KPMG T2 品牌 Graduate Program，Technology Digital 方向含 AI/ML 模型开发和数字化客户体验改造；Essentials Bootcamp 第 6-8 周的 'AI-enabled product' 实战与 KPMG 客户项目高度吻合，应届生最快落脚点之一。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特殊档 · Named Internship",
+      "title": "Machine Learning Intern, 2026 Summer Australia",
+      "company": "Atlassian",
+      "location": "Sydney, NSW",
+      "posted": "2026 Summer intern cycle",
+      "url": "https://globalcareers-atlassian.icims.com/jobs/23865/machine-learning-intern,-2026-summer-australia/job",
+      "why": "Atlassian T0 品牌 Summer Intern，明确涉及 LLM fine-tuning / prompt engineering / RAG / GenAI 项目；Essentials Bootcamp Week 4-6 的 'Build GenAI apps' 内容直接命中面试考点，在读倒数第二年生最优入口。"
+    }
+  ]
+}

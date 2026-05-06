@@ -1,0 +1,39 @@
+{
+  "bootcamp": "ai-engineer-bootcamp",
+  "date": "2026-05-07",
+  "cohort": "AU",
+  "generatedAt": "2026-05-07T07:30:00+10:00",
+  "source": "WebSearch(linkedin.com + seek.com.au + prosple.com + lifeatcanva.com)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Machine Learning Engineer — Data & AI Research",
+      "company": "Canva",
+      "location": "Sydney, NSW",
+      "posted": "recent",
+      "url": "https://www.lifeatcanva.com/en/jobs/6000000000639806/machine-learning-engineer-data-ai-research/",
+      "why": "Canva T0 独角兽，Data & AI Research 团队专攻高性能数据管道与最前沿模型训练；Bootcamp Phase 3（fine-tune + model serving + evaluation）直接对应日常工作内容，是学员 12-18 个月后的明确冲刺目标。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior / Graduate",
+      "title": "Machine Learning Engineer, 2026 Graduate — Australia & New Zealand",
+      "company": "Atlassian",
+      "location": "Sydney, NSW",
+      "posted": "2026 Graduate cycle",
+      "url": "https://jobs.accel.com/companies/atlassian/jobs/47455436-machine-learning-engineer-2026-graduate-australia-new-zealand",
+      "why": "Atlassian T0 品牌专为应届生设计的 ML Engineer 通道，Central AI 团队主攻 LLM fine-tuning + summarisation + AI editor；Bootcamp Core（Weeks 1-8 LLM 基础 + Agents）覆盖面试核心考点，毕业即可投。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特殊档 · Named Program",
+      "title": "Summer Intern Program — Digital, Data and AI",
+      "company": "NAB",
+      "location": "Sydney / Melbourne, AU",
+      "posted": "2026-2027 intern cycle",
+      "url": "https://au.prosple.com/graduate-employers/nab-australia/jobs-internships/summer-intern-program-digital-data-and-ai",
+      "why": "NAB 四大行 T1 品牌，Summer Intern 明确覆盖 Digital + Data + AI 三方向；在读倒数第二年生 Bootcamp Phase 1-2 打好 Python/ML 基础后即可投递，有真实 AI 产品落地经验加持。"
+    }
+  ]
+}
