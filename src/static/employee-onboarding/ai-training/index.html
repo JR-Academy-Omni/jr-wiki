@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>新人 AI 训练任务库 · Marketing pilot · 匠人学院</title>
+<style>
+  :root {
+    --bg: #faf9f5;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --ink-2: #555;
+    --ink-3: #888;
+    --line: #000;
+    --primary: #d97757;
+    --primary-dark: #b85c3f;
+    --warn-bg: #fff8e7;
+    --warn-line: #ffb800;
+    --warn-ink: #4d3800;
+    --danger-bg: #ffe8e8;
+    --danger-line: #d62828;
+    --danger-ink: #8b1818;
+    --good-bg: #dcfce7;
+    --good-line: #16a34a;
+    --info-bg: #dbeafe;
+    --info-line: #3b82f6;
+    color-scheme: light;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--primary-dark); }
+  a:hover { text-decoration: underline; }
+  code {
+    background: #f0eee5;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  }
+  pre {
+    background: #f6f4ed;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 16px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.55;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .container { max-width: 1080px; margin: 0 auto; padding: 24px 24px 80px; }
+
+  /* Top back link */
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    margin-bottom: 28px;
+    font-size: 13px;
+  }
+  .topbar a { color: var(--ink); text-decoration: none; font-weight: 600; }
+  .topbar a:hover { color: var(--primary); }
+  .topbar .badge {
+    display: inline-block;
+    background: var(--warn-bg);
+    color: var(--warn-ink);
+    border: 1px solid var(--warn-line);
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  /* Hero */
+  .hero {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    box-shadow: 6px 6px 0 var(--line);
+    padding: 40px 36px;
+    margin-bottom: 40px;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 999px;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+  }
+  .hero h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin: 0 0 14px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 .accent { color: var(--primary); }
+  .hero-sub {
+    font-size: 17px;
+    color: var(--ink-2);
+    margin: 0 0 20px;
+    line-height: 1.6;
+  }
+  .value-chips {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .value-chip {
+    padding: 8px 14px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .value-chip.v1 { background: #fef3c7; }
+  .value-chip.v2 { background: #dcfce7; }
+  .value-chip.v3 { background: #ffe4d4; }
+  .value-chip.v4 { background: #dbeafe; }
+
+  /* Section */
+  .section { margin-top: 56px; }
+  .section-eyebrow {
+    color: var(--primary);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 6px;
+  }
+  .section h2 {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+    margin: 0 0 8px;
+  }
+  .section-desc {
+    color: var(--ink-2);
+    font-size: 15px;
+    margin: 0 0 24px;
+  }
+
+  /* Symptom list */
+  .symptom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 14px;
+    margin-top: 18px;
+  }
+  .symptom {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 18px;
+    box-shadow: 3px 3px 0 var(--line);
+  }
+  .symptom-num {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 8px;
+  }
+  .symptom strong { font-size: 14px; color: var(--ink); }
+  .symptom p { margin: 8px 0 0; color: var(--ink-2); font-size: 13px; line-height: 1.55; }
+
+  /* Dimension grid (7 维度) */
+  .dim-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+    margin-top: 20px;
+  }
+  .dim-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 3px 3px 0 var(--line);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .dim-card:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0 var(--line);
+  }
+  .dim-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid var(--line);
+  }
+  .dim-icon.c1 { background: #fef3c7; }
+  .dim-icon.c2 { background: #dcfce7; }
+  .dim-icon.c3 { background: #ffe4d4; }
+  .dim-icon.c4 { background: #dbeafe; }
+  .dim-icon.c5 { background: #f3e8ff; }
+  .dim-icon.c6 { background: #fce7f3; }
+  .dim-icon.c7 { background: #e0e7ff; }
+  .dim-card h3 { font-size: 15px; margin: 0 0 6px; font-weight: 700; }
+  .dim-card p { margin: 0; font-size: 13px; color: var(--ink-2); line-height: 1.5; }
+
+  /* Principle cards */
+  .principle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .principle {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 3px 3px 0 var(--line);
+    position: relative;
+  }
+  .principle-num {
+    position: absolute;
+    top: -10px;
+    left: 16px;
+    width: 28px;
+    height: 28px;
+    background: var(--primary);
+    color: #fff;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    font-weight: 800;
+    font-size: 14px;
+  }
+  .principle h3 { margin: 6px 0 10px; font-size: 16px; font-weight: 700; }
+  .principle p { margin: 0 0 8px; font-size: 14px; line-height: 1.55; }
+  .principle .quote {
+    color: var(--ink-2);
+    font-style: italic;
+    font-size: 13px;
+    border-left: 3px solid var(--primary);
+    padding-left: 10px;
+    margin: 8px 0;
+  }
+
+  /* Red lines */
+  .redlines {
+    background: var(--danger-bg);
+    border: 2px solid var(--danger-line);
+    border-radius: 12px;
+    padding: 24px 28px;
+    box-shadow: 4px 4px 0 var(--line);
+    margin-top: 24px;
+  }
+  .redlines h3 {
+    color: var(--danger-ink);
+    margin: 0 0 14px;
+    font-size: 18px;
+  }
+  .redlines ol { margin: 0; padding-left: 22px; }
+  .redlines li {
+    color: var(--danger-ink);
+    margin-bottom: 10px;
+    line-height: 1.55;
+    font-size: 14px;
+  }
+  .redlines li strong { color: #5a0d0d; }
+
+  /* Phase pill */
+  .phase-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    border: 1px solid var(--line);
+  }
+  .phase-pill.live { background: var(--good-bg); color: #14532d; }
+  .phase-pill.locked { background: #f3f4f6; color: var(--ink-3); }
+  .phase-pill.dogfood { background: var(--warn-bg); color: var(--warn-ink); }
+
+  /* Task day group */
+  .day-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin: 36px 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--line);
+  }
+  .day-header h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .day-header .day-meta {
+    font-size: 13px;
+    color: var(--ink-3);
+  }
+
+  /* Task card */
+  .task-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .task {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    box-shadow: 4px 4px 0 var(--line);
+    overflow: hidden;
+  }
+  .task.locked { opacity: 0.52; box-shadow: 3px 3px 0 var(--line); }
+  .task-head {
+    padding: 18px 22px;
+    border-bottom: 1px solid #e5e3da;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .task-id {
+    background: var(--ink);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 3px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+  }
+  .task-dim {
+    background: #f6f4ed;
+    border: 1px solid #d8d4c4;
+    color: var(--ink-2);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 999px;
+  }
+  .task-time {
+    color: var(--ink-3);
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: auto;
+  }
+  .task h4 {
+    width: 100%;
+    margin: 8px 0 0;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.35;
+  }
+  .task-body { padding: 20px 22px; }
+  .task-body h5 {
+    margin: 22px 0 8px;
+    font-size: 13px;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-weight: 800;
+  }
+  .task-body h5:first-child { margin-top: 0; }
+  .task-body p { margin: 0 0 8px; font-size: 14px; line-height: 1.6; color: var(--ink); }
+  .task-body ul, .task-body ol { margin: 8px 0 12px; padding-left: 22px; }
+  .task-body li { margin-bottom: 6px; line-height: 1.55; font-size: 14px; }
+
+  .step {
+    background: #fafaf6;
+    border: 1px solid #e5e3da;
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin: 10px 0;
+  }
+  .step-num {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+    letter-spacing: 0.4px;
+  }
+  .step strong.step-title { font-size: 14px; }
+  .step .nodi {
+    background: var(--danger-bg);
+    color: var(--danger-ink);
+    border: 1px solid var(--danger-line);
+    font-size: 11px;
+    padding: 1px 6px;
+    border-radius: 4px;
+    margin-left: 6px;
+    font-weight: 700;
+  }
+
+  .prompt-box {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin: 10px 0 4px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    color: var(--ink);
+  }
+  .prompt-actions {
+    display: flex;
+    gap: 8px;
+    margin: 4px 0 6px;
+    flex-wrap: wrap;
+  }
+  .btn-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+    background: var(--card);
+    color: var(--ink);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.1s, box-shadow 0.1s;
+  }
+  .btn-action:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 2px 2px 0 var(--line);
+    text-decoration: none;
+  }
+  .btn-action.primary { background: var(--primary); color: #fff; border-color: var(--line); }
+  .btn-action.primary:hover { background: var(--primary-dark); }
+  .btn-action.copy::before { content: "📋"; }
+  .btn-action.gpt::before { content: "🚀"; }
+
+  .submit-list, .accept-list { margin: 10px 0 16px; }
+  .accept-list .ok { color: #14532d; font-weight: 600; }
+  .accept-list .bad { color: var(--danger-ink); font-weight: 600; }
+
+  /* Manager panel */
+  .manager-panel {
+    background: var(--info-bg);
+    border: 1.5px solid var(--info-line);
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-top: 28px;
+    box-shadow: 4px 4px 0 var(--line);
+  }
+  .manager-panel h3 { margin: 0 0 12px; color: #1e3a8a; }
+  .manager-panel ol { margin: 0; padding-left: 22px; }
+  .manager-panel li { margin-bottom: 8px; line-height: 1.55; }
+
+  /* Footer */
+  .page-footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px dashed #c5c1b0;
+    color: var(--ink-3);
+    font-size: 13px;
+  }
+  .page-footer a { color: var(--ink-2); }
+
+  @media (max-width: 640px) {
+    .hero { padding: 28px 22px; }
+    .hero h1 { font-size: 28px; }
+    .section h2 { font-size: 22px; }
+    .task-head { gap: 8px; }
+    .task-time { margin-left: 0; width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <a href="../">← 返回 onboarding 主页</a>
+    <span class="badge">DOGFOOD · Tuchang pilot · noindex</span>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <span class="hero-eyebrow">新人专属 · Marketing 起步版</span>
+    <h1>新人 <span class="accent">AI 训练任务库</span></h1>
+    <p class="hero-sub">
+      19 个真实场景任务，跑通你跟 AI 的协作肌肉。<br>
+      不是让 AI 替你工作，是练「自己想 → AI 扩 → 自审 → manager 验收」四步闭环。<br>
+      <strong>Marketing 角色优先开放。</strong>Tuchang dogfood D1-1 + D1-3 中。
+    </p>
+    <div class="value-chips">
+      <span class="value-chip v1">🔍 fact-check 防 AI 幻觉</span>
+      <span class="value-chip v2">📝 prompt 演化记录</span>
+      <span class="value-chip v3">⚖️ 必跑自审 skill</span>
+      <span class="value-chip v4">🤔 ≥3 个真实疑问</span>
+    </div>
+  </section>
+
+  <!-- 这是干嘛的 -->
+  <section class="section">
+    <p class="section-eyebrow">问题</p>
+    <h2>新人用 AI 差，5 个症状</h2>
+    <p class="section-desc">这套训练库是为了治这 5 个症状的。如果你身上没有这些，可以跳过。</p>
+    <div class="symptom-grid">
+      <div class="symptom">
+        <strong><span class="symptom-num">1</span>没有身份感</strong>
+        <p>不知道自己角色每天该做什么，更不知道哪件事该让 AI 帮忙。</p>
+      </div>
+      <div class="symptom">
+        <strong><span class="symptom-num">2</span>不会让 AI 帮 review</strong>
+        <p>稿子写完直接交 manager，AI 只用来生成不用来批评，自己永远学不会判断质量。</p>
+      </div>
+      <div class="symptom">
+        <strong><span class="symptom-num">3</span>不知道怎么 eval</strong>
+        <p>不知道一段 AI 输出"好不好"的标尺。给 manager 的稿子自己心里没底。</p>
+      </div>
+      <div class="symptom">
+        <strong><span class="symptom-num">4</span>被 AI 编的"看起来合理"骗</strong>
+        <p>AI 自信地编造"Slack 2018 年 CAC 是 $187"，你信了传给同事，同事一查穿帮。</p>
+      </div>
+      <div class="symptom">
+        <strong><span class="symptom-num">5</span>不会狂提问</strong>
+        <p>Marketing 沉默就是装懂。新人不问问题 = manager 看不到你在思考什么 = 你在原地。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 维度 -->
+  <section class="section">
+    <p class="section-eyebrow">能力地图</p>
+    <h2>Marketing 7 大能力维度</h2>
+    <p class="section-desc">19 个任务覆盖这 7 个维度。每个维度至少 2-3 个任务从入门到产出。</p>
+    <div class="dim-grid">
+      <div class="dim-card">
+        <div class="dim-icon c1">🎯</div>
+        <h3>Campaign 策划</h3>
+        <p>整体方案能力 — 不是做执行的工具人</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-icon c2">🪝</div>
+        <h3>标题钩子</h3>
+        <p>决定打开率，文案最值钱的部分</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-icon c3">🎨</div>
+        <h3>海报视觉</h3>
+        <p>brief 写得好坏决定设计师产出</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-icon c4">📈</div>
+        <h3>用户增长</h3>
+        <p>growth lever / AARRR / 实验设计</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-icon c5">🧠</div>
+        <h3>Marketing sense</h3>
+        <p>看竞品 / 判断爆款 / 懂用户的判断力</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-icon c6">📚</div>
+        <h3>未知知识获取</h3>
+        <p>用 AI 学新东西，不再卡在「我不懂这个领域」 — 新人最关键的一项</p>
+      </div>
+      <div class="dim-card">
+        <div class="dim-icon c7">🛠️</div>
+        <h3>Skill engineering</h3>
+        <p>会改 skill / 写 skill — 工具是自己的不是别人的（Phase 4 解锁）</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 原则 -->
+  <section class="section">
+    <p class="section-eyebrow">设计原则</p>
+    <h2>5 条原则 · 看完每个任务你都能理解为什么这么设计</h2>
+    <div class="principle-grid">
+      <div class="principle">
+        <span class="principle-num">1</span>
+        <h3>不替决策</h3>
+        <p class="quote">AI 是放大器，不是替代品。</p>
+        <p>每个任务的 Step 1 都明写「不准用 AI」。你必须先自己想，AI 才能在你的判断上迭代。</p>
+      </div>
+      <div class="principle">
+        <span class="principle-num">2</span>
+        <h3>必自审</h3>
+        <p class="quote">没有自审工具的员工，永远不知道自己做的好不好。</p>
+        <p>每个产出任务必须跑 1 个现成 skill 自审（<code>/wechat-article-quality</code> 等），75 分以下重写。</p>
+      </div>
+      <div class="principle">
+        <span class="principle-num">3</span>
+        <h3>留演化</h3>
+        <p class="quote">Manager 看 prompt 演化，不看最终稿。</p>
+        <p>提交必须含 prompt v1 → v2 → v3 + 每次为什么改。AI 一次过 = 你没动脑。</p>
+      </div>
+      <div class="principle">
+        <span class="principle-num">4</span>
+        <h3>带验收</h3>
+        <p class="quote">没有 30 秒能拍板的 checklist，验收就是走过场。</p>
+        <p>每个任务结尾验收 ✅ ❌ 不超过 5 条，具体到能数 / 能测，不能写「质量好」这种主观词。</p>
+      </div>
+      <div class="principle">
+        <span class="principle-num">5</span>
+        <h3>绑真实工作</h3>
+        <p class="quote">造假场景的训练，员工知道是过家家，不会真投入。</p>
+        <p>任务跟你本周真要做的事挂钩 — 真活动、真公众号、真 EOI、真 campaign。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 红线 -->
+  <section class="section">
+    <p class="section-eyebrow">红线</p>
+    <h2>4 条红线 · 违反 = 任务不算成</h2>
+    <div class="redlines">
+      <h3>⛔ 这 4 条任何一条没满足，manager 直接打回</h3>
+      <ol>
+        <li><strong>不问问题，任务全部不算成</strong>。每个任务必须留 ≥ 3 个真实疑问。Marketing 沉默就是装懂。</li>
+        <li><strong>直接交 AI 第一版 = 重做</strong>。没有 prompt 演化记录（v1 → v2 → v3）= 不合格。</li>
+        <li><strong>fact-check 失败的"案例" = 重做</strong>。引用任何案例 / 数据 / 公司，必须搜得到来源。AI 编的不算。</li>
+        <li><strong>AI 味文风 = 重写</strong>。出现「在当今快速发展的 / 让我们一起 / 准备好了吗 / 深入探讨 / 全面掌握」 = 整段重写。</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- D1 -->
+  <div class="day-header">
+    <h3>D1 · 6 个基础任务</h3>
+    <span class="day-meta">6 维度入门 · 纯 ChatGPT · 完成后能基本不被 AI 骗</span>
+  </div>
+  <div class="task-grid">
+
+    <!-- D1-01 完整版 -->
+    <article class="task" id="d1-01">
+      <header class="task-head">
+        <span class="task-id">D1-01</span>
+        <span class="task-dim">📚 未知知识获取</span>
+        <span class="phase-pill live">● 已开放</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>用 AI 学 3 个 Marketing 概念，但不准被它骗</h4>
+      </header>
+      <div class="task-body">
+        <h5>你的身份</h5>
+        <p>Marketing 通用岗。下周开会同事会扔出一堆缩写（CAC / LTV / AARRR / PMF / POSE / RACE / ICP / BoFu / ToFu...），你得跟得上节奏，不能在群里装懂或者尬笑。</p>
+
+        <h5>今天要做的事</h5>
+        <p>挑 <strong>3 个</strong>你完全不懂的 marketing 缩写 / 概念，用 ChatGPT 1 小时学到能跟同事讨论的水平。<strong>关键约束</strong>：每个概念 ChatGPT 必须给一个真实公司案例，并且你要去 Google 验证案例真实存在。</p>
+        <p>可以从这些里挑（不熟的就是不懂的）：CAC、LTV、AARRR、PMF、POSE 模型、RACE 框架、ICP（理想客户画像）、BoFu / MoFu / ToFu、PLG、CRO、NPS、CSAT、CAC payback period、Activation rate、K-factor、retention cohort。</p>
+
+        <h5>训练目标</h5>
+        <p>练「逼 AI 给真案例 + 不被 AI 编的『看起来合理』的内容骗」。这是新人最容易翻车的能力 — AI 能流利地编一个不存在的「Airbnb 2018 年 PLG 策略」，你信了就传给同事，同事一查穿帮。</p>
+
+        <h5>步骤</h5>
+
+        <div class="step">
+          <span class="step-num">STEP 1</span>
+          <strong class="step-title">自己先猜</strong>
+          <span class="nodi">不准用 AI</span>
+          <p>挑你的 3 个概念后，每个概念先<strong>自己想 2 句话</strong>：</p>
+          <ul>
+            <li>这个概念<strong>字面</strong>听起来在说什么？</li>
+            <li>你猜它跟你工作哪个环节有关？</li>
+          </ul>
+          <p>写在纸上 / Notion 里。猜错没关系，重点是给自己一个起点。</p>
+        </div>
+
+        <div class="step">
+          <span class="step-num">STEP 2</span>
+          <strong class="step-title">让 ChatGPT 解释 + 给真案例</strong>
+          <p>把这个 prompt 粘到 ChatGPT（先把 [...] 里换成你挑的 3 个概念）：</p>
+<pre class="prompt-box">我是一家 IT 教育公司的 marketing 新人，正在学习以下 3 个概念：
+
+1. [CAC]
+2. [AARRR]
+3. [ICP]
+
+对每个概念，请给我：
+
+- 一句话定义（不超过 30 字，不要绕）
+- 公式 / 衡量方法（如果有）
+- 真实公司案例：必须是真实存在、可在 Google / Wikipedia / 公司官方博客查到的案例。禁止编造。如果你不确定某个案例是否真实，直接说「不确定」，不要瞎写。优先选 Slack / Notion / Airbnb / Duolingo / Canva / Figma 这种留下大量公开 case study 的公司。
+- 跟我（IT 教育公司 marketing）的关联：这个概念在我日常工作哪个环节用得上？给一个具体例子。
+
+输出格式：
+## 概念 1：[名称]
+一句话：...
+公式：...
+真实案例：[公司] 在 [年份] 通过 [具体动作] 达成 [具体结果]。来源：[公开文章 / 报告 URL]
+跟你的关联：...</pre>
+          <div class="prompt-actions">
+            <a class="btn-action gpt primary" target="_blank" rel="noopener" href="https://chatgpt.com/?prompt=%E6%88%91%E6%98%AF%E4%B8%80%E5%AE%B6%20IT%20%E6%95%99%E8%82%B2%E5%85%AC%E5%8F%B8%E7%9A%84%20marketing%20%E6%96%B0%E4%BA%BA%EF%BC%8C%E6%AD%A3%E5%9C%A8%E5%AD%A6%E4%B9%A0%E4%BB%A5%E4%B8%8B%203%20%E4%B8%AA%E6%A6%82%E5%BF%B5%EF%BC%9A%0A%0A1.%20%5BCAC%5D%0A2.%20%5BAARRR%5D%0A3.%20%5BICP%5D%0A%0A%E5%AF%B9%E6%AF%8F%E4%B8%AA%E6%A6%82%E5%BF%B5%EF%BC%8C%E8%AF%B7%E7%BB%99%E6%88%91%EF%BC%9A%0A-%20%E4%B8%80%E5%8F%A5%E8%AF%9D%E5%AE%9A%E4%B9%89%EF%BC%88%E4%B8%8D%E8%B6%85%E8%BF%87%2030%20%E5%AD%97%EF%BC%89%0A-%20%E5%85%AC%E5%BC%8F%20%2F%20%E8%A1%A1%E9%87%8F%E6%96%B9%E6%B3%95%0A-%20%E7%9C%9F%E5%AE%9E%E5%85%AC%E5%8F%B8%E6%A1%88%E4%BE%8B%EF%BC%8C%E5%BF%85%E9%A1%BB%E6%98%AF%E5%9C%A8%20Google%20%2F%20Wikipedia%20%E5%8F%AF%E6%9F%A5%E5%88%B0%E7%9A%84%EF%BC%8C%E7%A6%81%E6%AD%A2%E7%BC%96%E9%80%A0%EF%BC%8C%E4%B8%8D%E7%A1%AE%E5%AE%9A%E5%B0%B1%E8%AF%B4%E4%B8%8D%E7%A1%AE%E5%AE%9A%0A-%20%E8%B7%9F%E6%88%91%EF%BC%88IT%20%E6%95%99%E8%82%B2%E5%85%AC%E5%8F%B8%20marketing%EF%BC%89%E7%9A%84%E5%85%B3%E8%81%94%EF%BC%9A%E5%85%B7%E4%BD%93%E4%BE%8B%E5%AD%90">🚀 在 ChatGPT 跑这步</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <span class="step-num">STEP 3</span>
+          <strong class="step-title">fact-check（这一步是核心）</strong>
+          <p>针对 ChatGPT 给的每一个真实案例，你必须做一次：</p>
+          <ol>
+            <li>打开 Google</li>
+            <li>搜 <code>[公司名] [关键词] [年份]</code>，例如 <code>Slack PLG 2014</code></li>
+            <li>找到一个真实可访问的来源（Medium / 官博 / Wikipedia / 行业报告）</li>
+            <li>把链接贴回你的笔记</li>
+          </ol>
+          <p><strong>翻车场景</strong>（必看）：</p>
+          <ul>
+            <li>ChatGPT 说「Slack 2018 年 CAC 是 $187」→ Google 搜不到 → AI 编的，不能用</li>
+            <li>ChatGPT 说「Airbnb 用 PLG 增长 300%」→ Airbnb 不是 PLG（marketplace）→ 概念用错</li>
+            <li>ChatGPT 给的链接 404 → 来源失效，重新找</li>
+          </ul>
+          <p>3 个概念里超过 1 个 fact-check 失败：<strong>不要用更好听的版本糊弄 manager</strong>。回 ChatGPT 让它换案例，把 fact-check 失败的过程也记下来 — 这恰恰是这个任务最值钱的产物。</p>
+        </div>
+
+        <div class="step">
+          <span class="step-num">STEP 4</span>
+          <strong class="step-title">用自己的话写一遍</strong>
+          <p>关掉 ChatGPT，自己用大白话给同事讲一遍每个概念（写在 Notion 里，每个 100-150 字）。</p>
+          <p>测试：写完读给自己听，能不能像跟人聊天一样讲清楚？还是 AI 腔（「这个概念至关重要，让我们深入探讨...」）？AI 腔再写一遍。</p>
+        </div>
+
+        <h5>提交给 manager</h5>
+        <ol class="submit-list">
+          <li><code>prompts.md</code> — 跟 ChatGPT 的完整对话（v1 / v2 / v3）</li>
+          <li><code>fact-check.md</code> — 每个概念的 fact-check 过程（搜索关键词 + 找到的 URL + ✅/⚠️/❌）</li>
+          <li><code>final.md</code> — 你用自己的话写的 3 个概念解释（每个 100-150 字）</li>
+          <li><code>questions.md</code> — ≥ 3 个真实疑问</li>
+        </ol>
+
+        <h5>验收标准（manager 30 秒拍板）</h5>
+        <ul class="accept-list">
+          <li><span class="ok">✅</span> 3 个概念都有可点开的真实来源 URL</li>
+          <li><span class="ok">✅</span> 至少 1 个 fact-check 失败的案例被诚实记录</li>
+          <li><span class="ok">✅</span> Prompt 至少改过 2 轮，每轮改动可解释</li>
+          <li><span class="ok">✅</span> 提问 ≥ 3 个，不是水问题</li>
+          <li><span class="ok">✅</span> Final 是「人话」，不是 AI 腔</li>
+          <li><span class="bad">❌</span> 案例没贴 URL 或 URL 打不开 → 重做</li>
+          <li><span class="bad">❌</span> 提问列表只有 1-2 个 → 重做</li>
+          <li><span class="bad">❌</span> 出现 AI 腔 → 重写</li>
+          <li><span class="bad">❌</span> 跟 ChatGPT 只聊了 1 轮 → 重做</li>
+        </ul>
+
+        <h5>这一步在教你什么</h5>
+        <p>核心能力：识破 AI 幻觉 + fact-check 习惯。AI 最危险的不是它会犯错，是它<strong>自信地犯错</strong> — 流利、合理、引用具体数字，让你以为它知道。新人最容易在这上面翻车。</p>
+        <p>跑通后你会有 3 个肌肉：(1) 看到 AI 给具体数字 / 案例 → 默认怀疑 → 必查证；(2) 区分「AI 真的知道」 vs 「AI 在硬编」；(3) 把 fact-check 当成工作流的一部分。</p>
+        <p><strong>你的工作不是用 AI 加速生成内容，是用 AI 加速生成你能验证 + 担保 + 输出的内容。</strong></p>
+      </div>
+    </article>
+
+    <!-- D1-02 占位 -->
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D1-02</span>
+        <span class="task-dim">🧠 Marketing sense</span>
+        <span class="phase-pill locked">○ Phase 2 解锁</span>
+        <span class="task-time">⏱ 45min</span>
+        <h4>看 3 家竞品首页 30 秒，让 ChatGPT 拆解定位</h4>
+      </header>
+      <div class="task-body">
+        <p>Coursera / MasterClass / Skillshare 各 30 秒，让 ChatGPT 拆「卖什么 / 给谁 / 用什么钩子」，再去验证它说的对不对。练「判断 AI 的归纳是真观察还是脑补」。</p>
+        <p style="color: var(--ink-3); font-size: 13px; margin-top: 10px;">📌 Tuchang 跑完 D1-1 + D1-3 收到反馈后，调整模板再开放。</p>
+      </div>
+    </article>
+
+    <!-- D1-03 完整版 -->
+    <article class="task" id="d1-03">
+      <header class="task-head">
+        <span class="task-id">D1-03</span>
+        <span class="task-dim">🪝 标题钩子</span>
+        <span class="phase-pill live">● 已开放</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>用 AI 写 5 个标题钩子，但你自己得先想 2 个</h4>
+      </header>
+      <div class="task-body">
+        <h5>你的身份</h5>
+        <p>Marketing 通用岗。本周要为一个真活动 / 真公众号文写标题。<strong>标题决定 90% 的打开率</strong>，正文写得再好，标题没钩到人，零阅读。</p>
+
+        <h5>今天要做的事</h5>
+        <p>为本周 1 个真实工作场景（活动预热 / 公众号文 / 小红书 / EDM 邮件）想标题。<strong>关键约束</strong>：你必须先自己写 2 句钩子，再让 ChatGPT 扩到 5 句，最后让 ChatGPT 解释每句靠什么打人，最后<strong>你自己</strong>做最终选择。</p>
+
+        <h5>训练目标</h5>
+        <p>练「人在前 AI 在后」+「让 AI 解释判断逻辑」。新人最常犯的错：直接让 AI 出 5 个标题，挑一个看起来顺眼的。这样你永远学不会「什么是好钩子」，下次没 AI 你还是写不出来。</p>
+
+        <h5>步骤</h5>
+
+        <div class="step">
+          <span class="step-num">STEP 1</span>
+          <strong class="step-title">自己先写 2 句</strong>
+          <span class="nodi">不准用 AI</span>
+          <p>打开任何文档，写下：</p>
+          <ul>
+            <li><strong>场景</strong>：是什么活动 / 文章 / 产品（30 字）</li>
+            <li><strong>目标读者</strong>：是谁 / 几岁 / 什么处境（"墨尔本 IT 留学生 / 找工作 6 个月没 offer / 焦虑"）</li>
+            <li><strong>钩子 v1</strong>：第一感觉的标题，10-20 字</li>
+            <li><strong>钩子 v2</strong>：换一个角度（v1 是恐惧驱动那 v2 试向往驱动），10-20 字</li>
+          </ul>
+          <p>这一步不准开 ChatGPT。你写得再烂都行，重点是<strong>你自己先做第一手判断</strong>。</p>
+        </div>
+
+        <div class="step">
+          <span class="step-num">STEP 2</span>
+          <strong class="step-title">让 ChatGPT 扩到 5 句 + 解释打法</strong>
+<pre class="prompt-box">我在为以下场景写标题：
+- 场景：[你的场景描述]
+- 目标读者：[读者画像，含年龄 / 处境 / 情绪]
+- 渠道：[公众号 / 小红书 / EDM / 落地页]
+
+我自己已经想了 2 句钩子：
+1. [你的 v1]
+2. [你的 v2]
+
+请你做 3 件事：
+
+(A) 扩到 5 句钩子（保留我的 2 句 + 加 3 句新角度，覆盖至少 3 种打法：数据 / 对比 / 恐惧 / 向往 / 社交认同 / 好奇 / 反常识）
+
+(B) 对每句钩子（含我的）解释：
+- 用了哪种打法
+- 击中读者哪个具体心理（用读者内心独白说，例：「看到这句他会想：'我也是这样啊...'」）
+- 弱点是什么（什么样的读者不会被它打到）
+
+(C) 排序：你认为哪句最可能让目标读者点开？理由？哪句最可能翻车（被误读 / 被反感）？
+
+不要用空话。每个解释必须具体到「读者会怎么想 / 会不会点」。禁止「这个标题很有吸引力 / 能引起读者共鸣」这种废话。</pre>
+          <div class="prompt-actions">
+            <a class="btn-action gpt primary" target="_blank" rel="noopener" href="https://chatgpt.com/?prompt=%E6%88%91%E5%9C%A8%E4%B8%BA%E4%BB%A5%E4%B8%8B%E5%9C%BA%E6%99%AF%E5%86%99%E6%A0%87%E9%A2%98%EF%BC%9A%0A-%20%E5%9C%BA%E6%99%AF%EF%BC%9A%5B%E4%BD%A0%E7%9A%84%E5%9C%BA%E6%99%AF%E6%8F%8F%E8%BF%B0%5D%0A-%20%E7%9B%AE%E6%A0%87%E8%AF%BB%E8%80%85%EF%BC%9A%5B%E8%AF%BB%E8%80%85%E7%94%BB%E5%83%8F%5D%0A-%20%E6%B8%A0%E9%81%93%EF%BC%9A%5B%E5%85%AC%E4%BC%97%E5%8F%B7%2F%E5%B0%8F%E7%BA%A2%E4%B9%A6%2FEDM%5D%0A%0A%E6%88%91%E8%87%AA%E5%B7%B1%E5%B7%B2%E7%BB%8F%E6%83%B3%E4%BA%86%202%20%E5%8F%A5%E9%92%A9%E5%AD%90%EF%BC%9A%0A1.%20%5B%E4%BD%A0%E7%9A%84%20v1%5D%0A2.%20%5B%E4%BD%A0%E7%9A%84%20v2%5D%0A%0A%E8%AF%B7%E4%BD%A0%EF%BC%88A%EF%BC%89%E6%89%A9%E5%88%B0%205%20%E5%8F%A5%E9%92%A9%E5%AD%90%E8%A6%86%E7%9B%96%E8%87%B3%E5%B0%91%203%20%E7%A7%8D%E6%89%93%E6%B3%95%EF%BC%9B%EF%BC%88B%EF%BC%89%E5%AF%B9%E6%AF%8F%E5%8F%A5%E8%A7%A3%E9%87%8A%E6%89%93%E6%B3%95%2B%E8%AF%BB%E8%80%85%E5%BF%83%E7%90%86%2B%E5%BC%B1%E7%82%B9%EF%BC%9B%EF%BC%88C%EF%BC%89%E6%8E%92%E5%BA%8F%E5%93%AA%E5%8F%A5%E6%9C%80%E5%8F%AF%E8%83%BD%E7%82%B9%E5%BC%80%E5%93%AA%E5%8F%A5%E6%9C%80%E5%8F%AF%E8%83%BD%E7%BF%BB%E8%BD%A6%E3%80%82">🚀 在 ChatGPT 跑这步</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <span class="step-num">STEP 3</span>
+          <strong class="step-title">让 ChatGPT 反驳它自己</strong>
+          <p>ChatGPT 给完排序后，追加：</p>
+<pre class="prompt-box">现在反驳你刚才的排序。如果你是一个非常挑剔的资深 marketing 总监，你会怎么挑刺这 5 句钩子？哪句你会直接划掉，理由？
+
+然后告诉我：把你最看不上的那句改一下哪个词 / 哪个结构就能救活？</pre>
+          <p>这一步是练「让 AI 帮你做反向思考」。AI 第一遍永远是对你客气的，逼它扮演挑剔的角色才能挖出真问题。</p>
+        </div>
+
+        <div class="step">
+          <span class="step-num">STEP 4</span>
+          <strong class="step-title">你自己拍板 + 同事盲测</strong>
+          <p>ChatGPT 给的排序<strong>不是答案</strong>，是输入。</p>
+          <ol>
+            <li>看完 ChatGPT 的解释和反驳，你自己心里有第一名 + 第二名</li>
+            <li>盲测：把 5 句钩子（不带 ChatGPT 的解释）发给 1-2 个同事 / Buddy，问"你觉得哪句最想点开？为什么？"</li>
+            <li>对比同事直觉 vs ChatGPT 推荐 vs 你自己直觉 — 三方一致 = 选它；分歧 = 你做最终判断并写明理由</li>
+          </ol>
+        </div>
+
+        <h5>提交给 manager</h5>
+        <ol class="submit-list">
+          <li><code>prompts.md</code> — 完整对话（含 Step 3 反驳追问）</li>
+          <li><code>evolution.md</code> — 钩子演化（v1/v2 + AI 加的 + 反驳后改活的）</li>
+          <li><code>blind-test.md</code> — ≥ 1 个同事盲测反馈截图</li>
+          <li><code>final.md</code> — 最终选择 + 200 字以内说明为什么</li>
+          <li><code>questions.md</code> — ≥ 3 个真实疑问</li>
+        </ol>
+
+        <h5>验收标准（manager 30 秒拍板）</h5>
+        <ul class="accept-list">
+          <li><span class="ok">✅</span> 自己的 v1 + v2 在 ChatGPT 介入<strong>之前</strong>写好（看 prompts.md 时间戳）</li>
+          <li><span class="ok">✅</span> Step 3 反驳追问做了，且改活了至少 1 句</li>
+          <li><span class="ok">✅</span> 至少 1 个同事盲测反馈贴了截图</li>
+          <li><span class="ok">✅</span> 最终选择理由不是「ChatGPT 推荐」 — 必须有自己的判断</li>
+          <li><span class="ok">✅</span> 5 句钩子覆盖至少 3 种打法</li>
+          <li><span class="bad">❌</span> Prompt 只有 Step 2 没反驳追问 → 重做</li>
+          <li><span class="bad">❌</span> 自己的 v1/v2 是从 ChatGPT 反贴回去 → 直接打回</li>
+          <li><span class="bad">❌</span> 没做盲测 → 重做（盲测是核心，不是 optional）</li>
+          <li><span class="bad">❌</span> 选最终钩子的理由 < 50 字或纯感觉 → 重写</li>
+        </ul>
+
+        <h5>这一步在教你什么</h5>
+        <p>核心能力：判断「什么是好钩子」的肌肉。新人写不出好标题不是缺创意，是没建立判断标准。让 AI 出 100 个钩子你也挑不出最好的 — 你得先有标尺。</p>
+        <p>所有约束（自己先写 / 让 AI 解释打法 / 反驳追问 / 同事盲测）都是为了在你脑子里塞一把"好钩子"的标尺：(1) 多种打法的覆盖意识；(2) 读者心理具体化能力；(3) 挑刺习惯；(4) 同事盲测的卫生意识。</p>
+        <p>跑完这个任务，下次写标题你会自然而然走这套流程，<strong>不用想</strong>。这才是肌肉。</p>
+      </div>
+    </article>
+
+    <!-- D1-04 占位 -->
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D1-04</span>
+        <span class="task-dim">🎨 海报视觉</span>
+        <span class="phase-pill locked">○ Phase 2 解锁</span>
+        <span class="task-time">⏱ 45min</span>
+        <h4>给已发海报跑 ChatGPT user test（3 个 persona）</h4>
+      </header>
+      <div class="task-body">
+        <p>用 <code>/poster-user-test</code> skill 让 ChatGPT 扮演 3 个真实匠人 persona，模拟"我看完这张海报想不想点 / 报名"。练「用 AI 模拟用户」。</p>
+        <p style="color: var(--ink-3); font-size: 13px; margin-top: 10px;">📌 等 D1-1/D1-3 反馈调模板。</p>
+      </div>
+    </article>
+
+    <!-- D1-05 占位 -->
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D1-05</span>
+        <span class="task-dim">📈 用户增长</span>
+        <span class="phase-pill locked">○ Phase 2 解锁</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>按 AARRR 列 5 个增长 lever，挑 1 个估算 ROI</h4>
+      </header>
+      <div class="task-body">
+        <p>让 ChatGPT 列匠人可能的 5 个 growth lever（按 AARRR 框架），挑一个估算成本 + 预期影响 + 失败概率。练「用 AI 做框架分析」。</p>
+        <p style="color: var(--ink-3); font-size: 13px; margin-top: 10px;">📌 等 D1-1/D1-3 反馈调模板。</p>
+      </div>
+    </article>
+
+    <!-- D1-06 占位 -->
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D1-06</span>
+        <span class="task-dim">🎯 Campaign 策划</span>
+        <span class="phase-pill locked">○ Phase 2 解锁</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>给真活动出 3 个情绪驱动 campaign 大纲</h4>
+      </header>
+      <div class="task-body">
+        <p>给一个真活动，让 ChatGPT 各出一个恐惧驱动 / 向往驱动 / 社交认同的 campaign 大纲，对比哪个匹配公司 voice。练「用 AI 出多版本对比」。</p>
+        <p style="color: var(--ink-3); font-size: 13px; margin-top: 10px;">📌 等 D1-1/D1-3 反馈调模板。</p>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- D2 -->
+  <div class="day-header">
+    <h3>D2 · 10 个真实输出任务</h3>
+    <span class="day-meta">6 维度真实产出 + 反思 · 完成后能独立交付 marketing 主线工作</span>
+  </div>
+  <div class="task-grid">
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D2-01</span>
+        <span class="task-dim">🎯 Campaign 策划</span>
+        <span class="phase-pill locked">○ Phase 3 解锁</span>
+        <span class="task-time">⏱ 2h</span>
+        <h4>写下周真活动的完整 campaign 方案</h4>
+      </header>
+      <div class="task-body"><p>目标 / 受众 / 核心信息 / 3 渠道分发 / CTA / KPI / 失败 fallback。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D2-02</span>
+        <span class="task-dim">🪝 标题钩子</span>
+        <span class="phase-pill locked">○ Phase 3 解锁</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>同一活动写公众号 + 小红书 + LinkedIn 三套标题</h4>
+      </header>
+      <div class="task-body"><p>三个渠道写 3 套标题，对比为什么不同。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D2-03</span>
+        <span class="task-dim">🎨 海报视觉</span>
+        <span class="phase-pill locked">○ Phase 3 解锁</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>写海报 brief（不是设计稿）→ ChatGPT user test → 再交设计师</h4>
+      </header>
+      <div class="task-body"><p>brief 写得好坏决定设计师产出，先用 AI 跑一遍 user test。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D2-04</span>
+        <span class="task-dim">📈 用户增长</span>
+        <span class="phase-pill locked">○ Phase 3 解锁</span>
+        <span class="task-time">⏱ 2h</span>
+        <h4>写一个本季度可执行的增长实验提案</h4>
+      </header>
+      <div class="task-body"><p>假设 / 方法 / 成本 / 预期 / fallback 五段。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D2-05</span>
+        <span class="task-dim">🧠 Marketing sense</span>
+        <span class="phase-pill locked">○ Phase 3 解锁</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>抓最近爆款写 200 字"它为啥爆" → ChatGPT 反驳你</h4>
+      </header>
+      <div class="task-body"><p>看你能不能扛住反驳。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D2-06</span>
+        <span class="task-dim">📚 未知知识</span>
+        <span class="phase-pill locked">○ Phase 3 解锁</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>选业务相关 1 个完全不懂的领域，1 小时学到能跟同事讨论</h4>
+      </header>
+      <div class="task-body"><p>雅思 / 留学 / PR 签证 / IELTS / OnPath / Pathway。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D2-07</span>
+        <span class="task-dim">📝 内容产出</span>
+        <span class="phase-pill locked">○ Phase 3 解锁</span>
+        <span class="task-time">⏱ 2h</span>
+        <h4>真实公众号活动预热文，跑 /wechat-article-quality 自审</h4>
+      </header>
+      <div class="task-body"><p>9 维度自审 ≥ 75 分才能交。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D2-08</span>
+        <span class="task-dim">📝 跨渠道</span>
+        <span class="phase-pill locked">○ Phase 3 解锁</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>把 D2-07 改成小红书 + LinkedIn 版</h4>
+      </header>
+      <div class="task-body"><p>对比同一故事在 3 个渠道的差异。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D2-09</span>
+        <span class="task-dim">🤝 Peer review</span>
+        <span class="phase-pill locked">○ Phase 3 解锁</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>给同事 campaign 方案做 review</h4>
+      </header>
+      <div class="task-body"><p>ChatGPT 当一道筛子，最终意见自己出。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D2-10</span>
+        <span class="task-dim">💭 反思</span>
+        <span class="phase-pill locked">○ Phase 3 解锁</span>
+        <span class="task-time">⏱ 30min</span>
+        <h4>今天 AI 帮倒忙的 3 个时刻 + 你判断"AI 错了"的依据</h4>
+      </header>
+      <div class="task-body"><p>这是最重要的一个 — 没这步前 9 个任务白做。</p></div>
+    </article>
+
+  </div>
+
+  <!-- D3 -->
+  <div class="day-header">
+    <h3>D3 · 3 个 Skill engineering 任务</h3>
+    <span class="day-meta">⚠️ 切回 Claude Code · 把工具变成你自己的</span>
+  </div>
+  <div class="task-grid">
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D3-01</span>
+        <span class="task-dim">🛠️ Skill engineering</span>
+        <span class="phase-pill locked">○ Phase 4 解锁</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>读懂 1 个常用 skill，写 100 字"它哪里跟公司不匹配"</h4>
+      </header>
+      <div class="task-body"><p>挑 <code>/wechat-article-quality</code>，读 SKILL.md → 跑一遍 → 找出评分逻辑跟公司实际不匹配的地方。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D3-02</span>
+        <span class="task-dim">🛠️ Skill engineering</span>
+        <span class="phase-pill locked">○ Phase 4 解锁</span>
+        <span class="task-time">⏱ 1h</span>
+        <h4>改 1 行 skill：把不匹配的维度改了，跑前后对比，提 PR</h4>
+      </header>
+      <div class="task-body"><p>从用户进阶到 skill 工程师的关键一步。</p></div>
+    </article>
+
+    <article class="task locked">
+      <header class="task-head">
+        <span class="task-id">D3-03</span>
+        <span class="task-dim">🛠️ Skill engineering</span>
+        <span class="phase-pill locked">○ Phase 4 解锁</span>
+        <span class="task-time">⏱ 2h</span>
+        <h4>写 1 个 mini skill：发现现有没覆盖的场景，按模板写最小可用版</h4>
+      </header>
+      <div class="task-body"><p>「群公告质量审」/「LinkedIn 帖审」之类。</p></div>
+    </article>
+
+  </div>
+
+  <!-- Manager 验收 -->
+  <section class="section">
+    <p class="section-eyebrow">Manager 验收</p>
+    <h2>收到提交后按这 5 步看</h2>
+    <div class="manager-panel">
+      <h3>📋 Manager 验收 5 步法（30 秒拍板）</h3>
+      <ol>
+        <li><strong>看 prompt 演化记录</strong>（不看最终稿） — 至少改了 2 轮才算合格</li>
+        <li><strong>看提问列表</strong> — 没有 ≥ 3 个真实疑问 = 直接打回</li>
+        <li><strong>看 fact-check 痕迹</strong> — 引用案例 / 数据要求员工贴搜索证据</li>
+        <li><strong>看自审分</strong> — 任务指定的自审 skill ≥ 75 分才算过</li>
+        <li><strong>看任务专属 checklist</strong> — 每个任务"验收标准"那一栏，5 条以内 30 秒拍板</li>
+      </ol>
+      <p style="margin-top: 14px; color: #1e3a8a; font-weight: 600;">⚠️ 前置 — manager 自己得会：你自己先把 D1-1 / D1-3 跑一遍。manager 不会用 AI，验收会变成走过场，整个 pilot 翻车。</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <p>
+      📁 markdown 源文件（PR review 改这里）：<a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/ai-training-tasks/" target="_blank" rel="noopener">.claude/skills/employee-onboarding/ai-training-tasks/</a><br>
+      📄 总规划文档：<a href="https://bitbucket.org/jiang_ren/jr-academy-ai/src/main/.claude/skills/employee-onboarding/ai-training-tasks/PLAN.md" target="_blank" rel="noopener">PLAN.md</a><br>
+      🔗 onboarding 主页：<a href="../">../</a><br>
+      🚫 noindex / nofollow · 内部训练材料 · 请勿对外分享
+    </p>
+  </footer>
+
+</div>
+</body>
+</html>
