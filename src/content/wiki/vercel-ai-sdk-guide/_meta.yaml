@@ -1,0 +1,10 @@
+title: "Vercel AI SDK 实战指南"
+description: "用 TypeScript 构建 AI 应用的最佳工具链：多 Provider 切换、流式聊天、结构化输出、Tool Calling、Agent 循环、RAG 检索增强——从零到上线全覆盖"
+tags:
+  - vercel-ai-sdk
+  - typescript
+  - ai-app
+  - nextjs
+  - llm
+  - agent
+order: 21
