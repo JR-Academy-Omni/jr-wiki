@@ -33,7 +33,7 @@
 ## P2 · 短书扩章（5 章 → 7 章）
 
 ### bolt-new-guide
-- [ ] bolt-new-guide/06-fullstack-deploy.md — new-chapter: bolt.new + Supabase + Vercel 全栈部署实战（注册 → 数据库 → 部署，2200+ 字 + 1 截图 + 完整代码块）
+- [x] bolt-new-guide/06-fullstack-deploy.md — new-chapter: bolt.new + Supabase + Vercel 全栈部署实战（注册 → 数据库 → 部署，2200+ 字 + 1 截图 + 完整代码块）
 - [ ] bolt-new-guide/07-team-collaboration.md — new-chapter: 团队协作工作流（GitHub 集成、code review、共享项目权限）
 
 ### cursor-guide
