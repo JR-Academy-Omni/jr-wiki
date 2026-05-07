@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-07T00:15:48.613Z",
+  "lockedAt": "2026-05-07T01:08:16.397Z",
   "version": 1,
   "slugs": [
     {
@@ -812,6 +812,16 @@
       "type": "chapter",
       "book": "n8n-guide",
       "slug": "02-five-killer-workflows"
+    },
+    {
+      "type": "chapter",
+      "book": "n8n-guide",
+      "slug": "03-self-hosting-deployment"
+    },
+    {
+      "type": "chapter",
+      "book": "n8n-guide",
+      "slug": "04-ai-agent-advanced"
     },
     {
       "type": "chapter",
