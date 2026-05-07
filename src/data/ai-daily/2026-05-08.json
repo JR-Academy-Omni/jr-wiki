@@ -1,0 +1,94 @@
+{
+  "date": "2026-05-08",
+  "summary": {
+    "hook": ["今日 5 条", "AI", "大事"],
+    "sub": "GPT-5.5新默认 · Anthropic借SpaceX超算 · DeepSeek估值450亿 · 白宫AI测试协议 · Grok 4.3登场",
+    "items": [
+      {"num": "01", "cat": "OpenAI 大更新", "numColor": "#10A37F", "t": "GPT-5.5 Instant 取代 GPT-5.3 成 ChatGPT 新默认模型"},
+      {"num": "02", "cat": "算力竞赛", "numColor": "#CC785C", "t": "Anthropic 签约 SpaceX Colossus，获 22 万张 NVIDIA GPU"},
+      {"num": "03", "cat": "中国 AI 融资", "numColor": "#E63946", "t": "DeepSeek 寻求首轮外部融资，估值冲 450 亿美元"},
+      {"num": "04", "cat": "AI 监管政策", "numColor": "#4285F4", "t": "美 CAISI 与 DeepMind/Microsoft/xAI 签 AI 国家安全测试协议"},
+      {"num": "05", "cat": "xAI 新模型", "numColor": "#9B59B6", "t": "Grok 4.3 发布：内置推理 + 视频输入 + 100 万 token 上下文"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt55-instant-default",
+      "idx": "01",
+      "catText": "OpenAI 大更新",
+      "accent": "#10A37F",
+      "bg": {"top": "#0a2a1f", "mid": "#0d3326", "bot": "#061a12", "topRight": "#1a4d35"},
+      "title": [{"text": "GPT-5.5 Instant "}, {"text": "取代 GPT-5.3 成 ChatGPT 新默认", "hl": true}],
+      "oneline": [{"text": "ChatGPT 默认引擎全面切换，"}, {"text": "图像理解与多步任务完成能力全面升级", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "OpenAI 发布 GPT-5.5 Instant，取代 GPT-5.3 成为 ChatGPT 默认模型，提升复杂目标理解、工具调用、图像理解及 STEM 问题解答能力，并优化网页搜索触发时机"},
+        {"k": "为什么重要", "v": "默认模型升级意味着数亿 ChatGPT 用户无需任何操作即获得更强 AI，这是 OpenAI 在 GPT-5.5 进入 AWS Bedrock 后的全民覆盖策略，实现 B2C 与 B2B 双线推进"},
+        {"k": "对你的影响", "v": "日常使用 ChatGPT 的用户即刻受益；开发者若已接入 GPT-5.3 API，需评估 5.5 Instant 的响应差异和成本变化，建议在生产环境验证后再全量迁移"}
+      ],
+      "src": "📎 techcrunch.com · openai.com"
+    },
+    {
+      "slug": "02-anthropic-spacex-colossus",
+      "idx": "02",
+      "catText": "算力竞赛",
+      "accent": "#CC785C",
+      "bg": {"top": "#2a1500", "mid": "#331a00", "bot": "#1a0d00", "topRight": "#4d2800"},
+      "title": [{"text": "Anthropic 签约 SpaceX，"}, {"text": "借 Colossus 超算获 22 万张 GPU", "hl": true}],
+      "oneline": [{"text": "马斯克曾称 Claude「邪恶」，"}, {"text": "Anthropic 却签约跑在他的英伟达超算上", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "Anthropic 与 SpaceX 签署协议，获得 Colossus 1 数据中心逾 300 兆瓦算力（超 22 万张 NVIDIA GPU），并立即将 Claude Pro/Max/Team/Enterprise 速率限制翻倍，取消高峰时段限速"},
+        {"k": "为什么重要", "v": "Colossus 是目前全球已知最大单体 AI 训练集群之一，Anthropic 此举大幅缓解算力瓶颈；在马斯克公开批评 Anthropic 的背景下，这笔交易具有强烈的商业优先于政治信号意义"},
+        {"k": "对你的影响", "v": "Claude Code 重度用户和企业 API 调用者将直接感受到响应速率提升；对比 OpenAI 的 AWS 部署，Anthropic 选择 SpaceX 私有算力路线，供应商多样化竞争格局进一步加剧"}
+      ],
+      "src": "📎 bloomberg.com · benzinga.com"
+    },
+    {
+      "slug": "03-deepseek-45b-valuation",
+      "idx": "03",
+      "catText": "中国 AI 融资",
+      "accent": "#E63946",
+      "bg": {"top": "#2a0005", "mid": "#330008", "bot": "#1a0003", "topRight": "#4d000d"},
+      "title": [{"text": "DeepSeek 首次外部融资，"}, {"text": "估值冲 450 亿美元", "hl": true}],
+      "oneline": [{"text": "国家大基金 + 腾讯联合领投，"}, {"text": "估值从数周前 200 亿翻倍至 450 亿", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "DeepSeek 寻求首轮外部融资，中国国家集成电路产业投资基金（大基金）洽谈领投，腾讯等机构也在谈判中，最终阵容尚未确定，目标估值约 450 亿美元"},
+        {"k": "为什么重要", "v": "DeepSeek 此前无外部投资，估值在数周内从约 200 亿飙升至 450 亿，反映出其 V4 系列模型在性能与成本双重维度对行业格局的冲击已被资本充分认可，国家资本入局还增添地缘政治复杂性"},
+        {"k": "对你的影响", "v": "融资后 DeepSeek 将加速模型迭代和算力采购，其低价开源策略将持续向 OpenAI/Anthropic 施压；企业在评估使用 DeepSeek 时需额外考量国家资本背景带来的数据合规风险"}
+      ],
+      "src": "📎 technode.com · hokanews.com"
+    },
+    {
+      "slug": "04-caisi-ai-security-agreements",
+      "idx": "04",
+      "catText": "AI 监管政策",
+      "accent": "#4285F4",
+      "bg": {"top": "#001540", "mid": "#001d55", "bot": "#000d2b", "topRight": "#002b80"},
+      "title": [{"text": "美 CAISI 与 DeepMind/微软/xAI"}, {"text": "签署 AI 国家安全测试协议", "hl": true}],
+      "oneline": [{"text": "商务部 AI 中心上线预部署评估，"}, {"text": "首次纳入前沿模型安全能力的联邦标准审查", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "美国商务部 NIST 旗下 AI 标准与创新中心 CAISI 与 Google DeepMind、微软及 xAI 签署协议，将对上述机构的前沿模型开展预部署安全评估与 AI 安全能力定向研究"},
+        {"k": "为什么重要", "v": "这是美国政府首次将三家主流 AI 实验室的模型纳入统一的联邦预部署测试框架，标志着 AI 安全监管从自愿披露向结构化政府评估转变，为全球 AI 监管标准制定树立参照"},
+        {"k": "对你的影响", "v": "企业级 AI 采购决策中，通过政府安全测试将成为新的信任背书；在澳洲及亚太市场，跟进美国联邦标准的监管动向将影响本地 AI 合规框架建设时间表"}
+      ],
+      "src": "📎 nist.gov · nextgov.com"
+    },
+    {
+      "slug": "05-grok-43-release",
+      "idx": "05",
+      "catText": "xAI 新模型",
+      "accent": "#9B59B6",
+      "bg": {"top": "#1a0030", "mid": "#21003d", "bot": "#10001e", "topRight": "#32006b"},
+      "title": [{"text": "Grok 4.3 发布："}, {"text": "内置推理 + 视频输入 + 100 万 token 上下文", "hl": true}],
+      "oneline": [{"text": "xAI 推出高性价比前沿模型，"}, {"text": "同步上线自定义语音克隆与 CarPlay 集成", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "xAI 发布 Grok 4.3，定位高性价比前沿模型，支持 100 万 token 上下文、内置推理模式和原生视频输入；同步推出 Custom Voices 功能可从短录音克隆声音，并宣布 Grok Voice 接入 Apple CarPlay"},
+        {"k": "为什么重要", "v": "Grok 4.3 直接与 GPT-5.5 Instant、Claude Sonnet 4.6 竞争性价比赛道；CarPlay 集成意味着 Grok 将成为继 ChatGPT、Siri 后第三个进入车载 AI 场景的主流模型，抢占移动端入口"},
+        {"k": "对你的影响", "v": "视频理解和超长上下文应用场景的开发者有了新的低成本选择；语音克隆功能需关注其滥用风险，Anthropic/OpenAI 已在相关场景设置使用门槛，xAI 的开放策略值得持续观察"}
+      ],
+      "src": "📎 medium.com · 9to5mac.com"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.5新默认 / Anthropic借SpaceX超算 / DeepSeek估值450亿 / 白宫AI测试协议 / Grok 4.3登场"
+  }
+}
