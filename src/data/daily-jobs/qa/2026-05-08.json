@@ -1,0 +1,29 @@
+{
+  "bootcamp": "qa",
+  "date": "2026-05-08",
+  "cohort": "AU",
+  "generatedAt": "2026-05-08T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Senior QA Engineer (12-Month Fixed-Term Contract)",
+      "company": "Visa",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/sr-qa-engineer-12-month-fixed-term-contract-at-visa-3781931607",
+      "why": "Visa 全球支付平台的 Senior QA 合同岗，Sydney 办公室，12 个月 FTC 是进入顶级金融科技品牌的低门槛通道——QA Bootcamp Phase 3 的 API 测试（Postman/REST Assured）和支付流程测试案例正好对标 Visa 的测试重点；合同期满转正率高，是学员积累顶级品牌背景的最快路径。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior/Mid",
+      "title": "QA Automation Engineer",
+      "company": "CMC Markets APAC & Canada",
+      "location": "Sydney, NSW (Barangaroo)",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/qa-automation-engineer-at-cmc-markets-apac-canada-3569050224",
+      "why": "CMC Markets 是 Sydney Barangaroo 办公、面向 APAC 的线上交易平台，自动化测试要求覆盖前端（Selenium/Playwright）和 API 层，与 QA Bootcamp 的自动化测试框架模块直接对应；金融科技背景利于后续跳槽四大行或 Visa/Mastercard，是毕业即可投的优质跳板岗。"
+    }
+  ]
+}

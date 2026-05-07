@@ -1,0 +1,39 @@
+{
+  "bootcamp": "ai-adoption-bootcamp",
+  "date": "2026-05-08",
+  "cohort": "AU",
+  "generatedAt": "2026-05-08T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Senior Product Manager – AI Research",
+      "company": "Canva",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/senior-product-manager-ai-research-at-canva-4316526432",
+      "why": "Canva AI Research 的 Senior PM，掌管把前沿 AI 研究转化为产品功能的路线图——这正是 AI Adoption Bootcamp 培养的核心能力：用 AI 工具做需求分析、用 Prompt 工程驱动原型验证；Canva 是最易叩门的 T0 科技品牌，对 Bootcamp 毕业 PM 是理想的 3 年目标档。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Graduate/Junior",
+      "title": "2026 University Graduate – Junior Product Manager",
+      "company": "Adobe",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://www.linkedin.com/jobs/view/2026-university-graduate-junior-product-manager-at-adobe-4299045408",
+      "why": "Adobe 2026 应届 PM 项目，面向刚毕业或即将毕业的候选人，Adobe 产品深度融合 AI（Firefly、Acrobat AI Assistant），AI Adoption Bootcamp 的 AI 产品需求文档撰写和 AI 工具工作流实战项目可直接映射 Adobe PM 日常工作，现在可以投递。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特别档 · Named Graduate Program",
+      "title": "2026 Australia Graduate Program – Sydney, Brisbane",
+      "company": "Macquarie Group",
+      "location": "Sydney / Brisbane",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/2026-australia-graduate-program-%E2%80%93-sydney-brisbane-at-macquarie-group-4162652132",
+      "why": "Macquarie 官方 2026 Graduate 项目，金融机构正在大规模推进 AI 落地（AI Consultant 和 Solutions Architect 需求激增），AI Adoption Bootcamp 的业务流程 AI 改造模块和 Macquarie 的数字化战略高度契合；Macquarie 毕业生项目有明确轮岗制度，适合以 AI 视角切入金融科技赛道的学员。"
+    }
+  ]
+}

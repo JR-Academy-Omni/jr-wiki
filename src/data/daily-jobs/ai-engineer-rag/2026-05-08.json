@@ -1,0 +1,39 @@
+{
+  "bootcamp": "ai-engineer-rag",
+  "date": "2026-05-08",
+  "cohort": "AU",
+  "generatedAt": "2026-05-08T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Staff Machine Learning Engineer – Assistant",
+      "company": "Canva",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/staff-machine-learning-engineer-assistant-at-canva-3765106735",
+      "why": "Canva AI Assistant 团队的 Staff MLE，核心工作是构建 NLP/LLM 驱动的 Canva 内置助手，与 RAG Bootcamp 主线（向量检索 + LLM 生成 + 上下文注入）直接对齐；Staff 职级薪资在 AUD 220K+ 范围，是学员完成 RAG 专项后 2–3 年内可冲击的目标。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior/Mid",
+      "title": "LLM / RAG / AI Agent Engineer",
+      "company": "TALi Technologies",
+      "location": "Australia (Remote-friendly)",
+      "posted": "recently",
+      "url": "https://www.linkedin.com/jobs/view/llm-rag-ai-agent-engineer-at-tali-technologies-4340870753",
+      "why": "TALi 是澳洲 AI 临床转录初创，岗位 title 精准覆盖 RAG Bootcamp 三大核心：LLM + RAG pipeline + AI Agent；招聘经验要求相对灵活，RAG Bootcamp 的 Phase 3 端到端 RAG 项目（文档检索 + GPT-4 生成）可直接作为 portfolio 投递，适合结课即投。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特别档 · Named Graduate Program",
+      "title": "Software Engineer Graduate Program Intake 2026",
+      "company": "SafetyCulture",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/software-engineer-graduate-program-intake-2026-expression-of-interest-at-safetyculture-4177299774",
+      "why": "SafetyCulture 是 T1 澳洲 SaaS 明星企业，官方 2026 Intake 毕业生项目，入职后会轮岗包括 AI/ML 产品线；RAG Bootcamp 学员掌握 LangChain + vector DB 技术栈，能在面试中展示差异化竞争力，相比纯 SWE 候选人更有说服力。"
+    }
+  ]
+}
