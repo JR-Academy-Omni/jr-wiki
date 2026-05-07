@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-06T23:50:01.161Z",
+  "lockedAt": "2026-05-07T00:15:48.613Z",
   "version": 1,
   "slugs": [
     {
@@ -113,6 +113,10 @@
     {
       "type": "article",
       "slug": "anthropic-30b-arr-surpasses-openai-2026"
+    },
+    {
+      "type": "article",
+      "slug": "anthropic-google-200b-cloud-bet-2026"
     },
     {
       "type": "article",
