@@ -1,0 +1,127 @@
+{
+  "date": "2026-05-09",
+  "summary": {
+    "hook": [
+      {"text": "GPT-5.5"},
+      {"text": "广告测试 · 版权诉讼 · 白宫审查令", "hl": true}
+    ],
+    "sub": "OpenAI 一周三弹商业化，Meta 被五大出版商告上法庭，白宫拟 FDA 式 AI 审查令",
+    "items": [
+      {"num": "01", "cat": "产品", "numColor": "#10A37F", "t": "GPT-5.5 Instant上线，ChatGPT 同步测试广告系统"},
+      {"num": "02", "cat": "算力", "numColor": "#CC785C", "t": "Anthropic × SpaceX 签 300MW 算力协议，联手 Blackstone/Goldman 建企业 AI 服务公司"},
+      {"num": "03", "cat": "版权", "numColor": "#0082FB", "t": "五大出版商起诉 Meta Llama，Zuckerberg 被指亲批盗版训练数据"},
+      {"num": "04", "cat": "政策", "numColor": "#B22234", "t": "白宫起草 AI 模型审查行政令，仿 FDA 药审逐一把关"},
+      {"num": "05", "cat": "模型", "numColor": "#7B61FF", "t": "xAI 发布 Grok 4.3，NVIDIA + IREN 宣布联手建 5GW AI 基础设施"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-gpt55-voice-ads",
+      "idx": "01",
+      "catText": "OpenAI 产品",
+      "accent": "#10A37F",
+      "bg": {"top": "#ECFDF5", "mid": "#D1FAE5", "bot": "#A7F3D0", "topRight": "#6EE7B7"},
+      "title": [
+        {"text": "GPT-5.5 Instant 上线，"},
+        {"text": "ChatGPT 同步测试广告 + 三路语音模型", "hl": true}
+      ],
+      "oneline": [
+        {"text": "OpenAI 一周三弹："},
+        {"text": "新默认模型幻觉减半、语音 API 实时 70 语种互译、广告自助投放全面开放", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "5月5-7日 OpenAI 连发三项更新：GPT-5.5 Instant 成 ChatGPT 新默认模型，幻觉率比上代降 52.5%；三款语音模型开放 API，支持 70 语种实时互译；广告系统向美国中小企业开放自助投放。"},
+        {"k": "为什么重要", "v": "语音 API 意味着 OpenAI 正在把「实时对话」打包成基础设施卖给开发者；广告系统开闸则是 ChatGPT 月活超 10 亿后，首次系统性商业化变现的标志性动作。"},
+        {"k": "对你的影响", "v": "开发者可用 GPT-Realtime-2 构建多语言语音客服，成本大幅下降；普通用户将在 ChatGPT 中看到品牌广告，订阅用户暂时豁免，但长期走向值得关注。"}
+      ],
+      "src": "📎 openai.com · techcrunch.com · 9to5mac.com"
+    },
+    {
+      "slug": "02-anthropic-spacex-enterprise",
+      "idx": "02",
+      "catText": "算力 · 企业",
+      "accent": "#CC785C",
+      "bg": {"top": "#FFF7ED", "mid": "#FFEDD5", "bot": "#FED7AA", "topRight": "#FB923C"},
+      "title": [
+        {"text": "Anthropic × SpaceX 签 300MW 算力协议，"},
+        {"text": "同步联手 Blackstone/Goldman 建企业 AI 公司", "hl": true}
+      ],
+      "oneline": [
+        {"text": "Anthropic 双线出击："},
+        {"text": "SpaceX Colossus 1 的 22 万张 GPU 归其调用，新合资公司直攻 PE 控股中型企业", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Anthropic 5 月 6 日宣布与 SpaceX 签约，独占 Colossus 1 数据中心超过 300MW 算力（约 22 万张 NVIDIA GPU）；同时与 Blackstone、Hellman & Friedman、Goldman Sachs 共同创建新 AI 服务公司，专攻 PE 持股中型企业的 Claude 落地。"},
+        {"k": "为什么重要", "v": "Anthropic 已与 Amazon（5GW）、Google+Broadcom（5GW）、Microsoft+NVIDIA（300 亿 Azure）签算力协议，加上本次 SpaceX，算力储备正逼近 OpenAI 量级，为下一代 Claude 训练打底。"},
+        {"k": "对你的影响", "v": "Anthropic CEO 警告：未拥抱 AI 的 SaaS 公司可能破产；PE 系企业将成最早一批大规模部署 Claude 的「试验田」，行业竞争压力将通过 PE 投资链传导至各垂直赛道。"}
+      ],
+      "src": "📎 bloomberg.com · cnbc.com · anthropic.com"
+    },
+    {
+      "slug": "03-meta-llama-copyright",
+      "idx": "03",
+      "catText": "版权 · 法律",
+      "accent": "#0082FB",
+      "bg": {"top": "#EFF6FF", "mid": "#DBEAFE", "bot": "#BFDBFE", "topRight": "#93C5FD"},
+      "title": [
+        {"text": "五大出版商起诉 Meta Llama，"},
+        {"text": "Zuckerberg 被指亲批盗版 LibGen 训练数据", "hl": true}
+      ],
+      "oneline": [
+        {"text": "Elsevier、Hachette 等五家出版商在纽约联邦法院起诉："},
+        {"text": "Meta 员工下载 82TB 盗版内容，Zuckerberg 本人签字授权", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Elsevier、Cengage、Hachette、Macmillan、McGraw Hill 及作家 Scott Turow 于 5 月 5 日联名起诉 Meta，指控其从 LibGen 等盗版网站下载约 82TB 数据训练 Llama，Mark Zuckerberg 在内部 AI 高管提示「数据集为已知盗版」后仍亲笔签字授权使用。"},
+        {"k": "为什么重要", "v": "这是版权方对 AI 公司规模最大的集体诉讼之一，且掌握了 Zuckerberg 邮件的直接证据，若胜诉将创下开源模型训练数据赔偿先例，影响整个开源 AI 生态的数据合规标准。"},
+        {"k": "对你的影响", "v": "使用基于 Llama 的开源模型做商业应用的企业需评估法律风险；版权合规成本将成 AI 产品开发的新变量，高质量「干净数据集」的商业价值将大幅攀升。"}
+      ],
+      "src": "📎 washingtonpost.com · thenextweb.com · techstartups.com"
+    },
+    {
+      "slug": "04-whitehouse-ai-regulation",
+      "idx": "04",
+      "catText": "政策 · 监管",
+      "accent": "#B22234",
+      "bg": {"top": "#FFF1F2", "mid": "#FFE4E6", "bot": "#FECDD3", "topRight": "#FDA4AF"},
+      "title": [
+        {"text": "白宫起草 AI 模型审查行政令，"},
+        {"text": "仿 FDA 药审模式逐一把关新模型上线", "hl": true}
+      ],
+      "oneline": [
+        {"text": "国家经济委员会主任 Hassett 5 月 7 日披露："},
+        {"text": "白宫正为新 AI 模型设计「上市前审查」机制，类比 FDA 药物审批程序", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "白宫国家经济委员会主任 Kevin Hassett 5 月 7 日表示，白宫正在起草行政令，要求新 AI 模型在公开发布前接受政府审查，审查框架类似 FDA 对新药的上市前审批机制。此前康涅狄格州已通过美国最全面的 AI 法案之一，艾奥瓦州签署聊天机器人安全法。"},
+        {"k": "为什么重要", "v": "若联邦 AI 审查令落地，将是美国首次在联邦层面对 AI 模型设置强制合规门槛，改变当前「先发布后监管」的行业惯例。大型科技公司需提前进行安全评估，小型 AI 创业公司合规成本将显著上升。"},
+        {"k": "对你的影响", "v": "在美发布或使用 AI 产品的企业需关注行政令进展；澳洲等跟随美国监管信号的市场可能陆续跟进类似要求。AI 合规将从可选项变为必选项，及早建立安全评估流程的企业将取得先发优势。"}
+      ],
+      "src": "📎 transparencycoalition.ai · neuralbuddies.com · cw.com.tw"
+    },
+    {
+      "slug": "05-grok43-nvidia-iren",
+      "idx": "05",
+      "catText": "模型 · 算力",
+      "accent": "#7B61FF",
+      "bg": {"top": "#F5F3FF", "mid": "#EDE9FE", "bot": "#DDD6FE", "topRight": "#C4B5FD"},
+      "title": [
+        {"text": "xAI 发布 Grok 4.3，"},
+        {"text": "NVIDIA + IREN 联手布局 5GW AI 算力基础设施", "hl": true}
+      ],
+      "oneline": [
+        {"text": "Grok 4.3 主打「低成本前沿推理 + 百万 token 上下文 + 原生视频输入」；"},
+        {"text": "NVIDIA 与 IREN 签署战略协议，目标部署高达 5GW 的 AI DSX 基础设施", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "xAI 发布 Grok 4.3：内置推理能力、100 万 token 上下文窗口、原生视频输入，定位「经济高效的前沿模型」；同日 NVIDIA 与数字基础设施公司 IREN 宣布战略合作，承诺部署最高 5GW 的 AI 算力，采用 NVIDIA DSX 架构。"},
+        {"k": "为什么重要", "v": "Grok 4.3 的百万 token 上下文与原生视频处理，意味着 xAI 正向「全模态代理」靠拢；NVIDIA+IREN 5GW 协议则是单笔数据中心布局中量级最高的之一，折射出 AI 推理需求的指数级扩张。"},
+        {"k": "对你的影响", "v": "开发者可用 Grok 4.3 以更低成本处理超长文档和视频内容；算力供给端的大规模扩容预示推理价格中期走低，AI 应用的边际成本有望持续下降，为更多场景商业化打开空间。"}
+      ],
+      "src": "📎 medium.com · taiwannews.com.tw · x.ai"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.5广告测试 / Anthropic×SpaceX算力 / Meta版权诉讼 / 白宫AI药审令 / Grok 4.3"
+  }
+}
