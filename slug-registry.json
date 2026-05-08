@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-07T00:15:48.613Z",
+  "lockedAt": "2026-05-09T00:00:00.000Z",
   "version": 1,
   "slugs": [
     {
@@ -104,6 +104,14 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-05-08"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-05-09"
+    },
+    {
+      "type": "article",
       "slug": "ai-tool-supply-chain-security-vercel-oauth"
     },
     {
@@ -200,6 +208,14 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-05-08"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-05-09"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -284,6 +300,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-umelb-2026-05-08"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-unsw-2026-04-25"
     },
     {
@@ -305,6 +325,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-05-05"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-05-08"
     },
     {
       "type": "article",
@@ -388,6 +412,10 @@
     },
     {
       "type": "book",
+      "slug": "continue-guide"
+    },
+    {
+      "type": "book",
       "slug": "coze-guide"
     },
     {
@@ -456,6 +484,10 @@
     },
     {
       "type": "book",
+      "slug": "vercel-ai-sdk-guide"
+    },
+    {
+      "type": "book",
       "slug": "windsurf-guide"
     },
     {
@@ -507,6 +539,16 @@
       "type": "chapter",
       "book": "bolt-new-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "bolt-new-guide",
+      "slug": "06-fullstack-deploy"
+    },
+    {
+      "type": "chapter",
+      "book": "bolt-new-guide",
+      "slug": "07-team-collaboration"
     },
     {
       "type": "chapter",
@@ -571,6 +613,31 @@
     {
       "type": "chapter",
       "book": "cline-guide",
+      "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "continue-guide",
+      "slug": "01-what-is-continue"
+    },
+    {
+      "type": "chapter",
+      "book": "continue-guide",
+      "slug": "02-getting-started"
+    },
+    {
+      "type": "chapter",
+      "book": "continue-guide",
+      "slug": "03-core-features"
+    },
+    {
+      "type": "chapter",
+      "book": "continue-guide",
+      "slug": "04-advanced-tips"
+    },
+    {
+      "type": "chapter",
+      "book": "continue-guide",
       "slug": "05-faq"
     },
     {
@@ -1042,6 +1109,31 @@
       "type": "chapter",
       "book": "v0-guide",
       "slug": "08-production-checklist"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "01-what-is-vercel-ai-sdk"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "02-getting-started"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "03-core-features"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "04-advanced-tips"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "05-faq"
     },
     {
       "type": "chapter",
