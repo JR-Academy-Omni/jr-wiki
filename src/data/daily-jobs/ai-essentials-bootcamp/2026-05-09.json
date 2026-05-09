@@ -1,0 +1,39 @@
+{
+  "bootcamp": "ai-essentials-bootcamp",
+  "date": "2026-05-09",
+  "cohort": "AU",
+  "generatedAt": "2026-05-09T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Staff Machine Learning Engineer - Assistant",
+      "company": "Canva",
+      "location": "Sydney, NSW",
+      "posted": "recently posted",
+      "url": "https://au.linkedin.com/jobs/view/staff-machine-learning-engineer-assistant-at-canva-3765106735",
+      "why": "Canva Assistant 团队 Staff 级 MLE，专注 NLU + GenAI 能力集成进产品；AI Essentials 课程重点（Prompt Engineering、LLM API 集成、GenAI 应用架构）与该岗核心需求精确吻合；Canva T0 品牌 + 旗舰 GenAI 方向，是 AI Essentials 学员 3-4 年后的顶级标杆岗位。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior/Entry",
+      "title": "Data Scientist / Machine Learning Engineer",
+      "company": "ANZ",
+      "location": "Sydney, NSW",
+      "posted": "recently posted",
+      "url": "https://au.linkedin.com/jobs/view/data-scientist-machine-learning-engineer-at-anz-4197809544",
+      "why": "ANZ 银行 DS/MLE 双头衔岗位，不要求科研背景；AI Essentials 覆盖的 Python 数据管道 + 模型应用 + AI 工具使用与该岗描述直接对应，T1 银行对 Bootcamp 毕业生友好；是 Essentials 学员进入金融科技 AI 领域的可及入口。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特别项目 · 2026/27 Intern",
+      "title": "Machine Learning Engineer Intern 2026/27",
+      "company": "Canva",
+      "location": "Sydney, NSW",
+      "posted": "recently posted",
+      "url": "https://au.linkedin.com/jobs/view/machine-learning-engineer-intern-2026-27-at-canva-4394303693",
+      "why": "Canva 2026/27 MLE 实习（T0），时间窗口与 Bootcamp 结课期吻合；AI Essentials 学员在课程中产出的 GenAI 应用 demo（Prompt Chain + LLM API 调用 + 评估框架）正是该实习申请最有力的 portfolio 展示材料。"
+    }
+  ]
+}

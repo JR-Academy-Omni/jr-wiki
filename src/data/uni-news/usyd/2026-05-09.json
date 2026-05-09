@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-09",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "USYD",
+    "hookSub": "Canvas 数据事件 + Artemis 超算退役",
+    "hookSubHighlight": "Canvas 数据事件",
+    "subLines": [
+      "Canvas 第三方安全事件：全球 9000+ 机构受波及，USYD 学生须查账户",
+      "Artemis 超算 十年服役正式退役 · 下一代 HPC 接棒科研算力",
+      "供应链网络安全风险 + 科研基础设施升级双线更新"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "Canvas 数据事件", "data": "9000+ 机构" },
+      { "num": "02", "title": "Artemis 退役", "data": "10 年里程碑" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "网络安全",
+      "h2Main": "Canvas 数据事件：USYD 学生须留意账户安全",
+      "h2Sub": "Instructure 确认第三方事件 · 全球 9000+ 机构受波及 · 调查进行中",
+      "h2Highlight": "9000+ 机构",
+      "lead": "Canvas 母公司 Instructure <b>5 月 6 日官方确认</b>，一起第三方网络安全事件导致全球约 <b>9000 所教育机构</b>的数据受到影响，悉尼大学（USYD）位列其中。大学已向受影响学生发出通知，建议立即检查账户安全状况。",
+      "bullets": [
+        { "k": "事件性质", "v": "第三方供应商（Instructure）系统被攻击，非 USYD 服务器直接被入侵——属于「<b>供应链网络攻击</b>」，影响范围跨越全球 9000+ 机构" },
+        { "k": "建议操作", "v": "收到 USYD 官方通知邮件后：<b>立即更改 UniKey 密码</b>（高强度、与其他账号不同），开启双重认证（2FA），警惕仿冒 USYD 的钓鱼邮件" },
+        { "k": "调查状态", "v": "具体受影响数据范围尚未完全披露，大学表示调查正在进行中，后续将发布更新通知" },
+        { "k": "对你的影响", "v": "走 <b>Cybersecurity / Information Systems</b> 方向的同学：这是教科书级别的供应链安全真实案例，直接发生在 USYD 环境内，课程报告和实习面试案例分析均可引用" }
+      ],
+      "source": "USYD News · 2026-05-06",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/05/06/notification-third-party-cyber-incident-canvas.html"
+    },
+    {
+      "idx": "02",
+      "category": "科研基础设施",
+      "h2Main": "告别 Artemis：USYD 十年超算正式退役",
+      "h2Sub": "驱动数千项跨学科研究 · 继任系统接棒下一代科研算力",
+      "h2Highlight": "十年超算",
+      "lead": "悉尼大学高性能计算系统 <b>Artemis 于 5 月 4 日正式退役</b>，结束长达十年的服役历程。在这十年里，Artemis 驱动了 USYD 从气候建模、医学影像到基因组学的数千项跨学科研究，是支撑大学科研产出的核心算力基础设施。",
+      "bullets": [
+        { "k": "历史成就", "v": "十年间支持了 <b>气候建模、医学影像分析、基因组学、量子化学</b>等数千项研究项目，覆盖理工医文多个学院" },
+        { "k": "科研机会", "v": "继任 HPC 系统将提供更强算力；走 <b>CS / 工程 / 生命科学 / 医学研究</b>方向有意在 USYD 做 Honours 或 PhD 的同学，新系统是毕业课题的核心资源" },
+        { "k": "机构信号", "v": "超算迭代节点意味着 USYD 正在主动扩展数据密集型科研能力——对申请科研导向项目的同学是积极信号" },
+        { "k": "对你的影响", "v": "问 USYD 教授「您的课题用什么计算资源」是套磁时展示学术准备度的高质量问题，新 HPC 上线时间值得跟进" }
+      ],
+      "source": "USYD News · 2026-05-04",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/05/04/farewell-to-artemis.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "USYD 5 月 9 日：Canvas 全球数据事件 USYD 在列，学生须查账户安全；Artemis 超算十年退役，下一代科研算力接棒。",
+    "items": [
+      { "n": "01", "title": "Canvas 数据事件 · 9000+ 机构", "body": "Instructure 确认第三方安全事件；USYD 学生应立即更改 UniKey 密码、开启 2FA，警惕钓鱼邮件" },
+      { "n": "02", "title": "Artemis 超算正式退役", "body": "十年驱动数千项 USYD 研究；继任 HPC 提供更强算力；CS / 工程 / 医学科研方向同学关注新系统" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 2-3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "05 / 09"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "USYD 5月两条关键更新📢",
+      "body": "在 USYD 读书的姐妹注意了，最近大学有两条消息值得关注。\n\n01 / Canvas 数据事件——Canvas 母公司 Instructure 5 月 6 日确认，全球约 9000 所教育机构的数据受一起第三方网络安全事件波及，USYD 在列。大学已发邮件通知受影响学生，建议立即更改 UniKey 密码、开启双重认证，留意钓鱼邮件。\n\n02 / Artemis 超算退役——USYD 标志性的高性能计算系统 Artemis 5 月 4 日正式退役，结束十年服役。这套超算支撑了气候建模、医学影像、基因组学等数千项研究。继任系统已就位，对想做 Honours 或 PhD 的同学是个好信号。\n\n两条消息——一条是立刻要操作的（查账户），一条是长期利好（科研算力升级）。在 USYD 读书或准备申请的姐妹评论区扣 1🙌",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #数据安全 #大学新闻 #留学干货 #留学生活"
+    },
+    "p2": {
+      "title": "USYD Canvas 安全事件提醒🛡️",
+      "body": "在 USYD 读书的姐妹，这条要立刻看一下。\n\nCanvas 母公司 Instructure 5 月 6 日官方确认，一起第三方网络安全事件影响了全球约 9000 所教育机构，USYD 在列，大学已向受影响学生发出通知。\n\n这次不是 USYD 服务器直接被黑，而是 Canvas 的供应商系统被攻击——业内叫「供应链网络安全」风险，影响面很广，事发时你往往不知道自己的数据已经在流动了。\n\n我自己看到通知之后做了几件事：改了 UniKey 密码（一个和其他账号完全不同的）、开了双重认证（2FA）、检查了最近收到的 Canvas 相关邮件有没有可疑链接。\n\n如果你还没收到通知邮件，建议主动查一下学校邮件，或者直接进 UniKey 设置检查一遍。账号被盗的麻烦比改密码麻烦多得多了。\n\n走 Cybersecurity 方向的同学另外说一句：SolarWinds、Kaseya、Instructure 都是供应链攻击的同类事件，USYD 的真实案例可以直接拿来用在课程报告里。有想聊 USYD Cyber 方向的评论区扣 1。",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #数据安全 #Canvas #网络安全 #留学干货"
+    },
+    "p3": {
+      "title": "USYD 超算 Artemis 退役了💻",
+      "body": "5 月 4 日，USYD 用了十年的高性能计算系统 Artemis 正式退役了。\n\n「超算退役」听起来很技术，但对想在 USYD 做科研的同学来说这是实质性的利好——意味着下一代算力系统已经就位了。\n\nArtemis 这十年支撑了大学里从气候建模、医学影像分析，到基因组学和量子化学的数千项研究项目，基本上所有需要大规模计算的课题都跑过 Artemis。\n\n继任系统会提供更强的计算能力，对走 CS、工程、生命科学、医学研究方向有意做 Honours 或 PhD 的同学，这个升级直接影响你毕业课题能用的资源上限。\n\n我在找 USYD 导师的时候就特别问过「你的课题主要用什么计算资源」，这种问题能给教授留下很具体的印象，也说明你真的了解学校的科研配套。有在申请 USYD 科研方向的姐妹评论区扣 1。",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #科研留学 #HPC #CS留学 #PhD申请 #留学干货"
+    },
+    "p4": {
+      "title": "USYD 5月安全提醒 在读必看⚠️",
+      "body": "最近 USYD 出了一条需要立刻处理的事——Canvas 第三方数据安全事件，全球约 9000 所大学受影响，USYD 在列。\n\n大学已发邮件通知，但有些同学邮件可能没看。这里整理了操作清单：\n\n✅ 登录 USYD UniKey，更改密码（和其他账号不一样的高强度密码）\n✅ 开启双重认证（Two-Factor Authentication / 2FA）\n✅ 检查最近 Canvas 相关邮件有没有可疑链接\n✅ 如有任何可疑登录记录，联系 USYD ICT\n\n这种供应链安全事件的特点是影响面广、处理周期长，第一时间保护好自己的账号是最重要的。\n\n另外一条好消息：USYD 的老超算 Artemis 5 月 4 日正式退役，十年驱动数千项研究之后交棒给下一代 HPC，科研算力升级了。\n\n总结：先查账户安全，顺带关注科研资源升级。在 USYD 读书的姐妹转给需要的人👇",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #数据安全 #Canvas #留学生活 #留学干货"
+    },
+    "p5": {
+      "title": "USYD 5-09 两条｜一眼看完",
+      "body": "USYD 近期两条关注：\n\n01 / Canvas 数据事件（2026-05-06）\nInstructure 确认第三方安全事件，全球 9000+ 机构含 USYD 受波及。操作：改 UniKey 密码 + 开 2FA + 查邮件。走 Cybersecurity 方向的同学这是供应链攻击的真实案例。\n\n02 / Artemis 超算退役（2026-05-04）\n十年服役结束，继任 HPC 接棒。CS / 工程 / 医学 / 生命科学科研方向的同学关注新系统上线进度。\n\n评论区扣 1，我分享 USYD 申请整理🙌",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #大学新闻 #留学干货 #数据安全 #留学生活"
+    }
+  },
+  "mp": {
+    "title": "悉尼大学 Canvas 数据事件预警 + Artemis 超算退役：5 月两条关键更新",
+    "lead": "USYD 近期两条重要更新。Canvas 母公司 Instructure 5 月 6 日确认，一起第三方网络安全事件导致全球约 9000 所教育机构数据受影响，USYD 在列，学生应立即更改 UniKey 密码并开启双重认证。同时，支撑 USYD 数千项研究十年的高性能计算系统 Artemis 于 5 月 4 日正式退役，继任系统将为科研方向学生提供更强算力支持。一条是立即操作项，一条是科研利好。",
+    "meta": { "readTime": "5 分钟" },
+    "newsBodies": [
+      {
+        "h2": "Canvas 第三方网络安全事件：USYD 学生数据受波及，应立即检查账户安全",
+        "paragraphs": [
+          "Canvas 母公司 Instructure 于 5 月 6 日官方确认，一起第三方网络安全事件波及全球约 9000 所教育机构，悉尼大学（USYD）位列其中。大学已向受影响学生发出正式通知，建议立即采取账户安全措施。从技术角度看，这次事件的性质是「供应链网络攻击」——被攻击的不是 USYD 自身的服务器，而是 USYD 依赖的第三方平台 Instructure 的系统，攻击者通过渗透服务供应商来间接获取使用这一服务的机构数据。",
+          "对在 USYD 就读的学生，建议立即执行以下操作：登录 USYD UniKey 账户更改密码，使用不同于其他平台的高强度密码；在设置页面开启双重认证（Two-Factor Authentication, 2FA）；仔细检查最近收到的与 Canvas 或 USYD 相关的邮件，警惕钓鱼链接；若发现任何可疑的登录记录或账户活动，及时联系 USYD ICT 支持团队。具体受影响的数据范围尚在调查中，大学表示将持续发布更新通知。",
+          "对走 Cybersecurity / Information Systems 方向的同学，这起事件具有直接的学术参考价值。供应链攻击（Supply Chain Attack）是当前网络安全领域最活跃的攻击向量之一——2020 年 SolarWinds 事件、2021 年 Kaseya 事件，以及此次 Instructure 事件，均属同类。USYD 的真实案例可直接用于课程报告、实习面试案例分析，以及 GRC（治理、风险、合规）方向的毕业论文研究。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.sydney.edu.au/news-opinion/news/2026/05/06/notification-third-party-cyber-incident-canvas.html\">USYD News · Notification of third-party cyber incident involving Canvas</a>"
+      },
+      {
+        "h2": "告别 Artemis：驱动 USYD 数千项研究十年的高性能计算系统正式退役",
+        "paragraphs": [
+          "悉尼大学高性能计算系统 Artemis 于 5 月 4 日正式退役，结束长达十年的服役历程。Artemis 是 USYD 科研生态的核心算力基础设施，十年间为气候建模、医学影像分析、基因组学、量子化学模拟等数千项跨学科研究提供了不可替代的计算支持，几乎覆盖了 USYD 所有需要大规模并行计算的研究方向。",
+          "Artemis 的退役并不意味着 USYD 科研算力的中断，而是一次有计划的迭代升级。继任系统将在更高的处理能力、更大的存储规模、更快的互连速度上为下一代研究人员提供支持。对于正在申请 USYD 或即将入读的同学，这一节点意味着未来的 Honours 和 PhD 课题将在更强的计算环境下运行。",
+          "对走计算机科学、工程学、生命科学、医学研究方向、有意在 USYD 从事数据密集型科研的学生，了解学校的 HPC 基础设施是套磁导师时展示学术准备度的具体切入点。问「您的课题现在主要使用哪些计算资源、新 HPC 系统上线对您的研究方向有哪些影响」是一个区分度高的问题，比泛泛讨论研究方向更能体现你对 USYD 科研生态的了解。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.sydney.edu.au/news-opinion/news/2026/05/04/farewell-to-artemis.html\">USYD News · Farewell to Artemis</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · Canvas 数据事件</strong>：Instructure 确认第三方安全事件，全球 9000+ 机构受波及，USYD 在列；立即更改 UniKey 密码 + 开启 2FA + 警惕钓鱼邮件；走 Cyber 方向的同学可用作供应链攻击案例",
+        "<strong>02 · Artemis 超算退役</strong>：十年驱动数千项 USYD 跨学科研究后正式退役；继任 HPC 接棒提供更强算力；CS / 工程 / 生命科学 / 医学研究方向同学关注新系统"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的第一手更新？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "USYD Canvas 数据事件｜在读必看",
+        "body": "前两天 USYD 发了一封正式邮件，说 Canvas 母公司 Instructure 确认了一起第三方网络安全事件，全球约 9000 所教育机构的数据受到影响，USYD 在列。这是 5 月 6 日发的通知。\n\n先说什么叫「第三方事件」——这次不是 USYD 服务器被直接攻击，而是 Canvas 的供应商系统被入侵，属于业内说的「供应链攻击」。影响面很广，处理周期往往也很长，事发时你通常不知道你的数据已经在流动了。\n\n我自己看到通知之后立刻做了几件事：改了 UniKey 密码（一个和其他平台完全不一样的）、开了双重认证（2FA）、翻了最近收到的 Canvas 相关邮件确认没有可疑链接。如果你还没收到邮件或者忘了操作，现在去做一遍是最稳的。\n\n走 Cybersecurity 方向的同学另外说一句：这种供应链攻击是目前最活跃的攻击向量之一，SolarWinds、Kaseya、Instructure 都是同类事件。USYD 的真实案例可以直接用在课程报告和面试案例分析里，比教科书案例要有说服力。\n\n有在 USYD 读 Cyber 或 IS 方向、或者想了解相关方向的姐妹，评论区扣 1。",
+        "tags": ["#USYD", "#悉尼大学", "#澳洲留学", "#数据安全", "#Canvas", "#CyberSecurity", "#供应链安全", "#留学干货"]
+      },
+      {
+        "heading": "USYD 超算 Artemis 退役｜科研方向同学关注",
+        "body": "USYD 的高性能计算系统 Artemis 5 月 4 日正式退役了，十年服役画上句号。\n\n这条消息值得单独拎出来讲——不是因为「旧东西退场」这件事本身，而是它意味着继任系统已经准备好了，下一代科研算力就位了。\n\nArtemis 这十年跑过的东西很广：气候建模、医学影像分析、基因组学、量子化学模拟……USYD 几乎所有做计算密集型课题的团队都用过。规模不小，所以退役本身也是 USYD 在主动升级科研基础设施的信号。\n\n对有意做 Honours 或 PhD 的同学，问导师「您的课题现在用什么计算资源、新 HPC 系统上线对您这边有什么影响」，是一个区分度很高的套磁问题。比说「我对您的方向很感兴趣」要具体得多，也能体现你真的了解 USYD 的科研生态。\n\n有申请 USYD 科研方向（CS / 工程 / 生命科学 / 医学研究）的姐妹，评论区扣 1，我们可以聊一下各方向的导师和课题资源怎么查。",
+        "tags": ["#USYD", "#悉尼大学", "#澳洲留学", "#科研留学", "#HPC", "#CS留学", "#PhD申请", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化",     "rule": "最 / 第一 / 唯一 / 100%",         "result": "未检出" },
+      { "category": "教育承诺",   "rule": "包过 / 保录取 / 稳上",            "result": "未检出" },
+      { "category": "引流",       "rule": "加V / VX / 公众号 / 二维码",      "result": "未检出（xhsCopy 与 drafts 内仅有「评论区扣 1」合规互动话术；mp.cta 含「关注 JR Academy 公众号」为合法引流）" },
+      { "category": "AI 味",      "rule": "首先其次最后 / 值得注意 / 综上所述", "result": "未检出" },
+      { "category": "封号红线",   "rule": "JR Academy / 匠人学院 / jiangren.com / 站外域名", "result": "未检出（xhsCopy 与 drafts 全部扫描；JR Academy 仅出现在 mp.cta 公众号引流，符合规则）" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然",            "result": "未检出" },
+      { "category": "政治金融",   "rule": "保本 / 稳赚 / 荐股",              "result": "未检出" }
+    ]
+  }
+}

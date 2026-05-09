@@ -1,0 +1,39 @@
+{
+  "bootcamp": "ai-engineer-bootcamp",
+  "date": "2026-05-09",
+  "cohort": "AU",
+  "generatedAt": "2026-05-09T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs) + WebSearch(atlassian.com/careers)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Senior Machine Learning Engineer",
+      "company": "Atlassian",
+      "location": "Sydney, NSW",
+      "posted": "recently posted",
+      "url": "https://au.linkedin.com/jobs/view/senior-machine-learning-engineer-at-atlassian-3808372394",
+      "why": "Atlassian 澳洲核心 ML 团队的 Senior MLE 岗位，负责 LLM 平台构建与语义搜索；Phase 3 LLMOps 实战项目（模型 serving + RAG pipeline 工程化）直接对应该岗 JD；Atlassian 是澳洲最顶级的 Tech 雇主，这是 AI Engineer Bootcamp 学员 2-3 年后的清晰晋升目标。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior/Entry",
+      "title": "Machine Learning Engineer",
+      "company": "ANZ",
+      "location": "Sydney, NSW",
+      "posted": "recently posted",
+      "url": "https://au.linkedin.com/jobs/view/machine-learning-engineer-anz-plus-at-anz-4158068200",
+      "why": "ANZ Plus（ANZ 银行数字子公司）招募 ML Engineer 参与金融 AI 产品落地，T1 银行对应届生背景更友好；Bootcamp Phase 2 构建的 ML 特征工程 pipeline + Phase 3 模型 API 部署项目可直接作为面试 portfolio 展示，是毕业 6-12 个月内的可及目标。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特别项目 · Graduate Program",
+      "title": "Machine Learning Engineer, 2026 Graduate",
+      "company": "Atlassian",
+      "location": "Sydney, NSW",
+      "posted": "2026 Graduate Program",
+      "url": "https://www.atlassian.com/company/careers/details/17901",
+      "why": "Atlassian 正式 2026 届 Graduate Program（T0 顶级品牌），MLE 方向应届生专属通道；Atlassian AI 团队的 LLM fine-tuning + 搜索优化方向与 AI Engineer Bootcamp 主线完美契合，毕业年份符合条件的学员应优先投递。"
+    }
+  ]
+}
