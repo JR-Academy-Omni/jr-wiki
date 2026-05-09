@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+
+<!-- 由 build/pipelines/uni-events.pipeline.ts 自动生成 · 2026-05-09T23:42:31.735Z -->
+<html lang="zh-CN">
+<!-- 校园活动 · 2026-05-11 · 6 校 -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>校园活动 · 2026-05-11 · 6 校</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800;900&family=Space+Grotesk:wght@500;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #160a2c;
+  --bg: #fef8f1;
+  --muted: #71628a;
+  --border-soft: rgba(106, 72, 170, 0.12);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Noto Sans SC', system-ui, sans-serif;
+  padding: 32px 20px 80px;
+  line-height: 1.6;
+}
+.page { max-width: 1400px; margin: 0 auto; }
+
+.breadcrumb {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 12px; color: var(--muted);
+  margin-bottom: 20px;
+  display: flex; align-items: center; gap: 8px;
+}
+.breadcrumb a { color: var(--muted); text-decoration: none; }
+.breadcrumb a:hover { color: #ff5757; }
+.breadcrumb .sep { opacity: 0.5; }
+.breadcrumb .current { color: #ff5757; font-weight: 700; }
+
+.page-head {
+  background: linear-gradient(135deg, #ff5757, #ff8a3d, #ffd44d);
+  border-radius: 24px;
+  padding: 36px 40px;
+  margin-bottom: 32px;
+  color: #fff;
+  box-shadow: 0 20px 60px rgba(255, 87, 87, 0.2);
+}
+.page-head h1 {
+  font-family: 'Playfair Display', 'Noto Sans SC', sans-serif;
+  font-size: 36px; font-weight: 900;
+  letter-spacing: -0.03em;
+  margin-bottom: 6px;
+}
+.page-head h1 em { font-style: italic; }
+.page-head .meta {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px; color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.08em;
+}
+.page-head .intro {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.95);
+  max-width: 760px;
+}
+.page-head-actions { margin-top: 18px; }
+.btn-cover {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  color: #ff5757;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 0.15s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.btn-cover:hover {
+  background: #ff5757;
+  color: #fff;
+  border-color: #fff;
+  transform: translate(-1px, -1px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.schools {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media (max-width: 1100px) { .schools { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px)  { .schools { grid-template-columns: 1fr; } }
+
+.school {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--border-soft);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 28px rgba(16, 22, 47, 0.06);
+  display: flex; flex-direction: column;
+}
+.school-cover {
+  padding: 24px 22px 20px;
+  color: #fff;
+}
+.school-cover h2 {
+  font-family: 'Playfair Display', 'Noto Sans SC', serif;
+  font-size: 22px; font-weight: 900;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+.school-cover .name-cn {
+  font-size: 13px; color: rgba(255, 255, 255, 0.85); font-weight: 500;
+}
+.school-cover .code {
+  font-family: 'Space Grotesk', monospace;
+  font-size: 10px; letter-spacing: 0.2em;
+  opacity: 0.7; margin-top: 8px;
+}
+
+.school-body { padding: 20px 22px 24px; flex: 1; display: flex; flex-direction: column; }
+.school-body h3 {
+  font-size: 12px; font-weight: 700; letter-spacing: 0.08em;
+  color: var(--muted); text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.event-list { display: flex; flex-direction: column; gap: 14px; margin-bottom: 18px; }
+.event {
+  padding: 12px 14px;
+  background: #fafafd;
+  border-radius: 12px;
+  border: 1px solid var(--border-soft);
+}
+.event .event-title {
+  font-size: 14px; font-weight: 700; color: var(--ink);
+  margin-bottom: 6px; line-height: 1.45;
+}
+.event .event-meta {
+  font-size: 11px; color: var(--muted);
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.event .event-meta .price {
+  display: inline-block; padding: 1px 8px;
+  background: #d1fae5; color: #059669;
+  border-radius: 4px; font-weight: 700;
+  font-family: 'Space Grotesk', monospace;
+}
+.event .event-meta .price.paid {
+  background: #fef3c7; color: #b45309;
+}
+.event a { color: #ff5757; text-decoration: none; font-weight: 600; }
+.no-events {
+  padding: 20px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+  font-style: italic;
+  background: #fafafd;
+  border-radius: 12px;
+  border: 1px dashed var(--border-soft);
+}
+
+.xhs-draft {
+  margin-top: auto;
+  padding: 16px 18px;
+  background: #1a0f2e;
+  color: #f5f5f5;
+  border-radius: 12px;
+}
+.xhs-draft h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 11px; letter-spacing: 0.08em;
+  color: #ffd44d; margin-bottom: 8px;
+}
+.xhs-draft .title {
+  font-size: 14px; font-weight: 700;
+  margin-bottom: 8px;
+}
+.xhs-draft .body {
+  font-size: 12px; line-height: 1.75;
+  color: rgba(245, 245, 245, 0.85);
+  white-space: pre-wrap;
+  margin-bottom: 10px;
+}
+.xhs-draft .tags {
+  font-size: 11px; color: #ff8a3d;
+  font-family: 'Space Grotesk', monospace;
+}
+
+footer { text-align: center; margin-top: 40px; color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="breadcrumb">
+    <a href="../">← 校园活动 hub</a><span class="sep">·</span><span class="current">2026-05-11</span>
+  </div>
+
+  <div class="page-head">
+    <h1>Campus <em>Events</em> · 2026-05-11</h1>
+    <div class="meta">6 SCHOOLS · 7 EVENTS THIS WEEK</div>
+    <div class="intro">下周（5/11-5/17）6 校活动｜墨大 Tofu Tuesdays + 悉大管乐音乐会 · 阿德 Nelson Mandela 公开讲座</div>
+    <div class="page-head-actions">
+      <a class="btn-cover" href="./2026-05-11-covers.html">📱 6 校 XHS 封面图 · 下载 PNG →</a>
+    </div>
+  </div>
+
+  <div class="schools">
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #094183, #062b56);">
+        <div class="code">UMELB</div>
+        <h2>University of Melbourne</h2>
+        <div class="name-cn">墨尔本大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="event-list">
+        <div class="event">
+          <div class="event-title"><a href="https://umsu.unimelb.edu.au/things-to-do/events/">Tofu Tuesdays 免费素食午餐</a></div>
+          <div class="event-meta">
+            <span>📅 周二 5/12 上午11:30-下午2:00</span>
+            <span>📍 Parkville / Southbank 校区（每周交替）</span>
+            <span class="price paid">免费</span>
+            <span>社交</span>
+          </div>
+        </div>
+        <div class="event">
+          <div class="event-title"><a href="https://events.unimelb.edu.au/">「影响的焦虑」· 建筑与景观史主题讲座</a></div>
+          <div class="event-meta">
+            <span>📅 周三 5/13 下午5:30-7:30</span>
+            <span>📍 Parkville 校区</span>
+            <span class="price paid">免费</span>
+            <span>学术</span>
+          </div>
+        </div></div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">墨大下周｜素食午餐 + 建筑史讲座</div>
+        <div class="body">下周墨大有两个值得去的免费活动，分享给一起在 Parkville 读书的朋友。
+
+周二 11:30 UMSU 的 Tofu Tuesdays 在 Parkville 或 Southbank 校区（每周交替），提供免费的纯素食午餐。UMSU Environment 主办，自带水杯就能参加，在草地上坐着边吃边认识新朋友，不用提前报名，去了就行。每学期固定跑，食物好、氛围轻松，比参加正式社团活动压力小很多。
+
+周三下午 5:30 在 Parkville 有一场建筑与景观设计史的专题讲座，题目是「影响的焦虑」，探讨建筑师和景观设计师如何在历史语境下面对前辈的压力与影响。不一定要建筑背景才能去，喜欢设计、艺术史或者批评理论的同学都能听进去。这类小型学术讲座的现场问答才是精华，教授通常比课堂上更愿意展开聊。
+
+两个活动性质完全不同，但都是免费的，也不需要任何准备。下周课表空的时候哪天比较多？评论区聊聊，看看能不能约上去。</div>
+        <div class="tags">#墨尔本大学 #UMelb #澳洲留学 #墨尔本 #校园活动 #留学日常 #素食</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Melbourne, VIC</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-umelb-render" style="--cover-primary:#094183;--cover-deep:#062b56;--cover-light:#1565c0;--cover-accent:#ffce44;--cover-text:#ffffff;background:linear-gradient(145deg, #062b56 0%, #094183 54%, #1565c0 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Melbourne, VIC</div>
+                    </div>
+                    <div class="mini-cover-code">UMELB</div>
+                    <div class="mini-cover-cn">墨尔本大学</div>
+                    <div class="mini-cover-en">University of Melbourne</div>
+                    <div class="mini-events-shell">
+                      
+        <div class="inline-event-hook">
+          <div class="inline-event-index">01</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">Tofu Tuesdays 免费素食午餐</div>
+            <div class="inline-event-meta">周二 5/12 上午11:30-下午2:00<br>Parkville / Southbank 校区（每周交替）</div>
+          </div>
+        </div>
+        <div class="inline-event-hook">
+          <div class="inline-event-index">02</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">「影响的焦虑」· 建筑与景观史主题讲座</div>
+            <div class="inline-event-meta">周三 5/13 下午5:30-7:30<br>Parkville 校区</div>
+          </div>
+        </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>UMELB</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-umelb-render" data-slug="cover-umelb">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #ffd100, #b89500);">
+        <div class="code">UNSW</div>
+        <h2>UNSW Sydney</h2>
+        <div class="name-cn">新南威尔士大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="no-events">本周无公开活动，下周见 🌱</div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">UNSW 学期间隙｜T1 结束后怎么过</div>
+        <div class="body">UNSW T1 在 4 月底结束，T2 O-Week 要等到 5 月 25 号。这两周是真正的学期间隙，校园正式活动很少，但也是难得可以按自己节奏安排时间的窗口。
+
+这段时间 Roundhouse 和 Main Walkway 都安静很多。没有大量学生涌动，图书馆安静包间也容易抢到。适合做几件平时没时间做的事：整理 T1 的笔记，复盘错题，或者提前把 T2 课表里的教材扫一遍。
+
+UNSW 周边 Kensington 和 Randwick 这段时间也比较好逛。没有大量学生，餐厅等位快，Randwick 那边有几家咖啡馆适合带笔记本去坐半天。
+
+T2 O-Week 从 5/25 开始，Arc 那时候会有一波新学期活动集中上线，想找社团或者找朋友的同学可以到时候提前关注 Arc 的日历。现在这个空档期，先把自己充满电再出发。
+
+T1 考完你们感觉怎么样？评论区聊聊成绩或者心态。</div>
+        <div class="tags">#UNSW #新南威尔士大学 #澳洲留学 #悉尼 #学期间隙 #留学日常 #UNSW日常</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Sydney, NSW</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-unsw-render" style="--cover-primary:#ffd100;--cover-deep:#b89500;--cover-light:#fff176;--cover-accent:#10162f;--cover-text:#10162f;background:linear-gradient(145deg, #b89500 0%, #ffd100 54%, #fff176 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Sydney, NSW</div>
+                    </div>
+                    <div class="mini-cover-code">UNSW</div>
+                    <div class="mini-cover-cn">新南威尔士大学</div>
+                    <div class="mini-cover-en">UNSW Sydney</div>
+                    <div class="mini-events-shell">
+                      <div class="inline-placeholder">
+        <div class="inline-placeholder-kicker">THIS WEEK</div>
+        <div class="inline-placeholder-title">本周无公开活动</div>
+        <div class="inline-placeholder-meta">这所学校本周适合先收藏，等下轮更新。</div>
+      </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>UNSW</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-unsw-render" data-slug="cover-unsw">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #51247a, #2a0f57);">
+        <div class="code">UQ</div>
+        <h2>University of Queensland</h2>
+        <div class="name-cn">昆士兰大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="event-list">
+        <div class="event">
+          <div class="event-title"><a href="https://life.uq.edu.au/events">Uni 心理健康日 · 减压免费活动</a></div>
+          <div class="event-meta">
+            <span>📅 周二 5/12 上午11:30-下午1:00</span>
+            <span>📍 Gatton 校区</span>
+            <span class="price paid">免费</span>
+            <span>健康</span>
+          </div>
+        </div>
+        <div class="event">
+          <div class="event-title"><a href="https://life.uq.edu.au/herston-happenings">Herston Hangouts · 免费咖啡与手工活动</a></div>
+          <div class="event-meta">
+            <span>📅 周三 5/13 午间</span>
+            <span>📍 Herston 校区</span>
+            <span class="price paid">免费</span>
+            <span>社交</span>
+          </div>
+        </div></div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">UQ 下周｜心理健康日 + 免费咖啡</div>
+        <div class="body">UQ 下周有两个值得去的免费活动，都不需要提前注册，直接到场就行。
+
+周二 11:30 Gatton 校区有 Uni 心理健康日，到下午 1 点，UQ Life 组织的减压互动活动，一般有小游戏、手工和免费食物。Gatton 在 Brisbane 西边，在那边读农学、兽医、营养相关专业的同学特别方便，这种轻松氛围的活动比单纯去图书馆自习更容易遇到新朋友。
+
+周三 Herston 校区照常有 Herston Hangouts，每周三都有，免费咖啡加手工和 pop-up 小活动，内容每周不固定，去了总有点惊喜。在 Herston 读健康类、医学预科方向的同学可以当作固定的周中放松点。气氛很轻松，不需要认识任何人也可以一个人去。
+
+St Lucia 这周 Great Court 旁边比较安静，天气好的话 UQ Lakes 那条路走一圈很治愈。你们 UQ 最喜欢的放松角落在哪里？评论区来分享。</div>
+        <div class="tags">#UQ #昆士兰大学 #澳洲留学 #布里斯班 #校园活动 #留学日常 #心理健康</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Brisbane, QLD</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-uq-render" style="--cover-primary:#51247a;--cover-deep:#2a0f57;--cover-light:#7c3aed;--cover-accent:#ffce44;--cover-text:#ffffff;background:linear-gradient(145deg, #2a0f57 0%, #51247a 54%, #7c3aed 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Brisbane, QLD</div>
+                    </div>
+                    <div class="mini-cover-code">UQ</div>
+                    <div class="mini-cover-cn">昆士兰大学</div>
+                    <div class="mini-cover-en">University of Queensland</div>
+                    <div class="mini-events-shell">
+                      
+        <div class="inline-event-hook">
+          <div class="inline-event-index">01</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">Uni 心理健康日 · 减压免费活动</div>
+            <div class="inline-event-meta">周二 5/12 上午11:30-下午1:00<br>Herston 校区</div>
+          </div>
+        </div>
+        <div class="inline-event-hook">
+          <div class="inline-event-index">02</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">Herston Hangouts · 免费咖啡与手工活动</div>
+            <div class="inline-event-meta">周三 5/13 午间<br>Herston 校区</div>
+          </div>
+        </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>UQ</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-uq-render" data-slug="cover-uq">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #e64626, #9d2613);">
+        <div class="code">USYD</div>
+        <h2>University of Sydney</h2>
+        <div class="name-cn">悉尼大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="event-list">
+        <div class="event">
+          <div class="event-title"><a href="https://suwo.org.au/">悉大管乐团音乐会</a></div>
+          <div class="event-meta">
+            <span>📅 周日 5/17 晚上7:00</span>
+            <span>📍 Verbruggen Hall · 悉尼音乐学院</span>
+            <span class="price paid">学生凭证开演前1小时可领免费票</span>
+            <span>现场演出</span>
+          </div>
+        </div></div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">USYD 下周日｜管乐音乐会免费入场</div>
+        <div class="body">悉尼大学管乐团（Sydney University Wind Orchestra）下周日晚上 7 点在音乐学院的 Verbruggen Hall 有场音乐会。USYD 学生在开演前 1 小时带学生证到门口可以领免费票，票没发完就能进，建议 6:30 前到比较保险。
+
+Verbruggen Hall 在悉尼音乐学院里面，从 Macquarie Street 方向走进去，场地不大，座位离演奏区很近，听管乐类演奏的现场体验比大型音乐厅更集中。
+
+学生乐团的音乐会和专业场不太一样，节目单上通常会有一两首不太主流的现代编曲，有时候还有学生 soloist 单独展示曲目，整个氛围轻松，不用正装，去听完出来聊聊就很好。对古典乐感兴趣但觉得正规场次有距离感的同学，这种学生演奏会是一个进场门槛很低的选择。
+
+悉尼这边周末晚上还有哪些值得去的免费文化活动？悉尼同学评论区安利一下。</div>
+        <div class="tags">#USYD #悉尼大学 #澳洲留学 #悉尼 #音乐会 #校园活动 #留学日常</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Sydney, NSW</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-usyd-render" style="--cover-primary:#e64626;--cover-deep:#9d2613;--cover-light:#ff7b59;--cover-accent:#ffce44;--cover-text:#ffffff;background:linear-gradient(145deg, #9d2613 0%, #e64626 54%, #ff7b59 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Sydney, NSW</div>
+                    </div>
+                    <div class="mini-cover-code">USYD</div>
+                    <div class="mini-cover-cn">悉尼大学</div>
+                    <div class="mini-cover-en">University of Sydney</div>
+                    <div class="mini-events-shell">
+                      
+        <div class="inline-event-hook">
+          <div class="inline-event-index">01</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">悉大管乐团音乐会</div>
+            <div class="inline-event-meta">周日 5/17 晚上7:00<br>Verbruggen Hall · 悉尼音乐学院</div>
+          </div>
+        </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>USYD</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-usyd-render" data-slug="cover-usyd">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #002f5f, #001838);">
+        <div class="code">ADELAIDE</div>
+        <h2>University of Adelaide</h2>
+        <div class="name-cn">阿德莱德大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="event-list">
+        <div class="event">
+          <div class="event-title"><a href="https://www.adelaide.edu.au/newsroom/events">信息物理系统实验室开放参观</a></div>
+          <div class="event-meta">
+            <span>📅 周三 5/13 下午2:00</span>
+            <span>📍 Hub Central · Adelaide 大学</span>
+            <span class="price paid">免费</span>
+            <span>学术参观</span>
+          </div>
+        </div>
+        <div class="event">
+          <div class="event-title"><a href="https://www.adelaide.edu.au/newsroom/events">Nelson Mandela 公开讲座 · Thomas Mayo</a></div>
+          <div class="event-meta">
+            <span>📅 周四 5/14 下午6:00</span>
+            <span>📍 Allan Scott Auditorium · 55 North Terrace（线上 + 现场）</span>
+            <span class="price paid">免费</span>
+            <span>人文讲座</span>
+          </div>
+        </div></div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">阿德莱德下周｜实验室参观 + Mandela 讲座</div>
+        <div class="body">Adelaide 大学下周有两个免费活动，性质差很多，但都值得去。
+
+周三下午 2 点在 Hub Central 有一场 Cyber-Physical-Human Systems 实验室的开放参观，是 Adelaide 工学院在做的信息物理融合方向的研究实验室。实验室参观通常能看到实际在运行的设备，还有机会和在读研究生聊项目方向，比课堂上获取信息直接得多。对工程、机器人、人机交互方向有兴趣的同学可以去看看。
+
+周四晚上 6 点在 Allan Scott Auditorium（北露台 55 号）有 Nelson Mandela 年度公开讲座，今年主讲人是 Thomas Mayo。他是澳洲原住民权利领域的重要声音，曾主导 Voice to Parliament 运动，也写过相关的书。这类讲座面向全社会开放，不分院系，同时提供线上参与渠道。内容偏政治、社会正义方向，问答环节通常很热烈。
+
+这两个活动都不需要提前注册，直接到场即可。你们阿德莱德这周有没有其他发现的好活动？评论区聊聊。</div>
+        <div class="tags">#阿德莱德大学 #AdelaideUni #澳洲留学 #阿德莱德 #校园活动 #留学日常 #公开讲座</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Adelaide, SA</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-adelaide-render" style="--cover-primary:#002f5f;--cover-deep:#001838;--cover-light:#1565c0;--cover-accent:#ff5757;--cover-text:#ffffff;background:linear-gradient(145deg, #001838 0%, #002f5f 54%, #1565c0 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Adelaide, SA</div>
+                    </div>
+                    <div class="mini-cover-code">ADELAIDE</div>
+                    <div class="mini-cover-cn">阿德莱德大学</div>
+                    <div class="mini-cover-en">University of Adelaide</div>
+                    <div class="mini-events-shell">
+                      
+        <div class="inline-event-hook">
+          <div class="inline-event-index">01</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">信息物理系统实验室开放参观</div>
+            <div class="inline-event-meta">周三 5/13 下午2:00<br>Hub Central · Adelaide 大学</div>
+          </div>
+        </div>
+        <div class="inline-event-hook">
+          <div class="inline-event-index">02</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">Nelson Mandela 公开讲座 · Thomas Mayo</div>
+            <div class="inline-event-meta">周四 5/14 下午6:00<br>Allan Scott Auditorium · 55 North Terrace（线上 + 现场）</div>
+          </div>
+        </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>ADELAIDE</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-adelaide-render" data-slug="cover-adelaide">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #006dae, #003f6b);">
+        <div class="code">MONASH</div>
+        <h2>Monash University</h2>
+        <div class="name-cn">莫纳什大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="no-events">本周无公开活动，下周见 🌱</div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">Monash 下周｜期中之后如何重启</div>
+        <div class="body">Monash Semester 1 进行到这个阶段，很多同学刚过完期中考试或者 Assignment 截止期，下周可能是难得能喘口气的时间。本周公开校园活动不多，但有几个长期开放的资源可以用起来。
+
+MSA 有几个持续运营的空间：Women's Lounge 在 Wholefoods 旁边，Queer Lounge 在 Campus Centre 里面，两个都不需要任何证件或者身份认定，进去坐就行，有时候有免费零食。MSA Pantry 也在持续开放，这周需要的同学可以去领。
+
+Clayton 校区这个季节傍晚走一圈很舒服，Library 24 小时区在期中之后人会少很多，自习效率比考前高。Monash 图书馆的安静舱位这时候也比较好抢。
+
+如果想出校区放松，Glen Waverley 那边华人超市和茶餐厅集中，坐 Glen Waverley 线直达，是比较省事的一条路线。
+
+你们 Monash 有没有自己的期中后恢复仪式？评论区来分享一下，看大家都怎么找回状态的。</div>
+        <div class="tags">#Monash #莫纳什大学 #澳洲留学 #墨尔本 #校园生活 #留学日常 #期中</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Melbourne, VIC</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-monash-render" style="--cover-primary:#006dae;--cover-deep:#003f6b;--cover-light:#1e88e5;--cover-accent:#ffce44;--cover-text:#ffffff;background:linear-gradient(145deg, #003f6b 0%, #006dae 54%, #1e88e5 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Melbourne, VIC</div>
+                    </div>
+                    <div class="mini-cover-code">MONASH</div>
+                    <div class="mini-cover-cn">莫纳什大学</div>
+                    <div class="mini-cover-en">Monash University</div>
+                    <div class="mini-events-shell">
+                      <div class="inline-placeholder">
+        <div class="inline-placeholder-kicker">THIS WEEK</div>
+        <div class="inline-placeholder-title">本周无公开活动</div>
+        <div class="inline-placeholder-meta">这所学校本周适合先收藏，等下轮更新。</div>
+      </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>MONASH</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-monash-render" data-slug="cover-monash">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <footer>
+    <p>由 build/pipelines/uni-events.pipeline.ts 自动生成</p>
+    <p>Source: src/data/uni-events/2026-05-11.json</p>
+  </footer>
+</div>
+</body>
+</html>
