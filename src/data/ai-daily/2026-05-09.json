@@ -2,13 +2,13 @@
   "date": "2026-05-09",
   "summary": {
     "hook": ["今日 5 条", "AI", "大事"],
-    "sub": "Novo Nordisk全员AI · 白宫拟审Mythos · 阿里MiniMax齐发新模型 · 四巨头7250亿砸算力 · Sierra估值158亿",
+    "sub": "Novo Nordisk全员AI · Apple转向多AI厂 · Meta Muse Spark首发 · 欧盟软化AI法案 · Snap裁千人甩锅AI",
     "items": [
-      {"num": "01", "cat": "AI 落地应用", "numColor": "#0EA5E9", "t": "Novo Nordisk 与 OpenAI 战略合作，全业务 AI 整合 2026 年底完成"},
-      {"num": "02", "cat": "AI 监管政策", "numColor": "#1E40AF", "t": "白宫研究新行政令，拟为 Anthropic Mythos 等 AI 模型设审查机制"},
-      {"num": "03", "cat": "中国模型潮", "numColor": "#DC2626", "t": "Qwen3 Coder Next + MiniMax M2.7 同日发布，中国厂打多档位牌"},
-      {"num": "04", "cat": "巨头算力战", "numColor": "#F97316", "t": "Meta/Amazon/微软/Alphabet 2026 capex 7250 亿美元 + 13 万岗调整"},
-      {"num": "05", "cat": "企业 AI 融资", "numColor": "#8B5CF6", "t": "Bret Taylor 的 Sierra 融资 9.5 亿美元，估值 158 亿美元"}
+      {"num": "01", "cat": "AI 落地应用", "numColor": "#0EA5E9", "t": "Novo Nordisk 与 OpenAI 战略合作，全业务 AI 整合年底完成"},
+      {"num": "02", "cat": "Apple 大转向", "numColor": "#1F2937", "t": "Apple 让用户在设备层选第三方 AI 服务，破独家 OpenAI 路线"},
+      {"num": "03", "cat": "Meta 新模型", "numColor": "#0668E1", "t": "Meta Muse Spark 发布，Wang 主导 Superintelligence Labs 首款旗舰"},
+      {"num": "04", "cat": "欧盟监管", "numColor": "#F59E0B", "t": "欧盟在产业压力下软化 AI 法案，Brussels effect 现裂痕"},
+      {"num": "05", "cat": "AI 替代人工", "numColor": "#FF1493", "t": "Snap 裁员 1000 + 关 300 岗，Spiegel 直说「因 AI 进步」"}
     ]
   },
   "news": [
@@ -22,73 +22,73 @@
       "oneline": [{"text": "Ozempic 制造商把 AI 接入研发到销售全链路，"}, {"text": "制药行业第一家公开宣布全面 AI 整合的巨头", "bold": true}],
       "bullets": [
         {"k": "发生了什么", "v": "丹麦制药巨头 Novo Nordisk（GLP-1 药物 Ozempic / Wegovy 制造商）宣布与 OpenAI 战略合作，将 AI 集成到药物发现、临床试验、制造、供应链、商业运营全部业务，目标 2026 年底完成全面部署，加速肥胖与糖尿病新药识别"},
-        {"k": "为什么重要", "v": "这是制药巨头第一次公开宣布「全业务 AI 整合」，覆盖从研发到销售全链路，远超 Roche / Pfizer 此前的点状合作。OpenAI 在企业大客户里再下一城，证明前沿大模型已经能做处方药级研发流程的协同"},
-        {"k": "对你的影响", "v": "制药 / 医疗 / 生物科技领域 AI 工程师岗位需求会上升，特别是熟悉临床试验数据 + LLM 的方向。其他药厂被迫跟进，预计未来 6-12 个月类似公告扎堆出现，转行医疗 AI 的窗口正在打开"}
+        {"k": "为什么重要", "v": "这是制药巨头第一次公开宣布「全业务 AI 整合」，覆盖从研发到销售全链路，远超 Roche / Pfizer 此前的点状合作。同日礼来（Eli Lilly）启用 LillyPod AI 超算回应，制药行业 AI 军备竞赛开打"},
+        {"k": "对你的影响", "v": "医疗 / 生物科技领域 AI 工程师岗位需求会上升，特别是熟悉临床试验数据 + LLM 的复合背景。其他药厂被推着跟进，预计未来 6-12 个月类似公告扎堆，转行医疗 AI 的窗口正在打开"}
       ],
       "src": "📎 openai.com · reuters.com"
     },
     {
-      "slug": "02-trump-mythos-review",
+      "slug": "02-apple-multi-ai-pivot",
       "idx": "02",
-      "catText": "AI 监管政策",
-      "accent": "#1E40AF",
-      "bg": {"top": "#001540", "mid": "#001d55", "bot": "#000d2b", "topRight": "#002b80"},
-      "title": [{"text": "白宫拟设 AI 模型审查机制，"}, {"text": "Anthropic Mythos 引发监管反转", "hl": true}],
-      "oneline": [{"text": "Trump 政府 1 月才砍 Biden AI 行政令，"}, {"text": "5 月因 Mythos 漏洞利用能力反过来要管", "bold": true}],
+      "catText": "Apple 大转向",
+      "accent": "#1F2937",
+      "bg": {"top": "#0a0a0f", "mid": "#1a1a24", "bot": "#050508", "topRight": "#2a2a38"},
+      "title": [{"text": "Apple 让用户选第三方 AI 服务，"}, {"text": "破独家 OpenAI 路线", "hl": true}],
+      "oneline": [{"text": "Apple Intelligence 不再绑定 ChatGPT，"}, {"text": "用户可在设备层挑 Claude / Gemini / Perplexity 等多家", "bold": true}],
       "bullets": [
-        {"k": "发生了什么", "v": "白宫国家经济委员会主任表示，正研究新行政令，拟为 Anthropic Mythos 等具备识别软件漏洞能力的 AI 模型建立审查机制，保护企业和政府网络免受 AI 网络安全风险。Dario Amodei 已多次进白宫汇报"},
-        {"k": "为什么重要", "v": "Trump 此前以「AI 加速主义」公开反对监管，1 月废除 Biden 时代 AI 行政令。这次因 Anthropic Mythos 模型可生成漏洞利用代码而急转，是美国 AI 监管两年内第三次大转弯，安全派 vs 加速派博弈进入新阶段"},
-        {"k": "对你的影响", "v": "前沿实验室（Anthropic / OpenAI / Google / xAI）今后发布带「网络安全 / 漏洞分析」能力的模型可能需先过白宫审查；做 AI Security / Red Team 方向的工程师议价能力上升，跨国合规岗位需求外溢"}
+        {"k": "发生了什么", "v": "Apple 宣布将让用户在 iPhone / iPad / Mac 设备层选择多家第三方 AI 服务驱动 Apple Intelligence 功能，不再像 2024 年那样独家整合 ChatGPT。预计开放 Anthropic Claude、Google Gemini、Perplexity 等接入"},
+        {"k": "为什么重要", "v": "这是 Apple 自 2024 年宣布与 OpenAI 独家合作以来最大的策略反转。背景是欧盟 DMA 5-03 review 明确把 AI 纳入「可选项」要求，加上 Apple 内部 Apple Intelligence 反响不达预期，被迫把入口让出来给市场竞争"},
+        {"k": "对你的影响", "v": "iOS / macOS App 开发者将面临「适配多家 AI 后端」的新工程要求；终端用户可绕过订阅 ChatGPT Plus 改走 Claude Pro 等等。前端 AI 应用开发的 SDK 抽象层会成为 2026 H2 开源社区热点"}
       ],
-      "src": "📎 fortune.com · cnbc.com"
+      "src": "📎 bloomberg.com · 9to5mac.com"
     },
     {
-      "slug": "03-china-model-wave",
+      "slug": "03-meta-muse-spark-launch",
       "idx": "03",
-      "catText": "中国模型潮",
-      "accent": "#DC2626",
-      "bg": {"top": "#2a0005", "mid": "#330008", "bot": "#1a0003", "topRight": "#4d000d"},
-      "title": [{"text": "Qwen3 Coder Next + MiniMax M2.7 同日发布，"}, {"text": "中国厂打多档位牌", "hl": true}],
-      "oneline": [{"text": "美国厂 5 月模型层罕见安静，"}, {"text": "中国厂同日扔出 Coder + 多档 Highspeed 系列", "bold": true}],
+      "catText": "Meta 新模型",
+      "accent": "#0668E1",
+      "bg": {"top": "#001540", "mid": "#001d55", "bot": "#000d2b", "topRight": "#002b80"},
+      "title": [{"text": "Meta Muse Spark 发布，"}, {"text": "Wang 主导 Superintelligence Labs 首款旗舰", "hl": true}],
+      "oneline": [{"text": "Alexandr Wang 上任后第一战：扔出闭源旗舰，"}, {"text": "Meta 与 Llama 开源路线第一次出现分叉", "bold": true}],
       "bullets": [
-        {"k": "发生了什么", "v": "5 月 8 日多家中国 AI 厂同日发模型：阿里 Qwen3 Coder Next（编码专用），MiniMax M2.5 / M2.7 / M2.7 Highspeed（基础版 + 高速推理版多档位同发）。同期美国厂 5 月仅 OpenAI 把 GPT-5.5 Instant 升为 ChatGPT 默认"},
-        {"k": "为什么重要", "v": "这是 5 月第一次「中国模型潮」，对照美国厂 5 月模型层「自二月以来首次安静」。中国厂打量产 + 多档位定价 + Highspeed 系列推理速度优化，向硅谷高定价线施压，开源生态进一步分化"},
-        {"k": "对你的影响", "v": "开发者可低成本压测 Qwen3 Coder Next 对比 Claude Opus 4.7 / GPT-5.5 编码能力；Highspeed 系列对实时应用（语音助手 / Agent / 客服）有性价比优势，国内 to-B 项目预算紧的可优先评估"}
+        {"k": "发生了什么", "v": "Meta 发布 Muse Spark，是 Alexandr Wang（Scale AI 创始人，2026 初接任 Meta 首席 AI 官）领导的 Superintelligence Labs 首款旗舰大模型。多模态感知 + 推理 + 健康 + agentic 任务上对标前沿，但训练算力远低于同档对手"},
+        {"k": "为什么重要", "v": "这是 Meta 第一次推「闭源旗舰」打前沿赛道，与 Llama 开源路线分叉。Wang 上任后的战略调整很清楚：开源继续做 Llama 守生态位，闭源 Muse 系列直冲 GPT-5.5 / Claude Opus / Gemini 3.1 Ultra 三巨头"},
+        {"k": "对你的影响", "v": "做开源 AI 应用的团队短期不受影响（Llama 路线还在）；想吃前沿模型 API 红利的开发者多了一家供应商，议价空间增大。Meta 招高级 AI 研究员的窗口仍开着，Wang 团队组建期是好时机"}
       ],
-      "src": "📎 llm-stats.com · qwenlm.github.io"
+      "src": "📎 reuters.com · theverge.com"
     },
     {
-      "slug": "04-big4-capex-vs-layoffs",
+      "slug": "04-eu-softens-ai-act",
       "idx": "04",
-      "catText": "巨头算力战",
-      "accent": "#F97316",
+      "catText": "欧盟监管",
+      "accent": "#F59E0B",
       "bg": {"top": "#2a1500", "mid": "#331a00", "bot": "#1a0d00", "topRight": "#4d2800"},
-      "title": [{"text": "四巨头 2026 capex 7250 亿，"}, {"text": "同期裁员 / 买断 13 万人", "hl": true}],
-      "oneline": [{"text": "Meta / Amazon / 微软 / Alphabet 把人头预算转成 GPU 预算，"}, {"text": "AI 资本开支 YoY 涨 75%", "bold": true}],
+      "title": [{"text": "欧盟在产业压力下软化 AI 法案，"}, {"text": "Brussels effect 现裂痕", "hl": true}],
+      "oneline": [{"text": "EU AI Act 生效不到一年就妥协，"}, {"text": "高风险 AI 系统的合规时间表 + 透明度要求双双松绑", "bold": true}],
       "bullets": [
-        {"k": "发生了什么", "v": "Meta / Amazon / 微软 / Alphabet 2026 资本开支合计约 7250 亿美元，YoY +75%，几乎全投数据中心、自研芯片、GPU、AI 模型。同期 Meta 5 月裁 8000，Amazon 近月裁 30000，微软对 12.5 万员工发自愿离职邀约"},
-        {"k": "为什么重要", "v": "大厂正在重构内部成本结构以喂 AI 资本开支：人头降、GPU 升。比 2024 互联网裁员（成本压力驱动）更激进，本质是「用 AI 替代部分人工 + 把工资预算转成算力预算」，2026 年劳动力市场分水岭已到"},
-        {"k": "对你的影响", "v": "传统软件 / 运营 / 中后台岗位收缩压力加大；AI infra / ML 平台 / 数据中心运维 / 芯片设计岗扩张窗口期。求职策略：盯 capex 流向不盯 headcount，简历里加 GPU / Kubernetes / Terraform / 大规模 infra 经验"}
+        {"k": "发生了什么", "v": "欧盟委员会过去 24 小时宣布软化 AI 法案部分条款：高风险 AI 系统的合规截止时间延后、训练数据透明度报告范围收窄、面向中小企业的部分豁免扩大。背景是欧洲科技产业组织联名抗议合规成本压垮本土初创"},
+        {"k": "为什么重要", "v": "EU AI Act 2024 生效时被全球当作监管标杆，「Brussels effect」（欧盟立法外溢全球）一直是法律学界共识。这次自我修正是 18 个月内第一次大幅倒退，可能引发英国 / 加拿大 / 澳洲跟随调整本地 AI 监管节奏"},
+        {"k": "对你的影响", "v": "欧洲市场做 AI to-B 产品的合规预算可暂松一点，特别是数据透明度报告和模型卡 disclosure；同时也意味着「以欧盟标准做基线」的国际化策略含金量下降，必须每个市场单独看本地法规"}
       ],
-      "src": "📎 bloomberg.com · cnbc.com"
+      "src": "📎 reuters.com · politico.eu"
     },
     {
-      "slug": "05-sierra-15b-funding",
+      "slug": "05-snap-1000-layoffs-ai",
       "idx": "05",
-      "catText": "企业 AI 融资",
-      "accent": "#8B5CF6",
-      "bg": {"top": "#1a0030", "mid": "#21003d", "bot": "#10001e", "topRight": "#32006b"},
-      "title": [{"text": "Bret Taylor 的 Sierra 融资 9.5 亿，"}, {"text": "估值冲 158 亿美元", "hl": true}],
-      "oneline": [{"text": "OpenAI 董事长亲自下场创业，"}, {"text": "Tiger Global + Google GV 联合领投企业 AI Agent", "bold": true}],
+      "catText": "AI 替代人工",
+      "accent": "#FF1493",
+      "bg": {"top": "#2a0026", "mid": "#33002f", "bot": "#1a0017", "topRight": "#4d0044"},
+      "title": [{"text": "Snap 裁员 1000 + 关 300 岗，"}, {"text": "Spiegel 直说「因 AI 进步」", "hl": true}],
+      "oneline": [{"text": "Snapchat CEO 公开承认裁员的「真原因」，"}, {"text": "中型科技公司跟进 Big4 把工资预算转 GPU 路线", "bold": true}],
       "bullets": [
-        {"k": "发生了什么", "v": "Bret Taylor（前 Salesforce 联席 CEO，OpenAI 现任董事长）创立的企业 AI 代理公司 Sierra，完成 9.5 亿美元新一轮融资，post-money 估值 158 亿美元，由 Tiger Global 与 Google GV 联合领投，2026 年企业 AI 代理领域单笔最大融资"},
-        {"k": "为什么重要", "v": "Sierra 主打「为企业客服 + 销售 + 营销建专属 AI 代理」，与 OpenAI Operator / Anthropic Claude Code 形成上下游。资本一致认可「垂直 AI 代理 SaaS」路径，远超横向通用 chatbot 投资热度，押注 to-B Agent 是 2026 主线"},
-        {"k": "对你的影响", "v": "企业 AI 代理 SaaS 是 2026 最确定的投资主线之一；想转 AI 创业 / 求职 to-B AI 应用层的，Sierra / Glean / Decagon / Crescendo 这类公司是首选；行业经验比纯模型理论更值钱，懂垂直业务流程的工程师溢价高"}
+        {"k": "发生了什么", "v": "Snap CEO Evan Spiegel 5 月 9 日宣布裁员约 1000 人 + 关闭 300 个开放岗位，公开邮件直接写「rapid advancements in artificial intelligence allow smaller teams to achieve the same output」。是中型科技公司 CEO 第一次公开把 AI 当成裁员主因"},
+        {"k": "为什么重要", "v": "之前 Big4（Meta / Amazon / 微软 / Alphabet）裁员都裹着「重组 / 优化 / 战略调整」话术，没人敢直说 AI。Spiegel 这次公开说出来，等于给中型科技公司 CEO 写了脚本：从此可以名正言顺地以 AI 名义砍头"},
+        {"k": "对你的影响", "v": "求职者要意识到：2026 不再是「AI 替代低端岗位」的渐进过程，而是「直接以 AI 为由的全岗位调整」开始公开化。中后台 / 中层管理 / 中级软件工程师压力最大；AI infra / 模型应用 / 业务流程自动化方向反而是赢家"}
       ],
-      "src": "📎 cnbc.com · crunchbase.com"
+      "src": "📎 finance.yahoo.com · techcrunch.com"
     }
   ],
   "mp": {
-    "title": "Novo Nordisk全员AI / 白宫拟审Mythos / 阿里MiniMax齐发新模型 / 四巨头7250亿砸算力 / Sierra估值158亿"
+    "title": "Novo Nordisk全员AI / Apple转向多AI厂 / Meta Muse Spark首发 / 欧盟软化AI法案 / Snap裁千人甩锅AI"
   }
 }
