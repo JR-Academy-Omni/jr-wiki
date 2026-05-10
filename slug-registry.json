@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-10T00:23:45.649Z",
+  "lockedAt": "2026-05-10T00:39:30.000Z",
   "version": 1,
   "slugs": [
     {
@@ -129,6 +129,10 @@
     {
       "type": "article",
       "slug": "anthropic-google-200b-cloud-bet-2026"
+    },
+    {
+      "type": "article",
+      "slug": "anthropic-mythos-glasswing-power-play-2026"
     },
     {
       "type": "article",
