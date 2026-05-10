@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-10T03:28:50.969Z",
+  "lockedAt": "2026-05-10T03:38:43.085Z",
   "version": 1,
   "slugs": [
     {
@@ -472,6 +472,10 @@
     },
     {
       "type": "book",
+      "slug": "jr-academy-guide"
+    },
+    {
+      "type": "book",
       "slug": "jules-guide"
     },
     {
@@ -870,6 +874,46 @@
       "type": "chapter",
       "book": "github-copilot-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "01-quick-start"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "02-membership-tiers"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "03-cert-master"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "04-job-hunter"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "05-uni-mate"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "06-bootcamps"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "07-account-billing"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "08-faq"
     },
     {
       "type": "chapter",
