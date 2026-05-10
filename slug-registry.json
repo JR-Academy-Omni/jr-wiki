@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-09T14:40:00.295Z",
+  "lockedAt": "2026-05-10T00:23:45.649Z",
   "version": 1,
   "slugs": [
     {
@@ -112,6 +112,10 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-05-10"
+    },
+    {
+      "type": "article",
       "slug": "ai-tool-supply-chain-security-vercel-oauth"
     },
     {
@@ -213,6 +217,10 @@
     {
       "type": "article",
       "slug": "it-daily-2026-05-09"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-05-10"
     },
     {
       "type": "article",
@@ -726,6 +734,11 @@
       "type": "chapter",
       "book": "cursor-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "cursor-guide",
+      "slug": "06-mcp-servers"
     },
     {
       "type": "chapter",
