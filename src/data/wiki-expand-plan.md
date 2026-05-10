@@ -38,7 +38,7 @@
 
 ### cursor-guide
 - [x] cursor-guide/06-mcp-servers.md — new-chapter: Cursor MCP 集成实战（GitHub MCP / Notion MCP / Postgres MCP 配置 + 真实 use case）
-- [ ] cursor-guide/07-rules-mdc-deep.md — new-chapter: .cursor/rules/*.mdc 文件深度解析（scope types / 触发规则 / 多 rule 冲突解决）
+- [x] cursor-guide/07-rules-mdc-deep.md — new-chapter: .cursor/rules/*.mdc 文件深度解析（scope types / 触发规则 / 多 rule 冲突解决）
 
 ### dify-guide
 - [ ] dify-guide/06-rag-knowledge-base.md — new-chapter: Dify RAG 知识库实战（文档切片策略 / 向量检索调优 / re-ranking）
