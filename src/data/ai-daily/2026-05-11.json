@@ -1,0 +1,92 @@
+{
+  "date": "2026-05-11",
+  "summary": {
+    "hook": ["AI 格局", "五大变动"],
+    "sub": "GPT-5.5 成新默认，DeepSeek 估值冲 500 亿，文心 5.1 以极低成本登顶，Grok 入驻 CarPlay，Meta 遭五大出版商联合起诉",
+    "items": [
+      {"num":"01","cat":"大模型","numColor":"#10A37F","t":"GPT-5.5 Instant 成 ChatGPT 新默认，幻觉减少 52.5%"},
+      {"num":"02","cat":"融资","numColor":"#4A90E2","t":"DeepSeek 首轮融资估值 500 亿美元，腾讯国家基金入局"},
+      {"num":"03","cat":"大模型","numColor":"#2932E1","t":"百度文心 5.1 发布：训练成本仅同类 6%，搜索能力国内登顶"},
+      {"num":"04","cat":"应用","numColor":"#8B5CF6","t":"Grok AI 进驻 Apple CarPlay，支持语音导航与实时搜索"},
+      {"num":"05","cat":"版权","numColor":"#EF4444","t":"五大出版商起诉 Meta，指 Llama 训练使用盗版书籍"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt-5-5-instant",
+      "idx": "01",
+      "catText": "大模型",
+      "accent": "#10A37F",
+      "bg": {"top":"#F0FDF4","mid":"#DCFCE7","bot":"#BBF7D0","topRight":"#86EFAC"},
+      "title": [{"text":"GPT-5.5 Instant 正式成为"},{"text":"ChatGPT 新默认模型","hl":true}],
+      "oneline": [{"text":"高风险领域幻觉减少"},{"text":"52.5%","bold":true},{"text":"，个性化功能同步上线"}],
+      "bullets": [
+        {"k":"发生了什么","v":"OpenAI 于 5 月 5 日将 ChatGPT 默认模型升级为 GPT-5.5 Instant，在医疗、法律、金融等高风险领域，幻觉率比 GPT-5.3 Instant 降低 52.5%。"},
+        {"k":"为什么重要","v":"新模型同步推出个性化功能，可读取用户历史对话、文件和 Gmail 内容，Plus 和 Pro 用户率先体验，Free 版将陆续跟进。"},
+        {"k":"对你的影响","v":"日常用 ChatGPT 做研究或写作的用户将立即感受到回答质量提升；开发者可通过 API 调用，减少需要人工核查的错误输出。"}
+      ],
+      "src": "📎 openai.com · techcrunch.com"
+    },
+    {
+      "slug": "02-deepseek-500b-valuation",
+      "idx": "02",
+      "catText": "融资",
+      "accent": "#4A90E2",
+      "bg": {"top":"#EFF6FF","mid":"#DBEAFE","bot":"#BFDBFE","topRight":"#93C5FD"},
+      "title": [{"text":"DeepSeek 首轮融资"},{"text":"估值冲上 500 亿美元","hl":true}],
+      "oneline": [{"text":"腾讯 + 国家大基金入局，"},{"text":"V4.1 定档 6 月","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"DeepSeek 即将完成首次对外融资，估值高达 500 亿美元，腾讯及国家集成电路产业投资基金三期（大基金三期）均已参与，梁文锋出资超 200 亿元。"},
+        {"k":"为什么重要","v":"DeepSeek 自去年年初以低成本模型震撼全球后，此次融资标志着中国 AI 已进入国家战略加速期，估值仅半年从 200 亿美元翻至 500 亿，下一代模型 V4.1 亦定档 6 月发布。"},
+        {"k":"对你的影响","v":"开源模型生态将进一步活跃，国内外企业可预期更多高性价比 API 服务；同时中美 AI 竞争加剧，澳洲 IT 从业者应关注供应链与合规变化。"}
+      ],
+      "src": "📎 scmp.com · qbitai.com"
+    },
+    {
+      "slug": "03-baidu-wenxin-5-1",
+      "idx": "03",
+      "catText": "大模型",
+      "accent": "#2932E1",
+      "bg": {"top":"#EEF2FF","mid":"#E0E7FF","bot":"#C7D2FE","topRight":"#A5B4FC"},
+      "title": [{"text":"百度文心 5.1 发布"},{"text":"训练成本仅同类 6%","hl":true}],
+      "oneline": [{"text":"LMArena 搜索榜"},{"text":"国内第一、全球第四","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"百度发布文心 5.1，以 1223 分登上 LMArena 搜索能力榜国内第一、全球第四，是唯一上榜的国产模型，而其预训练成本仅为业界同规模模型的约 6%。"},
+        {"k":"为什么重要","v":"「用 6% 成本打赢同量级模型」证明高效训练方法已成为新竞争轴线；文心 5.1 也是百度在搜索 AI 赛道对抗 Google 和 OpenAI 的重要筹码。"},
+        {"k":"对你的影响","v":"成本壁垒降低意味着更多中小企业将能负担得起 AI 搜索能力集成；学 AI 的同学可重点关注 MoE 和高效预训练技术，这将是未来几年的核心能力方向。"}
+      ],
+      "src": "📎 qbitai.com · baidu.com"
+    },
+    {
+      "slug": "04-grok-apple-carplay",
+      "idx": "04",
+      "catText": "应用",
+      "accent": "#8B5CF6",
+      "bg": {"top":"#F5F3FF","mid":"#EDE9FE","bot":"#DDD6FE","topRight":"#C4B5FD"},
+      "title": [{"text":"Grok AI 进驻"},{"text":"Apple CarPlay","hl":true}],
+      "oneline": [{"text":"语音唤醒 + 实时搜索，"},{"text":"AI 助手首次进入车载场景","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"xAI 于 5 月 10 日宣布 Grok AI 正式接入 Apple CarPlay，驾驶者可通过语音指令调用 Grok 进行实时搜索、读取信息、导航辅助及多媒体控制，无需取出手机。"},
+        {"k":"为什么重要","v":"这是主流 AI 助手首次深度接入车载 CarPlay 生态，标志着 AI 对话从手机端延伸至出行场景；xAI 借此与 Siri 和 Google Assistant 展开正面竞争。"},
+        {"k":"对你的影响","v":"开车族可即时体验免动手 AI 搜索；对 iOS 和车载应用开发者而言，AI 语音接口将成为新的标配能力，相关 API 和 CarPlay 开发经验值得提前布局。"}
+      ],
+      "src": "📎 voiceofemirates.com · x.ai"
+    },
+    {
+      "slug": "05-meta-publishers-lawsuit",
+      "idx": "05",
+      "catText": "版权",
+      "accent": "#EF4444",
+      "bg": {"top":"#FFF1F2","mid":"#FFE4E6","bot":"#FECDD3","topRight":"#FDA4AF"},
+      "title": [{"text":"五大出版商联合起诉 Meta"},{"text":"Llama 盗版训练数据","hl":true}],
+      "oneline": [{"text":"Elsevier、Hachette 等五家"},{"text":"首发集体诉讼","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Elsevier、Cengage、Hachette、Macmillan、McGraw-Hill 五大出版商于 5 月 5 日在曼哈顿联邦法院联合起诉 Meta，指控其在未经许可的情况下使用数百万份版权书籍和期刊训练 Llama 模型，扎克伯格「亲自授权」该行为。"},
+        {"k":"为什么重要","v":"这是学术和商业出版商（而非个人作者）首次对 AI 公司发起集体诉讼，案件范围更广、影响力更强；Anthropic 此前已就类似诉讼支付 15 亿美元和解金。"},
+        {"k":"对你的影响","v":"AI 训练数据版权判决将深刻影响开源模型的合规边界；从事 AI 产品开发或内容创作的从业者，需关注版权授权要求是否将成为行业硬门槛。"}
+      ],
+      "src": "📎 thenextweb.com · resultsense.com"
+    }
+  ],
+  "mp": { "title": "GPT-5.5 默认上线 / DeepSeek 500亿 / 文心5.1成本仅6% / Grok入CarPlay / Meta版权诉" }
+}
