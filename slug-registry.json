@@ -1,1241 +1,281 @@
 {
-  "lockedAt": "2026-05-10T00:39:30.000Z",
+  "lockedAt": "2026-05-10T03:07:33.854Z",
   "version": 1,
   "slugs": [
-    {
-      "type": "article",
-      "slug": "ai-coding-tools-app-store-boom-2026"
-    },
-    {
-      "type": "article",
-      "slug": "ai-cybersecurity-agentic-attacks-2026"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-05"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-06"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-07"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-09"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-18"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-19"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-20"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-21"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-22"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-24"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-25"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-26"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-27"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-28"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-29"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-04-30"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-05-01"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-05-02"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-05-03"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-05-04"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-05-05"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-05-06"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-05-07"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-05-08"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-05-09"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-05-10"
-    },
-    {
-      "type": "article",
-      "slug": "ai-tool-supply-chain-security-vercel-oauth"
-    },
-    {
-      "type": "article",
-      "slug": "amazon-anthropic-250-billion-ai-infrastructure"
-    },
-    {
-      "type": "article",
-      "slug": "anthropic-30b-arr-surpasses-openai-2026"
-    },
-    {
-      "type": "article",
-      "slug": "anthropic-google-200b-cloud-bet-2026"
-    },
-    {
-      "type": "article",
-      "slug": "anthropic-mythos-glasswing-power-play-2026"
-    },
-    {
-      "type": "article",
-      "slug": "anthropic-pentagon-freeze-out-2026"
-    },
-    {
-      "type": "article",
-      "slug": "anthropic-reversal-capital-war-2026"
-    },
-    {
-      "type": "article",
-      "slug": "claude-code-workflow"
-    },
-    {
-      "type": "article",
-      "slug": "claude-mythos-zero-day-defense-guide"
-    },
-    {
-      "type": "article",
-      "slug": "claude-opus-4-7-upgrade-guide"
-    },
-    {
-      "type": "article",
-      "slug": "cursor-tips"
-    },
-    {
-      "type": "article",
-      "slug": "deepseek-v4-open-source-frontier-2026"
-    },
-    {
-      "type": "article",
-      "slug": "gemma-4-developer-guide"
-    },
-    {
-      "type": "article",
-      "slug": "google-gemma-4-open-source-guide"
-    },
-    {
-      "type": "article",
-      "slug": "gpt-5-4-computer-use-agent-guide"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-04-28"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-04-29"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-04-30"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-05-01"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-05-02"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-05-03"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-05-04"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-05-05"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-05-06"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-05-07"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-05-08"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-05-09"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-05-10"
-    },
-    {
-      "type": "article",
-      "slug": "mcp-protocol-security-ai-agent-rce"
-    },
-    {
-      "type": "article",
-      "slug": "npm-publish-security-claude-code-leak"
-    },
-    {
-      "type": "article",
-      "slug": "openai-compute-bet-backfire-2026"
-    },
-    {
-      "type": "article",
-      "slug": "qwen-3-6-plus-agentic-coding-guide"
-    },
-    {
-      "type": "article",
-      "slug": "test-sync-pipeline-2026-04-18"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-adelaide-2026-04-24"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-adelaide-2026-04-28"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-adelaide-2026-05-01"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-adelaide-2026-05-04"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-adelaide-2026-05-07"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-monash-2026-04-21"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-monash-2026-04-24"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-monash-2026-04-27"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-monash-2026-04-29"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-monash-2026-05-03"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-monash-2026-05-06"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-monash-2026-05-09"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-umelb-2026-04-24"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-umelb-2026-04-28"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-umelb-2026-04-29"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-umelb-2026-05-02"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-umelb-2026-05-05"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-umelb-2026-05-08"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-unsw-2026-04-25"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-unsw-2026-04-27"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-unsw-2026-04-29"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-unsw-2026-05-02"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-unsw-2026-05-03"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-unsw-2026-05-05"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-unsw-2026-05-08"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uq-2026-04-22"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uq-2026-04-25"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uq-2026-04-28"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uq-2026-04-29"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uq-2026-05-01"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uq-2026-05-04"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uq-2026-05-07"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-usyd-2026-04-22"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-usyd-2026-04-25"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-usyd-2026-04-27"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-usyd-2026-04-29"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-usyd-2026-05-03"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-usyd-2026-05-06"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-usyd-2026-05-09"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uts-2026-04-24"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uwa-2026-04-24"
-    },
-    {
-      "type": "article",
-      "slug": "world-models-vs-llm-lecun-ami"
-    },
-    {
-      "type": "book",
-      "slug": "aider-guide"
-    },
-    {
-      "type": "book",
-      "slug": "bolt-new-guide"
-    },
-    {
-      "type": "book",
-      "slug": "claude-code-guide"
-    },
-    {
-      "type": "book",
-      "slug": "cline-guide"
-    },
-    {
-      "type": "book",
-      "slug": "continue-guide"
-    },
-    {
-      "type": "book",
-      "slug": "coze-guide"
-    },
-    {
-      "type": "book",
-      "slug": "crewai-guide"
-    },
-    {
-      "type": "book",
-      "slug": "cursor-guide"
-    },
-    {
-      "type": "book",
-      "slug": "dify-guide"
-    },
-    {
-      "type": "book",
-      "slug": "gamma-guide"
-    },
-    {
-      "type": "book",
-      "slug": "github-copilot-guide"
-    },
-    {
-      "type": "book",
-      "slug": "jules-guide"
-    },
-    {
-      "type": "book",
-      "slug": "kiro-guide"
-    },
-    {
-      "type": "book",
-      "slug": "lovable-guide"
-    },
-    {
-      "type": "book",
-      "slug": "manus-guide"
-    },
-    {
-      "type": "book",
-      "slug": "n8n-guide"
-    },
-    {
-      "type": "book",
-      "slug": "n8n-workflow-automation"
-    },
-    {
-      "type": "book",
-      "slug": "notebooklm-guide"
-    },
-    {
-      "type": "book",
-      "slug": "openhands-guide"
-    },
-    {
-      "type": "book",
-      "slug": "prompt-engineering"
-    },
-    {
-      "type": "book",
-      "slug": "replit-agent-guide"
-    },
-    {
-      "type": "book",
-      "slug": "trae-guide"
-    },
-    {
-      "type": "book",
-      "slug": "v0-guide"
-    },
-    {
-      "type": "book",
-      "slug": "vercel-ai-sdk-guide"
-    },
-    {
-      "type": "book",
-      "slug": "windsurf-guide"
-    },
-    {
-      "type": "chapter",
-      "book": "aider-guide",
-      "slug": "01-what-is-aider"
-    },
-    {
-      "type": "chapter",
-      "book": "aider-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "aider-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "aider-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "aider-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "bolt-new-guide",
-      "slug": "01-what-is-bolt-new"
-    },
-    {
-      "type": "chapter",
-      "book": "bolt-new-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "bolt-new-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "bolt-new-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "bolt-new-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "bolt-new-guide",
-      "slug": "06-fullstack-deploy"
-    },
-    {
-      "type": "chapter",
-      "book": "bolt-new-guide",
-      "slug": "07-team-collaboration"
-    },
-    {
-      "type": "chapter",
-      "book": "claude-code-guide",
-      "slug": "01-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "claude-code-guide",
-      "slug": "02-multi-file-editing"
-    },
-    {
-      "type": "chapter",
-      "book": "claude-code-guide",
-      "slug": "03-git-workflow"
-    },
-    {
-      "type": "chapter",
-      "book": "claude-code-guide",
-      "slug": "04-hooks-automation"
-    },
-    {
-      "type": "chapter",
-      "book": "claude-code-guide",
-      "slug": "05-mcp-servers"
-    },
-    {
-      "type": "chapter",
-      "book": "claude-code-guide",
-      "slug": "06-debugging-techniques"
-    },
-    {
-      "type": "chapter",
-      "book": "claude-code-guide",
-      "slug": "07-claude-md-best-practices"
-    },
-    {
-      "type": "chapter",
-      "book": "claude-code-guide",
-      "slug": "08-parallel-dev-worktree"
-    },
-    {
-      "type": "chapter",
-      "book": "cline-guide",
-      "slug": "01-what-is-cline"
-    },
-    {
-      "type": "chapter",
-      "book": "cline-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "cline-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "cline-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "cline-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "continue-guide",
-      "slug": "01-what-is-continue"
-    },
-    {
-      "type": "chapter",
-      "book": "continue-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "continue-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "continue-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "continue-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "coze-guide",
-      "slug": "01-what-is-coze"
-    },
-    {
-      "type": "chapter",
-      "book": "coze-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "coze-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "coze-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "coze-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "crewai-guide",
-      "slug": "01-what-is-crewai"
-    },
-    {
-      "type": "chapter",
-      "book": "crewai-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "crewai-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "crewai-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "crewai-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "cursor-guide",
-      "slug": "01-what-is-cursor"
-    },
-    {
-      "type": "chapter",
-      "book": "cursor-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "cursor-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "cursor-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "cursor-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "cursor-guide",
-      "slug": "06-mcp-servers"
-    },
-    {
-      "type": "chapter",
-      "book": "dify-guide",
-      "slug": "01-what-is-dify"
-    },
-    {
-      "type": "chapter",
-      "book": "dify-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "dify-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "dify-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "dify-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "gamma-guide",
-      "slug": "01-what-is-gamma"
-    },
-    {
-      "type": "chapter",
-      "book": "gamma-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "gamma-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "gamma-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "gamma-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "github-copilot-guide",
-      "slug": "01-what-is-github-copilot"
-    },
-    {
-      "type": "chapter",
-      "book": "github-copilot-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "github-copilot-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "github-copilot-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "github-copilot-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "jules-guide",
-      "slug": "01-what-is-jules"
-    },
-    {
-      "type": "chapter",
-      "book": "jules-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "jules-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "jules-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "jules-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "kiro-guide",
-      "slug": "01-what-is-kiro"
-    },
-    {
-      "type": "chapter",
-      "book": "kiro-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "kiro-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "kiro-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "kiro-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "lovable-guide",
-      "slug": "01-what-is-lovable"
-    },
-    {
-      "type": "chapter",
-      "book": "lovable-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "lovable-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "lovable-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "lovable-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "manus-guide",
-      "slug": "01-what-is-manus"
-    },
-    {
-      "type": "chapter",
-      "book": "manus-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "manus-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "manus-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "manus-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-guide",
-      "slug": "00-research-notes"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-guide",
-      "slug": "01-what-is-n8n"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-guide",
-      "slug": "02-five-killer-workflows"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-workflow-automation",
-      "slug": "01-what-is-n8n"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-workflow-automation",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-workflow-automation",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-workflow-automation",
-      "slug": "04-ai-agent"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-workflow-automation",
-      "slug": "05-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-workflow-automation",
-      "slug": "06-http-request-api"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-workflow-automation",
-      "slug": "07-source-control-team"
-    },
-    {
-      "type": "chapter",
-      "book": "n8n-workflow-automation",
-      "slug": "08-monitoring-production"
-    },
-    {
-      "type": "chapter",
-      "book": "notebooklm-guide",
-      "slug": "01-what-is-notebooklm"
-    },
-    {
-      "type": "chapter",
-      "book": "notebooklm-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "notebooklm-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "notebooklm-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "notebooklm-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "openhands-guide",
-      "slug": "01-what-is-openhands"
-    },
-    {
-      "type": "chapter",
-      "book": "openhands-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "openhands-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "openhands-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "openhands-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "prompt-engineering",
-      "slug": "01-what-is-prompt"
-    },
-    {
-      "type": "chapter",
-      "book": "prompt-engineering",
-      "slug": "02-basic-techniques"
-    },
-    {
-      "type": "chapter",
-      "book": "prompt-engineering",
-      "slug": "03-advanced-patterns"
-    },
-    {
-      "type": "chapter",
-      "book": "prompt-engineering",
-      "slug": "04-real-world-templates"
-    },
-    {
-      "type": "chapter",
-      "book": "prompt-engineering",
-      "slug": "05-common-mistakes"
-    },
-    {
-      "type": "chapter",
-      "book": "prompt-engineering",
-      "slug": "06-multimodal-prompting"
-    },
-    {
-      "type": "chapter",
-      "book": "prompt-engineering",
-      "slug": "07-agentic-prompt-design"
-    },
-    {
-      "type": "chapter",
-      "book": "prompt-engineering",
-      "slug": "08-prompt-testing"
-    },
-    {
-      "type": "chapter",
-      "book": "prompt-engineering",
-      "slug": "09-prompt-security"
-    },
-    {
-      "type": "chapter",
-      "book": "prompt-engineering",
-      "slug": "10-claude-md-practice"
-    },
-    {
-      "type": "chapter",
-      "book": "replit-agent-guide",
-      "slug": "01-what-is-replit-agent"
-    },
-    {
-      "type": "chapter",
-      "book": "replit-agent-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "replit-agent-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "replit-agent-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "replit-agent-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "trae-guide",
-      "slug": "01-what-is-trae"
-    },
-    {
-      "type": "chapter",
-      "book": "trae-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "trae-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "trae-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "trae-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "v0-guide",
-      "slug": "01-what-is-v0"
-    },
-    {
-      "type": "chapter",
-      "book": "v0-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "v0-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "v0-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "v0-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "v0-guide",
-      "slug": "06-supabase-fullstack"
-    },
-    {
-      "type": "chapter",
-      "book": "v0-guide",
-      "slug": "07-platform-api"
-    },
-    {
-      "type": "chapter",
-      "book": "v0-guide",
-      "slug": "08-production-checklist"
-    },
-    {
-      "type": "chapter",
-      "book": "vercel-ai-sdk-guide",
-      "slug": "01-what-is-vercel-ai-sdk"
-    },
-    {
-      "type": "chapter",
-      "book": "vercel-ai-sdk-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "vercel-ai-sdk-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "vercel-ai-sdk-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "vercel-ai-sdk-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "windsurf-guide",
-      "slug": "01-what-is-windsurf"
-    },
-    {
-      "type": "chapter",
-      "book": "windsurf-guide",
-      "slug": "02-getting-started"
-    },
-    {
-      "type": "chapter",
-      "book": "windsurf-guide",
-      "slug": "03-core-features"
-    },
-    {
-      "type": "chapter",
-      "book": "windsurf-guide",
-      "slug": "04-advanced-tips"
-    },
-    {
-      "type": "chapter",
-      "book": "windsurf-guide",
-      "slug": "05-faq"
-    },
-    {
-      "type": "chapter",
-      "book": "windsurf-guide",
-      "slug": "06-cascade-debugging"
-    },
-    {
-      "type": "chapter",
-      "book": "windsurf-guide",
-      "slug": "07-git-integration"
-    },
-    {
-      "type": "chapter",
-      "book": "windsurf-guide",
-      "slug": "08-fullstack-project"
-    },
-    {
-      "type": "story",
-      "slug": "alice-accounting-to-frontend"
-    },
-    {
-      "type": "story",
-      "slug": "bob-civil-to-devops"
-    }
+    {"type":"article","slug":"ai-coding-tools-app-store-boom-2026"},
+    {"type":"article","slug":"ai-cybersecurity-agentic-attacks-2026"},
+    {"type":"article","slug":"ai-daily-2026-04-05"},
+    {"type":"article","slug":"ai-daily-2026-04-06"},
+    {"type":"article","slug":"ai-daily-2026-04-07"},
+    {"type":"article","slug":"ai-daily-2026-04-09"},
+    {"type":"article","slug":"ai-daily-2026-04-18"},
+    {"type":"article","slug":"ai-daily-2026-04-19"},
+    {"type":"article","slug":"ai-daily-2026-04-20"},
+    {"type":"article","slug":"ai-daily-2026-04-21"},
+    {"type":"article","slug":"ai-daily-2026-04-22"},
+    {"type":"article","slug":"ai-daily-2026-04-24"},
+    {"type":"article","slug":"ai-daily-2026-04-25"},
+    {"type":"article","slug":"ai-daily-2026-04-26"},
+    {"type":"article","slug":"ai-daily-2026-04-27"},
+    {"type":"article","slug":"ai-daily-2026-04-28"},
+    {"type":"article","slug":"ai-daily-2026-04-29"},
+    {"type":"article","slug":"ai-daily-2026-04-30"},
+    {"type":"article","slug":"ai-daily-2026-05-01"},
+    {"type":"article","slug":"ai-daily-2026-05-02"},
+    {"type":"article","slug":"ai-daily-2026-05-03"},
+    {"type":"article","slug":"ai-daily-2026-05-04"},
+    {"type":"article","slug":"ai-daily-2026-05-05"},
+    {"type":"article","slug":"ai-daily-2026-05-06"},
+    {"type":"article","slug":"ai-daily-2026-05-07"},
+    {"type":"article","slug":"ai-daily-2026-05-08"},
+    {"type":"article","slug":"ai-daily-2026-05-09"},
+    {"type":"article","slug":"ai-daily-2026-05-10"},
+    {"type":"article","slug":"ai-tool-supply-chain-security-vercel-oauth"},
+    {"type":"article","slug":"amazon-anthropic-250-billion-ai-infrastructure"},
+    {"type":"article","slug":"anthropic-30b-arr-surpasses-openai-2026"},
+    {"type":"article","slug":"anthropic-google-200b-cloud-bet-2026"},
+    {"type":"article","slug":"anthropic-mythos-glasswing-power-play-2026"},
+    {"type":"article","slug":"anthropic-pentagon-freeze-out-2026"},
+    {"type":"article","slug":"anthropic-reversal-capital-war-2026"},
+    {"type":"article","slug":"claude-code-workflow"},
+    {"type":"article","slug":"claude-mythos-zero-day-defense-guide"},
+    {"type":"article","slug":"claude-opus-4-7-upgrade-guide"},
+    {"type":"article","slug":"cursor-tips"},
+    {"type":"article","slug":"deepseek-v4-open-source-frontier-2026"},
+    {"type":"article","slug":"gemma-4-developer-guide"},
+    {"type":"article","slug":"google-gemma-4-open-source-guide"},
+    {"type":"article","slug":"gpt-5-4-computer-use-agent-guide"},
+    {"type":"article","slug":"it-daily-2026-04-28"},
+    {"type":"article","slug":"it-daily-2026-04-29"},
+    {"type":"article","slug":"it-daily-2026-04-30"},
+    {"type":"article","slug":"it-daily-2026-05-01"},
+    {"type":"article","slug":"it-daily-2026-05-02"},
+    {"type":"article","slug":"it-daily-2026-05-03"},
+    {"type":"article","slug":"it-daily-2026-05-04"},
+    {"type":"article","slug":"it-daily-2026-05-05"},
+    {"type":"article","slug":"it-daily-2026-05-06"},
+    {"type":"article","slug":"it-daily-2026-05-07"},
+    {"type":"article","slug":"it-daily-2026-05-08"},
+    {"type":"article","slug":"it-daily-2026-05-09"},
+    {"type":"article","slug":"it-daily-2026-05-10"},
+    {"type":"article","slug":"mcp-protocol-security-ai-agent-rce"},
+    {"type":"article","slug":"npm-publish-security-claude-code-leak"},
+    {"type":"article","slug":"openai-compute-bet-backfire-2026"},
+    {"type":"article","slug":"qwen-3-6-plus-agentic-coding-guide"},
+    {"type":"article","slug":"test-sync-pipeline-2026-04-18"},
+    {"type":"article","slug":"uni-news-adelaide-2026-04-24"},
+    {"type":"article","slug":"uni-news-adelaide-2026-04-28"},
+    {"type":"article","slug":"uni-news-adelaide-2026-05-01"},
+    {"type":"article","slug":"uni-news-adelaide-2026-05-04"},
+    {"type":"article","slug":"uni-news-adelaide-2026-05-07"},
+    {"type":"article","slug":"uni-news-adelaide-2026-05-10"},
+    {"type":"article","slug":"uni-news-monash-2026-04-21"},
+    {"type":"article","slug":"uni-news-monash-2026-04-24"},
+    {"type":"article","slug":"uni-news-monash-2026-04-27"},
+    {"type":"article","slug":"uni-news-monash-2026-04-29"},
+    {"type":"article","slug":"uni-news-monash-2026-05-03"},
+    {"type":"article","slug":"uni-news-monash-2026-05-06"},
+    {"type":"article","slug":"uni-news-monash-2026-05-09"},
+    {"type":"article","slug":"uni-news-umelb-2026-04-24"},
+    {"type":"article","slug":"uni-news-umelb-2026-04-28"},
+    {"type":"article","slug":"uni-news-umelb-2026-04-29"},
+    {"type":"article","slug":"uni-news-umelb-2026-05-02"},
+    {"type":"article","slug":"uni-news-umelb-2026-05-05"},
+    {"type":"article","slug":"uni-news-umelb-2026-05-08"},
+    {"type":"article","slug":"uni-news-unsw-2026-04-25"},
+    {"type":"article","slug":"uni-news-unsw-2026-04-27"},
+    {"type":"article","slug":"uni-news-unsw-2026-04-29"},
+    {"type":"article","slug":"uni-news-unsw-2026-05-02"},
+    {"type":"article","slug":"uni-news-unsw-2026-05-03"},
+    {"type":"article","slug":"uni-news-unsw-2026-05-05"},
+    {"type":"article","slug":"uni-news-unsw-2026-05-08"},
+    {"type":"article","slug":"uni-news-uq-2026-04-22"},
+    {"type":"article","slug":"uni-news-uq-2026-04-25"},
+    {"type":"article","slug":"uni-news-uq-2026-04-28"},
+    {"type":"article","slug":"uni-news-uq-2026-04-29"},
+    {"type":"article","slug":"uni-news-uq-2026-05-01"},
+    {"type":"article","slug":"uni-news-uq-2026-05-04"},
+    {"type":"article","slug":"uni-news-uq-2026-05-07"},
+    {"type":"article","slug":"uni-news-uq-2026-05-10"},
+    {"type":"article","slug":"uni-news-usyd-2026-04-22"},
+    {"type":"article","slug":"uni-news-usyd-2026-04-25"},
+    {"type":"article","slug":"uni-news-usyd-2026-04-27"},
+    {"type":"article","slug":"uni-news-usyd-2026-04-29"},
+    {"type":"article","slug":"uni-news-usyd-2026-05-03"},
+    {"type":"article","slug":"uni-news-usyd-2026-05-06"},
+    {"type":"article","slug":"uni-news-usyd-2026-05-09"},
+    {"type":"article","slug":"uni-news-uts-2026-04-24"},
+    {"type":"article","slug":"uni-news-uwa-2026-04-24"},
+    {"type":"article","slug":"world-models-vs-llm-lecun-ami"},
+    {"type":"book","slug":"aider-guide"},
+    {"type":"book","slug":"bolt-new-guide"},
+    {"type":"book","slug":"claude-code-guide"},
+    {"type":"book","slug":"cline-guide"},
+    {"type":"book","slug":"continue-guide"},
+    {"type":"book","slug":"coze-guide"},
+    {"type":"book","slug":"crewai-guide"},
+    {"type":"book","slug":"cursor-guide"},
+    {"type":"book","slug":"dify-guide"},
+    {"type":"book","slug":"gamma-guide"},
+    {"type":"book","slug":"github-copilot-guide"},
+    {"type":"book","slug":"jules-guide"},
+    {"type":"book","slug":"kiro-guide"},
+    {"type":"book","slug":"lovable-guide"},
+    {"type":"book","slug":"manus-guide"},
+    {"type":"book","slug":"n8n-guide"},
+    {"type":"book","slug":"n8n-workflow-automation"},
+    {"type":"book","slug":"notebooklm-guide"},
+    {"type":"book","slug":"openhands-guide"},
+    {"type":"book","slug":"prompt-engineering"},
+    {"type":"book","slug":"replit-agent-guide"},
+    {"type":"book","slug":"trae-guide"},
+    {"type":"book","slug":"v0-guide"},
+    {"type":"book","slug":"vercel-ai-sdk-guide"},
+    {"type":"book","slug":"windsurf-guide"},
+    {"type":"chapter","book":"aider-guide","slug":"01-what-is-aider"},
+    {"type":"chapter","book":"aider-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"aider-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"aider-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"aider-guide","slug":"05-faq"},
+    {"type":"chapter","book":"bolt-new-guide","slug":"01-what-is-bolt-new"},
+    {"type":"chapter","book":"bolt-new-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"bolt-new-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"bolt-new-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"bolt-new-guide","slug":"05-faq"},
+    {"type":"chapter","book":"bolt-new-guide","slug":"06-fullstack-deploy"},
+    {"type":"chapter","book":"bolt-new-guide","slug":"07-team-collaboration"},
+    {"type":"chapter","book":"claude-code-guide","slug":"01-getting-started"},
+    {"type":"chapter","book":"claude-code-guide","slug":"02-multi-file-editing"},
+    {"type":"chapter","book":"claude-code-guide","slug":"03-git-workflow"},
+    {"type":"chapter","book":"claude-code-guide","slug":"04-hooks-automation"},
+    {"type":"chapter","book":"claude-code-guide","slug":"05-mcp-servers"},
+    {"type":"chapter","book":"claude-code-guide","slug":"06-debugging-techniques"},
+    {"type":"chapter","book":"claude-code-guide","slug":"07-claude-md-best-practices"},
+    {"type":"chapter","book":"claude-code-guide","slug":"08-parallel-dev-worktree"},
+    {"type":"chapter","book":"cline-guide","slug":"01-what-is-cline"},
+    {"type":"chapter","book":"cline-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"cline-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"cline-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"cline-guide","slug":"05-faq"},
+    {"type":"chapter","book":"continue-guide","slug":"01-what-is-continue"},
+    {"type":"chapter","book":"continue-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"continue-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"continue-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"continue-guide","slug":"05-faq"},
+    {"type":"chapter","book":"coze-guide","slug":"01-what-is-coze"},
+    {"type":"chapter","book":"coze-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"coze-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"coze-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"coze-guide","slug":"05-faq"},
+    {"type":"chapter","book":"crewai-guide","slug":"01-what-is-crewai"},
+    {"type":"chapter","book":"crewai-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"crewai-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"crewai-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"crewai-guide","slug":"05-faq"},
+    {"type":"chapter","book":"cursor-guide","slug":"01-what-is-cursor"},
+    {"type":"chapter","book":"cursor-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"cursor-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"cursor-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"cursor-guide","slug":"05-faq"},
+    {"type":"chapter","book":"cursor-guide","slug":"06-mcp-servers"},
+    {"type":"chapter","book":"dify-guide","slug":"01-what-is-dify"},
+    {"type":"chapter","book":"dify-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"dify-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"dify-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"dify-guide","slug":"05-faq"},
+    {"type":"chapter","book":"gamma-guide","slug":"01-what-is-gamma"},
+    {"type":"chapter","book":"gamma-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"gamma-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"gamma-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"gamma-guide","slug":"05-faq"},
+    {"type":"chapter","book":"github-copilot-guide","slug":"01-what-is-github-copilot"},
+    {"type":"chapter","book":"github-copilot-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"github-copilot-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"github-copilot-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"github-copilot-guide","slug":"05-faq"},
+    {"type":"chapter","book":"jules-guide","slug":"01-what-is-jules"},
+    {"type":"chapter","book":"jules-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"jules-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"jules-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"jules-guide","slug":"05-faq"},
+    {"type":"chapter","book":"kiro-guide","slug":"01-what-is-kiro"},
+    {"type":"chapter","book":"kiro-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"kiro-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"kiro-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"kiro-guide","slug":"05-faq"},
+    {"type":"chapter","book":"lovable-guide","slug":"01-what-is-lovable"},
+    {"type":"chapter","book":"lovable-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"lovable-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"lovable-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"lovable-guide","slug":"05-faq"},
+    {"type":"chapter","book":"manus-guide","slug":"01-what-is-manus"},
+    {"type":"chapter","book":"manus-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"manus-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"manus-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"manus-guide","slug":"05-faq"},
+    {"type":"chapter","book":"n8n-guide","slug":"00-research-notes"},
+    {"type":"chapter","book":"n8n-guide","slug":"01-what-is-n8n"},
+    {"type":"chapter","book":"n8n-guide","slug":"02-five-killer-workflows"},
+    {"type":"chapter","book":"n8n-workflow-automation","slug":"01-what-is-n8n"},
+    {"type":"chapter","book":"n8n-workflow-automation","slug":"02-getting-started"},
+    {"type":"chapter","book":"n8n-workflow-automation","slug":"03-core-features"},
+    {"type":"chapter","book":"n8n-workflow-automation","slug":"04-ai-agent"},
+    {"type":"chapter","book":"n8n-workflow-automation","slug":"05-advanced-tips"},
+    {"type":"chapter","book":"n8n-workflow-automation","slug":"06-http-request-api"},
+    {"type":"chapter","book":"n8n-workflow-automation","slug":"07-source-control-team"},
+    {"type":"chapter","book":"n8n-workflow-automation","slug":"08-monitoring-production"},
+    {"type":"chapter","book":"notebooklm-guide","slug":"01-what-is-notebooklm"},
+    {"type":"chapter","book":"notebooklm-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"notebooklm-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"notebooklm-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"notebooklm-guide","slug":"05-faq"},
+    {"type":"chapter","book":"openhands-guide","slug":"01-what-is-openhands"},
+    {"type":"chapter","book":"openhands-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"openhands-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"openhands-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"openhands-guide","slug":"05-faq"},
+    {"type":"chapter","book":"prompt-engineering","slug":"01-what-is-prompt"},
+    {"type":"chapter","book":"prompt-engineering","slug":"02-basic-techniques"},
+    {"type":"chapter","book":"prompt-engineering","slug":"03-advanced-patterns"},
+    {"type":"chapter","book":"prompt-engineering","slug":"04-real-world-templates"},
+    {"type":"chapter","book":"prompt-engineering","slug":"05-common-mistakes"},
+    {"type":"chapter","book":"prompt-engineering","slug":"06-multimodal-prompting"},
+    {"type":"chapter","book":"prompt-engineering","slug":"07-agentic-prompt-design"},
+    {"type":"chapter","book":"prompt-engineering","slug":"08-prompt-testing"},
+    {"type":"chapter","book":"prompt-engineering","slug":"09-prompt-security"},
+    {"type":"chapter","book":"prompt-engineering","slug":"10-claude-md-practice"},
+    {"type":"chapter","book":"replit-agent-guide","slug":"01-what-is-replit-agent"},
+    {"type":"chapter","book":"replit-agent-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"replit-agent-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"replit-agent-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"replit-agent-guide","slug":"05-faq"},
+    {"type":"chapter","book":"trae-guide","slug":"01-what-is-trae"},
+    {"type":"chapter","book":"trae-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"trae-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"trae-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"trae-guide","slug":"05-faq"},
+    {"type":"chapter","book":"v0-guide","slug":"01-what-is-v0"},
+    {"type":"chapter","book":"v0-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"v0-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"v0-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"v0-guide","slug":"05-faq"},
+    {"type":"chapter","book":"v0-guide","slug":"06-supabase-fullstack"},
+    {"type":"chapter","book":"v0-guide","slug":"07-platform-api"},
+    {"type":"chapter","book":"v0-guide","slug":"08-production-checklist"},
+    {"type":"chapter","book":"vercel-ai-sdk-guide","slug":"01-what-is-vercel-ai-sdk"},
+    {"type":"chapter","book":"vercel-ai-sdk-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"vercel-ai-sdk-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"vercel-ai-sdk-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"vercel-ai-sdk-guide","slug":"05-faq"},
+    {"type":"chapter","book":"windsurf-guide","slug":"01-what-is-windsurf"},
+    {"type":"chapter","book":"windsurf-guide","slug":"02-getting-started"},
+    {"type":"chapter","book":"windsurf-guide","slug":"03-core-features"},
+    {"type":"chapter","book":"windsurf-guide","slug":"04-advanced-tips"},
+    {"type":"chapter","book":"windsurf-guide","slug":"05-faq"},
+    {"type":"chapter","book":"windsurf-guide","slug":"06-cascade-debugging"},
+    {"type":"chapter","book":"windsurf-guide","slug":"07-git-integration"},
+    {"type":"chapter","book":"windsurf-guide","slug":"08-fullstack-project"},
+    {"type":"story","slug":"alice-accounting-to-frontend"},
+    {"type":"story","slug":"bob-civil-to-devops"}
   ]
 }
