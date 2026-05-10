@@ -104,6 +104,18 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-05-08"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-05-09"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-05-10"
+    },
+    {
+      "type": "article",
       "slug": "ai-tool-supply-chain-security-vercel-oauth"
     },
     {
@@ -117,6 +129,10 @@
     {
       "type": "article",
       "slug": "anthropic-google-200b-cloud-bet-2026"
+    },
+    {
+      "type": "article",
+      "slug": "anthropic-mythos-glasswing-power-play-2026"
     },
     {
       "type": "article",
@@ -200,6 +216,18 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-05-08"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-05-09"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-05-10"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -240,6 +268,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-05-10"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -264,6 +296,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-monash-2026-05-09"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-umelb-2026-04-24"
     },
     {
@@ -281,6 +317,10 @@
     {
       "type": "article",
       "slug": "uni-news-umelb-2026-05-05"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-05-08"
     },
     {
       "type": "article",
@@ -305,6 +345,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-05-05"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-05-08"
     },
     {
       "type": "article",
@@ -336,6 +380,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-uq-2026-05-10"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-usyd-2026-04-22"
     },
     {
@@ -360,6 +408,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-usyd-2026-05-09"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-uts-2026-04-24"
     },
     {
@@ -369,6 +421,10 @@
     {
       "type": "article",
       "slug": "world-models-vs-llm-lecun-ami"
+    },
+    {
+      "type": "book",
+      "slug": "ai-engineer"
     },
     {
       "type": "book",
@@ -385,6 +441,10 @@
     {
       "type": "book",
       "slug": "cline-guide"
+    },
+    {
+      "type": "book",
+      "slug": "continue-guide"
     },
     {
       "type": "book",
@@ -405,6 +465,14 @@
     {
       "type": "book",
       "slug": "gamma-guide"
+    },
+    {
+      "type": "book",
+      "slug": "github-copilot-guide"
+    },
+    {
+      "type": "book",
+      "slug": "jr-academy-guide"
     },
     {
       "type": "book",
@@ -456,7 +524,51 @@
     },
     {
       "type": "book",
+      "slug": "vercel-ai-sdk-guide"
+    },
+    {
+      "type": "book",
       "slug": "windsurf-guide"
+    },
+    {
+      "type": "chapter",
+      "book": "ai-engineer",
+      "slug": "01-what-is-ai-engineer"
+    },
+    {
+      "type": "chapter",
+      "book": "ai-engineer",
+      "slug": "02-llm-fundamentals"
+    },
+    {
+      "type": "chapter",
+      "book": "ai-engineer",
+      "slug": "03-prompt-engineering"
+    },
+    {
+      "type": "chapter",
+      "book": "ai-engineer",
+      "slug": "04-rag-systems"
+    },
+    {
+      "type": "chapter",
+      "book": "ai-engineer",
+      "slug": "05-agents-and-tools"
+    },
+    {
+      "type": "chapter",
+      "book": "ai-engineer",
+      "slug": "06-fine-tuning-evaluation"
+    },
+    {
+      "type": "chapter",
+      "book": "ai-engineer",
+      "slug": "07-production-deployment"
+    },
+    {
+      "type": "chapter",
+      "book": "ai-engineer",
+      "slug": "08-career-path"
     },
     {
       "type": "chapter",
@@ -507,6 +619,16 @@
       "type": "chapter",
       "book": "bolt-new-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "bolt-new-guide",
+      "slug": "06-fullstack-deploy"
+    },
+    {
+      "type": "chapter",
+      "book": "bolt-new-guide",
+      "slug": "07-team-collaboration"
     },
     {
       "type": "chapter",
@@ -571,6 +693,31 @@
     {
       "type": "chapter",
       "book": "cline-guide",
+      "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "continue-guide",
+      "slug": "01-what-is-continue"
+    },
+    {
+      "type": "chapter",
+      "book": "continue-guide",
+      "slug": "02-getting-started"
+    },
+    {
+      "type": "chapter",
+      "book": "continue-guide",
+      "slug": "03-core-features"
+    },
+    {
+      "type": "chapter",
+      "book": "continue-guide",
+      "slug": "04-advanced-tips"
+    },
+    {
+      "type": "chapter",
+      "book": "continue-guide",
       "slug": "05-faq"
     },
     {
@@ -650,6 +797,11 @@
     },
     {
       "type": "chapter",
+      "book": "cursor-guide",
+      "slug": "06-mcp-servers"
+    },
+    {
+      "type": "chapter",
       "book": "dify-guide",
       "slug": "01-what-is-dify"
     },
@@ -697,6 +849,71 @@
       "type": "chapter",
       "book": "gamma-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "github-copilot-guide",
+      "slug": "01-what-is-github-copilot"
+    },
+    {
+      "type": "chapter",
+      "book": "github-copilot-guide",
+      "slug": "02-getting-started"
+    },
+    {
+      "type": "chapter",
+      "book": "github-copilot-guide",
+      "slug": "03-core-features"
+    },
+    {
+      "type": "chapter",
+      "book": "github-copilot-guide",
+      "slug": "04-advanced-tips"
+    },
+    {
+      "type": "chapter",
+      "book": "github-copilot-guide",
+      "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "01-quick-start"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "02-membership-tiers"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "03-cert-master"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "04-job-hunter"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "05-uni-mate"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "06-bootcamps"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "07-account-billing"
+    },
+    {
+      "type": "chapter",
+      "book": "jr-academy-guide",
+      "slug": "08-faq"
     },
     {
       "type": "chapter",
@@ -1052,6 +1269,31 @@
       "type": "chapter",
       "book": "v0-guide",
       "slug": "08-production-checklist"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "01-what-is-vercel-ai-sdk"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "02-getting-started"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "03-core-features"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "04-advanced-tips"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "05-faq"
     },
     {
       "type": "chapter",

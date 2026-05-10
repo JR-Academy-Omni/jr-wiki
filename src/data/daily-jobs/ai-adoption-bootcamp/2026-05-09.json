@@ -1,0 +1,29 @@
+{
+  "bootcamp": "ai-adoption-bootcamp",
+  "date": "2026-05-09",
+  "cohort": "AU",
+  "generatedAt": "2026-05-09T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Cloud Solution Architect - Data & AI",
+      "company": "Microsoft",
+      "location": "Sydney, NSW",
+      "posted": "recently posted",
+      "url": "https://au.linkedin.com/jobs/view/cloud-solution-architect-data-ai-at-microsoft-3781134984",
+      "why": "Microsoft 澳洲 Data & AI Cloud Solutions Architect，负责帮助企业客户规划和落地 Azure AI 方案；AI Adoption Bootcamp 的 AI 战略规划 + 企业 AI 可行性评估 + 变更管理模块与该岗核心职责高度契合；Microsoft T0 品牌，是 Adoption 方向学员最理想的 3-5 年目标岗位。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特别项目 · 2026 Graduate Program",
+      "title": "2026 Westpac Institutional Bank Graduate Program",
+      "company": "Westpac",
+      "location": "Sydney, NSW",
+      "posted": "2026 Graduate Program",
+      "url": "https://au.linkedin.com/jobs/view/2026-westpac-institutional-bank-graduate-program-at-westpac-group-4172211713",
+      "why": "Westpac 机构银行 2026 届 Graduate Program（T1 顶级金融机构），涉及大客户关系、数字化解决方案与战略分析；AI Adoption 学员掌握的企业 AI 落地规划能力与 IB 团队的数字化转型需求高度匹配，是进入银行 AI transformation 战略岗的合规正规通道。"
+    }
+  ]
+}

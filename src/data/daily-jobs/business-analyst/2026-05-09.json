@@ -1,0 +1,39 @@
+{
+  "bootcamp": "business-analyst",
+  "date": "2026-05-09",
+  "cohort": "AU",
+  "generatedAt": "2026-05-09T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Senior Business Analyst",
+      "company": "NAB",
+      "location": "Sydney, NSW",
+      "posted": "recently posted",
+      "url": "https://au.linkedin.com/jobs/view/senior-business-analyst-nab-hive-at-nab-3708150003",
+      "why": "NAB Hive 是 NAB 的数字创新实验室，Senior BA 专注新产品数字化项目；BA Bootcamp 的 Agile 需求分析 + 用户故事 + 数字化转型模块与 Hive 工作方式完全对应；NAB T1 顶级银行，是 BA 学员 2-3 年后进入创新环境的清晰目标。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior/Entry",
+      "title": "Junior Business Analyst",
+      "company": "Macquarie Group",
+      "location": "Sydney, NSW",
+      "posted": "recently posted",
+      "url": "https://au.linkedin.com/jobs/view/junior-business-analyst-at-macquarie-group-4372667869",
+      "why": "Macquarie 金融科技团队明确 Junior BA 职级，负责将业务需求转化为技术规格；T1 金融机构，BA Bootcamp 的需求收集 + 流程建模 + 利益相关者沟通训练直接匹配 JD；Macquarie 是 BA 职业道路的高质量优质起点。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特别项目 · 2026 Graduate Program",
+      "title": "2026 Westpac Graduate Program",
+      "company": "Westpac",
+      "location": "Sydney, NSW",
+      "posted": "2026 Graduate Program",
+      "url": "https://au.linkedin.com/jobs/view/2026-westpac-graduate-program-at-westpac-group-4266224521",
+      "why": "Westpac 2026 届正式 Graduate Program（T1 顶级银行），覆盖业务分析 + 产品 + 运营多方向；BA Bootcamp 学员申请时展示 stakeholder 管理项目 + Agile BA 交付案例是录取关键加分项，是进入 Big 4 银行 BA 赛道的正规入口。"
+    }
+  ]
+}

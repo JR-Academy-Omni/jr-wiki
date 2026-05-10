@@ -1,0 +1,39 @@
+{
+  "bootcamp": "ai-engineer-bootcamp",
+  "date": "2026-05-08",
+  "cohort": "AU",
+  "generatedAt": "2026-05-08T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Senior Machine Learning Engineer",
+      "company": "Atlassian",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/senior-machine-learning-engineer-at-atlassian-3808372394",
+      "why": "Atlassian Central AI 团队的 Senior MLE，是 AI Engineer Bootcamp 学员的顶级目标档——Atlassian 在 Sydney 的 AI 团队做实际落地产品（Jira/Confluence 内嵌智能），Bootcamp Phase 2 的 LLM fine-tuning + embedding pipeline 直接对应岗位要求，学员毕业后 1–2 年内通过同岗初级职位晋升可达。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Graduate/Junior",
+      "title": "Machine Learning Engineer Graduate – Trust & Safety Engineering (2026 Start)",
+      "company": "TikTok",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/machine-learning-engineer-graduate-trust-and-safety-engineering-2026-start-at-tiktok-4132450910",
+      "why": "TikTok 澳洲明确 Graduate 职级、2026 Start，是正在求职的 Bootcamp 学员现在就能投的岗位；Trust & Safety 方向用大量 ML 分类/NLP 模型，Phase 1 的 Python ML 基础和 Phase 2 的模型部署实战项目均可写进简历对应该岗要求。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特别档 · Internship/Named Program",
+      "title": "Machine Learning Engineer Intern 2026/27",
+      "company": "Canva",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/machine-learning-engineer-intern-2026-27-at-canva-4394303693",
+      "why": "Canva 官方命名的 ML Intern 项目，2026/27 周期正在招募，Canva 是学员最想进的 T0 澳洲科技公司之一；Bootcamp Phase 2 的图像/文本 AI 实战项目和 Canva 的 GenAI 产品方向高度吻合，暑期实习可作为转正跳板。"
+    }
+  ]
+}

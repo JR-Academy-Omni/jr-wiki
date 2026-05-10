@@ -1,0 +1,39 @@
+{
+  "bootcamp": "ai-essentials-bootcamp",
+  "date": "2026-05-08",
+  "cohort": "AU",
+  "generatedAt": "2026-05-08T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Senior Machine Learning Engineer – Editing AI",
+      "company": "Canva",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/senior-machine-learning-engineer-editing-ai-at-canva-3765111184",
+      "why": "Canva Editing AI 团队的 Senior MLE，直接做用户每天在用的 AI 编辑功能（背景消除、图文生成等），技术栈以 Python + GenAI/Diffusion 为核心，与 AI Essentials Bootcamp 课程中 Prompt Engineering 和 GenAI 应用开发模块强对应；这是 Essentials 学员的品牌天花板目标。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Graduate/Junior",
+      "title": "Machine Learning Engineer Graduate – Monetization GenAI (2026 Start)",
+      "company": "TikTok",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://www.linkedin.com/jobs/view/machine-learning-engineer-graduate-monetization-genai-2026-start-bs-ms-at-tiktok-4274683083",
+      "why": "TikTok 澳洲 Monetization GenAI 方向的 2026 Graduate 职位，直接做 LLM 驱动的广告推荐和内容生成——AI Essentials Bootcamp 中 GenAI API 调用、Prompt 优化和数据 pipeline 实战完整覆盖该岗要求，目前就能投，竞争比纯技术 MLE 岗稍低。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特别档 · Named Graduate Program",
+      "title": "2026 University Graduate – Machine Learning Engineer",
+      "company": "Adobe",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://www.linkedin.com/jobs/view/2026-university-graduate-machine-learning-engineer-at-adobe-4344814850",
+      "why": "Adobe 官方 2026 University Graduate 项目，title 明确锁定应届生；Adobe 在 Sydney 的 AI 团队做 Firefly/GenAI 产品，AI Essentials Bootcamp 的 Stable Diffusion 和多模态 LLM 模块项目可直接用于面试展示，是全球品牌加持的应届生专属通道。"
+    }
+  ]
+}

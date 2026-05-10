@@ -1,0 +1,29 @@
+{
+  "bootcamp": "business-analyst",
+  "date": "2026-05-08",
+  "cohort": "AU",
+  "generatedAt": "2026-05-08T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Business Analyst",
+      "company": "Westpac Group",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/business-analyst-at-westpac-group-4117216282",
+      "why": "Westpac 是澳洲四大行之一，BA 职位常年稳定招募，主要支持数字化转型项目（Agile 需求分析、流程建模、利益相关者管理），与 BA Bootcamp 的 Agile/BABOK 模块完全对应；Westpac 对 BA 认可 JR 学员背景，是 Bootcamp 毕业 6–12 个月内可冲击的大行品牌目标。"
+    },
+    {
+      "tier": "actionable",
+      "tierLabel": "可投档 · Junior/Graduate",
+      "title": "Junior Data Business Analyst – Commodities and Global Markets",
+      "company": "Macquarie Group",
+      "location": "Sydney, NSW",
+      "posted": "recently",
+      "url": "https://au.linkedin.com/jobs/view/junior-data-business-analyst-commodities-and-global-markets-at-macquarie-group-3843716512",
+      "why": "Macquarie 明确挂 Junior 职级的 BA 岗，Commodities & Global Markets 部门数据分析量大，直接用 SQL + Excel + Tableau，BA Bootcamp 的 SQL 查询、数据可视化和需求文档实战项目可逐条对应 JD；Macquarie 愿意给应届生机会且薪资高于同等银行职位。"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "bootcamp": "ai-engineer-rag",
+  "date": "2026-05-09",
+  "cohort": "AU",
+  "generatedAt": "2026-05-09T07:30:00+10:00",
+  "source": "WebSearch(au.linkedin.com/jobs) + WebSearch(atlassian.com/careers)",
+  "jobs": [
+    {
+      "tier": "aspirational",
+      "tierLabel": "理想档 · Mid-Senior",
+      "title": "Applied Scientist - Generative AI (All Levels)",
+      "company": "Oracle",
+      "location": "Melbourne, VIC",
+      "posted": "recently posted",
+      "url": "https://au.linkedin.com/jobs/view/applied-scientist-generative-ai-all-levels-at-oracle-3676819216",
+      "why": "Oracle 澳洲 GenAI Applied Scientist，\"All Levels\"标注明确降低研究背景门槛；JD 要求 LangChain/LlamaIndex 框架经验，正是 RAG Bootcamp Phase 2（向量检索 + embeddings + RAG pipeline 构建）的核心产出；Oracle 企业级 AI 平台场景是 RAG 技术最典型的落地环境。"
+    },
+    {
+      "tier": "special",
+      "tierLabel": "特别项目 · 2026 Summer Intern",
+      "title": "Machine Learning Intern, 2026 Summer",
+      "company": "Atlassian",
+      "location": "Sydney, NSW",
+      "posted": "2026 Summer Internship",
+      "url": "https://www.atlassian.com/company/careers/details/23865",
+      "why": "Atlassian 2026 夏季实习（11月-2月），T0 顶级品牌；Atlassian Rovo + Teamwork AI 大量使用 RAG 实现企业知识检索，实习项目方向与 RAG Bootcamp 向量检索 + embeddings + LlamaIndex pipeline 技术栈高度吻合，是 RAG 方向学员申请实习的最强品牌选择。"
+    }
+  ]
+}

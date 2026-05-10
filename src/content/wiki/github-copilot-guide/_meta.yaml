@@ -1,0 +1,9 @@
+title: "GitHub Copilot 实战指南"
+description: "从免费版入门到 Agent Mode 自主编程：代码补全、Copilot Chat、Inline Chat、Coding Agent 自动修 Issue、自定义指令、MCP 集成、Vision 多模态、定价与选型"
+tags:
+  - github-copilot
+  - ai-coding
+  - vibe-coding
+  - ide
+  - agent-mode
+order: 23

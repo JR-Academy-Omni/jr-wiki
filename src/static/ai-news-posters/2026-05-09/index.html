@@ -1,0 +1,308 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-09T03:06:37.370Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-09（Canvas 版）</title>
+<meta name="description" content="2026-05-09 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-09.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-09",
+  "summary": {
+    "hook": [
+      "今日 5 条",
+      "AI",
+      "大事"
+    ],
+    "sub": "Novo Nordisk全员AI · Apple转向多AI厂 · Meta Muse Spark首发 · 欧盟软化AI法案 · Snap裁千人甩锅AI",
+    "items": [
+      {
+        "num": "01",
+        "cat": "AI 落地应用",
+        "numColor": "#0EA5E9",
+        "t": "Novo Nordisk 与 OpenAI 战略合作，全业务 AI 整合年底完成"
+      },
+      {
+        "num": "02",
+        "cat": "Apple 大转向",
+        "numColor": "#1F2937",
+        "t": "Apple 让用户在设备层选第三方 AI 服务，破独家 OpenAI 路线"
+      },
+      {
+        "num": "03",
+        "cat": "Meta 新模型",
+        "numColor": "#0668E1",
+        "t": "Meta Muse Spark 发布，Wang 主导 Superintelligence Labs 首款旗舰"
+      },
+      {
+        "num": "04",
+        "cat": "欧盟监管",
+        "numColor": "#F59E0B",
+        "t": "欧盟在产业压力下软化 AI 法案，Brussels effect 现裂痕"
+      },
+      {
+        "num": "05",
+        "cat": "AI 替代人工",
+        "numColor": "#FF1493",
+        "t": "Snap 裁员 1000 + 关 300 岗，Spiegel 直说「因 AI 进步」"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-novo-nordisk-openai-deal",
+      "idx": "01",
+      "catText": "AI 落地应用",
+      "accent": "#0EA5E9",
+      "bg": {
+        "top": "#062a3a",
+        "mid": "#083347",
+        "bot": "#04192a",
+        "topRight": "#0c4862"
+      },
+      "title": [
+        {
+          "text": "Novo Nordisk 与 OpenAI 合作，"
+        },
+        {
+          "text": "全业务 AI 整合年底完成",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Ozempic 制造商把 AI 接入研发到销售全链路，"
+        },
+        {
+          "text": "制药行业第一家公开宣布全面 AI 整合的巨头",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "丹麦制药巨头 Novo Nordisk（GLP-1 药物 Ozempic / Wegovy 制造商）宣布与 OpenAI 战略合作，将 AI 集成到药物发现、临床试验、制造、供应链、商业运营全部业务，目标 2026 年底完成全面部署，加速肥胖与糖尿病新药识别"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是制药巨头第一次公开宣布「全业务 AI 整合」，覆盖从研发到销售全链路，远超 Roche / Pfizer 此前的点状合作。同日礼来（Eli Lilly）启用 LillyPod AI 超算回应，制药行业 AI 军备竞赛开打"
+        },
+        {
+          "k": "对你的影响",
+          "v": "医疗 / 生物科技领域 AI 工程师岗位需求会上升，特别是熟悉临床试验数据 + LLM 的复合背景。其他药厂被推着跟进，预计未来 6-12 个月类似公告扎堆，转行医疗 AI 的窗口正在打开"
+        }
+      ],
+      "src": "📎 openai.com · reuters.com"
+    },
+    {
+      "slug": "02-apple-multi-ai-pivot",
+      "idx": "02",
+      "catText": "Apple 大转向",
+      "accent": "#1F2937",
+      "bg": {
+        "top": "#0a0a0f",
+        "mid": "#1a1a24",
+        "bot": "#050508",
+        "topRight": "#2a2a38"
+      },
+      "title": [
+        {
+          "text": "Apple 让用户选第三方 AI 服务，"
+        },
+        {
+          "text": "破独家 OpenAI 路线",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Apple Intelligence 不再绑定 ChatGPT，"
+        },
+        {
+          "text": "用户可在设备层挑 Claude / Gemini / Perplexity 等多家",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Apple 宣布将让用户在 iPhone / iPad / Mac 设备层选择多家第三方 AI 服务驱动 Apple Intelligence 功能，不再像 2024 年那样独家整合 ChatGPT。预计开放 Anthropic Claude、Google Gemini、Perplexity 等接入"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 Apple 自 2024 年宣布与 OpenAI 独家合作以来最大的策略反转。背景是欧盟 DMA 5-03 review 明确把 AI 纳入「可选项」要求，加上 Apple 内部 Apple Intelligence 反响不达预期，被迫把入口让出来给市场竞争"
+        },
+        {
+          "k": "对你的影响",
+          "v": "iOS / macOS App 开发者将面临「适配多家 AI 后端」的新工程要求；终端用户可绕过订阅 ChatGPT Plus 改走 Claude Pro 等等。前端 AI 应用开发的 SDK 抽象层会成为 2026 H2 开源社区热点"
+        }
+      ],
+      "src": "📎 bloomberg.com · 9to5mac.com"
+    },
+    {
+      "slug": "03-meta-muse-spark-launch",
+      "idx": "03",
+      "catText": "Meta 新模型",
+      "accent": "#0668E1",
+      "bg": {
+        "top": "#001540",
+        "mid": "#001d55",
+        "bot": "#000d2b",
+        "topRight": "#002b80"
+      },
+      "title": [
+        {
+          "text": "Meta Muse Spark 发布，"
+        },
+        {
+          "text": "Wang 主导 Superintelligence Labs 首款旗舰",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Alexandr Wang 上任后第一战：扔出闭源旗舰，"
+        },
+        {
+          "text": "Meta 与 Llama 开源路线第一次出现分叉",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Meta 发布 Muse Spark，是 Alexandr Wang（Scale AI 创始人，2026 初接任 Meta 首席 AI 官）领导的 Superintelligence Labs 首款旗舰大模型。多模态感知 + 推理 + 健康 + agentic 任务上对标前沿，但训练算力远低于同档对手"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 Meta 第一次推「闭源旗舰」打前沿赛道，与 Llama 开源路线分叉。Wang 上任后的战略调整很清楚：开源继续做 Llama 守生态位，闭源 Muse 系列直冲 GPT-5.5 / Claude Opus / Gemini 3.1 Ultra 三巨头"
+        },
+        {
+          "k": "对你的影响",
+          "v": "做开源 AI 应用的团队短期不受影响（Llama 路线还在）；想吃前沿模型 API 红利的开发者多了一家供应商，议价空间增大。Meta 招高级 AI 研究员的窗口仍开着，Wang 团队组建期是好时机"
+        }
+      ],
+      "src": "📎 reuters.com · theverge.com"
+    },
+    {
+      "slug": "04-eu-softens-ai-act",
+      "idx": "04",
+      "catText": "欧盟监管",
+      "accent": "#F59E0B",
+      "bg": {
+        "top": "#2a1500",
+        "mid": "#331a00",
+        "bot": "#1a0d00",
+        "topRight": "#4d2800"
+      },
+      "title": [
+        {
+          "text": "欧盟在产业压力下软化 AI 法案，"
+        },
+        {
+          "text": "Brussels effect 现裂痕",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "EU AI Act 生效不到一年就妥协，"
+        },
+        {
+          "text": "高风险 AI 系统的合规时间表 + 透明度要求双双松绑",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "欧盟委员会过去 24 小时宣布软化 AI 法案部分条款：高风险 AI 系统的合规截止时间延后、训练数据透明度报告范围收窄、面向中小企业的部分豁免扩大。背景是欧洲科技产业组织联名抗议合规成本压垮本土初创"
+        },
+        {
+          "k": "为什么重要",
+          "v": "EU AI Act 2024 生效时被全球当作监管标杆，「Brussels effect」（欧盟立法外溢全球）一直是法律学界共识。这次自我修正是 18 个月内第一次大幅倒退，可能引发英国 / 加拿大 / 澳洲跟随调整本地 AI 监管节奏"
+        },
+        {
+          "k": "对你的影响",
+          "v": "欧洲市场做 AI to-B 产品的合规预算可暂松一点，特别是数据透明度报告和模型卡 disclosure；同时也意味着「以欧盟标准做基线」的国际化策略含金量下降，必须每个市场单独看本地法规"
+        }
+      ],
+      "src": "📎 reuters.com · politico.eu"
+    },
+    {
+      "slug": "05-snap-1000-layoffs-ai",
+      "idx": "05",
+      "catText": "AI 替代人工",
+      "accent": "#FF1493",
+      "bg": {
+        "top": "#2a0026",
+        "mid": "#33002f",
+        "bot": "#1a0017",
+        "topRight": "#4d0044"
+      },
+      "title": [
+        {
+          "text": "Snap 裁员 1000 + 关 300 岗，"
+        },
+        {
+          "text": "Spiegel 直说「因 AI 进步」",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Snapchat CEO 公开承认裁员的「真原因」，"
+        },
+        {
+          "text": "中型科技公司跟进 Big4 把工资预算转 GPU 路线",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Snap CEO Evan Spiegel 5 月 9 日宣布裁员约 1000 人 + 关闭 300 个开放岗位，公开邮件直接写「rapid advancements in artificial intelligence allow smaller teams to achieve the same output」。是中型科技公司 CEO 第一次公开把 AI 当成裁员主因"
+        },
+        {
+          "k": "为什么重要",
+          "v": "之前 Big4（Meta / Amazon / 微软 / Alphabet）裁员都裹着「重组 / 优化 / 战略调整」话术，没人敢直说 AI。Spiegel 这次公开说出来，等于给中型科技公司 CEO 写了脚本：从此可以名正言顺地以 AI 名义砍头"
+        },
+        {
+          "k": "对你的影响",
+          "v": "求职者要意识到：2026 不再是「AI 替代低端岗位」的渐进过程，而是「直接以 AI 为由的全岗位调整」开始公开化。中后台 / 中层管理 / 中级软件工程师压力最大；AI infra / 模型应用 / 业务流程自动化方向反而是赢家"
+        }
+      ],
+      "src": "📎 finance.yahoo.com · techcrunch.com"
+    }
+  ],
+  "mp": {
+    "title": "Novo Nordisk全员AI / Apple转向多AI厂 / Meta Muse Spark首发 / 欧盟软化AI法案 / Snap裁千人甩锅AI"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-09"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>

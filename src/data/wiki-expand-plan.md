@@ -33,11 +33,11 @@
 ## P2 · 短书扩章（5 章 → 7 章）
 
 ### bolt-new-guide
-- [ ] bolt-new-guide/06-fullstack-deploy.md — new-chapter: bolt.new + Supabase + Vercel 全栈部署实战（注册 → 数据库 → 部署，2200+ 字 + 1 截图 + 完整代码块）
-- [ ] bolt-new-guide/07-team-collaboration.md — new-chapter: 团队协作工作流（GitHub 集成、code review、共享项目权限）
+- [x] bolt-new-guide/06-fullstack-deploy.md — new-chapter: bolt.new + Supabase + Vercel 全栈部署实战（注册 → 数据库 → 部署，2200+ 字 + 1 截图 + 完整代码块）
+- [x] bolt-new-guide/07-team-collaboration.md — new-chapter: 团队协作工作流（GitHub 集成、code review、共享项目权限）
 
 ### cursor-guide
-- [ ] cursor-guide/06-mcp-servers.md — new-chapter: Cursor MCP 集成实战（GitHub MCP / Notion MCP / Postgres MCP 配置 + 真实 use case）
+- [x] cursor-guide/06-mcp-servers.md — new-chapter: Cursor MCP 集成实战（GitHub MCP / Notion MCP / Postgres MCP 配置 + 真实 use case）
 - [ ] cursor-guide/07-rules-mdc-deep.md — new-chapter: .cursor/rules/*.mdc 文件深度解析（scope types / 触发规则 / 多 rule 冲突解决）
 
 ### dify-guide

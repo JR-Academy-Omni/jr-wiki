@@ -47,6 +47,9 @@ interface DailyJob {
 	posted?: string;
 	url: string;
 	why: string;
+	// Routine WebFetch 抓的 LinkedIn JD 原文（responsibilities/requirements/tech stack/benefits）
+	// 1500-5000 字 markdown。WebFetch 失败时为 ""。
+	description?: string;
 }
 
 interface DailyJobsFile {
@@ -145,11 +148,17 @@ async function syncFile(filePath: string): Promise<{ ok: boolean; bootcamp: stri
 		const jobId = jobIds[i];
 		if (!job || !jobId) continue;
 
+		// 优先用 routine 抓到的 LinkedIn JD 原文（job.description）
+		// fallback 到 metadata 一句话（老数据 / WebFetch 失败时）
+		const fullJD = job.description && job.description.length > 200
+			? `${job.description}\n\n--- 为什么对 Bootcamp 学员有价值 ---\n${job.why}`
+			: `${job.title} at ${job.company} (${job.location}). ${job.why}`;
+
 		const analyzePayload = {
 			jobTitle: job.title,
 			companyName: job.company,
 			location: job.location,
-			jobDescription: `${job.title} at ${job.company} (${job.location}). ${job.why}`,
+			jobDescription: fullJD,
 			sourceUrl: job.url,
 			sourcePlatform: platformFromUrl(job.url),
 			sourceId: jobId,
