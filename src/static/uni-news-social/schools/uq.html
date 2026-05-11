@@ -59,14 +59,25 @@
   .item-links a:hover { border-color: var(--pri); color: var(--pri); transform: translateX(2px); }
   .item-links a.primary { background: linear-gradient(135deg, var(--pri), var(--pri-light)); color: var(--text-on); border-color: transparent; box-shadow: 0 4px 14px rgba(76,29,149,0.25); }
   .item-links a.primary:hover { box-shadow: 0 8px 22px rgba(76,29,149,0.35); color: var(--text-on); }
+  .empty { padding: 60px 30px; text-align: center; background: rgba(255,255,255,0.6); border: 1px dashed var(--border-soft); border-radius: 20px; color: var(--muted); }
+  .empty .emj { font-size: 40px; margin-bottom: 10px; }
+  .empty h3 { color: var(--ink); font-weight: 900; font-size: 18px; margin-bottom: 10px; font-family: 'Playfair Display', 'Noto Sans SC', sans-serif; }
+  .empty p { font-size: 13px; line-height: 1.8; max-width: 520px; margin: 0 auto; }
+  .empty code { background: rgba(124,58,237,0.08); color: var(--pri); padding: 3px 9px; border-radius: 5px; font-family: 'Space Grotesk', monospace; font-size: 12px; }
   .footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border-soft); font-size: 12px; color: var(--muted); text-align: center; }
   .footer code { background: rgba(255,255,255,0.8); padding: 2px 8px; border-radius: 4px; font-family: 'Space Grotesk', monospace; }
   @media (max-width: 700px) {
     body { padding: 24px 14px 60px; }
     .school-head { padding: 32px 24px; }
     .school-head h1 { font-size: 28px; }
+    .school-head .name-en { font-size: 14px; }
+    .school-head .stats { gap: 20px; }
+    .school-head .stat .n { font-size: 26px; }
     .item { grid-template-columns: 1fr; gap: 14px; padding: 18px 20px; }
     .item-date { align-self: flex-start; display: inline-flex; gap: 10px; align-items: baseline; padding: 8px 14px; min-width: 0; }
+    .item-date .m { font-size: 10px; }
+    .item-date .d { font-size: 20px; margin: 0; }
+    .item-date .y { font-size: 10px; }
     .item-title { font-size: 17px; }
     .item-links { flex-direction: row; flex-wrap: wrap; }
     .item-links a { min-width: 0; flex: 1; padding: 10px 12px; }
@@ -97,7 +108,7 @@
       <div class="item-date"><div class="m">MAY</div><div class="d">10</div><div class="y">2026</div></div>
       <div class="item-content">
         <div class="item-title">UQ 05月10日 基因编辑突破助力癌症治疗 + 铅免无毒室内太阳能电池创效率纪录</div>
-        <div class="item-brief">UQ 本周两条硬科研：基因编辑工具重大升级，有望带来更安全的癌症基因疗法；AIBN 博士生研发无铅钙钛矿室内太阳能电池，效率达 16.36% 创行业最高。</div>
+        <div class="item-brief">UQ 本周两条硬科研：基因编辑工具重大升级，有望带来更安全的癌症基因疗法；AIBN 博士生研发无铅钒缯室内太阳能电池，效率达 16.36% 创行业最高。</div>
         <div class="item-tags"><span>#科研合作</span></div>
       </div>
       <div class="item-links">
@@ -110,7 +121,7 @@
       <div class="item-date"><div class="m">MAY</div><div class="d">7</div><div class="y">2026</div></div>
       <div class="item-content">
         <div class="item-title">昆士兰大学 5月7日 无铅太阳能突破·产后抑郁峰值研究·RTP国际奖学金10月截止</div>
-        <div class="item-brief">UQ 5 月最新动态：工程团队研发无铅钙钛矿室内太阳能电池、产后 2 周为产后重度抑郁高峰、RTP 国际研究奖学金 10 月 19 日截止申请</div>
+        <div class="item-brief">UQ 5 月最新动态：工程团队研发无铅钒缯室内太阳能电池、产后 2 周为产后重度抑郁高峰、RTP 国际研究奖学金 10 月 19 日截止申请</div>
         <div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#科研合作</span></div>
       </div>
       <div class="item-links">
@@ -123,7 +134,7 @@
       <div class="item-date"><div class="m">MAY</div><div class="d">4</div><div class="y">2026</div></div>
       <div class="item-content">
         <div class="item-title">UQ 05月04日 UQGSS博士奖学金本轮通知发出 + 胚胎细胞蛋白机制首次揭示</div>
-        <div class="item-brief">UQ Graduate School Scholarships 2026 本轮录取通知从 4 月 28 日起已发，接受截止 5 月 31 日，$37,500/年免税生活补贴 + 全额学费 + OSHC；同期 UQ 科研团队揭示导致胚胎出生缺陷的细胞蛋白分子机制。</div>
+        <div class="item-brief">UQ Graduate School Scholarships 2026 本轮录取通知从 4 月 28 日起已发，接受截止 5 月 31 日，$37,500/年免税生活补贴 + 全额学费 + OSHC；同期 UQ 科研团队揭示导致胚胎出生缺陷的细胞蛋白分子机制，研究 4 月 30 日发表于同行评审期刊。</div>
         <div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#招生政策</span></div>
       </div>
       <div class="item-links">
@@ -136,7 +147,7 @@
       <div class="item-date"><div class="m">MAY</div><div class="d">1</div><div class="y">2026</div></div>
       <div class="item-content">
         <div class="item-title">昆士兰大学 05月01日 UQGSS奖学金发录取+厨房食物浪费研究 University of Queensland</div>
-        <div class="item-brief">UQ Graduate School Scholarships（UQGSS/RTP）4 月 28 日已向申请人发送录取通知，接受截止 5 月 31 日；UQ 厨房真实环境食物浪费研究 4 月 29 日发布。</div>
+        <div class="item-brief">UQ Graduate School Scholarships（UQGSS/RTP）4 月 28 日已向申请人发送录取通知，接受截止 5 月 31 日；UQ 厨房真实环境食物浪费研究 4 月 29 日发布，揭示餐饮服务业减少浪费的实操路径。</div>
         <div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#招生政策</span></div>
       </div>
       <div class="item-links">
@@ -149,7 +160,7 @@
       <div class="item-date"><div class="m">APR</div><div class="d">29</div><div class="y">2026</div></div>
       <div class="item-content">
         <div class="item-title">昆士兰大学 04月29日 Queensland R&amp;D投资回报6倍报告发布 + 多学科全球前10 · UQ</div>
-        <div class="item-brief">BDO Australia 发布 Queensland 研究投资经济价值报告，每 1 澳元 R&amp;D 投资回报高达 6 元；UQ 商业化累计带动全球销售逾 885 亿澳元；多学科全球前 10 更新。</div>
+        <div class="item-brief">BDO Australia 发布 Queensland 研究投资经济价值报告，每 1 澳元 R&amp;D 投资回报高达 6 元；UQ 商业化累计带动全球销售逾 885 亿澳元；2026 年新设商业化基金提供早期种子融资；多学科全球前 10 更新。</div>
         <div class="item-tags"><span>#奖学金</span><span>#科研合作</span></div>
       </div>
       <div class="item-links">
@@ -162,7 +173,7 @@
       <div class="item-date"><div class="m">APR</div><div class="d">28</div><div class="y">2026</div></div>
       <div class="item-content">
         <div class="item-title">昆士兰大学 4月28日 网络安全是人的问题不是 IT 的、UQ 黑客冲击网络世界杯、女性健康 30 年研究里程碑</div>
-        <div class="item-brief">Dr Ivano Bongiovanni 研究指出网络安全靠技术远远不够；UQ Cyber Squad 与 Team Oceania 5 月黄金海岸冲击 ICC 2026 首冠；ALSWH 追踪 5.7 万女性 30 年发表 1200+ 论文</div>
+        <div class="item-brief">Dr Ivano Bongiovanni 研究指出网络安全靠技术远远不够；UQ Cyber Squad 与 Team Oceania 5 月黄金海岸冲击 ICC 2026 首冠；ALSWH 追踪 5.7 万女性 30 年发表1200+ 论文，Prof Gita Mishra AO 主持</div>
         <div class="item-tags"><span>#招生政策</span><span>#科研合作</span></div>
       </div>
       <div class="item-links">
@@ -187,8 +198,8 @@
     <div class="item">
       <div class="item-date"><div class="m">APR</div><div class="d">22</div><div class="y">2026</div></div>
       <div class="item-content">
-        <div class="item-title">昆士兰大学 4月22日 体育科学 QS 全球第 2 + ITA 反兴奋剂中心、AI 安全专家评 Claude Mythos、首开非洲语言斯瓦希里语</div>
-        <div class="item-brief">UQ 体育学科 QS 2026 连续 6 年全澳第 1 全球第 2；AI 安全专家解读 Claude Mythos 的网络安全启示；首次开设非洲语言斯瓦希里语课程</div>
+        <div class="item-title">昆士兰大学 4月22日 体育科学 QS 全球第 2 + ITA 反兴奋剑中心、AI 安全专家评 Claude Mythos、首开非洲语言斯瓦希里语</div>
+        <div class="item-brief">UQ 体育学科 QS 2026 连续 6 年全澳第 1 全球第 2，成为全球第二个 ITA 反兴奋剡学术中心；AI 安全专家解读 Claude Mythos 的网络安全启示；首次开设非洲语言斯瓦希里语课程</div>
         <div class="item-tags"><span>#科研合作</span><span>#课程更新</span></div>
       </div>
       <div class="item-links">
