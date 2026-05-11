@@ -59,17 +59,25 @@
   .item-links a:hover { border-color: var(--pri); color: var(--pri); transform: translateX(2px); }
   .item-links a.primary { background: linear-gradient(135deg, var(--pri), var(--pri-light)); color: var(--text-on); border-color: transparent; box-shadow: 0 4px 14px rgba(76,29,149,0.25); }
   .item-links a.primary:hover { box-shadow: 0 8px 22px rgba(76,29,149,0.35); color: var(--text-on); }
+  .empty { padding: 60px 30px; text-align: center; background: rgba(255,255,255,0.6); border: 1px dashed var(--border-soft); border-radius: 20px; color: var(--muted); }
+  .empty .emj { font-size: 40px; margin-bottom: 10px; }
+  .empty h3 { color: var(--ink); font-weight: 900; font-size: 18px; margin-bottom: 10px; font-family: 'Playfair Display', 'Noto Sans SC', sans-serif; }
+  .empty p { font-size: 13px; line-height: 1.8; max-width: 520px; margin: 0 auto; }
+  .empty code { background: rgba(124,58,237,0.08); color: var(--pri); padding: 3px 9px; border-radius: 5px; font-family: 'Space Grotesk', monospace; font-size: 12px; }
   .footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border-soft); font-size: 12px; color: var(--muted); text-align: center; }
   .footer code { background: rgba(255,255,255,0.8); padding: 2px 8px; border-radius: 4px; font-family: 'Space Grotesk', monospace; }
   @media (max-width: 700px) {
     body { padding: 24px 14px 60px; }
     .school-head { padding: 32px 24px; }
     .school-head h1 { font-size: 28px; }
+    .school-head .name-en { font-size: 14px; }
     .school-head .stats { gap: 20px; }
     .school-head .stat .n { font-size: 26px; }
     .item { grid-template-columns: 1fr; gap: 14px; padding: 18px 20px; }
     .item-date { align-self: flex-start; display: inline-flex; gap: 10px; align-items: baseline; padding: 8px 14px; min-width: 0; }
+    .item-date .m { font-size: 10px; }
     .item-date .d { font-size: 20px; margin: 0; }
+    .item-date .y { font-size: 10px; }
     .item-title { font-size: 17px; }
     .item-links { flex-direction: row; flex-wrap: wrap; }
     .item-links a { min-width: 0; flex: 1; padding: 10px 12px; }
@@ -139,8 +147,8 @@
         <div class="y">2026</div>
       </div>
       <div class="item-content">
-        <div class="item-title">Adelaide University 05月04日 新大剦5月1日正式成立 + QS学科22个跃身全球前百</div>
-        <div class="item-brief">Adelaide University 于 2026 年 5 月 1 日正式成立——University of Adelaide 与 UniSA 完成合并，约 7 万名在读学生，在读国际生学籍默认平移。同期 QS 世界大学学科排名 2026 年版公布，新校首年参评即以 22 个学科跃身全球前 100。</div>
+        <div class="item-title">Adelaide University 05月04日 新大学5月1日正式成立 + QS学科排名22个跻身全球前百</div>
+        <div class="item-brief">Adelaide University 于 2026 年 5 月 1 日正式成立——University of Adelaide 与 UniSA 完成合并，约 7 万名在读学生，在读国际生学籍默认平移。同期 QS 世界大学学科排名 2026 年版公布，新校首年参评即以 22 个学科跻身全球前 100。</div>
         <div class="item-tags"><span>#奖学金</span><span>#签证移民</span><span>#招生政策</span></div>
       </div>
       <div class="item-links">
@@ -175,8 +183,8 @@
         <div class="y">2026</div>
       </div>
       <div class="item-content">
-        <div class="item-title">阿德莱德大学 4月28日 青少年社娔12.5小时甜蜜点 + 帕金森生物标志物 + 狗狗益生菌护肤</div>
-        <div class="item-brief">Adelaide University 4 月一天三条研究：JAMA Pediatrics 发文找出青少年社娚每周 12.5 小时的甜蜜点；用脂脑脊液和 MRI 标志物预测帕金森 5 年后症状；90 天益生菌让金毛肠道和皮肤同时变好</div>
+        <div class="item-title">阿德莱德大学 4月28日 青少年社媒12.5小时甜蜜点 + 帕金森生物标志物 + 狗狗益生菌护肤</div>
+        <div class="item-brief">Adelaide University 4 月一天三条研究：JAMA Pediatrics 发文找出青少年社媒每周 12.5 小时的甜蜜点；用脑脊液和 MRI 标志物预测帕金森 5 年后症状；90 天益生菌让金毛肠道和皮肤同时变好</div>
         <div class="item-tags"><span>#科研合作</span><span>#课程更新</span></div>
       </div>
       <div class="item-links">
@@ -194,7 +202,7 @@
       </div>
       <div class="item-content">
         <div class="item-title">阿德莱德大学 4月24日：两位研究员拿 2026 Fulbright（NYU + Yale）+ Catherine Helen Spence 奖学金 $25,000 + ASEAN S2 学费减免 50% + $10,000 生活补贴</div>
-        <div class="item-brief">Adelaide 两位青年研究员入选 2026 Fulbright Scholar：Dr Brandon Stretton 赴 NYU Langone 做 AI 临床教育，Dr Natansh Deepak Modi 赴 Yale 做临床试验透明度研究；PhD 学生 Shannon Evenden 拿 Catherine Helen Spence 奖学金 AUD 25,000；Adelaide Launch Your Future ASEAN 奖学金 S2 2026 开放申请，5 月 22 日截止—— 50% 学费减免 + AUD 10,000 生活补贴</div>
+        <div class="item-brief">Adelaide 两位青年研究员入选 2026 Fulbright Scholar：Dr Brandon Stretton 赴 NYU Langone 做 AI 临床教育，Dr Natansh Deepak Modi 赴 Yale 做临床试验透明度研究；PhD 学生 Shannon Evenden 拿 Catherine Helen Spence 奖学金 AUD 25,000；Adelaide Launch Your Future ASEAN 奖学金 S2 2026 开放申请，5 月 22 日截止——50% 学费减免 + AUD 10,000 生活补贴</div>
         <div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#科研合作</span></div>
       </div>
       <div class="item-links">
@@ -229,7 +237,7 @@
       </div>
       <div class="item-content">
         <div class="item-title">阿德莱德大学 4月15日 中国教育展首秀+院士大奖+CS本硕国际生申请通道</div>
-        <div class="item-brief">Adelaide University 4月10-20日中国教育部展会首秀，澳洲科学院荣誉奖 2 位教授获嘉奖，CS本硕国际生申请通道 2026 年 Sem 2 开放</div>
+        <div class="item-brief">Adelaide University 4月10-20日中国教育部展会首秀，澳洲科学院荣誉奖2位教授获嘉奖，CS本硕国际生申请通道2026年Sem 2开放</div>
         <div class="item-tags"><span>#奖学金</span><span>#签证移民</span><span>#学费调整</span></div>
       </div>
       <div class="item-links">
@@ -245,8 +253,8 @@
         <div class="y">2026</div>
       </div>
       <div class="item-content">
-        <div class="item-title">阿德莱德大学 4月12日 Cisco合作建 AI 网安研究中心与QS学科榘22科进百强</div>
-        <div class="item-brief">Adelaide University与Cisco签约共建 AI 网络安全研究中心，QS 2026学科排名 22 个学科进入全球百强，50%学费减免奖学金 S2 申请开放</div>
+        <div class="item-title">阿德莱德大学 4月12日 Cisco合作建AI网安研究中心与QS学科榜22科进百强</div>
+        <div class="item-brief">Adelaide University与Cisco签约共建AI网络安全研究中心，QS 2026学科排名22个学科进入全球百强，50%学费减免奖学金S2申请开放</div>
         <div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#招生政策</span></div>
       </div>
       <div class="item-links">
