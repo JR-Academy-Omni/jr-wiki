@@ -1,0 +1,316 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-11T04:34:25.568Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-11（Canvas 版）</title>
+<meta name="description" content="2026-05-11 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-11.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-11",
+  "summary": {
+    "hook": [
+      "AI 格局",
+      "五大变动"
+    ],
+    "sub": "Google Gemma 4 开源登场，Kimi 估值破 200 亿，文心 5.1 以极低成本登顶，Grok 入驻 CarPlay，Anthropic Mythos 进白宫",
+    "items": [
+      {
+        "num": "01",
+        "cat": "开源",
+        "numColor": "#10A37F",
+        "t": "Google Gemma 4 开源发布：Apache 2.0，主打 agentic 推理 + 单参数智能密度"
+      },
+      {
+        "num": "02",
+        "cat": "融资",
+        "numColor": "#4A90E2",
+        "t": "Kimi 完成 20 亿美元新融资，估值破 200 亿美元，半年累计吸金 39 亿"
+      },
+      {
+        "num": "03",
+        "cat": "大模型",
+        "numColor": "#2932E1",
+        "t": "百度文心 5.1 发布：训练成本仅同类 6%，搜索能力国内登顶"
+      },
+      {
+        "num": "04",
+        "cat": "应用",
+        "numColor": "#8B5CF6",
+        "t": "Grok AI 进驻 Apple CarPlay，支持语音导航与实时搜索"
+      },
+      {
+        "num": "05",
+        "cat": "安全",
+        "numColor": "#EF4444",
+        "t": "Anthropic 发布 Claude Mythos + Project Glasswing，Amodei 携模型进白宫"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-google-gemma-4-open",
+      "idx": "01",
+      "catText": "开源",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#F0FDF4",
+        "mid": "#DCFCE7",
+        "bot": "#BBF7D0",
+        "topRight": "#86EFAC"
+      },
+      "title": [
+        {
+          "text": "Google Gemma 4 开源："
+        },
+        {
+          "text": "agentic 推理新标杆",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Apache 2.0 协议下放，"
+        },
+        {
+          "text": "单参数智能密度刷新",
+          "bold": true
+        },
+        {
+          "text": "，对标 Llama 3 + Mistral"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google 正式发布 Gemma 4 系列开源模型，按 Apache 2.0 协议开放权重，专为 advanced reasoning 与 agentic 工作流优化，提供从小尺寸到中等尺寸多档参数版本。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Gemma 4 把「单参数智能密度」作为新竞争维度——同等参数量级下推理表现领先 Llama 3、Mistral 等同类开源模型，是 Google 对抗 Meta 开源生态的关键武器。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "研究者和创业团队可直接商用部署本地推理；想转 AI 应用方向的同学，Gemma 4 适合作为 fine-tune 与 agentic 实验的起点，不必再排队等 API quota。"
+        }
+      ],
+      "src": "📎 deepmind.google · aiflashreport.com"
+    },
+    {
+      "slug": "02-kimi-20b-financing",
+      "idx": "02",
+      "catText": "融资",
+      "accent": "#4A90E2",
+      "bg": {
+        "top": "#EFF6FF",
+        "mid": "#DBEAFE",
+        "bot": "#BFDBFE",
+        "topRight": "#93C5FD"
+      },
+      "title": [
+        {
+          "text": "月之暗面 Kimi 融资 20 亿美元，"
+        },
+        {
+          "text": "估值破 200 亿",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "美团龙珠领投，"
+        },
+        {
+          "text": "半年累计 39 亿美元",
+          "bold": true
+        },
+        {
+          "text": "，K2.5 ARR 月增至 2 亿"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "月之暗面（Kimi）即将完成新一轮约 20 亿美元融资，投后估值突破 200 亿美元，由美团龙珠领投，中国移动与元丰资本（CPE）跟投。半年内连开 4 轮，累计融资超 39 亿美元。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "自 K2.5 模型更新以来，Kimi 的 ARR 从 3 月初的 1 亿美元跃升至 4 月的 2 亿美元，付费订阅与 API 调用双双加速。估值半年从约 43 亿翻 4 倍至 200 亿，已成国内大模型「融资王」。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "国内大模型正在分化出真正能跑通商业化的赢家。求职者关注 Kimi 的产品 / Agent / Infra 团队招聘——拿到 20 亿美元后头部 AI 公司是少数还在大规模扩招工程师的赛道。"
+        }
+      ],
+      "src": "📎 finance.sina.com.cn · 163.com"
+    },
+    {
+      "slug": "03-baidu-wenxin-5-1",
+      "idx": "03",
+      "catText": "大模型",
+      "accent": "#2932E1",
+      "bg": {
+        "top": "#EEF2FF",
+        "mid": "#E0E7FF",
+        "bot": "#C7D2FE",
+        "topRight": "#A5B4FC"
+      },
+      "title": [
+        {
+          "text": "百度文心 5.1 发布"
+        },
+        {
+          "text": "训练成本仅同类 6%",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "LMArena 搜索榜"
+        },
+        {
+          "text": "国内第一、全球第四",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "百度发布文心 5.1，以 1223 分登上 LMArena 搜索能力榜国内第一、全球第四，是唯一上榜的国产模型，而其预训练成本仅为业界同规模模型的约 6%。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "「用 6% 成本打赢同量级模型」证明高效训练方法已成为新竞争轴线；文心 5.1 也是百度在搜索 AI 赛道对抗 Google 和 OpenAI 的重要筹码。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "成本壁垒降低意味着更多中小企业将能负担得起 AI 搜索能力集成；学 AI 的同学可重点关注 MoE 和高效预训练技术，这将是未来几年的核心能力方向。"
+        }
+      ],
+      "src": "📎 qbitai.com · baidu.com"
+    },
+    {
+      "slug": "04-grok-apple-carplay",
+      "idx": "04",
+      "catText": "应用",
+      "accent": "#8B5CF6",
+      "bg": {
+        "top": "#F5F3FF",
+        "mid": "#EDE9FE",
+        "bot": "#DDD6FE",
+        "topRight": "#C4B5FD"
+      },
+      "title": [
+        {
+          "text": "Grok AI 进驻"
+        },
+        {
+          "text": "Apple CarPlay",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "语音唤醒 + 实时搜索，"
+        },
+        {
+          "text": "AI 助手首次进入车载场景",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 于 5 月 10 日宣布 Grok AI 正式接入 Apple CarPlay，驾驶者可通过语音指令调用 Grok 进行实时搜索、读取信息、导航辅助及多媒体控制，无需取出手机。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是主流 AI 助手首次深度接入车载 CarPlay 生态，标志着 AI 对话从手机端延伸至出行场景；xAI 借此与 Siri 和 Google Assistant 展开正面竞争。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开车族可即时体验免动手 AI 搜索；对 iOS 和车载应用开发者而言，AI 语音接口将成为新的标配能力，相关 API 和 CarPlay 开发经验值得提前布局。"
+        }
+      ],
+      "src": "📎 voiceofemirates.com · x.ai"
+    },
+    {
+      "slug": "05-anthropic-mythos-glasswing",
+      "idx": "05",
+      "catText": "安全",
+      "accent": "#EF4444",
+      "bg": {
+        "top": "#FFF1F2",
+        "mid": "#FFE4E6",
+        "bot": "#FECDD3",
+        "topRight": "#FDA4AF"
+      },
+      "title": [
+        {
+          "text": "Anthropic Claude Mythos +"
+        },
+        {
+          "text": "Project Glasswing 进白宫",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "专长识别软件漏洞，"
+        },
+        {
+          "text": "限定企业 rollout",
+          "bold": true
+        },
+        {
+          "text": "，Amodei 当面汇报 Trump 政府"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 发布新模型 Claude Mythos Preview，在识别软件弱点和安全漏洞方面表现突出，并以「Project Glasswing」网络安全计划形式限定给少数企业接入。CEO Dario Amodei 已在模型发布后数天进白宫，向 Trump 政府高层汇报。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "前沿 AI 实验室首次主动把「漏洞挖掘能力」作为产品卖给政企，而非仅作内部红队工具——意味着 AI 在攻防两端都进入实战化阶段。Amodei 亲赴白宫显示美国政府已把 AI 安全纳入国家安全议程。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "安全 + AI 的复合岗位需求会加速放大，特别是 AI red-teaming、漏洞自动化挖掘、prompt injection 防御方向。CISSP / OSCP + AI 工程能力的复合背景在 2026 年下半年会非常稀缺。"
+        }
+      ],
+      "src": "📎 cnbc.com · anthropic.com"
+    }
+  ],
+  "mp": {
+    "title": "Gemma 4 开源 / Kimi 估值破 200 亿 / 文心 5.1 / Grok 入 CarPlay / Anthropic Mythos 进白宫"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-11"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>

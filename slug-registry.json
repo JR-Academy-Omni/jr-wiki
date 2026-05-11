@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-07T01:08:16.397Z",
+  "lockedAt": "2026-05-11T04:34:45.583Z",
   "version": 1,
   "slugs": [
     {
@@ -113,6 +113,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-05-10"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-05-11"
     },
     {
       "type": "article",
@@ -799,6 +803,11 @@
       "type": "chapter",
       "book": "cursor-guide",
       "slug": "06-mcp-servers"
+    },
+    {
+      "type": "chapter",
+      "book": "cursor-guide",
+      "slug": "07-rules-mdc-deep"
     },
     {
       "type": "chapter",
