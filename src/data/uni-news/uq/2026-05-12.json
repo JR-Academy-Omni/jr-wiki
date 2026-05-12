@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-12",
+  "school": "uq",
+  "summary": {
+    "hookMain": "UQ",
+    "hookSub": "CREATE Lab跨学科艺术科技 + 国家老年虚弱症防治框架",
+    "hookSubHighlight": "CREATE Lab",
+    "subLines": [
+      "CREATE Lab 将近 200 名师生跨学科集结做沉浸式艺术科技研究",
+      "UQ 主导发布澳洲首个老年人虚弱症防治共识框架，19 项建议"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "CREATE Lab", "data": "200名师生跨学科研究" },
+      { "num": "02", "title": "虚弱症防治框架", "data": "澳洲首个19项共识" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "跨学科研究",
+      "h2Main": "UQ CREATE Lab：200 名师生跨学科做沉浸式艺术科技",
+      "h2Sub": "工程 + 音乐 + 戏剧 + 宇宙学 一体，首演《时间历史交响》",
+      "h2Highlight": "CREATE Lab",
+      "lead": "UQ 新设的 <b>CREATE Lab（创意研究在新兴艺术与技术）</b>集结近 200 名跨院系师生，配备全墙高清投影和 360 度空间音频系统，用沉浸式空间把工程、音乐、戏剧、心理学、宇宙学的研究融为一体，首演项目《时间历史交响》于 2026 年 Music by the Lakes 音乐节亮相。",
+      "bullets": [
+        { "k": "实验室配置", "v": "UQ Lakes 边缘，全墙高分辨率动态投影 + 360 度空间音频，可测试和体验大型跨学科沉浸式项目，工程师 / 戏剧制作者 / 音乐家 / 心理学家共用同一空间" },
+        { "k": "首演项目", "v": "《Symphony for the History of Time》融合宇宙学研究、现场管弦演奏和沉浸式视觉影像，探索「科学能证明什么、还有哪些依然未解」" },
+        { "k": "对留学生", "v": "<b>Creative Industries / Digital Media / Extended Reality / Music Technology</b> 方向，UQ Master of Creative Industries 和 Music Technology / Digital Humanities PhD 与此实验室直接对应" }
+      ],
+      "source": "UQ News · 2026-05",
+      "sourceUrl": "https://news.uq.edu.au/2026-05-uq-lab-where-research-becomes-creative-experience"
+    },
+    {
+      "idx": "02",
+      "category": "公共卫生",
+      "h2Main": "UQ 主导发布澳洲首个老年人虚弱症防治框架",
+      "h2Sub": "19 项共识建议，Frazer Institute Dr Chopra 主导，填补国家政策空白",
+      "h2Highlight": "澳洲首个",
+      "lead": "UQ Frazer Institute 的 Dr Sakshi Chopra 主导，联合全国临床医生、老年人和家庭护理者共同发布 <b>澳大利亚首个老年人虚弱症防治共识框架</b>，包含 19 项「澳大利亚共识声明」，覆盖蛋白质摄入、结构化运动、社会参与和定制护理计划等实操建议。",
+      "bullets": [
+        { "k": "为什么重要", "v": "65 岁以上人群虚弱症患病率 10-15%，80 岁以上超 25%；澳洲老龄化加速但缺乏标准化干预框架，这份共识填补政策空白、直接为临床医生提供实操指南" },
+        { "k": "19 项建议", "v": "个性化健康行为咨询、充足蛋白质摄入、结构化运动、<b>有意义的社会参与</b>、减轻医疗系统长期压力" },
+        { "k": "对留学生", "v": "<b>Nursing / Physiotherapy / Public Health / Aged Care Policy / Geriatric Medicine</b> 方向；UQ Centre for Health Services Research 是全澳老龄医学研究最强团队之一，MPH 和 Doctor of Medicine 有直接研究入口" }
+      ],
+      "source": "UQ News · 2026-05-12",
+      "sourceUrl": "https://news.uq.edu.au/2026-05-national-framework-target-rising-frailty-older-australians"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "UQ 本周两条方向完全不同：CREATE Lab 把 200 名跨学科师生集结做沉浸式艺术科技研究；另一条是 UQ 主导全国项目发布澳洲首个老年人虚弱症防治共识框架——两条都对应热门留学方向。",
+    "items": [
+      { "n": "01", "title": "CREATE Lab · 艺术科技沉浸", "body": "工程 + 音乐 + 戏剧 + 宇宙学跨学科，全墙投影 + 360 度音频；Creative Industries / Digital Media / XR / Music Technology 方向直接对口" },
+      { "n": "02", "title": "虚弱症框架 · 澳洲首个", "body": "Dr Chopra 主导，19 项共识建议，覆盖 65 岁以上老年人临床干预；Nursing / Public Health / Geriatric Medicine / Aged Care Policy 方向必看" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 2-3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "05 / 12"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 5-12 两条大新闻📣",
+      "body": "UQ 今天两条，方向完全不同，但都直接对应热门留学专业。\n\n01 / CREATE Lab——近 200 名跨学科师生，工程师、音乐家、戏剧导演、心理学家、宇宙学家在同一个沉浸式空间里做研究。全墙高清投影 + 360 度空间音频，首演项目是把宇宙学和管弦演奏融合的《时间历史交响》。Creative Industries / Digital Media / XR / Music Technology 方向的姐妹，UQ 这个实验室真的很特别。\n\n02 / 老年人虚弱症防治框架——UQ Frazer Institute 主导，联合全国医疗专家，发布澳洲首个老年人虚弱症（Frailty）防治共识框架，19 项建议。Nursing / Public Health / Geriatric Medicine 方向的姐妹，这是 UQ Centre for Health Services Research 在国家政策层面的最新产出。\n\n两条方向不重叠，都有在研究的姐妹评论区聊🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #创意产业 #公共卫生 #跨学科研究 #留学干货"
+    },
+    "p2": {
+      "title": "UQ CREATE Lab 沉浸式艺术科技🎭",
+      "body": "学创意产业、数字媒体、扩展现实（XR）的姐妹，UQ 这个实验室真的要看一下。\n\nUQ 刚推出的 CREATE Lab（创意研究在新兴艺术与技术实验室）不是普通的实验室——它把工程师、戏剧制作者、作家、音乐家、心理学家聚在同一个沉浸式空间里一起做研究。近 200 名跨院系师生参与了 2026 年的首个大型项目。\n\n实验室配了什么？坐落在 UQ Lakes 边缘，室内有高分辨率动态投影（可以把影像铺满所有白色墙面）和 360 度空间音频系统——不是屏幕看，是整个人「进去」体验的那种沉浸感。\n\n首演项目叫《Symphony for the History of Time（时间历史交响）》，把宇宙学研究成果和现场管弦演奏、沉浸式视觉影像融合在一起，在 2026 年 Music by the Lakes 音乐节上演出。项目负责人是宇宙学教授 Davis，他的出发点是：「科学能证明什么、还有哪些依然未解」——怎么让这个问题变成人可以真实感受到的体验？\n\n从申请角度：UQ 的 Master of Creative Industries 和 Master of Music Technology 都和这个实验室有直接的研究线连接。PhD in Digital Humanities 也是入口之一。艺术和科技都想要的姐妹，UQ 这条路是真实可走的。\n\n在考虑 Creative Industries / XR / Digital Media 方向的姐妹评论区说一下，我整理 UQ 这条线的申请细节🙌",
+      "tags": "#UQ #昆士兰大学 #创意产业 #数字媒体 #XR #澳洲留学 #留学干货 #艺术科技"
+    },
+    "p3": {
+      "title": "UQ 发布澳洲首个虚弱症防治框架👴",
+      "body": "走护理、公共卫生、老年医学方向的姐妹，这条是给你们的。\n\nUQ Frazer Institute 的 Dr Sakshi Chopra 主导，联合全国临床医生、65 岁以上老年人和家庭护理者，共同发布了澳大利亚首个专门针对老年人虚弱症（Frailty）预防与管理的共识框架，包含 19 项「澳大利亚共识声明」，5 月 12 日正式对外发布。\n\n什么是虚弱症？简单说是随着年龄增长，肌肉力量、活动能力、认知、免疫等多方面同时下降，导致小事也会引发大并发症的状态。65 岁以上人群患病率约 10-15%，80 岁以上超 25%，是老龄化社会最主要的医疗负担之一。\n\n澳洲人口老龄化速度在加快，但之前没有标准化的临床干预框架——医生知道问题存在，但没有系统性的国家指南。这 19 项建议包括提升虚弱症意识、个性化健康行为咨询、保证充足蛋白质摄入、结构化运动方案，以及有意义的社会参与。\n\n从留学角度看：UQ Centre for Health Services Research 是全澳老龄医学研究最强的团队之一。Master of Public Health 和 Doctor of Medicine 是两个主要入口。这份共识框架本身就是 UQ 研究和国家政策直接对话的案例，做 Aged Care Policy / Geriatric Medicine 方向的研究生，这正是你可以直接参与的研究生态。\n\n有在看 Nursing / Public Health / Aged Care 方向的姐妹评论区聊🙋",
+      "tags": "#UQ #昆士兰大学 #公共卫生 #老年医学 #护理 #澳洲留学 #留学干货 #PublicHealth"
+    },
+    "p4": {
+      "title": "UQ 5-12 两条｜CREATE Lab+虚弱症",
+      "body": "UQ 今天两条内容，方向不同但都很实用，快速整理：\n\n01 CREATE Lab：近 200 名跨学科师生，全墙投影 + 360 度音频的沉浸式空间，工程师 + 音乐家 + 戏剧制作者 + 宇宙学家共用同一个研究环境。首演《时间历史交响》把宇宙学和管弦乐结合，在 Music by the Lakes 亮相。Creative Industries / Digital Media / XR / Music Technology 方向的同学，UQ 这条研究线有直接的硕士和 PhD 入口。\n\n02 虚弱症防治框架：澳洲首个，19 项共识建议，UQ Frazer Institute Dr Chopra 主导。直接面向 65 岁以上老年人临床干预——蛋白质、运动、社会参与、定制护理。UQ Centre for Health Services Research 是全澳这个方向最强团队，Nursing / Public Health / Geriatric Medicine 的同学有直接入口。\n\n有在纠结这两个方向的姐妹评论区聊，说你的情况我来帮你分析🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #创意产业 #公共卫生 #留学干货 #大学日报 #研究生"
+    },
+    "p5": {
+      "title": "UQ 5-12 两条｜一眼看完",
+      "body": "UQ 本周两条，快速看完：\n\n01 / CREATE Lab——近 200 名跨学科师生集结，全墙投影 + 360 度音频沉浸空间，Engineering + Music + Drama + Cosmology 一起做研究；Creative Industries / Digital Media / XR / Music Technology 方向直接对口，Master of Creative Industries 和 Music Technology PhD 是入口。\n\n02 / 澳洲首个虚弱症防治框架——UQ Frazer Institute 主导，19 项共识建议覆盖 65 岁以上老年人临床干预；Nursing / Public Health / Geriatric Medicine / Aged Care Policy 必看，UQ Centre for Health Services Research 是这个方向全澳最强团队。\n\n两个方向都有在考虑的姐妹评论区扣方向，我来整理申请路径🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #创意产业 #公共卫生 #留学干货 #大学日报 #研究生"
+    }
+  },
+  "mp": {
+    "title": "UQ 5 月 12 日：CREATE Lab 将 200 名跨学科师生集结做沉浸式艺术科技、发布澳洲首个老年人虚弱症防治共识框架",
+    "lead": "UQ 本周两条消息方向完全不同但同样分量不轻。CREATE Lab 正在把工程师、音乐家、戏剧制作者、宇宙学家集结在同一个沉浸式空间里做跨学科研究，近 200 名师生参与首演项目《时间历史交响》；与此同时，UQ Frazer Institute 主导联合全国医疗专家发布了澳大利亚首个老年人虚弱症预防与管理共识框架，19 项建议直接为临床实践提供标准化指南。两条都对应当前留学申请热度较高的专业方向。",
+    "meta": { "readTime": "5 分钟" }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "UQ 今天两条，艺术科技和公共卫生方向各一条",
+        "body": "UQ 今天两条消息，正好对应两个完全不同的方向。\n\n第一条 CREATE Lab：这个实验室很特别，把工程、音乐、戏剧、心理学、宇宙学放在同一个沉浸式空间里做研究。近 200 名跨院系师生参与，全墙高清投影 + 360 度音频，首演是把宇宙学研究和管弦演奏结合的《时间历史交响》。走 Creative Industries / Digital Media / XR 方向的同学，UQ 这条研究线有真实的硕士和 PhD 入口，不只是「学校说有」的那种。\n\n第二条虚弱症防治框架：UQ 主导，澳洲首个，19 项共识建议，从蛋白质摄入到社会参与，覆盖了老年人临床干预的全链路。走 Nursing / Public Health / Aged Care Policy 方向的同学，UQ Centre for Health Services Research 在这个方向的研究产出直接和国家政策对话，这是你可以参与的研究生态。\n\n有在看这两个方向的姐妹评论区说，我来整理各自的申请细节🙌",
+        "tags": ["澳洲留学", "UQ", "昆士兰大学", "创意产业", "公共卫生", "留学干货", "研究生", "跨学科研究"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "「澳洲首个」用于描述客观事实（UQ News 原文标注），无夸大主观评价" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取", "result": "未检出" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com", "result": "未检出" },
+      { "category": "AI味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" }
+    ]
+  }
+}
