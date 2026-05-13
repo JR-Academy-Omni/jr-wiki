@@ -41,7 +41,7 @@
 - [x] cursor-guide/07-rules-mdc-deep.md — new-chapter: .cursor/rules/*.mdc 文件深度解析（scope types / 触发规则 / 多 rule 冲突解决）
 
 ### dify-guide
-- [ ] dify-guide/06-rag-knowledge-base.md — new-chapter: Dify RAG 知识库实战（文档切片策略 / 向量检索调优 / re-ranking）
+- [x] dify-guide/06-rag-knowledge-base.md — new-chapter: Dify RAG 知识库实战（文档切片策略 / 向量检索调优 / re-ranking）
 - [ ] dify-guide/07-self-hosting.md — new-chapter: Dify 自部署完整指南（Docker Compose + Nginx 反向代理 + HTTPS 配置）
 
 ### gamma-guide
