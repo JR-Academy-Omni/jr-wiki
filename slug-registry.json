@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-13T02:19:40.104Z",
+  "lockedAt": "2026-05-13T02:45:17.090Z",
   "version": 1,
   "slugs": [
     {
@@ -296,6 +296,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-05-13"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -328,6 +332,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-monash-2026-05-13"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-umelb-2026-04-24"
     },
     {
@@ -341,6 +349,10 @@
     {
       "type": "article",
       "slug": "uni-news-umelb-2026-05-02"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-05-05"
     },
     {
       "type": "article",
