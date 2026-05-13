@@ -1,0 +1,307 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-13T04:33:43.518Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-13（Canvas 版）</title>
+<meta name="description" content="2026-05-13 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-13.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-13",
+  "summary": {
+    "hook": [
+      "五大变局",
+      "AI 今日"
+    ],
+    "sub": "SAP Sapphire 推自治企业，Isomorphic 拿 21 亿美元 AI 制药轮，Anthropic 拒中国智库索 Mythos，谷歌实录首例 AI 自造零日漏洞，OpenAI 起 40 亿美元落地公司",
+    "items": [
+      {
+        "num": "01",
+        "cat": "企业 AI",
+        "numColor": "#0078D4",
+        "t": "SAP Sapphire 2026 推「自治企业」：Joule Work + 200 多个智能体重写 ERP 用法"
+      },
+      {
+        "num": "02",
+        "cat": "投融资",
+        "numColor": "#10B981",
+        "t": "Isomorphic Labs 拿下 21 亿美元 B 轮，AI 制药史上最大私募融资之一"
+      },
+      {
+        "num": "03",
+        "cat": "地缘",
+        "numColor": "#DC2626",
+        "t": "NYT 披露：Anthropic 在新加坡拒了中国智库索取 Mythos 的请求"
+      },
+      {
+        "num": "04",
+        "cat": "AI 安全",
+        "numColor": "#7C3AED",
+        "t": "谷歌威胁情报：实录首例 AI 自主造出零日漏洞，差点酿大规模利用"
+      },
+      {
+        "num": "05",
+        "cat": "商业化",
+        "numColor": "#0EA5E9",
+        "t": "OpenAI 起 40 亿美元「落地公司」，Bain/McKinsey/Capgemini 入局"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-sap-autonomous-enterprise-sapphire-2026",
+      "idx": "01",
+      "catText": "企业 AI",
+      "accent": "#0078D4",
+      "bg": {
+        "top": "#F0F9FF",
+        "mid": "#E0F2FE",
+        "bot": "#BAE6FD",
+        "topRight": "#7DD3FC"
+      },
+      "title": [
+        {
+          "text": "SAP「自治企业」上线："
+        },
+        {
+          "text": "Joule Work + 200 智能体",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "对话即可完成 ERP 操作，"
+        },
+        {
+          "text": "对账周期周变天",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "SAP 在 Sapphire 2026 推出 Autonomous Enterprise，含 Business AI Platform、Autonomous Suite（50+ Joule 助手 + 200+ 专精智能体）以及全新前台 Joule Work，用户描述结果即可触发整条业务流。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 SAP 把 ERP 从「人去操作软件」改成「人下指令，软件自跑」的根本转变；Autonomous Close 把财报合并从数周压到几天，是企业 AI 落地最实在的产能跃迁。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "SAP 顾问 / ERP 实施岗位结构性洗牌，懂 AI 智能体编排、Joule 平台开发的人才会拿到溢价；纯录数据 / 配科目的传统操作岗位将快速消失。"
+        }
+      ],
+      "src": "📎 news.sap.com · helpnetsecurity.com"
+    },
+    {
+      "slug": "02-isomorphic-labs-2-1b-series-b",
+      "idx": "02",
+      "catText": "投融资",
+      "accent": "#10B981",
+      "bg": {
+        "top": "#F0FDF4",
+        "mid": "#DCFCE7",
+        "bot": "#BBF7D0",
+        "topRight": "#86EFAC"
+      },
+      "title": [
+        {
+          "text": "Isomorphic 21 亿美元 B 轮："
+        },
+        {
+          "text": "AI 制药史上最大融资",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Thrive 领投，"
+        },
+        {
+          "text": "Hassabis 押药物设计 AI 引擎",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Alphabet 旗下 Isomorphic Labs 完成 21 亿美元 B 轮，Thrive Capital 领投，GV、CapitalG、MGX、Temasek、英国 Sovereign AI Fund 跟投，公司总融资达 26 亿美元。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 AI 制药行业历史上最大私募轮之一；CEO Demis Hassabis 直接押注 IsoDDE 药物设计引擎，意味着 DeepMind 派人马把 AlphaFold 的成果真正推向临床管线。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "AI 制药、AI for Science 方向人才需求会快速放量；懂分子生物学 + 深度学习交叉的研究员、ML 工程师将成为 2026 下半年最稀缺工种之一。"
+        }
+      ],
+      "src": "📎 isomorphiclabs.com · fiercebiotech.com"
+    },
+    {
+      "slug": "03-anthropic-rejects-china-mythos",
+      "idx": "03",
+      "catText": "地缘",
+      "accent": "#DC2626",
+      "bg": {
+        "top": "#FEF2F2",
+        "mid": "#FEE2E2",
+        "bot": "#FECACA",
+        "topRight": "#FCA5A5"
+      },
+      "title": [
+        {
+          "text": "Anthropic 拒中国智库："
+        },
+        {
+          "text": "Mythos 不松口",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "新加坡密会曝光，"
+        },
+        {
+          "text": "白宫 NSC 警觉",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "NYT 披露 4 月在新加坡 Carnegie 国际和平基金会组织的闭门会上，中国某智库代表请求 Anthropic 放宽对 Mythos 模型的访问，Anthropic 当场拒绝；事后白宫 NSC 官员被告知此事并表示警觉。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Mythos 是 Anthropic 4 月发布的最强网络安全攻防模型，目前只对约 40 家美国公司开放；中方索取（非官方）+ 美方拒绝 = 中美 AI 顶级模型的「实质脱钩」首次走到台面。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "对中国 AI 团队意味着前沿模型壁垒提高；对中美双重背景研究员（华人科学家）来说，未来选 lab 时会更被卷入合规审查；地缘政治正式成为 AI 产业的硬变量。"
+        }
+      ],
+      "src": "📎 dailycaller.com · letsdatascience.com"
+    },
+    {
+      "slug": "04-google-ai-zeroday-exploit",
+      "idx": "04",
+      "catText": "AI 安全",
+      "accent": "#7C3AED",
+      "bg": {
+        "top": "#F5F3FF",
+        "mid": "#EDE9FE",
+        "bot": "#DDD6FE",
+        "topRight": "#C4B5FD"
+      },
+      "title": [
+        {
+          "text": "谷歌实录首例："
+        },
+        {
+          "text": "AI 自造零日漏洞",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "2FA 绕过差点酿祸，"
+        },
+        {
+          "text": "GTIG 高置信判定",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google 威胁情报组 GTIG 公布首例「高置信度」AI 制造零日漏洞实例：黑客借 AI 模型发现并武器化一个开源 Web 管理平台的 2FA 绕过漏洞，准备发起大规模利用，被 Google 提前堵截。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 AI 攻防史的分水岭——AI 不再只是辅助工具，而是真正能独立产出可用零日的攻击主体；GTIG 凭代码注释过度解释、虚构 CVE 评分等「AI 指纹」识别出来源。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "安全团队必须把「AI 辅助攻击」纳入威胁建模标配；红队 / 渗透岗位价值反而走高，因为防守方要用 AI 对抗 AI；普通开发者更要警惕 AI 生成代码里的「过度解释」泄密。"
+        }
+      ],
+      "src": "📎 cloud.google.com · bleepingcomputer.com"
+    },
+    {
+      "slug": "05-openai-deployment-company-4b",
+      "idx": "05",
+      "catText": "商业化",
+      "accent": "#0EA5E9",
+      "bg": {
+        "top": "#F0F9FF",
+        "mid": "#E0F7FF",
+        "bot": "#BAE6FD",
+        "topRight": "#7DD3FC"
+      },
+      "title": [
+        {
+          "text": "OpenAI 起「落地公司」："
+        },
+        {
+          "text": "40 亿美元砸咨询",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Bain/McKinsey/Capgemini 入股，"
+        },
+        {
+          "text": "OpenAI 控股 19 家合作方",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 宣布成立独立子公司 DeployCo（OpenAI Deployment Company），首轮 40 亿美元投资、投前估值 100 亿；TPG 领投，Bain & Co.、McKinsey、Capgemini、BBVA、Advent、Brookfield 等 19 家入股。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "OpenAI 把「咨询 + 落地工程师」单独装进一家公司，意味着模型层之外要直接切咨询业的蛋糕；Tomoro 收购带来 150 名落地工程师，目标是把企业从 Demo 推进到生产。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "AI 咨询 / Forward Deployed Engineer 岗位将爆发，传统四大与 Bain/McKinsey 内部 AI 转岗机会增多；中小客户能直接拿到 OpenAI 派驻团队，企业 AI 「自研 vs 外包」的天平再次偏向外包。"
+        }
+      ],
+      "src": "📎 openai.com · axios.com"
+    }
+  ],
+  "mp": {
+    "title": "SAP 自治企业 / Isomorphic 21 亿 B 轮 / Anthropic 拒中国 Mythos / 首例 AI 零日 / OpenAI 40 亿落地公司"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-13"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>
