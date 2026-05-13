@@ -1,0 +1,92 @@
+{
+  "date": "2026-05-14",
+  "summary": {
+    "hook": ["Anthropic 签约 SpaceX 22万卡", "DeepSeek 估值冲 500 亿美元", "DeepMind AI 数学家破解未解难题"],
+    "sub": "Opus 4.7 发布，中美 AI 赛道全线提速",
+    "items": [
+      {"num":"01","cat":"模型发布","numColor":"#7C3AED","t":"Anthropic Opus 4.7 上线 + SpaceX 22万卡算力"},
+      {"num":"02","cat":"融资降价","numColor":"#2563EB","t":"DeepSeek 首轮估值 500 亿 + API 降价 75%"},
+      {"num":"03","cat":"科研突破","numColor":"#059669","t":"Google DeepMind AI 数学家攻克未解数学难题"},
+      {"num":"04","cat":"国内大会","numColor":"#DC2626","t":"百度 Create2026 发布文心 5.1，预训成本仅 6%"},
+      {"num":"05","cat":"行业震荡","numColor":"#1D4ED8","t":"Meta 裁员 8000 人，5 出版商起诉 Llama 训练数据"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-opus47-spacex",
+      "idx": "01",
+      "catText": "模型发布",
+      "accent": "#7C3AED",
+      "bg": {"top":"#F5F3FF","mid":"#EDE9FE","bot":"#DDD6FE","topRight":"#C4B5FD"},
+      "title": [{"text":"Anthropic 发布 Opus 4.7"},{"text":"并签约 SpaceX 22万张 GPU","hl":true}],
+      "oneline": [{"text":"马斯克把算力卖给了"},{"text":"Claude 的竞争对手","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Anthropic 正式发布 Claude Opus 4.7，同时宣布与 SpaceX 达成协议，获得 Colossus 1 数据中心逾 22 万张 NVIDIA GPU 算力，新增 300 兆瓦容量，Opus API 限额同步大幅提升。"},
+        {"k":"为什么重要","v":"这是 Anthropic 迄今最大算力扩张，直接解除了 Opus 系列长期存在的速率瓶颈；同时马斯克将算力卖给 OpenAI 竞争对手 Anthropic，引发业界关注其商业立场。"},
+        {"k":"对你的影响","v":"Claude Pro / Max / Team 用户即日起高峰期限额翻倍，重度用户可获更稳定的 Opus 体验；企业客户 API 成本不变，容量显著扩充。"}
+      ],
+      "src": "📎 anthropic.com · qbitai.com"
+    },
+    {
+      "slug": "02-deepseek-50b-valuation-price-cut",
+      "idx": "02",
+      "catText": "融资降价",
+      "accent": "#2563EB",
+      "bg": {"top":"#EFF6FF","mid":"#DBEAFE","bot":"#BFDBFE","topRight":"#93C5FD"},
+      "title": [{"text":"DeepSeek 首轮融资估值"},{"text":"500 亿美元，API 同步降价 75%","hl":true}],
+      "oneline": [{"text":"中国 AI 独角兽"},{"text":"国家队领投创纪录融资","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"DeepSeek 即将完成首次外部融资，估值高达 500 亿美元，拟融资 50 亿元人民币（约 73.5 亿美元），由国家大基金三期等国家背景机构领投，腾讯也参与其中；同时 V4-Pro API 降价 75%，缓存成本降 90%。"},
+        {"k":"为什么重要","v":"这将是中国 AI 公司单轮融资规模最大纪录，国家资本直接入场表明 DeepSeek 已被视为国家级战略资产；大幅降价则进一步压缩竞品利润空间。"},
+        {"k":"对你的影响","v":"使用 DeepSeek API 的开发者即刻享受超低价格；竞品如阿里、百度 API 定价压力加剧，中文 AI 应用成本有望持续下降。"}
+      ],
+      "src": "📎 techcrunch.com · scmp.com"
+    },
+    {
+      "slug": "03-deepmind-ai-mathematician",
+      "idx": "03",
+      "catText": "科研突破",
+      "accent": "#059669",
+      "bg": {"top":"#ECFDF5","mid":"#D1FAE5","bot":"#A7F3D0","topRight":"#6EE7B7"},
+      "title": [{"text":"Google DeepMind AI 数学家"},{"text":"突破性攻克数十年未解难题","hl":true}],
+      "oneline": [{"text":"AI 审阅者拒绝的证明"},{"text":"反被教授用来破解悬案","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Google DeepMind 发布 AI 协作数学家系统，在专为难倒 AI 设计的基准上创下历史新高；一位数学教授甚至借助该系统内部被「审阅者拒绝」的证明策略，成功解决了一道长期悬而未决的数学问题。"},
+        {"k":"为什么重要","v":"此前 AI 在数学推理领域局限于计算题和竞赛题，能协助研究级数学突破标志着 AI 已进入严肃科研辅助阶段，对纯数学、密码学、理论物理均有深远影响。"},
+        {"k":"对你的影响","v":"短期内影响局限于数学研究圈；但此类「AI + 专家」协作范式将向计算机科学、生物医药等领域扩展，改变科研效率格局。"}
+      ],
+      "src": "📎 deepmind.google · therundown.ai"
+    },
+    {
+      "slug": "04-baidu-create2026-wenxin51",
+      "idx": "04",
+      "catText": "国内大会",
+      "accent": "#DC2626",
+      "bg": {"top":"#FEF2F2","mid":"#FEE2E2","bot":"#FECACA","topRight":"#FCA5A5"},
+      "title": [{"text":"百度 Create 2026 发布文心 5.1"},{"text":"预训成本仅行业 6%","hl":true}],
+      "oneline": [{"text":"李彦宏首提 DAA 度量衡"},{"text":"国产大模型效率刷新纪录","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"百度 Create 2026 开发者大会召开，正式发布文心 5.1：以同规模模型行业标准 6% 的预训练成本达到领先性能，在国内搜索场景 LMArena 排行登顶，Agent 能力超越 DeepSeek-V4-Pro；李彦宏首次提出 DAA（日活 AI Agent）作为 AI 时代新度量衡。"},
+        {"k":"为什么重要","v":"6% 训练成本是国产大模型效率的重大突破，表明「算力换智能」的时代正在向「效率换智能」演进；DAA 概念若普及将重塑行业估值逻辑，从参数量转向实际 Agent 使用量。"},
+        {"k":"对你的影响","v":"百度云 API 用户可预期文心 5.1 以更低价格提供，尤其对搜索增强、文档处理类应用有利；IT 培训、教育科技领域的 AI 集成成本将进一步降低。"}
+      ],
+      "src": "📎 qbitai.com · baidu.com"
+    },
+    {
+      "slug": "05-meta-layoffs-publishers-lawsuit",
+      "idx": "05",
+      "catText": "行业震荡",
+      "accent": "#1D4ED8",
+      "bg": {"top":"#EFF6FF","mid":"#DBEAFE","bot":"#BFDBFE","topRight":"#93C5FD"},
+      "title": [{"text":"Meta 裁员 8000 人重组 AI"},{"text":"5 大出版商起诉 Llama 训练数据","hl":true}],
+      "oneline": [{"text":"砸 1150 亿建 AI 基建"},{"text":"却靠盗版书训练模型被告上法庭","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Meta 宣布 5 月 20 日起裁员约 8000 人（占员工总数 10%），全面向 AI 基础设施倾斜；与此同时，爱思唯尔、Cengage、Hachette 等 5 大出版商在联邦法院起诉 Meta，指控其用盗版书籍和论文训练 Llama 系列模型。"},
+        {"k":"为什么重要","v":"裁员与 AI 豪赌并行，显示大科技公司正将传统业务员工换成 AI 产能；版权诉讼则是 AI 训练数据合法性问题的集中爆发，可能引发行业范围的数据授权重构。"},
+        {"k":"对你的影响","v":"Llama 开源生态的法律不确定性上升，基于 Llama 的商业化应用需评估潜在版权连带风险；对 AI 培训机构而言，AI 伦理与数据合规课程需求将显著增加。"}
+      ],
+      "src": "📎 thenextweb.com · nature.com"
+    }
+  ],
+  "mp": {"title": "Opus 4.7+SpaceX 算力 / DeepSeek 500 亿 / DeepMind 破数学难题 / 百度文心 5.1 / Meta 裁员被诉"}
+}
