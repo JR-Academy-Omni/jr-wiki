@@ -9,18 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800;900&family=Space+Grotesk:wght@500;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --pri-deep: #b89500;
-    --pri: #ffd100;
-    --pri-light: #fff176;
-    --gold: #10162f;
-    --text-on: #10162f;
-    --ink: #160a2c;
-    --bg: #f6f1ff;
-    --muted: #71628a;
-    --border-soft: rgba(106,72,170,0.12);
-    --panel-shadow: 0 20px 60px rgba(53,18,102,0.1);
-  }
+  :root { --pri-deep: #b89500; --pri: #ffd100; --pri-light: #fff176; --gold: #10162f; --text-on: #10162f; --ink: #160a2c; --bg: #f6f1ff; --muted: #71628a; --border-soft: rgba(106,72,170,0.12); --panel-shadow: 0 20px 60px rgba(53,18,102,0.1); }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { background: radial-gradient(circle at top left, rgba(124,58,237,0.12), transparent 30%), var(--bg); color: var(--ink); font-family: 'Noto Sans SC', system-ui, sans-serif; padding: 32px 20px 80px; line-height: 1.65; }
   .page { max-width: 1100px; margin: 0 auto; }
@@ -59,38 +48,14 @@
   .item-links a:hover { border-color: var(--pri); color: var(--pri); transform: translateX(2px); }
   .item-links a.primary { background: linear-gradient(135deg, var(--pri), var(--pri-light)); color: var(--text-on); border-color: transparent; box-shadow: 0 4px 14px rgba(76,29,149,0.25); }
   .item-links a.primary:hover { box-shadow: 0 8px 22px rgba(76,29,149,0.35); color: var(--text-on); }
-  .empty { padding: 60px 30px; text-align: center; background: rgba(255,255,255,0.6); border: 1px dashed var(--border-soft); border-radius: 20px; color: var(--muted); }
-  .empty .emj { font-size: 40px; margin-bottom: 10px; }
-  .empty h3 { color: var(--ink); font-weight: 900; font-size: 18px; margin-bottom: 10px; font-family: 'Playfair Display', 'Noto Sans SC', sans-serif; }
-  .empty p { font-size: 13px; line-height: 1.8; max-width: 520px; margin: 0 auto; }
-  .empty code { background: rgba(124,58,237,0.08); color: var(--pri); padding: 3px 9px; border-radius: 5px; font-family: 'Space Grotesk', monospace; font-size: 12px; }
   .footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border-soft); font-size: 12px; color: var(--muted); text-align: center; }
   .footer code { background: rgba(255,255,255,0.8); padding: 2px 8px; border-radius: 4px; font-family: 'Space Grotesk', monospace; }
-  @media (max-width: 700px) {
-    body { padding: 24px 14px 60px; }
-    .school-head { padding: 32px 24px; }
-    .school-head h1 { font-size: 28px; }
-    .school-head .name-en { font-size: 14px; }
-    .school-head .stats { gap: 20px; }
-    .school-head .stat .n { font-size: 26px; }
-    .item { grid-template-columns: 1fr; gap: 14px; padding: 18px 20px; }
-    .item-date { align-self: flex-start; display: inline-flex; gap: 10px; align-items: baseline; padding: 8px 14px; min-width: 0; }
-    .item-date .m { font-size: 10px; }
-    .item-date .d { font-size: 20px; margin: 0; }
-    .item-date .y { font-size: 10px; }
-    .item-title { font-size: 17px; }
-    .item-links { flex-direction: row; flex-wrap: wrap; }
-    .item-links a { min-width: 0; flex: 1; padding: 10px 12px; }
-  }
+  @media (max-width: 700px) { body { padding: 24px 14px 60px; } .school-head { padding: 32px 24px; } .school-head h1 { font-size: 28px; } .item { grid-template-columns: 1fr; gap: 14px; padding: 18px 20px; } .item-date { align-self: flex-start; display: inline-flex; gap: 10px; align-items: baseline; padding: 8px 14px; min-width: 0; } .item-title { font-size: 17px; } .item-links { flex-direction: row; flex-wrap: wrap; } .item-links a { min-width: 0; flex: 1; padding: 10px 12px; } }
 </style>
 </head>
 <body>
 <div class="page">
-  <div class="breadcrumb">
-    <a href="../">← 素材库</a>
-    <span class="sep">/</span>
-    <span class="current">UNSW 新南威尔士大学</span>
-  </div>
+  <div class="breadcrumb"><a href="../">← 素材库</a><span class="sep">/</span><span class="current">UNSW 新南威尔士大学</span></div>
   <div class="school-head">
     <div class="code">UNSW SYDNEY</div>
     <h1>新南威尔士大学</h1>
@@ -104,150 +69,19 @@
   </div>
   <div class="section-label">最新内容（按日期倒序）</div>
   <div class="timeline" id="timeline">
-    <div class="item">
-      <div class="item-date"><div class="m">MAY</div><div class="d">11</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">新南威尔士大学 05月11日 AI伴侣Tom&amp;Mia中英双语上线·$400万女性创业加速器7月开放</div>
-        <div class="item-brief">UNSW 研究团队推出 AI 伴侣 Tom 和 Mia，中英双语，由中国留学生深度参与设计，专为解决留学孤独感；$400 万 NSW 政府女性创业加速计划正式启动，10 周全额资助，7 月 1 日开放申请。另：UNSW 演化生物学家与国际团队合著 PNAS 论文，「可进化 AI」或成地球第九大演化跃迁。</div>
-        <div class="item-tags"><span>#学费调整</span><span>#科研合作</span><span>#课程更新</span></div>
-      </div>
-      <div class="item-links">
-        <a href="../2026-05-11/unsw/xhs-posters.html" class="primary">📱 小红书</a>
-        <a href="../2026-05-11/unsw/mp-article.html">📰 公众号</a>
-        <a href="../2026-05-11/unsw/xhs-drafts.md">📝 草稿</a>
-      </div>
-    </div>
-    <div class="item">
-      <div class="item-date"><div class="m">MAY</div><div class="d">8</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">UNSW 05月08日 国际生奖学金上调5% + T1/T2通道关闭提前备战T3</div>
-        <div class="item-brief">UNSW 2026 International Student Award 资助比例上调 5%，全额 Scientia 奖学金截止 6 月 18 日；2026 T1/T2 国际生主申请通道已关闭，有意入学的同学需提前规划 T3（9–10 月）或 2027 T1。</div>
-        <div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#招生政策</span></div>
-      </div>
-      <div class="item-links">
-        <a href="../2026-05-08/unsw/xhs-posters.html" class="primary">📱 小红书</a>
-        <a href="../2026-05-08/unsw/mp-article.html">📰 公众号</a>
-        <a href="../2026-05-08/unsw/xhs-drafts.md">📝 草稿</a>
-      </div>
-    </div>
-    <div class="item">
-      <div class="item-date"><div class="m">MAY</div><div class="d">5</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">UNSW 05月05日 UNSW学位助力中国就业、Torch 10周年、G25新大楼破土动工</div>
-        <div class="item-brief">2026年中国应届生破历史纪录1270万，UNSW学位如何开门；Torch@UNSW中澳创新合作10周年，1.4亿澳元科研成果；G25新教学楼正式破土，School of Psychology即将入驻。</div>
-        <div class="item-tags"><span>#奖学金</span><span>#签证移民</span><span>#科研合作</span></div>
-      </div>
-      <div class="item-links">
-        <a href="../2026-05-05/unsw/xhs-posters.html" class="primary">📱 小红书</a>
-        <a href="../2026-05-05/unsw/mp-article.html">📰 公众号</a>
-        <a href="../2026-05-05/unsw/xhs-drafts.md">📝 草稿</a>
-      </div>
-    </div>
-    <div class="item">
-      <div class="item-date"><div class="m">MAY</div><div class="d">3</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">新南威尔士大学 05月03日 AI心理伴侣研究 + 女性创业加速 + 班加罗尔校区开放日 UNSW</div>
-        <div class="item-brief">UNSW推出双语 AI心理伴侣Tom和Mia帮助国际学生缓解孤独；$4m NSW政府计划加速女性创业者；班加罗尔印度校区8月开学开放日申请开放。</div>
-        <div class="item-tags"><span>#科研合作</span><span>#课程更新</span><span>#项目开放</span></div>
-      </div>
-      <div class="item-links">
-        <a href="../2026-05-03/unsw/xhs-posters.html" class="primary">📱 小红书</a>
-        <a href="../2026-05-03/unsw/mp-article.html">📰 公众号</a>
-        <a href="../2026-05-03/unsw/xhs-drafts.md">📝 草稿</a>
-      </div>
-    </div>
-    <div class="item">
-      <div class="item-date"><div class="m">MAY</div><div class="d">2</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">新南威尔士大学 05月02日 AI 伴侣 Tom &amp; Mia 中文版 + 班加罗尔 × 德勤 AI 卓越中心 + T2 国际奖学金截止</div>
-        <div class="item-brief">UNSW 推出中英双语 AI 心理伴侣 Tom 和 Mia，专为中国留学生设计；UNSW Bengaluru 校区与德勤印度签 MOU 联建 AI 创新卓越中心；T2 2026 国际学生奖学金 6 月 18 日截止，学费减 20%。</div>
-        <div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#招生政策</span></div>
-      </div>
-      <div class="item-links">
-        <a href="../2026-05-02/unsw/xhs-posters.html" class="primary">📱 小红书</a>
-        <a href="../2026-05-02/unsw/mp-article.html">📰 公众号</a>
-        <a href="../2026-05-02/unsw/xhs-drafts.md">📝 草稿</a>
-      </div>
-    </div>
-    <div class="item">
-      <div class="item-date"><div class="m">APR</div><div class="d">29</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">UNSW 悉尼 04月29日 Snow 医学双星 $800M Fellowship、氢燃料电池 75% 突破、NDIS 改革深度解读</div>
-        <div class="item-brief">两名 UNSW 医学研究员各获 Snow Foundation 8 年 800 万资助；UNSW 氢燃料电池新架构功率提升 75%；NDIS 资格收紧专家解读影响。</div>
-        <div class="item-tags"><span>#科研合作</span></div>
-      </div>
-      <div class="item-links">
-        <a href="../2026-04-29/unsw/xhs-posters.html" class="primary">📱 小红书</a>
-        <a href="../2026-04-29/unsw/mp-article.html">📰 公众号</a>
-        <a href="../2026-04-29/unsw/xhs-drafts.md">📝 草稿</a>
-      </div>
-    </div>
-    <div class="item">
-      <div class="item-date"><div class="m">APR</div><div class="d">27</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">新南威尔士大学 4月27日：澳洲首个太阳板回收 ARC Hub 揭幕（$5M 资助）+ Garvan + Anthropic Claude AI 基因组合作 + 历史学家解读 NASA Artemis II</div>
-        <div class="item-brief">UNSW Chemical Engineering 牵头的 ARC Hub for Photovoltaic Solar Panel Recycling 4 月 21 日开幕，5M ARC 资助，应对澳洲 2030 年预计 10 万吨/年太阳板废料；UNSW Medicine + Garvan Institute + Anthropic 合作用 Claude AI 解析人类基因变异；历史学院 Dr Tristan Moss 解读 NASA Artemis II 与澳洲深空通信</div>
-        <div class="item-tags"><span>#科研合作</span><span>#项目开放</span></div>
-      </div>
-      <div class="item-links">
-        <a href="../2026-04-27/unsw/xhs-posters.html" class="primary">📱 小红书</a>
-        <a href="../2026-04-27/unsw/mp-article.html">📰 公众号</a>
-        <a href="../2026-04-27/unsw/xhs-drafts.md">📝 草稿</a>
-      </div>
-    </div>
-    <div class="item">
-      <div class="item-date"><div class="m">APR</div><div class="d">25</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">新南威尔士大学 04/25 新闻日报</div>
-        <div class="item-brief">点进查看公众号发稿页 + 小红书素材</div>
-        <div class="item-tags"></div>
-      </div>
-      <div class="item-links">
-        <a href="../2026-04-25/unsw/xhs-posters.html" class="primary">📱 小红书</a>
-        <a href="../2026-04-25/unsw/mp-article.html">📰 公众号</a>
-        <a href="../2026-04-25/unsw/xhs-drafts.md">📝 草稿</a>
-      </div>
-    </div>
-    <div class="item">
-      <div class="item-date"><div class="m">APR</div><div class="d">22</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">新南威尔士大学 4月22日 商学院新院长上任、班加罗尔海外校区 8 月开学、太阳能 UV 退化研究登 IEEE</div>
-        <div class="item-brief">UNSW 商学院新院长 Paul Andon 4 月 20 日上任，班加罗尔校区 8 月正式开学提供 5 个学位，太阳能 UV 退化研究发表 IEEE Journal of Photovoltaics</div>
-        <div class="item-tags"><span>#奖学金</span><span>#招生政策</span><span>#科研合作</span></div>
-      </div>
-      <div class="item-links">
-        <a href="../2026-04-22/unsw/xhs-posters.html" class="primary">📱 小红书</a>
-        <a href="../2026-04-22/unsw/mp-article.html">📰 公众号</a>
-        <a href="../2026-04-22/unsw/xhs-drafts.md">📝 草稿</a>
-      </div>
-    </div>
-    <div class="item">
-      <div class="item-date"><div class="m">APR</div><div class="d">13</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">新南威尔士大学 4月13日 全球排名第20、印度新校区落地、国际生奖学金提至20%</div>
-        <div class="item-brief">UNSW 2026 QS排名升至全球第20，宣布在印度班加罗尔开设首个海外校区，国际生奖学金覆盖额度提升至20%学费减免</div>
-        <div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#招生政策</span></div>
-      </div>
-      <div class="item-links">
-        <a href="https://github.com/JR-Academy-AI/jr-wiki/blob/main/src/content/universities/unsw/news-2026-04-13.md" target="_blank" rel="noopener" class="primary">📄 新闻 md</a>
-        <span style="font-size:10px;color:#a89bc2;text-align:center;font-family:'Space Grotesk',sans-serif;letter-spacing:0.08em;padding:4px 0;">素材待产出</span>
-      </div>
-    </div>
-    <div class="item">
-      <div class="item-date"><div class="m">APR</div><div class="d">9</div><div class="y">2026</div></div>
-      <div class="item-content">
-        <div class="item-title">新南威尔士大学 4月9日 322万澳币国防 AI 项目、CS Rankings 澳洲第一、flex-semester 新学制</div>
-        <div class="item-brief">UNSW 拿下 322 万澳币 ROSITA 国防多模态 AI 项目，AI/数据库/嵌入式系统澳洲第一，flex-semester 新学制启动</div>
-        <div class="item-tags"><span>#奖学金</span><span>#签证移民</span><span>#学费调整</span></div>
-      </div>
-      <div class="item-links">
-        <a href="../2026-04-09/unsw/mp-article.html">📰 公众号</a>
-      </div>
-    </div>
+    <div class="item"><div class="item-date"><div class="m">MAY</div><div class="d">11</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">新南威尔士大学 05月11日 AI伴侣Tom&amp;Mia中英双语上线·$400万女性创业加速器7月开放</div><div class="item-brief">UNSW 研究团队推出 AI 伴侣 Tom 和 Mia，中英双语，专为解决留学孤独感；$400 万 NSW 政府女性创业加速计划正式启动，10 周全额资助，7 月 1 日开放申请。</div><div class="item-tags"><span>#学费调整</span><span>#科研合作</span><span>#课程更新</span></div></div><div class="item-links"><a href="../2026-05-11/unsw/xhs-posters.html" class="primary">📱 小红书</a><a href="../2026-05-11/unsw/mp-article.html">📰 公众号</a><a href="../2026-05-11/unsw/xhs-drafts.md">📝 草稿</a></div></div>
+    <div class="item"><div class="item-date"><div class="m">MAY</div><div class="d">8</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">UNSW 05月08日 国际生奖学金上调5% + T1/T2通道关闭提前备战T3</div><div class="item-brief">UNSW 2026 International Student Award 资助比例上调 5%，全额 Scientia 奖学金截止 6 月 18 日；2026 T1/T2 国际生主申请通道已关闭，需提前规划 T3 或 2027 T1。</div><div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#招生政策</span></div></div><div class="item-links"><a href="../2026-05-08/unsw/xhs-posters.html" class="primary">📱 小红书</a><a href="../2026-05-08/unsw/mp-article.html">📰 公众号</a><a href="../2026-05-08/unsw/xhs-drafts.md">📝 草稿</a></div></div>
+    <div class="item"><div class="item-date"><div class="m">MAY</div><div class="d">5</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">UNSW 05月05日 UNSW学位助力中国就业、Torch 10周年、G25新大楼破土动工</div><div class="item-brief">2026年中国应届生破历史纪录达1270万，UNSW学位如何开门；Torch@UNSW中澳创新合作10周年，1.4亿澳元科研成果；G25新教学楼正式破土。</div><div class="item-tags"><span>#奖学金</span><span>#签证移民</span><span>#科研合作</span></div></div><div class="item-links"><a href="../2026-05-05/unsw/xhs-posters.html" class="primary">📱 小红书</a><a href="../2026-05-05/unsw/mp-article.html">📰 公众号</a><a href="../2026-05-05/unsw/xhs-drafts.md">📝 草稿</a></div></div>
+    <div class="item"><div class="item-date"><div class="m">MAY</div><div class="d">3</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">新南威尔士大学 05月03日 AI心理伴侣研究 + 女性创业加速 + 班加罗尔校区开放日 UNSW</div><div class="item-brief">UNSW推出双语AI心理伴侣Tom和Mia帮助国际学生缓解孤独；$4m NSW政府计划加速女性创业者；班加罗尔印度校区8月开学开放日申请开放。</div><div class="item-tags"><span>#科研合作</span><span>#课程更新</span><span>#项目开放</span></div></div><div class="item-links"><a href="../2026-05-03/unsw/xhs-posters.html" class="primary">📱 小红书</a><a href="../2026-05-03/unsw/mp-article.html">📰 公众号</a><a href="../2026-05-03/unsw/xhs-drafts.md">📝 草稿</a></div></div>
+    <div class="item"><div class="item-date"><div class="m">MAY</div><div class="d">2</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">新南威尔士大学 05月02日 AI 伴侣 Tom &amp; Mia 中文版 + 班加罗尔 × 德勤 AI 卓越中心 + T2 国际奖学金截止</div><div class="item-brief">UNSW 推出中英双语 AI 心理伴侣 Tom 和 Mia；UNSW Bengaluru 校区与德勤印度签 MOU 联建 AI 创新卓越中心；T2 2026 国际学生奖学金 6 月 18 日截止，学费减 20%。</div><div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#招生政策</span></div></div><div class="item-links"><a href="../2026-05-02/unsw/xhs-posters.html" class="primary">📱 小红书</a><a href="../2026-05-02/unsw/mp-article.html">📰 公众号</a><a href="../2026-05-02/unsw/xhs-drafts.md">📝 草稿</a></div></div>
+    <div class="item"><div class="item-date"><div class="m">APR</div><div class="d">29</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">UNSW 悉尼 04月29日 Snow 医学双星 $800M Fellowship、氢燃料电池 75% 突破、NDIS 改革深度解读</div><div class="item-brief">两名 UNSW 医学研究员各获 Snow Foundation 8 年 800 万资助；UNSW 氢燃料电池新架构功率提升 75%；NDIS 资格收紧专家解读影响。</div><div class="item-tags"><span>#科研合作</span></div></div><div class="item-links"><a href="../2026-04-29/unsw/xhs-posters.html" class="primary">📱 小红书</a><a href="../2026-04-29/unsw/mp-article.html">📰 公众号</a><a href="../2026-04-29/unsw/xhs-drafts.md">📝 草稿</a></div></div>
+    <div class="item"><div class="item-date"><div class="m">APR</div><div class="d">27</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">新南威尔士大学 4月27日：澳洲首个太阳板回收 ARC Hub 揭幕（$5M 资助）+ Garvan + Anthropic Claude AI 基因组合作 + 历史学家解读 NASA Artemis II</div><div class="item-brief">UNSW Chemical Engineering 牵头的 ARC Hub for Photovoltaic Solar Panel Recycling 4 月 21 日开幕；UNSW Medicine + Garvan Institute + Anthropic 合作用 Claude AI 解析人类基因变异。</div><div class="item-tags"><span>#科研合作</span><span>#项目开放</span></div></div><div class="item-links"><a href="../2026-04-27/unsw/xhs-posters.html" class="primary">📱 小红书</a><a href="../2026-04-27/unsw/mp-article.html">📰 公众号</a><a href="../2026-04-27/unsw/xhs-drafts.md">📝 草稿</a></div></div>
+    <div class="item"><div class="item-date"><div class="m">APR</div><div class="d">25</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">新南威尔士大学 04/25 新闻日报</div><div class="item-brief">点进查看公众号发稿页 + 小红书素材</div><div class="item-tags"></div></div><div class="item-links"><a href="../2026-04-25/unsw/xhs-posters.html" class="primary">📱 小红书</a><a href="../2026-04-25/unsw/mp-article.html">📰 公众号</a><a href="../2026-04-25/unsw/xhs-drafts.md">📝 草稿</a></div></div>
+    <div class="item"><div class="item-date"><div class="m">APR</div><div class="d">22</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">新南威尔士大学 4月22日 商学院新院长上任、班加罗尔海外校区 8 月开学、太阳能 UV 退化研究登 IEEE</div><div class="item-brief">UNSW 商学院新院长 Paul Andon 4 月 20 日上任；班加罗尔校区 8 月正式开学提供 5 个学位；太阳能 UV 退化研究发表 IEEE Journal of Photovoltaics。</div><div class="item-tags"><span>#奖学金</span><span>#招生政策</span><span>#科研合作</span></div></div><div class="item-links"><a href="../2026-04-22/unsw/xhs-posters.html" class="primary">📱 小红书</a><a href="../2026-04-22/unsw/mp-article.html">📰 公众号</a><a href="../2026-04-22/unsw/xhs-drafts.md">📝 草稿</a></div></div>
+    <div class="item"><div class="item-date"><div class="m">APR</div><div class="d">13</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">新南威尔士大学 4月13日 全球排名第20、印度新校区落地、国际生奖学金提至20%</div><div class="item-brief">UNSW 2026 QS排名升至全球第20；宣布在印度班加罗尔开设首个海外校区；国际生奖学金覆盖额度提升至20%学费减免。</div><div class="item-tags"><span>#奖学金</span><span>#学费调整</span><span>#招生政策</span></div></div><div class="item-links"><a href="https://github.com/JR-Academy-AI/jr-wiki/blob/main/src/content/universities/unsw/news-2026-04-13.md" target="_blank" rel="noopener" class="primary">📄 新闻 md</a><span style="font-size:10px;color:#a89bc2;text-align:center;font-family:'Space Grotesk',sans-serif;letter-spacing:0.08em;padding:4px 0;">素材待产出</span></div></div>
+    <div class="item"><div class="item-date"><div class="m">APR</div><div class="d">9</div><div class="y">2026</div></div><div class="item-content"><div class="item-title">新南威尔士大学 4月9日 322万澳币国防 AI 项目、CS Rankings 澳洲第一、flex-semester 新学制</div><div class="item-brief">UNSW 拿下 322 万澳币 ROSITA 国防多模态 AI 项目；AI/数据库/嵌入式系统澳洲第一；flex-semester 新学制启动。</div><div class="item-tags"><span>#奖学金</span><span>#签证移民</span><span>#学费调整</span></div></div><div class="item-links"><a href="../2026-04-09/unsw/mp-article.html">📰 公众号</a></div></div>
   </div>
-  <div class="footer">
-    👉 跑 <code>/uni-news-poster [date] unsw</code> 产新内容 · schedule 自动跑见 <code>scripts/rebuild-uni-hub.mjs</code>
-  </div>
+  <div class="footer">👉 跑 <code>/uni-news-poster [date] unsw</code> 产新内容 · schedule 自动跑见 <code>scripts/rebuild-uni-hub.mjs</code></div>
 </div>
 </body>
 </html>
