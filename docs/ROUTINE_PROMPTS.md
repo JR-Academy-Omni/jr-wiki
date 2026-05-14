@@ -27,34 +27,59 @@ cd /workspace/jr-wiki
 DATE=$(TZ='Australia/Sydney' date +%Y-%m-%d)
 echo "▶ Running /ai-daily-news for $DATE (AEST)"
 
-# 跑 skill：agent 写 JSON + blog md，pipeline 渲染 HTML
+# 跑 skill：agent 写 JSON + blog md
 /ai-daily-news $DATE
 
-# 自检：3 个产物齐全
+# 自检 + pipeline 渲染 HTML
 [ -f src/data/ai-daily/${DATE}.json ] || { echo "❌ JSON 没产"; exit 1; }
 [ -f src/content/articles/ai-daily-${DATE}.md ] || { echo "❌ blog md 没产"; exit 1; }
 bun run build:ai-daily $DATE || { echo "❌ pipeline 失败"; exit 1; }
 [ -f src/static/ai-news-posters/${DATE}/index.html ] || { echo "❌ poster HTML 没产"; exit 1; }
 [ -f src/static/ai-news-posters/${DATE}/mp-article.html ] || { echo "❌ mp HTML 没产"; exit 1; }
 
-# Commit + push（带 3 次重试）
+# 重建 hub index（倒序所有日期卡片）
+node scripts/rebuild-ai-news-hub.mjs || { echo "❌ hub 重建失败"; exit 1; }
+
+# 提交本地变更
 git add src/data/ai-daily/${DATE}.json \
         src/content/articles/ai-daily-${DATE}.md \
-        src/static/ai-news-posters/${DATE}/
+        src/static/ai-news-posters/${DATE}/ \
+        src/static/ai-news-posters/index.html
 
-git commit -m "content: AI 日报 ${DATE} (新架构 · 数据驱动)" || { echo "✅ 无变更，跳过"; exit 0; }
+git commit -m "content: AI 日报 ${DATE}" || { echo "✅ 无变更，跳过"; exit 0; }
 
-for i in 1 2 3; do
-  git push && break
-  echo "⚠️ push 第 $i 次失败，10s 后重试"
-  sleep 10
+# Push 带 rebase + 退避重试
+# 跟 uni-news / it-daily 等并发 routine 竞争 main 分支，盲重试解不掉。
+# 流程：push 失败 → fetch → rebase -X theirs（hub 冲突让 remote 赢）→ 重建 hub → amend → 再 push
+# 退避：30s,60s,90s,120s,150s,180s,210s,240s,270s,300s（合计 ~28min）
+for i in 1 2 3 4 5 6 7 8 9 10; do
+  if git push origin main 2>&1; then
+    echo "✅ push 成功 (第 $i 次)"
+    exit 0
+  fi
+
+  BACKOFF=$((30 * i))
+  [ $BACKOFF -gt 300 ] && BACKOFF=300
+  echo "⚠️ push #$i 失败 · ${BACKOFF}s 后 rebase + 重建 hub 重试"
+  sleep $BACKOFF
+
+  git fetch origin main
+  if ! git rebase -X theirs origin/main; then
+    echo "❌ rebase 不可恢复 · 放弃"
+    git rebase --abort 2>/dev/null
+    exit 1
+  fi
+
+  # 基于最新 main 重建 hub —— 包含其他 routine 同期推的日期卡片
+  node scripts/rebuild-ai-news-hub.mjs
+  if ! git diff --quiet src/static/ai-news-posters/index.html; then
+    git add src/static/ai-news-posters/index.html
+    git commit --amend --no-edit
+  fi
 done
 
-git fetch origin
-LOCAL=$(git rev-parse HEAD)
-REMOTE=$(git rev-parse origin/main)
-[ "$LOCAL" = "$REMOTE" ] || { echo "❌ push 失败 · local=$LOCAL remote=$REMOTE"; exit 1; }
-echo "✅ ai-daily-news ${DATE} 已上线 commit=$LOCAL"
+echo "❌ 10 次（~28min）重试仍 push 不上 · 等下次 cron / 健康检查兜底"
+exit 1
 ```
 
 ---
@@ -138,17 +163,32 @@ git add src/content/universities/*/news-${DATE}.md \
 
 git commit -m "content: 大学新闻日报 ${DATE} — $(echo $SCHOOLS | tr ' ' '/')" || { echo "✅ 无变更"; exit 0; }
 
-for i in 1 2 3; do
-  git push && break
-  echo "⚠️ push 第 $i 次失败，10s 后重试"
-  sleep 10
+# Push 带 rebase + 退避重试（防 ai-daily / uni-events / it-daily 并发 push 顶下去）
+for i in 1 2 3 4 5 6 7 8 9 10; do
+  if git push origin main 2>&1; then
+    echo "✅ push 成功 (第 $i 次)"
+    exit 0
+  fi
+
+  BACKOFF=$((30 * i)); [ $BACKOFF -gt 300 ] && BACKOFF=300
+  echo "⚠️ push #$i 失败 · ${BACKOFF}s 后 rebase + 重跑 pipeline 重试"
+  sleep $BACKOFF
+
+  git fetch origin main
+  if ! git rebase -X theirs origin/main; then
+    echo "❌ rebase 不可恢复"; git rebase --abort 2>/dev/null; exit 1
+  fi
+
+  # 重跑 pipeline 基于最新 main 重建 hub
+  bun run build:uni-news $DATE 2>/dev/null || true
+  git add src/static/uni-news-social/index.html src/static/uni-news-social/schools/ 2>/dev/null
+  if ! git diff --cached --quiet; then
+    git commit --amend --no-edit
+  fi
 done
 
-git fetch origin
-LOCAL=$(git rev-parse HEAD)
-REMOTE=$(git rev-parse origin/main)
-[ "$LOCAL" = "$REMOTE" ] || { echo "❌ push 失败 · local=$LOCAL remote=$REMOTE"; exit 1; }
-echo "✅ uni-news ${DATE} ($SCHOOLS) 已上线 commit=$LOCAL"
+echo "❌ 10 次重试仍 push 不上 · 等下次 cron 兜底"
+exit 1
 ```
 
 ---
@@ -192,16 +232,31 @@ git add src/data/uni-events/${DATE}.json \
 
 git commit -m "content: 6 校下周活动预告 ${DATE} (周度版)" || { echo "✅ 无变更"; exit 0; }
 
-for i in 1 2 3; do
-  git push && break
-  sleep 10
+# Push 带 rebase + 退避重试
+for i in 1 2 3 4 5 6 7 8 9 10; do
+  if git push origin main 2>&1; then
+    echo "✅ push 成功 (第 $i 次)"
+    exit 0
+  fi
+
+  BACKOFF=$((30 * i)); [ $BACKOFF -gt 300 ] && BACKOFF=300
+  echo "⚠️ push #$i 失败 · ${BACKOFF}s 后 rebase + 重跑 pipeline 重试"
+  sleep $BACKOFF
+
+  git fetch origin main
+  if ! git rebase -X theirs origin/main; then
+    echo "❌ rebase 不可恢复"; git rebase --abort 2>/dev/null; exit 1
+  fi
+
+  bun run build:uni-events $DATE 2>/dev/null || true
+  git add src/static/uni-news-social/events/index.html 2>/dev/null
+  if ! git diff --cached --quiet; then
+    git commit --amend --no-edit
+  fi
 done
 
-git fetch origin
-LOCAL=$(git rev-parse HEAD)
-REMOTE=$(git rev-parse origin/main)
-[ "$LOCAL" = "$REMOTE" ] || { echo "❌ push 失败"; exit 1; }
-echo "✅ uni-events ${DATE} 已上线 commit=$LOCAL"
+echo "❌ 10 次重试仍 push 不上 · 等下次 cron 兜底"
+exit 1
 ```
 
 ---
@@ -283,17 +338,25 @@ echo "▶ Step 3: Commit + push"
 git add "$FILE"
 git commit -m "content: IT 认证日报 ${DATE}" || { echo "✅ 无变更，跳过"; exit 0; }
 
-for i in 1 2 3; do
-  git push && break
-  echo "⚠️ push 第 $i 次失败，10s 后重试"
-  sleep 10
+# Push 带 rebase + 退避重试（it-daily 只 commit 1 个 md，无 hub，pure rebase 够）
+for i in 1 2 3 4 5 6 7 8 9 10; do
+  if git push origin main 2>&1; then
+    echo "✅ push 成功 (第 $i 次)"
+    exit 0
+  fi
+
+  BACKOFF=$((30 * i)); [ $BACKOFF -gt 300 ] && BACKOFF=300
+  echo "⚠️ push #$i 失败 · ${BACKOFF}s 后 rebase 重试"
+  sleep $BACKOFF
+
+  git fetch origin main
+  if ! git rebase origin/main; then
+    echo "❌ rebase 冲突 (it-daily md 罕见冲突)"; git rebase --abort 2>/dev/null; exit 1
+  fi
 done
 
-git fetch origin
-LOCAL=$(git rev-parse HEAD)
-REMOTE=$(git rev-parse origin/main)
-[ "$LOCAL" = "$REMOTE" ] || { echo "❌ push 失败 · local=$LOCAL remote=$REMOTE"; exit 1; }
-echo "✅ it-daily-news ${DATE} 已上线 commit=$LOCAL"
+echo "❌ 10 次重试仍 push 不上 · 等下次 cron 兜底"
+exit 1
 ```
 
 ---
