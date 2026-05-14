@@ -1,4 +1,4 @@
-<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-09T03:07:58.876Z -->
+<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-14T01:11:42.529Z -->
 # 悉尼大学 · 2026-05-09 小红书草稿
 
 > 由 build/pipelines/uni-news.pipeline.ts 生成，请勿手改。
@@ -14,7 +14,7 @@
 
 我自己看到通知之后立刻做了几件事：改了 UniKey 密码（一个和其他平台完全不一样的）、开了双重认证（2FA）、翻了最近收到的 Canvas 相关邮件确认没有可疑链接。如果你还没收到邮件或者忘了操作，现在去做一遍是最稳的。
 
-走 Cybersecurity 方向的同学另外说一句：这种供应链攻击是目前最活跃的攻击向量之一，SolarWinds、Kaseya、Instructure 都是同类事件。USYD 的真实案例可以直接拿来用在课程报告和面试案例分析里，比教科书案例要有说服力。
+走 Cybersecurity 方向的同学另外说一句：这种供应链攻击是目前最活跃的攻击向量之一，SolarWinds、Kaseya、Instructure 都是同类事件。USYD 的真实案例可以直接用在课程报告和面试案例分析里，比教科书案例要有说服力。
 
 有在 USYD 读 Cyber 或 IS 方向、或者想了解相关方向的姐妹，评论区扣 1。
 
