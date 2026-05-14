@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-13T02:45:17.090Z",
+  "lockedAt": "2026-05-14T00:02:20.000Z",
   "version": 1,
   "slugs": [
     {
@@ -128,6 +128,10 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-05-14"
+    },
+    {
+      "type": "article",
       "slug": "ai-tool-supply-chain-security-vercel-oauth"
     },
     {
@@ -245,6 +249,14 @@
     {
       "type": "article",
       "slug": "it-daily-2026-05-12"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-05-13"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-05-14"
     },
     {
       "type": "article",
@@ -881,6 +893,11 @@
       "type": "chapter",
       "book": "dify-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "dify-guide",
+      "slug": "06-rag-knowledge-base"
     },
     {
       "type": "chapter",
