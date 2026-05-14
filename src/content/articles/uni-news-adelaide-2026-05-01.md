@@ -10,7 +10,7 @@ tags:
 author: "JR Academy 大学日报"
 keywords: "阿德莱德大学, University of Adelaide, ADELAIDE, 澳洲留学, 大学新闻, 奖学金, 校园动态"
 ---
-<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-07T01:08:20.411Z -->
+<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-14T23:35:59.780Z -->
 
 > 学校：**阿德莱德大学 / University of Adelaide**
 > 日期：**2026-05-01**
