@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-15",
+  "summary": {
+    "hook": [
+      {"text": "GPT-5.5 成默认 · Gemini 进 Android · Opus 4.7 发布"},
+      {"text": "DeepSeek 估值 500 亿 · Grok 闯华尔街", "hl": true}
+    ],
+    "sub": "五大故事重塑 AI 格局：OpenAI 用 GPT-5.5 Instant 刷新 ChatGPT 基准，Google 把 Gemini 深植 Android 并推出 Googlebooks 笔记本，Anthropic 发布 Opus 4.7 同时打开中小企市场，DeepSeek 完成史上最大中国 AI 单轮融资，xAI 以 Grok 4.3 敲开华尔街大门。",
+    "items": [
+      {"num": "01", "cat": "模型升级", "numColor": "#10A37F", "t": "GPT-5.5 Instant 正式成为 ChatGPT 默认模型，带来更精准个性化回复"},
+      {"num": "02", "cat": "产品发布", "numColor": "#4285F4", "t": "Google 推出 Gemini Intelligence 与 Googlebooks，重塑 Android AI 体验"},
+      {"num": "03", "cat": "模型发布", "numColor": "#C96442", "t": "Claude Opus 4.7 正式上线，中小企专属套餐同步推出"},
+      {"num": "04", "cat": "融资资本", "numColor": "#4F46E5", "t": "DeepSeek 首轮外部融资估值逼近 500 亿美元，腾讯领投"},
+      {"num": "05", "cat": "商业落地", "numColor": "#1D9BF0", "t": "xAI 以 Grok 4.3 拿下摩根士丹利与 Apollo，加速华尔街渗透"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt55-instant-default",
+      "idx": "01",
+      "catText": "模型升级",
+      "accent": "#10A37F",
+      "bg": {"top": "#f0fdf4", "mid": "#dcfce7", "bot": "#bbf7d0", "topRight": "#86efac"},
+      "title": [{"text": "GPT-5.5 Instant 成为 ChatGPT "}, {"text": "新默认模型", "hl": true}],
+      "oneline": [{"text": "OpenAI 将 GPT-5.5 Instant 设为 ChatGPT 默认引擎，"}, {"text": "整合 Gmail 历史与个人文件实现深度个性化", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "OpenAI 正式将 GPT-5.5 Instant 设为所有 ChatGPT 用户的默认模型，同步推出 Daybreak 网络安全平台帮助企业自动化扫描漏洞，并发布三款实时语音 API 模型。"},
+        {"k": "为什么重要", "v": "GPT-5.5 Instant 能读取用户历史对话、上传文件和授权 Gmail，把通用问答升级为「了解你的私人助手」，标志着 AI 从单次响应转向长期记忆服务。"},
+        {"k": "对你的影响", "v": "开发者可直接调用新版实时语音 API 构建多语言客服；普通用户无需操作，下次打开 ChatGPT 即自动升级至更聪明、更了解自己的体验。"}
+      ],
+      "src": "📎 openai.com · macrumors.com"
+    },
+    {
+      "slug": "02-google-gemini-intelligence-android",
+      "idx": "02",
+      "catText": "产品发布",
+      "accent": "#4285F4",
+      "bg": {"top": "#eff6ff", "mid": "#dbeafe", "bot": "#bfdbfe", "topRight": "#93c5fd"},
+      "title": [{"text": "Gemini Intelligence 入驻 Android，"}, {"text": "Googlebooks 笔记本亮相", "hl": true}],
+      "oneline": [{"text": "Google Android Show 发布 Gemini Intelligence 跨 App 代理能力，"}, {"text": "并推出首批专为 Gemini 设计的 Googlebooks 笔记本", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "Google 在 Android Show 上发布 Gemini Intelligence，可跨 App 自动执行任务（从 Gmail 取信息、建购物车、订餐厅），Rambler 功能把口语思路转成专业文本，首批 Googlebooks 将于秋季发售。"},
+        {"k": "为什么重要", "v": "传统手机助手只能在单 App 内操作，Gemini Intelligence 打破 App 孤岛，意味着 Android 设备首次具备真正的跨应用代理能力，直接挑战 Apple Intelligence 的市场叙事。"},
+        {"k": "对你的影响", "v": "今夏 Samsung Galaxy 与 Pixel 用户率先体验，IT 从业者可提前了解 Gemini API 跨 App 权限模型；Googlebooks 适合想要原生 AI 笔记本的用户，今秋上市前可持续关注。"}
+      ],
+      "src": "📎 blog.google · techcrunch.com"
+    },
+    {
+      "slug": "03-claude-opus-47-small-business",
+      "idx": "03",
+      "catText": "模型发布",
+      "accent": "#C96442",
+      "bg": {"top": "#fff7ed", "mid": "#ffedd5", "bot": "#fed7aa", "topRight": "#fdba74"},
+      "title": [{"text": "Claude Opus 4.7 正式发布，"}, {"text": "中小企套餐同步上线", "hl": true}],
+      "oneline": [{"text": "Anthropic 发布 Opus 4.7 并推出 Claude for Small Business，"}, {"text": "Code with Claude 活动显示 API 用量同比增长 17 倍", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "Anthropic 正式发布 Claude Opus 4.7，在高难度软件工程任务上超越 4.6，价格维持 $5/$25 per M tokens 不变；同步推出 Claude for Small Business 开箱即用连接器套餐，以及 20+ 法律 MCP 连接器。"},
+        {"k": "为什么重要", "v": "Opus 4.7 保持定价不变但性能提升，对企业而言等于免费升级；Claude for Small Business 让无技术团队也能快速接入 AI 工作流，降低中小企采用门槛。"},
+        {"k": "对你的影响", "v": "JR Academy 学员如在学习 Claude API 开发，可直接升级调用 Opus 4.7；小型创业公司可评估 Claude for Small Business 套餐替代人工内容处理和客户服务流程。"}
+      ],
+      "src": "📎 anthropic.com · yahoo.com"
+    },
+    {
+      "slug": "04-deepseek-50b-fundraising-tencent",
+      "idx": "04",
+      "catText": "融资资本",
+      "accent": "#4F46E5",
+      "bg": {"top": "#eef2ff", "mid": "#e0e7ff", "bot": "#c7d2fe", "topRight": "#a5b4fc"},
+      "title": [{"text": "DeepSeek 估值冲 500 亿美元，"}, {"text": "腾讯领头史上最大中国 AI 单轮融资", "hl": true}],
+      "oneline": [{"text": "DeepSeek 首次接受外部投资，"}, {"text": "融资额高达 73.5 亿美元，国家大基金三期与腾讯联合押注", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "DeepSeek 宣布完成成立以来首轮外部融资，金额高达约 500 亿元人民币（73.5 亿美元），由腾讯与中国集成电路产业投资基金三期联合领投，估值最高达 500 亿美元。"},
+        {"k": "为什么重要", "v": "DeepSeek 此前完全自筹资金，本轮融资标志着中国国家资本与科技巨头正式将其视为「国家 AI 战略支柱」，与美国 OpenAI、Anthropic 的千亿美元融资格局直接对标。"},
+        {"k": "对你的影响", "v": "DeepSeek V4-Pro 已在 5 月宣布降价 75%，资金注入后算力与研发投入将加速，有望持续拉低中文 AI API 价格，对使用中文 AI 服务的开发者和企业是利好。"}
+      ],
+      "src": "📎 scmp.com · techcrunch.com"
+    },
+    {
+      "slug": "05-xai-grok-43-wall-street",
+      "idx": "05",
+      "catText": "商业落地",
+      "accent": "#1D9BF0",
+      "bg": {"top": "#f0f9ff", "mid": "#e0f2fe", "bot": "#bae6fd", "topRight": "#7dd3fc"},
+      "title": [{"text": "xAI 发布 Grok 4.3 并签下"}, {"text": "摩根士丹利与 Apollo 华尔街大单", "hl": true}],
+      "oneline": [{"text": "xAI 以 Grok 4.3 拿下顶级投行内部试用合同，"}, {"text": "同步推出声音克隆与企业图像生成 API", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "xAI 公布摩根士丹利和 Apollo 全球管理公司已开始内部测试 Grok；同日发布 Grok 4.3（在代理工具调用与指令遵循排行榜登顶），并推出自定义声音克隆 API 和企业图像质量模式。"},
+        {"k": "为什么重要", "v": "华尔街合同是 xAI 商业化落地的重要信号，摆脱了「只是马斯克玩具」的标签；与 SpaceX IPO 时间节点叠加，意味着 Grok 营收将直接影响 xAI 上市估值叙事。"},
+        {"k": "对你的影响", "v": "金融科技方向求职者应关注 Grok API 在投行内部的应用场景，这将成为简历加分项；开发者可尝试 Grok 4.3 的声音克隆 API，相比竞品可能有价格优势。"}
+      ],
+      "src": "📎 bloomberg.com · x.ai"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.5 默认上位 / Gemini 进 Android / Opus 4.7 / DeepSeek 500 亿 / Grok 闯华尔街"
+  }
+}
