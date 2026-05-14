@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-14T00:02:20.000Z",
+  "lockedAt": "2026-05-14T00:10:00.000Z",
   "version": 1,
   "slugs": [
     {
@@ -376,6 +376,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-umelb-2026-05-14"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-unsw-2026-04-25"
     },
     {
@@ -405,6 +409,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-05-11"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-05-14"
     },
     {
       "type": "article",
