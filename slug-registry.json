@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-14T00:10:00.000Z",
+  "lockedAt": "2026-05-14T23:35:56.238Z",
   "version": 1,
   "slugs": [
     {
@@ -132,6 +132,10 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-05-15"
+    },
+    {
+      "type": "article",
       "slug": "ai-tool-supply-chain-security-vercel-oauth"
     },
     {
@@ -257,6 +261,10 @@
     {
       "type": "article",
       "slug": "it-daily-2026-05-14"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-05-15"
     },
     {
       "type": "article",
@@ -452,6 +460,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-uq-2026-05-15"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-usyd-2026-04-22"
     },
     {
@@ -481,6 +493,10 @@
     {
       "type": "article",
       "slug": "uni-news-usyd-2026-05-12"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-05-15"
     },
     {
       "type": "article",
