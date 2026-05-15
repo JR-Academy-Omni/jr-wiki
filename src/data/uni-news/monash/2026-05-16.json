@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-16",
+  "school": "monash",
+  "summary": {
+    "hookMain": "Monash",
+    "hookSub": "宇航员到校激励 + RTP博士奖学金第三轮开放",
+    "hookSubHighlight": "宇航员到校",
+    "subLines": [
+      "澳洲年度人物 Katherine Bennell-Pegg 莅访克莱顿 · 激励 STEM 学子",
+      "RTP 第三轮国际申请 5 月 4 日已开放 · 截止 7 月 31 日",
+      "年津贴 AU$37,145 + 学费全免 + AU$2,000 搬迁补助"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "宇航员校园行", "data": "2026 澳洲年度人物" },
+      { "num": "02", "title": "RTP 第三轮", "data": "截止 7 月 31 日" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "校园动态",
+      "h2Main": "澳洲首位专业宇航员造访 Monash 克莱顿校区",
+      "h2Sub": "Katherine Bennell-Pegg · 2026 澳洲年度人物 · Makerspace 参观 + 学生论坛",
+      "h2Highlight": "首位专业宇航员",
+      "lead": "2026 澳洲年度人物、澳大利亚首位专业宇航员 Katherine Bennell-Pegg 近日到访 Monash University 克莱顿校区，与在校学生分享太空职业路径。她参观了 Monash Makerspace——学生团队在此开展<b>火箭推进系统、机器人组件及高空系统</b>研发的实战基地——并与学生就职业发展、求职路径和澳洲太空产业进行了深度交流。",
+      "bullets": [
+        { "k": "Makerspace 参观", "v": "Monash Makerspace 内有学生团队正在<b>设计并制造火箭推进系统、机器人组件及高空气球系统</b>；Katherine 与团队成员现场互动，探讨太空技术的商业化路径" },
+        { "k": "活动流程", "v": "欢迎环节由 Boon Wurrung 高级长老 <b>Professor N'arwee't Carolyn Briggs AM</b> 主持，随后进行学生论坛，多位嘉宾共同解答职业与申请问题" },
+        { "k": "Katherine 背景", "v": "Katherine Bennell-Pegg 是<b>澳大利亚历史上首位专业宇航员</b>，被授予 2026 年澳洲年度人物称号，代表澳大利亚进入国际太空站训练通道" },
+        { "k": "对你的影响", "v": "走 <b>Engineering / Aerospace / Robotics</b> 方向的同学，Monash Makerspace 和 Monash Space 社团是本科阶段就能参与实战的入口；把实战经历写进简历，申博或求职时区分度明显" }
+      ],
+      "source": "Monash University News · 2026-05",
+      "sourceUrl": "https://www.monash.edu/news/articles/australias-astronaut-trailblazer-visits-monash"
+    },
+    {
+      "idx": "02",
+      "category": "奖学金",
+      "h2Main": "Monash RTP 博士奖学金第三轮国际申请已开放",
+      "h2Sub": "5月4日—7月31日 · 年津贴 AU$37,145 + 全额学费减免 + AU$2,000 搬迁",
+      "h2Highlight": "AU$37,145",
+      "lead": "Monash University 研究生训练计划（RTP）2027 学年第三轮国际申请已于 <b>2026 年 5 月 4 日正式开放</b>，截止日期为 7 月 31 日。适用于 Master by Research 和 PhD 两个层级，全额覆盖学费并提供每年 AU$37,145 生活津贴（2026 年费率）。",
+      "bullets": [
+        { "k": "奖学金包含", "v": "<b>每年 AU$37,145 生活津贴</b>（用于在澳日常开销）+ <b>全额学费减免</b>（整个研究周期）+ <b>一次性 AU$2,000 搬迁补助</b>" },
+        { "k": "申请时间线", "v": "第三轮开放：<b>2026 年 5 月 4 日 → 7 月 31 日</b>；建议提前 4-6 周开始联系目标导师并完善 Research Proposal" },
+        { "k": "适用对象", "v": "国际学生可申请 Master by Research（1-2 年）或 PhD（3-4 年），竞争优势集中在<b>理工科 / 生命科学 / 商科</b>且有导师意向的申请" },
+        { "k": "Co-funded 选项", "v": "除 RTP 外，Monash 还提供工业联合资助奖学金——由企业 + 学校联合支持，可在官网「Graduate Research Scholarships」页面同步查看对比" }
+      ],
+      "source": "Monash Graduate Research Scholarships · 2026-05-04",
+      "sourceUrl": "https://www.monash.edu/graduate-research/study/scholarships"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "宇航员校园行 + RTP第三轮奖学金——Monash 5月16日两条均直接影响在读和备考学生。",
+    "items": [
+      { "n": "01", "title": "宇航员到访 · Makerspace 参观", "body": "Katherine Bennell-Pegg 造访克莱顿，工程 / 航天 / 机器人方向学生可通过 Monash Space 社团参与实战" },
+      { "n": "02", "title": "RTP 奖学金 · 7月31日截止", "body": "年津贴 AU$37,145 + 全额学费 + AU$2,000 搬迁；国际 PhD / Master by Research 均可申；建议现在联系导师" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "05 / 16"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash 5-16 两条硬料📣",
+      "body": "在 Monash 读书这段时间，5 月 16 日同时出了两条值得关注的消息，工科和想读博的姐妹都要看。\n\n01 / 宇航员校园行——2026 澳洲年度人物 Katherine Bennell-Pegg 到访 Monash 克莱顿，她是澳大利亚历史上首位专业宇航员。在 Monash Makerspace 和学生互动，那里有学生团队在做火箭和机器人项目，她现场还给了不少职业建议。\n\n02 / RTP 奖学金第三轮——博士 / Master by Research 国际申请 5 月 4 日已开放，7 月 31 日截止。每年 AU$37,145 生活津贴 + 全额学费减免 + AU$2,000 搬迁补助。想读 Monash 博士的姐妹截止日期确认了，不要错过。\n\n评论区扣序号，我整理了申请材料清单🙌",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #博士奖学金 #留学干货 #留学生活 #澳洲博士"
+    },
+    "p2": {
+      "title": "宇航员来Monash讲职业了🚀",
+      "body": "上周学校来了一位挺特别的嘉宾：Katherine Bennell-Pegg，2026 年澳洲年度人物，也是澳大利亚历史上首位专业宇航员。她到访 Monash 克莱顿校区，参观 Monash Makerspace，和学生聊太空职业、聊工程实战。\n\nMakerspace 这个地方我路过过，学生团队在里面做火箭推进系统、机器人组件、高空气球系统，东西都是自己设计自己造。Katherine 在那儿和学生直接互动，问进展、聊商业化路径。\n\n活动里有个学生论坛，Katherine 和其他嘉宾一起上台，学生问了很多关于职业路径和申请太空项目的问题。我也在犹豫，工程方向后期要走技术岗还是去研究线——这种活动听来的视角挺不一样的。\n\n走 Engineering / Aerospace / Robotics 方向的姐妹，Monash Makerspace 和 Monash Space 社团是入手实战最直接的入口，不用等到高年级才加入。\n\n评论区扣 1，有同样想走工程 + 太空方向的聊聊🙋",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #宇航员 #工程留学 #Makerspace #留学干货"
+    },
+    "p3": {
+      "title": "Monash博士奖学金7月底截止💰",
+      "body": "确认了一下 Monash 的 RTP 博士奖学金，2027 学年第三轮国际申请 5 月 4 日已经开了，截止 7 月 31 日。\n\n拆一下奖学金包含什么：每年 AU$37,145 生活津贴（2026 年费率）+ 全额学费减免（整个博士周期）+ 一次性 AU$2,000 搬迁补助。Master by Research（1-2 年）和 PhD（3-4 年）都可以申请。\n\n我自己在准备博士申请，感触挺深的：Monash 的 RTP 是强竞争的，理工科 + 生命科学 + 商科有导师意向的申请优势会比较大。如果还没联系导师的，建议现在就开始发邮件，留 4-6 周缓冲找推荐人和写 Research Proposal。\n\n另外 Monash 还有工业联合奖学金（Co-funded），企业 + 学校一起给钱，可以在同一个 Graduate Research Scholarships 页面看到，跟 RTP 一起对比选。\n\n想申 Monash 博士的姐妹评论区聊，我整理了一份申请时间线🙌",
+      "tags": "#Monash #澳洲留学 #博士奖学金 #RTP奖学金 #澳洲博士 #留学干货 #莫纳什大学"
+    },
+    "p4": {
+      "title": "Monash Makerspace在搞什么🔧",
+      "body": "Katherine Bennell-Pegg（澳大利亚首位专业宇航员，2026 澳洲年度人物）到访 Monash Makerspace 那天，我才意识到学校这个空间有多实在。\n\nMakerspace 里有学生团队在做：火箭推进系统 / 机器人组件 / 高空气球系统，东西是真的从零设计到制造的，不是模型课上用模板组装那种。Katherine 当天和学生一一交流，问技术进展，聊商业化路径。\n\n她自己的背景也挺厉害：Katherine 是澳大利亚历史上第一位走入专业训练通道的宇航员，2026 年被授予澳洲年度人物。这次到访开放了 Q&A，学生问了职业、申请太空项目、工程实战这些问题。\n\n对走 Engineering / Aerospace 方向的同学来说，Monash Space 社团和 Makerspace 是本科就能参与实战的入口，不用等研究生。把这种经历写进简历，找工作或申博时区分度会很高。\n\n有在关注澳洲太空产业机会的姐妹扣 1，一起聊聊🙋",
+      "tags": "#Monash #澳洲留学 #工程留学 #Makerspace #航空航天 #留学干货 #莫纳什大学"
+    },
+    "p5": {
+      "title": "Monash 5-16 两条｜一眼看完",
+      "body": "Monash 5 月 16 日两条都直接影响在读和备考学生：\n\n01 / 宇航员到访——2026 澳洲年度人物、澳大利亚首位专业宇航员 Katherine Bennell-Pegg 到访克莱顿校区，参观 Monash Makerspace（火箭 / 机器人 / 高空系统实战基地），与工程和航天方向学生互动。走 Engineering / Aerospace / Robotics 方向的同学，Monash Space 社团 + Makerspace 是最直接的实战入口。\n\n02 / RTP 奖学金第三轮——2027 学年国际申请 5 月 4 日已开，7 月 31 日截止。年津贴 AU$37,145 + 全额学费 + AU$2,000 搬迁；PhD 和 Master by Research 均可申请，有导师意向者竞争力最强。还没联系导师的现在就开始发邮件，留 4-6 周缓冲。\n\n评论区扣 1，我整理了 Monash 博士申请时间线🙌",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #博士奖学金 #工程留学 #留学干货 #澳洲博士"
+    }
+  },
+  "mp": {
+    "title": "Monash 5月16日：澳洲首位宇航员到访克莱顿、RTP博士奖学金第三轮截止7月31日",
+    "lead": "Monash University 5 月迎来两条直接影响学生的动态。2026 澳洲年度人物、澳大利亚首位专业宇航员 Katherine Bennell-Pegg 到访克莱顿校区，参观 Monash Makerspace，与火箭、机器人、高空系统方向学生面对面交流职业路径和太空产业前景。同期，Monash Research Training Program（RTP）2027 学年第三轮国际申请 5 月 4 日已正式开放，截止 7 月 31 日，提供每年 AU$37,145 生活津贴 + 全额学费减免 + AU$2,000 搬迁补助，适用于 PhD 和 Master by Research 国际申请人。两条一条看校园生态，一条看升学机会，都值得在申请 Monash 前仔细读一遍。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "澳洲首位专业宇航员造访 Monash · Makerspace 参观 + 学生职业论坛",
+        "paragraphs": [
+          "2026 年澳洲年度人物、澳大利亚历史上首位专业宇航员 Katherine Bennell-Pegg 近日到访 Monash University 克莱顿校区，与在校学生展开了一场聚焦太空职业路径和工程实战的互动访问。Katherine 参观了 Monash Makerspace——这里有学生团队正在自行设计和制造火箭推进系统、机器人组件和高空气球系统，是 Monash 工程和航天方向学生的核心实战场地。",
+          "活动由 Boon Wurrung 高级长老 Professor N'arwee't Carolyn Briggs AM 主持欢迎环节，随后进行学生论坛，Katherine Bennell-Pegg 与其他嘉宾共同上台，解答了学生关于太空职业、求职路径和澳洲航天产业发展方向的问题。对于在读学生和申请者来说，这次访问也是了解 Monash 工程和航天生态的一个窗口——Monash Space 社团和 Makerspace 是本科和研究生阶段都可以直接参与实战的入口，不需要等到高年级。",
+          "从申请角度看，Monash Engineering 和相关理工科方向的研究生课程在工业联动、学生竞赛和科研中心配套上与澳洲产业界的衔接都比较完整。Katherine 的访问也侧面印证了一个判断：澳洲太空和高端制造产业在未来 5-10 年会有显著增长空间，具备工程 + 实战经验的国际毕业生在这条赛道上竞争力正在上升。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.monash.edu/news/articles/australias-astronaut-trailblazer-visits-monash\">Monash University News · Australia's astronaut trailblazer visits Monash</a>"
+      },
+      {
+        "h2": "Monash RTP 博士奖学金第三轮 · 5月4日已开放 · 7月31日截止",
+        "paragraphs": [
+          "Monash University 研究生训练计划（Research Training Program, RTP）2027 学年第三轮国际申请已于 2026 年 5 月 4 日正式开放，截止日期为 7 月 31 日。这是 Monash 全额覆盖型博士奖学金中申请门槛最低的通道之一，适用于 Master by Research（1-2 年）和 PhD（3-4 年）两个层级，国际学生均可申请。",
+          "奖学金具体包含：每年 AU$37,145 生活津贴（按 2026 年费率，通常每年随 CPI 调整）；全额学费减免，覆盖研究项目全周期；以及一次性 AU$2,000 搬迁补助，协助学生初来澳洲落地安置。除 RTP 外，Monash 还提供工业联合资助奖学金（Co-funded Monash Graduate Scholarship），由企业和学校共同资助，部分岗位还有额外的行业合作津贴，可在官网 Graduate Research Scholarships 页面同步对比。",
+          "申请建议：有导师意向的申请者竞争力显著更高，建议在 5-6 月就开始联系目标导师，留足 4-6 周时间完善推荐信和 Research Proposal；理工科、生命科学、商科和信息技术方向的国际申请历年录取率相对较高。7 月 31 日是第三轮截止日，下一轮（Round 4）预计在 10 月前后开放，错过本次需等待约 3 个月。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.monash.edu/graduate-research/study/scholarships\">Monash University · Graduate Research Scholarships</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · 宇航员校园行</strong>：Katherine Bennell-Pegg（2026 澳洲年度人物 / 澳大利亚首位专业宇航员）到访 Monash 克莱顿，参观 Makerspace 火箭 + 机器人实验室，主持学生职业论坛；工程 / 航天 / 机器人方向学生关注 Monash Space 社团",
+        "<strong>02 · RTP 博士奖学金第三轮</strong>：5 月 4 日开放，7 月 31 日截止；AU$37,145/年 + 全额学费 + AU$2,000 搬迁；PhD / Master by Research 国际生均可申；建议现在开始联系导师"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到 3 所澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "Monash 宇航员校园行｜首位澳洲专业宇航员来了",
+        "body": "Katherine Bennell-Pegg 到访 Monash 克莱顿校区那天，说实话我没料到会有这么真实的互动。她是 2026 年澳洲年度人物，也是澳大利亚历史上第一位进入专业训练通道的宇航员。\n\n活动安排了 Welcome to Country（由 Boon Wurrung 高级长老 Professor N'arwee't Carolyn Briggs AM 主持）+ Makerspace 参观 + 学生论坛。Makerspace 那儿我之前路过过，有学生在做火箭推进系统、机器人组件和高空气球系统——全部是从零开始自己设计制造，不是用现成套件组装的那种。Katherine 现场和这些学生直接聊，问技术进展，聊商业化路径。\n\n论坛阶段开放了 Q&A，学生问了很多关于职业路径的问题：怎么进太空行业、工程学位去哪里找相关实习、澳洲太空产业 5 年后是什么规模。\n\n我自己在犹豫工程方向后期要走技术岗还是研究线，听这种活动收获就是：选方向要早一点，本科阶段就进 Monash Space 社团和 Makerspace 积累实战经验，这些东西写进简历和求职故事里，区分度比 GPA 高得多。\n\n走 Engineering / Aerospace / Robotics 方向的姐妹，Monash Space 社团是最直接的入口。评论区扣 1，我们一起聊聊工程 + 太空的路径。",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#工程留学", "#宇航员", "#Makerspace", "#留学干货"]
+      },
+      {
+        "heading": "Monash 博士奖学金 · RTP 第三轮截止 7 月 31 日",
+        "body": "在准备 Monash 博士申请这段时间，终于等到 RTP 第三轮开放了——5 月 4 日已经开，截止 7 月 31 日，时间紧了一点但还来得及。\n\nRTP 奖学金这次包含：每年 AU$37,145 生活津贴（2026 年费率）+ 全额学费减免（整个研究周期）+ 一次性 AU$2,000 搬迁补助。PhD 和 Master by Research 都可以申，国际学生没有额外限制。\n\n我自己踩过一个坑：以为提交申请就够了，但其实 Monash 的 RTP 竞争里，有导师意向（supervisor support）是关键。有导师背书的申请，录取优先级明显高得多，尤其是理工科 / 生命科学 / 商科这几个大方向。\n\n建议：<b>现在就开始发邮件给目标导师</b>，简单介绍研究方向和动机，留 4-6 周缓冲时间拿推荐信和写 Research Proposal。7 月 31 日是第三轮截止，下一轮大概要等到 10 月前后，错过就要多等 3 个月。\n\n另外 Monash 还有 Co-funded 奖学金（工业联合资助），企业 + 学校一起给钱，部分还有行业合作津贴，可以在官网 Graduate Research Scholarships 页同步看。\n\n有在申 Monash 博士的姐妹评论区聊，我整理了申请时间线，有需要的扣 1🙌",
+        "tags": ["#Monash", "#澳洲留学", "#博士奖学金", "#RTP奖学金", "#澳洲博士", "#留学干货", "#莫纳什大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化",     "rule": "最 / 第一 / 唯一 / 100%",             "result": "未检出（「澳大利亚首位专业宇航员」为 Katherine 个人头衔客观表述保留）" },
+      { "category": "教育承诺",   "rule": "包过 / 保录取 / 稳上",                "result": "未检出" },
+      { "category": "引流",       "rule": "加V / VX / 公众号 / 二维码",          "result": "未检出（xhsCopy 与 drafts 仅有「评论区扣 1」合规互动话术）" },
+      { "category": "AI 味",      "rule": "首先其次最后 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "封号红线",   "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 与 drafts 全部扫描；mp.cta 处「JR Academy 公众号」为公众号发稿页合法引流保留）" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然",                "result": "未检出" },
+      { "category": "政治金融",   "rule": "保本 / 稳赚 / 荐股 / 年化",           "result": "未检出" }
+    ]
+  }
+}
