@@ -42,7 +42,7 @@
 
 ### dify-guide
 - [x] dify-guide/06-rag-knowledge-base.md — new-chapter: Dify RAG 知识库实战（文档切片策略 / 向量检索调优 / re-ranking）
-- [ ] dify-guide/07-self-hosting.md — new-chapter: Dify 自部署完整指南（Docker Compose + Nginx 反向代理 + HTTPS 配置）
+- [x] dify-guide/07-self-hosting.md — new-chapter: Dify 自部署完整指南（Docker Compose + Nginx 反向代理 + HTTPS 配置）
 
 ### gamma-guide
 - [ ] gamma-guide/06-template-customization.md — new-chapter: 模板深度定制（品牌色 / 字体 / 布局 / 母版编辑）
