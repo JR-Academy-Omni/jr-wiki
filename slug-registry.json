@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-15T23:36:19.291Z",
+  "lockedAt": "2026-05-16T23:42:16.000Z",
   "version": 1,
   "slugs": [
     {
@@ -140,6 +140,10 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-05-17"
+    },
+    {
+      "type": "article",
       "slug": "ai-tool-supply-chain-security-vercel-oauth"
     },
     {
@@ -153,6 +157,10 @@
     {
       "type": "article",
       "slug": "anthropic-google-200b-cloud-bet-2026"
+    },
+    {
+      "type": "article",
+      "slug": "anthropic-mythos-cyber-two-tier-defense-2026"
     },
     {
       "type": "article",
@@ -276,6 +284,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-05-17"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -328,6 +340,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-05-16"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -361,6 +377,10 @@
     {
       "type": "article",
       "slug": "uni-news-monash-2026-05-13"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-monash-2026-05-16"
     },
     {
       "type": "article",
@@ -930,6 +950,11 @@
       "type": "chapter",
       "book": "dify-guide",
       "slug": "06-rag-knowledge-base"
+    },
+    {
+      "type": "chapter",
+      "book": "dify-guide",
+      "slug": "07-self-hosting"
     },
     {
       "type": "chapter",
