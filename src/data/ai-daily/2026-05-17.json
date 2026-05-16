@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-17",
+  "summary": {
+    "hook": [
+      {"text": "ChatGPT 接管个人财务"},
+      {"text": " · DeepSeek 估值 500 亿 · "},
+      {"text": "Google I/O 前夜"}
+    ],
+    "sub": "五大故事：OpenAI 绑定银行账户、DeepSeek 首轮融资冲顶、谷歌 I/O 明日开幕预演、Anthropic 携盖茨基金会进全球健康、xAI 发布编程 Agent Grok Build",
+    "items": [
+      {"num": "01", "cat": "OpenAI", "numColor": "#16a34a", "t": "ChatGPT 接入 12,000+ 金融机构，Pro 用户可分析账单规划财务"},
+      {"num": "02", "cat": "DeepSeek", "numColor": "#2563eb", "t": "首轮外部融资接近收官，估值冲至 500 亿美元，国家大基金领投"},
+      {"num": "03", "cat": "Google", "numColor": "#d97706", "t": "I/O 2026 明日开幕，Gemini 4.0 + 跨 App 自动化 Agent 齐登场"},
+      {"num": "04", "cat": "Anthropic", "numColor": "#7c3aed", "t": "携手盖茨基金会投入 2 亿美元，Claude 进军全球健康与教育"},
+      {"num": "05", "cat": "xAI", "numColor": "#dc2626", "t": "Grok Build 上线：专业编程 Agent CLI，$300/月 SuperGrok 先行"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-chatgpt-personal-finance",
+      "idx": "01",
+      "catText": "OpenAI",
+      "accent": "#16a34a",
+      "bg": {"top": "#bbf7d0", "mid": "#86efac", "bot": "#4ade80", "topRight": "#dcfce7"},
+      "title": [
+        {"text": "ChatGPT 接入个人银行账户"},
+        {"text": " 理财助手正式上线", "hl": true}
+      ],
+      "oneline": [
+        {"text": "OpenAI 推出个人金融工具，Pro 用户可连接"},
+        {"text": " 12,000+ 金融机构", "bold": true},
+        {"text": " 分析消费与规划财务"}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "OpenAI 于 5 月 15 日为 ChatGPT Pro 美国用户推出个人金融工具预览版，支持连接 Schwab、Chase、Robinhood 等 12,000 余家机构账户，可查询消费模式、预测结余并提供理财建议。"},
+        {"k": "为什么重要", "v": "这是 ChatGPT 首次深入金融场景，标志着 AI 助手从「问答工具」向「个人 CFO」升级，将对传统个人理财 App（Mint、YNAB）构成直接竞争。"},
+        {"k": "对你的影响", "v": "澳洲/海外用户暂未开放，但此方向明确：未来 AI 将直接读取你的银行数据给建议，数据安全授权意识需提前建立。"}
+      ],
+      "src": "📎 techcrunch.com · openai.com"
+    },
+    {
+      "slug": "02-deepseek-50b-valuation",
+      "idx": "02",
+      "catText": "DeepSeek",
+      "accent": "#2563eb",
+      "bg": {"top": "#dbeafe", "mid": "#93c5fd", "bot": "#3b82f6", "topRight": "#eff6ff"},
+      "title": [
+        {"text": "DeepSeek 首轮融资即将收官"},
+        {"text": " 估值冲顶 500 亿美元", "hl": true}
+      ],
+      "oneline": [
+        {"text": "国家大基金领投，腾讯参与，"},
+        {"text": "估值三周内从 200 亿飙升至 500 亿", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "据南华早报与 TechCrunch 报道，DeepSeek 首次外部融资即将完成交割，国家集成电路产业大基金三期主导，腾讯控股参与，最新估值区间 450–500 亿美元，创始人梁文锋持股接近 90%。"},
+        {"k": "为什么重要", "v": "DeepSeek 一年前以低成本训练颠覆全球 AI 格局，此番国家资本背书意味着其将加快算力扩充与模型迭代，同时 V4-Pro 在数学/编程基准上已逼近 Gemini 3.1-Pro。"},
+        {"k": "对你的影响", "v": "中国 AI 头部格局进一步国资化，开源生态或受影响；对澳洲 IT 从业者而言，DeepSeek 模型 API 成本优势仍存，值得关注其 V4 正式开放时间。"}
+      ],
+      "src": "📎 scmp.com · techcrunch.com"
+    },
+    {
+      "slug": "03-google-io-2026-gemini",
+      "idx": "03",
+      "catText": "Google",
+      "accent": "#d97706",
+      "bg": {"top": "#fef3c7", "mid": "#fcd34d", "bot": "#f59e0b", "topRight": "#fffbeb"},
+      "title": [
+        {"text": "Google I/O 2026 明日开幕"},
+        {"text": " Gemini 4.0 + Android 智能体系统齐登场", "hl": true}
+      ],
+      "oneline": [
+        {"text": "谷歌将发布"},
+        {"text": " Gemini 4.0 及跨 App 自动化 Agent", "bold": true},
+        {"text": "，Googlebook 笔记本同步亮相"}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Google I/O 2026 主题演讲定于北京时间 5 月 20 日凌晨 1 点，外界预计 Gemini 4.0 将正式发布，性能对标 GPT-5.5；Android 将引入「Gemini Intelligence」，可跨 App 理解屏幕内容并自动执行多步任务。"},
+        {"k": "为什么重要", "v": "这是谷歌一年一度最重磅的产品发布窗口。Gemini Intelligence 一旦落地，Android 将从「操作系统」转型为「智能体操作系统」，Acer/ASUS/Dell/HP 等均已承诺首批 Googlebook 笔记本支持。"},
+        {"k": "对你的影响", "v": "Android 用户今夏可获 AI 跨 App 自动化功能（先从 Samsung Galaxy 和 Pixel 开始）；澳洲 Google Workspace 用户也将受益于 Claude/Gemini 加深整合。"}
+      ],
+      "src": "📎 cnbc.com · androidauthority.com · techcrunch.com"
+    },
+    {
+      "slug": "04-anthropic-gates-foundation",
+      "idx": "04",
+      "catText": "Anthropic",
+      "accent": "#7c3aed",
+      "bg": {"top": "#ede9fe", "mid": "#c4b5fd", "bot": "#8b5cf6", "topRight": "#f5f3ff"},
+      "title": [
+        {"text": "Anthropic × 盖茨基金会"},
+        {"text": " 2 亿美元押注 AI 全球健康", "hl": true}
+      ],
+      "oneline": [
+        {"text": "Claude 进军全球健康、教育与经济流动领域，"},
+        {"text": "四年期合作总规模 2 亿美元", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Anthropic 与比尔及梅琳达·盖茨基金会宣布合作：基金会将在四年内提供 2 亿美元资助、Claude 使用额度及技术支持，用于全球健康、生命科学、教育及经济赋能项目。"},
+        {"k": "为什么重要", "v": "这是 AI 公司首批与顶级慈善机构的大规模实质合作，标志着 AI 开始承接联合国/NGO 难以量化的「社会影响」任务，也为 Anthropic 打开了非商业应用的品牌声量。"},
+        {"k": "对你的影响", "v": "若你在医疗、教育、公共政策等行业工作，这类合作将加速 AI 工具在这些领域的渗透；同时也意味着 Claude API 的使用门槛可能通过基金会渠道进一步降低。"}
+      ],
+      "src": "📎 anthropic.com"
+    },
+    {
+      "slug": "05-xai-grok-build",
+      "idx": "05",
+      "catText": "xAI",
+      "accent": "#dc2626",
+      "bg": {"top": "#fee2e2", "mid": "#fca5a5", "bot": "#ef4444", "topRight": "#fef2f2"},
+      "title": [
+        {"text": "xAI 发布 Grok Build"},
+        {"text": " 面向专业工程师的编程 Agent CLI", "hl": true}
+      ],
+      "oneline": [
+        {"text": "首批仅对"},
+        {"text": " SuperGrok Heavy $300/月", "bold": true},
+        {"text": " 用户开放，定位「复杂工程编程工作」"}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "xAI 正式发布 Grok Build，这是一款专为专业软件工程设计的 Agent CLI 工具，目前处于 early beta 阶段，仅向 SuperGrok Heavy 订阅用户（$300/月）开放；同期还上线了 Connectors（整合 GitHub、Notion、Slack 等）和 Custom Voices 功能。"},
+        {"k": "为什么重要", "v": "Grok Build 直接对标 Claude Code、Cursor 与 GitHub Copilot Workspace，是继 OpenAI Codex 移动版后又一大厂在「编程 Agent」赛道发力，进一步验证该赛道的商业化价值。"},
+        {"k": "对你的影响", "v": "IT 从业者、开发者的工具链选择再增一项；$300/月 门槛意味着短期内主要面向企业团队，个人开发者可关注后续降价计划及免费 tier 开放时间。"}
+      ],
+      "src": "📎 engadget.com · x.ai"
+    }
+  ],
+  "mp": {
+    "title": "ChatGPT 接管财务 / DeepSeek 500 亿 / Google I/O 前夜 / Anthropic 盖茨基金会 / Grok Build"
+  }
+}
