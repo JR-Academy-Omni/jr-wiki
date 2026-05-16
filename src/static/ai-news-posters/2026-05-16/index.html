@@ -1,0 +1,312 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-16T03:02:30.628Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-16（Canvas 版）</title>
+<meta name="description" content="2026-05-16 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-16.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-16",
+  "summary": {
+    "hook": [
+      {
+        "text": "OpenAI 告苹果 · Google I/O 倒计时 · Grok Build 公测"
+      },
+      {
+        "text": "SAP 押注 Claude · 中国反制芯片新法",
+        "hl": true
+      }
+    ],
+    "sub": "五大看点：OpenAI 拟对 Apple 提起法律诉讼；Google I/O 5 月 19 日开幕新 Gemini 剑指 GPT-5.5；xAI Grok Build 面向开发者公测；SAP Sapphire 大会宣布 Claude 嵌入企业 AI 平台；北京强烈抗议美国 MATCH 芯片限制法案。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "商战",
+        "numColor": "#E53E3E",
+        "t": "OpenAI 拟起诉 Apple：ChatGPT 整合曝光度未达承诺"
+      },
+      {
+        "num": "02",
+        "cat": "大会预热",
+        "numColor": "#4285F4",
+        "t": "Google I/O 5·19：新 Gemini 剑指 GPT-5.5"
+      },
+      {
+        "num": "03",
+        "cat": "开发工具",
+        "numColor": "#1A1A2E",
+        "t": "Grok Build 公测：终端原生 AI 编程 CLI 登场"
+      },
+      {
+        "num": "04",
+        "cat": "企业 AI",
+        "numColor": "#7B2D8B",
+        "t": "SAP Sapphire：Claude 全面嵌入企业 AI 平台"
+      },
+      {
+        "num": "05",
+        "cat": "地缘政策",
+        "numColor": "#0066CC",
+        "t": "北京反制 MATCH 法案·Nvidia 芯片争夺战升温"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-apple-lawsuit",
+      "idx": "01",
+      "catText": "商战",
+      "accent": "#E53E3E",
+      "bg": {
+        "top": "#fff5f5",
+        "mid": "#fed7d7",
+        "bot": "#fc8181",
+        "topRight": "#e53e3e"
+      },
+      "title": [
+        {
+          "text": "OpenAI 拟对 Apple 提起诉讼，"
+        },
+        {
+          "text": "ChatGPT 整合曝光度远低于承诺",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenAI 认为 Apple 未兑现协议中的用户导流承诺，"
+        },
+        {
+          "text": "正探索通过法律途径追责",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "据 TechCrunch 报道，OpenAI 正准备对 Apple 采取法律行动。双方此前签署协议将 ChatGPT 整合进 iOS 18 Siri，但 OpenAI 认为 Apple 承诺的曝光度和用户转化远未实现，这并非 OpenAI 首次与合作伙伴产生法律纠纷。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 AI 行业首起头部模型公司与硬件巨头之间的正面法律冲突，折射出平台分发权与 AI 流量争夺的深层矛盾。Apple 同期正积极推进自研 AI 能力，双方利益冲突难以调和。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "若诉讼成立，iOS 内 ChatGPT 入口可能被调整或撤除；开发者应关注 Apple Intelligence 与第三方 AI 的整合政策走向，提早规划多端接入策略。"
+        }
+      ],
+      "src": "📎 techcrunch.com · cnbc.com"
+    },
+    {
+      "slug": "02-google-io-2026-gemini-rival",
+      "idx": "02",
+      "catText": "大会预热",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#ebf8ff",
+        "mid": "#bee3f8",
+        "bot": "#90cdf4",
+        "topRight": "#4285f4"
+      },
+      "title": [
+        {
+          "text": "Google I/O 2026 五月十九日开幕，"
+        },
+        {
+          "text": "全新 Gemini 剑指 GPT-5.5",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Google I/O 将发布能与 GPT-5.5 抗衡的 Gemini 新版本，"
+        },
+        {
+          "text": "Gemini 流量份额已从近零跃至 20%",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google I/O 2026 定于 5 月 19 日启幕，核心看点是全新 Gemini 旗舰模型发布，性能对标 OpenAI GPT-5.5。此外还将展示 Aluminium OS、AI 原生笔记本 Googlebooks 新进展，以及更多 Android AI 代理能力演示。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "过去 12 个月 Google Gemini 生成式 AI 流量份额从接近零跃升至 20%，而 OpenAI 份额从 90% 回落至 65%。一旦新 Gemini 在基准测试中超越 GPT-5.5，将进一步动摇 OpenAI 的行业霸主地位。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "AI 工具使用者可在 5 月 19 日后对比 Gemini 新版与 GPT-5.5 的实际表现再做主力模型选择；IT 学员建议关注 Google AI 认证课程更新，两大平台均在扩大开发者生态。"
+        }
+      ],
+      "src": "📎 androidauthority.com · androidheadlines.com"
+    },
+    {
+      "slug": "03-xai-grok-build-beta",
+      "idx": "03",
+      "catText": "开发工具",
+      "accent": "#2D3748",
+      "bg": {
+        "top": "#edf2ff",
+        "mid": "#c3dafe",
+        "bot": "#a3bffa",
+        "topRight": "#2d3748"
+      },
+      "title": [
+        {
+          "text": "xAI 推出 Grok Build 公测，"
+        },
+        {
+          "text": "终端原生 AI 编程 CLI 登场",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Grok Build 是面向专业开发者的命令行 AI 编程工具，"
+        },
+        {
+          "text": "Musk 亲自在 X 发文为公测招募测试者",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 于 5 月 14 日正式发布 Grok Build 早期公测版本，这是一个终端原生、具备代理能力的命令行 AI 开发工具，支持代码生成、App 开发和工作流自动化，目前面向 SuperGrok Heavy 订阅用户开放。Musk 本人在 X 上多次呼吁开发者参与公测。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Grok Build 直接对标 Anthropic Claude Code 和 GitHub Copilot CLI，代表 xAI 从消费级聊天工具向专业开发者市场的关键转型。结合同期 Grok 4.3 进军华尔街，xAI 正试图在 B 端建立真实商业收入。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "JR Academy 学员学习 AI 编程工具时可将 Grok Build 与 Claude Code 进行横向对比；企业 IT 团队可申请早期测试资格，评估是否适合融入现有 DevOps 流程。"
+        }
+      ],
+      "src": "📎 basenor.com · bloomberg.com"
+    },
+    {
+      "slug": "04-sap-anthropic-claude-enterprise",
+      "idx": "04",
+      "catText": "企业 AI",
+      "accent": "#7B2D8B",
+      "bg": {
+        "top": "#faf5ff",
+        "mid": "#e9d8fd",
+        "bot": "#b794f4",
+        "topRight": "#7b2d8b"
+      },
+      "title": [
+        {
+          "text": "SAP Sapphire 大会宣布，"
+        },
+        {
+          "text": "Claude 全面嵌入企业 AI 核心平台",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "SAP 将 Claude 定为 SAP Business AI Platform 的主推理引擎，"
+        },
+        {
+          "text": "覆盖全球数十万企业客户的核心业务系统",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "SAP 在 Sapphire 2026 大会上宣布与 Anthropic 深化合作，Claude 将作为主要推理和代理能力引擎嵌入 SAP Business AI Platform 解决方案组合，覆盖 ERP、供应链、财务、人力资源等核心业务模块。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "SAP 服务全球 40 万+ 企业客户，此次合作意味着 Claude 将直接触达传统大型企业的核心业务流程，是 Anthropic 迄今最大规模的企业级平台整合，同时也验证了 「Claude 在企业市场超越 ChatGPT」 的市场趋势。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "有意进入企业 AI 领域的求职者，学习 Claude API 和 SAP AI 工具将成为高竞争力技能组合；企业用户如已部署 SAP，可期待下半年原生 AI 能力无缝升级。"
+        }
+      ],
+      "src": "📎 news.sap.com · pymnts.com"
+    },
+    {
+      "slug": "05-china-match-act-nvidia-chips",
+      "idx": "05",
+      "catText": "地缘政策",
+      "accent": "#0066CC",
+      "bg": {
+        "top": "#e6fffa",
+        "mid": "#b2f5ea",
+        "bot": "#81e6d9",
+        "topRight": "#0066cc"
+      },
+      "title": [
+        {
+          "text": "北京强烈抗议 MATCH 法案，"
+        },
+        {
+          "text": "Nvidia 芯片争夺战全面升温",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "中国商务部正式反对美国 MATCH 法案对华芯片能力限制，"
+        },
+        {
+          "text": "Nvidia H200 中国订单已重启但监管压力持续",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "5 月 13 日，中国政府就美国 MATCH 法案提出强烈抗议，该法案旨在进一步限制中国芯片制造商的 AI 能力。与此同时，Nvidia CEO 黄仁勋宣布已重启面向中国客户的 H200 处理器生产，当前出口政策由「拒绝预设」改为「逐案审查」。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "AI 芯片出口政策是中美科技博弈的核心战场。MATCH 法案若通过将进一步切断中国获取高端 GPU 的渠道，而 DeepSeek 等公司已开始将模型适配华为昇腾芯片以降低对美依赖，双方博弈正从贸易层面上升至技术主权争夺。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "澳洲科技从业者无直接影响，但 AI 基础设施成本和模型可用性长期受地缘博弈影响；关注 Nvidia 股价和 AI 算力成本走势，这将影响云端 AI 服务的定价策略。"
+        }
+      ],
+      "src": "📎 gurufocus.com · thedefensenews.com"
+    }
+  ],
+  "mp": {
+    "title": "OpenAI 告苹果 / Google I/O 倒计时 / Grok Build 公测 / SAP 押注 Claude / 中国反制芯片法"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-16"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>
