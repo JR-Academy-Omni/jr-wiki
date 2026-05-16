@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-18",
+  "intro": "下周（5/18-5/24）6 校活动｜UQ 文化多样性日 + 墨大素食午餐 + USYD 曼宁吧演出 + Monash 剧团收官",
+  "schools": [
+    {
+      "code": "umelb",
+      "events": [
+        {
+          "title": "Tofu Tuesdays 免费素食午餐",
+          "time": "周二 5/19 上午11:30-下午2:00",
+          "location": "Parkville 或 Southbank 校区（每周交替）",
+          "price": "免费",
+          "category": "社交",
+          "url": "https://umsu.unimelb.edu.au/things-to-do/events/"
+        }
+      ],
+      "xhsDraft": {
+        "title": "墨大下周｜Tofu Tuesdays 免费素食午餐",
+        "body": "周二中午是墨大其中一个最轻松的社交时刻。UMSU 的 Tofu Tuesdays 每周二 11:30 到下午 2 点，在 Parkville 和 Southbank 校区交替举行，提供免费的纯素食午餐，不需要提前报名，直接去就行。\n\n这个活动由 UMSU Enviro 主办，已经跑了好几个学期。感兴趣的朋友不一定是素食主义者，很多人来就是因为免费好吃、氛围轻松。带个水杯，找个位置坐下来，不用想太多，边吃边就聊起来了。\n\n下周具体在哪个校区可以关注 UMSU 的社交账号，通常提前一两天公告。Southbank 的场次看起来更好拍照，Parkville 的场次人更多，看你当天课安排在哪边更方便。\n\n5 月课表慢慢变密，但这种零门槛的免费活动还是值得挤进日程。你们有没有去过 Tofu Tuesdays？评论区聊聊。",
+        "tags": ["#墨尔本大学", "#UMelb", "#澳洲留学", "#墨尔本", "#校园活动", "#留学日常", "#素食"]
+      }
+    },
+    {
+      "code": "unsw",
+      "events": [],
+      "xhsDraft": {
+        "title": "UNSW 下周｜T2 O-Week 前最后空档",
+        "body": "UNSW T2 O-Week 从 5 月 25 日正式开始，下周（5/18-5/24）是新学期前最后一个完整的空档周。校园公开活动相对少，但也是给自己充电的好时机。\n\nRoundhouse 在学期内每周有几个固定节目：周三下午啤酒花园有 acoustic live music，周四晚上有现场乐队，周五下午有 Garden DJs。O-Week 开始之后这些大概率会重新启动，如果下周提前去 Kensington 附近转一圈，也可以踩点一下。\n\n学期间隙适合把之前没整理好的笔记补一遍，或者提前扫一眼 T2 课表上的必读书目——找出哪些真的要读、哪些可以考前再看。Arc 在 O-Week 前后会有一波社团活动集中上线，想找新社团或认识人的同学可以提前关注 Arc 的日历。\n\nT1 考完感觉怎么样？在放松还是已经开始备课了？评论区来聊聊。",
+        "tags": ["#UNSW", "#新南威尔士大学", "#澳洲留学", "#悉尼", "#校园生活", "#留学日常", "#T2"]
+      }
+    },
+    {
+      "code": "uq",
+      "events": [
+        {
+          "title": "世界文化多样性日庆典·文化表演 + 美食摊",
+          "time": "周四 5/21 中午12:00-下午5:00",
+          "location": "St Lucia 校区",
+          "price": "免费",
+          "category": "文化节",
+          "url": "https://life.uq.edu.au/events"
+        },
+        {
+          "title": "「跨越差异的对话」技能工作坊",
+          "time": "周四 5/21 下午2:00-4:00",
+          "location": "St Lucia 校区",
+          "price": "免费",
+          "category": "学术工作坊",
+          "url": "https://www.uq.edu.au/uq-events/"
+        }
+      ],
+      "xhsDraft": {
+        "title": "UQ 下周｜文化多样性日 + 对话技能工作坊",
+        "body": "UQ 下周四（5/21）在 St Lucia 有两个性质完全不同的免费活动，可以安排进同一天。\n\n中午 12 点到下午 5 点是世界文化多样性日庆典，UQ Life 主办，有来自不同文化背景的现场表演、工作坊和各国美食摊。这类活动节奏很自由，不用待完整五个小时——进去转两个小时就很值。不同院系和留学生社团通常会在现场摆展台，正好认识新面孔。\n\n下午 2 点另有一场「跨越差异的对话」技能工作坊，由 Elissa Foster 教授主讲，专注在意见不同的情境下怎样保持尊重和有效表达。两个小时、偏互动型，对面试、团队项目、跨文化沟通都有实际帮助。不需要任何背景准备。\n\n两个活动都在 St Lucia，可以上午来文化节逛，下午顺路参加工作坊，把整个下午都用起来。你们 UQ 最喜欢的户外活动场地在哪里？评论区来聊聊。",
+        "tags": ["#UQ", "#昆士兰大学", "#澳洲留学", "#布里斯班", "#校园活动", "#留学日常", "#文化多样性"]
+      }
+    },
+    {
+      "code": "usyd",
+      "events": [
+        {
+          "title": "Manning Music 现场演出",
+          "time": "周二 5/19 及周三 5/20 中午12:00-1:00",
+          "location": "Manning Bar · Camperdown 校区",
+          "price": "免费",
+          "category": "现场演出",
+          "url": "https://usu.edu.au/events/"
+        },
+        {
+          "title": "Trivia Night 免费答题夜",
+          "time": "周三 5/20 下午4:30-8:00",
+          "location": "Hermann's Bar · Camperdown 校区",
+          "price": "免费",
+          "category": "社交",
+          "url": "https://usu.edu.au/events/"
+        },
+        {
+          "title": "Thursday Tunes 下午现场演出",
+          "time": "周四 5/21 下午3:00-5:00",
+          "location": "Hermann's Bar · Camperdown 校区",
+          "price": "免费",
+          "category": "现场演出",
+          "url": "https://usu.edu.au/events/"
+        }
+      ],
+      "xhsDraft": {
+        "title": "USYD 下周｜Manning 演出 + 周三答题夜",
+        "body": "悉尼大学下周几个固定的免费活动都不需要提前报名，直接去就行。\n\nManning Music 每周二和周三中午 12 点到 1 点在 Manning Bar，是学生乐队和在读音乐人的现场演出。午休时间过去正好，带个三明治在吧台旁边站着听也很有氛围。每周演出者不同，很多是在读学生，偶尔能遇到让人意外的惊喜。\n\n周三下午 4:30 到 8 点在 Hermann's Bar 有 Trivia Night。一个人去也可以，现场可以临时拼队，题目涵盖流行文化、体育、历史、时事，不用每道题都会。比正式活动压力小很多，适合跟新认识的同学一起去热场。\n\n周四下午 3 点 Thursday Tunes 在 Hermann's Bar，同样免费，到 5 点，比中午演出时间更长，下午课结束之后直接过去很合适。\n\n悉大校园有很多让人意外的角落，特别是 Quadrangle 周围。你们有没有私藏的好地方？评论区来聊聊。",
+        "tags": ["#USYD", "#悉尼大学", "#澳洲留学", "#悉尼", "#校园活动", "#留学日常", "#现场演出"]
+      }
+    },
+    {
+      "code": "adelaide",
+      "events": [],
+      "xhsDraft": {
+        "title": "阿大下周｜5 月秋末校园节奏",
+        "body": "阿德莱德大学这周大型公开活动相对少，正好是趁这段时间做平时来不及做的事情的窗口。\n\n5 月是南半球秋末，阿德莱德天气这时候最舒服，不热不冷，中午在 Barr Smith Lawns 带着咖啡坐一会儿很治愈。图书馆这个阶段自习位比期中考前容易抢，做 Assignment 效率也更高。\n\nYouX（阿大学生会）每周都有一些小型活动和俱乐部聚会，可以直接上 adelaide.edu.au/youx 查当周日历，有时候临时公告的活动网页更新反而比社交媒体快。喜欢找人聊的同学，各个 YouX 集体空间这段时间人相对少，容易找到位置。\n\n学生社团这段时间也有不少非正式聚会，关注自己感兴趣方向的社团主页是最快的活动信息渠道。你们阿德莱德这学期加入了哪些社团？有没有特别值得推荐的？",
+        "tags": ["#阿德莱德大学", "#AdelaideUni", "#澳洲留学", "#阿德莱德", "#校园生活", "#留学日常", "#秋季"]
+      }
+    },
+    {
+      "code": "monash",
+      "events": [
+        {
+          "title": "MUST 学生剧团演出（5/23 收官）",
+          "time": "周二 5/19 至周六 5/23",
+          "location": "The MUST Space · Clayton 校区",
+          "price": "需购票",
+          "category": "现场演出",
+          "url": "https://www.monash.edu/performing-arts-centres/whats-on/"
+        },
+        {
+          "title": "Sir Louis Matheson 图书馆开放活动",
+          "time": "周三 5/20 中午12:00-下午4:30",
+          "location": "Sir Louis Matheson Library · Clayton 校区",
+          "price": "免费",
+          "category": "校园活动",
+          "url": "https://www.monash.edu/news/events"
+        }
+      ],
+      "xhsDraft": {
+        "title": "Monash 下周｜剧团收官 + 图书馆活动",
+        "body": "Monash 下周有两个值得留意的活动，方向完全不同。\n\nMUST（Monash Uni Student Theatre）的学期演出在 Clayton 的 The MUST Space 跑到本周六（5/23），这是最后几场。Monash 学生剧团的认真程度比一般想象的「学生表演」高不少，场地小、观众席离演员很近，现场体验比大剧院演出更沉浸。票价不高，周中场次通常更好买票，想去的话建议尽早。\n\n周三中午 12 点在 Sir Louis Matheson Library 有一个开放活动，到下午 4:30。图书馆这类活动的好处是没有门槛，进去看一眼不合适随时走，完全不尴尬。适合下午有空档的同学路过顺便进去。\n\nMSA Wholefoods 本周也在正常运营，Clayton 校区中午可以去看看有没有食品分享或者什么限时优惠。\n\n你们有没有去过 MUST 的演出？这次是最后机会了，评论区聊聊感受。",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#墨尔本", "#校园活动", "#留学日常", "#学生剧团"]
+      }
+    }
+  ]
+}
