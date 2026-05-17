@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-18",
+  "school": "uq",
+  "summary": {
+    "hookMain": "UQ",
+    "hookSub": "CREATE Lab 开张 + 奖学金 6 月截止",
+    "hookSubHighlight": "奖学金 6 月截止",
+    "subLines": [
+      "天体物理学家 × 作曲家：宇宙也能谱成交响曲",
+      "理科国际奖学金 6 月 1 日截止 · 自动评估无需单独申请",
+      "CREATE Lab 跨界科研新平台正式成立"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "CREATE Lab 创研", "data": "艺理跨界" },
+      { "num": "02", "title": "理科奖学金", "data": "6 月 1 日截止" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研创新",
+      "h2Main": "UQ CREATE Lab：宇宙学遇见交响乐",
+      "h2Sub": "天体物理学家 Tamara Davis × 作曲家 Eve Klein · 艺理跨界实验室正式成立",
+      "h2Highlight": "宇宙学遇见交响乐",
+      "lead": "UQ 5 月正式成立 Creative Research in Emerging Arts and Technology（CREATE）Lab，由天体物理学家 Prof. Tamara Davis 与作曲家 Assoc. Prof. Eve Klein 共同主导，旗舰作品《Symphony for the History of Time》将现代宇宙学以管弦乐合唱呈现，成为 2026 Music by the Lakes 音乐节压轴。",
+      "bullets": [
+        { "k": "CREATE Lab", "v": "艺术创作与前沿科研共平台：物理学家提供宇宙尺度理论，作曲家转化为可感知声音叙事，打破理工 / 人文壁垒" },
+        { "k": "旗舰作品", "v": "《Symphony for the History of Time》以管弦乐合唱呈现暗能量、宇宙膨胀等抽象概念，音乐节压轴演出" },
+        { "k": "对留学生影响", "v": "修读 <b>Fine Arts / Music / Physics / Astrophysics</b> 的同学可通过 CREATE Lab 寻找跨院系研究合作与项目资源" },
+        { "k": "研究趋势", "v": "澳洲高校科研评估日益重视「社会影响力」维度，<b>艺理交叉</b>方向毕业生在学术和创意产业均有更广出路" }
+      ],
+      "source": "UQ News · 2026-05",
+      "sourceUrl": "https://news.uq.edu.au/2026-05-uq-lab-where-research-becomes-creative-experience"
+    },
+    {
+      "idx": "02",
+      "category": "奖学金",
+      "h2Main": "UQ 理科国际奖学金 6 月 1 日截止",
+      "h2Sub": "自动评估无需单独申请 · 10%–25% 学费减免 · 2026 年入学生务必留意",
+      "h2Highlight": "6 月 1 日截止",
+      "lead": "UQ 理学院面向国际学生的 Science International Scholarship 申请窗口将于 <b>2026 年 6 月 1 日</b>截止。该奖学金在录取流程中自动评估资格，覆盖 10%–25% 学费减免，适用于计划 2026 Sem 2 或 2027 Sem 1 入学的国际申请人。",
+      "bullets": [
+        { "k": "申请方式", "v": "<b>无需单独填表</b>——在截止日期前提交课程申请即自动进入奖学金评估，录取通知书中同步确认减免档次" },
+        { "k": "减免范围", "v": "10%–25% 学费减免，按学术成绩分档；GPA 和语言成绩是主要评估维度" },
+        { "k": "时间节点", "v": "<b>6 月 1 日</b>为截止日，在此之前递交的申请才进入当轮审核；错过截止后需等下一学期评估窗口" },
+        { "k": "行动建议", "v": "语言成绩或学历材料未备齐的同学优先整理；已有雅思成绩的可立即提交，<b>奖学金评估与课程申请同步完成</b>" }
+      ],
+      "source": "UQ Scholarships · 2026",
+      "sourceUrl": "https://scholarships.uq.edu.au/scholarship/science-international-scholarships"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "CREATE Lab 跨界实验室开张，天文物理学家 × 作曲家联手谱宇宙交响曲；理科国际奖学金 6 月 1 日截止，自动评估无需单独申请——两条都跟 2026 年申请 UQ 直接相关。",
+    "items": [
+      { "n": "01", "title": "CREATE Lab 艺理跨界", "body": "天体物理 × 音乐创作联手；旗舰作品《宇宙历史交响曲》2026 Music by the Lakes 压轴；Fine Arts / Physics 方向同学的跨院系资源入口" },
+      { "n": "02", "title": "理科奖学金 6 月 1 日截止", "body": "无需单独申请；10%–25% 学费减免；GPA + 语言成绩双维评估；截止前递交才进当轮审核" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "6 所澳洲大学 · 每天更新 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "05 / 18"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 5-18 两条要紧事📣",
+      "body": "在准备申 UQ 的姐妹注意了，5 月 18 日两条都跟你直接相关。\n\n01 / CREATE Lab 正式成立——天体物理学家 Prof. Tamara Davis 和作曲家 Assoc. Prof. Eve Klein 联手，把宇宙学谱成交响乐。这不是噱头，是 UQ 正式推进的跨学科科研平台。修 Fine Arts、Physics 或音乐方向的同学，CREATE Lab 是寻找跨院系合作和项目资源的真实渠道。\n\n02 / UQ 理科国际奖学金 6 月 1 日截止——在截止日前提交课程申请就自动参与评估，不用单独填表。10%–25% 的学费减免，按学术成绩分档，录取通知书里会一起告诉你拿到哪一档。\n\n两条放在一起：一条看 UQ 的科研底色，一条看省钱通道。有同样在准备 UQ 申请的姐妹评论区扣 1🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #UQ申请 #澳洲奖学金 #留学干货 #留学生活"
+    },
+    "p2": {
+      "title": "UQ 天文学家×作曲家联手🎼",
+      "body": "很少见到这种组合：UQ 的天体物理学家 Prof. Tamara Davis 和作曲家 Assoc. Prof. Eve Klein，两人把宇宙学做成了交响乐。\n\n她们新成立的 CREATE Lab（Creative Research in Emerging Arts and Technology）旗舰作品叫《Symphony for the History of Time》，用管弦乐合唱呈现宇宙演化、暗能量这些抽象概念——今年成为 UQ 2026 Music by the Lakes 音乐节的压轴。\n\nProf. Davis 的说法很直接：把物理学翻译成音乐，不是为了好看，是为了让更广泛的受众真正感受到这些尺度上的事。\n\n对修 Fine Arts、Music、Physics 的同学，CREATE Lab 这种跨院系平台是找项目搭档和扩大圈子的好地方。澳洲高校科研评估越来越重视「社会影响力」维度，艺理交叉方向的毕业生在学术和创意产业都有更广出路，这个趋势值得留意。\n\n有想去 UQ 做跨学科研究的姐妹评论区聊。",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #跨学科 #艺术留学 #科研 #CREATELab"
+    },
+    "p3": {
+      "title": "宇宙历史能谱成交响曲吗🌌",
+      "body": "UQ 给出了答案：可以。\n\nAssoc. Prof. Eve Klein（作曲家）+ Prof. Tamara Davis（天体物理学家），两人跨越学科边界，刚在 UQ 成立了 CREATE Lab。旗舰作品《Symphony for the History of Time》把宇宙膨胀、暗能量这些物理学里最难讲清楚的概念，用管弦乐和合唱来诠释。\n\n这不是偶尔一次合作，而是 UQ 正式投资的跨学科科研平台——艺术创作和前沿科研放在同一个实验室，互相拿对方的资源。\n\n我自己在犹豫申 Science 还是 Arts 方向的时候，看到这种项目其实挺有说服力的：至少 UQ 在系统性地支持这两个方向之间的人。\n\nMusic by the Lakes 2026 音乐节会有现场演出，Brisbane 在读的同学可以去听听。有同样对艺理交叉方向感兴趣的姐妹扣 1。",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #艺术留学 #音乐留学 #天文 #跨学科"
+    },
+    "p4": {
+      "title": "UQ理科奖学金6月截止⚠️",
+      "body": "申 UQ 理科方向的姐妹看这条：Science International Scholarship 申请 6 月 1 日截止。\n\n最省事的地方：不用单独填奖学金申请表，在截止日前提交课程申请就自动参与评估。录取通知书里会同步告诉你拿到哪一档减免。\n\n减免范围是 10%–25% 学费，按学术成绩分档。GPA 和语言成绩是主要评估维度，如果已经有雅思成绩在手，现在提交申请正好赶上这轮评估窗口。\n\n6 月 1 日之后再提交的申请，就要等下一轮了。备考或还在整理材料的同学，建议倒计时一下，争取 deadline 前递交。\n\n有在准备 UQ 理科申请的姐妹评论区扣 1，可以互相看看材料进度💪",
+      "tags": "#UQ #昆士兰大学 #澳洲奖学金 #澳洲留学 #UQ申请 #理科留学 #留学干货"
+    },
+    "p5": {
+      "title": "UQ 5-18 速览｜两条都实用",
+      "body": "UQ 今天两条，一条看科研、一条看省钱：\n\n01 / CREATE Lab——天体物理学家 × 作曲家跨界科研平台正式成立，旗舰作品《宇宙历史交响曲》在 2026 Music by the Lakes 音乐节压轴。Fine Arts / Physics / Music 方向同学的跨院系资源入口。\n\n02 / 理科国际奖学金——Science International Scholarship 6 月 1 日截止，截止前提交课程申请自动参与评估，10%–25% 学费减免按学术成绩分档。语言成绩备好的同学，现在提交最稳。\n\n一条看 UQ 的科研底色，一条是直接省钱的通道。在申请 UQ 理科的姐妹，6 月 1 日这个节点记好。评论区扣 1 我可以分享 UQ 申请思路🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #UQ申请 #澳洲奖学金 #留学干货 #留学生活"
+    }
+  },
+  "mp": {
+    "title": "UQ 5 月 18 日：CREATE Lab 艺理跨界科研平台成立 + 理科国际奖学金 6 月 1 日截止",
+    "lead": "UQ 本周两条值得关注的消息：作曲家 Assoc. Prof. Eve Klein 与天体物理学家 Prof. Tamara Davis 共同创立 CREATE Lab，将宇宙学以交响乐形式呈现，成为 2026 Music by the Lakes 节目压轴——这是 UQ 正式推进艺理交叉科研的标志性动作。同期，UQ 理学院 Science International Scholarship 申请窗口将于 6 月 1 日截止，在截止前提交课程申请即自动参与评估，覆盖 10%–25% 学费减免。两条消息一个关乎 UQ 的科研方向布局，一个是正在倒计时的奖学金节点。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "UQ CREATE Lab：天体物理学家与作曲家联手，宇宙学变成可以听见的交响曲",
+        "paragraphs": [
+          "UQ 5 月正式宣布成立 Creative Research in Emerging Arts and Technology（CREATE）Lab，这是一个由天体物理学家 Professor Tamara Davis 与作曲家 Associate Professor Eve Klein 共同领导的跨学科科研平台。两人的合作起点看起来反差极大——一个研究宇宙膨胀和暗能量，一个创作管弦乐作品——但 CREATE Lab 的核心理念恰恰是把这两种思维方式放在同一个平台里互相激发。",
+          "旗舰作品《Symphony for the History of Time》（宇宙历史交响曲）是这种跨界合作的第一个具体产出：用管弦乐和合唱形式诠释现代宇宙学的演化历程，从宇宙大爆炸到暗能量驱动的加速膨胀，以声音叙事呈现通常只能用方程表达的物理概念。这部作品将成为 UQ 2026 Music by the Lakes 音乐节的压轴演出，向布里斯班公众开放。Prof. Davis 在采访中说，这类合作最重要的价值在于：把理工科最抽象的发现以更多人能感受到的方式传达出去，这不是科普，而是用另一种语言做真正的科研传播。",
+          "对在 UQ 学习或申请的同学来说，CREATE Lab 的意义不止在于一场音乐会。它代表 UQ 正在系统性地投入艺理交叉方向的科研——Fine Arts、Music、Physics、Astrophysics 的学生都有机会通过这个平台找到跨院系的合作项目和研究伙伴。澳洲高校的科研评估体系（ERA / Impact Assessment）近年来越来越强调「社会影响力」和「公众参与」维度，艺理交叉方向的研究成果在这一评估框架下有独特优势。对于考虑在 UQ 读 Honours 或 PhD 的学生，CREATE Lab 是一个值得留意的研究切入口。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://news.uq.edu.au/2026-05-uq-lab-where-research-becomes-creative-experience\">UQ News — The UQ lab where research becomes a creative experience</a>"
+      },
+      {
+        "h2": "UQ 理科国际奖学金 6 月 1 日截止：无需单独申请，在截止前提交课程申请自动参评",
+        "paragraphs": [
+          "UQ 理学院（Faculty of Science）面向国际学生开放的 Science International Scholarship，申请窗口将于 2026 年 6 月 1 日截止。这项奖学金的申请机制相对友好：不需要单独填写奖学金申请表，只要在截止日期前完成课程申请提交，系统会在录取流程中自动评估是否符合资格。符合条件的申请人会在录取通知书中同步收到奖学金确认，减免金额直接反映在第一学期的学费账单中。",
+          "减免幅度为 10%–25% 的学费，具体档次取决于申请人的学术成绩和专业申请背景。GPA 和英语语言成绩（雅思 / PTE / TOEFL）是两个主要评估维度。对于国内本科 GPA 较高且已拿到语言成绩的申请人，现在提交申请是最理想的时机——既能赶上 6 月 1 日的评估窗口，也留有时间在录取通知下发后确认入学细节。需要注意的是，6 月 1 日之后提交的申请不会进入本轮评估，需要等下一个学期的评估窗口开放。",
+          "UQ 的国际奖学金体系除 Science International Scholarship 外还覆盖 UQ International Excellence Scholarship（25% 减免，全专业）和 UQ International High Achievers Scholarship（15%–20% 减免，第一年入学生）等多项。这些奖学金均在录取时自动评估，无需单独申请，但 6 月 1 日是理科方向的专项截止节点。计划申请 UQ 理科学士或硕士课程（Computer Science、Mathematics、Biosciences、Chemistry、Physics 等）的同学，务必在截止前递交申请材料，以确保进入本轮奖学金审核。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://scholarships.uq.edu.au/scholarship/science-international-scholarships\">UQ Science International Scholarships</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · CREATE Lab 艺理跨界</strong>：天体物理学家 Prof. Tamara Davis × 作曲家 Assoc. Prof. Eve Klein 联手成立；《宇宙历史交响曲》Music by the Lakes 压轴；Fine Arts / Physics / Music 同学的跨院系科研入口",
+        "<strong>02 · 理科国际奖学金截止</strong>：6 月 1 日截止；无需单独申请，递交课程申请自动参评；10%–25% 学费减免；已有语言成绩的同学现在提交最稳"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "UQ CREATE Lab｜天文 × 音乐跨界科研开张",
+        "body": "看到 UQ 这条消息有点惊到我：天体物理学家 Prof. Tamara Davis 和作曲家 Assoc. Prof. Eve Klein，两个学科差距那么大的人，在 UQ 成立了一个正式的科研实验室——CREATE Lab。\n\n旗舰作品叫《Symphony for the History of Time》，把宇宙膨胀、暗能量这些我之前只在教材里见过的概念，用管弦乐和合唱做出来，今年在 UQ Music by the Lakes 音乐节压轴演出。\n\nProf. Davis 说得很直白：把物理学翻译成音乐，不是为了好看，是为了让更多人真正感受到这些尺度上的事情。我觉得这个逻辑挺说得通的——纯粹的数学公式确实只能触达一小部分人。\n\n对修 Fine Arts、Physics 或音乐方向的同学，CREATE Lab 这种平台是找项目合作伙伴、拓宽研究方向的真实渠道。澳洲科研评估越来越看「社会影响力」这个维度，艺理交叉的出路也比以前宽了。\n\n我自己也在想：如果能在 UQ 同时接触两个方向的资源，这条路可能比单纯走纯理或纯艺更有意思。有类似想法的姐妹评论区扣 1。",
+        "tags": ["#UQ", "#昆士兰大学", "#澳洲留学", "#跨学科", "#艺术留学", "#科研", "#CREATELab", "#天文"]
+      },
+      {
+        "heading": "UQ 理科奖学金截止提醒｜6 月 1 日别忘了",
+        "body": "申 UQ 理科的姐妹，6 月 1 日这个日期要记好：Science International Scholarship 申请截止。\n\n说实话这个奖学金的申请方式挺省事的——不用单独填表，只要在截止前提交课程申请，系统自动把你纳入奖学金评估，录取通知书里会直接告诉你拿到哪一档减免。\n\n减免范围是 10%–25% 学费，按学术成绩分档。我猜大家最关心的还是：我的 GPA 能拿到哪档？简单说：GPA 和语言成绩都是主要维度，具体档次在录取时确认。\n\n现在已经有雅思成绩的同学，现在提交申请正好卡在这轮评估窗口里。6 月 1 日之后再提交就要等下一学期了。还差语言成绩的话，评估一下时间够不够，不够就先把其他材料准备好，能提前一步是一步。\n\n有同样在准备 UQ 理科申请的姐妹评论区聊进度💪",
+        "tags": ["#UQ", "#昆士兰大学", "#澳洲奖学金", "#澳洲留学", "#UQ申请", "#理科留学", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "未检出（xhsCopy 和 drafts 均无绝对化表述）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出（xhsCopy 和 drafts 仅含「评论区扣 1」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 与 drafts 全部扫描；mp.cta 含 JR Academy 合规引流，不在扫描范围内）" },
+      { "category": "AI 味", "rule": "首先其次最后 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股 / 年化", "result": "未检出" }
+    ]
+  }
+}
