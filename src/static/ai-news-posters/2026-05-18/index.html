@@ -1,0 +1,317 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-17T23:45:21.010Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-18（Canvas 版）</title>
+<meta name="description" content="2026-05-18 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-18.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-18",
+  "summary": {
+    "hook": [
+      {
+        "text": "微软预言 18 月取代白领"
+      },
+      {
+        "text": " · Anthropic 近万亿估值 · "
+      },
+      {
+        "text": "AI 超越急诊医生 · OpenAI 起诉苹果 · 摩根大通 AI 基建化"
+      }
+    ],
+    "sub": "五大故事：微软 AI CEO 苏莱曼预言 18 个月内白领任务全自动化、Anthropic 拟融 300 亿估值近万亿、Science 论文证明 AI 超越急诊医生、OpenAI 向苹果发出违约诉讼威胁、摩根大通将 198 亿美元 AI 预算正式列为核心基础设施。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "职业",
+        "numColor": "#1E40AF",
+        "t": "微软 AI CEO 苏莱曼：18 个月内 AI 将完成几乎所有白领专业任务"
+      },
+      {
+        "num": "02",
+        "cat": "融资",
+        "numColor": "#7C3AED",
+        "t": "Anthropic 洽谈 300 亿美元新融资，估值区间最高达 9500 亿美元"
+      },
+      {
+        "num": "03",
+        "cat": "医疗",
+        "numColor": "#059669",
+        "t": "Science 期刊：哈佛研究证实 OpenAI 推理模型诊断准确率超越急诊医生"
+      },
+      {
+        "num": "04",
+        "cat": "法律",
+        "numColor": "#DC2626",
+        "t": "OpenAI 向苹果发出诉讼威胁，指控其违反 ChatGPT 集成合作合同"
+      },
+      {
+        "num": "05",
+        "cat": "金融",
+        "numColor": "#D97706",
+        "t": "摩根大通宣布 198 亿美元 AI 预算，将人工智能正式纳入核心基础设施"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-microsoft-suleyman-18-months-automation",
+      "idx": "01",
+      "catText": "职业预警",
+      "accent": "#1E40AF",
+      "bg": {
+        "top": "#dbeafe",
+        "mid": "#93c5fd",
+        "bot": "#3b82f6",
+        "topRight": "#eff6ff"
+      },
+      "title": [
+        {
+          "text": "微软 AI CEO：18 个月内"
+        },
+        {
+          "text": "几乎所有白领任务将被自动化",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "苏莱曼预言"
+        },
+        {
+          "text": "AI 将达到人类水平专业表现",
+          "bold": true
+        },
+        {
+          "text": "，会计、法律、营销率先受冲击"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "微软 AI CEO 穆斯塔法·苏莱曼在采访中断言：未来 12–18 个月内，AI 将达到「几乎所有专业任务人类水平表现」，会计、法律、营销、项目管理首当其冲。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "苏莱曼是 DeepMind 联创，并非空谈者；此预言正值 Microsoft 365 Copilot 大规模企业铺开，等同行业宣言，将加速企业重新评估白领岗位配置节奏。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 从业者需主动提升 AI 协作能力；澳洲 HR 市场或率先感受压力，建议尽早掌握 Copilot 与 Claude 工作流保持竞争优势。"
+        }
+      ],
+      "src": "📎 fortune.com · futurism.com · tomshardware.com"
+    },
+    {
+      "slug": "02-anthropic-950b-valuation-round",
+      "idx": "02",
+      "catText": "融资动态",
+      "accent": "#7C3AED",
+      "bg": {
+        "top": "#ede9fe",
+        "mid": "#c4b5fd",
+        "bot": "#8b5cf6",
+        "topRight": "#f5f3ff"
+      },
+      "title": [
+        {
+          "text": "Anthropic 拟融 300 亿美元"
+        },
+        {
+          "text": "估值区间升至 9500 亿美元",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "继 2 月 3800 亿估值 Series G 后，"
+        },
+        {
+          "text": "Anthropic 不到 4 个月再次融资且估值翻倍",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "据 Bloomberg 5 月 12 日报道，Anthropic 正与投资方谈判新一轮 300 亿美元融资，估值区间 9000–9500 亿美元，或首次超越 OpenAI，具体条款尚未最终确定。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "谷歌已承诺投入 400 亿、亚马逊 250 亿，新一轮将进一步巩固 Anthropic 企业 AI 地位，加速 Claude 模型迭代，也标志着 AI 独角兽向「准万亿」量级跃升。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Anthropic 资金充裕意味着 Claude API 短期不会大涨，反而可能持续降价抢占开发者市场；对企业采购，稳定性与长期支持保障显著提升。"
+        }
+      ],
+      "src": "📎 bloomberg.com · techcrunch.com"
+    },
+    {
+      "slug": "03-openai-model-beats-doctors-diagnosis",
+      "idx": "03",
+      "catText": "医疗 AI",
+      "accent": "#059669",
+      "bg": {
+        "top": "#d1fae5",
+        "mid": "#6ee7b7",
+        "bot": "#10b981",
+        "topRight": "#ecfdf5"
+      },
+      "title": [
+        {
+          "text": "哈佛研究登 Science："
+        },
+        {
+          "text": "OpenAI 推理模型诊断准确率超越急诊医生",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "仅凭电子病历，AI 在"
+        },
+        {
+          "text": "波士顿急诊室诊断和治疗管理上全面领先",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "哈佛医学院与贝斯以色列女执事医疗中心团队在 Science 发表研究：OpenAI 推理模型仅凭电子健康记录，在急诊诊断准确率与治疗管理决策上系统性超越有经验的急诊医生。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是顶级医学期刊首次大规模证实 AI 在临床推理上「超越」而非「辅助」专科医生，将引发医疗 AI 监管、执照与伦理的系统性讨论，推动 FDA 快速审批通道调整。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "澳洲医疗 IT 和数字健康领域迎来加速采购窗口；关注医疗科技的 JR 学员，AI 临床路径优化和医疗数据分析方向正是最佳切入时机。"
+        }
+      ],
+      "src": "📎 sciencedaily.com · fortune.com"
+    },
+    {
+      "slug": "04-openai-legal-threat-apple",
+      "idx": "04",
+      "catText": "法律冲突",
+      "accent": "#DC2626",
+      "bg": {
+        "top": "#fee2e2",
+        "mid": "#fca5a5",
+        "bot": "#ef4444",
+        "topRight": "#fef2f2"
+      },
+      "title": [
+        {
+          "text": "OpenAI 向苹果发出法律威胁"
+        },
+        {
+          "text": "指控违反 ChatGPT 集成合作合同",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "双方合作协议出现裂痕，"
+        },
+        {
+          "text": "OpenAI 考虑就苹果违约提起诉讼",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "据 9to5Mac 5 月 15 日报道，OpenAI 正计划对苹果提起法律诉讼，原因是苹果涉嫌违反两家公司 2024 年签订的 ChatGPT 集成合作合同，具体违约条款尚未公开披露。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "OpenAI 与苹果合作是 ChatGPT 进入数十亿 iPhone 的关键通道。若关系破裂，苹果 Intelligence 将需引入 Gemini 或 Grok 补位，格局重塑对安卓阵营是重大利好。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "iPhone 用户的 Siri + ChatGPT 集成体验可能受影响；企业 iOS 部署中依赖 ChatGPT 的应用需关注合规变化；观察谷歌 Gemini 是否乘虚而入。"
+        }
+      ],
+      "src": "📎 9to5mac.com"
+    },
+    {
+      "slug": "05-jpmorgan-198b-ai-infrastructure",
+      "idx": "05",
+      "catText": "金融 AI",
+      "accent": "#D97706",
+      "bg": {
+        "top": "#fef3c7",
+        "mid": "#fcd34d",
+        "bot": "#f59e0b",
+        "topRight": "#fffbeb"
+      },
+      "title": [
+        {
+          "text": "摩根大通重新定性 AI："
+        },
+        {
+          "text": "198 亿美元技术预算正式列为核心基础设施",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "从「实验性 R&D」到「核心基础设施」，"
+        },
+        {
+          "text": "2000 名专职 AI 员工同步亮相",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "摩根大通正式将 2026 年约 198 亿美元科技预算中的 AI 部分归类为「核心基础设施」，配置 2000 名专职 AI 人员，聚焦内部效率 Agent、网络安全和个性化零售金融三大方向。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "全球最大银行将 AI 从探索期推入基础设施期，意味着金融行业 AI 合规、风控、审计框架将加速成熟；其他银行和保险公司将跟进，引发行业性架构重组。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "金融科技、数据工程、AI 安全方向求职竞争将显著升温；澳洲四大行同类项目正在推进，掌握 AI Agent 开发或金融数据分析技能者将获溢价。"
+        }
+      ],
+      "src": "📎 cnbc.com · artificialintelligence-news.com"
+    }
+  ],
+  "mp": {
+    "title": "微软 18 月白领危机 / Anthropic 近万亿估值 / AI 超医生 / OpenAI 起诉苹果 / 摩根大通 AI 基建"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-18"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>
