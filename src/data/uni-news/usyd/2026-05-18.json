@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-18",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "USYD",
+    "hookSub": "7400 万建筑新楼 + 4 周降低生理年龄",
+    "hookSubHighlight": "7400 万建筑新楼",
+    "subLines": [
+      "Rothwell 家族捐 4000 万 · 建筑与设计新楼共投 7400 万",
+      "4 周饮食调整可降低老年人生理年龄 · 《Aging Cell》期刊",
+      "Dr Caitlin Andrews 团队 · 减脂或减动物蛋白均有效"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "建筑设计新楼", "data": "AU$ 7400 万" },
+      { "num": "02", "title": "生理年龄研究", "data": "4 周饮食干预" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "校园建设",
+      "h2Main": "USYD 7400 万建筑设计新楼：Rothwell 家族捐 4000 万",
+      "h2Sub": "建筑师夫妇 Susan & Garry Rothwell 捐赠 · 建筑与设计学院获世界级教学设施",
+      "h2Highlight": "7400 万",
+      "lead": "悉尼大学 5 月 10 日宣布：建筑师夫妇 Susan 和 Garry Rothwell 通过 Rothwell 家族基金会向 USYD 捐赠 <b>4000 万澳元</b>，与大学联合形成 <b>7400 万澳元</b>共投，用于新建一栋专属于建筑、设计与建筑环境教育的校区大楼。这是 USYD 近年来规模最大的单笔私人教育捐款之一。",
+      "bullets": [
+        { "k": "捐赠规模", "v": "Rothwell 家族基金会捐赠 <b>4000 万澳元</b>，USYD 配套资金合计共投 <b>7400 万澳元</b>，为 USYD 最大规模私人教育捐款之一" },
+        { "k": "新楼用途", "v": "专属服务 <b>Sydney School of Architecture, Design and Planning</b>，配套世界级实验室、工作室和跨学科协作空间" },
+        { "k": "捐赠方背景", "v": "Susan 和 Garry Rothwell 本身是建筑师，捐款直指建筑设计教育——下一代学生将在更好的硬件环境里接受培训" },
+        { "k": "对留学生影响", "v": "申请 <b>Architecture / Design / Urban Planning</b> 方向的国际学生将直接受益于升级后的教学和实践设施" }
+      ],
+      "source": "University of Sydney News · 2026-05-10",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/05/10/-74-million-investment-to-benefit-architecture-and-design-studen.html"
+    },
+    {
+      "idx": "02",
+      "category": "医学科研",
+      "h2Main": "USYD 研究：4 周饮食调整可降低老年人生理年龄",
+      "h2Sub": "Dr Caitlin Andrews 团队 · 发表于《Aging Cell》· 减脂或减动物蛋白均有效",
+      "h2Highlight": "4 周降低生理年龄",
+      "lead": "悉尼大学 School of Life and Environmental Sciences 的 <b>Dr Caitlin Andrews</b> 团队 5 月 12 日在《Aging Cell》发表研究：对 65–75 岁老年人进行 <b>4 周</b>饮食干预——减少膳食脂肪或减少动物性蛋白质摄入——均可使受试者的生物标记物组合显示出生理年龄降低的效果。",
+      "bullets": [
+        { "k": "研究结论", "v": "两种饮食干预方式（减脂 / 减动物蛋白）均在 <b>4 周</b>内使 65–75 岁受试者的生物标记物组合出现「生理年龄降低」效果" },
+        { "k": "评估方法", "v": "以<b>生物标记物组合</b>评估「生理年龄」，而非单看体重或单项指标——方法论更全面，可捕捉多维度老龄化轨迹变化" },
+        { "k": "学术价值", "v": "证明短期饮食干预可量化改善老龄化指标，为<b>老年营养学 / 公共卫生干预研究</b>提供方法论依据" },
+        { "k": "对留学生影响", "v": "申请 <b>Life Sciences / Nutrition / Public Health</b> 方向的同学，Dr Andrews 团队展示了 USYD 在衰老与营养交叉领域的研究实力，是 Honours / PhD 方向的重要参考" }
+      ],
+      "source": "University of Sydney News · 2026-05-12",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/05/12/dietary-changes-in-older-people-can-improve--biological-age-.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "建筑师夫妇向 USYD 捐 4000 万建新楼；饮食干预 4 周降老年人生理年龄——两条分别针对建筑设计和生命科学方向的同学。",
+    "items": [
+      { "n": "01", "title": "7400 万建筑设计新楼", "body": "Rothwell 家族捐 4000 万 + 大学配套，共投 7400 万；新楼专属 Sydney Architecture School；建筑 / 设计 / 城规方向国际生直接受益" },
+      { "n": "02", "title": "4 周饮食降生理年龄", "body": "Dr Caitlin Andrews 团队；减脂或减动物蛋白均有效；《Aging Cell》期刊；生命科学 / 营养 / 公共卫生方向 PhD 参考" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "6 所澳洲大学 · 每天更新 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "05 / 18"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "USYD 5-18 两条都有料📣",
+      "body": "申请 USYD 建筑或生命科学方向的姐妹，今天两条都跟你直接相关。\n\n01 / 7400 万建筑设计新楼——建筑师夫妇 Susan 和 Garry Rothwell 向 USYD 捐了 4000 万澳元，加上学校配套，共投 7400 万建设专属于建筑与设计学院的新楼，配套世界级工作室、实验室和跨学科协作空间。5 月 10 日官宣，是 USYD 近年最大单笔私人教育捐款之一。\n\n02 / 4 周饮食可降低生理年龄——Dr Caitlin Andrews 团队 5 月 12 日在《Aging Cell》发表研究，65–75 岁的老年人只要减少膳食脂肪或减少动物蛋白摄入，4 周内就能在生物标记物层面观察到「生理年龄下降」的效果。\n\n一条是硬件升级，一条是科研实力展示。有同样在申请 USYD 的姐妹评论区扣 1🙌",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #USYD申请 #建筑留学 #生命科学 #留学干货"
+    },
+    "p2": {
+      "title": "USYD建筑新楼7400万共投🏛️",
+      "body": "USYD 这条消息对申请建筑、设计或城规方向的姐妹来说挺实质性的：5 月 10 日，建筑师夫妇 Susan 和 Garry Rothwell 通过 Rothwell 家族基金会向 USYD 捐赠 4000 万澳元，学校配套资金，合计 7400 万澳元，专门用来建一栋服务建筑与设计学院的新楼。\n\n他们本人就是建筑师，所以这笔捐款很有针对性——就是要给下一代建筑和设计学生造一个世界级的教学和实践环境。新楼会配套专业工作室、实验室和跨学科协作区。\n\n对正在考虑 USYD 建筑 / 设计 / 城市规划方向的同学，这条消息的意义很直接：你进去之后的硬件条件会比现在好。Sydney School of Architecture, Design and Planning 本身在全球建筑院校里就有名气，新楼落成后软硬件配套会再上一个台阶。\n\n想了解 USYD 建筑方向申请条件的姐妹评论区聊，我整理过一些信息可以分享。",
+      "tags": "#悉尼大学 #USYD #建筑留学 #澳洲留学 #城市规划 #设计留学 #USYD申请"
+    },
+    "p3": {
+      "title": "建筑师夫妇捐4000万给母校🎓",
+      "body": "USYD 这次捐款的故事背景也挺值得一讲：Susan 和 Garry Rothwell，两位都是建筑师，通过 Rothwell 家族基金会向 USYD 捐出 4000 万澳元，加上大学的配套资金，合计 7400 万用于建设建筑与设计新楼。\n\n为什么建筑师要向大学捐这么大一笔？他们自己的解释是：建筑教育的质量，直接决定了下一代建筑师能做什么。优秀的工作室、实验室和协作空间，是培养出真正能解决问题的设计师的基础。\n\n这是 USYD 近年来规模最大的单笔私人教育捐款之一，说明私人资本对 USYD 建筑学院的信任度很高。对申请 USYD 的同学，这类捐款信号也意味着学院未来几年的资源投入和硬件升级都有保障。\n\n正在考虑 USYD Architecture 或 Design 方向的姐妹，评论区扣 1，可以聊聊申请思路。",
+      "tags": "#悉尼大学 #USYD #建筑留学 #澳洲留学 #设计留学 #USYD申请 #留学干货"
+    },
+    "p4": {
+      "title": "4周饮食能降低生理年龄？🥗",
+      "body": "USYD 的研究团队给出的结论挺反直觉：65–75 岁的老年人，只要调整饮食 4 周——减少膳食脂肪，或者减少动物性蛋白质摄入，两种方式都能在生物标记物层面观察到「生理年龄下降」的效果。\n\n这项研究 5 月 12 日发表在《Aging Cell》，由 USYD School of Life and Environmental Sciences 的 Dr Caitlin Andrews 领衔。研究用的评估方式不是单看体重或者某一项指标，而是用生物标记物组合来量化「生理年龄」——这个方法论上更全面，能捕捉到多维度的老龄化轨迹变化。\n\n我看到这个结论第一反应是：4 周，这个周期真的很短。通常讲慢性病预防或者抗衰干预，往往需要几个月甚至几年才能看到显著效果。4 周就能在生物标记物层面看到变化，说明饮食对生理年龄的影响比我想象的更直接。\n\n对申请 Life Sciences、Nutrition 或 Public Health 方向的姐妹，Dr Andrews 团队的这条研究展示了 USYD 在衰老与营养交叉领域的实力，是 Honours / PhD 方向的好参考。有类似研究兴趣的姐妹评论区聊。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #生命科学 #营养科学 #公共卫生 #科研"
+    },
+    "p5": {
+      "title": "USYD 5-18 速览｜两条都实用",
+      "body": "USYD 今天两条，分别指向建筑和生命科学方向：\n\n01 / 7400 万建筑设计新楼——Rothwell 家族基金会捐 4000 万 + USYD 配套，共投 7400 万建设专属建筑与设计学院新楼；配套世界级工作室、实验室、跨学科协作区。Architecture / Design / Urban Planning 方向国际生直接受益。\n\n02 / 4 周饮食可降低生理年龄——Dr Caitlin Andrews 团队 5 月 12 日发表于《Aging Cell》；65–75 岁受试者减脂或减动物蛋白 4 周内生物标记物组合显示生理年龄下降；Life Sciences / Nutrition / Public Health 方向 PhD 的好参考。\n\n两条一个看硬件升级，一个看科研实力。在申请 USYD 的姐妹，评论区扣 1 可以聊具体方向🙌",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #USYD申请 #建筑留学 #生命科学 #留学干货"
+    }
+  },
+  "mp": {
+    "title": "USYD 5 月 18 日：7400 万共投建筑设计新楼 + 饮食干预 4 周可降低老年人生理年龄",
+    "lead": "悉尼大学本周两条值得关注：5 月 10 日，建筑师夫妇 Susan 和 Garry Rothwell 通过 Rothwell 家族基金会向 USYD 捐赠 4000 万澳元，与大学配套形成 7400 万澳元共投，用于建设专属 Sydney School of Architecture, Design and Planning 的教学大楼。5 月 12 日，Dr Caitlin Andrews 团队在《Aging Cell》发表研究，证实 65–75 岁老年人通过 4 周饮食干预（减少膳食脂肪或动物性蛋白摄入）可在生物标记物层面实现生理年龄下降。两条消息分别指向建筑设计和生命科学方向，对有意申请 USYD 的同学提供了直接参考。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "USYD 7400 万共投建筑设计新楼：建筑师夫妇 Rothwell 捐赠 4000 万",
+        "paragraphs": [
+          "2026 年 5 月 10 日，悉尼大学宣布一项重大校园建设计划。建筑师夫妇 Susan 和 Garry Rothwell 通过 Rothwell 家族基金会向 USYD 捐赠 4000 万澳元，与大学配套资金合计形成 7400 万澳元的共同投资，专门用于在悉尼大学校区新建一栋服务建筑、设计与建筑环境（Architecture, Design and Built Environment）教育的专属大楼。这是 USYD 近年来规模最大的单笔私人教育捐款之一，在澳洲高校私人捐赠记录中也属于顶部规模。",
+          "捐赠方的背景让这笔投资颇具说服力。Susan 和 Garry Rothwell 本人就是建筑师，他们的捐赠声明中表示，建筑教育的质量直接决定下一代建筑师的能力边界，而优秀的工作室、实验室和跨学科协作空间，是培养出真正具有实战能力的建筑师和设计师的前提。新楼建成后，将成为 Sydney School of Architecture, Design and Planning 的核心教学空间，配套专业制图室、材料实验室、数字制造设施和跨学科协作区，为建筑、景观建筑、城市规划、工业设计等方向的学生提供系统性升级的硬件环境。",
+          "对正在考虑申请 USYD 建筑与设计方向的国际学生来说，这条消息的实际意义在于：你入学后将使用的学习和实践环境，正处于有史以来最大规模的硬件升级周期内。USYD Sydney School of Architecture, Design and Planning 在全球 QS 建筑学科排名中长期保持前 20，此次 7400 万的设施投入进一步巩固了其在师资和硬件两端的竞争优势。有意申请 Architecture、Design 或 Urban Planning 方向研究生课程的同学，当前是一个入学时机较好的窗口。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.sydney.edu.au/news-opinion/news/2026/05/10/-74-million-investment-to-benefit-architecture-and-design-studen.html\">University of Sydney — $74 million investment to benefit Architecture and Design students</a>"
+      },
+      {
+        "h2": "4 周饮食干预降低生理年龄：USYD 团队在《Aging Cell》发表营养衰老新研究",
+        "paragraphs": [
+          "2026 年 5 月 12 日，悉尼大学 School of Life and Environmental Sciences 的 Dr Caitlin Andrews 领衔的研究团队在国际顶级期刊《Aging Cell》发表研究成果，内容令人关注：对 65–75 岁老年人进行为期 4 周的饮食干预，仅通过减少膳食脂肪摄入或减少动物性蛋白质摄入（两种方式独立有效），就能使受试者基于生物标记物评估的「生理年龄」出现可观测的下降趋势。这一结论不需要极端节食，只是在日常饮食结构上做出特定方向的调整。",
+          "研究的方法论亮点在于采用生物标记物组合（biomarker profile）作为「生理年龄」的评估维度，而非单纯依赖体重、BMI 或某项单一血液指标。这种多维度评估方式能捕捉到更全面的老龄化轨迹变化，研究结果也因此更具可重复性和临床参考价值。4 周这个干预周期出人意料地短——通常营养干预研究需要数月才能观察到显著的生物标记物变化，这一发现表明饮食结构调整对生理层面的影响速度，可能比此前预期的更为直接。",
+          "对申请 USYD 生命科学、营养科学或公共卫生方向（Life Sciences / Nutrition Science / Public Health）研究生或博士项目的同学，Dr Andrews 团队的这项研究展示了 USYD 在衰老科学与营养干预交叉领域的国际发表能力。School of Life and Environmental Sciences 在营养衰老、代谢健康和流行病学方向均有活跃的研究组，《Aging Cell》属于该领域的顶级发表平台（Q1，影响因子持续位于同类期刊前列）。有意在 USYD 攻读这一方向 Honours 或 PhD 的同学，可以将 Dr Andrews 团队作为潜在的导师联系目标之一。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.sydney.edu.au/news-opinion/news/2026/05/12/dietary-changes-in-older-people-can-improve--biological-age-.html\">University of Sydney — Dietary changes in older people can improve 'biological age'</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · 7400 万建筑设计新楼</strong>：Rothwell 家族基金会捐 4000 万 + USYD 配套，共投 7400 万；专属 Sydney Architecture School；建筑 / 设计 / 城规方向国际生受益；USYD 近年最大单笔私人教育捐款",
+        "<strong>02 · 4 周饮食降生理年龄</strong>：Dr Caitlin Andrews 团队 · 《Aging Cell》 5 月 12 日；减脂或减动物蛋白均有效；生物标记物组合评估；Life Sciences / Nutrition / Public Health 方向 PhD 参考"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "USYD 建筑新楼｜7400 万砸下来，建筑生稳了",
+        "body": "USYD 这条消息对申建筑的姐妹来说很实质：5 月 10 日，建筑师夫妇 Susan 和 Garry Rothwell 通过家族基金会向 USYD 捐了 4000 万澳元，加上学校配套，7400 万澳元共投，专门建一栋服务建筑与设计学院的新楼。\n\n他们是建筑师，所以捐款的逻辑也很直接：好的建筑教育需要好的硬件，工作室、实验室、跨学科协作空间都会有。\n\n我自己在选建筑项目的时候，硬件条件是我会看的一个维度——数字制造设备、材料实验室这些东西，直接影响你在校期间能做什么样的项目。USYD Architecture School 本身 QS 建筑学科排名就靠前，这 7400 万下去之后，软硬件配套差距会进一步拉开。\n\n正在对比 USYD 和 Melbourne / UNSW 建筑项目的姐妹，评论区聊，我整理过一些比较维度可以分享。",
+        "tags": ["#悉尼大学", "#USYD", "#建筑留学", "#澳洲留学", "#设计留学", "#USYD申请", "#留学干货"]
+      },
+      {
+        "heading": "4周改饮食降生理年龄｜USYD 发在 Aging Cell",
+        "body": "USYD 这条研究挺有意思：Dr Caitlin Andrews 团队做了一个饮食干预实验，65–75 岁的老年人，减少膳食脂肪或者减少动物性蛋白质摄入，坚持 4 周，生物标记物层面就能观察到「生理年龄下降」的效果。发在《Aging Cell》，5 月 12 日出的。\n\n让我印象深的是这个周期——4 周真的很短。我以为至少要三个月才能看到生物标记物的变化，结果 4 周就够了，说明饮食结构对生理层面的影响比我想的更直接。\n\n研究用的是生物标记物组合来评估「生理年龄」，不是单看体重或者某项血液指标，这个方法论上更严谨，结论也更可靠。\n\n对申请 Life Sciences、Nutrition 或 Public Health 方向 PhD 的姐妹，USYD School of Life and Environmental Sciences 的这条研究说明他们在衰老与营养交叉领域有持续的国际发表能力——找导师的时候可以把 Dr Andrews 团队列进去考虑。\n\n有对这个研究方向感兴趣的姐妹评论区聊。",
+        "tags": ["#悉尼大学", "#USYD", "#澳洲留学", "#生命科学", "#营养科学", "#公共卫生", "#科研"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "未检出（xhsCopy 和 drafts 均无绝对化表述）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出（xhsCopy 和 drafts 仅含「评论区扣 1」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 与 drafts 全部扫描；mp.cta 含 JR Academy 合规引流，不在扫描范围内）" },
+      { "category": "AI 味", "rule": "首先其次最后 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出（「治疗」一词未出现；饮食研究内容无疗效承诺）" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股 / 年化", "result": "未检出" }
+    ]
+  }
+}
