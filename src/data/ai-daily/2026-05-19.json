@@ -1,0 +1,127 @@
+{
+  "date": "2026-05-19",
+  "summary": {
+    "hook": [
+      {"text": "OpenAI $4B 部署公司 / Meta 裁员 8000 押注 AI / "},
+      {"text": "DeepSeek $500亿估值融资", "hl": true}
+    ],
+    "sub": "全球 AI 巨头同日出招：OpenAI 组建独立部署公司、Meta 大裁员押注 AI 基础设施、Google AlphaEvolve 突破灾害预测、DeepSeek 首轮融资估值飙升、xAI 推出专业编程智能体",
+    "items": [
+      {"num": "01", "cat": "OpenAI", "numColor": "#10a37f", "t": "OpenAI 成立 $4B 部署公司加速企业落地"},
+      {"num": "02", "cat": "Meta", "numColor": "#0866ff", "t": "Meta 裁员 8000 人转身押注 $1350 亿 AI"},
+      {"num": "03", "cat": "Google", "numColor": "#4285f4", "t": "AlphaEvolve 将灾害预测精度提升 5%"},
+      {"num": "04", "cat": "DeepSeek", "numColor": "#e84393", "t": "DeepSeek 首轮融资估值达 500 亿美元"},
+      {"num": "05", "cat": "xAI", "numColor": "#1da1f2", "t": "xAI 发布 Grok Build 专业编程智能体"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-deployment-company",
+      "idx": "01",
+      "catText": "OpenAI 企业",
+      "accent": "#10a37f",
+      "bg": {"top": "#0d1f1a", "mid": "#0f2e24", "bot": "#0a1a14", "topRight": "#1a4a35"},
+      "title": [
+        {"text": "OpenAI 成立 $40 亿部署公司"},
+        {"text": "收购 Tomoro 加速企业落地", "hl": true}
+      ],
+      "oneline": [
+        {"text": "OpenAI 新设独立部署子公司，"},
+        {"text": "首期 $40 亿投资 + 收购咨询巨头 Tomoro", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "OpenAI 宣布成立「OpenAI Deployment Company」，首期融资超 40 亿美元，并同步宣布收购企业 AI 咨询公司 Tomoro，专注于将 AGI 转化为日常可用的企业级系统。"},
+        {"k": "为什么重要", "v": "此举将 OpenAI 的商业化重心从模型研究延伸到端到端企业交付，直接与埃森哲、IBM 等传统 IT 服务商竞争，代表 AI 公司向「基础设施+实施」一体化转型。"},
+        {"k": "对你的影响", "v": "企业 AI 落地门槛将进一步降低，更多中大型公司会加快 AI 采购节奏；IT 和 AI 工程顾问类职位需求料短期内快速上升。"}
+      ],
+      "src": "📎 techcrunch.com · openai.com"
+    },
+    {
+      "slug": "02-meta-layoffs-ai-pivot",
+      "idx": "02",
+      "catText": "Meta 战略",
+      "accent": "#0866ff",
+      "bg": {"top": "#0a0f1e", "mid": "#0d1530", "bot": "#070c1a", "topRight": "#162050"},
+      "title": [
+        {"text": "Meta 5·20 裁员 8000 人"},
+        {"text": "转身砸 $1350 亿押注 AI 基础设施", "hl": true}
+      ],
+      "oneline": [
+        {"text": "10% 员工将被裁撤，"},
+        {"text": "省出的钱全押 AI 算力与模型研发", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Meta 宣布 5 月 20 日启动约 8000 人裁员，占全员 10%；同期将 2026 年 AI 资本支出目标上调至 1150–1350 亿美元，接近去年两倍。"},
+        {"k": "为什么重要", "v": "Meta 以「AI 重组」名义大裁员，但资本支出大幅扩张，说明 AI 浪潮正在重塑科技公司人才结构：算力 > 人力，工程师向 AI 运维侧迁移。"},
+        {"k": "对你的影响", "v": "科技求职者需注意：传统软件工程岗位收缩，AI 基础设施、MLOps、AI 应用开发方向需求逆势增长，转型窗口期明显。"}
+      ],
+      "src": "📎 thenextweb.com · axios.com"
+    },
+    {
+      "slug": "03-google-alphaevolve-disaster",
+      "idx": "03",
+      "catText": "Google 科研",
+      "accent": "#4285f4",
+      "bg": {"top": "#0a0f1f", "mid": "#0c1530", "bot": "#080c1c", "topRight": "#1a3060"},
+      "title": [
+        {"text": "AlphaEvolve 将灾害预测提升 5%"},
+        {"text": "量子电路误差降低 10 倍", "hl": true}
+      ],
+      "oneline": [
+        {"text": "Google DeepMind AlphaEvolve 扩展至"},
+        {"text": "灾害预测 + 量子物理双领域突破", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Google DeepMind 发布 AlphaEvolve 最新进展：在 20 类自然灾害预测中综合精度提升 5%；在量子计算领域，AlphaEvolve 建议的量子电路方案误差比传统优化基线低 10 倍。"},
+        {"k": "为什么重要", "v": "AlphaEvolve 已从纯数学竞赛走向真实科研场景，成为首个在气候和量子两大前沿领域同时产生可量化影响的 AI 系统，标志着 AI 科研助手进入「实用化」阶段。"},
+        {"k": "对你的影响", "v": "科研类 AI 工具即将进入爆发期，气候科技、量子计算、材料科学等领域将涌现大量 AI+科研复合岗位，理工背景 + AI 技能组合将成为稀缺竞争力。"}
+      ],
+      "src": "📎 deepmind.google · therundown.ai"
+    },
+    {
+      "slug": "04-deepseek-50b-valuation",
+      "idx": "04",
+      "catText": "DeepSeek 融资",
+      "accent": "#e84393",
+      "bg": {"top": "#1a0a14", "mid": "#2a0f1e", "bot": "#130810", "topRight": "#3d1430"},
+      "title": [
+        {"text": "DeepSeek 首轮融资估值 500 亿美元"},
+        {"text": "腾讯 + 国家大基金三期入局", "hl": true}
+      ],
+      "oneline": [
+        {"text": "中国 AI 独角兽 DeepSeek 启动史上首次外部融资，"},
+        {"text": "估值直逼 500 亿美元", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "据南华早报等媒体，DeepSeek 即将完成首次外部融资，估值高达 500 亿美元，投资方包括腾讯控股及国家集成电路产业投资基金三期（大基金三期）等国家背景资本。"},
+        {"k": "为什么重要", "v": "DeepSeek 此前以「拒绝融资」著称，创始人持股约 90%；此次融资或为留住被竞争对手挖角的顶尖研究员，500 亿估值也使其跻身全球 AI 企业前列。"},
+        {"k": "对你的影响", "v": "中国 AI 赛道持续获得国家资本背书，DeepSeek V4 开源模型已成众多企业首选；国内外 AI 模型价格战将进一步压低 API 成本，利好开发者和中小企业。"}
+      ],
+      "src": "📎 scmp.com · techcrunch.com"
+    },
+    {
+      "slug": "05-xai-grok-build-coding-agent",
+      "idx": "05",
+      "catText": "xAI 工具",
+      "accent": "#1da1f2",
+      "bg": {"top": "#050e1a", "mid": "#071525", "bot": "#040b14", "topRight": "#0f2840"},
+      "title": [
+        {"text": "xAI 推出 Grok Build 编程智能体"},
+        {"text": "抢占专业开发者市场", "hl": true}
+      ],
+      "oneline": [
+        {"text": "SuperGrok Heavy 专属 Grok Build CLI，"},
+        {"text": "正面对标 GitHub Copilot 和 Cursor", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "xAI 发布 Grok Build，定位「专业级编程智能体 + CLI 工具」，目前仅对 $300/月 SuperGrok Heavy 订阅者开放早期测试；同期 Grok 4.3 已可控制电脑、运行代码并生成真实文件。"},
+        {"k": "为什么重要", "v": "Grok Build 直接挑战 Cursor、GitHub Copilot、Claude Code 等主流 AI 编程工具，xAI 以 $300 高客单价切入专业市场，意在打造高端编程 AI 的品牌形象。"},
+        {"k": "对你的影响", "v": "AI 编程工具竞争进入白热化，开发者选择空间大幅扩展；对准备转 AI 方向的 IT 学员而言，掌握多款主流 AI 编程工具已成为求职加分项。"}
+      ],
+      "src": "📎 engadget.com · docs.x.ai"
+    }
+  ],
+  "mp": {
+    "title": "OpenAI $4B 部署公司 / Meta 裁员押注 AI / DeepSeek 估值飙 500 亿 / xAI Grok Build"
+  }
+}
