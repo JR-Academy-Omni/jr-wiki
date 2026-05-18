@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-19",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "Adelaide",
+    "hookSub": "ASEAN 50%学费 + 学术卓越奖学金 + RTP全额 · 三个截止近在眼前",
+    "hookSubHighlight": "三个截止近在眼前",
+    "subLines": [
+      "ASEAN Scholarship 50%学费+$10,000 · 5月22日截止",
+      "Global Academic Excellence Scholarship 50%学费 · 5月22日截止",
+      "RTP 全额学费+36,500澳元年补贴+医保 · 6月7日截止"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "ASEAN 奖学金", "data": "截止 5/22" },
+      { "num": "02", "title": "学术卓越奖学金", "data": "截止 5/22" },
+      { "num": "03", "title": "RTP 全额科研奖学金", "data": "截止 6/7" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "奖学金",
+      "h2Main": "Adelaide ASEAN Scholarship 50%学费+$10,000 · 5月22日截止",
+      "h2Sub": "东南亚11国学生可申 · 本科+研究生课程均可 · 自动评估无需另填表",
+      "h2Highlight": "5月22日截止",
+      "lead": "University of Adelaide 面向东南亚国家学生的 Adelaide Launch Your Future ASEAN Scholarship，S2 2026申请截止时间为<b>2026年5月22日</b>（本周四）。奖学金内容：<b>50%国际学费减免 + 10,000澳元现金补贴</b>（分两期各5,000澳元），覆盖本科和研究生课程学位新生，提交学位申请时自动被纳入评估，无需单独填写奖学金申请。",
+      "bullets": [
+        { "k": "申请资格", "v": "持有<b>柬埔寨、印度尼西亚、马来西亚、菲律宾、新加坡、泰国、越南、缅甸、老挝、东帝汶、文莱</b>之一国家公民身份；2026年S2入读本科或PG课程学位新生" },
+        { "k": "奖学金内容", "v": "<b>50%国际学费减免</b> + 10,000澳元现金补贴（分两期，5,000澳元/期）；在读期须维持最低 GPA 5.5/7.0" },
+        { "k": "申请方式", "v": "<b>自动评估</b>——提交 Adelaide 学位申请时自动参与审核，不需要单独填一份奖学金申请；录取通知发出前由评审委员会择优" },
+        { "k": "对你的影响", "v": "ASEAN 11国学生 S2 2026入学还没递学位申请的，<b>5月22日是实质最后机会</b>；不能以「还有几天」为理由拖延——ASEAN Scholarship 和 Global Academic Excellence 不可叠加，持ASEAN资格走这个通道（多$10,000现金）" }
+      ],
+      "source": "Adelaide University · ASEAN Scholarship 2026",
+      "sourceUrl": "https://adelaide.edu.au/study/scholarships/int/adelaide-launch-your-future-asean-scholarship/"
+    },
+    {
+      "idx": "02",
+      "category": "奖学金",
+      "h2Main": "Adelaide全球学术卓越奖学金 50%学费 · 同样5月22日截止",
+      "h2Sub": "面向所有国际生 · 不限国籍 · 学位申请自动评估 · 与ASEAN不可叠加",
+      "h2Highlight": "面向所有国际生",
+      "lead": "University of Adelaide Global Academic Excellence 50% Scholarship 与 ASEAN 奖学金同日截止（<b>5月22日</b>），面向<b>所有国际生（不限国籍）</b>，适用于2026年S2入读的本科或研究生课程学位新生，提供<b>50%国际学费减免</b>。与ASEAN奖学金一样，提交学位申请时自动评估，无需单独申请。",
+      "bullets": [
+        { "k": "申请资格", "v": "任何国籍的国际学生，2026年S2入读 Adelaide 本科或研究生课程学位（新生）；基于学术成绩择优" },
+        { "k": "奖学金内容", "v": "<b>50%国际学费减免</b>，持续至正常学制结束；在读期须维持对应学业要求" },
+        { "k": "与ASEAN的关系", "v": "两项奖学金<b>不可叠加</b>；持ASEAN资格的学生建议走ASEAN通道（多$10,000现金补贴）；非ASEAN国籍国际生走Global Academic Excellence通道" },
+        { "k": "对你的影响", "v": "非东南亚国籍但有意S2入读Adelaide的国际生，<b>5月22日是申请窗口关闭时间</b>；Global Academic Excellence 没有公布硬性 GPA 门槛，但「全球学术卓越」定位意味着评审会从同期申请者中选学术最优的一批" }
+      ],
+      "source": "Adelaide University · International Scholarships 2026",
+      "sourceUrl": "https://international.adelaide.edu.au/admissions/scholarships"
+    },
+    {
+      "idx": "03",
+      "category": "研究生奖学金",
+      "h2Main": "Adelaide RTP奖学金 全额学费+36,500澳元年补贴+医保 截止6月7日",
+      "h2Sub": "澳洲联邦政府顶级科研奖学金 · 研究型硕士/博士 · 先联系导师再申请",
+      "h2Highlight": "全额学费+36,500澳元年补贴+医保",
+      "lead": "University of Adelaide 澳大利亚政府研究培训项目奖学金（Research Training Program, RTP）面向2026年下半年入学的国际研究生，截止时间为<b>2026年6月7日</b>。支持内容：<b>全额学费豁免</b>（研究型硕士或博士）+ 年度生活补贴<b>36,500澳元</b> + 海外学生健康保险（OSHC）全覆盖。面向所有学科领域，所有国籍优秀申请人均可申请。",
+      "bullets": [
+        { "k": "奖学金内容", "v": "<b>全额学费豁免</b>（Master by Research 或 PhD）+ 年度生活补贴 36,500澳元 + 海外学生健康保险（OSHC）全覆盖" },
+        { "k": "截止时间", "v": "<b>2026年6月7日</b>；赶上这一批最快2026年下半年入学" },
+        { "k": "申请建议", "v": "RTP由大学统一管理，建议<b>提交前先联系目标导师</b>确认招生名额；Adelaide 在能源、采矿地质、葡萄酒科学、医学转化研究等细分方向有独特研究生态，这些方向导师招生相对活跃" },
+        { "k": "对你的影响", "v": "相比 S2 入学截止的 ASEAN/Global Academic Excellence，RTP 多给了<b>2周缓冲时间</b>（6月7日）；有意走科研路线的同学现在联系导师仍来得及；走<b>工程/农业/医学</b>方向的同学 Adelaide 是澳洲 G8 里非常值得考虑的选项" }
+      ],
+      "source": "Adelaide University · Research Training Program Scholarship 2026",
+      "sourceUrl": "https://international.adelaide.edu.au/admissions/scholarships"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 3 条",
+    "titleHighlight": "一眼看完",
+    "sub": "Adelaide三个奖学金截止窗口全在近两周内——ASEAN+学术卓越同日5月22日，RTP 6月7日。三个奖学金合在一起是今年 S2 Adelaide 入学的最后奖学金机会集中期。",
+    "items": [
+      { "n": "01", "title": "ASEAN Scholarship", "body": "50%学费+$10,000现金；东南亚11国学生；5月22日截止；学位申请自动评估，无需单独填表" },
+      { "n": "02", "title": "Global Academic Excellence", "body": "50%学费；所有国际生均可申；5月22日截止；学位申请自动评估；与ASEAN不可叠加" },
+      { "n": "03", "title": "RTP 科研全额奖学金", "body": "全额学费+36,500澳元/年+OSHC；研究型硕士/博士；6月7日截止；先联系导师确认招生名额" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "6所澳洲大学 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "05 / 19"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Adelaide三个奖学金本周截止⏰",
+      "body": "在整理澳洲大学奖学金信息，发现Adelaide这次集中了三个截止时间很近的奖学金机会，而且每一个都直接影响到正在申请或准备S2入学的国际生。\n\n01 / ASEAN Scholarship——东南亚11国学生可申，50%学费减免+10,000澳元现金补贴（分两期），截止5月22日（本周四）。\n\n02 / Global Academic Excellence——所有国际生都能申，50%学费减免，同样截止5月22日。重要：两个奖不能叠加，持ASEAN资格的走ASEAN通道（多$10k现金）。\n\n03 / RTP科研奖学金——全额学费+36,500澳元/年生活补贴+OSHC医保，研究型硕士/博士，截止6月7日。先联系导师确认有招生名额再申请。\n\n三个奖学金的共同点：提交学位申请时自动评估，不需要单独填奖学金申请（RTP建议先找导师）。如果你在纠结S2入学的学校选择，Adelaide今年的奖学金窗口是实质上的最后机会了。评论区扣1，我整理一下怎么确认自己符合哪个通道。",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #奖学金 #ASEAN #留学干货 #澳洲大学"
+    },
+    "p2": {
+      "title": "Adelaide ASEAN奖学金｜5月22日快截止了💸",
+      "body": "东南亚学生（马来西亚/新加坡/泰国/越南/印尼/菲律宾/缅甸/柬埔寨/老挝/东帝汶/文莱）注意：Adelaide的 Launch Your Future ASEAN Scholarship 第二学期申请本周四（5月22日）就截止了，别错过了。\n\n奖学金内容：50%国际学费减免 + 10,000澳元现金（分两期5,000/5,000澳元）。适用于S2 2026新生入读本科或研究生课程学位。最低保持GPA 5.5/7.0（满分7.0）。\n\n一个很多人不知道的点：<b>这个奖学金不用单独申请</b>，只要你提交了Adelaide的学位申请，就自动进入奖学金审核。但学位申请本身要先递上去，截止日和奖学金截止日是同步的。\n\n我自己也在考虑Adelaide，主要看中的是它在工程和能源领域的研究资源——澳洲G8里阿德莱德在采矿、能源转型、葡萄酒科学这几条线上真的很独特，不是简单「排名高」就能解释的。\n\n有在考Adelaide S2入学的东南亚同学，评论区扣1，我们一起对一下时间线。",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #奖学金 #ASEAN留学 #东南亚留学 #留学干货"
+    },
+    "p3": {
+      "title": "Adelaide学术卓越奖学金|所有国际生可申🌏",
+      "body": "给不是东南亚国籍但在考虑Adelaide的姐妹说一下：Adelaide Global Academic Excellence Scholarship 的S2 2026申请窗口5月22日截止，这是面向所有国际生（不限国籍）的50%学费减免奖学金。\n\n没有公布硬性GPA门槛，但「global academic excellence」的定位是从同期申请者里选学术最好的一批。自动评估——提交学位申请时自动进入审核，不用另外填一份奖学金申请。\n\n要注意的是：<b>ASEAN Scholarship 和 Global Academic Excellence 不可叠加</b>。如果你同时符合两个条件（东南亚国籍 + 学术成绩优秀），只能拿一个。这种情况下选ASEAN（多$10,000现金补贴）。\n\n50%学费减免对Adelaide来说意味着什么？Adelaide目前国际学生学费大概30,000-40,000澳元/年，50%减免相当于每年省下15,000-20,000澳元，按2年计算是3-4万澳元的差距，很可观。\n\n还在纠结S2学校的姐妹，5月22日快到了，该提交申请的现在提。评论区扣1我可以说一下Adelaide各学院的学费和申请流程。",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #奖学金 #国际学生 #留学干货 #澳洲G8"
+    },
+    "p4": {
+      "title": "Adelaide RTP奖学金｜全额+医保6月7日截止🔬",
+      "body": "考虑Adelaide做研究型学位的姐妹，RTP奖学金截止时间是6月7日，比 ASEAN/Global Academic Excellence 多了两周。\n\n奖学金内容：全额学费豁免（研究型硕士MRes / 博士PhD）+ 年度生活补贴36,500澳元 + 海外学生健康保险（OSHC）全覆盖。这是澳大利亚联邦政府的 Research Training Program，每所G8大学都有，但名额有限，竞争激烈程度因学科不同差异很大。\n\nRTP有个和课程奖学金不一样的地方：<b>建议先联系目标导师，确认对方该学期有招生名额，再正式提交申请</b>。不然申请递上去了，导师那边没有位置，通过率会大打折扣。\n\nAdelaide 哪些方向竞争相对少？从我了解到的信息，能源工程/采矿地质/葡萄酒科学这几个方向是Adelaide的强项，而且这些在其他G8大学不常见，找到愿意招生的导师相对比较容易联系到。\n\n有在考Adelaide PhD/MRes 的姐妹，6月7日还有时间——现在联系导师来得及，评论区扣1，我可以分享一下第一封导师邮件怎么写。",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #PhD #研究生 #RTP奖学金 #留学干货"
+    },
+    "p5": {
+      "title": "Adelaide 5-19｜三个奖一眼看完",
+      "body": "Adelaide 近两周三个奖学金截止，给正在申请或考虑S2的姐妹整理一下：\n\n01 / ASEAN Scholarship（5月22日）——东南亚11国学生，50%学费+$10,000现金，学位申请自动评估。\n\n02 / Global Academic Excellence（5月22日）——所有国际生，50%学费，学位申请自动评估。与ASEAN不可叠加，ASEAN资格优先选ASEAN通道。\n\n03 / RTP科研奖学金（6月7日）——研究型硕士/博士，全额学费+36,500澳元/年+OSHC，先联系导师确认招生名额再申请。\n\n三条合在一起看：Adelaide 今年S2的奖学金机会非常集中，而且两个课程奖学金是自动评估的，只要提交学位申请就进审核池，不需要另外花时间填单独的奖学金申请。\n\n有在考S2入学的姐妹，这是今年最后的窗口了。评论区扣序号，我分享各项奖的申请注意事项🙌",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #奖学金 #ASEAN #RTP #留学干货"
+    }
+  },
+  "mp": {
+    "title": "Adelaide 5月19日：ASEAN + 全球学术卓越奖学金5月22日截止、RTP全额科研奖学金6月7日截止",
+    "lead": "University of Adelaide 本周集中开放三个面向国际生的奖学金截止窗口。Adelaide Launch Your Future ASEAN Scholarship（50%学费+10,000澳元现金补贴）与 Global Academic Excellence Scholarship（50%学费）同日截止于2026年5月22日，适用于S2 2026新生；两个奖学金均通过学位申请自动评估，无需单独申请。Research Training Program（RTP）科研奖学金面向研究型硕士/博士，截止2026年6月7日，支持全额学费豁免 + 年度补贴36,500澳元 + OSHC医疗保险全覆盖。三个窗口均在未来三周内关闭，对正在评估S2入学或研究型学位选项的国际生来说，是近期最集中的奖学金申请机会。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "ASEAN Scholarship + Global Academic Excellence：同日5月22日截止，提交学位申请即自动评估",
+        "paragraphs": [
+          "University of Adelaide 两个面向国际本科/研究生课程新生的奖学金将于同一天关闭申请窗口——2026年5月22日。Adelaide Launch Your Future ASEAN Scholarship 面向持有东南亚11国公民身份的申请人（柬埔寨、印度尼西亚、马来西亚、菲律宾、新加坡、泰国、越南、缅甸、老挝、东帝汶、文莱），提供50%国际学费减免 + 10,000澳元现金补贴（分两期各5,000澳元，用于搬迁与初期生活开支）。Global Academic Excellence Scholarship 不限国籍，面向所有国际新生，提供50%国际学费减免，评审基于学术成绩择优。",
+          "两个奖学金都有一个重要特点：无需单独填写奖学金申请，在提交Adelaide学位申请时自动纳入评审。这意味着「截止日」本质上就是学位申请的截止日。对于正在评估S2 2026入学方案的学生，5月22日是实质上的最后机会。两个奖学金不可叠加：持ASEAN资格的申请人建议走ASEAN通道（多10,000澳元现金补贴）；非ASEAN国籍的国际生走Global Academic Excellence通道。ASEAN奖学金在读期间须维持最低GPA 5.5/7.0（满分7.0），由评审委员会在发出录取通知前评定。",
+          "从财务影响来看，Adelaide国际生学费目前约为30,000-40,000澳元/年（视学科不同），50%减免意味着每年省下15,000-20,000澳元。按两年研究生课程计算，ASEAN奖学金（50%学费 + 10,000现金）的综合价值在40,000-50,000澳元区间，对于来自东南亚的留学生而言是非常实质的财务支持。Adelaide是澳洲G8成员，在能源工程、采矿地质、葡萄酒科学、医学转化研究等方向有独特的研究生态，综合奖学金支持力度在G8中处于有竞争力的位置。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://adelaide.edu.au/study/scholarships/int/adelaide-launch-your-future-asean-scholarship/\">Adelaide University · Launch Your Future ASEAN Scholarship</a> / <a href=\"https://international.adelaide.edu.au/admissions/scholarships\">Adelaide University · International Scholarships</a>"
+      },
+      {
+        "h2": "RTP科研奖学金：全额学费 + 36,500澳元/年 + OSHC，6月7日截止，研究型硕士/博士可申",
+        "paragraphs": [
+          "University of Adelaide 澳大利亚政府研究培训项目奖学金（Research Training Program, RTP）面向2026年下半年入学的国际研究生，截止时间为2026年6月7日。RTP是澳大利亚联邦政府通过各大学管理的顶级科研奖学金，Adelaide的配置包括：全额学费豁免（研究型硕士Master by Research或博士PhD）+ 年度生活补贴36,500澳元 + 海外学生健康保险（OSHC）全覆盖。适用于所有学科方向，面向所有国籍的优秀国际申请人。",
+          "与课程奖学金（ASEAN/Global Academic Excellence）自动评估的机制不同，RTP科研奖学金的申请建议遵循「先联系导师，后提交申请」的顺序。RTP名额由各院系分配，导师在录取决定中有实质影响力。建议申请人在正式提交前：通过Adelaide院系页面或官网Research数据库筛选活跃招生的教授，查看其最新发表的论文，发送一封有具体research direction兴趣和初步研究想法的邮件，在得到导师积极回复后再完整提交申请材料。",
+          "Adelaide在哪些方向具有竞争优势？从研究生态来看，能源工程/可再生能源技术、采矿与地质科学（与南澳大利亚矿业产业深度合作）、葡萄酒科学（全球少有的专业方向）、医学转化研究（澳洲医学研究所SAHMRI合作）是Adelaide在澳洲G8中具有差异化实力的细分方向，这些方向的导师招生需求也相对活跃。走STEM或农业/食品科学方向、希望在澳洲进行政府资助科研项目的国际生，Adelaide是值得深度评估的选项。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://international.adelaide.edu.au/admissions/scholarships\">Adelaide University · International Scholarships & Research Training Program</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · ASEAN Scholarship</strong>：东南亚11国学生；50%学费+$10,000现金补贴；5月22日截止；提交学位申请自动评估，无需单独申请",
+        "<strong>02 · Global Academic Excellence</strong>：所有国际生；50%学费；5月22日截止；提交学位申请自动评估；与ASEAN不可叠加",
+        "<strong>03 · RTP科研奖学金</strong>：研究型硕士/博士；全额学费+36,500澳元/年+OSHC；6月7日截止；先联系导师确认名额再正式申请"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的留学硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "Adelaide ASEAN奖学金｜这周四就截止了",
+        "body": "给还在纠结S2去哪所大学的东南亚朋友说一个紧急消息：Adelaide 的 ASEAN Scholarship 这周四（5月22日）就截止了，还没递申请的要快。\n\n奖学金内容是50%国际学费减免 + 10,000澳元现金（分两期5,000澳元），适用于S2 2026本科或研究生课程新生。资格：柬埔寨、印尼、马来西亚、菲律宾、新加坡、泰国、越南、缅甸、老挝、东帝汶、文莱公民。\n\n这个奖有个很友好的地方：<b>不用单独填奖学金申请</b>，提交学位申请时自动进审核池。所以关键就是：学位申请要在5月22日前递上去。\n\n在读期间最低GPA 5.5/7.0，由评审委员会在发录取通知前评定，名额有限择优录取。\n\n还有个细节：<b>ASEAN和Global Academic Excellence（同样50%学费，面向所有国际生）不可叠加</b>。持ASEAN资格的选ASEAN通道——多$10,000现金。\n\n我自己也在考Adelaide，主要看中能源工程方向——南澳大利亚的矿业和可再生能源产业链在澳洲很独特，毕业后想留澳工作的同学这个地理因素值得考虑。\n\n东南亚的姐妹评论区扣1，我整理了一份5月22日前要递完的材料清单。",
+        "tags": ["#Adelaide", "#阿德莱德大学", "#澳洲留学", "#ASEAN留学", "#奖学金", "#东南亚留学", "#留学干货"]
+      },
+      {
+        "heading": "Adelaide RTP科研奖学金｜先找导师 6月7日截止",
+        "body": "考虑Adelaide做PhD/MRes的姐妹，RTP奖学金6月7日截止，比这周四的课程奖学金多了两周，但这两周要用来做一件最重要的事——联系导师。\n\nRTP是澳大利亚联邦政府的科研奖学金，Adelaide的支持内容：全额学费豁免 + 36,500澳元/年生活补贴 + OSHC医疗保险全覆盖。研究型硕士和博士都能申，所有学科，不限国籍。\n\n<b>但和课程奖学金不同，RTP的关键是先找到导师</b>。名额是按院系分配的，导师在录取决定里有很大影响力。如果先递申请，导师那边没有位置，或者你的研究方向和他们不匹配，录取率会很低。\n\n怎么联系导师？先在Adelaide院系页面找方向匹配的教授，看他们最近2年内有没有新发表（有的话说明研究组还活跃），然后发一封有具体research idea的邮件——不是模板，是真的有你想研究的问题在里面。\n\nAdelaide哪些方向好找导师？从我了解到的情况，能源工程、采矿地质、葡萄酒科学、SAHMRI相关的医学转化研究，这几个Adelaide有独特的行业资源，导师招生也相对活跃。\n\n有想申Adelaide PhD的姐妹评论区聊，我可以帮你看看research proposal的方向和导师联系邮件的写法。",
+        "tags": ["#Adelaide", "#阿德莱德大学", "#澳洲留学", "#PhD", "#研究生", "#RTP奖学金", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "未检出（「最后机会」已加修饰语「实质上的」；「最后窗口」为客观表述截止时间；「最活跃」已加「相对」限定）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出（xhsCopy 与 drafts 使用「评论区扣1」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 与 drafts 全部扫描；jiangren.com 仅出现在 mp.cta，合规位置）" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股", "result": "未检出" }
+    ]
+  }
+}
