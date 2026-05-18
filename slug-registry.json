@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-17T23:45:17.857Z",
+  "lockedAt": "2026-05-18T23:42:25.115Z",
   "version": 1,
   "slugs": [
     {
@@ -145,6 +145,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-05-18"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-05-19"
     },
     {
       "type": "article",
@@ -296,6 +300,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-05-19"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -352,6 +360,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-05-19"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -389,6 +401,10 @@
     {
       "type": "article",
       "slug": "uni-news-monash-2026-05-16"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-monash-2026-05-19"
     },
     {
       "type": "article",
