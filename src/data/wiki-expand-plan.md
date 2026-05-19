@@ -45,7 +45,7 @@
 - [x] dify-guide/07-self-hosting.md — new-chapter: Dify 自部署完整指南（Docker Compose + Nginx 反向代理 + HTTPS 配置）
 
 ### gamma-guide
-- [ ] gamma-guide/06-template-customization.md — new-chapter: 模板深度定制（品牌色 / 字体 / 布局 / 母版编辑）
+- [x] gamma-guide/06-template-customization.md — new-chapter: 模板深度定制（品牌色 / 字体 / 布局 / 母版编辑）
 - [ ] gamma-guide/07-export-workflows.md — new-chapter: 导出工作流（PDF 高质量 / PPT 兼容 PowerPoint / Notion 同步）
 
 ### lovable-guide
