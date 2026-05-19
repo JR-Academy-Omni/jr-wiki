@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-18T23:42:25.115Z",
+  "lockedAt": "2026-05-19T23:46:31.406Z",
   "version": 1,
   "slugs": [
     {
@@ -152,6 +152,10 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-05-20"
+    },
+    {
+      "type": "article",
       "slug": "ai-tool-supply-chain-security-vercel-oauth"
     },
     {
@@ -181,6 +185,10 @@
     {
       "type": "article",
       "slug": "anthropic-reversal-capital-war-2026"
+    },
+    {
+      "type": "article",
+      "slug": "china-coding-models-price-war-2026"
     },
     {
       "type": "article",
@@ -301,6 +309,10 @@
     {
       "type": "article",
       "slug": "it-daily-2026-05-19"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-05-20"
     },
     {
       "type": "article",
@@ -444,6 +456,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-umelb-2026-05-20"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-unsw-2026-04-25"
     },
     {
@@ -481,6 +497,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-05-17"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-05-20"
     },
     {
       "type": "article",
@@ -1020,6 +1040,11 @@
       "type": "chapter",
       "book": "gamma-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "gamma-guide",
+      "slug": "06-template-customization"
     },
     {
       "type": "chapter",
