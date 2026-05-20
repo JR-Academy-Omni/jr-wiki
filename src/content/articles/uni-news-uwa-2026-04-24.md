@@ -10,7 +10,7 @@ tags:
 author: "JR Academy 大学日报"
 keywords: "西澳大学, University of Western Australia, UWA, 澳洲留学, 大学新闻, 奖学金, 校园动态"
 ---
-<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-18T23:42:21.052Z -->
+<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-20T23:43:26.278Z -->
 
 > 学校：**西澳大学 / University of Western Australia**
 > 日期：**2026-04-24**
