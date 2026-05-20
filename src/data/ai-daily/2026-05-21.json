@@ -1,0 +1,92 @@
+{
+  "date": "2026-05-21",
+  "summary": {
+    "hook": ["Google Gemini 3.5", " · ", "Anthropic KPMG", " · ", "Meta $145B裁员"],
+    "sub": "DeepSeek估值飙至500亿 · xAI Grok Build上线",
+    "items": [
+      {"num":"01","cat":"谷歌I/O发布会","numColor":"#4285F4","t":"Gemini 3.5 Flash + Spark智能Agent正式亮相"},
+      {"num":"02","cat":"企业AI落地","numColor":"#E8591A","t":"Anthropic签下KPMG 27.6万人全员用Claude"},
+      {"num":"03","cat":"大厂博弈","numColor":"#0082FB","t":"Meta押注1450亿美元AI基建同步裁员8000人"},
+      {"num":"04","cat":"融资估值","numColor":"#20B2AA","t":"DeepSeek估值暴涨至500亿美元国家队领投"},
+      {"num":"05","cat":"编程Agent","numColor":"#9B59B6","t":"xAI推出Grok Build每日发布迭代日志"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-google-io-gemini-35-spark",
+      "idx": "01",
+      "catText": "谷歌I/O发布会",
+      "accent": "#4285F4",
+      "bg": {"top":"#1A3A6B","mid":"#1E4D8C","bot":"#0D2B5E","topRight":"#2D6BCC"},
+      "title": [{"text":"Google I/O 2026："},{"text":"Gemini 3.5 Flash + Spark Agent","hl":true}],
+      "oneline": [{"text":"谷歌发布"},{"text":"新一代模型与24小时在线个人Agent","bold":true},{"text":"，多模态理解全面领先"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Google I/O 2026发布Gemini 3.5 Flash，宣称比同级竞品快4倍；Gemini Spark是全新个人AI Agent，可在设备关机后24小时持续运行，直连Gmail、Sheets等应用并支持MCP协议"},
+        {"k":"为什么重要","v":"Gemini Spark是谷歌首款「脱离设备独立运行」的Agent，标志AI从「对话工具」升级为「持续工作的数字员工」；Gemini 3.5 Flash将同步推送至所有谷歌产品和API"},
+        {"k":"对你的影响","v":"开发者可通过Antigravity框架构建跨应用Agent；用户将拥有一个7×24小时主动帮你管理日程、邮件和文档的AI助手，首批向AI Ultra订阅者开放"}
+      ],
+      "src": "📎 cnbc.com · businesstoday.in"
+    },
+    {
+      "slug": "02-anthropic-kpmg-276k-enterprise",
+      "idx": "02",
+      "catText": "企业AI落地",
+      "accent": "#E8591A",
+      "bg": {"top":"#5C1A00","mid":"#7A2400","bot":"#3D1000","topRight":"#C44010"},
+      "title": [{"text":"Anthropic签下KPMG："},{"text":"27.6万人全员接入Claude","hl":true}],
+      "oneline": [{"text":"全球四大会计师事务所之一"},{"text":"KPMG将Claude部署至整个员工体系","bold":true},{"text":"，规模创企业AI落地新纪录"}],
+      "bullets": [
+        {"k":"发生了什么","v":"5月19日，Anthropic宣布与KPMG达成战略合作，将Claude部署至KPMG全球逾27.6万名员工的日常工作流，覆盖审计、咨询、税务等核心业务线，成为迄今最大规模的企业Claude落地案例"},
+        {"k":"为什么重要","v":"此前Anthropic还宣布与PwC（5月14日）合作、获Gates基金会2亿美元投资（5月13日）、推出Claude小企业版。企业侧订单密集落地，表明专业服务业已把AI助手视为基础设施，而非试验品"},
+        {"k":"对你的影响","v":"会计、咨询、法律等传统白领岗位的AI渗透率正在快速攀升；对IT从业者而言，能为企业搭建AI工作流的人才需求将持续爆发，熟悉Claude API和企业集成的工程师身价倍增"}
+      ],
+      "src": "📎 anthropic.com · infoworld.com"
+    },
+    {
+      "slug": "03-meta-145b-ai-capex-8000-layoffs",
+      "idx": "03",
+      "catText": "大厂博弈",
+      "accent": "#0082FB",
+      "bg": {"top":"#00245C","mid":"#003380","bot":"#001640","topRight":"#0055CC"},
+      "title": [{"text":"Meta："},{"text":"砸1450亿建AI基建，同步裁员8000人","hl":true}],
+      "oneline": [{"text":"押注AI的代价是"},{"text":"大规模重组——招聘、客服、内容审核岗全线收缩","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Meta将2026年资本开支上调至1250亿–1450亿美元，资金主要流向英伟达GPU采购和Llama模型生态；与此同时，公司将裁减约8000个职位，约占总员工的10%，主要波及招聘、客服和非AI产品团队"},
+        {"k":"为什么重要","v":"Meta的做法折射出整个科技行业的战略逻辑：将人力成本转化为算力投入。投资者已明确要求科技巨头提供AI商业化的回报时间表，「AI支出换增长」的故事必须被数字证明"},
+        {"k":"对你的影响","v":"对求职者而言，Meta及类似大厂的传统职能岗需求将持续萎缩；AI工程、基础设施和算法岗则迎来抢人潮。对于在IT行业求职的JR学员，主攻AI相关方向的优先级进一步提升"}
+      ],
+      "src": "📎 techrepublic.com · bingx.com"
+    },
+    {
+      "slug": "04-deepseek-50b-valuation-state-backed",
+      "idx": "04",
+      "catText": "融资估值",
+      "accent": "#20B2AA",
+      "bg": {"top":"#083B38","mid":"#0D4F4C","bot":"#052828","topRight":"#1A8C86"},
+      "title": [{"text":"DeepSeek估值飙至"},{"text":"500亿美元，国家队领投首轮融资","hl":true}],
+      "oneline": [{"text":"一个月内估值从200亿翻到500亿"},{"text":"，腾讯与「大基金三期」联手押注","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"据南华早报报道，DeepSeek即将完成首轮外部融资，估值升至500亿美元，投资方包括腾讯控股及隶属「中国集成电路产业投资基金三期（大基金三期）」的国家背景资本，较一个月前的200亿美元估值翻2.5倍"},
+        {"k":"为什么重要","v":"DeepSeek此前一直拒绝外部融资，此次融资的直接动因是留住被竞争对手挖角的研究员。国家队入场意味着中国政府将DeepSeek视为战略资产，进一步加码与美国AI实验室的竞争筹码"},
+        {"k":"对你的影响","v":"DeepSeek V4系列模型仍以开源形式提供，开发者可免费使用。国家资本介入后，DeepSeek的算力资源和研发投入将显著扩张，后续模型能力有望再次让全球同行「大吃一惊」"}
+      ],
+      "src": "📎 scmp.com · techcrunch.com"
+    },
+    {
+      "slug": "05-xai-grok-build-daily-release-notes",
+      "idx": "05",
+      "catText": "编程Agent",
+      "accent": "#9B59B6",
+      "bg": {"top":"#2E0B4A","mid":"#3D1260","bot":"#1E0730","topRight":"#7B3FA8"},
+      "title": [{"text":"xAI推出Grok Build："},{"text":"编程Agent每天发布更新日志","hl":true}],
+      "oneline": [{"text":"马斯克确认"},{"text":"Grok Build将以「每日迭代」节奏挑战Cursor和Claude Code","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"xAI发布编程Agent「Grok Build」，仅对每月300美元的SuperGrok Heavy订阅者开放早期测试；马斯克宣布将每日发布Build更新日志，首批功能包括代码审查、命令审批和多线程编程任务管理"},
+        {"k":"为什么重要","v":"Grok Build直接对标Cursor、Claude Code和GitHub Copilot，且承诺以远超行业惯例的「每日发布」节奏迭代。xAI在此时机入场，意在借助Grok 4.3的推理能力抢占高端开发者用户"},
+        {"k":"对你的影响","v":"AI编程工具市场竞争格局正在重塑：Cursor涨价、Claude Code按量计费、GitHub Copilot企业化，现在Grok Build加入混战。对开发者来说，工具越来越强大，但选择成本也越来越高"}
+      ],
+      "src": "📎 engadget.com · x.ai"
+    }
+  ],
+  "mp": { "title": "Google Gemini 3.5 Spark / Anthropic KPMG 27万人 / Meta 1450亿裁员 / DeepSeek 500亿估值 / Grok Build每日迭代" }
+}
