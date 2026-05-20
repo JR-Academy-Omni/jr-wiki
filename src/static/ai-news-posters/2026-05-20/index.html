@@ -1,0 +1,307 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-20T03:04:30.859Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-20（Canvas 版）</title>
+<meta name="description" content="2026-05-20 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-20.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-20",
+  "summary": {
+    "hook": [
+      "Google I/O 震撼开幕，",
+      "Gemini Omni 全模态登场"
+    ],
+    "sub": "同日 GPT-5.5 大减幻觉，DeepSeek 估值冲 500 亿，Grok Build 杀入编程 Agent 赛道",
+    "items": [
+      {
+        "num": "01",
+        "cat": "大模型",
+        "numColor": "#4285F4",
+        "t": "Google I/O：Gemini Omni 全模态 + Android 17 智能系统亮相"
+      },
+      {
+        "num": "02",
+        "cat": "产品更新",
+        "numColor": "#10a37f",
+        "t": "GPT-5.5 Instant：幻觉率降 50%，个性化记忆升级"
+      },
+      {
+        "num": "03",
+        "cat": "融资动态",
+        "numColor": "#FF6B35",
+        "t": "DeepSeek 首轮融资估值冲 500 亿美元，腾讯国家队入局"
+      },
+      {
+        "num": "04",
+        "cat": "AI 工具",
+        "numColor": "#1DA1F2",
+        "t": "xAI 发布 Grok Build 编程 Agent，正面叫板 Claude Code"
+      },
+      {
+        "num": "05",
+        "cat": "法律风险",
+        "numColor": "#0866FF",
+        "t": "五大出版商起诉 Meta，指控 Llama 用盗版书训练"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-google-io-gemini-omni",
+      "idx": "01",
+      "catText": "大模型发布",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#E8F0FE",
+        "mid": "#C2D7FF",
+        "bot": "#F8FBFF",
+        "topRight": "#AECBFA"
+      },
+      "title": [
+        {
+          "text": "Google I/O 2026："
+        },
+        {
+          "text": "Gemini Omni 全模态框架正式登场",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Google I/O 开幕首日，"
+        },
+        {
+          "text": "Gemini Omni 统一视频、图像、音频、文本四路处理",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google I/O 2026（5.19–20）发布 Gemini Omni 全模态框架，Android 17 被定义为「AI 智能系统」，Gemini Intelligence 带来浏览器自动填表与 AI 小组件"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Gemini Omni 对标 GPT-4o 的统一多模态层；Android 17 将端侧 AI 从插件升级为操作系统核心，Google 正在重新夺回移动 AI 入口"
+        },
+        {
+          "k": "对你的影响",
+          "v": "三星与 Pixel 用户今夏率先体验；AR 眼镜 Android XR 同步预览，AI 眼镜赛道加速"
+        }
+      ],
+      "src": "📎 androidcentral.com · androidauthority.com · techradar.com"
+    },
+    {
+      "slug": "02-gpt55-hallucination",
+      "idx": "02",
+      "catText": "产品更新",
+      "accent": "#10a37f",
+      "bg": {
+        "top": "#D4EDDA",
+        "mid": "#A8D5B5",
+        "bot": "#F0FAF3",
+        "topRight": "#84C99A"
+      },
+      "title": [
+        {
+          "text": "GPT-5.5 Instant："
+        },
+        {
+          "text": "高风险场景幻觉率降超 50%",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenAI 将 GPT-5.5 Instant 设为 ChatGPT 默认模型，"
+        },
+        {
+          "text": "减幻觉 + 深度整合 Gmail 等外部数据源",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "GPT-5.5 Instant 成 ChatGPT 默认模型，高风险场景幻觉降超 50%；可读取历史对话、上传文件、Gmail 等服务；Pro 用户新增个人理财仪表盘"
+        },
+        {
+          "k": "为什么重要",
+          "v": "幻觉是企业落地 AI 最大障碍；50% 降幅若经第三方验证，将是可信度里程碑，也会加速 AI Agent 在医疗法律等高风险领域商用"
+        },
+        {
+          "k": "对你的影响",
+          "v": "移动端 Codex 同步上线，随时审查 AI 编程进度；理财功能目前限美国 iOS/Web 用户"
+        }
+      ],
+      "src": "📎 releasebot.io · marketingprofs.com · llm-stats.com"
+    },
+    {
+      "slug": "03-deepseek-50b-valuation",
+      "idx": "03",
+      "catText": "融资动态",
+      "accent": "#FF6B35",
+      "bg": {
+        "top": "#FFF0E8",
+        "mid": "#FFCBA8",
+        "bot": "#FFF8F5",
+        "topRight": "#FFB899"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 首轮融资："
+        },
+        {
+          "text": "估值冲 500 亿，腾讯 + 国家队入局",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "DeepSeek 即将完成史上首轮外部融资，"
+        },
+        {
+          "text": "估值 400–500 亿美元，三周内翻 5 倍",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 首轮融资即将收官，估值达 400–500 亿美元，参与方含腾讯及「大基金三期」；创始人梁文锋多年拒绝外部资金，此次打破惯例"
+        },
+        {
+          "k": "为什么重要",
+          "v": "国资主导表明中国将 AI 基础模型列为战略资产；估值三周从 100 亿涨至 500 亿，映射全球对中国 AI 竞争力的重新定价"
+        },
+        {
+          "k": "对你的影响",
+          "v": "国资入主或加速算力扩张，同时带来海外合规新变量；中美 AI 竞争格局趋向国家化主导"
+        }
+      ],
+      "src": "📎 scmp.com · techcrunch.com · fortune.com"
+    },
+    {
+      "slug": "04-xai-grok-build",
+      "idx": "04",
+      "catText": "AI 工具",
+      "accent": "#1DA1F2",
+      "bg": {
+        "top": "#E8F4FC",
+        "mid": "#BFE0F7",
+        "bot": "#F5FAFE",
+        "topRight": "#9ACEF2"
+      },
+      "title": [
+        {
+          "text": "xAI 发布 Grok Build："
+        },
+        {
+          "text": "编程 Agent 正面叫板 Claude Code",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "xAI 推出 Grok Build 编程 Agent，"
+        },
+        {
+          "text": "早期 Beta 仅向 SuperGrok Heavy（月费 $300）开放",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 发布 Grok Build，定位与 Claude Code、GitHub Copilot Workspace 竞争；同期 Grok 4.20 上线 200 万 token 上下文，并推出企业工作区连接器"
+        },
+        {
+          "k": "为什么重要",
+          "v": "编程 Agent 赛道已有 OpenAI Codex、Claude Code、Cursor；Grok Build 入局让「AI 写代码」从两强争霸变成多方混战，创投热度再提升"
+        },
+        {
+          "k": "对你的影响",
+          "v": "$300/月 高门槛短期仅面向专业开发者；多平台竞争长远利好开发者议价能力与工具多样性"
+        }
+      ],
+      "src": "📎 engadget.com · releasebot.io · japantimes.co.jp"
+    },
+    {
+      "slug": "05-meta-publishers-lawsuit",
+      "idx": "05",
+      "catText": "法律风险",
+      "accent": "#0866FF",
+      "bg": {
+        "top": "#E7F0FF",
+        "mid": "#BDD5FF",
+        "bot": "#F5F8FF",
+        "topRight": "#93BAFF"
+      },
+      "title": [
+        {
+          "text": "五大出版商集体起诉 Meta："
+        },
+        {
+          "text": "Llama 被指用数百万盗版书训练",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Elsevier、Hachette 等联手在曼哈顿联邦法院起诉，"
+        },
+        {
+          "text": "这是继 NYT 诉 OpenAI 后规模最大的 AI 版权案",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "2026 年 5 月 5 日，Elsevier、Cengage、Hachette、Macmillan、McGraw-Hill 及作家 Scott Turow 在纽约联邦法院对 Meta 提起版权集体诉讼"
+        },
+        {
+          "k": "为什么重要",
+          "v": "若胜诉将迫使业界重新谈判训练数据授权；继 NYT 案后，学术与教育出版商全面跟进，AI 训练数据合规成本将大幅抬升"
+        },
+        {
+          "k": "对你的影响",
+          "v": "企业采购 AI 工具需评估供应商版权风险敞口；开源模型厂商法律压力上升，可能影响 Llama 系列后续版本开放策略"
+        }
+      ],
+      "src": "📎 thenextweb.com · digitimes.com"
+    }
+  ],
+  "mp": {
+    "title": "Google I/O Gemini Omni / GPT-5.5 减幻觉 / DeepSeek 500亿 / Grok Build / Meta 出版商诉讼"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-20"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>
