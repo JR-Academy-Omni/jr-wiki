@@ -10,7 +10,7 @@ tags:
 author: "JR Academy 大学日报"
 keywords: "昆士兰大学, University of Queensland, UQ, 澳洲留学, 大学新闻, 奖学金, 校园动态"
 ---
-<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-20T23:43:26.324Z -->
+<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-21T23:47:34.401Z -->
 
 > 学校：**昆士兰大学 / University of Queensland**
 > 日期：**2026-05-10**
