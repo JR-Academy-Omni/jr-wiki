@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-20T23:43:23.205Z",
+  "lockedAt": "2026-05-21T01:11:44.741Z",
   "version": 1,
   "slugs": [
     {
@@ -953,6 +953,16 @@
       "type": "chapter",
       "book": "crewai-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "crewai-guide",
+      "slug": "06-testing-debugging"
+    },
+    {
+      "type": "chapter",
+      "book": "crewai-guide",
+      "slug": "07-production-deployment"
     },
     {
       "type": "chapter",
