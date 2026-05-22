@@ -96,7 +96,7 @@ export function writeWithMarker(
 	options?: { markdownMarkerPosition?: 'top' | 'after-frontmatter' },
 ): void {
 	mkdirSync(dirname(outputPath), { recursive: true });
-	const marker = `${GENERATED_MARKER}${pipelineName}.pipeline.ts 自动生成 · ${new Date().toISOString()}`;
+	const marker = `${GENERATED_MARKER}${pipelineName}.pipeline.ts 自动生成`;
 	let withMarker = content;
 	if (outputPath.endsWith('.html')) {
 		// Insert marker as HTML comment after <!doctype>
