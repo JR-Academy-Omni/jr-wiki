@@ -1,0 +1,310 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-21T23:47:34.351Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-22（Canvas 版）</title>
+<meta name="description" content="2026-05-22 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-22.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-22",
+  "summary": {
+    "hook": [
+      "马斯克败诉 OpenAI",
+      " · ",
+      "Mythos 扫出零日漏洞",
+      " · ",
+      "特朗普拟签 AI 行政令"
+    ],
+    "sub": "教皇首份 AI 通谕 · Gemini 3.5 Flash 正式 GA",
+    "items": [
+      {
+        "num": "01",
+        "cat": "法庭裁决",
+        "numColor": "#10A37F",
+        "t": "陪审团不足两小时驳回马斯克诉 OpenAI 全部诉求"
+      },
+      {
+        "num": "02",
+        "cat": "AI 安全",
+        "numColor": "#C0392B",
+        "t": "Anthropic Mythos 在每个主流 OS 和浏览器发现数千零日漏洞"
+      },
+      {
+        "num": "03",
+        "cat": "政策监管",
+        "numColor": "#2962B2",
+        "t": "特朗普政府拟签行政令要求 AI 公司提前 90 天共享新模型"
+      },
+      {
+        "num": "04",
+        "cat": "科技与信仰",
+        "numColor": "#B8860B",
+        "t": "教皇 Leo XIV 将发布首份 AI 通谕「壮丽的人性」"
+      },
+      {
+        "num": "05",
+        "cat": "模型定价",
+        "numColor": "#4285F4",
+        "t": "Gemini 3.5 Flash 正式 GA：$1.5/百万 Token 速度领跑同级"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-musk-loses-openai-lawsuit-verdict",
+      "idx": "01",
+      "catText": "法庭裁决",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#0A3D2E",
+        "mid": "#0D5240",
+        "bot": "#063326",
+        "topRight": "#1A8A6E"
+      },
+      "title": [
+        {
+          "text": "马斯克诉 OpenAI："
+        },
+        {
+          "text": "陪审团不足两小时驳回全部诉求",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "「日历上的技术性失误」——"
+        },
+        {
+          "text": "马斯克被裁定超过诉讼时效，称将上诉至第九巡回法院",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "5月18日，加利福尼亚联邦陪审团以不足两小时的审议，一致驳回马斯克针对 OpenAI 和 CEO Sam Altman 的全部诉求。法官裁定马斯克的起诉超过诉讼时效——他等了太久才提诉。同日，陪审团还驳回了马斯克指控微软协助 Altman 违反受托义务的诉求"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这场诉讼始于马斯克对 OpenAI「背叛非营利使命、转向商业化」的指控，被外界视为科技行业最引人关注的诉讼之一。败诉意味着马斯克的「OpenAI违约」叙事在法庭上被正式否定，OpenAI 的 IPO 路线图和微软的持股地位不再受到法律威胁"
+        },
+        {
+          "k": "对你的影响",
+          "v": "马斯克已发帖称此判决是「日历上的技术性失误」并宣布上诉，后续还有第九巡回法院的审理。对开发者而言，OpenAI 与 xAI 之间的竞争将转回产品和模型战场，而非法庭。Grok 4.3 对阵 GPT-5.5 的较量继续"
+        }
+      ],
+      "src": "📎 cnbc.com · npr.org · axios.com"
+    },
+    {
+      "slug": "02-anthropic-mythos-zero-day-vulnerabilities",
+      "idx": "02",
+      "catText": "AI 安全",
+      "accent": "#C0392B",
+      "bg": {
+        "top": "#4A0A0A",
+        "mid": "#6B1010",
+        "bot": "#2E0606",
+        "topRight": "#A02020"
+      },
+      "title": [
+        {
+          "text": "Anthropic Mythos："
+        },
+        {
+          "text": "在每个主流 OS 和浏览器发现数千零日漏洞",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "89% 的漏洞评级被专家认可——"
+        },
+        {
+          "text": "Anthropic 承诺 1 亿美元「Project Glasswing」先修复再公开",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 旗下高能力模型 Claude Mythos Preview 在测试中识别出每个主流操作系统（Windows/macOS/Linux）及每款主流浏览器中数千个此前未知的零日漏洞，其中大量属于高危级别。在人工审核的198份报告中，89% 的严重性评级与安全专家完全一致，98% 相差不超过一级"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是迄今最具说服力的「AI 已超越人类安全研究员」的公开案例。Mythos 的出现直接触发特朗普政府重新审视 AI 监管立场（见第3条），英格兰银行行长 Andrew Bailey 也紧急约见 Anthropic。OpenAI 随即宣布推出 GPT-5.5-Cyber 向网络安全团队限量开放"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Anthropic 通过「Project Glasswing」将 Mythos Preview 限量开放给关键行业合作伙伴和开源开发者，并配套 1 亿美元使用额度 + 400 万美元捐款。对网络安全从业者而言，AI 辅助漏洞挖掘将成为标准工具；对普通开发者而言，软件安全标准将在 12 个月内大幅提升"
+        }
+      ],
+      "src": "📎 red.anthropic.com · restofworld.org · weforum.org"
+    },
+    {
+      "slug": "03-trump-ai-executive-order-90-day-review",
+      "idx": "03",
+      "catText": "政策监管",
+      "accent": "#2962B2",
+      "bg": {
+        "top": "#0D1F4A",
+        "mid": "#152B6E",
+        "bot": "#080F30",
+        "topRight": "#1E4DA8"
+      },
+      "title": [
+        {
+          "text": "特朗普政府："
+        },
+        {
+          "text": "拟签行政令要求 AI 公司提前 90 天共享新模型",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "从「不监管」到「先审后发」——"
+        },
+        {
+          "text": "Mythos 零日漏洞成为白宫政策转向的直接导火索",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "5月20日，Axios 和 CNN 披露，白宫最快于当周签署一份 AI 安全行政令，要求 AI 开发商在发布新前沿模型前提前共享给政府，审查期方案包括 90 天版本和企业偏好的 14 天版本。行政令同时要求加强 AI 模型的网络安全防护"
+        },
+        {
+          "k": "为什么重要",
+          "v": "此前特朗普政府一贯反对 AI 监管、撤销拜登时代的 AI 安全行政令。此次 180 度转变的直接触发点是 Anthropic Mythos 展示的漏洞挖掘能力——令白宫意识到 AI 已成为真实国家安全威胁。这是自 2023 年拜登 EO 以来美国政府对 AI 行业最重要的政策信号"
+        },
+        {
+          "k": "对你的影响",
+          "v": "若行政令正式落地，OpenAI、Google、Anthropic 等公司每次推出重大模型都需提前 14-90 天向政府汇报。对 AI 创业公司影响相对较小；对顶级实验室而言，合规成本和发布节奏将受到影响。中国同步推进 AI 立法，全球 AI 监管竞赛正式开启"
+        }
+      ],
+      "src": "📎 axios.com · cnn.com · fortune.com"
+    },
+    {
+      "slug": "04-pope-leo-xiv-ai-encyclical-magnifica-humanitas",
+      "idx": "04",
+      "catText": "科技与信仰",
+      "accent": "#B8860B",
+      "bg": {
+        "top": "#2A1A04",
+        "mid": "#3D2708",
+        "bot": "#1A1002",
+        "topRight": "#8A6410"
+      },
+      "title": [
+        {
+          "text": "教皇 Leo XIV 将发布："
+        },
+        {
+          "text": "首份 AI 通谕「壮丽的人性」",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "5月25日，教皇将与"
+        },
+        {
+          "text": "Anthropic 联合创始人 Christopher Olah 共同发表梵蒂冈 AI 伦理文件",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "梵蒂冈宣布，教皇 Leo XIV 将于5月25日发布其就任以来的首份通谕，题为《Magnifica Humanitas》（壮丽的人性），主题聚焦人工智能对人类尊严与社会结构的影响。发布仪式将与 Anthropic 联合创始人、「可解释性研究」奠基人 Christopher Olah 共同举行"
+        },
+        {
+          "k": "为什么重要",
+          "v": "通谕是天主教最高级别的教义文件，通常具有数百年影响力。Anthropic 联合创始人参与发布仪式，标志着硅谷前沿 AI 实验室与全球最大宗教机构的首次正式对话，也是继「AI 安全」话题走进政府、金融、立法之后，进入神学领域的里程碑"
+        },
+        {
+          "k": "对你的影响",
+          "v": "通谕预计将呼吁 AI 开发遵循「人的尊严优先」原则，并可能推动欧洲和拉丁美洲国家在 AI 伦理立法中引入更强的人文保护条款。对于在澳洲从事 IT 工作的你而言，AI 伦理合规正在成为企业治理的必选项，了解这一话语体系对职场发展有益"
+        }
+      ],
+      "src": "📎 buildfastwithai.com · simonwillison.net"
+    },
+    {
+      "slug": "05-gemini-35-flash-ga-pricing",
+      "idx": "05",
+      "catText": "模型定价",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#0D2A6B",
+        "mid": "#143A90",
+        "bot": "#081840",
+        "topRight": "#2460D0"
+      },
+      "title": [
+        {
+          "text": "Gemini 3.5 Flash 正式 GA："
+        },
+        {
+          "text": "$1.5/百万 Token，速度领跑同级",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "谷歌 I/O 发布后快速 GA——"
+        },
+        {
+          "text": "比同级竞品快 4 倍，Terminal-Bench 2.1 得分 76.2%",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google I/O 2026 发布后，Gemini 3.5 Flash 即日正式向 GA（全面可用）阶段，定价输入 $1.50、输出 $9.00（每百万 Token），支持 100 万 Token 上下文窗口。在 Terminal-Bench 2.1 基准上得分 76.2%，超越 Gemini 3.1 Pro，在代码和 Agent 任务上表现突出"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Gemini 3.5 Flash 的发布将「前沿级智能 + 极速推理」的组合带到了极低价格档位。$1.5/百万 Token 与 GPT-5.5 Instant 和 Claude Sonnet 直接竞争，且谷歌承诺 Flash 将成为所有谷歌产品和 Gemini App 的默认模型，意味着极大的流量分发优势"
+        },
+        {
+          "k": "对你的影响",
+          "v": "对开发者而言，Gemini 3.5 Flash 通过 Google AI Studio 和 Vertex AI 均可调用，100 万 Token 上下文让长文档处理成本大幅下降。如果你正在选择 AI API 供应商，Flash + Gemini Spark Agent 框架值得纳入对比；Antigravity 平台也同步开放，可快速构建跨 Google Workspace 的 Agent"
+        }
+      ],
+      "src": "📎 cnbc.com · developers.googleblog.com · buildfastwithai.com"
+    }
+  ],
+  "mp": {
+    "title": "马斯克败诉 OpenAI / Mythos 发现零日漏洞 / 特朗普 AI 行政令 / 教皇 AI 通谕 / Gemini Flash 定价"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-22"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>
