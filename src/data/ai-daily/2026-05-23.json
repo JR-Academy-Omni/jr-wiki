@@ -1,0 +1,275 @@
+{
+  "date": "2026-05-23",
+  "summary": {
+    "hook": [
+      "DeepSeek 宣告 AGI 目标",
+      " · ",
+      "Gemini Omni 全模态登场",
+      " · ",
+      "Grok Build 拿下华尔街"
+    ],
+    "sub": "百亿融资 · 多模态突破 · 编程 Agent 开战 · Meta 裁 8000 人押注千亿 AI",
+    "items": [
+      {
+        "num": "01",
+        "cat": "融资估值",
+        "numColor": "#00C853",
+        "t": "DeepSeek 创始人宣言 AGI，百亿美元融资腾讯国资跟投估值冲 500 亿"
+      },
+      {
+        "num": "02",
+        "cat": "模型发布",
+        "numColor": "#4285F4",
+        "t": "Gemini Omni 亮相 Google I/O：从任意输入生成视频，3.5 Flash 比竞品快 4 倍"
+      },
+      {
+        "num": "03",
+        "cat": "编程 Agent",
+        "numColor": "#1DA1F2",
+        "t": "xAI 推出 Grok Build 编程 Agent，高盛摩根士丹利开始内测"
+      },
+      {
+        "num": "04",
+        "cat": "裁员战略",
+        "numColor": "#0467DF",
+        "t": "Meta 裁 8000 人同时押注千亿 AI，AI 超智能实验室接管全线产品"
+      },
+      {
+        "num": "05",
+        "cat": "中国 AI",
+        "numColor": "#FF6600",
+        "t": "阿里 Qoder 1.0 上线：写完需求 Agent 自动开发验收交付"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-deepseek-10b-agi-declaration",
+      "idx": "01",
+      "catText": "融资估值",
+      "accent": "#00C853",
+      "bg": {
+        "top": "#0A2E14",
+        "mid": "#0F4020",
+        "bot": "#062010",
+        "topRight": "#1A7A3A"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 创始人宣告 AGI 目标："
+        },
+        {
+          "text": "百亿美元融资腾讯国资跟投，估值逼 500 亿",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "梁文锋向投资人承诺——"
+        },
+        {
+          "text": "坚持开源路线同时全力冲 AGI，短期商业化让位",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "5月22日彭博社独家：DeepSeek 正在推进 700 亿元人民币（约100亿美元）首轮外部融资，创始人梁文锋在投资人会议上明确宣告「实现通用人工智能」为首要目标，并承诺将持续开源模型、短期商业化让位于研究突破。腾讯和「大基金三期」旗下 AI 关联机构均参与本轮，估值有望达到 500 亿美元"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 DeepSeek 成立以来首次接受外部融资，标志着原本「低调纯研究」的路线出现重大转折。腾讯入股不仅带来资金，更意味着分发渠道和算力的协同；国资背景的「大基金三期」入场则释放出明确信号：DeepSeek 已被定位为国家 AI 战略核心资产，与 OpenAI 之争从模型层上升至地缘科技竞争层"
+        },
+        {
+          "k": "对你的影响",
+          "v": "DeepSeek V4-Pro 在数学和代码基准上已超越多数开源模型，若本轮融资落地，算力和团队规模将大幅提升，未来 12 个月内极可能推出与 GPT-5.5 / Gemini 3.1 正面竞争的闭源旗舰版。对使用 DeepSeek API 的开发者而言，定价优势短期内不会消失，但长期开源策略存在变数"
+        }
+      ],
+      "src": "📎 bloomberg.com · techcrunch.com · scmp.com"
+    },
+    {
+      "slug": "02-google-io-gemini-omni-35-flash",
+      "idx": "02",
+      "catText": "模型发布",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#0D244A",
+        "mid": "#143570",
+        "bot": "#08162E",
+        "topRight": "#2060C0"
+      },
+      "title": [
+        {
+          "text": "Google I/O 2026："
+        },
+        {
+          "text": "Gemini Omni 从任意输入生成视频，3.5 Flash 速度领跑 4 倍",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Antigravity 2.0 Agent 平台同步亮相——"
+        },
+        {
+          "text": "谷歌押注「Agentic AI」全线替代传统软件工作流",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google I/O 2026 主题演讲中，Sundar Pichai 发布 Gemini Omni：一个可接受视频、图像、文字、音频任意组合为输入并生成对应格式输出的旗舰模型，已向 Google AI Plus / Pro / Ultra 订阅用户全球开放。同时发布 Gemini 3.5 Flash——声称推理速度是竞品前沿模型的 4 倍，主打长程 Agent 编码任务"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Gemini Omni 是谷歌首次将「世界模型」概念落地产品——它不仅理解视频内容，还能对视频进行语义编辑和生成。Gemini 3.5 Flash 在 Terminal-Bench 等 Agent 基准上超越 GPT-5.5 Instant，表明谷歌「慢热但爆发」的产品节奏正在追平 OpenAI。Antigravity 2.0 平台则瞄准开发者，主打无代码 Agent 构建"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Gemini 3.5 Flash 已在 Google AI Studio 和 Vertex AI 开放，100 万 Token 上下文加持使长文档 RAG 成本骤降。对澳洲 IT 求职者而言，掌握 Vertex AI Agent Builder 正在成为简历加分项；对内容创作者而言，Gemini Omni 的视频编辑能力将在未来几周内对小红书、YouTube 等平台的内容生产方式产生冲击"
+        }
+      ],
+      "src": "📎 blog.google · cybernews.com · developers.googleblog.com"
+    },
+    {
+      "slug": "03-xai-grok-build-coding-agent",
+      "idx": "03",
+      "catText": "编程 Agent",
+      "accent": "#1DA1F2",
+      "bg": {
+        "top": "#061830",
+        "mid": "#0A2448",
+        "bot": "#030C1C",
+        "topRight": "#1050A0"
+      },
+      "title": [
+        {
+          "text": "xAI 推出 Grok Build："
+        },
+        {
+          "text": "专业编程 Agent 上线，高盛摩根士丹利内测 Grok",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "$300/月 SuperGrok Heavy 先享——"
+        },
+        {
+          "text": "华尔街两大巨头与 GitHub Copilot 和 Cursor 展开直接角力",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 发布 Grok Build，定位为面向专业软件工程的编程 Agent 和 CLI 工具，当前处于 Early Beta 阶段，向每月 $300 的 SuperGrok Heavy 订阅用户开放。与此同时，The Japan Times 报道高盛和摩根士丹利已开始在内部测试 Grok，Apollo Global Management 也加入测试行列。xAI 承诺每日发布 Grok Build 更新日志"
+        },
+        {
+          "k": "为什么重要",
+          "v": "华尔街金融机构历来对 AI 工具有严格的数据安全要求，高盛和摩根士丹利愿意内测 Grok，意味着 xAI 在企业合规和私有化部署上取得实质进展。Grok Build 与 GitHub Copilot、Cursor、Claude Code 直接竞争，xAI 的差异化在于与 X 平台实时数据的整合——这是其他编程 Agent 不具备的能力"
+        },
+        {
+          "k": "对你的影响",
+          "v": "如果你在用 Cursor 或 GitHub Copilot，Grok Build 值得关注——尤其是其对金融数据和 X 实时信息的接入能力。短期内 $300/月 的门槛较高，但竞争压力将推动 Cursor 等产品加速迭代。对准备进入金融科技行业的 JR 学员而言，了解 Grok 在华尔街的应用场景将有助于面试加分"
+        }
+      ],
+      "src": "📎 engadget.com · japantimes.co.jp · x.ai"
+    },
+    {
+      "slug": "04-meta-8000-layoffs-145b-ai-push",
+      "idx": "04",
+      "catText": "裁员战略",
+      "accent": "#0467DF",
+      "bg": {
+        "top": "#041840",
+        "mid": "#082260",
+        "bot": "#021028",
+        "topRight": "#0E44B0"
+      },
+      "title": [
+        {
+          "text": "Meta 裁 8000 人同时砸千亿："
+        },
+        {
+          "text": "AI 超智能实验室接管全线产品线",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "「不裁就无法赢得 AI 竞赛」——"
+        },
+        {
+          "text": "Alexandr Wang 主导超智能实验室，6000 个岗位将长期空缺",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Meta 宣布在本周内完成新一轮裁员，预计削减约 8000 个岗位（约占总员工数 10%），同时留下 6000 个职位空缺不填，并将剩余团队整合进以 AI 为中心的「超智能实验室（Superintelligence Labs）」，由前 Scale AI CEO Alexandr Wang 领导。与此同时，Meta 上调 2026 年资本支出指引至 1250 亿–1450 亿美元，大部分用于 Nvidia GPU 和 AI 基础设施"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是科技行业「裁人投 AI」最激进的案例之一。Meta 的逻辑是：AI Agent 可以完成被裁员工的工作，将节省的人力成本重新投入算力和模型研发。1250 亿美元资本支出意味着 Meta 今年将成为全球最大算力买家之一，与微软、谷歌并列。这种「以 AI 替代人力再投入 AI」的飞轮逻辑若成立，将从根本上改变科技公司的人才结构"
+        },
+        {
+          "k": "对你的影响",
+          "v": "对 IT 求职者而言，Meta 的大规模裁员叠加 AI 扩张释放了一个清晰信号：传统软件工程岗位加速萎缩，AI 工程 / MLOps / Agent 架构方向的需求则爆发。对在澳洲求职的 JR 学员而言，掌握 Llama 4 系列模型的微调和部署技能，比争夺日益稀少的传统开发岗位更有战略价值"
+        }
+      ],
+      "src": "📎 techrepublic.com · bingx.com · digitimes.com"
+    },
+    {
+      "slug": "05-alibaba-qoder-1-autonomous-dev",
+      "idx": "05",
+      "catText": "中国 AI",
+      "accent": "#FF6600",
+      "bg": {
+        "top": "#301000",
+        "mid": "#4A1800",
+        "bot": "#1C0800",
+        "topRight": "#A03800"
+      },
+      "title": [
+        {
+          "text": "阿里 Qoder 1.0 上线："
+        },
+        {
+          "text": "从 AI IDE 进化为自主开发 Agent，需求说完全程自动",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "从「辅助写代码」到「替你写代码」——"
+        },
+        {
+          "text": "Agent 团队自驱完成执行、验证、交付全流程",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "阿里云发布 Qoder 1.0，从 AI IDE（辅助编程工具）升级为「智能 Agent 自主开发工作台」：用户只需定义需求，Qoder 内置的 Agent 团队可自主完成代码生成、测试验证、问题修复和最终交付。同日，百度也发布文心 5.1，以仅 6% 的业界预训练成本，在国内 LMArena 搜索排行上超越 DeepSeek V4-Pro"
+        },
+        {
+          "k": "为什么重要",
+          "v": "阿里的 Qoder 1.0 和 GitHub Copilot Workspace、Devin、Claude Code 瞄准同一个市场——让 AI 从「代码补全工具」演进为「完整软件工程 Agent」。区别在于 Qoder 深度集成阿里云生态，对于已在使用阿里云的企业客户而言，迁移成本极低。国产自主开发 Agent 的崛起意味着编程 Agent 的价格战将在中国市场率先打响"
+        },
+        {
+          "k": "对你的影响",
+          "v": "如果你在学 Python / Java 开发，Qoder 和同类 Agent 工具正在让初级编码工作加速自动化。在澳洲求职市场，会「指挥 AI 开发」（即 Prompt Engineering + Agent 调度 + Code Review）的工程师比「只会写代码」的候选人更受欢迎。尽早掌握 Qoder / Claude Code / GitHub Copilot Workspace 等工具，是当前最性价比高的技能投资"
+        }
+      ],
+      "src": "📎 qbitai.com · qbitai.com"
+    }
+  ],
+  "mp": {
+    "title": "DeepSeek 宣 AGI / Gemini Omni 多模态 / Grok Build 上线 / Meta 裁 8000 人 / 阿里 Qoder 全自动"
+  }
+}
