@@ -10,7 +10,7 @@ tags:
 author: "JR Academy 大学日报"
 keywords: "新南威尔士大学, UNSW Sydney, UNSW, 澳洲留学, 大学新闻, 奖学金, 校园动态"
 ---
-<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-21T23:47:34.376Z -->
+<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-22T02:14:31.742Z -->
 
 > 学校：**新南威尔士大学 / UNSW Sydney**
 > 日期：**2026-05-20**

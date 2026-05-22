@@ -62,6 +62,23 @@ fi
 - 在 schedule 路径里加 ANU/RMIT/UTS/UWA 选项
 - 在自动逻辑里"轮换"/"周日跑边缘校" —— 这条规则之前在 memory 里是错的，2026-04-24 已纠正
 
+### 🚨🚨🚨 Step 0.5. 反幻觉硬规则（2026-05-22 真翻车后立的铁律）
+
+**事故回放**：2026-05-18 UQ 这条把 Science International Scholarship 写成"自动评估、10%-25% 学费减免按学术成绩分档"——**全是编的**。官方原文是"需要单独提交 personal statement，AUD $5,000 一次性减免（仅 1 学期）"。Agent 看到截止日期就开始按"UQ 其他奖学金的常见套路"猜申请方式和金额，**根本没打开 scholarships.uq.edu.au 那个 URL**。这种内容真发出去 = 误导学生申请 = 砸 JR Academy 的招牌。
+
+**铁律**（违反一条直接 `exit 1`，**不准用"我推测/通常来说/一般而言"绕过**）：
+
+1. **任何"金额/学费/百分比/分档/天数/GPA 门槛/IELTS 分数/申请方式/材料清单/课程时长/资格要求"**——这些**事实性细节**必须满足：
+   - 已在官方 source URL（`{校}.edu.au` / `scholarships.{校}.edu.au` / `study.{校}.edu.au` / `handbook.{校}.edu.au` / 等官方域名）上**用 WebFetch 真打开过**
+   - 在 JSON 的 `news[i].sourceQuote` 字段里**贴出官方原句（首选英文原文）**作为证据
+   - 没有原文证据的细节 = **删掉这句**，不允许"按常见模式猜"
+2. **禁止从校外信息源（小红书 / 知乎 / 留学中介公众号 / 中文留学媒体）提取事实细节**。这些只能用来"发现选题"，**不能当 source quote**。最终事实必须回到学校官方域名核对。
+3. **xhsCopy / drafts 里的"小纠结/个人判断/我也在犹豫"**只能用在"我在纠结申 A 还是 B" / "备考节奏怎么排" 这种**主观学习选择**上，**严禁**用在"申请方式/金额/资格/截止细节"等**事实陈述**上。具体说：
+   - ✅ 允许："我猜大家最关心的是 GPA 能拿到哪档"——这是**问问题**
+   - ❌ 禁止："减免范围是 10%-25% 学费，按学术成绩分档"——这是**断言**，必须 sourceQuote 兜底
+   - ❌ 禁止："不需要单独申请，系统自动评估"——同上
+4. **`description` / `lead` / `h2Sub` 这些摘要字段**禁止出现没在 `bullets` 里有 sourceQuote 支撑的事实陈述。摘要只能复述已有证据的内容，不能"补充"新事实。
+
 ### Step 1. 为每校搜 2-3 轮真实新闻（并发）
 
 重点搜每校官方新闻源 + 中文留学媒体的当周报道：
@@ -107,6 +124,7 @@ universityNameCn: "{中文名}"
 - `school` 必须是 10 校枚举之一（pipeline 据此从 `uni-brand.v1.json` 取 brand color）
 - `summary / news / quickview / xhsCopy` **全部必填**
 - `news` 2-4 条
+- `news[i].sourceQuote` **奖学金/招生/学费/课程/签证类新闻必填**（贴官方原句，**首选英文原文**）；只要 `news[i].category` 命中 `奖学金 / 招生 / 学费 / 课程 / 签证 / 学位` 任一关键词，没填 sourceQuote = Step 5 自检直接 `exit 1`
 - `quickview.items` 2-4 条
 - `xhsCopy.p1~p5` **5 张 copy 全都要**（title + body + tags）
 - **`mp.title` 禁止加 `｜{校名}日报` 后缀**（2026-04-22 运营决议）
@@ -154,6 +172,22 @@ for s in $SCHOOLS; do
   # 3. mp.title 禁 ｜{校}日报 后缀
   jq -r '.mp.title // ""' $F | grep -qE '｜.*日报|\| .*日报' && { echo "❌ mp.title 违规"; exit 1; } || true
 
+  # 3.5. 反幻觉 gate · 奖学金/招生/学费/课程/签证/学位类必须有 sourceQuote
+  #     违反硬规则的常见话术：自动评估 / 无需单独申请 / 自动参评 / 按 GPA 分档 / 10%-25% 学费减免（无 sourceQuote）
+  jq -r '.news[] | select(.category | test("奖学金|招生|学费|课程|签证|学位")) | "\(.category)|\(.sourceQuote // "")|\(.sourceUrl // "")"' $F | \
+  while IFS='|' read -r cat quote url; do
+    [ -n "$quote" ] || { echo "❌ news.category=$cat 缺 sourceQuote · agent 没读官方原文就编细节"; exit 1; }
+    [ -n "$url" ] && [[ "$url" == *".edu.au"* ]] || { echo "❌ news.category=$cat 的 sourceUrl 不是 *.edu.au 官方域名: $url"; exit 1; }
+  done
+
+  # 3.6. 反幻觉 gate · description / lead / h2Sub 不准出现"必命中 sourceQuote 的事实词" 但 sourceQuote 没出现
+  for fact_kw in "自动评估" "自动参评" "无需单独申请" "无需单独填表"; do
+    if jq -r '.. | .description? // .lead? // .h2Sub? // empty | strings' $F 2>/dev/null | grep -qF "$fact_kw"; then
+      jq -e --arg kw "$fact_kw" '[.news[].sourceQuote // ""] | join(" ") | contains($kw) or test("automatically assess|no separate application|automatically considered"; "i")' $F >/dev/null \
+        || { echo "❌ 摘要里出现「$fact_kw」但 sourceQuote 没有官方原文兜底 · 这种事实陈述必须有原文证据"; exit 1; }
+    fi
+  done
+
   # 4. pipeline 渲染（必跑 · 不跑 = 缺海报/mp/blog md）
   bun run build:uni-news ${DATE} $s || { echo "❌ pipeline 失败 $s"; exit 1; }
 
@@ -193,9 +227,20 @@ src/content/articles/uni-news-{school}-{DATE}.md             ← 官网 /blog/ m
 1. 第一人称 + 具体时间线（"上周 04-18 官网发的" > "近期"）
 2. 段落长短参差（1-2 句短段 + 4-5 句长段交替）
 3. emoji 克制（1-2 段插 1 个，不要每句都挂）
-4. 有小纠结 / 个人判断（"我也在犹豫申 A 还是 B"）
+4. 有小纠结 / 个人判断（"我也在犹豫申 A 还是 B"）—— **只能用在自己的学习选择上**（选什么专业 / 备考节奏 / 申几个学校），**严禁**用在事实陈述（"减免范围 10%-25%"/"自动评估资格"）上。事实必须 = sourceQuote 原文复述
 5. 结尾互动句（"有同样在申请的姐妹扣 1"）
 6. 标题 ≤22 字（含 emoji 算字数）
+
+### 🚨 事实 vs 感受切分
+xhsCopy / drafts 写之前心里把每句话归类：
+
+| 这句话是 | 来源必须是 | 允许的口吻 |
+|---|---|---|
+| 事实陈述（金额/百分比/资格/截止日/材料清单） | `news[i].sourceQuote` 原文 | 平铺直叙，**不准加"我猜/通常/一般来说"** |
+| 主观选择（专业纠结、备考节奏） | 自己编 | 第一人称小纠结都行 |
+| 行动建议（什么时候提交、怎么排进度） | 不需要 source | 可以自由发挥 |
+
+写完每段问自己：**"这句话如果错了，会不会让学生申错奖学金 / 错过截止 / 多花钱？"** 是 → 必须 sourceQuote 兜底；否 → 自由发挥可以。
 
 ## 🔗 参考
 

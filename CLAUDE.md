@@ -4,6 +4,46 @@ JR Academy Headless 内容仓库。Markdown 存 GitHub，元数据存 MongoDB，
 
 ---
 
+## 🚨🚨🚨 反幻觉硬规则（2026-05-22 真翻车后立的 — 所有内容生成 skill 共用）
+
+**事故**：2026-05-18 自动跑的 UQ 大学新闻日报把 Science International Scholarship 写成"自动评估、10%-25% 学费减免分档"——**全是 agent 按"UQ 其他奖学金常见套路"猜的**，官方原文是"需 personal statement 单独申请、AUD $5,000 一次性减免（只 1 学期）"。文章已经发到公众号，造成实质性的误导留学生申请。
+
+**铁律**（适用于 jr-wiki 所有内容生成 skill：`/uni-news-poster` `/ai-daily-news` `/it-daily-news` `/ai-news-poster` `/weekly-tool-book` `/weekly-book-expand` `/weekly-interview-book` `/uni-events` `/graduate-jobs` 等）：
+
+### 规则 1：事实细节必须有 sourceQuote 兜底
+
+任何**事实陈述**——金额 / 学费 / 百分比 / 分档 / 截止日期 / GPA 门槛 / IELTS 分数 / 申请方式 / 材料清单 / 课程时长 / 资格要求 / 工具价格 / 模型上下文窗口 / 考试通过率——都必须满足：
+
+1. **已用 WebFetch 真打开过官方 source URL**（学校：`*.edu.au` / `study.{校}.edu.au` / `scholarships.{校}.edu.au` / `handbook.{校}.edu.au`；AI 产品：官方 `docs.*` / `pricing` 页；认证：`aws.amazon.com/certification` / `learn.microsoft.com/credentials` 等）
+2. **在产出的 JSON / md 里贴一个 `sourceQuote` 字段**，内容是**官方原句（首选英文原文）**
+3. **没有原文证据的细节 = 删掉这句**——绝不允许"按常见模式 / 通常来说 / 一般而言"补全
+
+### 规则 2：禁止从非官方源提取事实
+
+小红书 / 知乎 / 留学中介公众号 / 中文留学媒体 / Twitter 用户 post / Reddit 帖子 / 第三方 review 站 —— **只能用来发现选题**，**不能当事实出处**。最终所有数字 / 政策 / 价格 / 申请流程**必须回到官方域名核对**。
+
+### 规则 3：禁止把主观语气用在事实陈述上
+
+xhsCopy / 文案 / 小红书 drafts 鼓励"小纠结 / 个人判断"——但**只能用在主观选择**（专业纠结 / 备考节奏 / 申几个 / 工具选哪个）上，**严禁**用在事实陈述（金额 / 资格 / 截止 / 材料）上。
+
+| 是 | 来源必须是 | 允许的口吻 |
+|---|---|---|
+| 事实陈述（金额/百分比/资格/截止日/材料清单） | sourceQuote 原文 | 平铺直叙，**不准加"我猜/通常/一般来说"** |
+| 主观选择（专业纠结、备考节奏） | 自己编 | 第一人称小纠结都行 |
+| 行动建议（什么时候提交、怎么排进度） | 不需要 source | 可以自由发挥 |
+
+写完每段问自己：**"这句话如果错了，会不会让学生申错奖学金 / 错过截止 / 多花钱？"** 是 → 必须 sourceQuote 兜底；否 → 自由发挥可以。
+
+### 规则 4：每个 skill 的 Step N 自检 Bash 必须有 sourceQuote gate
+
+任何写新的 schedule-driven content skill，最后那段 Bash 自检里**必须**有 sourceQuote 校验（`/uni-news-poster.md` Step 5 的「3.5 反幻觉 gate」是参考实现）。校验失败直接 `exit 1`，**不准用"补一个 placeholder source 应付"**绕过——校验目的是逼 agent 真的去 WebFetch 官网，不是让 agent 学会怎么糊弄校验。
+
+### 规则 5：unknown 比 wrong 好 1 万倍
+
+不知道 = 直接说"具体金额请到官网核对"+ 贴 URL。**比编一个看起来合理的数字好 1 万倍**。学员看到"需要核对"会去官网查；看到"AUD $5,000"会直接信，错的话直接坑。
+
+---
+
 ## 🚨 SEO 政策（2026-04-23 运营决议）
 
 **jr-wiki 的 GitHub Pages 链接（`jr-academy-ai.github.io/jr-wiki/*`）是纯运营内部工具，全站 `noindex, nofollow`。不做 SEO、不做 sitemap、不做 RSS。**

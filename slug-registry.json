@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-21T23:47:30.924Z",
+  "lockedAt": "2026-05-22T02:14:28.765Z",
   "version": 1,
   "slugs": [
     {
@@ -225,6 +225,10 @@
     {
       "type": "article",
       "slug": "google-gemma-4-open-source-guide"
+    },
+    {
+      "type": "article",
+      "slug": "google-io-2026-gemini-flash-agent-bet-2026"
     },
     {
       "type": "article",
