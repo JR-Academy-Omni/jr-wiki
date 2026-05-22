@@ -8,7 +8,7 @@
     "hookSubHighlight": "奖学金 6 月截止",
     "subLines": [
       "天体物理学家 × 作曲家：宇宙也能谱成交响曲",
-      "理科国际奖学金 6 月 1 日截止 · 自动评估无需单独申请",
+      "理科国际奖学金 6 月 1 日截止 · 需单独申请 + personal statement · AUD $5,000 一次性减免",
       "CREATE Lab 跨界科研新平台正式成立"
     ],
     "previewCards": [
@@ -37,26 +37,27 @@
       "idx": "02",
       "category": "奖学金",
       "h2Main": "UQ 理科国际奖学金 6 月 1 日截止",
-      "h2Sub": "自动评估无需单独申请 · 10%–25% 学费减免 · 2026 年入学生务必留意",
+      "h2Sub": "需单独递交奖学金申请 + personal statement · AUD $5,000 一次性学费减免 · 2026 年入学生务必留意",
       "h2Highlight": "6 月 1 日截止",
-      "lead": "UQ 理学院面向国际学生的 Science International Scholarship 申请窗口将于 <b>2026 年 6 月 1 日</b>截止。该奖学金在录取流程中自动评估资格，覆盖 10%–25% 学费减免，适用于计划 2026 Sem 2 或 2027 Sem 1 入学的国际申请人。",
+      "lead": "UQ 理学院面向国际学生的 Science International Scholarship 申请窗口将于 <b>2026 年 6 月 1 日 10:00 AEST</b> 截止。这一项<b>不是自动评估</b>——除递交课程申请外，还需单独提交奖学金申请并附 personal statement，金额是一次性 <b>AUD $5,000</b> 学费减免，仅覆盖首个学期。",
       "bullets": [
-        { "k": "申请方式", "v": "<b>无需单独填表</b>——在截止日期前提交课程申请即自动进入奖学金评估，录取通知书中同步确认减免档次" },
-        { "k": "减免范围", "v": "10%–25% 学费减免，按学术成绩分档；GPA 和语言成绩是主要评估维度" },
-        { "k": "时间节点", "v": "<b>6 月 1 日</b>为截止日，在此之前递交的申请才进入当轮审核；错过截止后需等下一学期评估窗口" },
-        { "k": "行动建议", "v": "语言成绩或学历材料未备齐的同学优先整理；已有雅思成绩的可立即提交，<b>奖学金评估与课程申请同步完成</b>" }
+        { "k": "申请方式", "v": "<b>需要单独申请</b>——递交 UQ 课程申请之外，还需提交奖学金申请并附 personal statement（官方原文：a personal statement demonstrating your capacity to create change and contribute to science）" },
+        { "k": "金额", "v": "<b>AUD $5,000 一次性学费减免（one-off）</b>，覆盖首个学期；不是按学费百分比，也不按 GPA 分档" },
+        { "k": "资格要求", "v": "国际学生 + 在 UQ 首次入学 + 就读 Faculty of Science 获批项目（最少 1 年时长）+ 截止前满足 offer 条件 + 学术成绩优秀" },
+        { "k": "行动建议", "v": "需要把课程申请、奖学金申请、personal statement <b>同步</b>提交，并在 6 月 1 日 10:00 AEST 前满足 offer 条件" }
       ],
       "source": "UQ Scholarships · 2026",
-      "sourceUrl": "https://scholarships.uq.edu.au/scholarship/science-international-scholarships"
+      "sourceUrl": "https://scholarships.uq.edu.au/scholarship/science-international-scholarships",
+      "sourceQuote": "You'll need: a personal statement demonstrating your capacity to create change and contribute to science. — $5,000 tuition fee reduction (one-off). Eligible: international student commencing first semester at UQ, in an approved UQ Faculty of Science program (minimum one-year duration). Closing: 1 June 2026, 10:00am AEST."
     }
   ],
   "quickview": {
     "titleMain": "今日 2 条",
     "titleHighlight": "一眼看完",
-    "sub": "CREATE Lab 跨界实验室开张，天文物理学家 × 作曲家联手谱宇宙交响曲；理科国际奖学金 6 月 1 日截止，自动评估无需单独申请——两条都跟 2026 年申请 UQ 直接相关。",
+    "sub": "CREATE Lab 跨界实验室开张，天文物理学家 × 作曲家联手谱宇宙交响曲；理科国际奖学金 6 月 1 日截止，需单独申请 + personal statement，AUD $5,000 一次性减免——两条都跟 2026 年申请 UQ 直接相关。",
     "items": [
       { "n": "01", "title": "CREATE Lab 艺理跨界", "body": "天体物理 × 音乐创作联手；旗舰作品《宇宙历史交响曲》2026 Music by the Lakes 压轴；Fine Arts / Physics 方向同学的跨院系资源入口" },
-      { "n": "02", "title": "理科奖学金 6 月 1 日截止", "body": "无需单独申请；10%–25% 学费减免；GPA + 语言成绩双维评估；截止前递交才进当轮审核" }
+      { "n": "02", "title": "理科奖学金 6 月 1 日截止", "body": "需单独申请 + personal statement；AUD $5,000 一次性学费减免；仅覆盖首个学期；截止前递交才进当轮审核" }
     ],
     "cta": {
       "big": "关注每日大学日报",
@@ -67,7 +68,7 @@
   "xhsCopy": {
     "p1": {
       "title": "UQ 5-18 两条要紧事📣",
-      "body": "在准备申 UQ 的姐妹注意了，5 月 18 日两条都跟你直接相关。\n\n01 / CREATE Lab 正式成立——天体物理学家 Prof. Tamara Davis 和作曲家 Assoc. Prof. Eve Klein 联手，把宇宙学谱成交响乐。这不是噱头，是 UQ 正式推进的跨学科科研平台。修 Fine Arts、Physics 或音乐方向的同学，CREATE Lab 是寻找跨院系合作和项目资源的真实渠道。\n\n02 / UQ 理科国际奖学金 6 月 1 日截止——在截止日前提交课程申请就自动参与评估，不用单独填表。10%–25% 的学费减免，按学术成绩分档，录取通知书里会一起告诉你拿到哪一档。\n\n两条放在一起：一条看 UQ 的科研底色，一条看省钱通道。有同样在准备 UQ 申请的姐妹评论区扣 1🙌",
+      "body": "在准备申 UQ 的姐妹注意了，5 月 18 日两条都跟你直接相关。\n\n01 / CREATE Lab 正式成立——天体物理学家 Prof. Tamara Davis 和作曲家 Assoc. Prof. Eve Klein 联手，把宇宙学谱成交响乐。这不是噱头，是 UQ 正式推进的跨学科科研平台。修 Fine Arts、Physics 或音乐方向的同学，CREATE Lab 是寻找跨院系合作和项目资源的真实渠道。\n\n02 / UQ 理科国际奖学金 Science International Scholarship 6 月 1 日 10am AEST 截止——这一项不是自动评估，需要单独提交奖学金申请并附 personal statement。金额是 AUD $5,000 一次性学费减免，仅覆盖第一学期，不是按 GPA 分档的百分比。资格是首次入学 UQ + 就读 Faculty of Science 项目（≥1 年）。\n\n两条放在一起：一条看 UQ 的科研底色，一条是要单独动手交材料的奖学金节点。有同样在准备 UQ 申请的姐妹评论区扣 1🙌",
       "tags": "#UQ #昆士兰大学 #澳洲留学 #UQ申请 #澳洲奖学金 #留学干货 #留学生活"
     },
     "p2": {
@@ -82,18 +83,18 @@
     },
     "p4": {
       "title": "UQ理科奖学金6月截止⚠️",
-      "body": "申 UQ 理科方向的姐妹看这条：Science International Scholarship 申请 6 月 1 日截止。\n\n最省事的地方：不用单独填奖学金申请表，在截止日前提交课程申请就自动参与评估。录取通知书里会同步告诉你拿到哪一档减免。\n\n减免范围是 10%–25% 学费，按学术成绩分档。GPA 和语言成绩是主要评估维度，如果已经有雅思成绩在手，现在提交申请正好赶上这轮评估窗口。\n\n6 月 1 日之后再提交的申请，就要等下一轮了。备考或还在整理材料的同学，建议倒计时一下，争取 deadline 前递交。\n\n有在准备 UQ 理科申请的姐妹评论区扣 1，可以互相看看材料进度💪",
+      "body": "申 UQ 理科方向的姐妹看这条：Science International Scholarship 申请 6 月 1 日 10am AEST 截止。\n\n这一项不是「交课程申请就自动评估」那种类型——需要单独提交奖学金申请，并附一份 personal statement（官方原文：a personal statement demonstrating your capacity to create change and contribute to science）。所以课程申请之外要单独动手准备。\n\n金额是 AUD $5,000 一次性学费减免，覆盖你在 UQ 的第一个学期。不是按 GPA 分档的百分比减免——这点很容易和 UQ 其他奖学金搞混。\n\n资格要点：国际学生 + 在 UQ 首次入学 + 就读 Faculty of Science 获批项目（最少 1 年）+ 6 月 1 日前满足 offer 条件 + 学术成绩优秀。\n\n6 月 1 日之后再提交的申请就要等下一轮了。在准备 UQ 理科申请的姐妹评论区扣 1，可以互相看看材料进度💪",
       "tags": "#UQ #昆士兰大学 #澳洲奖学金 #澳洲留学 #UQ申请 #理科留学 #留学干货"
     },
     "p5": {
       "title": "UQ 5-18 速览｜两条都实用",
-      "body": "UQ 今天两条，一条看科研、一条看省钱：\n\n01 / CREATE Lab——天体物理学家 × 作曲家跨界科研平台正式成立，旗舰作品《宇宙历史交响曲》在 2026 Music by the Lakes 音乐节压轴。Fine Arts / Physics / Music 方向同学的跨院系资源入口。\n\n02 / 理科国际奖学金——Science International Scholarship 6 月 1 日截止，截止前提交课程申请自动参与评估，10%–25% 学费减免按学术成绩分档。语言成绩备好的同学，现在提交最稳。\n\n一条看 UQ 的科研底色，一条是直接省钱的通道。在申请 UQ 理科的姐妹，6 月 1 日这个节点记好。评论区扣 1 我可以分享 UQ 申请思路🙌",
+      "body": "UQ 今天两条，一条看科研、一条看奖学金：\n\n01 / CREATE Lab——天体物理学家 × 作曲家跨界科研平台正式成立，旗舰作品《宇宙历史交响曲》在 2026 Music by the Lakes 音乐节压轴。Fine Arts / Physics / Music 方向同学的跨院系资源入口。\n\n02 / 理科国际奖学金——Science International Scholarship 6 月 1 日 10am AEST 截止，需要单独提交奖学金申请 + personal statement（不是自动评估）。AUD $5,000 一次性学费减免，仅第一学期。资格是首次入学 UQ + Faculty of Science 项目（≥1 年）。\n\n一条看 UQ 的科研底色，一条是要主动动手交材料的奖学金节点。在申请 UQ 理科的姐妹，6 月 1 日这个节点记好。评论区扣 1 我可以分享 UQ 申请思路🙌",
       "tags": "#UQ #昆士兰大学 #澳洲留学 #UQ申请 #澳洲奖学金 #留学干货 #留学生活"
     }
   },
   "mp": {
     "title": "UQ 5 月 18 日：CREATE Lab 艺理跨界科研平台成立 + 理科国际奖学金 6 月 1 日截止",
-    "lead": "UQ 本周两条值得关注的消息：作曲家 Assoc. Prof. Eve Klein 与天体物理学家 Prof. Tamara Davis 共同创立 CREATE Lab，将宇宙学以交响乐形式呈现，成为 2026 Music by the Lakes 节目压轴——这是 UQ 正式推进艺理交叉科研的标志性动作。同期，UQ 理学院 Science International Scholarship 申请窗口将于 6 月 1 日截止，在截止前提交课程申请即自动参与评估，覆盖 10%–25% 学费减免。两条消息一个关乎 UQ 的科研方向布局，一个是正在倒计时的奖学金节点。",
+    "lead": "UQ 本周两条值得关注的消息：作曲家 Assoc. Prof. Eve Klein 与天体物理学家 Prof. Tamara Davis 共同创立 CREATE Lab，将宇宙学以交响乐形式呈现，成为 2026 Music by the Lakes 节目压轴——这是 UQ 正式推进艺理交叉科研的标志性动作。同期，UQ 理学院 Science International Scholarship 申请窗口将于 2026 年 6 月 1 日 10am AEST 截止——这一项不是自动评估，需要单独提交奖学金申请并附 personal statement，金额是一次性 AUD $5,000 学费减免（仅 1 学期）。两条消息一个关乎 UQ 的科研方向布局，一个是要主动准备材料的奖学金节点。",
     "meta": { "readTime": "6 分钟" },
     "newsBodies": [
       {
@@ -106,20 +107,20 @@
         "sourceHtml": "来源：<a href=\"https://news.uq.edu.au/2026-05-uq-lab-where-research-becomes-creative-experience\">UQ News — The UQ lab where research becomes a creative experience</a>"
       },
       {
-        "h2": "UQ 理科国际奖学金 6 月 1 日截止：无需单独申请，在截止前提交课程申请自动参评",
+        "h2": "UQ 理科国际奖学金 6 月 1 日截止：需单独申请 + personal statement，AUD $5,000 一次性减免",
         "paragraphs": [
-          "UQ 理学院（Faculty of Science）面向国际学生开放的 Science International Scholarship，申请窗口将于 2026 年 6 月 1 日截止。这项奖学金的申请机制相对友好：不需要单独填写奖学金申请表，只要在截止日期前完成课程申请提交，系统会在录取流程中自动评估是否符合资格。符合条件的申请人会在录取通知书中同步收到奖学金确认，减免金额直接反映在第一学期的学费账单中。",
-          "减免幅度为 10%–25% 的学费，具体档次取决于申请人的学术成绩和专业申请背景。GPA 和英语语言成绩（雅思 / PTE / TOEFL）是两个主要评估维度。对于国内本科 GPA 较高且已拿到语言成绩的申请人，现在提交申请是最理想的时机——既能赶上 6 月 1 日的评估窗口，也留有时间在录取通知下发后确认入学细节。需要注意的是，6 月 1 日之后提交的申请不会进入本轮评估，需要等下一个学期的评估窗口开放。",
-          "UQ 的国际奖学金体系除 Science International Scholarship 外还覆盖 UQ International Excellence Scholarship（25% 减免，全专业）和 UQ International High Achievers Scholarship（15%–20% 减免，第一年入学生）等多项。这些奖学金均在录取时自动评估，无需单独申请，但 6 月 1 日是理科方向的专项截止节点。计划申请 UQ 理科学士或硕士课程（Computer Science、Mathematics、Biosciences、Chemistry、Physics 等）的同学，务必在截止前递交申请材料，以确保进入本轮奖学金审核。"
+          "UQ 理学院（Faculty of Science）面向国际学生开放的 Science International Scholarship，申请窗口将于 <b>2026 年 6 月 1 日 10:00am AEST</b> 截止。这一项<b>不是「交课程申请就自动评估」类型的奖学金</b>——除了递交 UQ 课程申请之外，还需要单独提交奖学金申请，并附上一份 personal statement。官方原文要求：「a personal statement demonstrating your capacity to create change and contribute to science」，需要在 statement 里说明你「创造改变 / 贡献科学」的能力，所以是有内容门槛的，不是走个过场。",
+          "金额为 <b>AUD $5,000 学费一次性减免（one-off tuition fee reduction）</b>，覆盖的是你在 UQ 的<b>第一个学期</b>，不是按学费百分比减免，也不是按 GPA 分档——这一点容易和 UQ 其他奖学金（例如 International Excellence Scholarship 的百分比减免）搞混。资格要求：(1) 国际学生身份；(2) 在 UQ 首次入学（first semester at UQ）；(3) 就读 UQ Faculty of Science 获批项目（最少 1 年时长）；(4) 在截止日前满足 offer 条件；(5) 学术成绩优秀。",
+          "对计划 2026 年 Semester 2 或 2027 年 Semester 1 入学的国际申请人，6 月 1 日 10am AEST 是硬性节点。需要把 UQ 课程申请、奖学金申请、personal statement <b>同步</b>准备好，并在截止前完成 offer 条件。Faculty of Science 涵盖 Computer Science、Mathematics、Biosciences、Chemistry、Physics 等专业。其他 UQ 奖学金（Excellence / High Achievers 等）的具体申请方式和金额请到 <a href=\"https://scholarships.uq.edu.au/\">scholarships.uq.edu.au</a> 核对，不要按本条新闻类比。"
         ],
-        "sourceHtml": "来源：<a href=\"https://scholarships.uq.edu.au/scholarship/science-international-scholarships\">UQ Science International Scholarships</a>"
+        "sourceHtml": "来源：<a href=\"https://scholarships.uq.edu.au/scholarship/science-international-scholarships\">UQ Science International Scholarships（官方原文：$5,000 tuition fee reduction · personal statement required · closes 1 June 2026, 10am AEST）</a>"
       }
     ],
     "quickview": {
       "title": "📌 今日速览",
       "items": [
         "<strong>01 · CREATE Lab 艺理跨界</strong>：天体物理学家 Prof. Tamara Davis × 作曲家 Assoc. Prof. Eve Klein 联手成立；《宇宙历史交响曲》Music by the Lakes 压轴；Fine Arts / Physics / Music 同学的跨院系科研入口",
-        "<strong>02 · 理科国际奖学金截止</strong>：6 月 1 日截止；无需单独申请，递交课程申请自动参评；10%–25% 学费减免；已有语言成绩的同学现在提交最稳"
+        "<strong>02 · 理科国际奖学金截止</strong>：6 月 1 日 10am AEST 截止；<strong>需单独申请 + personal statement</strong>（不是自动评估）；AUD $5,000 一次性减免（仅首个学期）；资格 = Faculty of Science 首次入学国际生"
       ]
     },
     "cta": {
@@ -136,7 +137,7 @@
       },
       {
         "heading": "UQ 理科奖学金截止提醒｜6 月 1 日别忘了",
-        "body": "申 UQ 理科的姐妹，6 月 1 日这个日期要记好：Science International Scholarship 申请截止。\n\n说实话这个奖学金的申请方式挺省事的——不用单独填表，只要在截止前提交课程申请，系统自动把你纳入奖学金评估，录取通知书里会直接告诉你拿到哪一档减免。\n\n减免范围是 10%–25% 学费，按学术成绩分档。我猜大家最关心的还是：我的 GPA 能拿到哪档？简单说：GPA 和语言成绩都是主要维度，具体档次在录取时确认。\n\n现在已经有雅思成绩的同学，现在提交申请正好卡在这轮评估窗口里。6 月 1 日之后再提交就要等下一学期了。还差语言成绩的话，评估一下时间够不够，不够就先把其他材料准备好，能提前一步是一步。\n\n有同样在准备 UQ 理科申请的姐妹评论区聊进度💪",
+        "body": "申 UQ 理科的姐妹，6 月 1 日 10am AEST 这个时间点记好：Science International Scholarship 申请截止。\n\n先把误会说清楚——这个奖学金<b>不是</b>「交课程申请就自动评估」那种省事类型。除了 UQ 课程申请，还要单独提交奖学金申请，并附一份 personal statement。官方原话是「a personal statement demonstrating your capacity to create change and contribute to science」，写的时候要讲清楚你怎么「创造改变 / 贡献科学」。\n\n金额是 AUD $5,000 一次性学费减免（one-off），只覆盖你在 UQ 的第一个学期。不是按学费百分比，也不是按 GPA 分档——容易和 UQ 其他奖学金搞混。\n\n资格 5 条要齐：国际学生 + 在 UQ 首次入学 + 就读 Faculty of Science 项目（≥1 年）+ 截止前满足 offer 条件 + 学术成绩优秀。\n\n现在已经在准备材料的姐妹，把课程申请、奖学金申请、personal statement 三件事同步推。评论区扣 1 互相看看材料进度💪",
         "tags": ["#UQ", "#昆士兰大学", "#澳洲奖学金", "#澳洲留学", "#UQ申请", "#理科留学", "#留学干货"]
       }
     ],
