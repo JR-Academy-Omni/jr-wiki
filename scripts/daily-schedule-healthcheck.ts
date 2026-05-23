@@ -125,15 +125,16 @@ for (const s of todaySchools) {
 	}
 }
 
-// hub 是否包含今天
+// hub 是否包含今天（rebuild-uni-hub 生成 MM-DD 格式，如 05-23）
 const hubFile = 'src/static/uni-news-social/index.html';
 if (exists(hubFile)) {
 	const hub = fs.readFileSync(path.join(ROOT, hubFile), 'utf8');
-	if (todaySchools.length > 0 && !hub.includes(DATE)) {
-		console.log(`  ⚠️  hub index.html 没引用今天 ${DATE}（rebuild-uni-hub 没跑？）`);
+	const mmdd = DATE.slice(5); // "2026-05-23" → "05-23"
+	if (todaySchools.length > 0 && !hub.includes(mmdd)) {
+		console.log(`  ⚠️  hub index.html 没引用今天 ${mmdd}（rebuild-uni-hub 没跑？）`);
 		warnings.push(`hub 没 rebuild`);
 	} else if (todaySchools.length > 0) {
-		console.log(`  ✅ hub index.html 包含 ${DATE}`);
+		console.log(`  ✅ hub index.html 包含 ${mmdd}`);
 	}
 }
 console.log('');
