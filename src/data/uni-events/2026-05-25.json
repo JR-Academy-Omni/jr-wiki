@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-25",
+  "intro": "下周预告｜UNSW T2 迎新周打卡 · 全国和解周 5/27 启幕 · Monash 午间原住民音乐会 · 墨大非洲日",
+  "schools": [
+    {
+      "code": "umelb",
+      "events": [
+        {
+          "title": "非洲日庆典 Africa Day",
+          "time": "周一 5/25 下午5:00–7:30",
+          "location": "墨大校园（Discover UniMelb 系列）",
+          "price": "免费",
+          "category": "文化活动",
+          "url": "https://students.unimelb.edu.au/student-life/discover-unimelb"
+        },
+        {
+          "title": "Wilin Connect 2026 原住民学生艺术装置",
+          "time": "周五 5/29 起开放",
+          "location": "Melbourne Connect",
+          "price": "免费",
+          "category": "展览",
+          "url": "https://www.unimelb.edu.au/reconciliation-week"
+        }
+      ],
+      "xhsDraft": {
+        "title": "墨大下周｜非洲日庆典 + 原住民艺术展",
+        "body": "墨大下周有两件事可以安排进日历。\n\n周一晚 5 点，Discover UniMelb 系列有一场非洲日庆典（Africa Day），90 分钟，内容挺丰富的——一开场是塞内加尔 kora 配大提琴现场演奏，然后是电影《Io Capitano》片段放映 + 主题讨论，最后是 Afro-Cuban 舞蹈配古巴鼓（batá drums），观众 Q&A 收尾。把音乐、影像、讨论混在一起的活动在墨大还挺少见，免费参加，周一下课顺路去刚好。\n\n到周五，Melbourne Connect 会开始展出 Wilin Connect 2026 的原住民学生艺术装置，多位原住民学生创作，用视觉叙事呈现文化与连接的主题。正值全国和解周（5/27 起），图书馆补完功课之后绕去看一圈很适合。\n\n有一起去周一非洲日的吗？评论区留个言～",
+        "tags": ["#墨尔本大学", "#UMelb", "#澳洲留学", "#墨尔本", "#校园活动", "#非洲日", "#留学日常"]
+      }
+    },
+    {
+      "code": "unsw",
+      "events": [
+        {
+          "title": "T2 迎新日「Destiny Calls」· 社团摊位 + 免费周边",
+          "time": "周一 5/25 全天",
+          "location": "UNSW Kensington 校园",
+          "price": "免费",
+          "category": "迎新活动",
+          "url": "https://www.arc.unsw.edu.au/oweek2026"
+        },
+        {
+          "title": "校长全校欢迎演讲 + 学长经验分享",
+          "time": "周一 5/25 上午11:15–12:15",
+          "location": "Sir John Clancy Auditorium（线上同步）",
+          "price": "免费",
+          "category": "学术活动",
+          "url": "https://www.arc.unsw.edu.au/events/unsw-o-day-term-2-2026"
+        }
+      ],
+      "xhsDraft": {
+        "title": "UNSW 下周 T2 迎新周｜新生攻略",
+        "body": "UNSW T2 下周一（5/25）正式开学，5/25–5/29 是 T2 迎新周，主题叫「Destiny Calls」。\n\n周一全天是 Arc O-Day，Kensington 校园到处是社团摊位、免费周边、免费食物。上学期没接触社团的同学，这是一次性了解各类 club 的好机会——什么 Hackathon 俱乐部、瑜伽社、音乐社都会在现场摆摊，直接上去聊比看网页直观多了。\n\n上午 11:15，Sir John Clancy Auditorium 有校长 Attila Brungs 的全校欢迎演讲，几位在读学生同步分享「怎么把 UNSW 读好」的真实经验，线上也可以参加。之前参加过类似环节，有几个关于 Arc 资源和心理健康支持的细节是课上不会说的，挺有收获的。\n\n迎新周后几天（周二到周五）Arc 还有 T2 Launch Week 活动，可以上 arc.unsw.edu.au 看完整时间表。\n\n有 UNSW T2 新生吗？评论区聊一下在读什么专业～",
+        "tags": ["#UNSW", "#新南威尔士大学", "#澳洲留学", "#悉尼", "#迎新周", "#校园生活", "#留学日常"]
+      }
+    },
+    {
+      "code": "uq",
+      "events": [
+        {
+          "title": "Jesse Williams：和解与践行 全国和解周主旨演讲",
+          "time": "周三 5/27 下午2:30–4:00",
+          "location": "Mayne Medical School Level 4 · ES Meyers Lecture Theatre · Herston",
+          "price": "免费",
+          "category": "学术讲座",
+          "url": "https://life.uq.edu.au/nationalreconciliationweek"
+        },
+        {
+          "title": "人类学博物馆「Shields」专项导览",
+          "time": "周三 5/27 起每天 上午11:30–12:00",
+          "location": "Anthropology Museum · St Lucia",
+          "price": "免费",
+          "category": "文化活动",
+          "url": "https://web.library.uq.edu.au/stories/all-national-reconciliation-week-2026-library"
+        }
+      ],
+      "xhsDraft": {
+        "title": "UQ 下周｜和解周两个活动别错过",
+        "body": "下周三（5/27）全国和解周正式开始，UQ 今年有两个值得去的活动。\n\n第一个：Herston 校区 Mayne Medical School 4 楼，周三下午 2:30–4:00，Jesse Williams 主旨演讲，主题是「和解在今天意味着什么——作为同盟者（ally）能做什么」。Jesse Williams 在原住民权利和公卫政策领域长期活跃，不是那种泛泛而谈的演讲，适合真的想了解和解周历史脉络的同学。Herston 的报告厅不大，建议提前过去占座。\n\n第二个：St Lucia 人类学博物馆，从周三起每天中午 11:30–12:00 有「Shields: 设计与功能」专项导览，30 分钟，不需要提前报名。中午从图书馆散步过去停留半小时，顺便换个脑子。\n\n有在 Herston 的同学下周一起去演讲吗？评论区聊一聊～",
+        "tags": ["#UQ", "#昆士兰大学", "#澳洲留学", "#布里斯班", "#和解周", "#校园活动", "#留学日常"]
+      }
+    },
+    {
+      "code": "usyd",
+      "events": [
+        {
+          "title": "Fisher 图书馆 · 和解周 Zines 工坊 + 故事分享",
+          "time": "周五 5/29 上午10:00–下午2:00",
+          "location": "Fisher Seminar Room 218 · Level 2 · Camperdown",
+          "price": "免费",
+          "category": "文化活动",
+          "url": "https://www.library.sydney.edu.au/about/whats-on"
+        }
+      ],
+      "xhsDraft": {
+        "title": "USYD 下周｜Fisher 图书馆 Zines 工坊",
+        "body": "下周五（5/29），Fisher 图书馆 2 楼 Seminar Room 218，上午 10 点到下午 2 点，有一个和解周开放活动——由原住民社区主导，多语言多文化背景的同学一起参与，内容包括故事分享和做 zines（独立排版小册子）。Drop-in 形式，随时来随时走，不用报名。\n\nZines 这个形式挺有意思的，把对和解周主题的理解做成视觉排版带回去，是个挺好的纪念物。Fisher 图书馆本来就是周五下午的热门自习点，活动结束后留下来继续看书也挺顺的。\n\n全国和解周（5/27–6/3）今年主题是「All In」——号召每个澳洲人真正把和解变成日常行动，不只是在这一周。在图书馆做 zines 就是一个很具体的参与方式。\n\n有一起去 Fisher 的吗？评论区约一下～",
+        "tags": ["#USYD", "#悉尼大学", "#澳洲留学", "#悉尼", "#和解周", "#校园活动", "#留学日常"]
+      }
+    },
+    {
+      "code": "adelaide",
+      "events": [],
+      "xhsDraft": {
+        "title": "阿德下周｜和解周启幕 + 期末冲刺节奏",
+        "body": "阿德莱德大学这周没有大型公开活动，但下周正好进入全国和解周（5/27 起）。Wirltu Yarlu 每年都会在这个时间节点组织原住民文化活动，具体日程可以到 adelaide.edu.au/wirltu-yarlu 页面查。\n\n从 Semester 1 进度看，五月底正是接近期末复习的阶段。Hub Central 旁边的 Barr Smith Lawns 这几周下午人不少，适合约几个人一起开黑式学习。North Terrace 边的 Heysen 楼有几个安静的讨论间，可以提前在 Student Hubs 页面预约。\n\n有在阿德读书的同学——你们期末备考期常去哪个自习点？评论区推荐一下，我要标进地图里了。",
+        "tags": ["#AdelaideUni", "#阿德莱德大学", "#澳洲留学", "#阿德莱德", "#和解周", "#校园生活", "#留学日常"]
+      }
+    },
+    {
+      "code": "monash",
+      "events": [
+        {
+          "title": "SURLY 摄影大赛 2026 学生作品展",
+          "time": "周一 5/25 起至 6/5（全天开放）",
+          "location": "Clayton 校园展览区",
+          "price": "免费",
+          "category": "展览",
+          "url": "https://www.monash.edu/students/campus-life/events"
+        },
+        {
+          "title": "午间音乐会「Long Journey: Reconciliation Concert」",
+          "time": "周四 5/28 下午1:00–2:00",
+          "location": "Sir Zelman Cowen 音乐楼 Auditorium · Building 68 · Clayton",
+          "price": "免费",
+          "category": "现场演出",
+          "url": "https://www.monash.edu/arts/music-performance/news-and-events/events"
+        },
+        {
+          "title": "专注学习工作坊 Focused Study Session",
+          "time": "周一 5/25 下午3:00–4:00",
+          "location": "Clayton 校园",
+          "price": "免费",
+          "category": "学习活动",
+          "url": "https://www.monash.edu/students/campus-life/events"
+        }
+      ],
+      "xhsDraft": {
+        "title": "Monash 下周｜午间音乐会 + 摄影展",
+        "body": "Monash 下周有三个值得打卡的活动。\n\n周一（5/25）开始，SURLY 摄影大赛的学生作品展在 Clayton 展出，持续到 6/5。SURLY 是 Monash 年度学生摄影比赛，今年参赛作品里有好几组拍 Clayton 校园本身的，看完会对这个校区有新的感觉。随时可以走进去看，不需要报名。\n\n周四（5/28）中午 1 点，Sir Zelman Cowen 音乐楼 Auditorium（Building 68）有和解周专题午间音乐会「Long Journey: Reconciliation Concert」，由第一民族作曲家的作品和 Monash 音乐系学生表演组成，一小时，免费入场。去过几次 Monash 的 Lunchtime Concert，Building 68 那个 Auditorium 音响和座位都挺舒服的，中午带个便当进去坐着听完，是我很喜欢的 reset 方式。\n\n周一下午 3–4 点还有 Focused Study Session，安静的平行自习形式，适合有拖延倾向但需要他人在场才能动的同学（比如我）。\n\n有要一起去周四音乐会的吗？",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#墨尔本", "#和解周", "#校园活动", "#留学日常"]
+      }
+    }
+  ]
+}
