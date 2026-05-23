@@ -1,0 +1,275 @@
+{
+  "date": "2026-05-24",
+  "summary": {
+    "hook": [
+      "GPT-5.5 Instant 上位",
+      " · ",
+      "Anthropic Agents 计费",
+      " · ",
+      "Meta 关闭 Llama 开源"
+    ],
+    "sub": "幻觉率减半 · Agent SDK 独立计费 · Gemini Flash 全球默认 · 开源路线生变 · Grok Skills 持久记忆",
+    "items": [
+      {
+        "num": "01",
+        "cat": "OpenAI 模型",
+        "numColor": "#10A37F",
+        "t": "GPT-5.5 Instant 成 ChatGPT 新默认：幻觉率减半、整合 Gmail 历史对话"
+      },
+      {
+        "num": "02",
+        "cat": "Anthropic",
+        "numColor": "#C96442",
+        "t": "Code with Claude 发布 Managed Agents，6/15 起 Pro 用户获 $20 Agent 月度额度"
+      },
+      {
+        "num": "03",
+        "cat": "Google",
+        "numColor": "#4285F4",
+        "t": "Gemini 3.5 Flash 成全球默认，Spark Agent 跨 App 自主推理上线"
+      },
+      {
+        "num": "04",
+        "cat": "Meta 战略",
+        "numColor": "#0467DF",
+        "t": "Meta 正式终止 Llama 开源策略，全线转向闭源 AI 开发"
+      },
+      {
+        "num": "05",
+        "cat": "xAI",
+        "numColor": "#7C3AED",
+        "t": "Grok Skills 上线持久跨会话记忆，高盛摩根士丹利内测持续推进"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt55-instant-new-default",
+      "idx": "01",
+      "catText": "OpenAI 模型",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#0A2E1A",
+        "mid": "#0F4025",
+        "bot": "#061A0F",
+        "topRight": "#1A7035"
+      },
+      "title": [
+        {
+          "text": "GPT-5.5 Instant 成 ChatGPT 新默认："
+        },
+        {
+          "text": "高风险场景幻觉率降超 50%，整合 Gmail 与历史对话记忆",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "不是旗舰、是最优平衡点——"
+        },
+        {
+          "text": "记忆历史对话、上传文件、接入 Gmail，日常使用准确性大幅升级",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 推出 GPT-5.5 Instant 作为 ChatGPT 全新默认模型，在医疗、法律、金融等高风险场景下，官方 Eval 测试幻觉率降低超 50%，可调取历史对话、上传文件及 Gmail 数据作为上下文"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 OpenAI 首次将「减少幻觉」作为默认模型升级的核心卖点，表明可靠性已超越参数规模成为竞争焦点；Gmail 整合则开启了 ChatGPT 作为「个人 AI 助理」而非「对话框」的新阶段"
+        },
+        {
+          "k": "对你的影响",
+          "v": "所有 ChatGPT 订阅层（含免费版）自动升级至 GPT-5.5 Instant；用 ChatGPT 写面试回答、LinkedIn 文案、技术报告时，事实性错误风险显著降低；Gmail 连接功能需用户主动授权后才生效"
+        }
+      ],
+      "src": "📎 openai.com · releasebot.io · llm-stats.com"
+    },
+    {
+      "slug": "02-anthropic-code-with-claude-managed-agents",
+      "idx": "02",
+      "catText": "Anthropic 开发者",
+      "accent": "#C96442",
+      "bg": {
+        "top": "#2E1208",
+        "mid": "#401A0C",
+        "bot": "#1C0A04",
+        "topRight": "#7A2E10"
+      },
+      "title": [
+        {
+          "text": "Anthropic Code with Claude 2026："
+        },
+        {
+          "text": "Managed Agents 发布，6/15 起 Agent SDK 独立计费 Pro 获 $20 额度",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "「聊天 AI」转型「企业 AI 基础设施」——"
+        },
+        {
+          "text": "dreaming / 多 Agent 编排 / webhooks 全上线，Claude Code 速率翻倍",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic Code with Claude 2026 开发者大会发布 Managed Agents，包含 dreaming（等待期主动预处理）、多 Agent 编排、outcomes 目标驱动、webhooks 事件触发；同日宣布 6/15 起程序化调用独立计费，Pro $20/月、Max 5x $100/月 Agent 额度"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Agent SDK 独立计费将 Anthropic 的商业模式从「订阅聊天」升级为「按用量收费的 AI 基础设施」；PwC 宣布培训 3 万名专业人员并建联合卓越中心，表明企业级部署已进入规模化阶段"
+        },
+        {
+          "k": "对你的影响",
+          "v": "重度使用 Claude Code 的开发者：速率限制翻倍是实质利好，但需关注 $20/月 Agent 额度是否够用；准备学 AI Agent 开发的同学：Claude Managed Agents SDK 已成为企业级工作流的主流选择，值得优先上手"
+        }
+      ],
+      "src": "📎 anthropic.com · technologyreview.com · infoq.com"
+    },
+    {
+      "slug": "03-gemini-35-flash-global-default-spark",
+      "idx": "03",
+      "catText": "Google 模型",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#0A1E3A",
+        "mid": "#102A55",
+        "bot": "#061222",
+        "topRight": "#1848A8"
+      },
+      "title": [
+        {
+          "text": "Gemini 3.5 Flash 全球默认上线："
+        },
+        {
+          "text": "价格不足竞品一半，Spark Agent 跨 App 自主推理",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "I/O 2026 后续落地——"
+        },
+        {
+          "text": "Flash 已进 API / AI Studio，Spark 在 Gmail 日历跨 App 主动编排任务",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google I/O 2026 宣布 Gemini 3.5 Flash 成为 Gemini App 和 Search AI Mode 的全球默认模型，价格不足同级竞品一半；Gemini Spark 新 Agent 可跨 Gmail、日历、Docs 自主推理编排任务，无需逐步下指令"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Flash 以「前沿级能力 × 半价」的组合将 API 成本压力转给竞争对手；Spark 的跨 App 自主编排是对苹果 Apple Intelligence 的正面挑战，Google 生态用户体验将出现质变"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Google AI Studio 和 Vertex AI 的 Flash API 已可用，100 万 Token 上下文大幅降低长文档 RAG 成本；Gemini 3.5 Pro 预计下月对外开放；Google Cloud 认证最新考纲已纳入 Vertex AI Gemini 3.5 实操模块"
+        }
+      ],
+      "src": "📎 blog.google · cnbc.com · cybernews.com"
+    },
+    {
+      "slug": "04-meta-llama-closes-open-source",
+      "idx": "04",
+      "catText": "Meta 战略",
+      "accent": "#0467DF",
+      "bg": {
+        "top": "#041630",
+        "mid": "#082045",
+        "bot": "#03101C",
+        "topRight": "#0E3898"
+      },
+      "title": [
+        {
+          "text": "Meta 正式终止 Llama 开源策略："
+        },
+        {
+          "text": "从「开源旗手」转型闭源，超智能实验室接管全线 AI 产品",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "「开源换声誉」边际价值递减——"
+        },
+        {
+          "text": "Llama 继任者不再开放权重，Alexandr Wang 主导超智能实验室",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Meta 宣布 2026 年起 Llama 继任者将不再以开源形式发布，正式结束自 2023 年 Llama 1 起的开源策略；新成立「超智能实验室」由前 Scale AI CEO Alexandr Wang 主导，统管 Facebook / Instagram / WhatsApp 全线 AI 功能"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Meta 曾是开源 AI 最大推手，此次转向意味着开源 LLM 生态少了最重要的「基座模型」供应方；DeepSeek V4 和 Mistral 将成为社区依赖的主要开源替代，算力和数据竞争进一步向少数闭源巨头集中"
+        },
+        {
+          "k": "对你的影响",
+          "v": "基于 Llama 构建产品的企业和开发者需提前评估迁移路径；澳洲 IT 求职者应关注「哪些模型仍是真正开源」（Apache 2.0 / MIT license），本地部署和数据隐私合规场景下模型选型逻辑将发生变化"
+        }
+      ],
+      "src": "📎 digitimes.com · techrepublic.com · ai.meta.com"
+    },
+    {
+      "slug": "05-xai-grok-skills-persistent-memory",
+      "idx": "05",
+      "catText": "xAI 功能",
+      "accent": "#7C3AED",
+      "bg": {
+        "top": "#180A2E",
+        "mid": "#220D40",
+        "bot": "#0E0618",
+        "topRight": "#380D80"
+      },
+      "title": [
+        {
+          "text": "xAI Grok Skills 上线："
+        },
+        {
+          "text": "可编程跨会话持久记忆，Vercel / Canva / S&P 数据全接入",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "不是「自动记住你」而是「你来定义 AI 的专业能力」——"
+        },
+        {
+          "text": "高盛摩根士丹利内测推进，华尔街合规门槛已被突破",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 发布 Grok Skills：用户可定义工作偏好、技术栈和专业知识，Skills 在所有后续对话中持久生效；同步集成 Vercel 部署、Canva 设计、Gamma 演示、S&P Global 实时市场数据等第三方平台"
+        },
+        {
+          "k": "为什么重要",
+          "v": "与 ChatGPT 自动 Memory 不同，Grok Skills 是「可编程的持久专业知识」，用户对 AI 行为有更高可预期性；S&P Global 金融数据接入是其他通用 AI 助理不具备的差异化能力，华尔街内测通过验证了企业合规能力"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Grok Skills 目前仅向 SuperGrok 及以上订阅用户开放；数据分析、内容创作、金融研究等场景下，可用 Skills 固化工作偏好节省重复 Prompt 时间；与 Grok 4.3 的 1M Token 上下文和视频输入结合，垂直场景竞争力显著"
+        }
+      ],
+      "src": "📎 basenor.com · x.ai · engadget.com"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.5 新默认 / Anthropic Agents 计费 / Gemini Flash 全球默认 / Meta 关闭 Llama 开源 / Grok Skills 上线"
+  }
+}
