@@ -1,0 +1,63 @@
+---
+title: "昆士兰大学 5 月 23 日：First Nations 医学生 2030 目标 100 人、UQ 主导《Lancet》全球精神疾病负担研究、Bachelor of Veterinary Technology 26 年缓解兽医荒"
+description: "昆士兰大学 5 月 23 日三条关键动态：UQ Medical School 公布 First Nations 医学生招生新目标——到 2030 年累计在读的 Aboriginal 与 Torres Strait Islander 医学生达到 100 人，2027 年起每年新增 25 名，Indigenous-led interview panels 将被嵌入入学路径以维护公平性和文化完整性；UQ School of Public Health 与 Queensland Centre for Mental Health Research 主导的 Global Burden of Diseases 2023 精神疾病分册在《The Lancet》发表，2023 年全球精神疾病患者人数接近 12 亿，约为 1990 年的两倍，精神疾病在 DALYs 排名上从 1990 年的第 12 位上升到 2023 年的第 5 位，青少年与女性是负担最重的人群；UQ Bachelor of Veterinary Technology 自 2000 年开办、至今 26 年，作为缓解澳大利亚兽医劳动力短缺的结构化路径，UQ vet techs 在专科实践特别是急诊和重症护理领域表现突出。"
+publishDate: 2026-05-23
+tags:
+  - uni-news
+  - uq
+  - 昆士兰大学
+  - University of Queensland
+author: "JR Academy 大学日报"
+keywords: "昆士兰大学, University of Queensland, UQ, 澳洲留学, 大学新闻, 奖学金, 校园动态"
+---
+<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-23T02:30:50.075Z -->
+
+> 学校：**昆士兰大学 / University of Queensland**
+> 日期：**2026-05-23**
+> 同步素材：公众号发稿页见 `https://jiangren.com.au/blog/uni-news-uq-2026-05-23` 对应运营链路，官网 blog 为这篇 markdown 正文。
+
+昆士兰大学 5 月 23 日三条关键动态：UQ Medical School 公布 First Nations 医学生招生新目标——到 2030 年累计在读的 Aboriginal 与 Torres Strait Islander 医学生达到 100 人，2027 年起每年新增 25 名，Indigenous-led interview panels 将被嵌入入学路径以维护公平性和文化完整性；UQ School of Public Health 与 Queensland Centre for Mental Health Research 主导的 Global Burden of Diseases 2023 精神疾病分册在《The Lancet》发表，2023 年全球精神疾病患者人数接近 12 亿，约为 1990 年的两倍，精神疾病在 DALYs 排名上从 1990 年的第 12 位上升到 2023 年的第 5 位，青少年与女性是负担最重的人群；UQ Bachelor of Veterinary Technology 自 2000 年开办、至今 26 年，作为缓解澳大利亚兽医劳动力短缺的结构化路径，UQ vet techs 在专科实践特别是急诊和重症护理领域表现突出。
+
+## 01. UQ Medical School 公布 First Nations 医学生 2030 目标：100 人，2027 年起每年招 25 名
+
+**一句话**：5 月 20 日 UQ Medical School 公布 First Nations 医学生招生新目标：**到 2030 年累计在读的 Aboriginal 与 Torres Strait Islander 医学生达到 100 人，自 2027 年起每年新增 25 名**。Associate Dean (Indigenous Engagement) Prof Thelma Parker 表示原住民医生人数不足是真实存在的社区健康问题，目标 deliberately bold 因为增量式改变不足以解决问题。
+
+5 月 20 日 UQ Medical School 公布了一个 deliberately bold 的招生新目标：到 2030 年累计在读的 Aboriginal 与 Torres Strait Islander 医学生达到 100 人，自 2027 年起每年新增 25 名 First Nations 医学生入学。这条目标的政策背景是澳大利亚原住民医疗劳动力的结构性短缺——长期以来 First Nations 医生占医疗系统比例远低于人口比例，直接影响原住民社区的医疗可及性、文化安全和健康结果。
+
+Associate Dean (Indigenous Engagement) Prof Thelma Parker 在公告中说明制定这一目标的原因：There are not enough First Nations doctors in the community and we've created a bold target deliberately because incremental change is not sufficient。Prof Parker 同时强调这件事不只是对 First Nations 群体重要：Aboriginal and Torres Strait Islander doctors improve access, cultural safety, and outcomes for First Nations patients and strengthen the health system for everyone。原住民医生对整体卫生系统都有正向作用。
+
+Medical School Interim Dean Prof Riitta Partanen 把目标的意义拉到 generational shift 的高度：By 2030, having 100 Indigenous medical students enrolled in our MD Program will represent a generational shift。Mayne Professor of Indigenous Health and Wellbeing Prof Brad Murphy 则说明入学机制的配套：Cultural representation will be embedded as part of the admission pathways, including Indigenous-led interview panels, to uphold equity and cultural integrity。Indigenous-led 的面试小组被明确嵌入到入学路径中，这在澳大利亚医学院招生体系中是一个具体的制度创新。这条目标主要面向 First Nations 学生群体，对中国留学生没有直接申请影响；但对走 Public Health、Health Policy 或 Medical Education 方向、想研究澳大利亚原住民医疗劳动力发展和高等教育公平政策的研究生，这是一个具体、有清晰指标的政策案例，值得纳入研究素材库。
+
+> 来源：[UQ News · 2026-05-20](https://news.uq.edu.au/2026-05-bold-goal-boost-australias-indigenous-medical-workforce)
+
+## 02. UQ 主导《Lancet》全球精神疾病负担研究：2023 年患者近 12 亿，DALYs 排名升至第 5
+
+**一句话**：5 月 22 日 UQ School of Public Health 与 Queensland Centre for Mental Health Research（QCMHR）研究人员主导的 **Global Burden of Diseases, Injuries, and Risk Factors Study 2023** 精神疾病分册在《The Lancet》发表。**2023 年全球精神疾病患者人数接近 12 亿，约为 1990 年的两倍**；精神疾病在 DALYs（伤残调整生命年）排名上从 1990 年的第 12 位上升到 2023 年的第 5 位。
+
+5 月 22 日 UQ School of Public Health 与 Queensland Centre for Mental Health Research（QCMHR）研究人员主导的 Global Burden of Diseases, Injuries, and Risk Factors Study 2023 精神疾病分册在《The Lancet》正式发表。研究两条核心发现：第一，2023 年全球精神疾病患者人数接近 12 亿，约为 1990 年的两倍；第二，在 DALYs（伤残调整生命年，Disability-Adjusted Life Years）这个综合疾病负担指标上，精神疾病从 1990 年的第 12 位上升到 2023 年的第 5 位。增长的主要驱动是焦虑障碍和重度抑郁。
+
+研究主要作者 Associate Professor Damian Santomauro（UQ School of Public Health 与 QCMHR）在公告中给出阶段性判断：Mental disorders have been a leading cause of DALYs globally for decades, but these findings show we are entering an even more concerning phase of worsening mental disorder burden。这不是数据微调，而是已经进入一个新阶段。他同时具体说明排名变化的内涵：When compared with other disease groups, mental disorders were the fifth leading cause of DALYs in 2023, up from 12th in 1990, led mostly by increases in anxiety disorders and major depression。在所有疾病大类的横向比较中，精神疾病已经升到第 5 位。
+
+Honorary Associate Professor Alize Ferrari（同样来自 UQ School of Public Health）从政策响应角度补充：We need a significant shift in how we respond to mental disorders globally, with better surveillance and more coordinated policy action to reduce the burden through early treatment and prevention。研究同时指出青少年（15–19 岁）是负担最高的年龄段，女性高于男性，澳大利亚等 Australasia 区域与 Western sub-Saharan Africa 是受影响最严重的区域。对走 Public Health、Mental Health、Psychiatry、Epidemiology 或 Health Policy 方向的研究生，UQ School of Public Health 与 QCMHR 是这条研究链条在澳洲的核心平台，这次主导 Lancet 发表意味着 UQ 在全球精神疾病流行病学研究领导力进一步巩固——这是申请相关方向 PhD 课题时一个具体且新鲜的研究背景信号。
+
+> 来源：[UQ News · 2026-05-22 · The Lancet](https://news.uq.edu.au/2026-05-worlds-burden-mental-disorders-doubled-1990)
+
+## 03. Bachelor of Veterinary Technology 26 年缓解兽医荒：vet techs 资格已超出法律允许执行范围
+
+**一句话**：5 月 15 日 UQ News 报道 UQ **Bachelor of Veterinary Technology** 学位项目——自 2000 年开办、至今 26 年的兽医技术员（vet tech）本科教育——作为应对澳大利亚兽医劳动力短缺的一条可持续路径。School of Veterinary Science 副教授 Rebekah Scotney 表示当前兽医行业面临 critical workforce shortages，兽医普遍承受 increasing levels of stress, burnout and high suicide rates 的压力，是时候认真考虑结构性的行业改革。
+
+5 月 15 日 UQ News 报道 UQ Bachelor of Veterinary Technology 学位项目——自 2000 年开办、至今 26 年——作为应对澳大利亚兽医劳动力短缺的一条可持续路径。报道的核心论点是兽医（DVM）这一职业本身正承受多重压力，单靠扩招 DVM 难以解决供给侧问题，扩展兽医技术员（vet tech）的角色和操作权是必须的结构性调整。
+
+UQ School of Veterinary Science 副教授 Associate Professor Rebekah Scotney 把行业背景描述得很硬：In a time of critical workforce shortages with veterinarians suffering from increasing levels of stress, burnout and high suicide rates, it is time to seriously consider transformational industry reforms。兽医这个职业承受的压力、职业倦怠和自杀率上升都是真实数据可以追踪的趋势。Dr Scotney 在另一处补充：It's time for our veterinary industry to adopt this proven strategy, which increases accessibility and quality of services。
+
+学位项目协调员 Dr Patricia Clarke 把核心矛盾点出来：Vet techs are currently academically qualified beyond what the law allows them to perform and we need to change this to support our vets and provide better care for animals。意思是 UQ 培养出来的 vet techs 在学术上已经具备超出当前法律允许他们执行操作范围的资格，是法律层面跟不上专业能力。这条改革主张同时引用了 New South Wales Government inquiry into veterinary workforce shortages 的建议作为支撑。从毕业去向看，Dr Scotney 给出了一句关键评价：Over the past 20 years, UQ vet techs have excelled in the specialist practice environment, particularly in emergency and critical care nursing with many progressing into leadership roles——20 年来 UQ vet techs 在专科实践环境特别是急诊和重症护理领域表现突出，许多进入了领导岗位。对走兽医方向但觉得 DVM 这条路门槛太高、时间太长的同学，UQ Bachelor of Veterinary Technology 是一条值得评估的替代结构化路径——专业能力的天花板可能比常规印象中高。完整课程信息请到 study.uq.edu.au 兽医技术专业页面核对。
+
+> 来源：[UQ News · 2026-05-15](https://news.uq.edu.au/2026-05-uq-degree-helping-address-veterinary-workforce-shortages)
+
+## 4. 今日速览
+
+- **01 · First Nations 医学生 100 by 2030**：UQ Medical School 2027 年起每年招 25 名 First Nations 医学生；Indigenous-led interview panels 嵌入入学路径；Prof Parker / Partanen / Murphy 联合宣布；面向 First Nations 学生群体
+- **02 · Lancet 全球精神疾病研究**：UQ School of Public Health + QCMHR 主导 GBD 2023；2023 年患者近 12 亿（约 1990 两倍）；DALYs 排名升至第 5；青少年与女性负担最重；Santomauro / Ferrari 为主要作者
+- **03 · Vet Tech 学位 26 年**：UQ Bachelor of Veterinary Technology 自 2000 年开办；Dr Scotney 与 Dr Clarke 呼吁行业法律改革给 vet tech 更多操作权；急诊重症等专科领域出路明确
+
+如果你在看 UQ 的申请、奖学金或研究机会，这篇可以直接当作今天的速查版。
