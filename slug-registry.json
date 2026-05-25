@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-25T16:12:40.962Z",
+  "lockedAt": "2026-05-25T23:41:46.173Z",
   "version": 1,
   "slugs": [
     {
@@ -368,6 +368,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-05-26"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -581,6 +585,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-05-23"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-05-26"
     },
     {
       "type": "article",
