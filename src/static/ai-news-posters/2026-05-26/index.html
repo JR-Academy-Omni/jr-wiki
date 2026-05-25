@@ -1,0 +1,334 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-25T21:07:33.392Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-26（Canvas 版）</title>
+<meta name="description" content="2026-05-26 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-26.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-26",
+  "summary": {
+    "hook": [
+      {
+        "text": "Google Gemini Omni "
+      },
+      {
+        "text": "正式亮相",
+        "hl": true
+      },
+      {
+        "text": "；OpenAI "
+      },
+      {
+        "text": "破解 60 年离散几何猜想",
+        "hl": true
+      }
+    ],
+    "sub": "I/O 大会 AI 新战场：多模态 × 数学推理 × 编程代理全面开打",
+    "items": [
+      {
+        "num": "01",
+        "cat": "Google",
+        "numColor": "#4285F4",
+        "t": "Gemini 3.5 Flash 速度是竞品 4 倍，Omni 多模态编辑同步发布"
+      },
+      {
+        "num": "02",
+        "cat": "OpenAI",
+        "numColor": "#10A37F",
+        "t": "AI 模型推翻离散几何 60 年悬案，数学推理新里程碑"
+      },
+      {
+        "num": "03",
+        "cat": "Anthropic",
+        "numColor": "#C96442",
+        "t": "Claude 6 月起 API 用量单独计费，Pro 用户获 $20 月度积分"
+      },
+      {
+        "num": "04",
+        "cat": "DeepSeek",
+        "numColor": "#1E6FFF",
+        "t": "DeepSeek 首轮外部融资估值 500 亿美元，国家基金领投"
+      },
+      {
+        "num": "05",
+        "cat": "xAI",
+        "numColor": "#7B2FBE",
+        "t": "Grok Build 编程代理发布，256K 上下文专攻 agentic 工作流"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gemini-35-flash-omni",
+      "idx": "01",
+      "catText": "Google I/O",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#E8F0FE",
+        "mid": "#C5D8F5",
+        "bot": "#1A237E",
+        "topRight": "#FBBC05"
+      },
+      "title": [
+        {
+          "text": "Gemini 3.5 Flash 速度"
+        },
+        {
+          "text": "碾压竞品 4 倍",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Google I/O 2026 重磅："
+        },
+        {
+          "text": "Gemini 3.5 Flash",
+          "bold": true
+        },
+        {
+          "text": " 全球上线，速度 4x 领先；Omni 多模态视频编辑 + Spark 跨应用代理同步发布"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google I/O 2026 发布 Gemini 3.5 Flash（全球 Gemini 应用新默认模型）、Gemini Omni（视频输入生成任意内容）及 Gemini Spark（跨应用推理代理，Beta 阶段）"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Gemini 3.5 Flash 定价 $1.50/$9 per 1M tokens，在前沿智能基准下速度 4 倍领先竞品；Omni 将多模态理解与生成合并为单模型，打通创作全链路"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Flash 今日起可通过 API 和 Gemini 应用直接调用；Omni 向 Plus/Pro/Ultra 订阅用户滚动开放，YouTube Shorts 下周接入"
+        }
+      ],
+      "src": "📎 blog.google · cnbc.com · cybernews.com"
+    },
+    {
+      "slug": "02-openai-discrete-geometry-conjecture",
+      "idx": "02",
+      "catText": "OpenAI 数学",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#E6F4F0",
+        "mid": "#A8D8C8",
+        "bot": "#064E3B",
+        "topRight": "#34D399"
+      },
+      "title": [
+        {
+          "text": "OpenAI 模型推翻"
+        },
+        {
+          "text": "60 年离散几何悬案",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenAI 旗下 AI 模型于 5 月 22 日"
+        },
+        {
+          "text": "推翻离散几何核心猜想",
+          "bold": true
+        },
+        {
+          "text": "，成为 AI 辅助纯数学推理的最新里程碑"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 宣布其 AI 模型推翻了离散几何领域一个长达 60 年的中心猜想，是继 AlphaProof 后 AI 在纯数学定理证明/反驳上的又一重大突破"
+        },
+        {
+          "k": "为什么重要",
+          "v": "该成果表明大型语言模型已能在开放性数学问题上产出原创贡献，而非仅验证已知定理；对数学研究工具化 AI 有深远意义"
+        },
+        {
+          "k": "对你的影响",
+          "v": "对 IT 求职者：AI 辅助数学/算法研究岗需求将提升；对开发者：OpenAI API 数学推理能力将纳入后续模型更新"
+        }
+      ],
+      "src": "📎 openai.com"
+    },
+    {
+      "slug": "03-anthropic-claude-api-credit-pricing",
+      "idx": "03",
+      "catText": "Anthropic 定价",
+      "accent": "#C96442",
+      "bg": {
+        "top": "#FDF0EB",
+        "mid": "#F4C5AE",
+        "bot": "#7C2D12",
+        "topRight": "#FB923C"
+      },
+      "title": [
+        {
+          "text": "Claude 6 月起"
+        },
+        {
+          "text": "API 用量独立计费",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Anthropic 宣布 "
+        },
+        {
+          "text": "6 月 15 日起",
+          "bold": true
+        },
+        {
+          "text": " 将程序化 API 用量从订阅聊天限额中分离，Pro 用户每月获 $20 积分"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "自 2026 年 6 月 15 日起，Anthropic 为 Claude 引入专属月度积分体系：Pro 用户 $20，Max 5x 用户 $100，Max 20x 用户 $200；超出积分后 API 调用将单独付费"
+        },
+        {
+          "k": "为什么重要",
+          "v": "此前 Claude Code、Agent 等程序化用量与普通聊天共享同一配额，重度开发者反映配额耗尽过快；新机制将两类用量彻底分离，商业模式向 API-first 靠拢"
+        },
+        {
+          "k": "对你的影响",
+          "v": "重度使用 Claude Code 或 API 的澳洲 IT 开发者需评估新积分是否覆盖实际用量，超额部分须按 token 付费；建议 6 月前核查用量历史"
+        }
+      ],
+      "src": "📎 anthropic.com · infoworld.com"
+    },
+    {
+      "slug": "04-deepseek-50b-valuation-state-funding",
+      "idx": "04",
+      "catText": "DeepSeek 融资",
+      "accent": "#1E6FFF",
+      "bg": {
+        "top": "#E8EEFF",
+        "mid": "#93C5FD",
+        "bot": "#1E3A8A",
+        "topRight": "#60A5FA"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 首轮融资"
+        },
+        {
+          "text": "估值冲破 500 亿美元",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "DeepSeek 即将完成首轮外部融资，估值高达 "
+        },
+        {
+          "text": "500 亿美元",
+          "bold": true
+        },
+        {
+          "text": "，国家大基金三期与腾讯联合领投"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "据 SCMP 和 TechCrunch 报道，DeepSeek 即将完成成立以来首次外部融资，估值最高达 500 亿美元；领投方包括国家集成电路产业投资基金三期（大基金三期）及腾讯"
+        },
+        {
+          "k": "为什么重要",
+          "v": "DeepSeek 由梁文锋创立，此前近 90% 股权归创始人所有，本轮主要为员工提供股权变现渠道；国家资本介入标志中国 AI 基础模型已成战略级资产"
+        },
+        {
+          "k": "对你的影响",
+          "v": "估值 500 亿美元使 DeepSeek 成为全球估值最高的私有 AI 实验室之一；未上市前其 API 仍公开可调，留学/IT 方向关注其后续开源策略变化"
+        }
+      ],
+      "src": "📎 scmp.com · techcrunch.com"
+    },
+    {
+      "slug": "05-xai-grok-build-coding-agent",
+      "idx": "05",
+      "catText": "xAI 编程",
+      "accent": "#7B2FBE",
+      "bg": {
+        "top": "#F3E8FF",
+        "mid": "#C4B5FD",
+        "bot": "#3B0764",
+        "topRight": "#A855F7"
+      },
+      "title": [
+        {
+          "text": "xAI 发布"
+        },
+        {
+          "text": "Grok Build 编程代理",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "xAI 推出专为 agentic 工作流设计的 "
+        },
+        {
+          "text": "Grok Build 0.1",
+          "bold": true
+        },
+        {
+          "text": "，256K 上下文，首发限 SuperGrok Heavy 订阅用户"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 于 5 月 14 日推出 Grok Build 0.1 早期访问版：专为代码代理工作流训练，支持文本 + 图像输入，256,000 token 上下文窗口，目前仅限 $300/月 SuperGrok Heavy 订阅者"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Grok Build 是 xAI 首款垂直于编程代理的独立模型，与 Grok 4.3 通用旗舰并列；直接竞争 Claude Code、GitHub Copilot 和 Cursor，表明 AI 编程代理市场竞争全面加剧"
+        },
+        {
+          "k": "对你的影响",
+          "v": "澳洲找 IT 工作的同学：编程代理岗位技能要求正从「会用 Copilot」升级至「能驾驭多代理工作流」；Grok Build 可作为 Claude Code 的横向对比学习工具"
+        }
+      ],
+      "src": "📎 engadget.com · x.ai"
+    }
+  ],
+  "mp": {
+    "title": "Gemini Omni 亮相 / OpenAI 破离散几何 / DeepSeek 500亿 / Claude 计量改价 / Grok Build"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-26"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>
