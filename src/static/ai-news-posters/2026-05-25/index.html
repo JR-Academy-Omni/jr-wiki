@@ -1,0 +1,309 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-25T00:45:28.757Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-25（Canvas 版）</title>
+<meta name="description" content="2026-05-25 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-25.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-25",
+  "summary": {
+    "hook": [
+      "DeepSeek",
+      " 砍价75%·",
+      "Claude Mythos",
+      " 封存"
+    ],
+    "sub": "DeepSeek 永久降价 · Mythos 封存 · OpenAI 移动端 · Grok Build · KPMG 27万人用 Claude",
+    "items": [
+      {
+        "num": "01",
+        "cat": "价格战",
+        "numColor": "#E53935",
+        "t": "DeepSeek V4-Pro API 永久降价75%，最低 0.025 元/百万 Token"
+      },
+      {
+        "num": "02",
+        "cat": "安全边界",
+        "numColor": "#FF7043",
+        "t": "Claude Mythos 具国家级网攻能力，Anthropic 决定不公开发布"
+      },
+      {
+        "num": "03",
+        "cat": "产品扩张",
+        "numColor": "#10A37F",
+        "t": "OpenAI Codex 登陆手机端，个人财务 AI 向 Pro 用户开放"
+      },
+      {
+        "num": "04",
+        "cat": "编程 Agent",
+        "numColor": "#6D28D9",
+        "t": "Grok Build 向 SuperGrok 全开，接入 Vercel / Canva / S&P 数据"
+      },
+      {
+        "num": "05",
+        "cat": "企业铺开",
+        "numColor": "#C96442",
+        "t": "Claude 进驻 KPMG 全球 27 万员工，SAP 全线 AI 平台签约"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-deepseek-v4pro-price-cut-75pct",
+      "idx": "01",
+      "catText": "价格战",
+      "accent": "#E53935",
+      "bg": {
+        "top": "#2E0A0A",
+        "mid": "#401010",
+        "bot": "#1C0606",
+        "topRight": "#7A1010"
+      },
+      "title": [
+        {
+          "text": "DeepSeek V4-Pro 永久降价75%："
+        },
+        {
+          "text": "API 最低 0.025 元/百万 Token，全球定价格局被迫重写",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "「临时促销」变「永久底价」——"
+        },
+        {
+          "text": "V4-Pro-Max 超越 GPT-5.2 / Gemini 3.0 Pro 部分榜单，现在还更便宜",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 正式将旗舰 V4-Pro 模型 API 永久下调75%：输入从 0.1 元降至 0.025 元/百万 Token，输出从 24 元降至 6 元，此前临时促销价格转为正式定价，华为 Ascend 950 超节点量产后预计继续压价"
+        },
+        {
+          "k": "为什么重要",
+          "v": "V4-Pro 官方宣称在推理基准上超越 OpenAI GPT-5.2 与 Gemini 3.0 Pro 部分测试，更低价格永久发售对三大头部闭源 API 形成直接价格压力；中国 AI 的成本优势从「临时」变「结构性」"
+        },
+        {
+          "k": "对你的影响",
+          "v": "搭建 RAG / Agent 的开发者可即刻评估 V4-Pro 切换成本收益；澳洲企业采购 AI 服务时「同等能力更低成本」已是现实选项；下半年 Ascend 950 大规模量产后或迎新一轮降价窗口"
+        }
+      ],
+      "src": "📎 bloomberg.com · wtaq.com · techcrunch.com"
+    },
+    {
+      "slug": "02-claude-mythos-sealed-nation-state-cyber",
+      "idx": "02",
+      "catText": "安全边界",
+      "accent": "#FF7043",
+      "bg": {
+        "top": "#2E1208",
+        "mid": "#401A0C",
+        "bot": "#1C0A04",
+        "topRight": "#803010"
+      },
+      "title": [
+        {
+          "text": "Claude Mythos 具国家级网攻能力："
+        },
+        {
+          "text": "Anthropic 决定封存不公开，仅授权少数政府和企业修补漏洞",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "「太强了所以不能给你」——"
+        },
+        {
+          "text": "Mythos 是 Anthropic 首个因能力过载而主动封存的模型，网络安全边界被重新定义",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 披露最新模型 Claude Mythos 具备国家级网络攻击能力，决定不公开发布，仅向审核通过的少数企业与政府机构开放，任务是用 Mythos 主动扫描并修补常用软件漏洞"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 Anthropic「负责任扩展政策」(RSP) 首次触发「ASL-4 封存」场景：能力已超出当前安全措施可管控范围；也是行业首次公开承认「模型太强必须限制分发」而非「对齐后再公开」"
+        },
+        {
+          "k": "对你的影响",
+          "v": "短期内 Mythos 不会出现在 Claude.ai 或 API；长期看，这确立了「前沿模型按风险分级分发」的先例——从事网络安全的从业者可关注 Anthropic 授权合作渠道；关注 AI 安全研究方向的同学，ASL-4 文档值得深读"
+        }
+      ],
+      "src": "📎 anthropic.com · time.com · technologyreview.com"
+    },
+    {
+      "slug": "03-openai-codex-mobile-personal-finance",
+      "idx": "03",
+      "catText": "产品扩张",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#0A2E1A",
+        "mid": "#0F4025",
+        "bot": "#061A0F",
+        "topRight": "#1A7035"
+      },
+      "title": [
+        {
+          "text": "OpenAI Codex 登陆手机 + 个人财务 AI 上线："
+        },
+        {
+          "text": "ChatGPT 从「对话框」全面进化为「个人智能基础设施」",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "两大功能同周亮相——"
+        },
+        {
+          "text": "Codex 移动端可随时查看代码任务进度；财务 AI 接入银行账户做资产分析",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 同步推进两项扩展：Codex 编程 Agent 正式进入 ChatGPT 手机 App 预览版，用户可在移动端查看任务进度、审批命令、引导线程；个人财务功能向美国 Pro 用户开放，支持安全连接银行账户并基于真实财务数据问答"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Codex 移动端让「随时随地监控 AI 编程任务」成为现实，异步开发工作流被彻底重构；个人财务功能是 ChatGPT 进入「高敏感垂直场景」的信号，也是与 Apple Intelligence 财务功能的直接竞争"
+        },
+        {
+          "k": "对你的影响",
+          "v": "有 ChatGPT 订阅的开发者可即刻在手机端尝试 Codex 预览；财务功能目前仅限美国 Pro 用户，澳洲用户预计 Q3 2026 陆续跟进；IT 求职者可将「Claude Code + Codex 移动异步工作流」作为提效亮点写进简历"
+        }
+      ],
+      "src": "📎 openai.com · releasebot.io"
+    },
+    {
+      "slug": "04-xai-grok-build-open-supergrox-connectors",
+      "idx": "04",
+      "catText": "编程 Agent",
+      "accent": "#6D28D9",
+      "bg": {
+        "top": "#180A2E",
+        "mid": "#220D40",
+        "bot": "#0E0618",
+        "topRight": "#380D80"
+      },
+      "title": [
+        {
+          "text": "Grok Build 向 SuperGrok 全面开放："
+        },
+        {
+          "text": "Vercel / Canva / S&P 数据一键接入，编程 Agent 生态快速成型",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "「写代码 + 部署 + 设计 + 数据」全链路打通——"
+        },
+        {
+          "text": "SuperGrok 用户无需额外付费即可用 Grok Build 在 OpenCode 环境跑编程任务",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 宣布 Grok Build 0.1（专门为 Agentic 工作流训练的编程模型）向 SuperGrok 和 X Premium 订阅用户全面开放，通过 OpenCode 环境使用；同期上线 Vercel 部署、Canva 设计、Gamma 演示、S&P Global 实时市场数据等第三方连接器"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Grok Build 与 Grok 4.3（1M Token / 视频输入）协同，形成「写代码 → 实时数据 → 部署发布」的闭环；S&P Global 金融数据是 ChatGPT 和 Claude 均不具备的原生集成，xAI 借此在金融科技开发者圈建立差异化"
+        },
+        {
+          "k": "对你的影响",
+          "v": "有 SuperGrok 订阅的开发者可即刻在 OpenCode 测试 Grok Build；做全栈或金融 App 的求职者，「熟悉 Grok Build + Vercel 部署」是有价值的项目经验；对比 Anthropic Managed Agents 两者都值得上手再取舍"
+        }
+      ],
+      "src": "📎 engadget.com · basenor.com · x.ai"
+    },
+    {
+      "slug": "05-anthropic-kpmg-sap-enterprise-wave",
+      "idx": "05",
+      "catText": "企业铺开",
+      "accent": "#C96442",
+      "bg": {
+        "top": "#2E1208",
+        "mid": "#3A180A",
+        "bot": "#1C0A04",
+        "topRight": "#7A2E10"
+      },
+      "title": [
+        {
+          "text": "Claude 进驻 KPMG 全球 27 万员工 + SAP 全线 AI 平台："
+        },
+        {
+          "text": "「Anthropic 企业浪潮」正式开启规模化",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "不是试点是全铺——"
+        },
+        {
+          "text": "KPMG 27 万人人手一个 Claude，SAP 把 Claude 嵌进全球 ERP 核心引擎",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "KPMG 与 Anthropic 宣布全球战略联盟：Claude 嵌入 Digital Gateway，276,000+ 员工全员获取；SAP 同日宣布将 Claude 作为 SAP Business AI Platform 主要推理与 Agentic 核心，嵌入全球 ERP"
+        },
+        {
+          "k": "为什么重要",
+          "v": "KPMG + SAP 合计覆盖数十万专业服务和全球 ERP 用户，是继 Claude for Small Business（QuickBooks / PayPal / HubSpot）之后 Anthropic 企业攻势的第二波——Claude 的商业化路径已从「开发者 API」升级为「企业级系统集成」"
+        },
+        {
+          "k": "对你的影响",
+          "v": "四大会计师事务所和 SAP 是澳洲企业 IT 核心基础设施；做咨询 / 财务 / ERP 岗位的人，Claude 可能已是今年要上线的标准工具；AI 顾问 / 系统集成方向求职者现在备考 Anthropic 认证非常及时"
+        }
+      ],
+      "src": "📎 anthropic.com · news.sap.com · fortune.com"
+    }
+  ],
+  "mp": {
+    "title": "DeepSeek 砍价75% / Claude Mythos 封存 / OpenAI 进军移动端 / Grok Build 上线 / Anthropic 入驻 KPMG 全球"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-25"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>
