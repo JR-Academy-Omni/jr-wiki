@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-25T02:20:48.947Z",
+  "lockedAt": "2026-05-25T16:12:40.962Z",
   "version": 1,
   "slugs": [
     {
@@ -173,6 +173,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-05-25"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-05-26"
     },
     {
       "type": "article",
@@ -428,6 +432,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-05-25"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -521,6 +529,10 @@
     {
       "type": "article",
       "slug": "uni-news-umelb-2026-05-23"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-05-25"
     },
     {
       "type": "article",
@@ -621,6 +633,10 @@
     {
       "type": "article",
       "slug": "uni-news-uq-2026-05-23"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-uq-2026-05-25"
     },
     {
       "type": "article",
@@ -1274,6 +1290,11 @@
       "type": "chapter",
       "book": "lovable-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "lovable-guide",
+      "slug": "06-supabase-integration"
     },
     {
       "type": "chapter",

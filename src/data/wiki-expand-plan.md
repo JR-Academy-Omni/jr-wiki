@@ -49,7 +49,7 @@
 - [x] gamma-guide/07-export-workflows.md — new-chapter: 导出工作流（PDF 高质量 / PPT 兼容 PowerPoint / Notion 同步）
 
 ### lovable-guide
-- [ ] lovable-guide/06-supabase-integration.md — new-chapter: Lovable + Supabase 完整集成（auth / database / storage / realtime）
+- [x] lovable-guide/06-supabase-integration.md — new-chapter: Lovable + Supabase 完整集成（auth / database / storage / realtime）
 - [ ] lovable-guide/07-deploy-production.md — new-chapter: 从 Lovable 到生产（custom domain / SEO meta / Google Analytics 接入）
 
 ### notebooklm-guide
