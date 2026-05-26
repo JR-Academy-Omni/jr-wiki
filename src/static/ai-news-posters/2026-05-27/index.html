@@ -1,0 +1,334 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-26T21:10:10.044Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-27（Canvas 版）</title>
+<meta name="description" content="2026-05-27 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-27.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-27",
+  "summary": {
+    "hook": [
+      {
+        "text": "OpenAI "
+      },
+      {
+        "text": "万亿 IPO 正式申报",
+        "hl": true
+      },
+      {
+        "text": "；Qwen3.7 "
+      },
+      {
+        "text": "全球第 13 登顶国产",
+        "hl": true
+      }
+    ],
+    "sub": "AI 商业化大爆发：IPO 冲刺 + 国产追赶 + 企业代理全面提速",
+    "items": [
+      {
+        "num": "01",
+        "cat": "OpenAI",
+        "numColor": "#10A37F",
+        "t": "OpenAI 提交 S-1 机密申报，目标估值破万亿、9 月冲刺纳斯达克"
+      },
+      {
+        "num": "02",
+        "cat": "Alibaba",
+        "numColor": "#FF6A00",
+        "t": "Qwen3.7-Max 全球第 13、国产第 1，Cloud Summit 发布超越 Gemini Flash"
+      },
+      {
+        "num": "03",
+        "cat": "Meta",
+        "numColor": "#0668E1",
+        "t": "Meta 裁员 8000 同步砸 1450 亿 AI 资本开支，战略转闭源大模型"
+      },
+      {
+        "num": "04",
+        "cat": "Anthropic",
+        "numColor": "#C96442",
+        "t": "Claude Managed Agents 上线多代理编排与 webhook，小企业版同步发布"
+      },
+      {
+        "num": "05",
+        "cat": "Baidu",
+        "numColor": "#E02020",
+        "t": "文心 5.1 国内搜索性能登顶，预训练成本仅同量级业界 6%"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-ipo-s1-filing-trillion",
+      "idx": "01",
+      "catText": "OpenAI IPO",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#E6F4F0",
+        "mid": "#A8D8C8",
+        "bot": "#064E3B",
+        "topRight": "#34D399"
+      },
+      "title": [
+        {
+          "text": "OpenAI S-1 申报"
+        },
+        {
+          "text": "冲刺万亿估值 9 月上市",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenAI 于 5 月 22 日向 SEC "
+        },
+        {
+          "text": "提交 S-1 机密申报",
+          "bold": true
+        },
+        {
+          "text": "，目标 9 月纳斯达克上市，估值 8520 亿至 1 万亿美元"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 于 2026 年 5 月 22 日向 SEC 机密提交 S-1，高盛和摩根士丹利联合承销，目标 9 月上市，估值逾 1 万亿美元"
+        },
+        {
+          "k": "为什么重要",
+          "v": "若成功上市将成史上最大 IPO；但 Q1 2026 亏损率达每 1 美元收入倒亏 1.22 美元，盈利能力存疑"
+        },
+        {
+          "k": "对你的影响",
+          "v": "上市后 API 定价策略或受股东压力调整；关注 IT / AI 方向就业的同学可密切跟踪 S-1 公开版中的业务数据"
+        }
+      ],
+      "src": "📎 cnbc.com · bloomberg.com · axios.com"
+    },
+    {
+      "slug": "02-alibaba-qwen37-max-global-13th",
+      "idx": "02",
+      "catText": "阿里 AI",
+      "accent": "#FF6A00",
+      "bg": {
+        "top": "#FFF0E0",
+        "mid": "#FFBB80",
+        "bot": "#7C2000",
+        "topRight": "#FF8C00"
+      },
+      "title": [
+        {
+          "text": "Qwen3.7-Max"
+        },
+        {
+          "text": "国产第 1 全球第 13",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "阿里云峰会发布 "
+        },
+        {
+          "text": "Qwen3.7-Max-Preview",
+          "bold": true
+        },
+        {
+          "text": "，Arena Text 第 13 名、数学第 7，超越 Gemini 3.5 Flash 1.3 分，国产榜第一"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "阿里 5 月 20 日在 Cloud Summit 发布 Qwen3.7-Max-Preview，Artificial Analysis 评分 56.6 分，全球第 5（量子位数据）；LM Arena Text 第 13 名，Math 第 7"
+        },
+        {
+          "k": "为什么重要",
+          "v": "国产大模型首次在 Arena 盲测多项能力超越 Gemini 3.5 Flash；agentic 基准与 Claude/GPT 差距进一步缩小，中美 AI 差距实质性收窄"
+        },
+        {
+          "k": "对你的影响",
+          "v": "阿里云 API 可直接调用 Qwen3.7；在澳洲使用中文 AI 工具的开发者可将其纳入技术选型，成本通常低于 OpenAI 同级产品"
+        }
+      ],
+      "src": "📎 scmp.com · qbitai.com · chinabizinsider.com"
+    },
+    {
+      "slug": "03-meta-8000-layoffs-145b-ai-capex",
+      "idx": "03",
+      "catText": "Meta 重组",
+      "accent": "#0668E1",
+      "bg": {
+        "top": "#E8F0FF",
+        "mid": "#93C5FD",
+        "bot": "#1E3A8A",
+        "topRight": "#60A5FA"
+      },
+      "title": [
+        {
+          "text": "Meta 裁员 8000"
+        },
+        {
+          "text": "同砸 1450 亿 AI 资本开支",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Meta 5 月 20 日宣布 "
+        },
+        {
+          "text": "裁员 8000 人（约 10% 员工）",
+          "bold": true
+        },
+        {
+          "text": "，同期将 AI 资本开支提至 1450 亿美元，首款闭源模型 Muse Spark 落地"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Meta 本周裁减约 8000 名员工（占总员工约 10%）并留空 6000 个岗位；AI 资本开支达 1150-1350 亿美元，与 Muse Spark 闭源战略同步"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Muse Spark（4 月 8 日发布）是 Meta 首款闭源 AI 模型，标志其放弃三年开源路线；Alexandr Wang 领导的超级智能实验室主导未来模型研发"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Meta 旗下 WhatsApp / Instagram AI 功能将快速升级；Llama 开源生态不确定性上升，依赖 Llama 的开发者需关注后续开源承诺兑现情况"
+        }
+      ],
+      "src": "📎 techrepublic.com · thenextweb.com · cnbc.com"
+    },
+    {
+      "slug": "04-anthropic-claude-managed-agents-small-biz",
+      "idx": "04",
+      "catText": "Anthropic",
+      "accent": "#C96442",
+      "bg": {
+        "top": "#FDF0EB",
+        "mid": "#F4C5AE",
+        "bot": "#7C2D12",
+        "topRight": "#FB923C"
+      },
+      "title": [
+        {
+          "text": "Claude Managed Agents"
+        },
+        {
+          "text": "多代理编排 + 小企业版",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Anthropic 推出 "
+        },
+        {
+          "text": "Claude Managed Agents",
+          "bold": true
+        },
+        {
+          "text": "：支持 dreaming / 多代理编排 / webhook；小企业版接入 QuickBooks、HubSpot、Canva 等"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 在 Code w/ Claude 大会宣布 Managed Agents：涵盖 dreaming（后台规划）、多代理编排、outcomes 追踪与 webhook；同步上线 Claude for Small Business"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Managed Agents 将复杂 agentic 任务编排标准化，降低开发门槛；小企业版通过 Intuit / PayPal / HubSpot / Canva 等连接器让非技术用户也能部署 AI 工作流"
+        },
+        {
+          "k": "对你的影响",
+          "v": "澳洲从事 AI 应用开发的求职者：Managed Agents API 是高价值技能点；已在用 QuickBooks / HubSpot 的小企业主可即时接入 Claude 自动化"
+        }
+      ],
+      "src": "📎 anthropic.com · infoworld.com · technologyreview.com"
+    },
+    {
+      "slug": "05-baidu-wenxin-51-search-top-6pct-cost",
+      "idx": "05",
+      "catText": "百度 AI",
+      "accent": "#E02020",
+      "bg": {
+        "top": "#FDE8E8",
+        "mid": "#FCA5A5",
+        "bot": "#7F1D1D",
+        "topRight": "#EF4444"
+      },
+      "title": [
+        {
+          "text": "文心 5.1 国内搜索登顶"
+        },
+        {
+          "text": "成本仅业界 6%",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "百度 5 月 9 日发布 "
+        },
+        {
+          "text": "文心 5.1",
+          "bold": true
+        },
+        {
+          "text": "，LMArena 国内搜索能力榜首，预训练成本仅同量级业界模型 6%"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "百度文心 5.1 于 5 月 9 日正式发布，在 LMArena 搜索专项评测中登顶国内榜首；预训练成本约为同等量级业界同类模型的 6%"
+        },
+        {
+          "k": "为什么重要",
+          "v": "极低训练成本意味着百度可以更快迭代；搜索能力领先对其广告 + AI 搜索商业模式是核心竞争力，直接挑战国内 Kimi 和阿里的搜索场景"
+        },
+        {
+          "k": "对你的影响",
+          "v": "使用百度搜索 / 文心一言的中文用户搜索体验将大幅提升；AI 搜索产品竞争加速，利好每天用 AI 搜索找留学 / 求职信息的同学"
+        }
+      ],
+      "src": "📎 qbitai.com"
+    }
+  ],
+  "mp": {
+    "title": "OpenAI 冲刺万亿 IPO / Qwen3.7 全球 13 / Meta 裁 8000 保 AI / Claude 代理编排 / 百度文心 5.1"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-27"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  FLEX_HEIGHT: true,
+  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
+});
+</script>
+</body>
+</html>
