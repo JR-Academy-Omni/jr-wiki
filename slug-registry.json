@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-25T23:41:46.173Z",
+  "lockedAt": "2026-05-27T23:45:50.367Z",
   "version": 1,
   "slugs": [
     {
@@ -177,6 +177,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-05-26"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-05-27"
     },
     {
       "type": "article",
@@ -372,6 +376,14 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-05-27"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-05-28"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -492,6 +504,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-monash-2026-05-27"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-umelb-2026-04-24"
     },
     {
@@ -537,6 +553,10 @@
     {
       "type": "article",
       "slug": "uni-news-umelb-2026-05-25"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-05-28"
     },
     {
       "type": "article",
@@ -648,6 +668,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-uq-2026-05-28"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-usyd-2026-04-22"
     },
     {
@@ -693,6 +717,10 @@
     {
       "type": "article",
       "slug": "uni-news-usyd-2026-05-24"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-05-27"
     },
     {
       "type": "article",
