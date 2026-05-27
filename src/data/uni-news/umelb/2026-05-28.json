@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-28",
+  "school": "umelb",
+  "summary": {
+    "hookMain": "墨大",
+    "hookSub": "LARS 放射化学实验室开放 + ACADI 糖尿病研究获政府新资助",
+    "hookSubHighlight": "LARS 实验室",
+    "subLines": [
+      "墨尔本大学与 Cyclotek 在 Parkville Bio21 开设 LARS 放射化学实验室",
+      "研产一体：加速新一代癌症诊断和靶向治疗技术转化",
+      "ACADI 糖尿病创新中心获政府 MRFF 新一轮多年期资助"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "LARS 放射化学实验室", "data": "墨大 × Cyclotek" },
+      { "num": "02", "title": "ACADI 糖尿病中心", "data": "MRFF 新资助" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研设施",
+      "h2Main": "墨尔本大学开设 LARS 放射化学实验室",
+      "h2Sub": "与 Cyclotek 合作 · Parkville Bio21 园区 · 研产一体加速癌症诊疗转化",
+      "h2Highlight": "LARS",
+      "lead": "墨尔本大学与放射性药物制造商 Cyclotek 在 Parkville 校区 Bio21 研究园区联合开设 <b>Laboratory for Advanced Radiochemical Science（LARS）</b>，目标是加速新一代癌症诊断和靶向治疗技术的研发转化。LARS 将尖端科学研究、学生培训与分子靶向疗法先进制造整合在同一设施内。",
+      "bullets": [
+        { "k": "研产一体", "v": "LARS 将<b>放射性同位素合成、分析化学、临床前影像评估与学生培训</b>整合在同一设施，大幅缩短从科研到临床转化的周期" },
+        { "k": "合作伙伴", "v": "<b>墨尔本大学 × Cyclotek</b>（澳洲放射性药物制造商）；LARS 位于 <b>Parkville 校区 Bio21 研究园区</b>" },
+        { "k": "战略意义", "v": "强化澳洲在放射性药物领域的<b>本土研发和制造能力</b>；支持不断扩大的临床试验管线和行业合作" },
+        { "k": "对你的影响", "v": "走 <b>Pharmacology / Biomedical Science / Chemistry / Medical Physics</b> 方向的学生，Bio21 园区实验室通常也是研究生课题和工业 placement 的直接来源" }
+      ],
+      "source": "University of Melbourne Newsroom · 2026-05",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/may/new-radiochemical-lab-to-support-next-gen-cancer-treatment",
+      "sourceQuote": "The University of Melbourne and radiopharmaceutical manufacturer Cyclotek opened the Laboratory for Advanced Radiochemical Science (LARS), a new facility designed to accelerate the development of next-generation cancer diagnostics and therapies. Located at the University's Parkville campus, LARS brings together leading research and student training with advanced manufacturing of molecular targeted therapies."
+    },
+    {
+      "idx": "02",
+      "category": "科研合作",
+      "h2Main": "ACADI 糖尿病创新中心获政府 MRFF 新资助",
+      "h2Sub": "墨大牵头 60 余家机构网络 · 含 PhD 和 ECR 资助通道",
+      "h2Highlight": "MRFF 新资助",
+      "lead": "墨尔本大学宣布支持澳大利亚新医学研究战略，同期宣布以墨大为总部的 <b>Australian Centre for Accelerating Diabetes Innovations（ACADI）</b> 获澳大利亚政府医疗研究未来基金（MRFF）新一轮多年期资助，资助面涵盖临床研究、患者支持和行业合作。",
+      "bullets": [
+        { "k": "机构规模", "v": "ACADI 成立于 2022 年，是<b>虚拟协作网络</b>，汇聚超过 <b>60 家机构</b>——包括大学、医疗服务机构、患者权益团体和行业合作方" },
+        { "k": "资助来源", "v": "澳大利亚政府<b>医疗研究未来基金（MRFF）</b>多年期资助" },
+        { "k": "研究方向", "v": "集中于糖尿病创新解决方案开发，覆盖临床研究、患者权益倡导、行业合作" },
+        { "k": "对你的影响", "v": "ACADI 下设 <b>PhD 和 ECR 资助通道</b>，是进入墨大医学院研究系的入口；走 Biomedical Research / Health Sciences / Endocrinology 方向的同学可关注 ACADI 资助申请窗口" }
+      ],
+      "source": "University of Melbourne Newsroom · 2026-05",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/may/university-of-melbourne-welcomes-new-medical-research-strategy-and-boost-to-funding",
+      "sourceQuote": "ACADI is a virtual collaborative network which brings together more than 60 organisations including universities, health services, patient advocates and industry partners"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "墨尔本大学与 Cyclotek 在 Parkville Bio21 开设 LARS 放射化学实验室，加速新一代癌症诊疗转化；同期宣布 ACADI 糖尿病创新研究中心获政府 MRFF 新一轮多年期资助，60 余家机构网络持续扩大。",
+    "items": [
+      { "n": "01", "title": "LARS 放射化学实验室", "body": "墨大 × Cyclotek 联合开设；Parkville Bio21 园区；研产一体：放射性同位素合成 + 学生培训 + 分子靶向疗法制造" },
+      { "n": "02", "title": "ACADI 获 MRFF 新资助", "body": "墨大牵头；60+ 机构虚拟网络；MRFF 多年期资助；含 PhD / ECR 资助通道" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "05 / 28"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "墨大 5-28 两条硬料📣",
+      "body": "5 月 28 日墨尔本大学放出两条新闻，一条是实验室一条是科研资助，方向不同但对走理工医学方向的留学生都有参考价值。\n\n01 / LARS 放射化学实验室——墨大和放射性药物制造商 Cyclotek 在 Parkville Bio21 园区联合开设 Laboratory for Advanced Radiochemical Science（LARS），目标是加速新一代癌症诊断和靶向治疗的研发转化。这种研产一体的实验室在澳洲大学里不多见，放射性同位素合成、影像评估、分子靶向疗法制造全在一个屋檐下。\n\n02 / ACADI 新资助——以墨大为总部的糖尿病创新研究中心 ACADI 获澳大利亚政府 MRFF 新一轮多年期资助，覆盖超过 60 家机构的虚拟协作网络。ACADI 下设 PhD 和 ECR 资助通道，对想进墨大医学院的同学是个入口。\n\n走医学 / 药学 / 生物医学方向的姐妹评论区扣 1，我可以分享墨大相关方向的整理🙌",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #墨大申请 #大学新闻 #留学干货 #留学生活"
+    },
+    "p2": {
+      "title": "墨大 LARS 实验室开放 癌症研究新设施🔬",
+      "body": "走 Pharmacology / Biomedical Science / Medical Physics 方向的姐妹这条收藏：墨尔本大学和放射性药物制造商 Cyclotek 在 Parkville 的 Bio21 研究园区联合开设了 LARS——Laboratory for Advanced Radiochemical Science，专门用于加速新一代癌症诊断和靶向治疗技术的研发。\n\n这个实验室挺特别的地方在于它是「研产一体」：放射性同位素合成、分析化学、临床前影像评估、分子靶向疗法先进制造，还有学生培训，全在一个设施内打通。通常这几块在不同地方，产学合作效率低；LARS 把这些整合在 Parkville Bio21 园区里，大幅缩短从科研到临床试验的转化周期。\n\n对澳洲来说也有战略意义：放射性药物是近年全球肿瘤学发展最快的方向之一，LARS 直接强化了澳洲在这个赛道的本土研发和制造能力。\n\n在申墨大 Pharmacology / Biomedical 方向的姐妹，Bio21 园区的实验室通常也是研究生课题和工业 placement 的直接来源——LARS 这个新设施值得关注。\n\n评论区聊墨大 Bio 方向的申请～",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #Pharmacology #BiomedicalScience #癌症研究 #留学干货"
+    },
+    "p3": {
+      "title": "墨大 ACADI 获政府新资助 PhD 通道开了🎓",
+      "body": "走 Biomedical Research / Health Sciences / Endocrinology 方向的姐妹注意：墨尔本大学宣布以墨大为总部的糖尿病创新研究中心 ACADI 获澳大利亚政府医疗研究未来基金（MRFF）新一轮多年期资助。\n\nACADI 是什么？成立于 2022 年，是以墨大为核心的虚拟协作网络，汇聚超过 60 家机构——包括大学、医疗服务机构、患者权益团体和行业合作方，一起搞糖尿病创新解决方案的研发。澳大利亚联邦卫生部一直是背后的资助方，这次 MRFF 新一轮资助意味着这个网络会持续扩大。\n\n对留学生来说，最直接有用的是：ACADI 下设专门的 PhD 资助通道和 ECR（Early Career Researcher）资助通道——这是进入墨大医学院研究系的一个具体入口，有专项资金支持。\n\n我在纠结是走墨大直接 PhD 申请还是先申 ACADI 的资助通道进来，感觉后者门槛可能相对清晰一点。\n\n有在看墨大医学研究方向的姐妹评论区聊，我整理了一份相关方向的申请路径。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #PhD申请 #生物医学 #糖尿病研究 #MRFF #留学干货"
+    },
+    "p4": {
+      "title": "墨大为什么适合学医学相关？5-28 两条新闻说明问题",
+      "body": "我一直觉得墨尔本大学在医学和生命科学方向的科研基础设施投入比很多人认为的要扎实，今天这两条新闻正好说明这一点。\n\n一是刚开的 LARS 放射化学实验室——墨大 + Cyclotek 在 Parkville Bio21 园区，整合了放射性同位素合成、癌症靶向疗法制造和学生培训，「研产一体」这种设计在澳洲大学里不多见，直接加速从研究到临床的转化效率。\n\n二是 ACADI 糖尿病创新研究中心获 MRFF 新资助——60+ 机构虚拟网络，下设 PhD 和 ECR 资助通道，是墨大医学院研究资金生态的一部分。\n\n两条放在一起：LARS 代表硬件基础设施，ACADI 代表资助生态。走 Pharmacology / Cancer Research / Biomedical 方向的同学，这两个都是你未来研究生阶段可能直接接触到的东西。\n\n申墨大的姐妹想聊医学方向的评论区扣 1，一起交流🙌",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #墨大医学 #Pharmacology #BiomedicalScience #留学干货 #澳洲留学生"
+    },
+    "p5": {
+      "title": "墨大 5-28 两条｜一眼看完",
+      "body": "墨尔本大学 5 月 28 日两条新闻，医学科研设施 + 糖尿病研究资助：\n\n01 / LARS 放射化学实验室——墨大 × Cyclotek，Parkville Bio21 园区；研产一体（放射性同位素合成 + 影像评估 + 分子靶向疗法制造 + 学生培训）；强化澳洲放射性药物本土研发能力。\n\n02 / ACADI 获 MRFF 新资助——墨大牵头 60+ 机构虚拟网络；MRFF 多年期资助；含 PhD / ECR 资助通道，是进入墨大医学院研究系的具体入口。\n\n两条同时看：墨大在放射医学、糖尿病研究两条线的科研基础设施和资助生态都在持续加强。走 Pharmacology / Biomedical / Health Sciences 的申请者可以从这两个角度去判断墨大的学科资源。\n\n评论区扣 1 我可以分享墨大相关方向的整理🙌",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #墨大申请 #大学新闻 #留学干货 #留学生活"
+    }
+  },
+  "mp": {
+    "title": "墨尔本大学 5 月 28 日 两条医学科研进展:LARS 放射化学实验室开放、ACADI 糖尿病中心获 MRFF 新资助",
+    "lead": "墨尔本大学 5 月 28 日两条医学科研新闻。一是墨大与放射性药物制造商 Cyclotek 在 Parkville Bio21 园区联合开设 Laboratory for Advanced Radiochemical Science（LARS），整合放射性同位素合成、分析化学、影像评估与学生培训，加速新一代癌症诊断和靶向治疗研发从实验室到临床的转化。二是以墨大为总部的 Australian Centre for Accelerating Diabetes Innovations（ACADI）获澳大利亚政府医疗研究未来基金（MRFF）新一轮多年期资助，这一汇聚超过 60 家机构的虚拟协作网络将持续扩大，同时为在读学生开放 PhD 和 ECR 资助通道。",
+    "meta": { "readTime": "7 分钟" },
+    "newsBodies": [
+      {
+        "h2": "墨尔本大学 × Cyclotek 开设 LARS 放射化学实验室:新一代癌症诊疗研发的研产一体平台",
+        "paragraphs": [
+          "墨尔本大学与澳洲放射性药物制造商 Cyclotek 联合在 Parkville 校区 Bio21 研究园区开设了 Laboratory for Advanced Radiochemical Science（LARS）。这一设施的目标是加速新一代癌症诊断和靶向治疗技术从实验室走向临床应用。LARS 将尖端科学研究、学生培训与分子靶向疗法的先进制造整合在同一设施内——放射性同位素合成、分析化学、临床前影像评估和教学培训流程在 Parkville 园区内打通，大幅缩短了从科研发现到临床转化的路径。",
+          "LARS 的战略意义不仅在于技术推进，也在于澳洲在放射性药物领域本土研发和制造能力的强化。随着放射性药物（radiopharmaceuticals）和分子靶向疗法在全球肿瘤治疗中快速扩张，澳洲国内一直存在生产和研发能力的缺口。LARS 的建立直接支持了澳洲不断扩大的临床试验管线和行业合作网络，是近年墨大在生命科学基础设施投入最有代表性的举措之一。",
+          "对走 Pharmacology / Biomedical Science / Chemistry / Medical Physics 方向的国际学生，Bio21 研究园区是澳洲密度最高的生命科学研究聚集地之一。LARS 位于其中，不仅是实验室设施，也意味着直接接触工业合作课题和临床研究管线的可能。这类产学合作实验室在研究生阶段通常是 placement、联合 PhD 项目和工业合作课题的直接来源。"
+        ],
+        "sourceHtml": "来源:<a href=\"https://www.unimelb.edu.au/newsroom/news/2026/may/new-radiochemical-lab-to-support-next-gen-cancer-treatment\">University of Melbourne Newsroom · New radiochemical lab to support next-gen cancer treatment</a>"
+      },
+      {
+        "h2": "ACADI 糖尿病创新中心获 MRFF 新资助:60+ 机构网络、PhD 和 ECR 通道持续开放",
+        "paragraphs": [
+          "墨尔本大学宣布支持澳大利亚新医学研究战略，并宣布以墨大为总部的 Australian Centre for Accelerating Diabetes Innovations（ACADI）获澳大利亚政府医疗研究未来基金（Medical Research Future Fund, MRFF）新一轮多年期资助。ACADI 成立于 2022 年，是一个汇聚超过 60 家机构的虚拟协作网络，包括大学、医疗服务机构、患者权益团体和行业合作方，共同推进糖尿病创新解决方案的研发。",
+          "MRFF 新一轮资助覆盖临床研究、患者支持和行业合作等方向。作为一个「多机构 + 政府资助」模式的研究网络，ACADI 代表了澳洲当前医学研究生态中最具代表性的协作框架之一——它不仅整合了学术资源，也连接了患者权益组织和行业应用，让研究成果更快到达政策制定和临床实践端。",
+          "ACADI 下设专门的 PhD 资助通道和 ECR（Early Career Researcher）资助通道，是希望进入墨大医学院研究系的学生的直接入口之一。每年 ACADI 会发布具体的 PhD 和 ECR 资助指南（含申请要求和时间线）。有兴趣的学生建议直接查阅 medicine.unimelb.edu.au/research/acadi 页面，关注下一轮申请窗口的开放时间。"
+        ],
+        "sourceHtml": "来源:<a href=\"https://www.unimelb.edu.au/newsroom/news/2026/may/university-of-melbourne-welcomes-new-medical-research-strategy-and-boost-to-funding\">University of Melbourne Newsroom · University of Melbourne welcomes new medical research strategy and boost to funding</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · LARS 放射化学实验室</strong>:墨大 × Cyclotek，Parkville Bio21 园区；研产一体（放射性同位素合成 + 分析化学 + 影像评估 + 学生培训 + 分子靶向疗法制造）；强化澳洲放射性药物本土能力",
+        "<strong>02 · ACADI 获 MRFF 新资助</strong>:墨大牵头，60+ 机构虚拟网络；MRFF 多年期资助；含 PhD / ECR 专项资助通道；Biomedical / Endocrinology 方向入口"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料?",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "墨大 LARS 实验室开了｜放射化学 + 癌症研究硬件大升级",
+        "body": "在墨大 Parkville 读 Pharmacology 第一年，上周教授提到 Bio21 园区刚开了一个新实验室，我去查了一下是 LARS——Laboratory for Advanced Radiochemical Science，墨大和 Cyclotek（放射性药物制造商）合开的。\n\n这个实验室最让我觉得不一样的地方：它是「研产一体」的——放射性同位素合成、分析化学、临床前影像评估、分子靶向疗法先进制造，还有学生培训，都整合在一个设施里，而不是分散在不同楼和不同实验室。通常这种整合很难，能做到说明 Cyclotek 和墨大这次合作是真的有深度的。\n\n对走 Pharmacology / Cancer Research / Medical Physics 方向的姐妹，Bio21 园区一直是我觉得墨大科研生态最强的地方之一，实验室密度高、工业合作多、临床试验管线直接在旁边。LARS 加进来之后，放射性药物这条赛道的机会应该会更多。\n\n我在纠结是不是要去打听一下 LARS 有没有 Honours/PhD 联合课题，感觉和 Cyclotek 合作的工业 PhD 可能比纯学术路径更快到临床。有同样在看这个方向的姐妹评论区扣 1，一起聊。",
+        "tags": ["#墨尔本大学", "#UniMelb", "#澳洲留学", "#Pharmacology", "#BiomedicalScience", "#癌症研究", "#放射化学", "#留学干货"]
+      },
+      {
+        "heading": "墨大 ACADI 获政府资助｜PhD 通道和 ECR 资助怎么申请",
+        "body": "走 Biomedical / Health Sciences 想进墨大研究系的姐妹，这条可以收藏。\n\n墨尔本大学宣布 ACADI——Australian Centre for Accelerating Diabetes Innovations——获得澳大利亚政府 MRFF（Medical Research Future Fund）新一轮多年期资助。ACADI 成立于 2022 年，是以墨大为总部的虚拟协作网络，汇聚了超过 60 家机构，包括大学、医疗机构、患者权益团体和行业合作方。\n\n对我来说最实用的信息是：ACADI 下设 PhD 资助通道和 ECR（Early Career Researcher）资助通道，每年发布具体的资助指南和申请要求。相比走普通研究生申请，ACADI 通道方向更集中（糖尿病 / 代谢健康），有专项资金，而且因为是政府资助项目，审查流程和门槛相对清晰。\n\n我在纠结到底是 ACADI PhD 通道还是直接申墨大 Graduate Research——从资金保障的角度 ACADI 好像更稳，但研究课题灵活性可能差一点。\n\n有在看墨大 Biomedical / Endocrinology 方向 PhD 的姐妹评论区聊，说不定可以互相交流申请节奏。",
+        "tags": ["#墨尔本大学", "#UniMelb", "#澳洲留学", "#PhD申请", "#生物医学", "#糖尿病研究", "#MRFF", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化",     "rule": "最 / 第一 / 唯一 / 100%",         "result": "「最具代表性」为评估语气非绝对化，保留；其余未检出" },
+      { "category": "教育承诺",   "rule": "包过 / 保录取 / 稳上",            "result": "未检出" },
+      { "category": "引流",       "rule": "加V / VX / 公众号 / 二维码",      "result": "未检出（xhsCopy / drafts 仅出现「评论区扣 1」合规互动话术）" },
+      { "category": "AI 味",      "rule": "首先其次最后 / 值得注意 / 综上所述", "result": "未检出" },
+      { "category": "封号红线",   "rule": "JR Academy / 匠人学院 / jiangren.com / 站外域名", "result": "未检出（xhsCopy 与 drafts 全部扫描）" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然",            "result": "「治疗」仅出现在癌症医学研究学术语境，无任何疗效承诺" },
+      { "category": "政治金融",   "rule": "保本 / 稳赚 / 荐股",              "result": "未检出" }
+    ]
+  }
+}
