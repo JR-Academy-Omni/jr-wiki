@@ -10,7 +10,7 @@ tags:
 author: "JR Academy 大学日报"
 keywords: "墨尔本大学, University of Melbourne, UMELB, 澳洲留学, 大学新闻, 奖学金, 校园动态"
 ---
-<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-26T23:45:13.922Z -->
+<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-05-27T23:45:45.618Z -->
 
 > 学校：**墨尔本大学 / University of Melbourne**
 > 日期：**2026-05-25**
