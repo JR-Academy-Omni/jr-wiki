@@ -1,0 +1,99 @@
+{
+  "date": "2026-05-28",
+  "summary": {
+    "hook": [
+      {"text": "Anthropic "},
+      {"text": "估值破 9000 亿超越 OpenAI", "hl": true},
+      {"text": "；Meta "},
+      {"text": "首推 $7.99 AI 订阅", "hl": true}
+    ],
+    "sub": "AI 独角兽估值竞速 + 平台首次订阅化 + Copilot Studio 三项能力全面 GA + 全球监管双轨提速",
+    "items": [
+      {"num": "01", "cat": "Anthropic", "numColor": "#7C3AED", "t": "新一轮 $300 亿融资即将收官，估值逾 $9000 亿超越 OpenAI 成全球最贵私有 AI 公司"},
+      {"num": "02", "cat": "Meta 订阅", "numColor": "#0668E1", "t": "Meta One 订阅上线：$7.99/月基础版 + $19.99/月高级版，史上首次向 AI 聊天机器人收费"},
+      {"num": "03", "cat": "Microsoft", "numColor": "#0078D4", "t": "Copilot Studio 5 月大更：CUA / 语音 / A2A 全面 GA，性能 +20%、token 消耗 -50%"},
+      {"num": "04", "cat": "EU 监管", "numColor": "#003399", "t": "欧盟 AI 法案简化协议：高风险 AI 合规期最多延 16 个月，新增生成式亲密内容规则"},
+      {"num": "05", "cat": "美国立法", "numColor": "#DC2626", "t": "科罗拉多 AI 法修正版签署 + 康涅狄格 SB5 通过，美 8 州现有 AI 聊天机器人法规"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-30b-900b-valuation-surpass-openai",
+      "idx": "01",
+      "catText": "Anthropic",
+      "accent": "#7C3AED",
+      "bg": {"top": "#F5F3FF", "mid": "#C4B5FD", "bot": "#4C1D95", "topRight": "#8B5CF6"},
+      "title": [{"text": "Anthropic 融资 $300 亿"}, {"text": "估值破 9000 亿超越 OpenAI", "hl": true}],
+      "oneline": [{"text": "Sequoia / Dragoneer / Altimeter / Greenoaks 各投约 "}, {"text": "20 亿美元联合领投", "bold": true}, {"text": "，融资前估值逾 9000 亿美元，Claude 制造商成全球市值最高私有 AI 公司"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "Anthropic 新一轮融资规模超 300 亿美元，融资前估值逾 9000 亿美元，超越 OpenAI 3 月 8520 亿美元私募估值；Sequoia / Dragoneer / Altimeter / Greenoaks 各出约 20 亿美元联合领投，Founders Fund / General Catalyst 等老股东跟投"},
+        {"k": "为什么重要", "v": "这是 Anthropic 在 2026 年 2 月 3800 亿估值 Series G 之后不到 4 个月的第二次巨额融资，Q1 营收环比翻番是关键驱动因素；Anthropic 超越 OpenAI 成全球估值最高私有 AI 公司，改写 AI 行业格局"},
+        {"k": "对你的影响", "v": "资金充裕将加速 Claude 模型迭代和 Claude Code 等开发工具演进；在 AI 工程、agent 应用开发方向求职的同学，Anthropic 生态技能（MCP / Claude API / Managed Agents）是当前含金量最高的技术栈之一"}
+      ],
+      "src": "📎 bloomberg.com · techcrunch.com · finance.yahoo.com"
+    },
+    {
+      "slug": "02-meta-one-subscription-7-99-19-99-first-ai-charge",
+      "idx": "02",
+      "catText": "Meta 订阅",
+      "accent": "#0668E1",
+      "bg": {"top": "#EFF6FF", "mid": "#93C5FD", "bot": "#1E3A8A", "topRight": "#60A5FA"},
+      "title": [{"text": "Meta One 订阅首发"}, {"text": "$7.99 / $19.99 两档收费", "hl": true}],
+      "oneline": [{"text": "Meta AI 聊天机器人 "}, {"text": "史上首次对外收费", "bold": true}, {"text": "：Meta One Plus 7.99 美元/月（图片/视频生成 + 扩展推理），Meta One Premium 19.99 美元/月，先在新加坡等地测试"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "Meta 推出 Meta One 订阅计划：Plus 档 7.99 美元/月（解锁更多图片视频生成额度 + 扩展推理）和 Premium 档 19.99 美元/月；首批上线新加坡、危地马拉、玻利维亚，计划陆续扩展至更多国家"},
+        {"k": "为什么重要", "v": "这是 Meta AI 聊天机器人有史以来首次收费，比 ChatGPT Plus（20 美元/月）便宜约 60%；Meta 凭借 Instagram / WhatsApp 数十亿用户基础直接杀入消费级 AI 订阅市场，与 OpenAI / Google 正面竞争"},
+        {"k": "对你的影响", "v": "新加坡已可订阅；澳洲版本推出后 Meta One 将是最平价的消费级 AI 订阅选项，适合日常在用 Meta 系 App 且希望升级 AI 图像/视频生成能力的用户；7.99 美元定价约合澳币 12 元，基本相当于一杯精品咖啡"}
+      ],
+      "src": "📎 cnbc.com · bloomberg.com · thenextweb.com"
+    },
+    {
+      "slug": "03-microsoft-copilot-studio-may-cua-voice-a2a-ga",
+      "idx": "03",
+      "catText": "Microsoft",
+      "accent": "#0078D4",
+      "bg": {"top": "#EFF6FF", "mid": "#BAE0FF", "bot": "#003A6E", "topRight": "#0EA5E9"},
+      "title": [{"text": "Copilot Studio 5 月大更"}, {"text": "电脑操控 / 语音 / A2A 全面 GA", "hl": true}],
+      "oneline": [{"text": "微软 "}, {"text": "Computer-Using Agent 正式 GA", "bold": true}, {"text": "；新工作流画布支持条件分支 + 并行执行；实时语音 agent 北美 GA；A2A 通信 GA；新编排层性能 +20%、token -50%"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "微软 Copilot Studio 5 月更新：CUA（Computer-Using Agent）正式 GA，agent 可直接操控网页和桌面应用；全新工作流画布支持条件分支和并行执行；实时语音 agent 通过 Dynamics 365 Contact Center 北美 GA；A2A（agent 间通信）正式 GA"},
+        {"k": "为什么重要", "v": "CUA + A2A + 语音 agent 同时 GA 意味着企业现在可以在单一平台上构建「看得见屏幕、能打电话、能跨系统协作」的完整 agentic 工作流；新编排层性能提升约 20%、token 消耗降约 50%，直接降低企业运营成本"},
+        {"k": "对你的影响", "v": "澳洲 IT 行业求职者：Copilot Studio CUA / A2A 是企业 AI 应用最热门技能点；有 Power Platform / Dynamics 365 经验的同学现在是扩展 AI agent 能力的最佳时机，这些技能在澳洲大型企业 IT 项目中需求正在快速上升"}
+      ],
+      "src": "📎 microsoft.com · learn.microsoft.com"
+    },
+    {
+      "slug": "04-eu-ai-act-simplification-16-month-extension",
+      "idx": "04",
+      "catText": "EU 监管",
+      "accent": "#003399",
+      "bg": {"top": "#EEF2FF", "mid": "#A5B4FC", "bot": "#1E1B4B", "topRight": "#6366F1"},
+      "title": [{"text": "EU AI 法案再简化"}, {"text": "高风险 AI 合规延 16 个月", "hl": true}],
+      "oneline": [{"text": "欧盟理事会与议会 "}, {"text": "达成简化 AI 法案临时协议", "bold": true}, {"text": "：高风险 AI 系统合规期限最多延 16 个月；同时引入 AI 生成亲密内容（深度伪造）专项新规"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "欧盟理事会主席国与欧洲议会谈判代表就简化 AI 法案条款达成临时协议：高风险 AI 系统合规期最多延长 16 个月（等委员会确认必要标准和工具到位后再适用）；新增 AI 生成亲密内容专项规则"},
+        {"k": "为什么重要", "v": "这是欧盟对产业界反馈的直接回应——原定时间表被认为过于紧张；延期为医疗、招聘、信贷等高风险 AI 场景的企业提供了更多准备窗口，但监管方向和整体框架不变，并非放弃"},
+        {"k": "对你的影响", "v": "有计划进入欧洲市场的澳洲 AI 产品团队：合规窗口变宽，但需要现在开始规划高风险 AI 文档和评估流程；EU AI Act 对 AI 生成亲密内容的新规是 Deepfake 相关应用的法律红线，需要密切关注"}
+      ],
+      "src": "📎 consilium.europa.eu · lw.com"
+    },
+    {
+      "slug": "05-us-state-ai-laws-colorado-sb189-connecticut-sb5",
+      "idx": "05",
+      "catText": "美国立法",
+      "accent": "#DC2626",
+      "bg": {"top": "#FEF2F2", "mid": "#FCA5A5", "bot": "#7F1D1D", "topRight": "#EF4444"},
+      "title": [{"text": "美两州 AI 法同周落地"}, {"text": "州级监管浪潮全面提速", "hl": true}],
+      "oneline": [{"text": "科罗拉多 "}, {"text": "SB189 修正 AI 法案", "bold": true}, {"text": "；康涅狄格 SB5 通过——美国现已有 8 个州立法规范 AI 聊天机器人互动场景"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "科罗拉多州长于 5 月 14 日签署 SB189，实质性修订全美首部「高风险 AI」法 SB205；康涅狄格 SB5 于 5 月 1 日获州议会通过；加上纽约、加州、华盛顿、俄勒冈、爱达荷、爱荷华，美国现已有 8 个州有 AI 聊天机器人互动场景法规"},
+        {"k": "为什么重要", "v": "联邦层面 AI 立法进展缓慢，但州级立法已形成实质性覆盖网络；各州法规在「高风险 AI」定义和企业义务上存在差异，给跨州部署 AI 产品的企业带来合规碎片化的挑战"},
+        {"k": "对你的影响", "v": "面向美国市场的 AI 产品团队或打算赴美工作的 IT 同学：需了解目标州的 AI 合规要求；目前澳洲 AI 监管仍以自愿框架为主，与美国州级硬性立法形成明显落差，但差距在 2027 年前后可能收窄"}
+      ],
+      "src": "📎 hklaw.com · dlapiper.com · softwareimprovementgroup.com"
+    }
+  ],
+  "mp": {
+    "title": "Anthropic 估值超 OpenAI / Meta One 订阅 $7.99 上线 / Copilot Studio 三项全 GA / EU AI 法延 16 月 / 美两州 AI 法落地"
+  }
+}
