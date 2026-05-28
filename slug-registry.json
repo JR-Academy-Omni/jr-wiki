@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-27T23:45:50.367Z",
+  "lockedAt": "2026-05-28T02:11:48.392Z",
   "version": 1,
   "slugs": [
     {
@@ -233,6 +233,10 @@
     {
       "type": "article",
       "slug": "claude-opus-4-7-upgrade-guide"
+    },
+    {
+      "type": "article",
+      "slug": "cognition-devin-26-billion-2026"
     },
     {
       "type": "article",
