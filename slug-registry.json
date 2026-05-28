@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-28T02:11:48.392Z",
+  "lockedAt": "2026-05-28T23:45:26.719Z",
   "version": 1,
   "slugs": [
     {
@@ -181,6 +181,14 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-05-27"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-05-28"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-05-29"
     },
     {
       "type": "article",
@@ -388,6 +396,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-05-29"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -453,6 +465,10 @@
     {
       "type": "article",
       "slug": "uni-news-adelaide-2026-05-25"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-adelaide-2026-05-29"
     },
     {
       "type": "article",
@@ -613,6 +629,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-05-26"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-05-29"
     },
     {
       "type": "article",
@@ -1335,6 +1355,11 @@
       "type": "chapter",
       "book": "lovable-guide",
       "slug": "06-supabase-integration"
+    },
+    {
+      "type": "chapter",
+      "book": "lovable-guide",
+      "slug": "07-deploy-production"
     },
     {
       "type": "chapter",
