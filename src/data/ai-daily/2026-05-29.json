@@ -1,0 +1,321 @@
+{
+  "date": "2026-05-29",
+  "summary": {
+    "hook": [
+      {
+        "text": "DeepSeek永久砍价75%"
+      },
+      {
+        "text": " · "
+      },
+      {
+        "text": "Anthropic砸$450亿买算力",
+        "hl": true
+      },
+      {
+        "text": " · "
+      },
+      {
+        "text": "Gemini 3.5登场"
+      }
+    ],
+    "sub": "中美AI同步提速：DeepSeek完成$50B首轮融资、xAI推编程Agent、GPT-5.5幻觉减半",
+    "items": [
+      {
+        "num": "01",
+        "cat": "价格战",
+        "numColor": "#00B0FF",
+        "t": "DeepSeek V4-Pro永久降价75%，每百万token仅$0.435"
+      },
+      {
+        "num": "02",
+        "cat": "算力",
+        "numColor": "#D97757",
+        "t": "Anthropic签$450亿SpaceX算力大单，22万块GPU支撑Claude"
+      },
+      {
+        "num": "03",
+        "cat": "大模型",
+        "numColor": "#4285F4",
+        "t": "谷歌I/O发布Gemini 3.5 Flash：比Pro快4倍，月活9亿"
+      },
+      {
+        "num": "04",
+        "cat": "Agent",
+        "numColor": "#1A1A1A",
+        "t": "xAI发布Grok Build编程Agent + Custom Skills自动化功能"
+      },
+      {
+        "num": "05",
+        "cat": "质量",
+        "numColor": "#10A37F",
+        "t": "OpenAI GPT-5.5 Instant：幻觉减少52.5%，成ChatGPT默认"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-deepseek-v4pro-price-cut",
+      "idx": "01",
+      "catText": "价格战",
+      "accent": "#00B0FF",
+      "bg": {
+        "top": "#E3F2FD",
+        "mid": "#BBDEFB",
+        "bot": "#90CAF9",
+        "topRight": "#1565C0"
+      },
+      "title": [
+        {
+          "text": "DeepSeek V4-Pro "
+        },
+        {
+          "text": "永久降价75%",
+          "hl": true
+        },
+        {
+          "text": "，中国AI定价权重塑全球市场"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "DeepSeek将原本限时活动价锁定为永久价——"
+        },
+        {
+          "text": "每百万token输入$0.435、输出$0.87",
+          "bold": true
+        },
+        {
+          "text": "，同时官宣首轮$50B融资"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek宣布V4-Pro价格永久下调75%，从每百万token $0.0145–$3.48降至$0.003625–$0.87，并同步宣布由腾讯、「大基金三期」参与的首轮外部融资即将完成，估值达$50B"
+        },
+        {
+          "k": "为什么重要",
+          "v": "此举将DeepSeek V4-Pro的性价比推至「同级编码分数下约为Claude Opus 4.7的1/11价格」，迫使全球推理服务商跟进，加速API定价竞争"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者调用成本锁定在极低水位，AI应用创业的边际成本门槛持续下移；同等预算可支撑的请求量提升约4倍"
+        }
+      ],
+      "sourceQuote": "V4 Pro prices now range from $0.003625 to $0.87 per one million tokens (aiweekly.co May 26 2026). DeepSeek seeks $3-4B first external round at $50B valuation backed by Big Fund III and Tencent. (SCMP)",
+      "src": "📎 aiweekly.co · thenextweb.com · scmp.com"
+    },
+    {
+      "slug": "02-anthropic-spacex-colossus",
+      "idx": "02",
+      "catText": "算力",
+      "accent": "#D97757",
+      "bg": {
+        "top": "#FBE9E7",
+        "mid": "#FFCCBC",
+        "bot": "#FFAB91",
+        "topRight": "#BF360C"
+      },
+      "title": [
+        {
+          "text": "Anthropic签"
+        },
+        {
+          "text": "$450亿SpaceX算力大单",
+          "hl": true
+        },
+        {
+          "text": "，22万块GPU支撑Claude扩容"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Anthropic以"
+        },
+        {
+          "text": "每月$12.5亿（共$450亿）",
+          "bold": true
+        },
+        {
+          "text": "租下SpaceX xAI整个Colossus 1数据中心，220,000+ NVIDIA GPU全速开跑"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic与SpaceX签署协议，以每月$12.5亿、合计约$450亿的三年合同，独占Colossus 1数据中心超过220,000块NVIDIA GPU（含H100/H200/GB200），以及超过300兆瓦的算力容量"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是AI公司迄今最大单笔算力采购合同，标志着AI训练从「按需购买GPU」转向「锁定数据中心级算力」。Anthropic还同步获得Colossus 2的下一代GB200硬件优先使用权"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Claude Pro/Max用户的速率限制将直接受益；双方还商讨「轨道AI算力」合作，意味着未来Starlink卫星网络可能参与AI推理"
+        }
+      ],
+      "sourceQuote": "Anthropic will pay SpaceX $1.25 billion per month through May 2029, contract worth nearly $45B. Colossus 1 features over 220,000 NVIDIA GPUs. (CNBC/tesery.com May 2026)",
+      "src": "📎 cnbc.com · axios.com · datacenterdynamics.com"
+    },
+    {
+      "slug": "03-google-io-gemini-35-flash",
+      "idx": "03",
+      "catText": "大模型",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#E8F0FE",
+        "mid": "#C5D8FC",
+        "bot": "#A0C2FB",
+        "topRight": "#1A237E"
+      },
+      "title": [
+        {
+          "text": "谷歌I/O发布"
+        },
+        {
+          "text": "Gemini 3.5 Flash",
+          "hl": true
+        },
+        {
+          "text": "：比Pro快4×，月活突破9亿"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Gemini 3.5 Flash在编程和Agent基准上"
+        },
+        {
+          "text": "超越更大的Gemini 3.1 Pro",
+          "bold": true
+        },
+        {
+          "text": "，API降价25%，Ultra订阅从$250砍至$100"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "5月19日谷歌I/O上，Gemini 3.5 Flash正式发布。API定价为每百万input token $1.50、output $9.00，比Gemini 3.1 Pro便宜25%，输出速度快4倍；Google AI Ultra订阅从$249.99降至$99.99/月"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Gemini月活9亿（去年同期4亿），一年翻倍。Flash系列延续「比上一代Pro强但价更低」的策略，直接压缩Claude与GPT-5.5的市场空间；同时DeepMind以$80-90M收购Contextual AI团队强化RAG能力"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Gemini 3.5 Flash是目前高速低价的主力API选项，适合实时Agent流和大批量文档处理；Google AI Ultra降价后，开发者以$100/月可解锁最高配额"
+        }
+      ],
+      "sourceQuote": "Gemini 3.5 Flash beats Gemini 3.1 Pro on coding/agentic benchmarks, 4x faster. API: $1.50/$9.00 per M tokens, 25% cheaper. Gemini app: 900M monthly users across 230 countries. (marktechpost.com May 20 2026)",
+      "src": "📎 marktechpost.com · felloai.com · betanews.com"
+    },
+    {
+      "slug": "04-xai-grok-build-custom-skills",
+      "idx": "04",
+      "catText": "Agent",
+      "accent": "#1A1A1A",
+      "bg": {
+        "top": "#F5F5F5",
+        "mid": "#E0E0E0",
+        "bot": "#BDBDBD",
+        "topRight": "#212121"
+      },
+      "title": [
+        {
+          "text": "xAI发布"
+        },
+        {
+          "text": "Grok Build编程Agent",
+          "hl": true
+        },
+        {
+          "text": " + Custom Skills，马斯克拉拢华尔街"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Grok Build 0.1专为Agent工作流训练，"
+        },
+        {
+          "text": "256K上下文窗口",
+          "bold": true
+        },
+        {
+          "text": "；Custom Skills支持一键创建可复用自动化任务"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "5月14日xAI发布Grok Build 0.1编程Agent（256K上下文，支持文本和图像输入，初期仅限$300/月SuperGrok Heavy用户）；5月26日上线Custom Skills功能，用户可秒建个性化可复用自动任务并按日触发"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Grok 4.3（5月4日）内置推理+百万token上下文+原生视频，加上Build编程Agent，xAI在「模型+Agentic工具」双线并进。同期xAI向阿波罗全球管理、摩根士丹利推销Grok，谋求ipo前收入"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Grok Build提供了继Cursor/Codex之外的又一AI编程选项；Custom Skills功能对希望用AI替代重复性日常任务的普通用户更友好，无需写代码"
+        }
+      ],
+      "sourceQuote": "Grok Build 0.1: purpose-built coding model for agentic workflows, 256K context, available to $300/month SuperGrok Heavy subscribers. Custom Skills launched May 26. (engadget.com/basenor.com)",
+      "src": "📎 engadget.com · basenor.com · japantimes.co.jp"
+    },
+    {
+      "slug": "05-openai-gpt55-instant",
+      "idx": "05",
+      "catText": "质量",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#E8F5E9",
+        "mid": "#C8E6C9",
+        "bot": "#A5D6A7",
+        "topRight": "#1B5E20"
+      },
+      "title": [
+        {
+          "text": "OpenAI GPT-5.5 Instant："
+        },
+        {
+          "text": "幻觉减少52.5%",
+          "hl": true
+        },
+        {
+          "text": "，成ChatGPT新默认模型"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "GPT-5.5 Instant取代GPT-5.3成为ChatGPT默认，"
+        },
+        {
+          "text": "高风险场景（医疗/法律/金融）幻觉减52.5%",
+          "bold": true
+        },
+        {
+          "text": "，支持个性化控制"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "5月5日OpenAI发布GPT-5.5 Instant，成为ChatGPT新默认模型。内部评测显示，在医疗、法律、金融等高风险提示词上，较GPT-5.3 Instant幻觉减少52.5%，同时加入更细粒度的个性化控制选项"
+        },
+        {
+          "k": "为什么重要",
+          "v": "GPT-5.5 Instant是OpenAI今年幻觉治理的里程碑。同期Codex升级可操控锁屏Mac，OpenAI在企业端（戴尔混合部署、Gartner编程Agent领导者评级）持续巩固市场"
+        },
+        {
+          "k": "对你的影响",
+          "v": "所有ChatGPT用户无需操作即自动享受更低幻觉；开发者可通过API调用同款模型用于高精度场景；个人财务功能（美国Pro用户测试）允许绑账户做资产概览"
+        }
+      ],
+      "sourceQuote": "GPT-5.5 Instant produced 52.5% fewer hallucinated claims than GPT-5.3 Instant on high-stakes prompts in medicine, law, and finance. (openai.com/techcrunch.com May 5 2026)",
+      "src": "📎 openai.com · techcrunch.com"
+    }
+  ],
+  "mp": {
+    "title": "DeepSeek永久降价 / Anthropic $450亿算力 / Gemini 3.5 / Grok编程Agent / GPT-5.5"
+  }
+}
