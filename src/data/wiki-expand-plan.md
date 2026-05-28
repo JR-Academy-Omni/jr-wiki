@@ -50,7 +50,7 @@
 
 ### lovable-guide
 - [x] lovable-guide/06-supabase-integration.md — new-chapter: Lovable + Supabase 完整集成（auth / database / storage / realtime）
-- [ ] lovable-guide/07-deploy-production.md — new-chapter: 从 Lovable 到生产（custom domain / SEO meta / Google Analytics 接入）
+- [x] lovable-guide/07-deploy-production.md — new-chapter: 从 Lovable 到生产（custom domain / SEO meta / Google Analytics 接入）
 
 ### notebooklm-guide
 - [ ] notebooklm-guide/06-audio-overview-deep.md — new-chapter: Audio Overview 深度玩法（多语言切换 / 自定义视角 prompt / 个性化主持人风格）
