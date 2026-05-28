@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-29",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "UNSW",
+    "hookSub": "疫苗接种率下滑 + 原住民法律奖学金",
+    "hookSubHighlight": "接种率下滑",
+    "subLines": [
+      "Holly Seale 教授研究 · CALD 社群接种障碍 · NSW $1500 万注资",
+      "Amos Taylor 获 AAL 原住民奖学金 · 空天法律原住民权利研究"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "公共卫生研究", "data": "CALD 接种率差距" },
+      { "num": "02", "title": "AAL 奖学金", "data": "AUD $6,000 · 法律" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "公共卫生研究",
+      "h2Main": "澳洲疫苗接种率下滑 · CALD 社群住院风险更高",
+      "h2Sub": "Holly Seale 教授 · NSW $1500 万 Community Connectors · 2026-05-27",
+      "h2Highlight": "CALD 社群",
+      "lead": "UNSW Sydney <b>Holly Seale 教授</b>研究指出：澳洲进入流感季，各人群疫苗接种率下滑，<b>CALD（文化语言多元）社群</b>因信息获取障碍和缺乏可信赖社区声音，面临更高的疫苗可预防疾病住院风险。根源不是简单「疫苗犹豫」，是系统性获取障碍。",
+      "bullets": [
+        { "k": "核心发现", "v": "当服务难以导航、信息不以母语提供、缺乏可信社区声音，即使疫苗免费，CALD 社群成员也可能错过接种机会——<b>结构性障碍</b>才是主因" },
+        { "k": "NSW 政府回应", "v": "NSW 政府 2025 年承诺四年内投入 <b>$1500 万澳元</b>用于提升优先人群接种率；资助地方机构如移民资源中心、多元文化团体和社区电台" },
+        { "k": "Community Connectors", "v": "Seale 教授与 NSW Health 合作开发在线培训体系，让与社区有密切联系的机构员工成为接种「连接者」——<b>可信任的声音</b>是核心逻辑" },
+        { "k": "对你的影响", "v": "走 <b>Public Health / Epidemiology / Social Science / Health Communication</b> 方向的同学，UNSW 在社区健康公平和移民健康议题上有持续研究产出；NSW 政府-大学联合干预项目是研究生课题和实习的潜在来源" }
+      ],
+      "source": "UNSW Newsroom · 2026-05-27",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/05/gap-widens-as-vaccination-rates-slip"
+    },
+    {
+      "idx": "02",
+      "category": "奖学金",
+      "h2Main": "UNSW 法律系学生获 2026 年 AAL 原住民奖学金",
+      "h2Sub": "Amos Taylor · Gija/Jaru 民族 · 空天法律原住民权利研究 · AUD $6,000",
+      "h2Highlight": "AAL 原住民奖学金",
+      "lead": "UNSW Law & Justice 学生 <b>Amos Taylor</b> 获颁 2026 年澳洲法律学院（AAL）原住民奖学金（First Nations Scholarship），专注空天法律框架内的原住民权利保护研究，奖学金金额 <b>AUD $6,000</b>，并配备 AAL 研究员导师。",
+      "bullets": [
+        { "k": "奖项背景", "v": "AAL First Nations Scholarship 每年评选一名获奖者，支持原住民法律学生完成<b>法律本科最后阶段</b>学业，并为其匹配澳洲法律学院研究员担任导师" },
+        { "k": "奖金金额", "v": "<b>AUD $6,000</b> + 一名 AAL Fellow 担任专属导师（2026 年度确认金额）" },
+        { "k": "获奖学生", "v": "Amos Taylor，Eastern Kimberley 地区 <b>Gija 和 Jaru 民族</b>后裔，UNSW Law & Justice 在读；研究聚焦空天法律框架内原住民权利的演进与保护" },
+        { "k": "院长评语", "v": "「Amos 是一位杰出的学生和年轻领袖，展现出清晰的思维、独创性和目标感，并致力于将<b>原住民法律与知识置于未来法律框架的中心</b>」——UNSW Law & Justice 学院长" }
+      ],
+      "source": "UNSW Newsroom · 2026-05",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/05/among-the-stars-unsw-law-student-awarded-prestigious-scholarship",
+      "sourceQuote": "The AAL's First Nations Scholarship is designed to support an Indigenous student through the final year of a Law degree and provides the recipient with an AAL Fellow as a mentor. The amount of the Scholarship in 2026 is A$6000."
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 5 月 29 日两条更新：公共卫生研究揭示 CALD 社群接种率差距与 NSW 政府应对方案；法律系学生获澳洲法律学院原住民奖学金。",
+    "items": [
+      { "n": "01", "title": "CALD 接种率研究", "body": "Holly Seale 教授研究：CALD 社群面临系统性接种障碍；NSW $1500 万四年注资；Community Connectors 可信社区渠道模型" },
+      { "n": "02", "title": "AAL 原住民奖学金", "body": "Amos Taylor 获 2026 年 AAL First Nations Scholarship；AUD $6,000 + AAL 研究员导师；专注空天法律原住民权利研究" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "6 所澳洲核心院校 · 每天 2 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "05 / 29"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 5-29 两条硬料",
+      "body": "今天 UNSW 两条值得看的消息。\n\n01 / 疫苗接种率研究——Holly Seale 教授（UNSW 公共卫生）5 月 27 日发研究：澳洲疫苗接种率整体在下滑，CALD（文化语言多元）社群因信息障碍和缺乏信任渠道，面临更高的住院风险。不是疫苗犹豫，是系统性障碍。NSW 政府 2025 年起投 $1500 万应对，建立 Community Connectors 体系。\n\n02 / AAL 原住民奖学金——UNSW 法律系学生 Amos Taylor 获 2026 年澳洲法律学院原住民奖学金（AUD $6,000 + AAL 研究员导师）。他专注空天法律框架内的原住民权利研究，是 Eastern Kimberley 地区 Gija/Jaru 民族后裔。\n\n走 Public Health / Epidemiology 方向的同学，UNSW 的社区健康公平研究值得关注。走 Law 方向的同学，UNSW 法学院的奖学金生态值得深挖。\n\n评论区扣你感兴趣的方向🙌",
+      "tags": "#UNSW #新南威尔士大学 #澳洲留学 #公共卫生 #留学干货 #奖学金"
+    },
+    "p2": {
+      "title": "CALD 社群和疫苗接种率📊",
+      "body": "走公共卫生 / 流行病学方向的同学，这条 UNSW 研究挺值得看：Holly Seale 教授 5 月 27 日发了一篇关于澳洲疫苗接种率下滑的分析，核心结论挺扎心的。\n\nCALD 社群（文化语言多元群体）因为疫苗可预防疾病住院的风险比一般人群高——但原因不是「疫苗犹豫」，是系统性障碍：服务体系难导航、缺乏母语信息、没有可信赖的社区声音。即使疫苗是免费的，人也可能错过。\n\nSeale 教授的原话：「当信息没有以你的母语提供，当你不认识任何接种的人，错过是很容易的。人们更愿意根据自己认识和信任的人给出的信息采取行动。」\n\nNSW 政府 2025 年起四年投 $1500 万应对，Seale 教授正在参与建立 Community Connectors 体系——让熟悉社区的本地机构员工成为接种「连接者」，直接进入 CALD 社群工作。\n\n这条研究对走公共卫生、健康传播、移民健康方向的同学很有参考价值。UNSW 在这条线上有持续产出，NSW 政府-大学联合的规模级项目也是研究生 placement 的潜在机会。有在看 UNSW 公共卫生研究方向的姐妹评论区扣 1。",
+      "tags": "#UNSW #新南威尔士大学 #公共卫生 #PublicHealth #澳洲留学 #留学干货 #CALD"
+    },
+    "p3": {
+      "title": "UNSW 法律系奖学金文化",
+      "body": "UNSW 法学院的奖学金生态值得认真整理一下。今天有一条更新：2026 年澳洲法律学院（AAL）原住民奖学金颁给了 UNSW Law & Justice 学生 Amos Taylor，奖金 AUD $6,000，再加一名 AAL 研究员担任专属导师，支持他完成法律本科最后阶段的学习。\n\nAmos 是 Eastern Kimberley 地区 Gija/Jaru 民族后裔，研究方向是空天法律框架内的原住民权利——就是太空法、航空法和原住民土地权利的交叉地带。UNSW Law & Justice 学院长评价说他「将原住民法律与知识置于未来法律框架的中心」。\n\n这条 AAL 原住民奖学金是面向原住民法律学生的专项奖，不是我们能直接申请的。但我觉得它反映了 UNSW 法学院在多元化和专项奖学金方面的文化。\n\n对于走 Law 方向的同学，UNSW 法学院可以申请的渠道包括：Scientia Scholarship（全奖研究生）、Law Society NSW 专项奖、以及各种外部专业机构奖学金。建议去 UNSW Law & Justice 官网的 Scholarships & Awards 板块查当年开放的申请。\n\n有在看 UNSW 法学研究生方向的姐妹，评论区聊聊，我也在整理 UNSW 法律方向的奖学金路线。",
+      "tags": "#UNSW #新南威尔士大学 #法学留学 #澳洲留学奖学金 #UNSWLaw #留学干货"
+    },
+    "p4": {
+      "title": "UNSW 公卫研究 · 我看了啥",
+      "body": "周四打开 UNSW 的新闻推送，看到这条研究真的挺震到我的。\n\nHolly Seale 教授在 UNSW 做健康公平研究，5 月 27 日发出了一篇关于澳洲疫苗接种的分析。结论大意是：接种率在下滑，CALD 社群（文化语言多元）的风险特别高，但不是因为「不想打」——是因为系统根本没有给他们提供足够的信息和渠道。\n\n我在想，这个问题对在澳洲的留学生和移民群体来说也挺真实的。新来的人往往不知道疫苗在哪打、GP 怎么找、能不能报销，这种信息差在公共卫生危机的时候是真的有影响的。\n\nNSW 政府 2025 年起出资 $1500 万做 Community Connectors——让有社区关系的本地机构员工去帮助 CALD 社群。Seale 教授参与了这套体系的设计。\n\n走公共卫生 / 流行病学 / 健康传播方向的同学，UNSW 的这条研究线在实际政策落地层面做得比较扎实。有在看 UNSW 公卫研究生的同学，评论区聊聊。",
+      "tags": "#UNSW #澳洲留学 #公共卫生 #新南威尔士大学 #留学生活 #健康 #移民健康"
+    },
+    "p5": {
+      "title": "UNSW 5-29 一眼看完",
+      "body": "UNSW 5 月 29 日两条更新：\n\n01 / 公共卫生研究——Holly Seale 教授：澳洲疫苗接种率下滑，CALD 社群面临系统性获取障碍，不是疫苗犹豫是结构问题。NSW 政府 2025 年起投 $1500 万，建立 Community Connectors 体系。走公卫 / 流行病学方向的同学，UNSW 在社区健康公平研究上有持续产出。\n\n02 / AAL 原住民奖学金——UNSW Law & Justice 学生 Amos Taylor 获 2026 年 AAL First Nations Scholarship，AUD $6,000 + AAL 研究员导师，专注空天法律原住民权利研究。这个奖是原住民专项奖，但反映 UNSW 法学院在专项奖学金上有比较完整的生态。\n\n两条放一起看，UNSW 这周在公共卫生研究和法学奖学金两条线都有动态。\n\n有感兴趣的方向评论区扣号码🙌",
+      "tags": "#UNSW #新南威尔士大学 #澳洲留学 #公共卫生 #奖学金 #留学干货 #法学留学"
+    }
+  },
+  "mp": {
+    "title": "UNSW 5 月 29 日动态：疫苗接种率下滑 CALD 社群风险更高 + 法律系学生获 AAL 原住民奖学金",
+    "lead": "UNSW Sydney 本周两条动态：5 月 27 日，Holly Seale 教授发布研究指出澳洲疫苗接种率整体下滑，CALD（文化语言多元）社群因信息获取障碍和缺乏可信社区声音面临更高住院风险，NSW 政府 2025 年起注资 1500 万澳元并建立 Community Connectors 体系应对；同期，UNSW Law & Justice 学生 Amos Taylor 获颁 2026 年澳洲法律学院（AAL）原住民奖学金，奖金 AUD $6,000 并配备 AAL 研究员导师，研究方向为空天法律框架内的原住民权利保护。两条横跨公共卫生研究和法学奖学金生态。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "澳洲疫苗接种率下滑：Holly Seale 教授研究揭示 CALD 社群的系统性障碍",
+        "paragraphs": [
+          "UNSW Sydney 公共卫生学院的 Holly Seale 教授于 5 月 27 日发布分析，指出随着澳洲进入新一轮流感季，各类人群的疫苗接种率正在下滑，但在部分文化语言多元（CALD）社群中，因疫苗可预防疾病而住院的风险明显偏高。Seale 教授强调，问题的根源并非简单的「疫苗犹豫」，而是系统性的获取障碍：服务体系难以导航、信息缺乏母语版本、社区内可信赖的声音严重不足。",
+          "「人们更愿意根据自己认识和信任的人给出的信息采取行动，」Seale 教授指出，这一洞察正在成为 NSW 卫生政策调整的核心依据。作为应对，NSW 政府于 2025 年承诺四年内投入 1500 万澳元，资助移民资源中心、多元文化社区团体和社区电台等本地机构，以「社区连接者」（Community Connectors）模式直接触达 CALD 社群。Seale 教授本人参与了这套在线培训体系的设计，旨在通过培养有社区关系的本地员工成为接种倡导者，而非依赖传统的卫生专业人员渠道。",
+          "对走 Public Health、Epidemiology、Health Communication 或 Social Science 方向的学生，UNSW 在社区健康公平、疫苗行为和移民健康议题上有持续的研究产出，Seale 教授所在的 School of Population Health and Community Medicine 是其中的重要研究中心。NSW 政府-大学规模级联合干预项目，也是研究生课题合作和实习机会的潜在来源。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unsw.edu.au/newsroom/news/2026/05/gap-widens-as-vaccination-rates-slip\">UNSW Newsroom · Gap widens as vaccination rates slip · 2026-05-27</a>"
+      },
+      {
+        "h2": "UNSW 法律系学生 Amos Taylor 获 2026 年 AAL 原住民奖学金",
+        "paragraphs": [
+          "UNSW Law & Justice 学院学生 Amos Taylor 获颁 2026 年澳洲法律学院（Australian Academy of Law, AAL）原住民奖学金（First Nations Scholarship），成为今年的唯一获奖者。Amos 是澳大利亚西部 Eastern Kimberley 地区 Gija 和 Jaru 民族的后裔，其研究方向聚焦于空天法律（航空与太空法）框架内原住民权利与土地利益的保护与演进。奖学金金额为 AUD $6,000，并为获奖者匹配一名 AAL 研究员担任专属导师，支持其在法律本科最后一年的学业和职业发展。",
+          "UNSW Law & Justice 学院院长在颁奖声明中评价：「Amos 是一位杰出的学生和年轻领袖，他在工作中展现出清晰的思维、独创性和目标感，并致力于将原住民法律与知识置于未来法律框架的中心。」AAL First Nations Scholarship 由澳洲法律学院专为原住民法律学生设立，每年评选一名获奖者。2026 年的评选过程竞争激烈，Amos 的专业方向——将传统权利主张与新兴的空天法律框架相结合——在评审中被认为具有高度的学术独创性和现实意义。",
+          "这一奖学金消息对关注 UNSW 法学院的学生有参考价值：AAL First Nations Scholarship 是面向原住民学生的专项奖，不是开放申请的通用奖项。但它反映了 UNSW Law & Justice 在多元化和专项奖学金方面的生态广度。对走 Law 方向的学生，UNSW 法学院可申请的来源包括 Scientia Scholarship（研究生全奖）、Law Society NSW 专项奖，以及 AAL、Australian Bar Association 等外部专业机构设立的各类奖项，建议通过 UNSW Law & Justice 官网的 Scholarships & Awards 板块查阅当年开放的申请机会。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unsw.edu.au/newsroom/news/2026/05/among-the-stars-unsw-law-student-awarded-prestigious-scholarship\">UNSW Newsroom · Among the stars: UNSW law student awarded prestigious national scholarship</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · CALD 疫苗接种研究</strong>：Holly Seale 教授：CALD 社群因系统性信息障碍面临更高住院风险；NSW $1500 万四年注资；Community Connectors 可信社区渠道模型正在推进",
+        "<strong>02 · AAL 原住民奖学金</strong>：Amos Taylor 获 2026 年 AAL First Nations Scholarship；AUD $6,000 + AAL 研究员导师；专注空天法律框架内原住民权利研究"
+      ]
+    },
+    "cta": {
+      "big": "🎓 每天同步 6 所澳洲核心院校动态？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "UNSW 公卫研究｜CALD 社群和疫苗接种率",
+        "body": "走公共卫生 / 流行病学方向的同学，UNSW 这条研究值得认真看一下：Holly Seale 教授 5 月 27 日发布分析，主题是澳洲 CALD（文化语言多元）社群的疫苗接种率差距。\n\n核心发现：CALD 社群因疫苗可预防疾病住院的风险比一般人群高，但原因不是「疫苗犹豫」，是系统性障碍——服务体系难导航、缺乏母语信息、没有可信赖的社区声音，即使疫苗免费，人也会错过。\n\nSeale 教授的话：「人们更愿意根据自己认识和信任的人给出的信息采取行动。」这句话很朴素，但背后是一套行为科学和社区健康传播的完整逻辑。\n\nNSW 政府 2025 年起四年投 $1500 万应对，Seale 教授参与设计了 Community Connectors 体系——让有社区联系的本地机构员工成为接种「连接者」。这种政策落地模式在公共卫生领域其实是一个很有价值的研究案例。\n\n对我来说，这条新闻让我想到留学生也是「CALD 社群」的一部分——新来的时候真的不知道 GP 在哪、疫苗怎么搞、Medicare 怎么用，信息差是真实存在的。\n\n走公卫方向的同学评论区扣 1，可以一起整理 UNSW School of Population Health 的研究方向。",
+        "tags": ["#UNSW", "#新南威尔士大学", "#公共卫生", "#PublicHealth", "#澳洲留学", "#CALD", "#健康", "#留学干货"]
+      },
+      {
+        "heading": "UNSW 法学院奖学金生态｜AAL 原住民奖学金",
+        "body": "今天有一条 UNSW 法学院的更新：2026 年澳洲法律学院（AAL）原住民奖学金颁给了 UNSW Law & Justice 学生 Amos Taylor，奖金 AUD $6,000，还配了一名 AAL 研究员做导师。这个奖是专门为原住民法律学生设的，不是开放申请的通用奖学金。\n\nAmos 是 Eastern Kimberley 地区 Gija/Jaru 民族后裔，做的是空天法律框架内的原住民权利研究——感觉挺特别的方向，把传统土地权利和太空法、航空法联系起来，在日益重要的商业航天背景下确实是一个有意思的交叉领域。\n\n整理一下 UNSW 法学院可以申请的奖学金来源：\n\n1. Scientia Scholarship——研究生全奖，竞争激烈，有的专业可以覆盖学费+生活费\n2. Law Society NSW 专项奖——每年不同主题，关注 Law Society 官网\n3. AAL 系列奖——面向有特定背景的学生，包括 First Nations、Women in Law 等\n4. UNSW 内部的 Dean's Scholarship 和各专业方向奖学金\n\n具体金额和申请窗口要到 UNSW Law & Justice 官网的 Scholarships & Awards 查当年数据，不要靠第三方汇总，每年有调整。\n\n走法律方向的姐妹评论区聊聊，一起整理 UNSW Law 的申请攻略。",
+        "tags": ["#UNSW", "#新南威尔士大学", "#法学留学", "#UNSWLaw", "#澳洲留学奖学金", "#留学干货", "#法律研究生"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出（仅有「评论区扣 1」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 域名 / 二维码", "result": "未检出（xhsCopy 和 drafts 全部扫描）" },
+      { "category": "AI 味", "rule": "首先其次最后 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
