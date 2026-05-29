@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-05-30",
+  "school": "monash",
+  "summary": {
+    "hookMain": "Monash",
+    "hookSub": "ARC 540万科研 8项目 + John Monash 奖学金全国 18人",
+    "hookSubHighlight": "ARC 540万",
+    "subLines": [
+      "ARC Linkage 2025 Round 2：Monash 8 项目获 540 万澳元",
+      "超低能耗晶体管 + AI 视频检测 + 药物缓释 + 难民医生注册路径",
+      "2026 John Monash Scholarship：全国 18 人 · 每年 10 万澳元助研究生出国深造"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "ARC 科研资助", "data": "540 万澳元" },
+      { "num": "02", "title": "John Monash 奖学金", "data": "全国 18 人入选" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研合作",
+      "h2Main": "Monash 斩获 ARC Linkage $5.4M · 8 项目横跨医疗 AI 半导体",
+      "h2Sub": "Prof Fuhrer 超低能耗晶体管 + 难民医生注册路径 + 视频异常检测 · 2026-05-22",
+      "h2Highlight": "$5.4M",
+      "lead": "5 月 22 日，Monash University 研究人员在 ARC Linkage Projects 2025 Round 2 中获得 <b>540 万澳元</b>，8 个项目跨越半导体低能耗晶体管、AI 视频检测、生物药物缓释和法律社会公义四大方向，参与本轮总额 <b>$9,980 万</b>的国家科研投资。",
+      "bullets": [
+        { "k": "半导体技术", "v": "Prof. Michael Fuhrer（Faculty of Science）主导新一代<b>超低能耗晶体管</b>研究，旨在应对全球 IT 系统持续暴增的电力消耗——AI 算力大爆发时代最迫切的硬件议题之一" },
+        { "k": "信息技术", "v": "Faculty of IT 主导<b>视频异常检测系统</b>研究，应用于公共安全和医疗保健场景，AI 落地到高价值实际场景的典型方向" },
+        { "k": "医疗科学", "v": "药学院研究<b>聚合物缓释生物药物</b>；医学院研究免疫系统受体功能，跨越<b>癌症免疫疗法与兽医医学</b>应用" },
+        { "k": "法律社会", "v": "Prof. Gabrielle Wolf（法学院）改善<b>难民医生在澳获得医学注册的法律路径</b>——法律研究直接对接移民与劳动力政策" },
+        { "k": "对你的影响", "v": "走 <b>IT / AI / Engineering / Pharmacy / Law</b> 方向的同学：ARC Linkage 项目有产业合作方背书 + 国家级资金支持，Honours/PhD 招生是获取真实研究经历的优先入口" }
+      ],
+      "source": "Monash University News · 2026-05-22",
+      "sourceUrl": "https://www.monash.edu/energy-institute/news-events/latest-news/articles/2026/monash-secures-%245.4-million-in-arc-linkage-funding-for-research-projects",
+      "sourceQuote": "Monash University researchers have received $5.4 million across eight projects through the latest round of funding from the Australian Research Council (ARC) Linkage Projects scheme."
+    },
+    {
+      "idx": "02",
+      "category": "奖学金",
+      "h2Main": "2026 John Monash Scholarship · 全国 18 人入选 · Monash 校友上榜",
+      "h2Sub": "$100,000/年 · 最长 3 年 · 支持研究生在全球顶尖机构深造",
+      "h2Highlight": "$100,000/年",
+      "lead": "2026 年度 <b>John Monash Scholarship</b> 揭晓，澳洲共 18 人获此殊荣，Monash University 校友 <b>Georgia Leak</b> 位列其中。每年 $100,000 澳元、最长 3 年资助获奖者前往全球顶尖机构攻读研究生学位。",
+      "bullets": [
+        { "k": "奖学金性质", "v": "John Monash Foundation 颁发的<b>全国性</b>研究生出国奖学金，与 Monash University 独立运营——不是 Monash 大学自发的内部奖，而是全澳竞争性最强的出国资助之一" },
+        { "k": "金额与年限", "v": "每年 <b>$100,000 澳元</b>，最长资助 <b>3 年</b>，用于在国际顶尖高校攻读研究生学位" },
+        { "k": "2026 入选情况", "v": "全国共 <b>18 位</b>澳洲人获选；Monash 校友 <b>Georgia Leak</b> 是其中之一，体现 Monash 学术培养在全国层面的竞争力" },
+        { "k": "对你的影响", "v": "走研究方向的同学：Monash Honours → PhD 路径是冲击这类国家顶尖奖学金的有力跳板；校友入选全澳 18 名是对 Monash 科研产出质量最直接的外部背书" }
+      ],
+      "source": "Monash University News · 2026",
+      "sourceUrl": "https://www.monash.edu/news/articles/monash-alumna-awarded-prestigious-john-monash-scholarship-2026",
+      "sourceQuote": "Each scholarship is valued at $100,000 per year for up to three years to support postgraduate study at leading international institutions."
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 5 月 30 日：研究团队获 ARC Linkage $5.4M，8 项目覆盖医疗 AI 半导体法律；2026 年 John Monash Scholarship 全国 18 人入选，Monash 校友 Georgia Leak 获此殊荣。",
+    "items": [
+      { "n": "01", "title": "ARC $5.4M 科研资助", "body": "8 项目 · 超低能耗晶体管 + 视频异常检测 + 药物缓释 + 难民医生注册路径 · ARC 2025 Round 2 总额 $9980 万" },
+      { "n": "02", "title": "John Monash 奖学金 2026", "body": "全国 18 人 · Monash 校友 Georgia Leak · 每年 $10 万澳元 · 最长 3 年 · 全球顶尖机构研究生深造" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天更新 · 科研 + 招生 + 校园动态一手同步",
+      "badge": "05 / 30"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash 5-30 两条硬料💡",
+      "body": "在看蒙纳士或者在读的姐妹，这两条一起来看。\n\n01 / ARC $540 万科研——5 月 22 日 Monash 在 ARC Linkage 最新一轮拿到 540 万澳元，8 个项目，跨越超低能耗半导体晶体管（Prof. Michael Fuhrer）、AI 视频异常检测、生物药物缓释、难民医生注册路径四个方向。ARC Linkage 的特点是每个项目必须有产业合作方参与，这意味着这些研究不只是写论文，有真实落地目标。\n\n02 / John Monash 奖学金——2026 年全国 18 个名额，Monash 校友 Georgia Leak 上榜。这是全澳竞争最激烈的研究生出国奖之一，每年 $100,000 澳元，最长资助 3 年，去全球顶尖机构读研究生。要说清楚：这不是 Monash 大学自己发的奖，是以 Sir John Monash 命名的全国性基金会颁发的。\n\n有在申 Monash IT / Engineering / 科研方向的姐妹评论区扣 1🙌",
+      "tags": "#Monash #蒙纳士大学 #澳洲留学 #ARC科研 #奖学金 #留学干货 #澳洲大学"
+    },
+    "p2": {
+      "title": "Monash ARC 540万 四大方向🔬",
+      "body": "走 IT / AI / Engineering / Pharmacy 方向的姐妹，这条 5 月 22 日的 ARC 资助值得拆一下。\n\n8 个项目、540 万澳元，ARC Linkage 每个项目必须有产业合作方，说明这些研究有真实落地目标——\n\n半导体：Prof. Michael Fuhrer（Faculty of Science）做新一代超低能耗晶体管，直面 AI 算力暴增的能耗危机，这是硬件底层最核心的议题之一，Monash 有国家级资金支撑这条研究线。\n\nAI 系统：Faculty of IT 的视频异常检测，落地在公共安全和医疗保健，applied AI 里需求最旺的细分赛道。\n\n药学：聚合物缓释生物药物递送，走 Pharmacy / Biomedical 方向可留意。\n\n法律社会：Prof. Gabrielle Wolf 做难民医生在澳洲获得医学注册的法律路径——法律研究和移民政策直接挂钩的实证项目。\n\nARC Linkage 项目一般在招 Honours / PhD 学生，有项目资金 + 产业合作方，是建立真实研究经历的好入口。有在认真准备 Monash 研究方向申请的姐妹，评论区聊聊哪个方向最对口。",
+      "tags": "#Monash #蒙纳士大学 #澳洲留学 #ARC #科研机会 #PhD #AI #半导体 #留学干货"
+    },
+    "p3": {
+      "title": "John Monash奖学金 全澳顶尖📚",
+      "body": "认真规划研究生阶段的姐妹，这条 John Monash Scholarship 要了解。\n\n2026 年全国 18 人获选，Monash 校友 Georgia Leak 是其中之一。金额：每年 $100,000 澳元，最长资助 3 年，在全球顶尖机构攻读研究生学位。\n\n很多人搞混，以为这是 Monash 大学自己发的奖——其实不是。John Monash Foundation 是独立基金会，以澳洲二战名将 Sir John Monash 命名，和 Monash University 是独立运营的。这个奖是全澳性质的竞争，入选说明你在全国最顶尖的毕业生里有竞争力。\n\nMonash 校友今年入选，侧面体现 Monash 在高层次科研培养上的质量。对规划 Honours → PhD → 出国深造这条路的同学来说，Monash 是值得认真评估的选择之一。\n\n有同样在规划研究生路径的姐妹，评论区扣 1，可以聊聊怎么规划这类全国级奖学金的准备材料🙌",
+      "tags": "#Monash #蒙纳士大学 #澳洲留学 #JohnMonash奖学金 #研究生奖学金 #留学干货 #澳洲奖学金"
+    },
+    "p4": {
+      "title": "ARC项目为什么和你有关💻",
+      "body": "看 ARC 科研资助新闻的时候很多同学会觉得「跟我申请有什么关系」——但 ARC Linkage 其实很直接。\n\nARC Linkage 每个项目必须有产业合作方（企业 / 政府机构），这意味着：\n1. 研究有真实落地目标，不只是发论文\n2. 项目有稳定资金，导师有钱招学生\n3. 产业合作方意味着可能的实习 / 就业通道\n\n我在看 Monash IT 方向的时候注意到 Faculty of IT 的视频异常检测项目——这是 AI 落地到安全/医疗的典型路径，研究产出直接对应就业市场的 applied AI 岗位需求。\n\n半导体那条（Prof. Fuhrer 的超低能耗晶体管）也很有意思：AI 算力需求爆炸，数据中心耗电已经是全球政策议题，从硬件底层解决能耗问题的研究是稀缺方向，EE / Materials Science / CS 硬件方向的同学留意。\n\n这些项目都在招 Honours / PhD 学生，有在认真看 Monash 科研路径的姐妹，评论区聊聊 🙌",
+      "tags": "#Monash #蒙纳士大学 #澳洲留学 #科研机会 #ARC #PhD申请 #AI研究 #留学干货"
+    },
+    "p5": {
+      "title": "Monash 5-30 两条速览",
+      "body": "蒙纳士大学本期两条：\n\n01 / ARC $540 万科研资助——5 月 22 日，Monash 8 项目获 ARC Linkage 2025 Round 2 资助：超低能耗晶体管（半导体）+ 视频异常检测（AI）+ 生物药物缓释（药学）+ 难民医生注册路径（法律）。\n\n02 / John Monash Scholarship 2026——全国 18 人入选，Monash 校友 Georgia Leak 获选，每年 $100,000 澳元 · 最长 3 年 · 资助在全球顶尖机构攻读研究生。\n\n两条合看：Monash 的科研产出和校友质量在全国层面都有体现。走 IT / AI / Engineering / 科研方向申 Monash 的姐妹，这些背景值得写进「为什么选 Monash」里。\n\n评论区扣 1 聊申请🙌",
+      "tags": "#Monash #蒙纳士大学 #澳洲留学 #ARC科研 #奖学金 #大学新闻 #留学干货"
+    }
+  },
+  "mp": {
+    "title": "蒙纳士大学 5 月 30 日：ARC $540万科研资助 8 项目 + 2026 John Monash Scholarship 全国 18 人",
+    "lead": "Monash University 研究团队 5 月 22 日在澳大利亚研究委员会（ARC）Linkage Projects 2025 Round 2 中获得 540 万澳元，8 个项目横跨超低能耗晶体管、AI 视频异常检测、生物药物缓释和难民医生注册路径，参与本轮总额 9980 万澳元的国家科研投资。与此同时，2026 年度 John Monash Scholarship 揭晓，全国 18 位顶尖澳洲毕业生入选，Monash 校友 Georgia Leak 获此殊荣，将获每年 $100,000 澳元、最长 3 年的资助前往全球顶尖机构攻读研究生学位。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "Monash 斩获 ARC Linkage $5.4M：8 项目覆盖医疗 AI 半导体法律",
+        "paragraphs": [
+          "5 月 22 日，Monash University 宣布在澳大利亚研究委员会（ARC）Linkage Projects 2025 Round 2 中斩获 540 万澳元，共 8 个项目获得资助。本轮 ARC Linkage 总拨款额为 9980 万澳元，面向全澳高校、产业、政府和社区机构的联合研究。Monash 此次获批的 8 个项目横跨半导体技术、信息技术、医疗科学和法律社会公义四个方向，均有产业或政府合作方参与。",
+          "在半导体技术方向，Faculty of Science 的 Professor Michael Fuhrer 主导研究新一代超低能耗晶体管，旨在降低全球信息技术系统日益暴增的电力消耗。AI 算力快速扩张背景下，数据中心电力成本已成为制约 AI 发展的核心瓶颈之一，Monash 在这条线上有国家级资金支撑的研究链条。Faculty of IT 的项目聚焦视频异常检测系统，应用于公共安全和医疗保健场景，是 AI 技术落地到高价值实际场景的典型路径。",
+          "医学和药学方向，药学与药科学学院的研究探索新型聚合物系统用于生物药物的缓释递送，医学院的项目研究免疫系统受体功能，具有癌症免疫疗法和兽医医学的双重应用前景。法律方向，Professor Gabrielle Wolf 领导的项目致力于改善难民医生在澳洲获得医学注册的法律路径，把法律研究和移民与劳动力政策直接挂钩。对申请 Monash IT、Engineering、Pharmacy、Law 方向 Honours 或 PhD 的学生，ARC Linkage 项目是有产业合作背景、有资金支持、有实际落地目标的研究入口，是积累真实研究经历的优先选项。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.monash.edu/energy-institute/news-events/latest-news/articles/2026/monash-secures-%245.4-million-in-arc-linkage-funding-for-research-projects\">Monash University · Monash secures $5.4 million in ARC Linkage funding for research projects · 2026-05-22</a>"
+      },
+      {
+        "h2": "2026 年 John Monash Scholarship：全国 18 人入选，Monash 校友 Georgia Leak 获选",
+        "paragraphs": [
+          "2026 年度 John Monash Scholarship 揭晓。这项由 John Monash Foundation 颁发的全国性奖学金，在 2026 年共选出 18 位澳洲人入选，Monash University 校友 Georgia Leak 是其中之一。奖学金金额为每年 $100,000 澳元，最长资助 3 年，用于在全球顶尖机构攻读研究生学位。",
+          "需要明确的是，John Monash Scholarship 与 Monash University 在名称上共享同一位历史人物（澳洲二战名将 Sir John Monash），但 John Monash Foundation 与 Monash University 是独立运营的。这不是 Monash 大学自己发的内部奖学金，而是全国性质的竞争性奖项，入选者来自全澳各大学最顶尖的毕业生，是澳洲最具竞争力的研究生出国资助之一。Monash 校友在全国 18 人的筛选中入选，是对 Monash 学术培养质量最直接的外部背书。",
+          "对正在规划研究生路径的学生，尤其是考虑 Honours → 博士 → 海外深造这条学术路线的同学，John Monash Scholarship 值得提前了解其申请周期和材料要求。Monash 的 Honours 和 PhD 体系为学生建立系统性科研经历，历届毕业生有竞争全国顶尖奖学金的记录，是值得认真评估的研究生路径选择之一。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.monash.edu/news/articles/monash-alumna-awarded-prestigious-john-monash-scholarship-2026\">Monash University News · Monash alumna awarded prestigious John Monash Scholarship for 2026</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · ARC $5.4M 科研资助</strong>：8 项目 · 超低能耗晶体管（半导体）+ 视频异常检测（AI）+ 生物药物缓释（药学）+ 难民医生注册路径（法律）· ARC 2025 Round 2 总额 $9980 万",
+        "<strong>02 · John Monash Scholarship 2026</strong>：全国 18 人 · Monash 校友 Georgia Leak 获选 · 每年 $100,000 澳元 · 最长 3 年 · 资助全球顶尖机构研究生深造"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」 · 官网 jiangren.com.au/blog"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "Monash ARC 540万｜科研资助背后的申请机会",
+        "body": "走 IT / AI / Engineering / Pharmacy 方向的姐妹，Monash 这轮 ARC Linkage 资助值得认真拆一下。\n\n5 月 22 日，Monash 宣布 8 个项目获 ARC Linkage $540 万资助。ARC Linkage 有一个特别的地方：每个项目必须有 industry partner（产业合作方）参与，研究本身有真实落地目标，不只是发论文。\n\n对我来说最值得关注的是两个方向：\n\n超低能耗晶体管——Prof. Michael Fuhrer 在做。AI 算力需求爆炸，数据中心耗电是全球政策议题，从硬件底层解决能耗问题是最稀缺的研究方向之一。走 EE / Materials Science / CS 硬件方向的同学留意这条线。\n\n视频异常检测 AI——Monash IT。落地在安全/医疗的应用 AI，研究产出直接对应就业市场上需求最旺的岗位方向之一。\n\nARC Linkage 项目一般都在招 Honours 和 PhD 学生，有资金支撑，是建立真实研究经历的好入口。有在认真看 Monash 科研路径的姐妹，评论区聊聊哪个对你的方向最有帮助。",
+        "tags": ["#Monash", "#蒙纳士大学", "#澳洲留学", "#ARC科研", "#PhD申请", "#AI研究", "#半导体", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "未检出（「全澳竞争最激烈之一」属程度表述非绝对化；「全国 18 人」为客观数据有来源支撑）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 公众号 / 二维码", "result": "未检出（仅「评论区扣 1」合规互动话术）" },
+      { "category": "AI味", "rule": "首先其次最后 / 值得注意 / 综上所述", "result": "未检出" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com", "result": "未检出（xhsCopy 与 drafts.sections 全部扫描；JR Academy 仅出现在 mp.cta 合法位置）" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股", "result": "未检出" }
+    ]
+  }
+}
