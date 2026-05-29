@@ -1,6 +1,6 @@
 <!doctype html>
 
-<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-28T23:45:29.836Z -->
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-29T00:53:39.788Z -->
 <html lang="zh">
 <head>
 <meta charset="utf-8">
@@ -25,14 +25,14 @@ const POSTER_DATA = {
   "summary": {
     "hook": [
       {
-        "text": "DeepSeek永久砍价75%"
+        "text": "Claude Opus 4.8 发布",
+        "hl": true
       },
       {
         "text": " · "
       },
       {
-        "text": "Anthropic砸$450亿买算力",
-        "hl": true
+        "text": "DeepSeek永久砍价75%"
       },
       {
         "text": " · "
@@ -41,19 +41,19 @@ const POSTER_DATA = {
         "text": "Gemini 3.5登场"
       }
     ],
-    "sub": "中美AI同步提速：DeepSeek完成$50B首轮融资、xAI推编程Agent、GPT-5.5幻觉减半",
+    "sub": "Anthropic发布最强Opus 4.8：更诚实、编码漏错率降4×、同价升级；DeepSeek永久降价、Gemini 3.5 Flash、xAI Grok编程Agent、GPT-5.5幻觉减半",
     "items": [
       {
         "num": "01",
-        "cat": "价格战",
-        "numColor": "#00B0FF",
-        "t": "DeepSeek V4-Pro永久降价75%，每百万token仅$0.435"
+        "cat": "大模型",
+        "numColor": "#D97757",
+        "t": "Anthropic发布Claude Opus 4.8：更诚实、编码漏错率降4×，同价升级"
       },
       {
         "num": "02",
-        "cat": "算力",
-        "numColor": "#D97757",
-        "t": "Anthropic签$450亿SpaceX算力大单，22万块GPU支撑Claude"
+        "cat": "价格战",
+        "numColor": "#00B0FF",
+        "t": "DeepSeek V4-Pro永久降价75%，每百万token仅$0.435"
       },
       {
         "num": "03",
@@ -77,8 +77,60 @@ const POSTER_DATA = {
   },
   "news": [
     {
-      "slug": "01-deepseek-v4pro-price-cut",
+      "slug": "01-anthropic-claude-opus-48",
       "idx": "01",
+      "catText": "大模型",
+      "accent": "#D97757",
+      "bg": {
+        "top": "#FBE9E7",
+        "mid": "#FFCCBC",
+        "bot": "#FFAB91",
+        "topRight": "#BF360C"
+      },
+      "title": [
+        {
+          "text": "Anthropic发布"
+        },
+        {
+          "text": "Claude Opus 4.8",
+          "hl": true
+        },
+        {
+          "text": "：更诚实、编码漏错率降4×"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Opus 4.8 同价升级——"
+        },
+        {
+          "text": "更主动标注不确定、更少无依据断言",
+          "bold": true
+        },
+        {
+          "text": "，写代码时漏过缺陷的概率比前代低约4倍"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "5月28日Anthropic发布旗舰模型Claude Opus 4.8，基于Opus 4.7升级、价格保持不变。官方称其在终端编码、知识工作、金融分析等Agentic基准上提升最大，并主打「更诚实」——更常标注不确定、更少做无依据断言"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Opus 4.8让自己写的代码里的缺陷蒙混过关的概率比前代低约4倍；同步上线dynamic workflows（应对超大规模任务）和思考「用力程度」控制，fast mode比默认快2.5×且比此前便宜3×。Anthropic预告「Mythos级」模型未来几周推出"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者用同样价格拿到更强的Agentic编码和更低的漏错率，更适合放进CI、金融分析等高风险流程；fast mode降价让高频调用更划算，长任务可用dynamic workflows拆解"
+        }
+      ],
+      "sourceQuote": "Claude Opus 4.8 (May 28 2026) is Anthropic's most capable model, available at the same price as Opus 4.7, and is about 4x less likely than its predecessor to let flaws in its own code pass unremarked. Biggest gains: agentic terminal coding, knowledge work and financial analysis; fast mode is 2.5x faster and 3x cheaper than before. (anthropic.com / axios.com)",
+      "src": "📎 anthropic.com · axios.com · 9to5mac.com"
+    },
+    {
+      "slug": "02-deepseek-v4pro-price-cut",
+      "idx": "02",
       "catText": "价格战",
       "accent": "#00B0FF",
       "bg": {
@@ -127,58 +179,6 @@ const POSTER_DATA = {
       ],
       "sourceQuote": "V4 Pro prices now range from $0.003625 to $0.87 per one million tokens (aiweekly.co May 26 2026). DeepSeek seeks $3-4B first external round at $50B valuation backed by Big Fund III and Tencent. (SCMP)",
       "src": "📎 aiweekly.co · thenextweb.com · scmp.com"
-    },
-    {
-      "slug": "02-anthropic-spacex-colossus",
-      "idx": "02",
-      "catText": "算力",
-      "accent": "#D97757",
-      "bg": {
-        "top": "#FBE9E7",
-        "mid": "#FFCCBC",
-        "bot": "#FFAB91",
-        "topRight": "#BF360C"
-      },
-      "title": [
-        {
-          "text": "Anthropic签"
-        },
-        {
-          "text": "$450亿SpaceX算力大单",
-          "hl": true
-        },
-        {
-          "text": "，22万块GPU支撑Claude扩容"
-        }
-      ],
-      "oneline": [
-        {
-          "text": "Anthropic以"
-        },
-        {
-          "text": "每月$12.5亿（共$450亿）",
-          "bold": true
-        },
-        {
-          "text": "租下SpaceX xAI整个Colossus 1数据中心，220,000+ NVIDIA GPU全速开跑"
-        }
-      ],
-      "bullets": [
-        {
-          "k": "发生了什么",
-          "v": "Anthropic与SpaceX签署协议，以每月$12.5亿、合计约$450亿的三年合同，独占Colossus 1数据中心超过220,000块NVIDIA GPU（含H100/H200/GB200），以及超过300兆瓦的算力容量"
-        },
-        {
-          "k": "为什么重要",
-          "v": "这是AI公司迄今最大单笔算力采购合同，标志着AI训练从「按需购买GPU」转向「锁定数据中心级算力」。Anthropic还同步获得Colossus 2的下一代GB200硬件优先使用权"
-        },
-        {
-          "k": "对你的影响",
-          "v": "Claude Pro/Max用户的速率限制将直接受益；双方还商讨「轨道AI算力」合作，意味着未来Starlink卫星网络可能参与AI推理"
-        }
-      ],
-      "sourceQuote": "Anthropic will pay SpaceX $1.25 billion per month through May 2029, contract worth nearly $45B. Colossus 1 features over 220,000 NVIDIA GPUs. (CNBC/tesery.com May 2026)",
-      "src": "📎 cnbc.com · axios.com · datacenterdynamics.com"
     },
     {
       "slug": "03-google-io-gemini-35-flash",
@@ -338,7 +338,7 @@ const POSTER_DATA = {
     }
   ],
   "mp": {
-    "title": "DeepSeek永久降价 / Anthropic $450亿算力 / Gemini 3.5 / Grok编程Agent / GPT-5.5"
+    "title": "Claude Opus 4.8 发布 / DeepSeek永久降价 / Gemini 3.5 / Grok编程Agent / GPT-5.5"
   },
   "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-29"
 };
@@ -348,8 +348,8 @@ PosterRenderer.renderAll({
   SUMMARY: POSTER_DATA.summary,
   NEWS: POSTER_DATA.news,
   articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
   FLEX_HEIGHT: true,
-  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
 });
 </script>
 </body>

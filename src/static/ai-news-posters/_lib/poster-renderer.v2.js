@@ -443,7 +443,8 @@
     // titles are limited to three lines before the divider.
     const titlePlain = tokensToText(d.title);
     const titleSpec = (s, w) => `${w || 900} ${s}px ${FF_CN}`;
-    let titleSize = Math.max(60, Math.min(78, d.titleSize || 72) - shrinkLevel * 2);
+    // 与 drawSinglePoster 保持同一字号公式，确保 measure 与 draw 的 y 轨迹一致
+    let titleSize = Math.min(78, d.titleSize || 72);
     const titleMaxW = CW - 250;
     let titleLaid = layoutTokens(ctx, [{ text: titlePlain }], titleSpec, titleSize, 1.12, titleMaxW);
     while (titleLaid.lines.length > 3 && titleSize > 60) {
@@ -454,10 +455,10 @@
     y += Math.max(76, titleLines * titleLaid.lineH - 4);
     y += 74;
 
-    // One-line summary.
+    // One-line summary. lineH 与 draw 对齐（1.22）。
     const oneFontSize = Math.max(38, 44 - shrinkLevel * 2);
     const oneSpec = (s, w) => `${w || 700} ${s}px ${FF_CN}`;
-    const oneLaid = layoutTokens(ctx, d.oneline, oneSpec, oneFontSize, 1.28, CW - 56);
+    const oneLaid = layoutTokens(ctx, d.oneline, oneSpec, oneFontSize, 1.22, CW - 56);
     y += Math.max(104, oneLaid.lines.length * oneLaid.lineH + 30);
 
     // Three content cards. Measure from actual paragraph length instead of
@@ -559,26 +560,28 @@
 
     const sectionLabels = ['新闻事实', '为什么重要', '对你的影响'];
     const cardGap = 20;
-    const maxCardBottom = H - 260;
-    const available = maxCardBottom - y;
-    const cardH = Math.max(260, Math.floor((available - cardGap * 2) / 3));
     const bulletValSize = Math.max(36, Math.min(42, 42 - shrinkLevel * 2));
 
     for (let i = 0; i < d.bullets.length; i++) {
       const b = d.bullets[i];
       const fill = i === 1 ? '#ffd225' : '#f7f3ea';
+
+      const valSpec = (s, w) => `${w || 500} ${s}px ${FF_CN}`;
+      const valText = truncateText(b.v, d.posterMaxChars || 92);
+      const valLaidRaw = layoutTokens(ctx, [{ text: valText }], valSpec, bulletValSize, 1.34, CW - 76);
+      // 卡片高度随内容自适应 —— 与 measureSinglePoster() 同一公式，
+      // 不再把三张卡拉伸去填满固定档位（旧逻辑会让短内容的卡片留大片空白）。
+      const textH = valLaidRaw.lines.length * valLaidRaw.lineH;
+      const cardH = Math.max(300, Math.min(560, 176 + textH));
+      const maxLines = Math.max(3, Math.floor((cardH - 118) / (bulletValSize * 1.34)));
+      const valLaid = clampLaidOut(ctx, valLaidRaw, valSpec, maxLines, CW - 76);
+
       drawSharpBox(ctx, CX, y, CW, cardH, fill, '#10131f', 8);
 
       ctx.font = `900 48px ${FF_CN}`;
       ctx.fillStyle = '#10131f';
       ctx.fillText(sectionLabels[i] || b.k, CX + 28, y + 66);
 
-      const valSpec = (s, w) => `${w || 500} ${s}px ${FF_CN}`;
-      const maxTextH = cardH - 118;
-      const maxLines = Math.max(3, Math.floor(maxTextH / (bulletValSize * 1.34)));
-      const valText = truncateText(b.v, d.posterMaxChars || 92);
-      const valLaidRaw = layoutTokens(ctx, [{ text: valText }], valSpec, bulletValSize, 1.34, CW - 76);
-      const valLaid = clampLaidOut(ctx, valLaidRaw, valSpec, maxLines, CW - 76);
       drawLaidOut(ctx, valLaid, CX + 28, y + 94, valSpec, '#262936', {
         normalWeight: 500,
         boldWeight: 800,
@@ -1137,29 +1140,18 @@ body {
     }
     shrinkLevels.push(0);
 
-    // 单图 NEWS 每张自动选档
+    // 单图 NEWS：高度完全随内容自适应（与 SUMMARY 一致），不再 snap 到离散档位。
+    // 旧的 HEIGHT_TIERS / selectHeightTier 会把内容向上取整到最近档位，
+    // 短内容留白、长内容被 shrink 压扁；现在直接用 measure 出的精确高度。
     for (const p of NEWS) {
       if (!flexHeight) {
         heights.push(DEFAULT_H);
         shrinkLevels.push(0);
         continue;
       }
-      let shrinkLevel = 0;
-      let tier = null;
-      while (shrinkLevel <= 3) {
-        const required = measureSinglePoster(mctx, p, shrinkLevel);
-        tier = selectHeightTier(required, tiers);
-        if (tier !== null) break;
-        if (overflowFallback !== 'shrink') break;
-        shrinkLevel++;
-      }
-      if (tier === null) {
-        // fallback 失败 → 用最大档位强塞
-        tier = tiers[tiers.length - 1];
-        console.warn(`[poster-renderer.v2] ${p.slug} 超出最大档位 ${tier}，强制使用。建议裁剪内容。`);
-      }
-      heights.push(tier);
-      shrinkLevels.push(shrinkLevel);
+      const required = measureSinglePoster(mctx, p, 0);
+      heights.push(Math.max(required, 1400));
+      shrinkLevels.push(0);
     }
 
     mountCards([SUMMARY, ...NEWS], heights);
