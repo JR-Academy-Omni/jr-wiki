@@ -1,6 +1,6 @@
 <!doctype html>
 
-<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-28T23:45:29.839Z -->
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-29T23:45:12.305Z -->
 <html lang="zh">
 <head>
 <meta charset="utf-8">
@@ -300,8 +300,8 @@ PosterRenderer.renderAll({
   SUMMARY: POSTER_DATA.summary,
   NEWS: POSTER_DATA.news,
   articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
   FLEX_HEIGHT: true,
-  HEIGHT_TIERS: [1480, 1660, 1860, 2100, 2400],
 });
 </script>
 </body>
