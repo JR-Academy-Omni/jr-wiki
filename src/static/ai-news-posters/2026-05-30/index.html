@@ -1,0 +1,345 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-29T21:13:08.657Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-05-30（Canvas 版）</title>
+<meta name="description" content="2026-05-30 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-05-30.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-05-30",
+  "summary": {
+    "hook": [
+      {
+        "text": "OpenAI IPO 备案",
+        "hl": true
+      },
+      {
+        "text": " · "
+      },
+      {
+        "text": "DeepSeek 500亿估值"
+      },
+      {
+        "text": " · "
+      },
+      {
+        "text": "Meta 闭源转型"
+      }
+    ],
+    "sub": "OpenAI秘密递交IPO申请、估值$8500亿；DeepSeek获腾讯参投、估值冲500亿美元；Meta发布首个闭源旗舰Muse Spark；xAI Grok Build征服华尔街；OpenAI发布前沿治理框架对齐EU AI Act",
+    "items": [
+      {
+        "num": "01",
+        "cat": "商业",
+        "numColor": "#10A37F",
+        "t": "OpenAI秘密提交IPO申请：高盛摩根承销，估值$8500亿，目标秋季上市"
+      },
+      {
+        "num": "02",
+        "cat": "融资",
+        "numColor": "#1D5DFF",
+        "t": "DeepSeek完成首轮外部融资，腾讯参投，估值冲500亿美元"
+      },
+      {
+        "num": "03",
+        "cat": "大模型",
+        "numColor": "#0082FB",
+        "t": "Meta发布闭源Muse Spark：2026年AI资本开支$1350亿，开源战略转向"
+      },
+      {
+        "num": "04",
+        "cat": "Agent",
+        "numColor": "#1A1A1A",
+        "t": "xAI Grok Build拿下摩根士丹利：华尔街争抢AI编程Agent内测席位"
+      },
+      {
+        "num": "05",
+        "cat": "治理",
+        "numColor": "#FF6D00",
+        "t": "OpenAI发布前沿治理框架：对齐EU AI Act，覆盖CBRN风险与失控评估"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-ipo-confidential-filing",
+      "idx": "01",
+      "catText": "商业融资",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#E8F5E9",
+        "mid": "#C8E6C9",
+        "bot": "#A5D6A7",
+        "topRight": "#1B5E20"
+      },
+      "title": [
+        {
+          "text": "OpenAI 秘密提交 S-1 IPO 申请，"
+        },
+        {
+          "text": "估值 $8,520 亿",
+          "hl": true
+        },
+        {
+          "text": "，目标秋季上市"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenAI 5月22日向 SEC 提交保密 S-1，"
+        },
+        {
+          "text": "高盛 + 摩根士丹利",
+          "bold": true
+        },
+        {
+          "text": "主承销，目标窗口 2026 年 9 月"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 5月22日向美国 SEC 秘密提交 S-1 招股说明书，由高盛和摩根士丹利主承销，目标窗口为 2026 年 9 月至 11 月之间上市"
+        },
+        {
+          "k": "为什么重要",
+          "v": "当前私募估值 $8,520 亿（2026年3月亚马逊、英伟达、软银联合 $1,220 亿融资定价），分析师预计上市后市值有望突破 $1 万亿"
+        },
+        {
+          "k": "对你的影响",
+          "v": "上市后研究报告和财务披露公开，AI 从业者可首次系统了解 ChatGPT 的营收结构；当前年化营收 $250 亿但 Q1 每收入 $1 亏损 $1.22"
+        }
+      ],
+      "src": "📎 aitoolsrecap.com · enterprisedna.co · opentools.ai"
+    },
+    {
+      "slug": "02-deepseek-50b-valuation-tencent",
+      "idx": "02",
+      "catText": "融资估值",
+      "accent": "#1D5DFF",
+      "bg": {
+        "top": "#E3F2FD",
+        "mid": "#BBDEFB",
+        "bot": "#90CAF9",
+        "topRight": "#0D47A1"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 首轮外部融资将关闭，"
+        },
+        {
+          "text": "腾讯参投、估值 $500 亿",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "杭州 DeepSeek 完成首次对外融资，"
+        },
+        {
+          "text": "估值 5 倍于初始 $100 亿",
+          "bold": true
+        },
+        {
+          "text": "，国有投资方与腾讯联合进场"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "据南华早报报道，DeepSeek 即将完成首轮外部融资，投后估值最高达 $500 亿美元，参与方包括腾讯控股及多家国有背景投资机构"
+        },
+        {
+          "k": "为什么重要",
+          "v": "此前 DeepSeek 启动融资时估值仅 $100 亿，此轮估值跳涨 5 倍，反映市场对中国本土大模型商业化潜力的极高预期；DeepSeek V4 Pro 被 NIST 评为「迄今最强中国模型」"
+        },
+        {
+          "k": "对你的影响",
+          "v": "腾讯入股意味着 DeepSeek 技术可能加速融入微信/腾讯云生态；对 AI 开发者而言 DeepSeek API 降价 75% + 资本输血，竞争格局将加速演变"
+        }
+      ],
+      "src": "📎 scmp.com · bloomberg.com · sitepoint.com"
+    },
+    {
+      "slug": "03-meta-muse-spark-closed-source",
+      "idx": "03",
+      "catText": "大模型",
+      "accent": "#0082FB",
+      "bg": {
+        "top": "#E8EAF6",
+        "mid": "#C5CAE9",
+        "bot": "#9FA8DA",
+        "topRight": "#1A237E"
+      },
+      "title": [
+        {
+          "text": "Meta 发布首个闭源模型 "
+        },
+        {
+          "text": "Muse Spark",
+          "hl": true
+        },
+        {
+          "text": "：Alexandr Wang 亲手埋葬开源路线"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Meta Superintelligence Labs 发布 Muse Spark，"
+        },
+        {
+          "text": "权重不开放、架构不披露",
+          "bold": true
+        },
+        {
+          "text": "，免费用但闭源"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Meta 于 4 月 8 日发布 Muse Spark，这是 Alexandr Wang 担任首席 AI 官后 Superintelligence Labs 的首个旗舰模型，权重关闭，架构不公开，可在 Meta AI app 和 meta.ai 免费使用"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Meta 过去以 Llama 开源策略著称；王晓航（Alexandr Wang，Zuckerberg 以 $143 亿收购 Scale AI 49% 股权换来的 CEO）直接宣布 Muse Spark「触发安全审查，不适合开源」，标志着 Meta AI 战略的根本性转向"
+        },
+        {
+          "k": "对你的影响",
+          "v": "2026 年 Meta AI 资本开支 $1,150-1,350 亿、近乎翻倍；Muse Spark 将逐步覆盖 WhatsApp/Instagram/Facebook，中国以外用户将在日常 app 里直接遭遇它"
+        }
+      ],
+      "src": "📎 axios.com · techcrunch.com · thenextweb.com"
+    },
+    {
+      "slug": "04-xai-grok-build-wall-street",
+      "idx": "04",
+      "catText": "Agent",
+      "accent": "#1A1A1A",
+      "bg": {
+        "top": "#ECEFF1",
+        "mid": "#CFD8DC",
+        "bot": "#B0BEC5",
+        "topRight": "#263238"
+      },
+      "title": [
+        {
+          "text": "xAI Grok Build 0.1 上线 "
+        },
+        {
+          "text": "摩根士丹利 / Apollo 抢先内测",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "xAI 5月28日发布 Grok Build 0.1 公测，"
+        },
+        {
+          "text": "仅限 $300/月 SuperGrok Heavy 用户",
+          "bold": true
+        },
+        {
+          "text": "，两大华尔街巨头已在内部部署"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 于 5月28日将 Grok Build 0.1 编程 Agent 上线公测，同步 API 开放，初期仅限 $300/月 SuperGrok Heavy 订阅用户；摩根士丹利和 Apollo Global Management 已开始内部测试 Grok"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Grok Build 自带 1M token 上下文窗口和原生视频输入，可直接生成 Word/PPT/Excel 文件；华尔街金融机构的采用意味着 AI 编程 Agent 已进入高安全要求的传统金融场景"
+        },
+        {
+          "k": "对你的影响",
+          "v": "对 IT 求职者：会用 AI 编程 Agent（GitHub Copilot / Grok Build / Claude Code）正在成为金融科技岗位的加分项；$300/月 SuperGrok Heavy 是企业级定价，个人可用 API 试水"
+        }
+      ],
+      "src": "📎 engadget.com · japantimes.co.jp · basenor.com"
+    },
+    {
+      "slug": "05-openai-frontier-governance-framework",
+      "idx": "05",
+      "catText": "AI 治理",
+      "accent": "#FF6D00",
+      "bg": {
+        "top": "#FFF3E0",
+        "mid": "#FFE0B2",
+        "bot": "#FFCC80",
+        "topRight": "#E65100"
+      },
+      "title": [
+        {
+          "text": "OpenAI 发布"
+        },
+        {
+          "text": "前沿治理框架",
+          "hl": true
+        },
+        {
+          "text": "：CBRN / 失控风险纳入正式评估体系"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenAI 5月28日发布 Frontier Governance Framework，"
+        },
+        {
+          "text": "对齐 EU AI Act 与加州透明度法案",
+          "bold": true
+        },
+        {
+          "text": "，覆盖 CBRN 及失控风险"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 于 5月28日发布《前沿治理框架》，将 Preparedness Framework 的内部做法转化为对外公开的合规文件，明确覆盖网络攻击、CBRN 危险、有害操控及失控（loss of control）四类风险的评估流程"
+        },
+        {
+          "k": "为什么重要",
+          "v": "此框架是 OpenAI 首次系统响应 EU AI Act 通用 AI 模型行为准则（Code of Practice）及加州《前沿 AI 透明度法》的公开治理文件，标志着 AI 安全从自律承诺走向监管对齐"
+        },
+        {
+          "k": "对你的影响",
+          "v": "AI 安全 / 合规是 2026 年科技就业的热门方向；了解 CBRN 评估、红队测试、事件响应等概念，将成为大厂 Trust & Safety / Policy 岗位的核心竞争力"
+        }
+      ],
+      "src": "📎 openai.com · startuphub.ai · techerati.com"
+    }
+  ],
+  "mp": {
+    "title": "OpenAI IPO 备案 / DeepSeek 500亿估值 / Meta 闭源转型 / Grok Build 征服华尔街 / OpenAI 治理框架"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-05-30"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
