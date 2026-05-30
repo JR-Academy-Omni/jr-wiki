@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-01",
+  "intro": "下周 6/1–7 六校考前周报｜Monash 三天备考早午餐 · UNSW Discovery Fest · UQ SWOTVAC 美食车 · USYD 免费餐车",
+  "schools": [
+    {
+      "code": "umelb",
+      "events": [
+        {
+          "title": "Downing 公开讲座｜电价与清洁能源未来",
+          "time": "周二 6/2 下午 6:30–7:30",
+          "location": "Melbourne Institute · Parkville 校区",
+          "price": "免费",
+          "category": "学术讲座",
+          "url": "https://events.unimelb.edu.au/FBE/event/52068-downing-public-lecture-the-price-of-powerelectricity-p"
+        },
+        {
+          "title": "MUCLASS 考前自习室｜有零食",
+          "time": "周二/周四 6/2 & 6/4 中午 12:00–15:00",
+          "location": "Arts West Room 453 · Parkville",
+          "price": "免费",
+          "category": "学习活动",
+          "url": "https://muclass.wordpress.com/2026/02/05/swotvac-study-sessions-3/"
+        },
+        {
+          "title": "理学院 SWOT Vac 健康早午餐（周三按摩·周四陪伴犬，仅限理学院学生）",
+          "time": "周三/周四 6/3 & 6/4",
+          "location": "Building 189 Market Hall G01–G02 · Parkville",
+          "price": "免费（需报名）",
+          "category": "健康活动",
+          "url": "https://science.unimelb.edu.au/students/student-life/wellbeing/wellbeing-events/swot-vac-june-wellbeing-brunch"
+        }
+      ],
+      "xhsDraft": {
+        "title": "墨大考前周｜讲座+自习室+免费早午餐",
+        "body": "在墨大读 Commerce，SWOTVAC 这一周其实还蛮有东西可以做的。\n\n周二下午 6:30，Melbourne Institute 有 Downing Public Lecture，今年请的是 UC Berkeley 的 Meredith Fowlie 教授，讲「电价结构与清洁能源转型」。不一定跟专业完全对口，但这种 40 分钟公开讲座进去坐坐换换脑子，比窝在宿舍刷 lecture recording 轻松一点。\n\n周二和周四，MUCLASS 在 Arts West 453 开考前自习室，12 点到 3 点，有学习零食。适合找个地方定心坐下来看书、又不想一个人待宿舍的时候去。\n\n理学院的同学留意一下 Market Hall 的 Wellbeing Brunch，周三有按摩、周四有陪伴犬，还有摸奖和免费餐。要提前注册，但不用排很久。\n\n你们 SWOTVAC 最常去哪个地方复习？评论区聊一下～",
+        "tags": ["#墨尔本大学", "#UMelb", "#澳洲留学", "#墨尔本", "#校园活动", "#SWOTVAC", "#留学日常"]
+      }
+    },
+    {
+      "code": "unsw",
+      "events": [
+        {
+          "title": "Discovery Fest · 三天社团嘉年华（含周二夜场 Sundown Fest）",
+          "time": "周二至周四 6/2–6/4 全天（周二另有夜间 Sundown Fest）",
+          "location": "UNSW Sydney 校园内",
+          "price": "免费",
+          "category": "社交",
+          "url": "https://www.arc.unsw.edu.au/events/discovery-fest-1"
+        }
+      ],
+      "xhsDraft": {
+        "title": "UNSW Term 2 开学！Discovery Fest 来了",
+        "body": "这周是 UNSW Term 2 第一周，6/2 到 6/4 Arc 办了 Discovery Fest，连续三天社团、运动队、志愿者项目全上阵，有挑战活动、游戏和免费食物。周二晚上还有 Sundown Fest 夜场。\n\n说实话刚开学参加这种活动挺值的——新一个 term 换一批社团加入，比 O-Week 那种氛围稍微轻松一点，人没那么挤但可以聊到的东西差不多。\n\n如果上学期一直是「路过社团摊子但没停下来」的状态，这次可以停一下，找感兴趣的问问，不一定要马上加入，先聊聊再说。\n\n有一起去 Discovery Fest 的 UNSW 同学吗？评论区说一下你们打算看哪个摊位！",
+        "tags": ["#UNSW", "#新南威尔士大学", "#澳洲留学", "#悉尼", "#校园活动", "#留学日常", "#Term2"]
+      }
+    },
+    {
+      "code": "uq",
+      "events": [
+        {
+          "title": "SWOTVAC 美食车节｜甜味 + 咸味任选",
+          "time": "周一至周五 6/1–6/5 甜味车 11:00–15:00 · 咸味车 17:00–21:00",
+          "location": "Campbell Place · St Lucia",
+          "price": "折扣优惠",
+          "category": "美食市集",
+          "url": "https://events.humanitix.com/swotvac-food-trucks-or-semester-1"
+        }
+      ],
+      "xhsDraft": {
+        "title": "UQ SWOTVAC 周｜考前美食车来了",
+        "body": "UQ 这一周（6/1–6/5）是 SWOTVAC，St Lucia 的 Campbell Place 有美食车，白天 11 点到 3 点是甜口的，傍晚 5 点到 9 点是咸口的，折扣价学生友好，不需要提前预订直接去就行。\n\n6/6 周六开始正式考试，SWOTVAC 这五天好好规划一下，别全用来躺平。个人习惯是早上在宿舍先看两小时书，然后去图书馆换个环境，中午去 Campbell Place 转一圈买东西吃，下午再回图书馆。\n\n有科目集中在第一周的同学周末也别完全放，早点把第一科收干净，后面会轻松很多。\n\n你们 SWOTVAC 一般在学校待几天还是回家复习？评论区聊一下～",
+        "tags": ["#UQ", "#昆士兰大学", "#澳洲留学", "#布里斯班", "#SWOTVAC", "#校园生活", "#留学日常"]
+      }
+    },
+    {
+      "code": "usyd",
+      "events": [
+        {
+          "title": "Exam Ready · 免费午餐 + 热巧克力 + 晚餐餐车（周一至周四，USU 主办）",
+          "time": "周一至周四 6/1–6/4 午餐 12:00 · 热巧克力 14:30 · 晚餐 17:30（售完即止）",
+          "location": "Eastern Avenue USU 餐车 · Camperdown 校区",
+          "price": "免费",
+          "category": "免费餐食",
+          "url": "https://usu.edu.au/events/exam-ready-2026-s1/"
+        }
+      ],
+      "xhsDraft": {
+        "title": "USYD 备考周｜免费餐车继续运营中",
+        "body": "悉尼大学这周还在 Exam Ready 阶段，Eastern Avenue 的 USU 餐车每周一到周四都有免费食物：\n\n· 中午 12 点：免费午餐（USU 会员）\n· 下午 2:30：免费热巧克力（所有学生）\n· 傍晚 5:30：免费晚餐（所有学生）\n\n售完即止，不需要专门排很久，路过顺手领一下就行。注意 6/8 周一是 King's Birthday 公众假期，那天餐车停运。\n\n考试周的 Fisher Library 会比平时安静很多，上午比下午好抢位置。建议早点出门占个靠窗位置，按科目划时间段复习，别一直盯着一门刷。\n\nUSYD 的同学评论区聊一下，你们期末第一科是哪天？",
+        "tags": ["#USYD", "#悉尼大学", "#澳洲留学", "#悉尼", "#免费美食", "#备考生活", "#留学日常"]
+      }
+    },
+    {
+      "code": "adelaide",
+      "events": [],
+      "xhsDraft": {
+        "title": "阿德莱德 SWOT 周｜考前安静备战",
+        "body": "阿德莱德大学这一周正式进入 SWOT Week，6/1 起停课备考，6/21 前都是考试期。\n\n学生会这边经历了整合——原来的 YouX 和 UniSA 学生会在今年 1 月合并成了 Adelaide University Student Association（AUSA），如果要找考期支持活动或学生服务，可以去 ausaadelaide.com.au 看一下最新安排。\n\nBarr Smith Lawns 在考试期间一直是个不错的户外学习点，天气好的话下午 3 点以后去会比较舒适，坐在草地上翻翻 notes 换换心情。Rundle Mall 方向走十分钟有不少咖啡馆，换个环境效率感觉好一点。\n\n阿德莱德的同学，你们这周有没有喜欢的校外自习地点？评论区分享一下～",
+        "tags": ["#阿德莱德大学", "#AdelaideUni", "#澳洲留学", "#阿德莱德", "#SWOT周", "#备考", "#留学日常"]
+      }
+    },
+    {
+      "code": "monash",
+      "events": [
+        {
+          "title": "MGA 备考减压周 Day 1 · 免费早午餐 + 特别活动",
+          "time": "周二 6/2 上午 11:00–下午 2:00",
+          "location": "Clayton Campus（Monash 研究生学生会主办）",
+          "price": "免费",
+          "category": "健康活动",
+          "url": "https://www.monash.edu/students/campus-life/events"
+        },
+        {
+          "title": "MGA 备考减压周 Day 2 · 早午餐 + 陪伴犬",
+          "time": "周三 6/3 上午 11:00–下午 2:00",
+          "location": "Clayton Campus（Monash 研究生学生会主办）",
+          "price": "免费",
+          "category": "健康活动",
+          "url": "https://mga.monash.edu/ents/event/1883/"
+        },
+        {
+          "title": "MGA 备考减压周 Day 3 · 早午餐 + 免费按摩",
+          "time": "周四 6/4 上午 11:00–下午 2:00",
+          "location": "Clayton Campus（Monash 研究生学生会主办）",
+          "price": "免费",
+          "category": "健康活动",
+          "url": "https://mga.monash.edu/ents/event/1884/"
+        }
+      ],
+      "xhsDraft": {
+        "title": "Monash 三天减压｜早午餐+陪伴犬+按摩",
+        "body": "Monash 这周是备考减压周，周二到周四 Clayton 校区连续三天 MGA 出来办活动，时间都是上午 11 点到下午 2 点，不需要预约直接去就行：\n\n· 周二：特别嘉宾 + 活动\n· 周三：陪伴犬来啦🐶\n· 周四：免费按摩\n\n都是免费的。三天里感觉周三最值——期末复习压力大，旁边有狗能摸真的很治愈，比喝一杯咖啡管用。\n\n按摩那个摊子要排队，建议 11 点出头就过去，晚了可能等比较久。\n\n有 Monash Clayton 的同学一起去吗？评论区说一下你们参加哪天！",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#墨尔本", "#校园活动", "#SWOTVAC", "#留学日常"]
+      }
+    }
+  ]
+}
