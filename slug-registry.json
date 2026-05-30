@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-29T23:45:07.664Z",
+  "lockedAt": "2026-05-30T23:47:42.360Z",
   "version": 1,
   "slugs": [
     {
@@ -193,6 +193,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-05-30"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-05-31"
     },
     {
       "type": "article",
@@ -405,6 +409,10 @@
     {
       "type": "article",
       "slug": "it-daily-2026-05-30"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-05-31"
     },
     {
       "type": "article",
@@ -708,6 +716,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-uq-2026-05-31"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-usyd-2026-04-22"
     },
     {
@@ -757,6 +769,10 @@
     {
       "type": "article",
       "slug": "uni-news-usyd-2026-05-27"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-05-31"
     },
     {
       "type": "article",
