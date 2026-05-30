@@ -1,0 +1,92 @@
+{
+  "date": "2026-05-31",
+  "summary": {
+    "hook": ["Anthropic 估值", "破 $965B"],
+    "sub": "Opus 4.8 / Meta 裁员转 AI / DeepSeek $50B / AGI 最快 2029",
+    "items": [
+      {"num":"01","cat":"大模型","numColor":"#7C3AED","t":"Anthropic 完成 $65B 系列 H，估值 $965B"},
+      {"num":"02","cat":"模型发布","numColor":"#2563EB","t":"Claude Opus 4.8 上线，代码 Agent 得分升至 69.2%"},
+      {"num":"03","cat":"中国 AI","numColor":"#DC2626","t":"DeepSeek 首轮融资将收官，估值 $50B 国家队领投"},
+      {"num":"04","cat":"科技巨头","numColor":"#EA580C","t":"Meta 裁员 8000 人，同步推 $7.99/月 AI 订阅"},
+      {"num":"05","cat":"行业预判","numColor":"#059669","t":"DeepMind CEO：AGI 最快 2029，Gemini Flash 降价"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-series-h-965b",
+      "idx": "01",
+      "catText": "大模型融资",
+      "accent": "#7C3AED",
+      "bg": {"top":"#1E1033","mid":"#2D1A55","bot":"#1A0D3D","topRight":"#4C1D95"},
+      "title": [{"text":"Anthropic 完成 $65B 系列 H"},{"text":"估值直逼 $1 万亿","hl":true}],
+      "oneline": [{"text":"Altimeter / Sequoia 领投，"},{"text":"run-rate 营收已达 $47B","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Anthropic 宣布完成 $65B 系列 H 融资，投后估值 $965B，距万亿仅一步之遥，本月 run-rate 营收已突破 $47B。"},
+        {"k":"为什么重要","v":"这是 AI 公司史上规模最大单轮融资，意味着资本对「非 OpenAI 路线」的高度押注，行业格局加速向双巨头分化。"},
+        {"k":"对你的影响","v":"Claude API 与 Claude Code 算力扩张在即，开发者和企业用户可期待更高并发上限与更低延迟。"}
+      ],
+      "src": "📎 anthropic.com · 9to5mac.com"
+    },
+    {
+      "slug": "02-claude-opus-48",
+      "idx": "02",
+      "catText": "模型发布",
+      "accent": "#2563EB",
+      "bg": {"top":"#0D1B3E","mid":"#1A2F6B","bot":"#0A1535","topRight":"#1D4ED8"},
+      "title": [{"text":"Claude Opus 4.8 正式上线"},{"text":"代码 Agent 得分升至 69.2%","hl":true}],
+      "oneline": [{"text":"Fast Mode 速度提升 "},{"text":"2.5 倍，独立工作能力再升级","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Anthropic 发布 Claude Opus 4.8，agentic coding 基准得分从 64.3% 升至 69.2%，Fast Mode 速度约为上代 2.5 倍，支持更长时间独立执行任务。"},
+        {"k":"为什么重要","v":"Opus 系列两个月内连续迭代，说明 Anthropic 在「高端 agentic 编码」赛道强势追赶，与 GPT-5.5 Instant 正面竞争。"},
+        {"k":"对你的影响","v":"IT 工程师用 Claude Code 写代码时多步 Agent 任务准确率提升，复杂重构、自动测试等场景体验有明显改善。"}
+      ],
+      "src": "📎 anthropic.com · 9to5mac.com"
+    },
+    {
+      "slug": "03-deepseek-50b-funding",
+      "idx": "03",
+      "catText": "中国 AI",
+      "accent": "#DC2626",
+      "bg": {"top":"#3B0A0A","mid":"#6B1414","bot":"#2D0707","topRight":"#991B1B"},
+      "title": [{"text":"DeepSeek 首轮融资将收官"},{"text":"估值 $50B，国家队 + 腾讯入局","hl":true}],
+      "oneline": [{"text":"大基金三期领投，"},{"text":"DeepSeek 正式走向「国家战略资产」","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"DeepSeek 即将完成首轮外部融资，估值达 $50B，由中国集成电路产业投资基金三期（大基金三期）等国家队机构联合腾讯领投。"},
+        {"k":"为什么重要","v":"DeepSeek 此前靠自有资金运营，引入国家级投资标志其「国家 AI 战略资产」地位确立，研发资源和算力资源将大幅扩充。"},
+        {"k":"对你的影响","v":"DeepSeek-V4 生态及 API 定价或进一步下探，开发者使用高性价比中国模型的选择空间增大，但地缘政治风险也随之上升。"}
+      ],
+      "src": "📎 scmp.com · bloomberg.com"
+    },
+    {
+      "slug": "04-meta-layoffs-ai-subscription",
+      "idx": "04",
+      "catText": "科技巨头",
+      "accent": "#EA580C",
+      "bg": {"top":"#3B1106","mid":"#6B2010","bot":"#2D0D04","topRight":"#C2410C"},
+      "title": [{"text":"Meta 裁员 8000 人押注 AI"},{"text":"同步测试 $7.99/月 AI 订阅","hl":true}],
+      "oneline": [{"text":"10% 员工离职，"},{"text":"7000 人转岗 AI 相关岗位","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Meta 裁员约 8000 人（约 10% 员工），另有 7000 人转岗 AI 职位；同步宣布测试 Meta One Plus（$7.99/月）和 Premium（$19.99/月）AI 订阅服务。"},
+        {"k":"为什么重要","v":"Meta 本质上是一次从「社交媒体公司」向「AI 平台公司」的战略重构，订阅模式意味着开始探索广告以外的 AI 商业化路径。"},
+        {"k":"对你的影响","v":"AI 人才市场短期因大厂裁员出现供给增加，IT 求职者可关注 Meta AI 相关新岗位；订阅模式若推广到全球，澳洲用户也将有新选择。"}
+      ],
+      "src": "📎 npr.org · cnbc.com · bloomberg.com"
+    },
+    {
+      "slug": "05-deepmind-agi-2029-gemini-flash",
+      "idx": "05",
+      "catText": "行业预判",
+      "accent": "#059669",
+      "bg": {"top":"#052E1C","mid":"#065F46","bot":"#022C1A","topRight":"#047857"},
+      "title": [{"text":"DeepMind CEO：AGI 最快 2029 年"},{"text":"Google I/O 推 Gemini 3.5 Flash 降价","hl":true}],
+      "oneline": [{"text":"「处于奇点山脚下」，"},{"text":"Ultra 订阅从 $250 降至 $200","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"DeepMind CEO Demis Hassabis 在 Google I/O 表示 AGI 最快 2029 年到来，人类处于「奇点山脚」；Google 同步推出 Gemini 3.5 Flash 并将 Ultra 订阅降价至 $200/月。"},
+        {"k":"为什么重要","v":"AGI 时间线从模糊预测变成「4 年内」的公开承诺，将加速各国政府监管、教育体系变革和企业 AI 战略部署的紧迫感。"},
+        {"k":"对你的影响","v":"IT 从业者需在 3-5 年内完成「AI 协作能力」升级；Gemini Flash 降价意味着构建 AI 应用的成本进一步降低，创业门槛再度下降。"}
+      ],
+      "src": "📎 axios.com · heygotrade.com"
+    }
+  ],
+  "mp": { "title": "Anthropic 估值破 $965B / Opus 4.8 / Meta 裁员转 AI / DeepSeek $50B / AGI 2029" }
+}
