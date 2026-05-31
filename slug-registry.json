@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-30T23:47:42.360Z",
+  "lockedAt": "2026-05-31T02:13:35.761Z",
   "version": 1,
   "slugs": [
     {
@@ -233,6 +233,10 @@
     {
       "type": "article",
       "slug": "anthropic-reversal-capital-war-2026"
+    },
+    {
+      "type": "article",
+      "slug": "anthropic-two-tier-strategy-opus-mythos-2026"
     },
     {
       "type": "article",
