@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-05-31T02:13:35.761Z",
+  "lockedAt": "2026-05-31T23:46:49.790Z",
   "version": 1,
   "slugs": [
     {
@@ -197,6 +197,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-05-31"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-06-01"
     },
     {
       "type": "article",
@@ -420,6 +424,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-06-01"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -604,6 +612,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-umelb-2026-06-01"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-unsw-2026-04-25"
     },
     {
@@ -657,6 +669,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-05-29"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-06-01"
     },
     {
       "type": "article",
@@ -1507,6 +1523,11 @@
       "type": "chapter",
       "book": "notebooklm-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "notebooklm-guide",
+      "slug": "06-audio-overview-deep"
     },
     {
       "type": "chapter",
