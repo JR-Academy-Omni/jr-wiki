@@ -1,0 +1,326 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-05-31T21:13:47.670Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-01（Canvas 版）</title>
+<meta name="description" content="2026-06-01 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-01.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-01",
+  "summary": {
+    "hook": [
+      {
+        "text": "Grok V9 "
+      },
+      {
+        "text": "1.5T 参数",
+        "hl": true
+      },
+      {
+        "text": " · Gemini 3.5 Flash "
+      },
+      {
+        "text": "正式 GA",
+        "hl": true
+      },
+      {
+        "text": " · Anthropic "
+      },
+      {
+        "text": "计费大拆分",
+        "hl": true
+      }
+    ],
+    "sub": "xAI / Google / Anthropic / Meta / OpenAI 五大动作齐发，AI 格局加速分化",
+    "items": [
+      {
+        "num": "01",
+        "cat": "模型发布",
+        "numColor": "#8B5CF6",
+        "t": "xAI 完成 Grok V9 训练，1.5 万亿参数，中旬上线"
+      },
+      {
+        "num": "02",
+        "cat": "模型更新",
+        "numColor": "#4285F4",
+        "t": "Google Gemini 3.5 Flash 正式 GA，托管 Agent 上线"
+      },
+      {
+        "num": "03",
+        "cat": "产品政策",
+        "numColor": "#E77C40",
+        "t": "Anthropic 6 月 15 日拆分订阅计费，Agent 独立额度"
+      },
+      {
+        "num": "04",
+        "cat": "战略调整",
+        "numColor": "#0062E0",
+        "t": "Meta 成立超智能实验室，145 亿收购 Scale AI 49%"
+      },
+      {
+        "num": "05",
+        "cat": "商业动态",
+        "numColor": "#10B981",
+        "t": "OpenAI 秘密申报 IPO S-1，同步推 GPT-5.5 网安版"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-grok-v9-1-5t-params",
+      "idx": "01",
+      "catText": "模型发布",
+      "accent": "#8B5CF6",
+      "bg": {
+        "top": "#0F0720",
+        "mid": "#1E0D40",
+        "bot": "#0A0414",
+        "topRight": "#4C1D95"
+      },
+      "title": [
+        {
+          "text": "xAI 完成 Grok V9 训练"
+        },
+        {
+          "text": "1.5 万亿参数中旬发布",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "规模是当前 V8 小模型三倍，"
+        },
+        {
+          "text": "SFT 阶段进行中",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "马斯克 5 月 25 日确认 xAI 已完成 Grok V9 Medium 训练，参数量达 1.5 万亿，是当前 V8 小模型（0.5T）的三倍，目前正在进行监督微调，预计 6 月中旬公开发布。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "V9 将是 xAI 首次冲击万亿参数级别的旗舰模型，同期 Grok Build 0.1 编程模型已于 5 月 29 日上线 API 公测，显示 xAI 在推理与编程双线并进。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 开发者可提前申请 Grok Build 0.1 API 测试编程能力；Grok V9 上线后将直接对标 GPT-5 和 Claude Opus，留学生写作、编程辅助工具选型值得重新评估。"
+        }
+      ],
+      "src": "📎 x.ai · docs.x.ai"
+    },
+    {
+      "slug": "02-gemini-3-5-flash-ga",
+      "idx": "02",
+      "catText": "模型更新",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#061230",
+        "mid": "#0D1F55",
+        "bot": "#050E25",
+        "topRight": "#1A3A8C"
+      },
+      "title": [
+        {
+          "text": "Google Gemini 3.5 Flash 正式 GA"
+        },
+        {
+          "text": "托管 Agent 同步上线",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "超越 3.1 Pro 基准，"
+        },
+        {
+          "text": "成本低于同类模型一半",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google 在 Google I/O 2026 上宣布 Gemini 3.5 Flash 正式 GA，超越 Gemini 3.1 Pro 关键基准，同时推出 Managed Agents 公测版——开发者可在 Google 托管的安全沙箱中部署有状态 Agent，无需自建基础设施。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Gemini 3.5 Flash 成本不足同类模型一半，托管 Agent 环境消除了部署运维门槛，标志 Google 将 AI Agent 从「实验」推向「开箱即用产品」，6 月 8 日起企业版强制默认启用。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "用 Gemini API 的开发者可直接升级到 3.5 Flash，享受更高性能和更低费用；企业采购 Google Workspace 的公司留意 Agent 权限管理，6 月 8 日起无法关闭。"
+        }
+      ],
+      "src": "📎 ai.google.dev · cloud.google.com"
+    },
+    {
+      "slug": "03-anthropic-billing-split-june15",
+      "idx": "03",
+      "catText": "产品政策",
+      "accent": "#E77C40",
+      "bg": {
+        "top": "#1A0A00",
+        "mid": "#3D1A00",
+        "bot": "#150800",
+        "topRight": "#7C3A00"
+      },
+      "title": [
+        {
+          "text": "Anthropic 6 月 15 日计费大改"
+        },
+        {
+          "text": "Agent SDK 独立额度",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "程序化调用移出订阅池，"
+        },
+        {
+          "text": "按 API 价格计费",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "6 月 15 日起，通过 Agent SDK / claude -p / Claude Code GitHub Actions 等方式程序化调用 Claude 的用量，将从订阅额度中剥离，进入独立月度信用池（Pro $20 / Max 5x $100 / Max 20x $200），按 API 价格计费，不滚存。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 Anthropic 首次对「交互式使用」与「自动化调用」进行计费切割，意味着重度 Agent 用户实际成本将显著上升，而普通 Claude.ai 对话用户不受影响。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "使用 Claude Code 自动化流水线或 Agent SDK 的开发者需在 6 月 15 日前盘点自动化调用量，评估是否需要升级到 Max 计划或切换至 API 直接订阅来控制成本。"
+        }
+      ],
+      "src": "📎 anthropic.com · devtoolpicks.com"
+    },
+    {
+      "slug": "04-meta-superintelligence-labs-scale-ai",
+      "idx": "04",
+      "catText": "战略调整",
+      "accent": "#0062E0",
+      "bg": {
+        "top": "#001230",
+        "mid": "#00214D",
+        "bot": "#000E22",
+        "topRight": "#003A80"
+      },
+      "title": [
+        {
+          "text": "Meta 成立超智能实验室"
+        },
+        {
+          "text": "145 亿收购 Scale AI 49%",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "扎克伯格架构重组，"
+        },
+        {
+          "text": "Alexandr Wang 领衔 MSL",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "扎克伯格宣布成立 Meta Superintelligence Labs（MSL），并以约 143-150 亿美元收购 AI 训练数据公司 Scale AI 49% 股权，任命 Scale CEO Alexandr Wang 出任 MSL 负责人，同步对 Meta AI 组织进行大规模重组。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "此举标志 Meta 将 AI 战略从「开源 Llama」全面转向「超智能」闭源路线，Scale AI 的海量高质量训练数据将为 MSL 提供关键壁垒，Llama 5 旗舰版计划推迟至 2027 年已基本坐实。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Meta AI 在 WhatsApp / Instagram 的免费助手体验将持续存在，但面向开发者的开源 Llama 生态可能进入长期空档期；Scale AI 服务优先级可能向 Meta 内部倾斜，影响其他企业客户排期。"
+        }
+      ],
+      "src": "📎 cnbc.com · digitimes.com"
+    },
+    {
+      "slug": "05-openai-ipo-s1-gpt55-cyber",
+      "idx": "05",
+      "catText": "商业动态",
+      "accent": "#10B981",
+      "bg": {
+        "top": "#001A12",
+        "mid": "#00332A",
+        "bot": "#00110A",
+        "topRight": "#00523D"
+      },
+      "title": [
+        {
+          "text": "OpenAI 秘密申报 IPO S-1"
+        },
+        {
+          "text": "同步推出 GPT-5.5 网安版",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "目标 9 月上市，"
+        },
+        {
+          "text": "GPT-5.5-Cyber 获网络安全受信访问",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 已于 5 月 22 日向 SEC 秘密提交 S-1 上市申请，目标 9 月完成 IPO；同步推出 GPT-5.5 及 GPT-5.5-Cyber，后者面向网络安全场景提供「受信访问」级别的高权限模型能力，6 月 1 日起启用高级账户安全验证。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "OpenAI IPO 是 2026 年科技市场最大事件之一，其 S-1 将首次公开收入、成本和盈利路径；GPT-5.5-Cyber 则显示 OpenAI 正在将高危场景模型能力商业化，打开政府与安全行业新市场。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 安全从业者可关注 Trusted Access for Cyber 申请渠道；投资者和求职者留意 OpenAI IPO 前公开的财务数据，这将是评估其估值与商业模式可持续性的关键窗口。"
+        }
+      ],
+      "src": "📎 openai.com · axios.com"
+    }
+  ],
+  "mp": {
+    "title": "Grok V9 升级 / Gemini 3.5 GA / Anthropic 计费拆分 / Meta 超智实验室 / OpenAI IPO 申报"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-01"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
