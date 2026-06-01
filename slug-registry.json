@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-01T15:12:58.234Z",
+  "lockedAt": "2026-06-01T23:45:11.178Z",
   "version": 1,
   "slugs": [
     {
@@ -436,6 +436,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-06-02"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -508,6 +512,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-06-02"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -565,6 +573,10 @@
     {
       "type": "article",
       "slug": "uni-news-monash-2026-05-30"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-monash-2026-06-02"
     },
     {
       "type": "article",
@@ -1536,6 +1548,11 @@
       "type": "chapter",
       "book": "notebooklm-guide",
       "slug": "06-audio-overview-deep"
+    },
+    {
+      "type": "chapter",
+      "book": "notebooklm-guide",
+      "slug": "07-research-workflow"
     },
     {
       "type": "chapter",
