@@ -54,7 +54,7 @@
 
 ### notebooklm-guide
 - [x] notebooklm-guide/06-audio-overview-deep.md — new-chapter: Audio Overview 深度玩法（多语言切换 / 自定义视角 prompt / 个性化主持人风格）
-- [ ] notebooklm-guide/07-research-workflow.md — new-chapter: 用 NotebookLM 做学术研究的完整工作流（论文管理 → 笔记 → 综述）
+- [x] notebooklm-guide/07-research-workflow.md — new-chapter: 用 NotebookLM 做学术研究的完整工作流（论文管理 → 笔记 → 综述）
 
 ## P3 · n8n-guide 补全（3 章 → 5 章）
 
