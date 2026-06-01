@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-02",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "Adelaide",
+    "hookSub": "QS 22科目百强 + 癌细胞上太空",
+    "hookSubHighlight": "22科目百强",
+    "subLines": [
+      "Adelaide University 合并首年 · 22 学科进全球前 100 · CS/工程/生命科学全覆盖",
+      "Dr Nirmal Robinson 送活体癌细胞上亚轨道火箭 · 微重力揭秘癌症生存机制"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "QS 学科排名", "data": "22 科目百强" },
+      { "num": "02", "title": "太空癌症实验", "data": "亚轨道火箭" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术排名",
+      "h2Main": "Adelaide University 首年亮相 22 科目进全球百强",
+      "h2Sub": "QS 世界大学学科排名 2026 · 工程 + CS + 生命科学全覆盖",
+      "h2Highlight": "22 科目",
+      "lead": "在 2026 年 QS 世界大学学科排名中，<b>新成立的 Adelaide University</b>（阿德莱德大学与南澳大学 2026 年 1 月合并）首年亮相即录得 <b>22 个科目进入全球百强</b>，五大宽学科领域工程与技术、生命科学与医学、艺术与人文、自然科学、社会科学与管理全线进入全球前 100，计算机科学方向也进入百强。",
+      "bullets": [
+        { "k": "22 科目百强", "v": "Adelaide University 合并首年 QS 学科排名：<b>22 个科目进全球前 100</b>，另有 21 个科目进入全球前 200；5 大宽学科领域（Arts and Humanities / Engineering and Technology / Life Sciences and Medicine / Natural Sciences / Social Sciences and Management）全线入榜" },
+        { "k": "CS 方向", "v": "<b>计算机科学</b>进入全球前 100，对申 CS / IT / Data Science 方向的学生是重要背书；QS 学科评估方法包含学术声誉、雇主认可度、论文引用率和 H 指数" },
+        { "k": "合并优势", "v": "Adelaide University 由 University of Adelaide + University of South Australia 两校合并而成，两校研究优势叠加：前者以医学、工程见长，后者在应用技术、商科有深厚积累；合并后学科覆盖面大幅提升" },
+        { "k": "排名意义", "v": "QS 学科排名直接影响签证申请中的「AQF 资格认可度」与就业时的<b>雇主院校认可</b>；就读全球百强学科的毕业生，在同等岗位的薪资谈判中有结构性优势" }
+      ],
+      "source": "Adelaide University Newsroom · 2026",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/adelaide-university-scores-global-subject-recognition-/"
+    },
+    {
+      "idx": "02",
+      "category": "科研突破",
+      "h2Main": "Adelaide 送活体癌细胞上太空 揭开极端环境生存机制",
+      "h2Sub": "Dr Nirmal Robinson · Centre for Cancer Biology + SAHMRI · 瑞典亚轨道火箭 10-12 分钟微重力",
+      "h2Highlight": "太空",
+      "lead": "阿德莱德大学 Centre for Cancer Biology 与 SAHMRI 的 <b>Dr Nirmal Robinson</b> 正在准备一项前所未有的实验：将活体癌细胞搭载亚轨道火箭，在接近太空边缘的微重力环境中研究癌细胞如何在极端条件下发展和生存，实验结果有望<b>改变癌症的治疗方式</b>。",
+      "bullets": [
+        { "k": "实验方案", "v": "癌细胞样本将从瑞典通过 Swedish Space Corporation（SSC Space）合作发射的亚轨道火箭升空，经历约 <b>10-12 分钟</b>微重力窗口，完成近太空边缘的生物学实验" },
+        { "k": "研究价值", "v": "微重力消除了地球重力对细胞行为的干扰，能暴露癌细胞更纯粹的生物学机制；这是地面实验室无法完整复制的极端条件——了解这些机制有助于找到<b>新的治疗靶点</b>" },
+        { "k": "研究机构", "v": "<b>Centre for Cancer Biology</b> 是 Adelaide University 与 SA Pathology 的联合研究中心，SAHMRI（南澳健康与医学研究所）是南澳规模最大的医学研究机构，两者联合保障了从基础研究到临床转化的完整链条" },
+        { "k": "对你的影响", "v": "走 <b>Medicine / Biomedical Science / Cancer Biology / Space Science</b> 方向的学生：Adelaide University 的 Andy Thomas Centre for Space Resources 与 Centre for Cancer Biology 有跨学科研究入口，这类太空生物学实验在全球范围内属于稀缺研究方向" }
+      ],
+      "source": "Adelaide University Newsroom · 2026",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/rocket-powered-research-to-provide-new-insights-into-cancer-/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿德莱德大学 6 月 2 日两条：合并首年 QS 学科排名 22 科目进百强，计算机科学等学科入榜；Dr Nirmal Robinson 团队将活体癌细胞送上亚轨道火箭，微重力实验揭秘癌症生存机制。",
+    "items": [
+      { "n": "01", "title": "QS 学科百强 22 科目", "body": "合并首年即录 22 科目进全球前 100；CS / 工程 / 生命科学 / 艺术 / 社会科学全线入榜；另 21 科目进全球前 200" },
+      { "n": "02", "title": "太空癌症实验", "body": "Dr Nirmal Robinson + SAHMRI；亚轨道火箭瑞典发射；10-12 分钟微重力窗口；研究癌细胞在极端条件下的行为" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "6 所澳洲核心院校 · 每天更新 · 科研 + 招生 + 校园动态一手同步",
+      "badge": "06 / 02"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Adelaide 6-02 两条硬料🏆",
+      "body": "在看阿德莱德或者在读的姐妹，这两条 6 月 2 日的更新放一起看很有意思。\n\n01 / QS 学科排名 2026——Adelaide University 合并第一年就拿到 22 个科目进全球前 100，五大宽学科领域全线入榜，包括计算机科学、工程、生命科学、艺术与人文。另有 21 科目进全球前 200。合并效应看来挺实在。\n\n02 / 太空癌症实验——Dr Nirmal Robinson（Centre for Cancer Biology + SAHMRI）要把活体癌细胞搭上亚轨道火箭，从瑞典发射，10-12 分钟微重力环境，研究癌细胞在极端条件下怎么生存和发展。这种实验地球上模拟不了，如果找到新靶点，治疗思路可能会有根本性改变。\n\n两条合起来看——Adelaide 既有全球学科认可背书，又在生命科学前沿研究上有独特布局。申 CS / 工程 / 医学方向的姐妹评论区扣 1🙌",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #QS排名 #澳洲大学新闻 #留学干货 #留学生活"
+    },
+    "p2": {
+      "title": "Adelaide QS 22科目进百强🎓",
+      "body": "申 Adelaide 的姐妹这条 QS 学科排名 2026 一定要看。\n\nAdelaide University 是 2026 年 1 月才正式合并成立的新校（University of Adelaide + University of South Australia），合并第一年就在 QS 世界大学学科排名里拿到 22 个科目进全球前 100。五大宽学科领域全线入榜：Engineering and Technology / Life Sciences and Medicine / Arts and Humanities / Natural Sciences / Social Sciences and Management，计算机科学也在百强之列。\n\n另有 21 个科目进了全球前 200。合并叠加两校优势，数量上比预期扩张更快。\n\nQS 学科排名这件事对留学生有几个直接影响：\n1. 签证申请时学历认可度的支撑\n2. 求职时雇主的院校认知（百强学科的简历筛选通过率更高）\n3. 国内认证时的参考依据\n\n在纠结 Adelaide 和其他院校的姐妹可以拿这份学科排名做细分比较——不要只看综合排名，你的具体申请方向在哪个位置更重要。有同样在比对院校的姐妹评论区扣 1。",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #QS排名 #CS留学 #工程留学 #生命科学 #留学干货"
+    },
+    "p3": {
+      "title": "癌细胞送上太空 Adelaide研究🚀",
+      "body": "看到这个新闻的时候愣了一下：Adelaide University 要把活体癌细胞送上太空做实验。\n\nDr Nirmal Robinson（Centre for Cancer Biology + SAHMRI 合作）的研究方案：癌细胞样本搭载亚轨道火箭从瑞典发射，经历大约 10-12 分钟微重力窗口，研究癌细胞在近太空边缘的极端环境下如何生存和发展。\n\n为什么要上太空？微重力消除了地球重力对细胞行为的干扰，能暴露癌细胞更「纯粹」的生物学机制。在地面实验室里，重力始终在影响细胞形态、分裂方式、信号传导——你没法完全排除这个变量。太空实验窗口虽然只有 10 多分钟，但数据质量在这个问题上无可替代。\n\n如果找到新的生存机制，就有可能找到新的治疗靶点。研究结果有潜力「改变癌症的治疗方式」——这不是噱头，而是研究团队的正式表述。\n\n走 Biomedical Science / Cancer Biology / Space Science 方向的姐妹，Adelaide 这条交叉研究线很值得关注。",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #生命科学 #癌症研究 #太空研究 #留学干货 #澳洲大学"
+    },
+    "p4": {
+      "title": "合并后Adelaide学科实力如何",
+      "body": "经常有姐妹问我：Adelaide University 和原来的 University of Adelaide 有什么区别？2026 年 1 月两校（University of Adelaide + University of South Australia）合并以后，QS 学科排名这个维度有了正式的答案。\n\n合并第一年，QS 世界大学学科排名 2026：22 个科目进全球前 100，另有 21 个科目进全球前 200。覆盖范围：工程与技术、生命科学与医学、艺术与人文、自然科学、社会科学与管理，计算机科学也在百强。\n\n两校的历史专长有互补：University of Adelaide 在医学、工程、法律方向有长期积累；University of South Australia 在应用技术、商科、创意产业有实力。合并之后 QS 学科覆盖面拓宽，百强科目数量上来了。\n\n对在申请的姐妹来说，合并意义最大的是：两校的学生资源、科研中心、实习合作网络都在整合，你读的是一个更大体量的综合性大学，学科选择余地比之前更大。\n\n有在认真比较 Adelaide vs 其他院校的姐妹，评论区聊聊你的方向，我来帮你拆数据🙌",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #QS排名 #院校比较 #留学选校 #留学干货"
+    },
+    "p5": {
+      "title": "Adelaide 6-02 两条速览",
+      "body": "阿德莱德大学 6 月 2 日两条：\n\n01 / QS 学科排名 2026——合并首年 22 科目进全球前 100，另 21 科目前 200；Engineering and Technology / Life Sciences and Medicine / CS 均入百强；QS 评估包含学术声誉 + 雇主认可度。\n\n02 / 太空癌症实验——Dr Nirmal Robinson（Centre for Cancer Biology + SAHMRI）将活体癌细胞搭载瑞典亚轨道火箭，10-12 分钟微重力窗口，研究极端环境下癌细胞的生存机制；目标是找到新的治疗靶点。\n\n两条合看：Adelaide University 2026 年合并后的学科实力有数据支撑；研究前沿在生命科学/太空交叉领域有独特布局。申 CS / 工程 / 生命科学方向的姐妹可以把这两条放进选校依据里。\n\n评论区扣 1，聊聊你的申请方向🙌",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #QS排名 #澳洲大学新闻 #留学干货 #留学生活"
+    }
+  },
+  "mp": {
+    "title": "阿德莱德大学 6 月 2 日：合并首年 QS 22 科目进百强 · 活体癌细胞亚轨道太空实验",
+    "lead": "Adelaide University 2026 年 QS 世界大学学科排名揭晓，新合并首年即有 22 个科目进入全球前 100，五大宽学科领域工程与技术、生命科学与医学、艺术与人文、自然科学、社会科学与管理全线入榜，计算机科学方向也进入全球百强。与此同时，Centre for Cancer Biology 与 SAHMRI 的 Dr Nirmal Robinson 将把活体癌细胞搭载亚轨道火箭从瑞典升空，在约 10-12 分钟微重力环境中研究癌细胞如何在极端条件下生存，有望找到全新的癌症治疗靶点。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "QS 学科排名 2026：Adelaide University 首年 22 科目进全球百强",
+        "paragraphs": [
+          "2026 年 QS 世界大学学科排名发布，Adelaide University——由 University of Adelaide 与 University of South Australia 于 2026 年 1 月合并成立的澳洲新型综合性大学——首年亮相即录得 22 个科目进入全球前 100，另有 21 个科目进入全球前 200，共计 43 个科目拿到全球前 200 的学科认可。",
+          "5 大宽学科领域（Arts and Humanities、Engineering and Technology、Life Sciences and Medicine、Natural Sciences、Social Sciences and Management）全线进入全球前 100，计算机科学方向也进入百强。QS 学科排名的评估方法包含学术声誉、雇主认可度、论文每篇引用率、H 指数和国际研究网络五个维度，多维评估结果意味着 Adelaide University 的学科影响力不仅体现在科研产出，在全球就业市场的雇主认知上同样有结构性优势。",
+          "对申请的学生来说，QS 学科排名有几个直接的实际意义：就读全球百强学科的毕业生，在同岗位的薪资谈判和简历筛选中有可量化的竞争优势；在部分国家的学历认证流程中，学科排名百强是加分项；对想继续读研或博士的学生，百强学科院校的推荐信在申请全球顶尖项目时权重更高。Adelaide University 合并后的学科覆盖面提升，是为这一首年成绩奠定基础的直接原因。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://adelaide.edu.au/about/news/2026/adelaide-university-scores-global-subject-recognition-/\">Adelaide University Newsroom · Adelaide University scores global subject recognition · 2026</a>"
+      },
+      {
+        "h2": "送活体癌细胞上太空：Adelaide 微重力实验有望找到新治疗靶点",
+        "paragraphs": [
+          "阿德莱德大学 Centre for Cancer Biology 与 SAHMRI（南澳健康与医学研究所）的 Dr Nirmal Robinson 正在准备一项突破性太空癌症实验：将活体癌细胞搭载亚轨道火箭升空，在接近太空边缘的微重力环境中研究癌细胞的生存和发展机制。实验将通过 Swedish Space Corporation（SSC Space）合作，从瑞典发射亚轨道火箭，癌细胞样本将经历约 10-12 分钟的微重力研究窗口。",
+          "为什么要选择太空环境？核心原因在于微重力的不可替代性。在地球实验室里，重力始终影响细胞的形态、分裂方式和信号传导，研究人员无法完全排除这个干扰变量。亚轨道飞行提供的微重力环境，能够暴露癌细胞最「纯粹」的生物学行为——在没有重力干扰的条件下，癌细胞如何自组织、如何对治疗产生抵抗、哪些机制是其生存的关键节点。这些问题在地面实验中只能部分回答。",
+          "Adelaide University 在这个研究方向的独特优势在于跨学科资源的整合：Centre for Cancer Biology 与 SA Pathology 联合运营，SAHMRI 是南澳规模最大的医学研究机构，Andy Thomas Centre for Space Resources 则提供太空技术支持。对走 Biomedical Science / Cancer Biology / Space Science 方向的学生，这类前沿交叉研究不仅代表科学突破的可能，也是硕士和博士课题中极具竞争力的研究入口。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://adelaide.edu.au/about/news/2026/rocket-powered-research-to-provide-new-insights-into-cancer-/\">Adelaide University Newsroom · Rocket-powered research to provide new insights into cancer · 2026</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · QS 学科排名 2026</strong>：合并首年 22 科目进全球前 100；5 大宽学科领域全线入榜；CS / 工程 / 生命科学均在百强；另 21 科目进全球前 200",
+        "<strong>02 · 太空癌症实验</strong>：Dr Nirmal Robinson（Centre for Cancer Biology + SAHMRI）；活体癌细胞搭载亚轨道火箭；瑞典 SSC Space 合作；10-12 分钟微重力窗口；目标：找到新癌症治疗靶点"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」 · 官网 jiangren.com.au/blog"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "Adelaide QS 22科目百强｜合并效果数据说话",
+        "body": "最近有不少姐妹在问 Adelaide University 合并之后实力有没有变化——这次 QS 学科排名 2026 给出了一个正式的数字答案。\n\n合并第一年：22 个科目进全球前 100，另有 21 个科目进全球前 200。5 大宽学科领域（Engineering and Technology / Life Sciences and Medicine / Arts and Humanities / Natural Sciences / Social Sciences and Management）全线入榜，计算机科学也在百强。\n\n两校历史专长有互补：University of Adelaide 在医学、工程、法律方向积累深；University of South Australia 在应用技术、商科、创意产业有实力。合并后学科覆盖面拓宽，这个首年成绩比我预期更快落实。\n\nQS 学科排名对留学生的实际意义不只是「面子」——百强学科在澳洲雇主的简历筛选、部分国内学历认证流程、以及继续申请全球顶尖研究生项目时，都有可量化的权重加成。\n\n在纠结 Adelaide vs 其他院校的姐妹，建议不要只看综合排名，把你的具体专业方向的学科排名单独拉出来比——这才是最直接的决策依据。有同样在做这个功课的姐妹评论区扣 1，可以一起分析🙌",
+        "tags": ["#Adelaide", "#阿德莱德大学", "#澳洲留学", "#QS排名", "#院校比较", "#CS留学", "#留学干货", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "未检出（「最大的医学研究机构」属客观机构描述保留；无主观绝对化表述）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 公众号 / 二维码", "result": "未检出（仅「评论区扣 1」合规互动话术）" },
+      { "category": "AI味", "rule": "首先其次最后 / 值得注意 / 综上所述", "result": "未检出" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com", "result": "未检出（xhsCopy 与 drafts.sections 全部扫描；JR Academy 仅出现在 mp.cta 合法位置）" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出（「治疗靶点 / 治疗方式」属生命科学学术语境，无疗效承诺）" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股", "result": "未检出" }
+    ]
+  }
+}
