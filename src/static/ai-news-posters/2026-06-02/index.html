@@ -1,0 +1,326 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 · 2026-06-01T21:13:11.982Z -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-02（Canvas 版）</title>
+<meta name="description" content="2026-06-02 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-02.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-02",
+  "summary": {
+    "hook": [
+      {
+        "text": "SoftBank "
+      },
+      {
+        "text": "750亿欧",
+        "hl": true
+      },
+      {
+        "text": " 押注法国 · Codex "
+      },
+      {
+        "text": "视窗操控上线",
+        "hl": true
+      },
+      {
+        "text": " · Grok Build "
+      },
+      {
+        "text": "开发者 API 公测",
+        "hl": true
+      }
+    ],
+    "sub": "SoftBank / OpenAI / Meta / xAI / Google DeepMind 五路动作，AI 基础设施与开发者生态双线提速",
+    "items": [
+      {
+        "num": "01",
+        "cat": "基础设施",
+        "numColor": "#DC2626",
+        "t": "SoftBank 750亿欧押注法国，5GW AI 数据中心布局欧洲"
+      },
+      {
+        "num": "02",
+        "cat": "产品更新",
+        "numColor": "#10B981",
+        "t": "OpenAI Codex 上线 Windows 视窗操控，Goal Mode 正式发布"
+      },
+      {
+        "num": "03",
+        "cat": "商业动态",
+        "numColor": "#0062E0",
+        "t": "Meta 测试 $7.99 付费 AI 订阅，6 月 3 日 Conversations 大会"
+      },
+      {
+        "num": "04",
+        "cat": "开发者工具",
+        "numColor": "#8B5CF6",
+        "t": "xAI Grok Build 0.1 编程模型 API 公测开放"
+      },
+      {
+        "num": "05",
+        "cat": "科研合作",
+        "numColor": "#4285F4",
+        "t": "Google DeepMind 联手美国能源部启动 Genesis AI 科学国家使命"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-softbank-75b-france-ai-datacenter",
+      "idx": "01",
+      "catText": "基础设施",
+      "accent": "#DC2626",
+      "bg": {
+        "top": "#1A0000",
+        "mid": "#380000",
+        "bot": "#110000",
+        "topRight": "#6B0000"
+      },
+      "title": [
+        {
+          "text": "SoftBank 750亿欧押注法国"
+        },
+        {
+          "text": "5GW AI 数据中心布局欧洲",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "史上最大欧洲 AI 基础设施投资，"
+        },
+        {
+          "text": "2031 年 Dunkirk 一期 3.1GW 上线",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "SoftBank 于 5 月 31 日宣布将在法国投入最高 750 亿欧元（约 875 亿美元）建设 AI 数据中心，目标到 2031 年在法国北部 Hauts-de-France 地区建设 5GW 算力容量，一期在 Dunkirk、Bosquel、Bouchain 交付 3.1GW，Schneider Electric 为合作伙伴。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 SoftBank 迄今最大规模欧洲单一投资，意味着欧洲 AI 算力版图将在 5 年内发生质变。孙正义将此定性为「SoftBank 对人工智能革命的核心押注」，法国政府将获数万个高技术就业岗位，欧洲主权算力争夺提速。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "对 IT 从业者：欧洲 AI 基础设施扩张将拉动大量云计算、数据中心运维、AI 工程岗位；对留学生：法国理工类大学周边就业前景因这波投资直接利好；对 AI 创业者：欧洲低延迟算力资源将比现在廉价得多。"
+        }
+      ],
+      "src": "📎 softbank.com · techcrunch.com · bloomberg.com"
+    },
+    {
+      "slug": "02-openai-codex-windows-computer-use-goal-mode",
+      "idx": "02",
+      "catText": "产品更新",
+      "accent": "#10B981",
+      "bg": {
+        "top": "#001A0F",
+        "mid": "#003322",
+        "bot": "#00110A",
+        "topRight": "#005233"
+      },
+      "title": [
+        {
+          "text": "OpenAI Codex 上线 Windows 视窗操控"
+        },
+        {
+          "text": "Goal Mode 正式 GA",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Codex 能看屏幕、点击、打字，"
+        },
+        {
+          "text": "可从手机继续 PC 工作流",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI Codex 新增 Computer Use for Windows 功能，支持对 Windows 应用进行「看屏幕 + 点击 + 打字」的全视窗操控，并可通过 iOS/Android 上的 ChatGPT 远程延续 PC 端工作流；同步宣布 Goal Mode 正式 GA，用户定义目标和成功标准后可让 Codex 持续自主推进任务。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Computer Use 打通了「AI Agent 操控真实桌面」的最后一英里——过去 Codex 只能写代码，现在可以直接操作 Windows 软件完成复杂工作流，这是从「编程助手」升级为「通用桌面 Agent」的关键跃迁。Goal Mode GA 则让批量任务无需人工逐步监督。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 开发者可用 Codex 自动化 Windows 下的测试、部署、脚本运行等重复操作；移动端配合 PC 端的跨设备协作场景也被打通，适合在外时通过手机触发 PC 端的自动化任务；Goal Mode 可用于长达数小时的批量代码审查或文档整理。"
+        }
+      ],
+      "src": "📎 openai.com · help.openai.com"
+    },
+    {
+      "slug": "03-meta-paid-ai-subscription-conversations-june3",
+      "idx": "03",
+      "catText": "商业动态",
+      "accent": "#0062E0",
+      "bg": {
+        "top": "#001230",
+        "mid": "#00214D",
+        "bot": "#000E22",
+        "topRight": "#003A80"
+      },
+      "title": [
+        {
+          "text": "Meta 测试 $7.99 付费 AI 订阅"
+        },
+        {
+          "text": "Conversations 大会 6 月 3 日揭晓更多",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "新加坡、危地马拉、玻利维亚先行试水，"
+        },
+        {
+          "text": "WhatsApp/Messenger AI 即将升级",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Meta 确认已开始测试付费 AI 订阅：Meta One Plus 定价 $7.99/月，Meta One Premium 定价 $19.99/月，首批在新加坡、危地马拉、玻利维亚试运营。6 月 3 日，Meta 年度消息大会 Conversations 2026 将展示 WhatsApp、Messenger、Instagram Direct 的最新 AI 升级。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Meta 长期依赖广告收入，此举是其非广告商业化的重要探路——若 $7.99 套餐在东南亚和拉美高黏性用户群中跑通，将直接影响 WhatsApp/Messenger 的全球 AI 商业化路径，与 OpenAI、Anthropic 的月度订阅形成正面竞争。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "在新加坡的用户最早能体验付费 AI 功能，值得测试后对比免费版差异；WhatsApp 用户关注 6 月 3 日大会后的功能更新；AI 产品从业者可从 Meta 的分层定价策略中参考 freemium 转化模式。"
+        }
+      ],
+      "src": "📎 cnbc.com · socialmediatoday.com"
+    },
+    {
+      "slug": "04-xai-grok-build-01-api-public-beta",
+      "idx": "04",
+      "catText": "开发者工具",
+      "accent": "#8B5CF6",
+      "bg": {
+        "top": "#0F0720",
+        "mid": "#1E0D40",
+        "bot": "#0A0414",
+        "topRight": "#4C1D95"
+      },
+      "title": [
+        {
+          "text": "xAI Grok Build 0.1"
+        },
+        {
+          "text": "编程模型 API 公测开放",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "xAI 最快 coding 模型面向开发者开放，"
+        },
+        {
+          "text": "无需 SuperGrok 或 X Premium+",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 于 5 月 29 日宣布将 Grok Build 0.1 通过 xAI API 向开发者开放公测，这是目前 xAI 旗下定位最快的编程专用模型，此前仅限于订阅 SuperGrok 或 X Premium+ 的用户在 Grok Build CLI 中使用，现在任何开发者可申请 API 接入。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "编程 AI 工具市场竞争极其激烈（GitHub Copilot / Cursor / Claude Code / Gemini Code Assist），xAI 开放 API 是正式加入这场「开发者心智争夺战」的信号，Grok Build 的速度优势能否转化为开发者实际留存，是对 xAI 商业化能力的关键考验。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "正在参加 JR Academy IT 课程的学员可申请 Grok Build 0.1 API 用于练习项目的自动代码补全和调试；与 Claude Code、Cursor 等工具对比测试代码生成质量，是提升求职作品集的低成本实验机会。"
+        }
+      ],
+      "src": "📎 devops.com · x.ai · docs.x.ai"
+    },
+    {
+      "slug": "05-google-deepmind-genesis-doe-science-mission",
+      "idx": "05",
+      "catText": "科研合作",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#061230",
+        "mid": "#0D1F55",
+        "bot": "#050E25",
+        "topRight": "#1A3A8C"
+      },
+      "title": [
+        {
+          "text": "Google DeepMind 联手美国能源部"
+        },
+        {
+          "text": "发起 Genesis AI 科学国家使命",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "白宫 Genesis 计划：AI 加速美国基础科学，"
+        },
+        {
+          "text": "DeepMind 为重要伙伴",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "美国能源部宣布 Genesis 国家使命，目标将 AI 深度融入联邦科学研究流程，以加速物理、化学、生命科学等领域的发现速度。Google DeepMind 作为重要合作方加入，并提供其尖端 AI 模型和计算资源支持国家实验室（包括布鲁克海文国家实验室等）的研究项目。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Genesis 代表 AI 从「商业产品」进入「国家科学基础设施」层级，这是自 AlphaFold 攻克蛋白质折叠以来 DeepMind 与政府机构最大规模的正式合作，意味着 AI 的「科学计算」场景将获得大量政府资金驱动，带动相关领域人才需求爆发。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "有志于 AI + 科学计算方向的 IT 学员，美国国家实验室相关岗位（数据科学家、AI 研究工程师）将在 2026-2027 年出现大量机会；在澳洲求职的留学生可关注类似政府-学术界 AI 联合项目的衍生岗位。"
+        }
+      ],
+      "src": "📎 bnl.gov · deepmind.google · energy.gov"
+    }
+  ],
+  "mp": {
+    "title": "SoftBank 750亿欧数据中心 / Codex Windows操控 / Meta付费订阅 / Grok Build API公测 / DeepMind科学国家使命"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-02"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
