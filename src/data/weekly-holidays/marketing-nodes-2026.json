@@ -1,0 +1,509 @@
+{
+  "schemaVersion": "1.0",
+  "year": 2026,
+  "note": "JR Academy 营销节点日历（人工维护的 SoT）。这里是『对教育/AI 学习品牌真正重要的营销日子』，不是公共假日表 —— 很多节点（六一/520/618/双11/开学季/毕业季）根本不是法定假日。每个节点带一张『营销打法卡』(playbook)，给运营直接照着做。/weekly-holidays skill 每周把落在 30 天窗口内的节点合并进 latest.json，admin /weekly-holidays 页面读取展示。",
+  "schema": {
+    "date": "YYYY-MM-DD（固定日或当年浮动日已算好；seasonal=true 时是该时段的锚点日）",
+    "name": "中文节点名",
+    "emoji": "一个 emoji",
+    "tier": "S=全力做 / A=认真做 / B=轻量蹭可选",
+    "region": "CN=中国大陆华人 / Global=全球华人 / AU=澳洲本地 / US=北美",
+    "seasonal": "true=是一段时间不是单日",
+    "window": "seasonal=true 时的时间段，如 06-01~06-30；否则 null",
+    "playbook": {
+      "audience": "这个节点谁最共鸣",
+      "angle": "营销切入角度（一句话定调）",
+      "contentIdeas": "具体能发什么内容（渠道:点子）",
+      "productHook": "挂哪个产品/课程/会员",
+      "copyHooks": "可直接用的文案钩子/标题",
+      "channels": "主推渠道",
+      "avoid": "避坑"
+    }
+  },
+  "nodes": [
+    {
+      "date": "2026-01-01",
+      "name": "元旦 / 跨年",
+      "emoji": "🎆",
+      "tier": "A",
+      "region": "Global",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "全球华人 · 想立 flag 重启学习的职场人",
+        "angle": "新年第一个学习 flag —— 把『今年要学 AI』变成可执行的第一步",
+        "contentIdeas": [
+          "小红书：2026 我的技能 flag，第一条就是搞懂 AI",
+          "公众号：年度学习计划模板 + 匠人学院路线图自测",
+          "学习群：发『新年第一课』直播/打卡活动"
+        ],
+        "productHook": "membership 年卡『一杯咖啡价开启 2026 全年学习』+ AI 入门 Bootcamp 引流课",
+        "copyHooks": [
+          "别再让『今年要学 AI』停在朋友圈 flag 里",
+          "2026 第一个对自己有用的决定"
+        ],
+        "channels": ["小红书", "公众号", "学习群"],
+        "avoid": "❌ 不喊空泛口号；flag 后面必须给一个具体可点的第一步"
+      }
+    },
+    {
+      "date": "2026-02-14",
+      "name": "情人节",
+      "emoji": "💝",
+      "tier": "B",
+      "region": "Global",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "情侣/朋友互送 · 也包括『对自己好』的单身职场人",
+        "angle": "把一门课/会员当礼物送给在意的人（或自己）—— 知识是不贬值的礼物",
+        "contentIdeas": [
+          "小红书：送对象一份会浪漫一辈子的礼物——一起搞懂 AI",
+          "公众号：程序员情侣的过节方式（轻松向）"
+        ],
+        "productHook": "gift membership（送会员）+ 双人组队学习",
+        "copyHooks": ["最不贬值的情人节礼物", "送花会谢，送本事不会"],
+        "channels": ["小红书", "公众号"],
+        "avoid": "❌ 别硬塞，教育产品蹭情人节要轻；不打扰为主"
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "name": "春节",
+      "emoji": "🧧",
+      "tier": "S",
+      "region": "Global",
+      "seasonal": true,
+      "window": "2026-02-15~2026-02-23",
+      "playbook": {
+        "audience": "全球华人 · 海外留学生/移民思乡 + 国内亲友团聚 + 春节后求职季前夜",
+        "angle": "团圆 + 蓄力：假期不卷，但『年后第一份工作/第一个技能』的种子现在种",
+        "contentIdeas": [
+          "小红书：海外过年的程序员，年夜饭后偷偷给自己报了门课",
+          "公众号：春节温情学员故事（在海外靠技能站稳脚跟）",
+          "学习群：新春红包/抽免费课名额，节后开班预告"
+        ],
+        "productHook": "年后开班的 Bootcamp 预约 + membership 春节福利价",
+        "copyHooks": ["过个好年，年后我们一起上岸", "团圆之后，给自己一个新开始"],
+        "channels": ["小红书", "公众号", "学习群"],
+        "avoid": "❌ 春节期间避免硬转化/催单，主打温情和『年后见』；除夕到初三只发祝福不发促销"
+      }
+    },
+    {
+      "date": "2026-03-08",
+      "name": "三八妇女节",
+      "emoji": "🌷",
+      "tier": "A",
+      "region": "Global",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "女性职场人/转码女生/宝妈再就业 · 关注 women in tech",
+        "angle": "她在科技行业的故事 —— 不喊口号，给真实的女性学员/讲师案例",
+        "contentIdeas": [
+          "小红书：转码 3 年的她，从文科到 AI 工程师",
+          "公众号：匠人学院女性学员/女讲师真实经历专题",
+          "线上：women in tech 主题分享会"
+        ],
+        "productHook": "求职匠 + IT 转型 Bootcamp + 女性专属学习社群",
+        "copyHooks": ["她的代码，也能改变世界", "不被定义的职业路径"],
+        "channels": ["小红书", "公众号", "线上讲座"],
+        "avoid": "❌ 别用『女神节/女王节』消费主义话术；不卖焦虑，给真实榜样"
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "name": "母亲节",
+      "emoji": "🌸",
+      "tier": "B",
+      "region": "Global",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "宝妈再就业 · 也包括想送妈妈礼物的学员",
+        "angle": "宝妈的第二人生：孩子大了，给自己学一门能变现的技能",
+        "contentIdeas": [
+          "小红书：全职妈妈用 3 个月学 AI 重回职场",
+          "公众号：宝妈再就业真实学员故事"
+        ],
+        "productHook": "灵活时间的自学档课程 + 宝妈学习社群",
+        "copyHooks": ["妈妈也可以有自己的事业第二春", "孩子在长大，你也可以"],
+        "channels": ["小红书", "公众号"],
+        "avoid": "❌ 不贩卖『为母牺牲』苦情；正面讲成长和自我实现"
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "name": "520 表白日",
+      "emoji": "💌",
+      "tier": "B",
+      "region": "CN",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "国内年轻用户 · 社交媒体活跃",
+        "angle": "对技能/对自己『表白』—— 借 520 的流量做一波轻松的品牌互动",
+        "contentIdeas": [
+          "小红书：520 我没有对象，但我和 AI 在一起了（玩梗）",
+          "学习群：520 限时福利/告白墙互动"
+        ],
+        "productHook": "membership 520 限时优惠（5.20/52 元噱头价）",
+        "copyHooks": ["这届年轻人 520 在搞钱", "和会进步的自己谈场恋爱"],
+        "channels": ["小红书", "学习群"],
+        "avoid": "❌ 玩梗为主别太用力；价格噱头要真有优惠不能套路"
+      }
+    },
+    {
+      "date": "2026-06-01",
+      "name": "六一儿童节",
+      "emoji": "🎈",
+      "tier": "A",
+      "region": "Global",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "30+ 职场人 / 家长 / 想重启学习的成年人",
+        "angle": "『成年人的六一』—— 长大后才懂，持续学习才是大人的游乐场，今天对自己好一点",
+        "contentIdeas": [
+          "小红书：30+ 程序员的六一，我送自己一门 AI 课",
+          "公众号：别只给孩子买礼物，也给自己的好奇心充次值",
+          "学习群：六一『大朋友』专属福利 + 玩心打卡（晒你最近学的新东西）"
+        ],
+        "productHook": "考证匠 / membership『$8 一杯咖啡当儿童节礼物，解锁全部权益』",
+        "copyHooks": [
+          "今天不止小朋友放假，大朋友也该被治愈一下",
+          "六一快乐，愿你永远对新技术保持好奇"
+        ],
+        "channels": ["小红书", "公众号", "学习群"],
+        "avoid": "❌ 不蹭鸡娃/不卖『别让孩子输在起跑线』焦虑；不硬推转化，主打治愈和玩心"
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "name": "毕业季",
+      "emoji": "🎓",
+      "tier": "S",
+      "region": "Global",
+      "seasonal": true,
+      "window": "2026-06-01~2026-07-15",
+      "playbook": {
+        "audience": "应届毕业生 / 留学生 · 求职焦虑高峰 · 全年最关键的招生窗口之一",
+        "angle": "毕业 = 求职起跑线：用真实岗位 + 作品集 + 内推把『毕业即失业』焦虑变成行动",
+        "contentIdeas": [
+          "小红书：毕业了还没 offer？这份 30 天求职冲刺清单存好",
+          "公众号：2026 应届生 IT/AI 求职现状 + 真实岗位拆解",
+          "线下/线上：毕业季求职冲刺营 + 简历门诊 + 模拟面试"
+        ],
+        "productHook": "求职匠 + IT 求职 Bootcamp + 简历/面试辅导 + 内推资源",
+        "copyHooks": [
+          "毕业不是终点，是求职的发令枪",
+          "别人在投简历，你还在等运气？"
+        ],
+        "channels": ["小红书", "公众号", "线下活动", "线上讲座", "EOI 跟进"],
+        "avoid": "❌ 不承诺『包就业/保 offer』(承诺红线)；只承诺真实岗位拆解、作品、面试训练量"
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "name": "618 年中大促",
+      "emoji": "🛒",
+      "tier": "S",
+      "region": "CN",
+      "seasonal": true,
+      "window": "2026-06-01~2026-06-20",
+      "playbook": {
+        "audience": "国内有付费意愿用户 · 购物节剁手心智已被激活",
+        "angle": "全年第二大促销窗口：membership 年卡 / Bootcamp 用 618 心智集中转化",
+        "contentIdeas": [
+          "小红书：618 别只囤护肤品，给大脑也囤点货",
+          "公众号：618 学习年卡值不值 + 课程对比测评",
+          "学习群：618 限时阶梯优惠 + 老学员续费福利"
+        ],
+        "productHook": "membership 年卡 618 价 + Bootcamp 早鸟 + 课程组合包",
+        "copyHooks": ["618 最保值的一笔：投资自己", "护肤品会用完，技能不会"],
+        "channels": ["小红书", "公众号", "学习群", "销售页"],
+        "avoid": "❌ 价格必须真优惠不玩先涨后降；别堆满促销词冲淡品牌"
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "name": "端午节",
+      "emoji": "🐉",
+      "tier": "A",
+      "region": "CN",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "全球华人 · 三天小长假 · 传统文化共鸣 + 海外华人思乡",
+        "angle": "端午安康 + 传统遇见 AI：轻文化向内容，假期不催学只陪伴",
+        "contentIdeas": [
+          "小红书：用 AI 给屈原写首诗 / AI 复原端午习俗（玩法向）",
+          "公众号：端午安康 + 海外学员怎么过端午",
+          "学习群：端午互动（包粽子/赛龙舟梗）+ 节后开课预告"
+        ],
+        "productHook": "轻挂 membership；主打品牌温度不主推转化",
+        "copyHooks": ["端午安康", "粽有牵挂，学不打烊（轻松版）"],
+        "channels": ["小红书", "公众号", "学习群"],
+        "avoid": "❌ 说『端午快乐』要谨慎，传统上多用『安康』；小长假别硬催单"
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "name": "父亲节",
+      "emoji": "👔",
+      "tier": "B",
+      "region": "Global",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "想给爸爸送礼的学员 · 也包括『技术老爸』自己",
+        "angle": "给爸爸的科技礼物 / 致敬还在学新东西的老爸 —— 学习不分年龄",
+        "contentIdeas": [
+          "小红书：教我爸用 AI 的一天（温情+实用）",
+          "公众号：50 岁还在学编程的他们"
+        ],
+        "productHook": "membership 当礼物 + 适合长辈的 AI 入门内容",
+        "copyHooks": ["爸，这个 AI 工具你肯定用得上", "活到老学到老不是口号"],
+        "channels": ["小红书", "公众号"],
+        "avoid": "❌ 教育产品蹭父亲节要轻，温情为主不硬卖"
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "name": "暑期充电季",
+      "emoji": "☀️",
+      "tier": "A",
+      "region": "Global",
+      "seasonal": true,
+      "window": "2026-07-01~2026-08-15",
+      "playbook": {
+        "audience": "大学生/研究生暑假 + 想转型的职场人利用暑期 + 留学生 gap",
+        "angle": "暑假是弯道超车窗口：两个月集中学完一门能写进简历的技能",
+        "contentIdeas": [
+          "小红书：这个暑假我没去实习，但我学了 AI 工程",
+          "公众号：暑期 8 周学习计划表 + 作品集打卡挑战",
+          "学习群：暑期集训营 + 每周打卡奖励"
+        ],
+        "productHook": "暑期 Bootcamp 集训 + 自学档暑期价 + 实战项目营",
+        "copyHooks": ["两个月，让简历多一行硬技能", "暑假怎么过，秋招见分晓"],
+        "channels": ["小红书", "公众号", "学习群", "线上讲座"],
+        "avoid": "❌ 不贩卖『不努力就完蛋』焦虑；强调可完成的具体成果"
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "name": "开学季",
+      "emoji": "📚",
+      "tier": "S",
+      "region": "Global",
+      "seasonal": true,
+      "window": "2026-08-15~2026-09-15",
+      "playbook": {
+        "audience": "返校学生 / 留学生新生 + 秋招在即的应届生 · 全年最大招生窗口之一",
+        "angle": "新学期新技能：开学不只是上课，是给秋招/求职提前卡位",
+        "contentIdeas": [
+          "小红书：开学第一件事，把这门 AI 技能加进我的课表",
+          "公众号：2026 秋招 IT/AI 岗位预测 + 提前准备清单",
+          "线下/线上：开学季新生破冰 + 学习路线规划会"
+        ],
+        "productHook": "秋季 Bootcamp 开班 + 学生专属价 + 求职匠秋招冲刺",
+        "copyHooks": ["开学卷的不只是 GPA，还有就业力", "秋招提前 3 个月准备的人，已经赢了"],
+        "channels": ["小红书", "公众号", "线下活动", "线上讲座", "SEO"],
+        "avoid": "❌ 不承诺就业结果；学生价要真给到学生群体"
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "name": "教师节",
+      "emoji": "🍎",
+      "tier": "B",
+      "region": "CN",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "尊师重道氛围 · 也指向匠人学院的讲师/导师",
+        "angle": "致敬好老师 + 终身学习者本身就是自己最好的老师",
+        "contentIdeas": [
+          "小红书：感谢那个教会我编程的人",
+          "公众号：匠人学院讲师/mentor 介绍专题（真实署名）"
+        ],
+        "productHook": "Faculty/mentorship 卖点 + 师生互动社群",
+        "copyHooks": ["最好的老师，是让你爱上学习的人", "教师节，致敬每一位带过你的 mentor"],
+        "channels": ["小红书", "公众号"],
+        "avoid": "❌ 别硬转化；用真实讲师故事，不编造头衔（反幻觉）"
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "name": "中秋节",
+      "emoji": "🥮",
+      "tier": "A",
+      "region": "Global",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "全球华人 · 海外华人思乡高峰 + 国内团圆",
+        "angle": "千里共婵娟：海外学员的中秋故事 + 假期温情陪伴，不催学",
+        "contentIdeas": [
+          "小红书：一个人在海外过中秋，但我的代码陪着我（轻松温情）",
+          "公众号：海外华人学员的中秋 + 在异乡靠技能立足的故事",
+          "学习群：中秋互动（晒月饼/AI 做月亮图）+ 福利"
+        ],
+        "productHook": "轻挂 membership；主打品牌温度",
+        "copyHooks": ["千里共婵娟", "无论在哪，愿你的努力都被看见"],
+        "channels": ["小红书", "公众号", "学习群"],
+        "avoid": "❌ 假期主打温情，避免硬促销；用『团圆/思乡』真实情绪不煽情"
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "name": "国庆 / 黄金周",
+      "emoji": "🇨🇳",
+      "tier": "B",
+      "region": "CN",
+      "seasonal": true,
+      "window": "2026-10-01~2026-10-07",
+      "playbook": {
+        "audience": "国内 7 天长假用户 · 部分出游部分宅家充电",
+        "angle": "黄金周不一定要出去人挤人，宅家用一个长假补一门技能",
+        "contentIdeas": [
+          "小红书：国庆我没去挤景区，在家学完了一门课",
+          "学习群：黄金周 7 天打卡挑战 + 福利"
+        ],
+        "productHook": "自学档课程黄金周价 + 7 天打卡营",
+        "copyHooks": ["7 天假期，给自己一个不一样的过法", "别人堵在路上，你已经学完一章"],
+        "channels": ["小红书", "学习群"],
+        "avoid": "❌ 长假前 2 天大家在玩，内容轻量；不强催"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "name": "双11",
+      "emoji": "🛍️",
+      "tier": "S",
+      "region": "CN",
+      "seasonal": true,
+      "window": "2026-11-01~2026-11-11",
+      "playbook": {
+        "audience": "全球华人 · 全年最强付费心智窗口 · 剁手节",
+        "angle": "全年最大促销节点：membership 年卡 / Bootcamp 全年最低价集中转化",
+        "contentIdeas": [
+          "小红书：双11 购物车里最值的一单，是给自己报的课",
+          "公众号：双11 学习产品怎么买最划算（攻略向 + 课程对比）",
+          "学习群：双11 阶梯优惠 + 预售定金 + 老带新福利",
+          "销售页：双11 专属 landing + 限时倒计时"
+        ],
+        "productHook": "membership 年卡全年最低价 + Bootcamp 早鸟 + 组合包 + 预售",
+        "copyHooks": ["双11 最不后悔的一单", "买的东西会旧，学的本事不会"],
+        "channels": ["小红书", "公众号", "学习群", "销售页", "SEO"],
+        "avoid": "❌ 价格必须真到底不玩套路；提前 1-2 周预热预售，别只在当天发"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "name": "感恩节",
+      "emoji": "🦃",
+      "tier": "B",
+      "region": "US",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "北美华人/留学生 · 感恩回馈氛围",
+        "angle": "感恩社群与学员：回馈老用户，讲学员成长里被帮助的故事",
+        "contentIdeas": [
+          "小红书/公众号：感恩节，谢谢一路陪我学习的社群",
+          "学习群：感恩回馈福利 + 老学员专属"
+        ],
+        "productHook": "老学员回馈 + 接黑五促销预热",
+        "copyHooks": ["感恩有你，一起走到这里", "这一年，谢谢没放弃的自己"],
+        "channels": ["小红书", "公众号", "学习群"],
+        "avoid": "❌ 北美节点为主，国内用户共鸣弱；和黑五连着做别割裂"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "name": "黑色星期五",
+      "emoji": "🏷️",
+      "tier": "A",
+      "region": "Global",
+      "seasonal": true,
+      "window": "2026-11-27~2026-11-30",
+      "playbook": {
+        "audience": "海外华人/留学生/本地求职者 · 黑五促销心智 · 英文站重点",
+        "angle": "Black Friday：海外用户的双11，英文站 + 海外华人课程促销主场",
+        "contentIdeas": [
+          "小红书：Black Friday 海外党买什么——我买了门求职课",
+          "英文站/公众号：Black Friday course deals + 求职冲刺包"
+        ],
+        "productHook": "英文站 IT 培训 Black Friday 价 + 求职匠 + membership",
+        "copyHooks": ["Black Friday: invest in the one thing that appreciates", "黑五最保值的一单"],
+        "channels": ["小红书", "公众号", "英文站销售页", "SEO"],
+        "avoid": "❌ 英文文案要地道（反 AI 味）；和双11/双12 节奏区分开针对海外人群"
+      }
+    },
+    {
+      "date": "2026-12-12",
+      "name": "双12",
+      "emoji": "🎁",
+      "tier": "B",
+      "region": "CN",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "双11 没下手 / 年底冲动消费用户",
+        "angle": "双11 返场 + 年底最后一波：错过双11 的最后上车机会",
+        "contentIdeas": [
+          "小红书：双11 没买的，双12 补上",
+          "学习群：双12 返场价 + 年底冲刺班预告"
+        ],
+        "productHook": "membership 双12 返场价 + 年底班",
+        "copyHooks": ["双11 犹豫的，双12 别再错过", "今年最后一次上车"],
+        "channels": ["小红书", "学习群"],
+        "avoid": "❌ 力度别超双11 伤老用户；定位『返场』不另起大促"
+      }
+    },
+    {
+      "date": "2026-12-25",
+      "name": "圣诞节",
+      "emoji": "🎄",
+      "tier": "B",
+      "region": "Global",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "海外华人/留学生 · 年末放松氛围",
+        "angle": "年末温情 + 给自己的圣诞礼物：盘点这一年学到的东西",
+        "contentIdeas": [
+          "小红书：今年圣诞，我送自己的礼物是学会了 X",
+          "公众号：年末学员成长盘点 + 圣诞福利"
+        ],
+        "productHook": "gift membership + 年末福利价",
+        "copyHooks": ["最好的圣诞礼物是更好的自己", "Merry Christmas，也祝你越学越强"],
+        "channels": ["小红书", "公众号"],
+        "avoid": "❌ 海外节点为主；温情为主不硬卖"
+      }
+    },
+    {
+      "date": "2026-12-31",
+      "name": "跨年 / 年度盘点",
+      "emoji": "🎇",
+      "tier": "A",
+      "region": "Global",
+      "seasonal": false,
+      "window": null,
+      "playbook": {
+        "audience": "全球华人 · 年末总结 + 立新年 flag 的人",
+        "angle": "年度学习盘点 + 2027 flag：把『今年学到了什么』变成内容，顺势导向新年计划",
+        "contentIdeas": [
+          "小红书：2026 我的学习年度报告（晒成长）",
+          "公众号：匠人学院年度学员成长盘点 + 2027 路线图",
+          "学习群：年度打卡王评选 + 跨年立 flag 活动"
+        ],
+        "productHook": "2027 年卡预售 + 新年第一期 Bootcamp 预约",
+        "copyHooks": ["2026 你学会了什么？", "跨年不只许愿，给 2027 定个可执行的学习计划"],
+        "channels": ["小红书", "公众号", "学习群"],
+        "avoid": "❌ 盘点要真有内容（晒真实成长数据/学员作品），别空喊『展望未来』套话"
+      }
+    }
+  ]
+}
