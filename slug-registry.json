@@ -1176,6 +1176,16 @@
     },
     {
       "type": "chapter",
+      "book": "crewai-guide",
+      "slug": "06-testing-debugging"
+    },
+    {
+      "type": "chapter",
+      "book": "crewai-guide",
+      "slug": "07-production-deployment"
+    },
+    {
+      "type": "chapter",
       "book": "cursor-guide",
       "slug": "01-what-is-cursor"
     },
