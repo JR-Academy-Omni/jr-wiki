@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "check-slugs": "bun run scripts/slug-stability.ts check",
+    "check-generated": "node scripts/check-generated.mjs",
     "lock-slugs": "bun run scripts/slug-stability.ts lock",
-    "build": "bun run check-slugs && bun run build.ts",
+    "build": "bun run check-slugs && bun run check-generated && bun run build.ts",
     "build:data": "bun run build/pipelines/ai-daily.pipeline.ts && bun run build/pipelines/uni-news.pipeline.ts && bun run build/pipelines/uni-events.pipeline.ts",
     "build:ai-daily": "bun run build/pipelines/ai-daily.pipeline.ts",
     "build:uni-news": "bun run build/pipelines/uni-news.pipeline.ts",

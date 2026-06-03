@@ -1,4 +1,4 @@
-<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 · 2026-06-01T23:45:13.961Z -->
+<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 -->
 # 新南威尔士大学 · 2026-05-20 小红书草稿
 
 > 由 build/pipelines/uni-news.pipeline.ts 生成，请勿手改。
