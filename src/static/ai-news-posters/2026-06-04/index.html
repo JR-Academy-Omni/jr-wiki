@@ -1,0 +1,308 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-04（Canvas 版）</title>
+<meta name="description" content="2026-06-04 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-04.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-04",
+  "summary": {
+    "hook": [
+      "Anthropic 秘密 IPO 申请",
+      "DeepSeek 腾讯 74 亿",
+      "Gemini 3.5 Flash"
+    ],
+    "sub": "AI 独角兽冲击资本市场，中美大模型融资创纪录，Google 推旗舰新模型",
+    "items": [
+      {
+        "num": "01",
+        "cat": "IPO 里程碑",
+        "numColor": "#6B46C1",
+        "t": "Anthropic 向 SEC 秘密申请 IPO，估值逼近万亿"
+      },
+      {
+        "num": "02",
+        "cat": "中国 AI",
+        "numColor": "#1D4ED8",
+        "t": "DeepSeek 74 亿美元融资腾讯领投，国家基金背书"
+      },
+      {
+        "num": "03",
+        "cat": "模型发布",
+        "numColor": "#16A34A",
+        "t": "Google Gemini 3.5 Flash 正式 GA，Managed Agents 公测"
+      },
+      {
+        "num": "04",
+        "cat": "开发者工具",
+        "numColor": "#0891B2",
+        "t": "微软 Build：MAI-Code-1-Flash 首发，减依赖 OpenAI"
+      },
+      {
+        "num": "05",
+        "cat": "Agent 升级",
+        "numColor": "#EA580C",
+        "t": "Claude Code Opus 4.8 上线，动态工作流调度千级 Agent"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-ipo",
+      "idx": "01",
+      "catText": "IPO 里程碑",
+      "accent": "#6B46C1",
+      "bg": {
+        "top": "#F5F3FF",
+        "mid": "#EDE9FE",
+        "bot": "#DDD6FE",
+        "topRight": "#C4B5FD"
+      },
+      "title": [
+        {
+          "text": "Anthropic 秘密申请 IPO"
+        },
+        {
+          "text": "估值近万亿，年化营收 470 亿",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Claude 母公司向 SEC 提交"
+        },
+        {
+          "text": "保密 S-1，完成 650 亿美元融资",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 于 6 月 1 日秘密向 SEC 提交 IPO 申请文件，此前刚完成 650 亿美元新一轮融资，估值升至 9650 亿美元，年化营收达 470 亿美元。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 AI 独角兽首批冲击公开资本市场的标志性事件，与 OpenAI 预期 IPO 几乎同步，将为整个 AI 行业估值定锚。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Claude API 定价与产品路线图可能随上市压力加速商业化，开发者和企业客户需关注服务条款与收费模式的潜在变化。"
+        }
+      ],
+      "src": "📎 washingtonpost.com · cbsnews.com · bloomberg.com"
+    },
+    {
+      "slug": "02-deepseek-74b-tencent",
+      "idx": "02",
+      "catText": "中国 AI",
+      "accent": "#1D4ED8",
+      "bg": {
+        "top": "#EFF6FF",
+        "mid": "#DBEAFE",
+        "bot": "#BFDBFE",
+        "topRight": "#93C5FD"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 融资 74 亿美元"
+        },
+        {
+          "text": "腾讯领投，国家 AI 基金入场",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "创中国 AI 初创融资纪录，"
+        },
+        {
+          "text": "估值 520–590 亿美元",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 接近完成约 500 亿元人民币（74 亿美元）融资，腾讯为最大投资方（100 亿元），宁德时代及国家人工智能产业投资基金参与，创始人梁文锋个人出资约 200 亿元。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是中国 AI 初创史上规模最大的融资之一，国家资本明确背书体现北京对本土大模型战略级支持，腾讯入局也将打通微信生态的 AI 整合。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "DeepSeek 模型 API 未来有望以更低成本大规模供给，但国家资本深度介入也引发数据主权与合规层面的关注，海外开发者需留意。"
+        }
+      ],
+      "src": "📎 bloomberg.com · cnbc.com · investing.com"
+    },
+    {
+      "slug": "03-gemini-35-flash-ga",
+      "idx": "03",
+      "catText": "模型发布",
+      "accent": "#16A34A",
+      "bg": {
+        "top": "#F0FDF4",
+        "mid": "#DCFCE7",
+        "bot": "#BBF7D0",
+        "topRight": "#86EFAC"
+      },
+      "title": [
+        {
+          "text": "Gemini 3.5 Flash 正式 GA"
+        },
+        {
+          "text": "Managed Agents 公测，超越旗舰基准",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Google 发布最新旗舰模型，"
+        },
+        {
+          "text": "Terminal-Bench 2.1 达 76.2%",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google 宣布 Gemini 3.5 Flash 正式 GA，在 Terminal-Bench 2.1（76.2%）和 MCP Atlas（83.6%）等多项基准上超越 Gemini 3.1 Pro，同时 Managed Agents 在 Gemini API 公开预览，支持有状态 Agent 跑在 Google 托管沙盒中。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Managed Agents 让开发者无需自建 Agent 基础设施即可部署长时运行的自主任务，配合 Flash 的高性价比定位，对 AWS Bedrock、Azure AI 形成直接竞争。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "有 agentic 需求的开发者现在有了 Google 官方托管方案可选，省去容器 / 状态管理；Gemini 3.5 Pro 预计下月推出，届时旗舰能力将进一步提升。"
+        }
+      ],
+      "src": "📎 techcrunch.com · ai.google.dev · blog.google"
+    },
+    {
+      "slug": "04-microsoft-mai-code-1-flash",
+      "idx": "04",
+      "catText": "开发者工具",
+      "accent": "#0891B2",
+      "bg": {
+        "top": "#ECFEFF",
+        "mid": "#CFFAFE",
+        "bot": "#A5F3FC",
+        "topRight": "#67E8F9"
+      },
+      "title": [
+        {
+          "text": "微软 Build 发布 MAI-Code-1-Flash"
+        },
+        {
+          "text": "自研模型减对 OpenAI 的依赖",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "代码生成模型首发，"
+        },
+        {
+          "text": "OpenAI 同步上线 AWS Codex",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "微软在 Build 大会旧金山站推出 MAI-Code-1-Flash，这是其首款自研代码生成模型，可将文字描述直接转为应用源代码，意在降低对 OpenAI 的依赖并为开发者削减成本。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "微软与 OpenAI 的深度捆绑关系首次出现明显松动信号；同时 OpenAI 的 Codex 也在同日上线 AWS，双方围绕开发者生态的竞争格局加速分化。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Azure 用户将获得更多本土模型选择，议价空间扩大；对用 GitHub Copilot 的工程师来说，底层模型可能在未来几个月悄然切换，值得关注能力变化。"
+        }
+      ],
+      "src": "📎 cnbc.com · qbitai.com"
+    },
+    {
+      "slug": "05-claude-opus-48-dynamic-workflow",
+      "idx": "05",
+      "catText": "Agent 升级",
+      "accent": "#EA580C",
+      "bg": {
+        "top": "#FFF7ED",
+        "mid": "#FED7AA",
+        "bot": "#FDBA74",
+        "topRight": "#FB923C"
+      },
+      "title": [
+        {
+          "text": "Claude Code Opus 4.8 上线"
+        },
+        {
+          "text": "动态工作流，一键调度数百 Agent",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Anthropic 更新 Claude Code，"
+        },
+        {
+          "text": "Fast Mode 加速 + MCP 扩展支持",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 发布 Claude Code Opus 4.8，引入动态工作流（Dynamic Workflows）：用户只需描述任务，Claude 即可在后台编排数十到数百个 Agent 并行执行，同时 Fast Mode 提速、浏览器与 MCP 插件支持全面扩展。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 Anthropic 在 Agent 编排层的旗舰级升级，直接对标 OpenAI Codex 的 role-specific plugins 和 Google Managed Agents，三大平台同期发力 agentic coding 赛道竞争白热化。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 工程师和 AI 开发者可通过 Claude Code 实现大规模并行 Agent 任务，适合 CI 测试矩阵、文档批量生成等场景；订阅 Claude Pro/Teams 即可使用 Opus 4.8。"
+        }
+      ],
+      "src": "📎 releasebot.io · anthropic.com"
+    }
+  ],
+  "mp": {
+    "title": "Anthropic IPO 申请 / DeepSeek 腾讯 74 亿 / Gemini 3.5 Flash / 微软 MAI-Code / Opus 4.8 千 Agent"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-04"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
