@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-03",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "USYD",
+    "hookSub": "16 项 ARC 产研合作 $860 万 + MySydney 首届 158 人毕业",
+    "hookSubHighlight": "$860 万",
+    "subLines": [
+      "澳洲政府支持 16 项 USYD 产学研 · 氢能 + 农业 + 塑料循环 · 共约 $860 万",
+      "MySydney 2022 届首批 158 人毕业 · 3101 人已受益 · $8500/年",
+      "Vice-Chancellor 国际奖学金仍开放申请 · 涵盖研究生和本科"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "ARC 产研合作", "data": "16 项 · $860 万" },
+      { "num": "02", "title": "MySydney 毕业", "data": "首届 158 人" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研资助",
+      "h2Main": "澳洲政府支持 16 项 USYD 产学研合作",
+      "h2Sub": "ARC Linkage Projects 最新轮 · 氢能 + 农业 + 塑料循环 · 约 $860 万",
+      "h2Highlight": "16 项产学研",
+      "lead": "5 月 21 日，悉尼大学宣布 <b>16 项</b>由 USYD 研究人员主导的产学研合作项目在 ARC Linkage Projects 最新轮获得资助，USYD 合计获批约 <b>$860 万</b>澳元，覆盖氢能系统、可持续农业和环保塑料循环三条主线。",
+      "bullets": [
+        { "k": "资助规模", "v": "此轮 ARC Linkage Projects 全国向 178 个项目拨款 <b>$9980 万</b>澳元；USYD 主导 16 项，合计约 <b>$860 万</b>" },
+        { "k": "研究方向", "v": "<b>氢能系统</b>（能源转型）/ <b>可持续农业</b>（家禽养殖改良）/ <b>塑料循环</b>（不可降解聚乙烯 → 可降解聚合物）为三条主线" },
+        { "k": "代表项目", "v": "Barkindji 文化遗产考古研究获批 $860,539；殖民时期建筑 GIS 分析项目获批 $150,000；还有女性教育与个人发展项目获批 $542,050" },
+        { "k": "合作机制", "v": "ARC Linkage 要求行业方共同出资 + 人员参与，确保研究方向<b>高度贴近产业实际需求</b>，不是纯学术项目" },
+        { "k": "对你的影响", "v": "<b>Engineering / Environmental Science / Agriculture / Materials Science</b>：这 16 项代表 USYD 当前三条主攻产研方向，相关 Honours 和 PhD 课题通常有行业导师协同，毕业路径清晰" }
+      ],
+      "source": "USYD News · 2026-05-21",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/05/21/australian-government-backs-16-industry-research-partnerships-at-sydney.html",
+      "sourceQuote": "16 industry research partnerships at Sydney have been recognised by the Australian Government in the latest Linkage Projects funding round, with University of Sydney-led projects receiving $8.6 million, covering hydrogen energy systems, sustainable agriculture and environmentally friendly solutions for plastics recycling."
+    },
+    {
+      "idx": "02",
+      "category": "奖学金",
+      "h2Main": "MySydney 首届 158 名学生毕业：3101 人已获益",
+      "h2Sub": "SEIFA 底部 25% 地区 · $8500/年 · 2022 年启动",
+      "h2Highlight": "3101 人受益",
+      "lead": "5 月 21 日，悉尼大学宣布 MySydney Entry and Scholarship Scheme 首届 <b>158 名学生</b>完成本科学业，自 2022 年启动以来已有 <b>3,101 人</b>受益。该计划针对居住在 SEIFA 底部 25% 社会经济弱势地区的国内本科学生，每年提供 <b>$8,500 澳元</b>奖学金支持。",
+      "bullets": [
+        { "k": "奖学金金额", "v": "每年 <b>$8,500</b> 澳元现金，全程（单学位最长 5 年）持续发放，无需单独申请——通过 MySydney 渠道录取即自动获得" },
+        { "k": "适用人群", "v": "仅面向<b>澳洲国内学生</b>，须居住在 SEIFA 教育职业指数底部 25% 地区；国际学生<b>不适用</b>此奖学金，但 USYD 有专项国际生奖学金（见官网）" },
+        { "k": "附加支持", "v": "奖学金之外还提供：<b>定制化学业与职业辅导</b> / <b>同伴导师计划</b> / <b>学生交流额外资金</b>" },
+        { "k": "规模成长", "v": "2022 年启动，迄今 <b>3,101 名</b>学生受益；2026 年首届 <b>158 名</b>学者毕业，标志该计划进入成熟阶段" },
+        { "k": "对你的影响", "v": "国际生看这条：了解 USYD 社会责任承诺有助于择校；USYD 针对<b>国际本科生/研究生</b>另有 Vice-Chancellor 国际奖学金（sydney.edu.au/scholarships/international.html）" }
+      ],
+      "source": "USYD News · 2026-05-21",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/05/21/first-mysydney-scholars-graduate-under-equity-scheme.html",
+      "sourceQuote": "since the first students commenced in 2023, 3101 have received scholarships. This year 158 MySydney scholars are due to graduate. The MySydney Scholarship provides $8,500 per annum and is tenable for the published full-time duration of the recipient's undergraduate degree up to a maximum of 5 years."
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "USYD 16 项 ARC Linkage 产学研获政府约 $860 万资助（氢能+农业+塑料循环），MySydney 计划首届 158 名学生毕业、3101 人已受益——6 月 3 日 USYD 两条核心更新。",
+    "items": [
+      { "n": "01", "title": "16 项 ARC 产研 $860 万", "body": "氢能系统 + 可持续农业 + 塑料循环三方向；全国 178 项目 $9980 万；行业方共同出资确保贴近产业；Engineering/Materials 方向 PhD 课题持续开放" },
+      { "n": "02", "title": "MySydney 首届 158 人毕业", "body": "3101 人受益 $8,500/年奖学金；SEIFA 底部 25% 地区本科生；自动受益无需另申；了解 USYD 对国际生的专项奖学金见官网" }
+    ],
+    "cta": {
+      "big": "关注 USYD 每日动态",
+      "sub": "奖学金 + 科研 + 招生 · 每天 3 校轮换 · JR Academy 同步",
+      "badge": "06 / 03"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "USYD 6/3：产研资助+MySydney",
+      "body": "今天 USYD 两条更新 🎓\n\n📌 16 项 ARC Linkage 产学研项目获政府资助约 $860 万澳元\n— 氢能系统、可持续农业、环保塑料循环三大方向\n— Engineering / Materials / EnvSci 的同学注意：相关 PhD/Honours 课题有行业导师协同 👀\n\n📌 MySydney 计划首届 158 名学生毕业\n— 自 2022 年启动已有 3101 人受益\n— $8500/年奖学金（国内生） · 无需单独申请\n— 国际生看这条：USYD 有专项国际奖学金，官网 sydney.edu.au/scholarships/international.html\n\n#USYD #悉尼大学 #澳洲留学",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #澳洲科研 #留学奖学金",
+      "wechat": ["USYD 6月3日：16 项 ARC 产研合作获政府 $860 万资助，氢能+农业+塑料三方向，Engineering/Materials 方向 PhD 课题持续开放；MySydney 首届 158 名毕业、3101 人已受益。"],
+      "community": ["USYD 今日动态 | 16 项 ARC 产学研资助 $860 万（氢能+农业+塑料），相关 PhD/Honours 有行业导师；MySydney 首届 158 名毕业。Engineering/Materials 留意课题。"]
+    },
+    "p2": {
+      "title": "USYD 16 项 ARC 产研获 $860 万",
+      "body": "澳洲政府通过 ARC Linkage 支持 USYD 主导 16 项产学研合作 🔬\n\n💰 USYD 合计约 $860 万澳元\n\n三条主攻方向：\n✅ 氢能系统（能源转型）\n✅ 可持续农业（家禽养殖改良）\n✅ 塑料循环（聚乙烯→可降解聚合物）\n\nARC Linkage 特点：行业方必须共同出资 + 参与人员，确保研究贴近产业，不是纯学术课题 💡\n\nEngineering / EnvSci / Agriculture 方向的同学注意了，相关 Honours 和 PhD 通常有行业导师，毕业去向清晰 👀\n\n#USYD #澳洲科研 #澳洲留学",
+      "tags": "#USYD #悉尼大学 #澳洲科研 #ARC #留学读博",
+      "wechat": ["USYD 16 项 ARC Linkage 产研合作获政府约 $860 万，方向：氢能+农业+塑料循环；行业方共同出资，PhD/Honours 有行业导师，Engineering/Materials/EnvSci 同学留意课题动态。"],
+      "community": ["USYD ARC 产研更新：16 项 Linkage 项目获批约 $860 万，氢能系统+可持续农业+塑料循环，有行业方共同出资协同。Engineering/Materials/EnvSci 看课题。"]
+    },
+    "p3": {
+      "title": "MySydney 首届 158 人本科毕业",
+      "body": "USYD 的 MySydney 奖学金计划首届毕业生出炉了 🎓\n\n📊 关键数据：\n• 2022 年启动，截至今年 3101 人已受益\n• 2026 年首届 158 名学者完成本科学业\n• $8,500 澳元 / 年，最长 5 年\n\n🎯 针对谁：居住在 SEIFA 底部 25% 社会经济弱势地区的澳洲本地生（国际生不适用）\n\n💡 国际生看这条有什么用？\n了解 USYD 对学生支持的投入程度 → 有助于择校判断\n国际生专项奖学金看这里：sydney.edu.au/scholarships/international.html\n\n#USYD #澳洲留学 #留学奖学金",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #留学奖学金 #大学选择",
+      "wechat": ["USYD MySydney 计划首届 158 名毕业，自 2022 年启动已有 3101 人受益，每年 $8,500 澳元；该计划针对国内弱势地区学生；国际生见 sydney.edu.au/scholarships/international.html。"],
+      "community": ["USYD MySydney 首届 158 名毕业，3101 人已受益 $8500/年奖学金（国内生专项）。国际生奖学金另见 USYD 官网国际奖学金页面。"]
+    },
+    "p4": {
+      "title": "USYD 产研+MySydney 一图看完",
+      "body": "USYD 6月3日两条更新：\n\n01 | ARC Linkage 16 项产研获批\n💰 USYD ~$860 万\n方向：氢能+农业+塑料循环\n\n02 | MySydney 首届 158 人毕业\n📚 3101 人已受益 · $8500/年\n国内弱势地区本科生专项\n国际生见：sydney.edu.au/scholarships\n\n关注 JR Academy 每天看澳洲大学动态 👀\n\n#USYD #悉尼大学 #澳洲留学",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #澳洲科研 #留学奖学金",
+      "wechat": ["USYD 6月3日：① ARC Linkage 16 项产研 $860 万（氢能+农业+塑料），PhD/Honours 有行业导师；② MySydney 首届 158 毕业 3101 人受益 $8500/年。"],
+      "community": ["今日 USYD 动态：① 16 项 ARC Linkage 产研 $860 万，三方向氢能+农业+塑料；② MySydney 首届 158 名毕业，3101 人受益。Engineering/Materials 同学注意课题。"]
+    },
+    "p5": {
+      "title": "USYD 今日速览：2 条核心",
+      "body": "6 月 3 日 USYD 速览：\n\n🔬 16 项 ARC Linkage 产研 $860 万\n— 氢能 + 农业 + 塑料 三方向\n— PhD/Honours 有行业协同\n\n🎓 MySydney 3101 人受益 首届 158 毕业\n— $8500/年 本科奖学金\n— 国内弱势地区生专项\n\n👉 关注 JR Academy 看 10 所澳洲大学每日动态\n\n#USYD #悉尼大学 #澳洲留学",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #澳洲科研 #留学奖学金"
+    }
+  },
+  "mp": {
+    "title": "悉尼大学 16 项 ARC 产研资助 $860 万 + MySydney 首届 158 人毕业",
+    "lead": "6 月 3 日，悉尼大学两条重要更新：ARC Linkage 支持 16 项 USYD 主导产学研合作约 $860 万（氢能+农业+塑料循环），以及 MySydney 计划 2022 届首批 158 名学生完成本科学业，3,101 人已受益年均 $8,500 奖学金。",
+    "meta": { "readTime": "约 3 分钟" },
+    "quickview": {
+      "title": "今日速览",
+      "items": [
+        "ARC Linkage 全国 178 项目 $9980 万 · USYD 获批 16 项约 $860 万",
+        "研究方向：氢能系统 / 可持续农业 / 环保塑料循环",
+        "MySydney 首届 158 名毕业 · 3101 人已受益 · $8500/年最长 5 年",
+        "国际生奖学金另见：sydney.edu.au/scholarships/international.html"
+      ]
+    },
+    "cta": {
+      "big": "关注 JR Academy 每天看澳洲大学动态",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步"
+    }
+  }
+}

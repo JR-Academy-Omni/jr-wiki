@@ -1,0 +1,331 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-03（Canvas 版）</title>
+<meta name="description" content="2026-06-03 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-03.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-03",
+  "summary": {
+    "hook": [
+      {
+        "text": "Anthropic "
+      },
+      {
+        "text": "近万亿估值 IPO",
+        "hl": true
+      },
+      {
+        "text": " · 微软 Build "
+      },
+      {
+        "text": "自研编程模型",
+        "hl": true
+      },
+      {
+        "text": " · Grok Composer "
+      },
+      {
+        "text": "2.5 发布",
+        "hl": true
+      }
+    ],
+    "sub": "Anthropic / Microsoft / xAI / OpenAI / Anthropic 五路重磅，AI 商业化与开发者生态双线爆发",
+    "items": [
+      {
+        "num": "01",
+        "cat": "IPO",
+        "numColor": "#7C3AED",
+        "t": "Anthropic 秘密提交 IPO 申请，估值 9650 亿美元"
+      },
+      {
+        "num": "02",
+        "cat": "开发者大会",
+        "numColor": "#2563EB",
+        "t": "微软 Build 2026 开幕，发布自研 GitHub Copilot 编程模型"
+      },
+      {
+        "num": "03",
+        "cat": "新模型",
+        "numColor": "#DC2626",
+        "t": "xAI Grok Composer 2.5 发布，基于 Kimi K2.5 专攻代理编程"
+      },
+      {
+        "num": "04",
+        "cat": "云计算",
+        "numColor": "#059669",
+        "t": "OpenAI 前沿模型及 Codex 正式在 AWS 上 GA"
+      },
+      {
+        "num": "05",
+        "cat": "订阅变更",
+        "numColor": "#D97706",
+        "t": "Anthropic 6 月 15 日拆分 Claude 订阅，Agent 用量独立计费"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-ipo-965b",
+      "idx": "01",
+      "catText": "IPO",
+      "accent": "#7C3AED",
+      "bg": {
+        "top": "#1e1b4b",
+        "mid": "#2e1065",
+        "bot": "#4c1d95",
+        "topRight": "#6d28d9"
+      },
+      "title": [
+        {
+          "text": "Anthropic 提交 IPO 申请"
+        },
+        {
+          "text": "估值 9650 亿美元",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Claude 母公司秘密递交 SEC 文件，"
+        },
+        {
+          "text": "年化营收 470 亿美元创 AI 企业新高",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 于 6 月 1 日向 SEC 秘密提交 IPO 申请，最新融资 650 亿美元后估值达 9650 亿美元，年化营收 470 亿"
+        },
+        {
+          "k": "为什么重要",
+          "v": "若成功上市将成近 10 年最大科技 IPO 之一，AI 独角兽「兑现」时刻验证整个行业估值体系"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Claude API 定价与服务 SLA 将受资本审视，短期开发者政策变化概率上升，宜备用多模型方案"
+        }
+      ],
+      "sourceQuote": "Anthropic announced that it raised $65 billion in a recent funding round, bringing its valuation to $965 billion. The company is now booking annualized revenue of $47 billion.",
+      "src": "📎 cbsnews.com · washingtonpost.com"
+    },
+    {
+      "slug": "02-microsoft-build-2026-copilot-model",
+      "idx": "02",
+      "catText": "开发者大会",
+      "accent": "#2563EB",
+      "bg": {
+        "top": "#1e3a5f",
+        "mid": "#1e40af",
+        "bot": "#1d4ed8",
+        "topRight": "#3b82f6"
+      },
+      "title": [
+        {
+          "text": "微软 Build 2026 开幕"
+        },
+        {
+          "text": "自研 AI 编程模型强化 GitHub Copilot",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Satya Nadella 旧金山登台，"
+        },
+        {
+          "text": "Azure 正式支持 Claude 企业级 SLA",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "微软 Build 2026 于 6 月 2 日在旧金山 Fort Mason 开幕，发布用于 GitHub Copilot 的自研 AI 编程模型"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Azure AI Foundry 将 Claude 等非 OpenAI 模型纳入正式企业级 SLA，多模型生态格局成型"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者在 Azure 生态内可无缝切换 GPT 与 Claude，Copilot 代码补全质量预计再上台阶"
+        }
+      ],
+      "sourceQuote": "Microsoft Build 2026 opens on June 2 at Fort Mason Center in San Francisco. Microsoft will unveil homegrown AI models including a coding model to strengthen GitHub Copilot. Azure AI Foundry will formalize Anthropic Claude and other non-OpenAI models as officially supported with enterprise SLAs.",
+      "src": "📎 buildfastwithai.com · heygotrade.com"
+    },
+    {
+      "slug": "03-xai-grok-composer-2-5-kimi-k2",
+      "idx": "03",
+      "catText": "新模型",
+      "accent": "#DC2626",
+      "bg": {
+        "top": "#1c0505",
+        "mid": "#450a0a",
+        "bot": "#7f1d1d",
+        "topRight": "#b91c1c"
+      },
+      "title": [
+        {
+          "text": "xAI 发布 Grok Composer 2.5"
+        },
+        {
+          "text": "基于 Kimi K2.5 · $0.50/M tokens 起",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Grok Build 内置，25× 合成训练数据，"
+        },
+        {
+          "text": "agentic 编程模型进入价格战",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 于 6 月 1 日发布 Composer 2.5，基于月之暗面 Kimi K2.5 开源检查点微调，专攻代理编程与工具调用"
+        },
+        {
+          "k": "为什么重要",
+          "v": "定价 $0.50/$2.50 per million tokens，较 Claude Sonnet 低约 80%，25 倍合成任务训练"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者可通过 xAI API 调用，多步骤编程 agent 成本大幅下降，开源基底支持本地自托管"
+        }
+      ],
+      "sourceQuote": "Composer 2.5 is an agentic coding model built on the open-source checkpoint of Moonshot's Kimi K2.5 and trained with 25 times more synthetic tasks than its predecessor. Pricing starts at $0.50 per million input tokens and $2.50 per million output tokens.",
+      "src": "📎 basenor.com · devops.com"
+    },
+    {
+      "slug": "04-openai-aws-ga-codex",
+      "idx": "04",
+      "catText": "云计算",
+      "accent": "#059669",
+      "bg": {
+        "top": "#022c22",
+        "mid": "#064e3b",
+        "bot": "#065f46",
+        "topRight": "#047857"
+      },
+      "title": [
+        {
+          "text": "OpenAI 前沿模型正式登陆 AWS"
+        },
+        {
+          "text": "Codex 同步 GA 开放",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "打破 Azure 独家依赖，"
+        },
+        {
+          "text": "数百万 AWS 企业直接调用 GPT 与 Codex",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 前沿模型与 Codex 在 AWS 上正式 GA，AWS 客户无需换平台即可通过现有账户调用"
+        },
+        {
+          "k": "为什么重要",
+          "v": "OpenAI 此前高度绑定 Azure，进入 AWS 标志正式多云战略，直接竞争 Amazon Bedrock 模型市场"
+        },
+        {
+          "k": "对你的影响",
+          "v": "已在 AWS 上的企业可直接切换到 GPT-4o 或 Codex，无需迁移平台，降低采用门槛"
+        }
+      ],
+      "sourceQuote": "OpenAI frontier models and Codex are now generally available on AWS, opening a new path for millions of AWS customers to build with OpenAI through the platform they already use to run their business.",
+      "src": "📎 openai.com · releasebot.io"
+    },
+    {
+      "slug": "05-anthropic-claude-subscription-split-june15",
+      "idx": "05",
+      "catText": "订阅变更",
+      "accent": "#D97706",
+      "bg": {
+        "top": "#1c1002",
+        "mid": "#451a03",
+        "bot": "#78350f",
+        "topRight": "#b45309"
+      },
+      "title": [
+        {
+          "text": "Anthropic 6 月 15 日拆分订阅"
+        },
+        {
+          "text": "Agent / Claude Code 用量独立计费",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "编程脚本与 SDK 调用移出订阅额度，"
+        },
+        {
+          "text": "Pro $20 / Max 5x $100 信用池独立扣费",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "6 月 15 日起，Claude Agent SDK、claude -p、Claude Code GitHub Actions 移入单独月度信用池"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Pro 获 $20 信用额度，Max 5x 获 $100，Max 20x 获 $200，超出后按 API 全价计费"
+        },
+        {
+          "k": "对你的影响",
+          "v": "重度使用 Claude Code 或 Agent SDK 的开发者需重新评估成本，可能需升配或改用 API 直接计费"
+        }
+      ],
+      "sourceQuote": "Starting June 15, 2026, programmatic usage of Claude via subscription plans moves to a separate monthly credit pool. Claude Agent SDK, claude -p, Claude Code GitHub Actions, and third-party agents move off your Claude subscription limit onto a separate monthly credit ($20 Pro / $100 Max 5x / $200 Max 20x) metered at full API rates.",
+      "src": "📎 devtoolpicks.com · anthropic.com"
+    }
+  ],
+  "mp": {
+    "title": "Anthropic 近万亿 IPO / 微软 Build 自研模型 / Grok Composer 2.5 / OpenAI 入驻 AWS / Claude 订阅拆分"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-03"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
