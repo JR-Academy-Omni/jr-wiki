@@ -58,7 +58,7 @@
 
 ## P3 · n8n-guide 补全（3 章 → 5 章）
 
-- [ ] n8n-guide/03-core-features.md — new-chapter: n8n 核心特性（不与 02-five-killer-workflows 重复，聚焦 trigger / node / expression 体系）
+- [x] n8n-guide/03-core-features.md — new-chapter: n8n 核心特性（不与 02-five-killer-workflows 重复，聚焦 trigger / node / expression 体系）
 - [ ] n8n-guide/04-advanced-tips.md — new-chapter: 高阶技巧（sub-workflow / error workflow / credentials 管理）
 - [ ] n8n-guide/05-faq.md — new-chapter: FAQ 与故障排查（常见报错 / 性能瓶颈 / 与 Make 对比）
 
