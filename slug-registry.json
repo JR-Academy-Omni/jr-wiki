@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-03T23:48:11.949Z",
+  "lockedAt": "2026-06-04T01:12:46.116Z",
   "version": 1,
   "slugs": [
     {
@@ -1529,6 +1529,16 @@
       "type": "chapter",
       "book": "n8n-guide",
       "slug": "04-ai-agent-advanced"
+    },
+    {
+      "type": "chapter",
+      "book": "n8n-guide",
+      "slug": "05-mcp-integration"
+    },
+    {
+      "type": "chapter",
+      "book": "n8n-guide",
+      "slug": "06-error-handling-monitoring"
     },
     {
       "type": "chapter",
