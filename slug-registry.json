@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-04T02:08:22.620Z",
+  "lockedAt": "2026-06-04T23:44:16.041Z",
   "version": 1,
   "slugs": [
     {
@@ -213,6 +213,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-06-04"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-06-05"
     },
     {
       "type": "article",
@@ -460,6 +464,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-06-05"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -533,6 +541,10 @@
     {
       "type": "article",
       "slug": "uni-news-adelaide-2026-06-02"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-adelaide-2026-06-05"
     },
     {
       "type": "article",
@@ -793,6 +805,10 @@
     {
       "type": "article",
       "slug": "uni-news-uq-2026-06-03"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-uq-2026-06-05"
     },
     {
       "type": "article",
@@ -1523,6 +1539,11 @@
       "type": "chapter",
       "book": "n8n-guide",
       "slug": "02-five-killer-workflows"
+    },
+    {
+      "type": "chapter",
+      "book": "n8n-guide",
+      "slug": "03-core-features"
     },
     {
       "type": "chapter",
