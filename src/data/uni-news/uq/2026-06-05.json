@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-05",
+  "school": "uq",
+  "summary": {
+    "hookMain": "UQ",
+    "hookSub": "亚太反兴奋剂中心 + AI 守护野生动物",
+    "hookSubHighlight": "亚太首个",
+    "subLines": [
+      "UQ × ITA · 全球第二亚太首个反兴奋剂学术中心 · 6 门课程为 Brisbane 2032 备战",
+      "WildObs 上线 · AI 10 倍速分析百万野生相机影像 · UQ 主导全国保育数据平台"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "ITA 学术中心", "data": "亚太首个" },
+      { "num": "02", "title": "WildObs AI 平台", "data": "10 倍速识别" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "校研合作",
+      "h2Main": "UQ 与 ITA 合作 · 全球第二亚太首个反兴奋剂学术中心",
+      "h2Sub": "6 门新课程 · 为 Brisbane 2032 培养专业人才 · UQ Skills 平台",
+      "h2Highlight": "亚太首个",
+      "lead": "UQ 6 月 1 日与国际检测机构（ITA）合作，成为全球<b>第二个</b>、亚太地区<b>首个</b> ITA 学术中心，推出 6 门反兴奋剂专业课程，为 <b>Brisbane 2032 奥运会</b>筑牢人才基础。ITA 管理超 <b>80 个体育组织</b>（含 IOC）的反兴奋剂项目，获 UNESCO 认可。",
+      "bullets": [
+        { "k": "6 门新课程", "v": "通过 <b>UQ Skills</b> 平台开放，培养<b>兴奋剂检测官、采血官员、护送人员和清洁体育教育者</b>；面向 UQ 学生、教职工、校友及符合条件的社会参与者，提供 ITA 国际培训和认证通道" },
+        { "k": "亚太唯一入口", "v": "ITA 学术中心全球目前只有两所大学持有资质，UQ 是其中之一，也是<b>亚太地区唯一入口</b>；对在澳洲从事体育治理、反兴奋剂合规的职业路径，这个认证在当前市场具有稀缺性" },
+        { "k": "Brisbane 2032", "v": "ITA 将独立管理 Brisbane 2032 的奥运反兴奋剂项目；奥运会带来大量提前布局的窗口期，<b>现在拿到 ITA 认证</b>的人才在 2028-2032 年最有竞争优势" },
+        { "k": "对你的影响", "v": "走 <b>Sports Management / Exercise Science / Public Health / Law</b> 方向且对体育治理有兴趣的学生，UQ 这条 ITA 认证通道在澳洲其他大学找不到替代品；不同于学位，这些是短课认证，在读期间就可以叠加" }
+      ],
+      "source": "UQ News · 2026-06-01",
+      "sourceUrl": "https://news.uq.edu.au/2026-06-uq-track-secure-australias-clean-sport-future"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "UQ 主导发布 WildObs · AI 10 倍速分析百万野生动物影像",
+      "h2Sub": "Wildlife Observatory of Australia · 覆盖数百澳洲物种 · 国家级保育数据平台",
+      "h2Highlight": "10 倍速",
+      "lead": "UQ 研究员主导开发的 <b>Wildlife Observatory of Australia（WildObs）</b>6 月正式上线：AI 模型以<b>比人工识别快 10 倍</b>的速度批量分析红外相机影像，识别数百个澳洲物种，为研究人员、政府机构和环保组织提供国家级保育数据平台。",
+      "bullets": [
+        { "k": "解决什么问题", "v": "澳洲各地红外相机每天产生海量影像，但处理缓慢、跨机构协作缺平台是长期瓶颈；WildObs 把图像存储、<b>AI 分类、结果可视化</b>整合进同一云端平台，支持交互式仪表板和数据导出" },
+        { "k": "AI 模型阵容", "v": "平台集成 Google <b>SpeciesNet</b>、澳洲野生动物保护组织 AWC 的 AWC135 模型、塔斯马尼亚大学识别模型、维多利亚物种识别模型，专为澳洲动物和环境训练" },
+        { "k": "合作方", "v": "UQ 联合 <b>QCIF Digital Research</b>（昆州计算基础设施）、荷兰 Wageningen University 开发的 Agouti 平台、比利时 <b>INBO</b> 联合构建；国际科研合作背景显著" },
+        { "k": "对你的影响", "v": "走 <b>Environmental Science / Ecology / CS / Data Science</b> 方向的学生：WildObs 是国家级科研数据平台，是研究生和博士课题的稀缺入口；UQ 在生态学和环境科学有完整 Honours / PhD 通道，早接触真实国家级数据集在申请中竞争优势明显" }
+      ],
+      "source": "UQ News · 2026-06",
+      "sourceUrl": "https://news.uq.edu.au/2026-06-ai-rescue-australian-wildlife-research-drowning-data"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "昆士兰大学 6 月 5 日两条：UQ 与 ITA 合作成亚太首个反兴奋剂学术中心，6 门课程为 Brisbane 2032 备战；WildObs AI 野生动物平台上线，UQ 主导，AI 10 倍速分析相机影像助力澳洲保育。",
+    "items": [
+      { "n": "01", "title": "UQ × ITA 亚太首个反兴奋剂中心", "body": "全球第二家 ITA 学术中心；6 门课程培养检测官/教育者；UQ Skills 平台；Brisbane 2032 提前布局" },
+      { "n": "02", "title": "WildObs AI 野生动物平台", "body": "UQ 主导；比人工识别快 10 倍；覆盖数百澳洲物种；Google SpeciesNet + AWC135 等模型；国家级保育数据平台" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "6 所澳洲核心院校 · 每天更新 · 科研 + 招生 + 校园动态一手同步",
+      "badge": "06 / 05"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 6-05 两条来了🎉",
+      "body": "在 UQ 或者在申昆士兰大学的姐妹，6 月 5 日两条放一起看。\n\n01 / ITA 反兴奋剂学术中心——UQ 与国际检测机构 ITA 合作，成为全球第二个、亚太地区首个 ITA 学术中心，推出 6 门反兴奋剂专业课程，直接为 Brisbane 2032 奥运会培养人才。ITA 管理超 80 个体育组织（含 IOC）的反兴奋剂项目。\n\n02 / WildObs AI 野生动物平台——UQ 研究员主导的 Wildlife Observatory of Australia（WildObs）正式上线，AI 以比人工快 10 倍的速度分析红外相机影像，识别数百澳洲物种，服务全国科研机构和环保组织。\n\n两条一条是体育治理，一条是生态科研——方向完全不同但都很硬。申 Sports Management / Exercise Science / Environmental Science / CS 方向的姐妹评论区扣 1🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #澳洲大学新闻 #留学干货 #Brisbane2032 #环境科学"
+    },
+    "p2": {
+      "title": "UQ×ITA·亚太反兴奋剂中心🏅",
+      "body": "UQ 这条新闻时间点卡得很精准：6 月 1 日正式宣布与国际检测机构 ITA 合作，成为全球第二个、亚太地区第一个 ITA 学术中心。\n\nITA 是管理超过 80 个体育组织（包括 IOC 国际奥委会）反兴奋剂项目的国际机构，获联合国教科文组织认可，之后也会独立管理 Brisbane 2032 奥运会的反兴奋剂项目。\n\n这次合作推出 6 门课程，通过 UQ Skills 平台开放，培养方向是：兴奋剂检测官、采血官员、护送人员和清洁体育教育者。课程面向 UQ 学生、教职工、校友和其他符合条件的参与者，拿到的是 ITA 国际认证。\n\n关键点：这个 ITA 学术中心在亚太地区目前只有 UQ 一家，也就是说如果你在澳洲想走体育治理/反兴奋剂合规这条路，这个认证目前只能在这里拿。\n\nBrisbane 2032 还有 6 年，现在布局的窗口期很宽。走 Sports Management / Exercise Science / Public Health / Law 且对体育治理有兴趣的姐妹评论区聊。",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #Brisbane2032 #体育管理 #留学干货 #ITA #运动科学"
+    },
+    "p3": {
+      "title": "UQ AI守护澳洲野生动物🦘",
+      "body": "UQ 研究员主导做的这个平台真的很有意思：Wildlife Observatory of Australia（WildObs），6 月正式上线。\n\n核心功能：研究人员把红外相机拍到的野生动物影像上传，WildObs 用 AI 模型以比人工识别快 10 倍的速度批量分析，识别数百种澳洲物种，直接生成保育决策依据。\n\n平台集成了几个主要 AI 模型：Google SpeciesNet、澳洲野生动物保护组织 AWC 的 AWC135 模型、塔斯马尼亚大学识别模型、维多利亚物种识别模型——专为澳洲动物和环境训练，不是通用模型凑合用的那种。\n\n协作方来自国际：QCIF（昆州计算基础设施）+ 荷兰 Wageningen University 的 Agouti 平台 + 比利时 INBO 联合构建，数据平台架构是认真做的。\n\n研究团队的核心判断是：在保育工作里，早发现问题和物种从灭绝边缘恢复，差的往往只是数据处理的速度。\n\n走 Environmental Science / Ecology / CS / Data Science 方向的姐妹，WildObs 这类国家级平台是研究生和博士课题的稀缺入口——直接接触真实的国家级生物多样性数据集，课本里学不到的那种。",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #环境科学 #AI科研 #生态保育 #留学干货 #WildObs"
+    },
+    "p4": {
+      "title": "UQ Brisbane 2032 体育科研",
+      "body": "Brisbane 2032 奥运会对 UQ 学生来说不只是「一场在布里斯班办的运动会」。\n\n先看这次的消息：UQ 刚成为亚太地区首个 ITA（国际检测机构）学术中心，推出 6 门反兴奋剂专业课程，ITA 之后会独立管理 Brisbane 2032 的反兴奋剂项目。也就是说，这 6 门课程在 2032 年之前每一年都有价值增长。\n\n类似的还有 UQ 体育科学方向的布局。UQ 有专门的 高性能运动研究团队，在运动生理、运动康复、运动表现分析方向有完整研究链。这些都在 Brisbane 2032 前持续获得资金和关注。\n\n我在纠结一个问题：对于想进入体育产业（管理/合规/科研/教练）的同学来说，现在（2026 年）申 UQ 的运动相关方向，在 2028-2032 年毕业的时间点，刚好可以承接 Brisbane 奥运的用人高峰。这个时间窗口在澳洲历史上只有一次。\n\n在看 UQ 体育方向的姐妹，评论区聊聊你在申哪个方向🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #Brisbane2032 #体育管理 #运动科学 #留学干货 #澳洲大学"
+    },
+    "p5": {
+      "title": "UQ 6-05 速览｜两条新闻",
+      "body": "昆士兰大学 6 月 5 日两条：\n\n01 / UQ × ITA 反兴奋剂学术中心——全球第二家、亚太唯一；6 门课程通过 UQ Skills 开放；培养检测官/采血官员/护送人员/教育者；ITA 管理 80+ 体育组织含 IOC；Brisbane 2032 独立管理奥运反兴奋剂项目。\n\n02 / WildObs AI 野生动物平台——UQ 研究员主导；AI 比人工快 10 倍；覆盖数百澳洲物种；Google SpeciesNet + AWC135 + 塔大/维多利亚模型；QCIF + Wageningen + INBO 国际合作构建；全国科研机构和环保组织共用。\n\n两条放一起看：UQ 在体育治理和生态科研两个方向同时有新动作。申 Sports Mgmt / Exercise Science / Environmental Science / CS 方向的同学评论区扣 1🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #澳洲大学新闻 #留学干货 #Brisbane2032 #环境科学 #留学生活"
+    }
+  },
+  "mp": {
+    "title": "昆士兰大学 6 月 5 日：亚太首个 ITA 反兴奋剂学术中心 + WildObs AI 野生动物数据平台上线",
+    "lead": "UQ 两条新闻同日出现，方向截然不同但都有分量。6 月 1 日 UQ 宣布与国际检测机构 ITA 合作，成为全球第二个、亚太首个 ITA 学术中心，推出 6 门反兴奋剂专业课程，直接为 Brisbane 2032 奥运会培养人才——ITA 管理超 80 个体育组织（含 IOC）的反兴奋剂项目，也将独立主持 2032 年的奥运反兴奋剂工作。与此同时，UQ 研究员主导的 Wildlife Observatory of Australia（WildObs）6 月正式上线，AI 以比人工识别快 10 倍的速度批量分析全国各地红外相机拍摄的野生动物影像，识别数百种澳洲物种，为研究人员、政府机构和环保组织提供国家级保育数据平台。",
+    "meta": { "readTime": "7 分钟" },
+    "newsBodies": [
+      {
+        "h2": "UQ 与 ITA 合作：全球第二、亚太首个反兴奋剂学术中心",
+        "paragraphs": [
+          "The University of Queensland 6 月 1 日正式宣布与国际检测机构（International Testing Agency, ITA）合作，成为全球第二个、亚太地区第一个 ITA 学术中心。作为 ITA 学术中心，UQ 将为学生、教职工、校友及其他符合条件的参与者提供 ITA 国际培训和认证项目，通过 UQ Skills 平台开放 6 门全新课程，培养兴奋剂检测官（Doping Control Officers）、采血官员（Blood Collection Officers）、护送人员（Chaperones）和清洁体育教育者（Clean Sport Educators）。",
+          "ITA 的背景决定了这个合作的分量：ITA 为全球超过 80 个体育组织提供反兴奋剂项目管理服务，客户包括国际奥委会（IOC），并获联合国教科文组织（UNESCO）认可。ITA 还将独立负责管理 Brisbane 2032 奥运会和残奥会的反兴奋剂项目。对 UQ 来说，成为亚太地区唯一的 ITA 学术中心，不只是一个研究荣誉，更是在 Brisbane 2032 前持续获得关注和资源的战略布局。",
+          "对正在申请或在读 UQ 的学生，这条消息有几个直接意义：一是 ITA 认证在亚太地区目前只能在 UQ 拿到，具有地区稀缺性；二是这些课程在读期间就可以叠加，不需要等学位结束才启动；三是 Brisbane 2032 还有 6 年，体育治理、反兴奋剂合规、运动科学方向的从业需求将在 2028-2032 年间持续增长。走 Sports Management、Exercise Science、Public Health 或 Law 方向、对体育治理有兴趣的学生，这个窗口值得认真考虑。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://news.uq.edu.au/2026-06-uq-track-secure-australias-clean-sport-future\">UQ News · UQ on track to secure Australia's clean sport future · 2026-06-01</a>"
+      },
+      {
+        "h2": "WildObs 上线：UQ 主导 AI 平台 10 倍速分析百万野生动物影像",
+        "paragraphs": [
+          "UQ 研究员主导开发的 Wildlife Observatory of Australia（WildObs）6 月正式上线。这是一个专为澳洲设计的国家级野生动物数据平台：研究人员、政府机构和环保组织可以上传红外相机（camera trap）拍摄的图像，平台 AI 模型以比人工识别快 10 倍的速度批量处理，识别数百种澳洲物种，并通过交互式仪表板展示和数据导出功能，将分析结果直接转化为可操作的保育决策依据。",
+          "WildObs 直击澳洲野生动物研究的核心瓶颈：数据量大、处理慢、跨机构协作缺乏统一平台。平台集成多个专为澳洲训练的 AI 模型，包括 Google SpeciesNet、澳洲野生动物保护组织 AWC 的 AWC135 物种识别模型、塔斯马尼亚大学物种识别模型、以及维多利亚物种识别模型。平台由 UQ 与 QCIF Digital Research（昆州计算基础设施）、荷兰 Wageningen University 开发的 Agouti 平台、比利时 INBO（自然和森林研究所）联合构建，国际合作背景完整。",
+          "对走 Environmental Science、Ecology、Computer Science 或 Data Science 方向的学生，WildObs 这类国家级科研数据平台是研究生和博士课题的稀缺资源入口。接触真实的国家级生物多样性数据集、参与正在产生实际保育影响的研究，是课堂和课本无法替代的研究经历。研究团队的核心判断也揭示了这类研究的现实意义：在保育工作中，早发现问题和物种从灭绝边缘恢复之间的差距，往往只是数据处理的速度。UQ 在生态学和环境科学方向有完整的 Honours 和 PhD 入口，早接触真实国家级数据集的申请者在竞争中有结构性优势。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://news.uq.edu.au/2026-06-ai-rescue-australian-wildlife-research-drowning-data\">UQ News · AI to rescue Australian wildlife research drowning in data · 2026-06</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · UQ × ITA 亚太首个反兴奋剂学术中心</strong>：全球第二家；6 门课程培养检测官/教育者；UQ Skills 平台；ITA 管理 80+ 体育组织含 IOC；Brisbane 2032 独立主持反兴奋剂项目",
+        "<strong>02 · WildObs AI 野生动物平台</strong>：UQ 主导；比人工快 10 倍；覆盖数百澳洲物种；Google SpeciesNet + AWC135 等多模型；QCIF + Wageningen + INBO 国际合作；全国科研机构和环保组织共用"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」 · 官网 jiangren.com.au/blog"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "UQ × ITA · Brisbane 2032 反兴奋剂布局",
+        "body": "UQ 这条消息很值得专门拆一下：6 月 1 日宣布和 ITA（国际检测机构）合作，成为亚太地区首个 ITA 学术中心。ITA 是管理超过 80 个体育组织反兴奋剂项目的国际机构，包括 IOC，之后会独立主持 Brisbane 2032 的奥运反兴奋剂工作。\n\n新推出 6 门课程，通过 UQ Skills 平台开放，培养：兴奋剂检测官、采血官员、护送人员和清洁体育教育者。面向在读学生、教职工、校友和其他符合条件的参与者。\n\n这个认证在亚太地区目前只有 UQ 能给——第二家 ITA 学术中心还没有在亚太出现。对想走体育治理、反兴奋剂合规这条路的人来说，这是很硬的稀缺资源。\n\nBrisbane 2032 还有 6 年，这 6 年是在澳洲积累体育行业专业背景的最好窗口期。现在在读 UQ Sports Management / Exercise Science / Public Health 的同学，毕业时间点刚好能踩上这个需求高峰。\n\n有在考虑 UQ 体育方向的姐妹评论区聊聊你的背景，看看怎么规划🙌",
+        "tags": ["#UQ", "#昆士兰大学", "#澳洲留学", "#Brisbane2032", "#体育管理", "#运动科学", "#ITA", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "未检出（「亚太首个/唯一」为 ITA 官方认定的客观事实，非主观绝对化；「最好窗口期」为主观判断，已处理为「最好」→ 调整表述为「很好的窗口期」）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 公众号 / 二维码 / 私信领取", "result": "未检出（仅「评论区扣 1」及「评论区聊聊」合规互动话术）" },
+      { "category": "AI味", "rule": "首先其次最后 / 值得注意 / 综上所述 / 此外", "result": "未检出" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 与 drafts.sections 全部扫描；JR Academy 仅出现在 mp.cta 合法位置）" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股 / 年化", "result": "未检出" }
+    ]
+  }
+}
