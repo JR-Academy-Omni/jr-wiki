@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>销售培训手册 #3 · 把销售做得像个人 · 匠人学院</title>
+<style>
+  :root {
+    --bg: #faf9f5;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --ink-2: #555;
+    --ink-3: #888;
+    --line: #000;
+    --primary: #d97757;
+    --primary-dark: #b85c3f;
+    --warn-bg: #fff8e7;
+    --warn-line: #ffb800;
+    --warn-ink: #4d3800;
+    --danger-bg: #ffe8e8;
+    --danger-line: #d62828;
+    --danger-ink: #8b1818;
+    --good-bg: #dcfce7;
+    --good-line: #16a34a;
+    --info-bg: #dbeafe;
+    --info-line: #3b82f6;
+    color-scheme: light;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--primary-dark); }
+  a:hover { text-decoration: underline; }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+  .hero {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    box-shadow: 6px 6px 0 var(--line);
+    padding: 40px 36px;
+    margin-bottom: 40px;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 999px;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+  }
+  .hero h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 0 0 12px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 .accent { color: var(--primary); }
+  .hero-sub {
+    font-size: 17px;
+    color: var(--ink-2);
+    margin: 0 0 24px;
+    max-width: 720px;
+  }
+  .motto {
+    border: 1px solid var(--line);
+    background: #fef3c7;
+    border-radius: 12px;
+    box-shadow: 3px 3px 0 var(--line);
+    padding: 16px 20px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .motto small { display: block; font-size: 13px; font-weight: 500; color: var(--ink-2); margin-top: 6px; }
+  .section { margin-bottom: 48px; }
+  .section-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 16px; }
+  .section-num {
+    background: var(--ink);
+    color: #fff;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 4px 10px;
+    flex-shrink: 0;
+  }
+  .section h2 { font-size: 24px; margin: 0; font-weight: 800; }
+  .section-lead { color: var(--ink-2); margin: 0 0 20px; max-width: 760px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 4px 4px 0 var(--line);
+    padding: 20px 24px;
+    margin-bottom: 16px;
+  }
+  .card h3 { margin: 0 0 10px; font-size: 17px; }
+  .scene {
+    border-left: 4px solid var(--primary);
+    background: #fff;
+    border-radius: 0 12px 12px 0;
+    border-top: 1px solid #e5e2d9;
+    border-right: 1px solid #e5e2d9;
+    border-bottom: 1px solid #e5e2d9;
+    padding: 14px 18px;
+    margin: 12px 0;
+  }
+  .scene .who { font-weight: 700; }
+  .scene p { margin: 6px 0; }
+  .scene .note { color: var(--ink-3); font-size: 13px; }
+  .callout { border-radius: 12px; padding: 14px 18px; margin: 14px 0; border: 1px solid; }
+  .callout.bad { background: var(--danger-bg); border-color: var(--danger-line); color: var(--danger-ink); }
+  .callout.good { background: var(--good-bg); border-color: var(--good-line); color: #14532d; }
+  .callout.warn { background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-ink); }
+  .callout.info { background: var(--info-bg); border-color: var(--info-line); color: #1e3a8a; }
+  .callout strong { display: block; margin-bottom: 4px; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; background: #fff; font-size: 14px; }
+  th, td { border: 1px solid #d8d4c8; padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: #f0eee5; font-weight: 700; }
+  td .bad-x { color: var(--danger-line); font-weight: 700; }
+  td .good-v { color: var(--good-line); font-weight: 700; }
+  ul, ol { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .checklist label { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-bottom: 1px dashed #ddd; cursor: pointer; }
+  .checklist label:last-child { border-bottom: none; }
+  .checklist input { margin-top: 4px; }
+  footer { margin-top: 56px; color: var(--ink-3); font-size: 13px; border-top: 1px dashed #ccc; padding-top: 20px; }
+  .series-nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+  .series-nav a {
+    display: inline-block;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink);
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 999px;
+    box-shadow: 2px 2px 0 var(--line);
+    text-decoration: none;
+  }
+  .series-nav a:hover { text-decoration: none; transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--line); }
+  .series-nav a.active { background: var(--ink); color: #fff; }
+  @media (max-width: 640px) {
+    .hero { padding: 28px 20px; }
+    .hero h1 { font-size: 28px; }
+    table { font-size: 13px; }
+    th, td { padding: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="series-nav">
+    <a href="../">#1 顺人性销售</a>
+    <a href="../community/">#2 社群销售</a>
+    <a class="active" href="./">#3 把销售做得像个人</a>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <div class="hero">
+    <span class="hero-eyebrow">SALES 培训手册 · 第三册</span>
+    <h1>把销售做得像个人：<span class="accent">客户先买你，再买课</span></h1>
+    <p class="hero-sub">
+      前两册讲方法（怎么不推走客户、怎么运营群）。这一册讲<strong>你自己</strong> ——
+      客户每天被几十个销售加微信，绝大多数三句话内就能认出来「这是个销售号」，然后心理上归档为「广告」。
+      你要做的是让客户认出来：<strong>对面是个活人。</strong>人只会信任人。
+    </p>
+    <div class="motto">
+      机器味是默认值，人味要刻意练。
+      <small>客服腔、秒回、永远积极、永远完美 —— 全是机器特征。有名字、有生活、会说不知道、敢劝退 —— 才是人。</small>
+    </div>
+  </div>
+
+  <!-- ======================== 1. 戒掉客服腔 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">01</span><h2>第一步：戒掉客服腔，说人话</h2></div>
+    <p class="section-lead">
+      客服腔是机器味的最大来源。门店里你也见过：背话术的店员开口「欢迎光临本店，本店全场参加满减活动」——
+      你瞬间知道接下来全是套路。而好的店员说的是：「外面热吧，里面有空调先凉快会儿。」
+    </p>
+    <div class="card">
+      <table>
+        <tr><th>客服腔（机器味）</th><th>人话</th></tr>
+        <tr><td><span class="bad-x">❌</span> 「亲，感谢您的咨询，请问有什么可以帮到您的呢？」</td><td><span class="good-v">✅</span> 「看到你昨天在讲座上问的那个问题了，我帮你问了讲师」</td></tr>
+        <tr><td><span class="bad-x">❌</span> 「您好呢～我们的课程体系是非常完善的哦」</td><td><span class="good-v">✅</span> 「这个班说实话节奏挺快的，每周得保证 10 小时，你现在工作忙吗？」</td></tr>
+        <tr><td><span class="bad-x">❌</span> 「已为您登记，后续会有专人跟进您的需求」</td><td><span class="good-v">✅</span> 「我记下了，周四开课表出来我第一时间发你」</td></tr>
+        <tr><td><span class="bad-x">❌</span> 句尾堆「呢/哦/呀/～」装亲切</td><td><span class="good-v">✅</span> 正常标点正常说话 —— 亲切感来自内容具体，不来自语气词</td></tr>
+        <tr><td><span class="bad-x">❌</span> 复制粘贴的长段课程介绍（一眼模板）</td><td><span class="good-v">✅</span> 针对他说过的话回应：「你不是说想转数据吗，这个项目正好是做 dashboard 的」</td></tr>
+      </table>
+      <div class="callout info">
+        <strong>判别公式：这句话能原封不动发给 100 个人吗？</strong>
+        能 = 模板 = 机器味。人话的特征是「只对这个人成立」—— 里面有他说过的话、他的情况、他的名字。
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 2. 有名有脸有生活 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">02</span><h2>有名字、有脸、有生活：经营你的「人设资产」</h2></div>
+    <p class="section-lead">
+      客户加你微信后干的第一件事：点开你头像、翻你朋友圈。三秒钟内给你归类 ——「活人」还是「广告号」。
+      这三秒决定了你之后发的每条消息他用什么滤镜看。
+    </p>
+    <div class="card">
+      <h3>朋友圈不是广告墙，是你的「店面橱窗」</h3>
+      <p>橱窗里只挂促销海报的店没人想进。建议的内容配比（不必精确，方向对就行）：</p>
+      <table>
+        <tr><th>内容</th><th>占比</th><th>例子</th></tr>
+        <tr><td>真实工作日常 + 个人生活观察</td><td>约一半</td><td>「今天帮一个学员改简历改到第 4 版，他原来把最值钱的项目写在最后」/ 周末爬山 / 读了什么书</td></tr>
+        <tr><td>学员真实故事（经同意）</td><td>约三成</td><td>具体的人 + 具体的转折：「他 35 岁，零基础，第 9 周做出第一个能跑的项目」—— 不是「恭喜 XX 学员高薪上岸」模板</td></tr>
+        <tr><td>课程 / 活动信息</td><td>两成以内</td><td>开班、讲座 —— 一条说清楚，不连发</td></tr>
+      </table>
+      <ul>
+        <li><strong>头像用真人照</strong>（工作照、生活照都行），不用 logo、不用网图。</li>
+        <li><strong>名字像个人</strong>：「匠人学院-Amelia」可以，「匠人学院课程咨询9号」不行。</li>
+        <li>发课程信息时<strong>带自己的判断</strong>：「这期讲师是我自己也蹭过课的，Lab 部分讲得最好」—— 有立场的推荐才像人。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🚨 两个当前真实存在的问题（点名整改）</h3>
+      <table>
+        <tr><th>现状</th><th>为什么是问题</th><th>怎么改</th></tr>
+        <tr>
+          <td><strong>个人小红书和工作完全切割</strong>，单独运营，跟匠人学院零关联</td>
+          <td>客户搜你名字 / 刷到你，看到的是一个「和这份工作无关的人」—— 你白白扔掉了最强的信任资产。门店类比：店员下班后跟人聊天绝口不提自己在哪上班 —— 客人会想「他是不是自己都不认这家店」。</td>
+          <td>不要求把个人号变成广告号（那是反面）。要求的是<strong>不切割</strong>：简介里写真实身份（「在墨尔本做 IT 教育」）；日常内容里自然出现工作场景（今天帮学员改简历的一个发现、活动现场一张图）。个人号的「人味」+ 真实职业身份 = 客户能搜到的活体信任证明。</td>
+        </tr>
+        <tr>
+          <td><strong>公司视频号的内容从来不转发</strong> —— 自己讲的课、自己出镜的活动、学员的故事，发了就当没发生</td>
+          <td>视频号的分发逻辑靠社交链：朋友点赞/转发，他的朋友才刷得到。销售一个都不转 = 公司内容的社交分发起点是零。更糟的信号：<strong>连自己人都不转的内容，客户凭什么信？</strong>门店类比：新品上架，店员自己都不愿穿出来给客人看。</td>
+          <td>转发<strong>必须带一句自己的话</strong>，硬转 = 广告，带评语 = 推荐：「这期讲座我在现场，QA 环节比正片还精彩」「这个学员是我跟进的，他第一次来咨询的时候连 Python 都没装过」。一周一两条足够，转发的筛选标准就一条：<strong>这条内容你愿不愿意发给你自己的朋友看。</strong>不愿意 —— 反馈给内容团队为什么，这个反馈本身就值钱。</td>
+        </tr>
+      </table>
+      <div class="callout warn">
+        <strong>底层逻辑：客户不是从公司账号买课的，是从「你」这里买的。</strong>
+        公司账号再专业也是机构；你的个人号 + 你转发时说的那句话，才是客户眼里的「活人背书」。
+        个人渠道和公司内容切割，等于销售亲手把自己降级成「转账通道」。
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 3. 敢说真话敢劝退 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">03</span><h2>最强的人味：敢说真话，敢劝退</h2></div>
+    <p class="section-lead">
+      机器永远说「都适合您」。人会说「这个不适合你」。
+      <strong>一次真诚的劝退，建立的信任比十次成交话术都多 —— 而且这个信任会变成转介绍。</strong>
+    </p>
+    <div class="card">
+      <h3>👕 服装店场景：那句「别买这件」值多少钱</h3>
+      <div class="scene">
+        <p><span class="who">客户</span>：（试完一件，在镜子前犹豫）</p>
+        <p><span class="who">店员</span>：「说实话这件显得肩宽，不值这个价。你刚才看的那件落肩的更合适 —— 那件还便宜八十。」</p>
+        <p class="note">客户当场对这个店员卸下全部戒心：他居然劝我买便宜的。之后这个店员说什么，客户都信。下次买衣服只找他，还带朋友来。</p>
+      </div>
+      <p>我们的版本：</p>
+      <table>
+        <tr><th>场景</th><th>机器答法</th><th>人的答法</th></tr>
+        <tr><td>零基础想直接报最贵的陪跑班</td><td>「好的，陪跑班服务最全面」</td><td>「先别。你这个基础直接上陪跑班，前三周会很痛苦。先把免费的 X 学完，两周后你再来找我，那时候报什么班你自己就有判断了」</td></tr>
+        <tr><td>问「学完真能找到工作吗」</td><td>「我们就业服务非常完善」</td><td>「我不能承诺工作 —— 谁承诺你都别信。我能给你看的是上几期学员的真实作品和去向，你自己判断这个训练强度值不值」</td></tr>
+        <tr><td>时间明显不够还想报</td><td>「课程都有回放的，不用担心」</td><td>「你刚说每周只有 5 小时，这个班要 10 小时起。要么等下一期，要么先上节奏慢的 —— 报了跟不上，钱和信心都浪费」</td></tr>
+      </table>
+      <div class="callout good">
+        <strong>劝退不是放弃这单，是把这单换成了更大的资产：</strong>
+        被劝退的人几乎必然回来（时机到了第一个想起你），而且会转介绍（「那个顾问不坑人，你去找她」）。
+        这也和红线完全一致 —— 我们本来就不承诺就业和金钱。
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 4. 记住人 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">04</span><h2>记住「人」，不只记「线索」</h2></div>
+    <p class="section-lead">
+      老店员的超能力：客人半年后再进店，他说得出「上次你买的那件外套穿着怎么样？」—— 客人瞬间被击中。
+      CRM 系统记的是线索状态；<strong>人记的是对方的生活。</strong>
+    </p>
+    <div class="card">
+      <ul>
+        <li>每次聊完，在跟进记录里<strong>额外记一行「人情字段」</strong>：孩子下月中考 / 正在等 PR / 下周搬家去布里斯班 / 养了只柯基。系统里有没有这个字段不重要，备注里写上。</li>
+        <li>下次开口<strong>先接上次的话头</strong>，再谈正事：「孩子中考结束了吧？考得怎么样？」—— 这一句比任何话术都暖。</li>
+        <li>时间节点比内容更有人味：他说「等忙完这个项目」→ 备注里记下大概时间，到点了问一句「项目上线了没？」—— 不提课，就问项目。</li>
+        <li><span class="bad-x">❌</span> 反例：每次开场都是「最近考虑得怎么样啦」—— 暴露了你根本不记得他是谁，只记得他没付钱。</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ======================== 5. 允许不完美 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">05</span><h2>允许自己不完美：机器才永远正确、永远秒回</h2></div>
+    <div class="card">
+      <table>
+        <tr><th>机器特征</th><th>人的特征</th></tr>
+        <tr><td>什么都答得上来（哪怕是编的）</td><td>「这个我还真不确定，我去问下教学组，明天给你准信」—— <strong>然后明天真的回</strong></td></tr>
+        <tr><td>任何时间秒回</td><td>正常工作节奏回复；deep work 时晚点回很正常，回的时候认真回</td></tr>
+        <tr><td>永远积极亢奋，全是感叹号</td><td>有正常的情绪温度；该认真时认真，该轻松时轻松</td></tr>
+        <tr><td>错了绝不承认，绕话术</td><td>「上次我说错了，那个班是 12 周不是 10 周，抱歉」—— 主动纠错可信度暴涨</td></tr>
+        <tr><td>深夜 / 周末群发促销</td><td>尊重对方的时间 —— 这本身就是人味</td></tr>
+      </table>
+      <div class="callout warn">
+        <strong>「我不知道，我去查」是最被低估的信任建设动作。</strong>
+        客户的防骗雷达专门扫「什么都拍胸脯的人」。承认知识边界 = 证明你说的其他话都是真的。
+        （这也呼应公司铁律：禁止瞎编 —— 对客户和对内一样适用。）
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 6. 关系先于交易 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">06</span><h2>允许聊「无关」的：关系先于交易</h2></div>
+    <p class="section-lead">
+      客户跟你聊签证、聊澳洲生活、聊孩子上学 —— 这些「跟课无关」的话题不是浪费时间，<strong>是他在测试你是不是只想要他的钱。</strong>
+    </p>
+    <div class="card">
+      <ul>
+        <li>他聊，你就认真聊。知道的分享，不知道的说不知道 —— 不要三句话拐回课程（一拐他就确认了「果然只想卖课」）。</li>
+        <li>这些闲聊全是第一册说的「第三方出口」素材：聊签证 = 暴露时间规划；聊孩子 = 暴露预算优先级；聊工作吐槽 = 暴露转行动机。<strong>不用问，听就行。</strong></li>
+        <li>把握度：闲聊是「他发起你接住」，不是你没话找话尬聊 —— 主动尬聊又变回另一种话术。</li>
+      </ul>
+      <div class="callout info">
+        <strong>「顺人性做销售，逆人性做自己」在这一册的落点：</strong>
+        看到聊天就想拐回成交，是本能 —— 忍住。本月 KPI 焦虑让你想群发催单，是本能 —— 忍住。
+        客户感觉不到你急，才会按自己的节奏走向成交；你一急，他就跑。
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 7. 向公司要弹药 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">07</span><h2>向公司要弹药：反馈是销售的隐藏工作（🚨 当前真实问题）</h2></div>
+    <p class="section-lead">
+      现状：<strong>销售从来不反馈「我们需要什么资料」。</strong>客户每天在问的问题、卡单的异议、被打动的瞬间 ——
+      全烂在每个人的聊天记录里。内容团队只能闭着眼睛产内容，销售只能徒手打仗。
+    </p>
+    <div class="card">
+      <h3>👕 门店类比：客人天天问，店长永远不知道</h3>
+      <div class="scene">
+        <p><span class="who">客人</span>：（一天里第五个）「这件有没有加大码？」</p>
+        <p><span class="who">店员</span>：「没有哦。」（客人走了。店员继续理货，什么也没记，什么也没说）</p>
+        <p class="note">店长永远不知道加大码一天被问五次 —— 下个月进货还是没有。店员觉得「进货不是我的事」，于是每天眼睁睁看客人因为同一个原因流失。</p>
+      </div>
+      <p><strong>销售坐在全公司最值钱的情报入口上</strong>：客户的原话只有你听得到。你不上报，公司就在盲打。</p>
+    </div>
+
+    <div class="card">
+      <h3>五类必须反馈的情报（每周至少挑一类说一次）</h3>
+      <table>
+        <tr><th>情报</th><th>例子</th><th>反馈之后会发生什么</th></tr>
+        <tr><td><strong>高频问题，但我手上没有现成资料</strong></td><td>「这周 4 个人问『35 岁转行是不是太晚』，我每次都要现编」</td><td>内容团队做成文章 / 学员故事 / 视频 —— 下次你直接转发，比现编强十倍</td></tr>
+        <tr><td><strong>哪个素材真的打动过客户</strong></td><td>「上次发那个学员作品集，客户当天就约了试听」</td><td>有效素材加量产，无效的停产 —— 你在帮内容团队校准弹药</td></tr>
+        <tr><td><strong>卡单的异议 Top</strong></td><td>「最近三个单全卡在『怕学不会』，我缺一个能展示上课强度的东西」</td><td>针对性产出：试听片段 / 课程节奏表 / 同背景学员的过程记录</td></tr>
+        <tr><td><strong>转不出去的内容，为什么转不出去</strong></td><td>「这条视频号我没转 —— 开头 30 秒都是 logo 动画，朋友圈没人会点」</td><td>承接第 02 章：这个反馈比转发本身还值钱</td></tr>
+        <tr><td><strong>客户拿竞品说什么</strong></td><td>「客户说 XX 机构承诺包就业还便宜两千」</td><td>公司层面出应对口径（我们不承诺就业，但能给你看真实作品和去向）—— 而不是每个销售各自瞎应对</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h3>怎么反馈：不要求写报告，一条消息就行</h3>
+      <ul>
+        <li><strong>最低成本动作</strong>：把客户的提问（脱敏）转给内容 / marketing 负责人 + 一句「这种问题我没有好资料」。十秒钟，足够。</li>
+        <li><strong>固定渠道</strong>：周会留 3 分钟「销售要弹药」环节；或直接在 admin 的 Marketing 任务看板提需求建卡（说清楚：什么场景 / 客户原话 / 期望什么形式的资料）。</li>
+        <li><strong>不反馈的三个借口，全不成立</strong>：
+          「这不是我的活」—— 是你的活，弹药是给你用的；
+          「怕暴露我不会答」—— 不会答很正常，徒手打仗才丢人；
+          「说了也没人做」—— 提了没人接是管理问题，会被追责；不提则永远没人知道。</li>
+      </ul>
+      <div class="callout good">
+        <strong>把这章和第 05 章连起来看：「我不知道，我去查」对客户说完，回头就该对公司说「我需要一个能答这个问题的资料」。</strong>
+        前半句建立客户信任，后半句让你下次不再需要说前半句 —— 这才是闭环。
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 8. 自检 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">08</span><h2>每周一次的「人味自检」</h2></div>
+    <div class="card checklist">
+      <label><input type="checkbox"> 翻自己最近发出的 10 条消息：有几条是<strong>只对这个人成立</strong>的？（少于一半 = 机器味超标）</label>
+      <label><input type="checkbox"> 我的朋友圈最近 10 条里，课程广告超过 2 条了吗？</label>
+      <label><input type="checkbox"> 本周我有没有说过至少一次「这个我不确定，我去查」？（一次都没有 = 可能在硬编）</label>
+      <label><input type="checkbox"> 本周我有没有劝退过明显不合适的人？（从没劝退过 = 客户迟早发现你来者不拒）</label>
+      <label><input type="checkbox"> 随便抽一个跟进中的客户：我说得出他<strong>一件和课程无关的事</strong>吗？</label>
+      <label><input type="checkbox"> 本周我有没有向公司反馈过<strong>至少一条「我需要什么资料」</strong>？（第 07 章五类挑一类）</label>
+    </div>
+  </div>
+
+  <footer>
+    匠人学院 · Sales 培训手册 #3（把销售做得像个人）· 内部资料，请勿外传<br>
+    上一册：<a href="../community/">#2 社群销售</a> · 第一册：<a href="../">#1 顺人性销售</a> · 红线总表见 Sales Track ramp-up
+  </footer>
+
+</div>
+</body>
+</html>

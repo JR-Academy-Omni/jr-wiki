@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>销售培训手册 #1 · 顺人性销售 · 匠人学院</title>
+<style>
+  :root {
+    --bg: #faf9f5;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --ink-2: #555;
+    --ink-3: #888;
+    --line: #000;
+    --primary: #d97757;
+    --primary-dark: #b85c3f;
+    --warn-bg: #fff8e7;
+    --warn-line: #ffb800;
+    --warn-ink: #4d3800;
+    --danger-bg: #ffe8e8;
+    --danger-line: #d62828;
+    --danger-ink: #8b1818;
+    --good-bg: #dcfce7;
+    --good-line: #16a34a;
+    --info-bg: #dbeafe;
+    --info-line: #3b82f6;
+    color-scheme: light;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--primary-dark); }
+  a:hover { text-decoration: underline; }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+
+  /* Hero */
+  .hero {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    box-shadow: 6px 6px 0 var(--line);
+    padding: 40px 36px;
+    margin-bottom: 40px;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 999px;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+  }
+  .hero h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 0 0 12px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 .accent { color: var(--primary); }
+  .hero-sub {
+    font-size: 17px;
+    color: var(--ink-2);
+    margin: 0 0 24px;
+    max-width: 720px;
+  }
+  .motto {
+    border: 1px solid var(--line);
+    background: #fef3c7;
+    border-radius: 12px;
+    box-shadow: 3px 3px 0 var(--line);
+    padding: 16px 20px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .motto small { display: block; font-size: 13px; font-weight: 500; color: var(--ink-2); margin-top: 6px; }
+
+  /* Section */
+  .section { margin-bottom: 48px; }
+  .section-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 16px; }
+  .section-num {
+    background: var(--ink);
+    color: #fff;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 4px 10px;
+    flex-shrink: 0;
+  }
+  .section h2 { font-size: 24px; margin: 0; font-weight: 800; }
+  .section-lead { color: var(--ink-2); margin: 0 0 20px; max-width: 760px; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 4px 4px 0 var(--line);
+    padding: 20px 24px;
+    margin-bottom: 16px;
+  }
+  .card h3 { margin: 0 0 10px; font-size: 17px; }
+
+  /* Scene dialog */
+  .scene {
+    border-left: 4px solid var(--primary);
+    background: #fff;
+    border-radius: 0 12px 12px 0;
+    border-top: 1px solid #e5e2d9;
+    border-right: 1px solid #e5e2d9;
+    border-bottom: 1px solid #e5e2d9;
+    padding: 14px 18px;
+    margin: 12px 0;
+  }
+  .scene .who { font-weight: 700; }
+  .scene p { margin: 6px 0; }
+  .scene .note { color: var(--ink-3); font-size: 13px; }
+
+  /* Callouts */
+  .callout { border-radius: 12px; padding: 14px 18px; margin: 14px 0; border: 1px solid; }
+  .callout.bad { background: var(--danger-bg); border-color: var(--danger-line); color: var(--danger-ink); }
+  .callout.good { background: var(--good-bg); border-color: var(--good-line); color: #14532d; }
+  .callout.warn { background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-ink); }
+  .callout.info { background: var(--info-bg); border-color: var(--info-line); color: #1e3a8a; }
+  .callout strong { display: block; margin-bottom: 4px; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; background: #fff; font-size: 14px; }
+  th, td { border: 1px solid #d8d4c8; padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: #f0eee5; font-weight: 700; }
+  td .bad-x { color: var(--danger-line); font-weight: 700; }
+  td .good-v { color: var(--good-line); font-weight: 700; }
+
+  ul, ol { padding-left: 22px; }
+  li { margin: 6px 0; }
+
+  /* Checklist */
+  .checklist label { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-bottom: 1px dashed #ddd; cursor: pointer; }
+  .checklist label:last-child { border-bottom: none; }
+  .checklist input { margin-top: 4px; }
+
+  footer { margin-top: 56px; color: var(--ink-3); font-size: 13px; border-top: 1px dashed #ccc; padding-top: 20px; }
+
+  /* Series nav */
+  .series-nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+  .series-nav a {
+    display: inline-block;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink);
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 999px;
+    box-shadow: 2px 2px 0 var(--line);
+    text-decoration: none;
+  }
+  .series-nav a:hover { text-decoration: none; transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--line); }
+  .series-nav a.active { background: var(--ink); color: #fff; }
+
+  @media (max-width: 640px) {
+    .hero { padding: 28px 20px; }
+    .hero h1 { font-size: 28px; }
+    table { font-size: 13px; }
+    th, td { padding: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="series-nav">
+    <a class="active" href="./">#1 顺人性销售</a>
+    <a href="./community/">#2 社群销售</a>
+    <a href="./human/">#3 把销售做得像个人</a>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <div class="hero">
+    <span class="hero-eyebrow">SALES 培训手册 · 第一册</span>
+    <h1>顺人性销售：<span class="accent">先卸防，再聊天，最后才是卖</span></h1>
+    <p class="hero-sub">
+      这本手册讲的不是话术模板，是一套底层逻辑：<strong>销售的第一目标不是卖货，是降低客户的防御成本。</strong>
+      所有例子先用「服装店 / 手机店」讲明白（人人逛过店，一看就懂），再翻译成我们自己的微信咨询 / EOI 跟进场景。
+    </p>
+    <div class="motto">
+      顺人性做销售，逆人性做自己。
+      <small>对客户：顺着人性来 —— 怕压力、要面子、想借别人之口说真话。对自己：逆着本能来 —— 忍住不推销、不急着报价、克制跟进。</small>
+    </div>
+  </div>
+
+  <!-- ======================== 1. 死亡开场 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">01</span><h2>死亡开场：这三句话一出口，客户就走了</h2></div>
+    <p class="section-lead">
+      「你需要帮助吗？」「你想买什么？」「你找什么产品？」—— 这三句是 to C 销售的死亡开场。
+      客户的标准答案永远是：<strong>「我随便看看。」</strong>然后加快脚步，逛完就走。
+    </p>
+
+    <div class="card">
+      <h3>👕 服装店场景：为什么客户秒变「随便看看」</h3>
+      <div class="scene">
+        <p><span class="who">客户</span>：（刚进店，还在扫一眼整体）</p>
+        <p><span class="who">店员</span>：（立刻迎上来，正面拦住）「想买点什么？需要帮忙吗？」</p>
+        <p><span class="who">客户</span>：「……我随便看看。」</p>
+        <p class="note">之后店员跟在身后三步远，客户摸什么都觉得被盯着，五分钟后空手离店。这一单从第一句话就死了。</p>
+      </div>
+      <p>为什么？因为这个问题在<strong>逼客户表态</strong>。客户一旦回答「我想买 X」，等于当场承认「我是来花钱的」，立刻把自己放进了被推销的位置。人的本能是逃 —— 所以嘴上说「随便看看」。</p>
+      <div class="callout warn">
+        <strong>关键认知：「随便看看」不是真话，是防御姿态。</strong>
+        客户不是没需求（没需求他不会走进来），是不想在有压力的状态下暴露需求。人很善于伪装自己。
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>我们的「死亡开场」长这样</h3>
+      <table>
+        <tr><th>服装店版</th><th>我们的版本（微信 / EOI 跟进）</th><th>客户内心 OS</th></tr>
+        <tr><td><span class="bad-x">❌</span> 「想买点什么？」</td><td><span class="bad-x">❌</span> 「你想报哪个课？」</td><td>我还没想好要不要报，你已经让我选了</td></tr>
+        <tr><td><span class="bad-x">❌</span> 「需要帮忙吗？」</td><td><span class="bad-x">❌</span> 「你考虑得怎么样了？」</td><td>压力来了，先拖着</td></tr>
+        <tr><td><span class="bad-x">❌</span> 「您预算多少？」（第一句就问）</td><td><span class="bad-x">❌</span> 「你预算大概多少？」（还没聊两句就问）</td><td>你只关心我钱包</td></tr>
+        <tr><td><span class="bad-x">❌</span> 跟在客户身后三步远</td><td><span class="bad-x">❌</span> 沉默三天后发「在吗？」</td><td>又来催了，不回</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ======================== 2. 侧身原则 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">02</span><h2>身体语言：侧身，不要正对</h2></div>
+    <p class="section-lead">话术之前先是姿态。物理语言比说什么先到达客户。</p>
+
+    <div class="card">
+      <h3>👕 服装店：正面 = 质询，侧身 = 同盟</h3>
+      <ul>
+        <li><strong>正面拦在客户面前</strong>：这是质询姿态 —— 海关、保安、查票员才正面对人。客户会本能地紧张。</li>
+        <li><strong>侧身站在旁边</strong>，手里整理着衣服：这是「我们一起看货」的同盟姿态。客户摸哪件你都看得到，但他感觉不到被盯。</li>
+        <li>客户在某件衣服前停下了，也<strong>不要立刻扑上去</strong> —— 等他摸了第二下、翻了吊牌，再侧身靠近半步开口。</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>微信里的「侧身」是什么</h3>
+      <p>我们没有门店，但微信对话里一样有「正面压迫」和「侧身同盟」：</p>
+      <table>
+        <tr><th>「正面压迫」式</th><th>「侧身同盟」式</th></tr>
+        <tr><td><span class="bad-x">❌</span> 连环追问：「你什么背景？」「想转什么方向？」「打算什么时候开始？」</td><td><span class="good-v">✅</span> 一次只说一件事，给对方留处理空间</td></tr>
+        <tr><td><span class="bad-x">❌</span> 一上来 60 秒语音轰炸</td><td><span class="good-v">✅</span> 文字优先 —— 文字客户可以自己掌握节奏读</td></tr>
+        <tr><td><span class="bad-x">❌</span> 「在吗？」（什么都不说，先逼对方应答）</td><td><span class="good-v">✅</span> 直接发一条对他有用的东西（岗位数据 / 活动回顾 / 学员作品），不带任何问题</td></tr>
+        <tr><td><span class="bad-x">❌</span> 对方不回，第二天再问一遍同样的话</td><td><span class="good-v">✅</span> 对方不回 = 还在防御，下次换「给价值」而不是「要答案」</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ======================== 3. 破冰 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">03</span><h2>破冰：能聊起来，才有后面的一切</h2></div>
+    <p class="section-lead">
+      顺序是固定的：<strong>破冰 → 放下戒心 → 聊起来 → 才轮到销售机会</strong>。顺序不能反。
+      戒心很强的客户，话术再好也推不动；目标只有一个 —— 让对方愿意说第二句话。
+    </p>
+
+    <div class="card">
+      <h3>👕 服装店：破冰的开口时机和说法</h3>
+      <div class="scene">
+        <p><span class="who">客户</span>：（在一件外套前停下，摸了摸面料，翻了下吊牌）</p>
+        <p><span class="who">店员</span>：（侧身靠近半步）「这件版型其实挺挑人的，您可以拿去镜子前比一下 —— 不合适放回来就行。」</p>
+        <p class="note">这句话做了三件事：① 给了一个不买也成立的动作（比一下）；② 提前给了退路（放回来就行）；③ 说了句真话（挑人）而不是吹捧，反而建立信任。</p>
+      </div>
+      <ul>
+        <li>破冰的话头可以完全和买卖无关：天气、客户手里别家的购物袋、带着的小孩。「外面雨还在下吗？」比「想买什么」强一百倍。</li>
+        <li><strong>敢说真话是最快的破冰</strong>：客户试了一件不合适的，directly 说「这件显得肩宽，您试试那件落肩的」—— 客户立刻知道你不是只想成交。</li>
+      </ul>
+      <div class="callout info">
+        <strong>判断破冰是否成功的唯一标准：</strong>客户有没有主动多说一句。
+        只要他开始说「其实我是想找……」「我之前买过一件类似的……」—— 冰破了，戒心下了，这时候才进入销售。
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>我们的破冰：第一条微信不谈课</h3>
+      <p>线下活动收到 EOI，当晚或次日的 first contact（24h SLA），目标<strong>不是推进成交，是让对方愿意回第二条消息</strong>：</p>
+      <div class="scene">
+        <p><span class="who">❌ 死亡版</span>：「同学你好，我是匠人学院的课程顾问，请问你想报名哪个班呢？我们现在有优惠。」</p>
+        <p><span class="who">✅ 破冰版</span>：「昨天活动上人太多没来得及聊～你提问的那个 RAG 的问题，讲师后来在群里补了个完整回答，我截给你。」</p>
+        <p class="note">破冰版给了价值（讲师回答）+ 提到了对方的具体行为（他提的问题）+ 没有任何问题逼他表态。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 4. 第三方出口提问法 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">04</span><h2>核心技术：第三方出口提问法</h2></div>
+    <p class="section-lead">
+      破冰之后怎么了解需求？不能问「你想要什么」（又回到死亡开场）。
+      答案：<strong>让客户聊别人 —— 谈论别人是零承诺的，但聊别人时，他自己的真实标准会全部漏出来。</strong>
+    </p>
+
+    <div class="card">
+      <h3>📱 手机店原版（培训里的经典例子）</h3>
+      <div class="scene">
+        <p><span class="who">店员</span>：「您想给家人或者朋友看个什么样的手机？」</p>
+        <p><span class="who">客户</span>：「我妈用的那个屏幕太小了，她老说看不清 —— 但她又嫌大的重。」</p>
+        <p class="note">客户说的是他妈，暴露的是真实需求：大屏 + 轻。而且他可以随时说「我妈不喜欢」全身而退，零压力，所以他愿意一直聊。</p>
+      </div>
+      <p>为什么这招有效，三条原理：</p>
+      <ol>
+        <li><strong>谈论别人 = 零承诺。</strong>说「我妈不喜欢大屏」不等于「我要买」，客户不用进入被推销位置。</li>
+        <li><strong>聊别人时，自己的标准全部暴露。</strong>预算区间、在意什么、讨厌什么 —— 全在「替别人挑」的过程中说出来了。</li>
+        <li><strong>客户永远有面子出口。</strong>聊不下去随时可以说「家人不喜欢这个」，不丢面子地退出 —— 正因为退路在，他才敢往前走。</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h3>👕 服装店版</h3>
+      <table>
+        <tr><th>问法</th><th>效果</th></tr>
+        <tr><td><span class="bad-x">❌</span> 「您自己穿吗？」</td><td>还是在直指购买，客户要表态</td></tr>
+        <tr><td><span class="good-v">✅</span> 「这件最近好多人是拿去送人的 —— 您是自己穿还是给家人挑？」</td><td>两个选项都不丢人，怎么答都是出口；答案里全是信息</td></tr>
+        <tr><td><span class="good-v">✅</span> 「您家先生平时是什么风格？爱穿亮色吗？」</td><td>客户：「他呀，黑灰之外的都不碰。」—— 真实偏好到手</td></tr>
+        <tr><td><span class="good-v">✅</span> 「这个料子有人说洗两次会软，您家里洗衣服是机洗多吗？」</td><td>说了真话（建立信任）+ 把话题引到生活场景，客户自然往下聊</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h3>我们的版本：让学员借别人之口说真话</h3>
+      <table>
+        <tr><th>死亡开场（逼表态）</th><th>第三方出口（卸防 + 套出真实标准）</th></tr>
+        <tr><td><span class="bad-x">❌</span> 「你考虑得怎么样了？」</td><td><span class="good-v">✅</span> 「你身边转行做 IT / AI 的朋友多吗？他们都走的什么路线？」<br><small>→ 他评价朋友的路线时，自己的预算、时间线、顾虑全出来了</small></td></tr>
+        <tr><td><span class="bad-x">❌</span> 「你想报哪个课？」</td><td><span class="good-v">✅</span> 「你们公司现在让大家用 AI 干活了吗？同事们跟得上吗？」<br><small>→ 「同事都在卷」= 焦虑触发器；「公司不让用」= 换个切入点</small></td></tr>
+        <tr><td><span class="bad-x">❌</span> 「你预算多少？」</td><td><span class="good-v">✅</span> 「你刷到的那些培训广告，哪种你一看就觉得不靠谱？」<br><small>→ 让客户吐槽 = 最快的卸防；吐槽里全是他的评判标准和被坑怕的点</small></td></tr>
+      </table>
+      <div class="callout good">
+        <strong>记住：客户批评「别人 / 别家 / 广告」的时候，是他最放松、说话最真的时候。</strong>
+        他说「那种包就业的一看就是骗人的」—— 你就知道了：他怕被骗 > 怕贵。后面所有沟通围绕「真实、可验证」展开，而不是急着给折扣。
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 5. 翻译客户的话 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">05</span><h2>人很善于伪装：把客户的话翻译回真话</h2></div>
+    <p class="section-lead">客户说出口的，多数是防御性的客套。听字面意思就输了 —— 要翻译。</p>
+
+    <div class="card">
+      <table>
+        <tr><th>客户说</th><th>大概率的真话</th><th>错误反应</th><th>正确反应</th></tr>
+        <tr>
+          <td>「我随便看看」</td>
+          <td>「别给我压力」</td>
+          <td>继续追问需求</td>
+          <td>给空间。「好的～你先看，二楼还有新款」/ 微信版：发个有用的资料，不提问</td>
+        </tr>
+        <tr>
+          <td>「太贵了」</td>
+          <td>「我还没看到它值这个钱」（少数是真预算）</td>
+          <td>立刻打折（= 承认之前报价虚高）</td>
+          <td>回到价值和他的痛点：「你刚才说同事都在用 AI 你还没上手 —— 你觉得这个状态再拖半年的成本是多少？」</td>
+        </tr>
+        <tr>
+          <td>「我再考虑一下」</td>
+          <td>「我有个顾虑没说出口」</td>
+          <td>「好的，那你考虑好联系我」（然后这单就没了）</td>
+          <td>给他出口把顾虑说出来：「当然～大部分人纠结的要么是时间要么是怕学不会，你属于哪种？」</td>
+        </tr>
+        <tr>
+          <td>「我回去和家人商量」</td>
+          <td>可能是真的，也可能就是个礼貌出口</td>
+          <td>「这有什么好商量的，机会不等人」（压迫，必死）</td>
+          <td>尊重出口 + 留钩子：「应该的。家人一般会问『学完到底能干嘛』—— 我把学员作品集发你，给家人看最直观」</td>
+        </tr>
+        <tr>
+          <td>「我先看看别家」</td>
+          <td>「我需要对比来确认不被坑」</td>
+          <td>贬低同行</td>
+          <td>「对，多比比是应该的。比的时候可以重点看两个东西：上课的是不是真工程师、学员作品敢不敢公开 —— 这两条最难造假。」</td>
+        </tr>
+      </table>
+      <div class="callout warn">
+        <strong>共同点：永远不要拆穿客户的伪装，也不要堵他的出口。</strong>
+        出口被堵死的客户只会消失。给足面子和退路，他才敢继续往前走 —— 这就是「顺人性」。
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 6. 落到我们的 SLA ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">06</span><h2>套进我们的 EOI 跟进节奏（24h / 72h / 7 天）</h2></div>
+    <p class="section-lead">EOI 跟进 SLA 不变，但每一档的<strong>目标</strong>按这套逻辑重新定义：</p>
+
+    <div class="card">
+      <table>
+        <tr><th>时机</th><th>动作</th><th>❌ 错误目标</th><th>✅ 正确目标</th></tr>
+        <tr>
+          <td><strong>24h</strong> first contact</td>
+          <td>微信 / 电话第一次接触</td>
+          <td>介绍课程、报价</td>
+          <td>破冰。给一个和他相关的价值点（他在活动上的提问 / 同场学员案例），让他愿意回第二条消息</td>
+        </tr>
+        <tr>
+          <td><strong>72h</strong> update</td>
+          <td>第一次进展更新（即使没结果也发）</td>
+          <td>「考虑得怎么样了？」</td>
+          <td>用第三方出口提问了解真实情况：聊他同事 / 朋友 / 公司，让他的预算、时间线、顾虑自己漏出来</td>
+        </tr>
+        <tr>
+          <td><strong>7 天</strong> close 第一轮</td>
+          <td>要么进试听 / 报名，要么标记长尾</td>
+          <td>逼单：「优惠最后一天」</td>
+          <td>给一个低压力的具体下一步（约试听 / 发作品集给家人看）。确实不动的，体面标记长尾 —— 留着出口，三个月后他换工作受挫时会回来</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="callout bad">
+      <strong>红线不变（任何技巧都在红线之内用）：</strong>
+      ❌ 不承诺就业 / 金钱回报（「包就业 / 月入 X / 拿不到 offer 退款」一律禁止）；
+      ❌ 不私自报价、不超授权折扣（价格 / 折扣 / 退款一律走 Manager）；
+      ❌ 不发模板群发消息。
+      ✅ 只承诺过程、作品、技能、服务量。
+    </div>
+  </div>
+
+  <!-- ======================== 7. 自检清单 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">07</span><h2>发出每条消息前的 4 问自检</h2></div>
+    <div class="card checklist">
+      <label><input type="checkbox"> 这句话是在<strong>逼客户表态</strong>吗？（要回答它，客户得先承认「我要买」吗？）</label>
+      <label><input type="checkbox"> 我给对方留<strong>出口</strong>了吗？（他能不丢面子地说「不」或者「再看看」吗？）</label>
+      <label><input type="checkbox"> 这条消息<strong>对他有用</strong>，还是只对我的 KPI 有用？</label>
+      <label><input type="checkbox"> 我现在是想<strong>成交</strong>，还是想让他<strong>愿意说下一句话</strong>？（顺序错了全盘皆输）</label>
+    </div>
+    <div class="callout info">
+      <strong>最后再读一遍：顺人性做销售，逆人性做自己。</strong>
+      客户怕压力、要面子、想借别人之口说真话 —— 顺着来。
+      你想快点成交、想立刻报价、想天天催 —— 全是本能，全要忍住。能忍住的人，单子反而多。
+    </div>
+  </div>
+
+  <footer>
+    匠人学院 · Sales 培训手册 #1（顺人性销售）· 内部资料，请勿外传<br>
+    配套阅读：员工 Onboarding（<a href="../employee-onboarding/">Sales Track ramp-up</a>）· EOI 跟进 SLA 与话术见 <code>eoi-followup</code> skill · 产品与价格以 <code>company-products-pricing.md</code> 为准
+  </footer>
+
+</div>
+</body>
+</html>

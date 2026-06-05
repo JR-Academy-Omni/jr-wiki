@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>销售培训手册 #2 · 社群销售 · 匠人学院</title>
+<style>
+  :root {
+    --bg: #faf9f5;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --ink-2: #555;
+    --ink-3: #888;
+    --line: #000;
+    --primary: #d97757;
+    --primary-dark: #b85c3f;
+    --warn-bg: #fff8e7;
+    --warn-line: #ffb800;
+    --warn-ink: #4d3800;
+    --danger-bg: #ffe8e8;
+    --danger-line: #d62828;
+    --danger-ink: #8b1818;
+    --good-bg: #dcfce7;
+    --good-line: #16a34a;
+    --info-bg: #dbeafe;
+    --info-line: #3b82f6;
+    color-scheme: light;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--primary-dark); }
+  a:hover { text-decoration: underline; }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+  .hero {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    box-shadow: 6px 6px 0 var(--line);
+    padding: 40px 36px;
+    margin-bottom: 40px;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 999px;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+  }
+  .hero h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 0 0 12px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 .accent { color: var(--primary); }
+  .hero-sub {
+    font-size: 17px;
+    color: var(--ink-2);
+    margin: 0 0 24px;
+    max-width: 720px;
+  }
+  .motto {
+    border: 1px solid var(--line);
+    background: #fef3c7;
+    border-radius: 12px;
+    box-shadow: 3px 3px 0 var(--line);
+    padding: 16px 20px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .motto small { display: block; font-size: 13px; font-weight: 500; color: var(--ink-2); margin-top: 6px; }
+  .section { margin-bottom: 48px; }
+  .section-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 16px; }
+  .section-num {
+    background: var(--ink);
+    color: #fff;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 4px 10px;
+    flex-shrink: 0;
+  }
+  .section h2 { font-size: 24px; margin: 0; font-weight: 800; }
+  .section-lead { color: var(--ink-2); margin: 0 0 20px; max-width: 760px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 4px 4px 0 var(--line);
+    padding: 20px 24px;
+    margin-bottom: 16px;
+  }
+  .card h3 { margin: 0 0 10px; font-size: 17px; }
+  .scene {
+    border-left: 4px solid var(--primary);
+    background: #fff;
+    border-radius: 0 12px 12px 0;
+    border-top: 1px solid #e5e2d9;
+    border-right: 1px solid #e5e2d9;
+    border-bottom: 1px solid #e5e2d9;
+    padding: 14px 18px;
+    margin: 12px 0;
+  }
+  .scene .who { font-weight: 700; }
+  .scene p { margin: 6px 0; }
+  .scene .note { color: var(--ink-3); font-size: 13px; }
+  .callout { border-radius: 12px; padding: 14px 18px; margin: 14px 0; border: 1px solid; }
+  .callout.bad { background: var(--danger-bg); border-color: var(--danger-line); color: var(--danger-ink); }
+  .callout.good { background: var(--good-bg); border-color: var(--good-line); color: #14532d; }
+  .callout.warn { background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-ink); }
+  .callout.info { background: var(--info-bg); border-color: var(--info-line); color: #1e3a8a; }
+  .callout strong { display: block; margin-bottom: 4px; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; background: #fff; font-size: 14px; }
+  th, td { border: 1px solid #d8d4c8; padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: #f0eee5; font-weight: 700; }
+  td .bad-x { color: var(--danger-line); font-weight: 700; }
+  td .good-v { color: var(--good-line); font-weight: 700; }
+  ul, ol { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .checklist label { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-bottom: 1px dashed #ddd; cursor: pointer; }
+  .checklist label:last-child { border-bottom: none; }
+  .checklist input { margin-top: 4px; }
+  footer { margin-top: 56px; color: var(--ink-3); font-size: 13px; border-top: 1px dashed #ccc; padding-top: 20px; }
+  .series-nav { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+  .series-nav a {
+    display: inline-block;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink);
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 999px;
+    box-shadow: 2px 2px 0 var(--line);
+    text-decoration: none;
+  }
+  .series-nav a:hover { text-decoration: none; transform: translate(-1px, -1px); box-shadow: 3px 3px 0 var(--line); }
+  .series-nav a.active { background: var(--ink); color: #fff; }
+  @media (max-width: 640px) {
+    .hero { padding: 28px 20px; }
+    .hero h1 { font-size: 28px; }
+    table { font-size: 13px; }
+    th, td { padding: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="series-nav">
+    <a href="../">#1 顺人性销售</a>
+    <a class="active" href="./">#2 社群销售</a>
+    <a href="../human/">#3 把销售做得像个人</a>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <div class="hero">
+    <span class="hero-eyebrow">SALES 培训手册 · 第二册</span>
+    <h1>社群销售：<span class="accent">群不是广告板，是一家有人气的店</span></h1>
+    <p class="hero-sub">
+      第一册讲的是 1v1：怎么不把单个客户推走。这一册讲社群 —— 微信群里的人性和 1v1 完全不同：
+      <strong>公开场合，人的面子更重、伪装更厚、压力被放大。</strong>1v1 里管用的话术，搬到群里很多会变成公开处刑。
+    </p>
+    <div class="motto">
+      群里只服务，不成交；成交永远在私聊。
+      <small>群的任务是让人愿意留下、愿意围观、愿意开口 —— 把「想买的人」送进私聊，剩下的交给第一册。</small>
+    </div>
+  </div>
+
+  <!-- ======================== 1. 群是一家店 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">01</span><h2>先想明白：你的群是一家什么店</h2></div>
+    <p class="section-lead">
+      逛街的时候你会进哪家店？<strong>有人气的店。</strong>里面有人在逛、有人在试、店员在帮人搭配 —— 你才敢进去。
+      空店不敢进（一进去店员全扑过来），全是促销喇叭的店直接绕道。群完全一样。
+    </p>
+    <div class="card">
+      <table>
+        <tr><th>门店</th><th>对应的群</th><th>路人的反应</th></tr>
+        <tr><td>空店，店员比客人多</td><td>死群，只有运营在自言自语发早安</td><td>「这群没人，可以退了」</td></tr>
+        <tr><td>门口促销喇叭循环喊「全场两折」</td><td>广告群，只在卖课时 @ 所有人</td><td>免打扰 → 退群</td></tr>
+        <tr><td>有人在逛、有人在问、店员在帮人</td><td>有人提问、有人答、有学员晒作业</td><td>「先潜水看看」—— 这就是留存</td></tr>
+      </table>
+      <div class="callout info">
+        <strong>核心认知：群的大多数永远是潜水者。</strong>
+        社区运营里常说的 90-9-1 法则：约 90% 的人只看、9% 偶尔互动、1% 高频发言。
+        <strong>潜水 ≠ 没价值 —— 潜水者才是你的主力客户池。</strong>他们在看、在比较、在积累信任，只是不开口。
+        群的 KPI 不是「发言多热闹」，而是「潜水的人有没有持续留着看 + 有没有人看着看着来私聊你」。
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 2. 死亡行为 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">02</span><h2>社群版「死亡开场」：这些动作一做，群就死了</h2></div>
+    <p class="section-lead">第一册的死亡开场是「逼单个客户表态」；群里的死亡行为是「当众逼表态」和「把店变成喇叭」。</p>
+    <div class="card">
+      <table>
+        <tr><th>死亡行为</th><th>等于门店里的</th><th>后果</th></tr>
+        <tr><td><span class="bad-x">❌</span> @ 所有人 + 课程海报</td><td>促销喇叭对着全店循环喊</td><td>一次掉一批人，第三次开始成批退群</td></tr>
+        <tr><td><span class="bad-x">❌</span> 群里点名：「@小王 上次你说要报名的，考虑好了吗？」</td><td>当着全店客人喊「这位先生你上次说要买的！」</td><td>公开处刑。小王退群，围观者记住「这群会被点名」，集体加深潜水</td></tr>
+        <tr><td><span class="bad-x">❌</span> 拉进群第一件事发课表 + 价格</td><td>客人刚进门就把账单拍他脸上</td><td>新人秒判定「这是广告群」，免打扰</td></tr>
+        <tr><td><span class="bad-x">❌</span> 每天早安鸡汤 / 节日刷屏</td><td>店员对着空店自言自语</td><td>群消息变噪音，真正有用的消息也没人看了</td></tr>
+        <tr><td><span class="bad-x">❌</span> 只在开班前出现，平时全年潜水</td><td>店员只在收银台出现</td><td>「这人 = 收钱的」，发什么都被当广告</td></tr>
+        <tr><td><span class="bad-x">❌</span> 在群里处理投诉 / 讨论退费</td><td>在大堂和客人吵架</td><td>一次抵消几个月的信任积累。退费一律私聊 + 走客服流程</td></tr>
+      </table>
+      <div class="callout warn">
+        <strong>群里的伪装比 1v1 更厚。</strong>
+        第一册说过「人很善于伪装自己」—— 在公开场合这层伪装是双倍的。
+        群里客户说「好的好的，了解了」可信度比私聊还低：他不是说给你听的，是说给全群听的（维持自己的面子）。
+        <strong>所以：群里的表态一律不当真，真实意向只在私聊里验证。</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 3. 公开服务一个人 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">03</span><h2>群的最强杠杆：公开服务一个人，让三十个人看见</h2></div>
+    <p class="section-lead">
+      1v1 里你回答一个问题，服务了一个人。群里你认真回答一个问题，<strong>所有潜水者都在替自己看这个答案</strong> ——
+      这是社群相对 1v1 的根本优势，也是「第三方出口」的群版：潜水者借别人的问题，零成本地获得了自己想要的答案。
+    </p>
+    <div class="card">
+      <h3>👕 门店类比：帮一个客人搭配，全店都在看</h3>
+      <div class="scene">
+        <p><span class="who">客人 A</span>：（举着两件衣服）「这两件哪件配牛仔裤好看？」</p>
+        <p><span class="who">店员</span>：（认真帮 A 比对、讲为什么）「深色这件 —— 你这条裤子是浅蓝的，上深下浅显高。」</p>
+        <p class="note">注意旁边那三个一直没说话的客人 —— 他们全程在听。其中一个等会儿会主动过来：「那你帮我也看看？」这就是潜水者开口的瞬间。</p>
+      </div>
+      <p>群里的等价动作：</p>
+      <ul>
+        <li>有人问「零基础学 AI 从哪开始」→ <strong>当成给全群讲，认真答</strong>：分场景、给具体路径、贴真实资源链接。敷衍一句「私聊我」= 把围观者全部赶走（大家想看的就是答案本身）。</li>
+        <li>答完<strong>不要</strong>顺势贴课程海报 —— 答案纯净，信任才成立。想买的人自己会来私聊。</li>
+        <li>没人提问的时候，可以自己「造问题」：把私聊里被问过的高频问题（脱敏后）拿到群里答：「最近好几个同学问我 XX，统一说一下……」—— 一条顶十条广告。</li>
+      </ul>
+      <div class="callout good">
+        <strong>判断标准：你在群里发的每条消息，潜水者看到会觉得「有用」还是「想卖我」？</strong>
+        前者攒信任，后者花信任。信任余额花完，群就死了。
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 4. 低承诺动作阶梯 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">04</span><h2>低承诺动作阶梯：让潜水者一步步走出来</h2></div>
+    <p class="section-lead">
+      第一册讲过「试衣镜」：给客户一个不买也成立的动作。群里要给的是一整条<strong>阶梯</strong> ——
+      每一级都比上一级多一点点参与，但每一级都零压力、有退路。
+    </p>
+    <div class="card">
+      <table>
+        <tr><th>阶梯</th><th>动作</th><th>设计要点</th></tr>
+        <tr><td>第 0 级</td><td>潜水围观</td><td>这已经有价值，别催。内容持续有用，他就一直在</td></tr>
+        <tr><td>第 1 级</td><td>点个表情 / 点赞</td><td>群里发的内容留「可以一键回应」的空间（投票、表态题）</td></tr>
+        <tr><td>第 2 级</td><td>投票 / 接龙 / 打卡</td><td>结构化参与，不用组织语言，不用暴露水平 ——「点一下就行」</td></tr>
+        <tr><td>第 3 级</td><td>提问 / 跟帖</td><td>有人第一次开口，<strong>必须 100% 被认真接住</strong>。第一次提问被晾 = 永久回到潜水</td></tr>
+        <tr><td>第 4 级</td><td>私聊你</td><td>到这里才进入第一册的 1v1 流程（破冰早完成了 —— 他看了你几周）</td></tr>
+        <tr><td>第 5 级</td><td>试听 / 报名</td><td>永远在私聊里完成，群内不报价、不催单</td></tr>
+      </table>
+      <div class="callout info">
+        <strong>潜水者私聊你的第一句，往往伪装成很随意：「那个……你上次发的资料还有吗？」</strong>
+        这不是随口一问 —— 这是他看了你三个星期后迈出的第 4 级。按第一册的方法接：先给资料（给价值），不追问「你是想报课吗」（逼表态）。
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== 5. 人跟人走 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">05</span><h2>人跟着人走，不跟着广告走</h2></div>
+    <p class="section-lead">
+      门店里最有效的销售瞬间：一个客人试完对镜子说「这件真不错」，旁边三个人都去拿同款。
+      <strong>群里的等价物是老学员的真实声音</strong> —— 一条学员晒作品 / 晒 Offer / 晒踩坑心得，胜过运营发十条课程链接。
+    </p>
+    <div class="card">
+      <h3>怎么让老学员发声（而不是造假）</h3>
+      <ul>
+        <li><strong>制造值得晒的瞬间，而不是求人晒</strong>：学员项目上线、拿到面试、结业作品 —— 第一时间在群里真诚祝贺（具体说他做了什么，不是模板化「恭喜恭喜」），他大概率会接话补充细节。这就是最好的「晒」。</li>
+        <li><strong>邀请分享要给台阶</strong>：「你上次说的那个踩坑经历，群里好几个同学正在踩同一个坑，方便说两句吗？」—— 帮人是台阶，推销没有台阶。</li>
+        <li><span class="bad-x">❌</span> <strong>绝对禁止</strong>：编造学员案例、拿小号自导自演「学员提问 + 学员好评」、把学员聊天记录未经同意截图发群。一次被识破，整个群的信任清零，而且这违反公司红线。</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ======================== 6. 节奏 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">06</span><h2>群的节奏：活而不吵</h2></div>
+    <p class="section-lead">店要每天开门、定时理货，但不能整天对客人喊话。群一样 —— 要有固定节奏让人知道「这群是活的」，又不能变成噪音源。</p>
+    <div class="card">
+      <h3>一个可直接照抄的每周节奏（按群情况调整）</h3>
+      <table>
+        <tr><th>固定栏目</th><th>频率</th><th>内容</th><th>对应阶梯</th></tr>
+        <tr><td>干货解答</td><td>每周 1-2 次</td><td>把私聊高频问题（脱敏）拿到群里认真答</td><td>喂第 0 级（围观价值）</td></tr>
+        <tr><td>轻互动</td><td>每周 1 次</td><td>投票 / 二选一（「简历先改项目还是先刷题？」）</td><td>钓第 1-2 级（一键参与）</td></tr>
+        <tr><td>学员时刻</td><td>有就发，不硬凑</td><td>真实学员进展 + 具体祝贺</td><td>社会证明，人跟人走</td></tr>
+        <tr><td>活动 / 课程信息</td><td>≤ 每周 1 次</td><td>讲座预告、开班信息 —— 一条说完，不刷屏不 @ 所有人</td><td>给第 4-5 级的人一个入口</td></tr>
+      </table>
+      <ul>
+        <li>信息类内容（开班 / 价格 / 优惠）在群内的占比，<strong>建议压在两成以下</strong> —— 超过这个比例，群在用户眼里就从「店」变回「喇叭」。</li>
+        <li>发广告型内容前自检：这条消息潜水者看到，是「哦有个讲座可以听」还是「又来卖了」？</li>
+        <li>深夜不发、节假日不刷屏、同一内容绝不发两遍。</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ======================== 7. 红线 + 自检 ======================== -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">07</span><h2>红线 + 发群消息前的 4 问自检</h2></div>
+    <div class="callout bad">
+      <strong>社群红线（在第一册红线之上追加）：</strong>
+      ❌ 不在群里点名催单 / 讨论价格折扣 / 处理退费投诉；
+      ❌ 不编造学员案例、不用小号自演、不未经同意截图学员对话；
+      ❌ 不 @ 所有人发售卖信息（仅开课提醒等服务通知可用，且要克制）；
+      ❌ 不把群成员导出做模板群发私聊（= 同时触发第一册「模板群发」红线）。
+    </div>
+    <div class="card checklist">
+      <label><input type="checkbox"> 这条消息对<strong>潜水者</strong>有用吗？（不是对活跃者 —— 活跃者怎么都会留下）</label>
+      <label><input type="checkbox"> 这条消息会让任何人<strong>当众尴尬</strong>吗？（点名、晒单、催促）</label>
+      <label><input type="checkbox"> 本周群里「服务 : 售卖」的比例还健康吗？（信息类 ≤ 两成）</label>
+      <label><input type="checkbox"> 我是想让群<strong>看起来热闹</strong>，还是想让某个潜水者<strong>今天多信任我一点</strong>？</label>
+    </div>
+  </div>
+
+  <footer>
+    匠人学院 · Sales 培训手册 #2（社群销售）· 内部资料，请勿外传<br>
+    上一册：<a href="../">#1 顺人性销售</a> · 下一册：<a href="../human/">#3 把销售做得像个人</a> · EOI 跟进 SLA 见 <code>eoi-followup</code> skill
+  </footer>
+
+</div>
+</body>
+</html>
