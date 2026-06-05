@@ -1,0 +1,92 @@
+{
+  "date": "2026-06-06",
+  "summary": {
+    "hook": ["Anthropic 上市申请", "DeepSeek 74亿美元", "Grok 5 开训"],
+    "sub": "Anthropic 秘密提交 IPO 文件，DeepSeek 完成史上最大 AI 融资，Grok 5 十万亿参数模型正式开训",
+    "items": [
+      {"num":"01","cat":"上市动态","numColor":"#7c3aed","t":"Anthropic 秘密提交 IPO 申请，年化营收 470 亿美元，估值近万亿"},
+      {"num":"02","cat":"资金动态","numColor":"#0d9488","t":"DeepSeek 接近完成 74 亿美元首轮融资，腾讯 CATL 国家 AI 基金领投"},
+      {"num":"03","cat":"模型发布","numColor":"#2563eb","t":"xAI Grok Voice 上线，Grok 5 十万亿参数模型在 Colossus 2 正式开训"},
+      {"num":"04","cat":"产品发布","numColor":"#0866ff","t":"Meta 发布企业级 AI Agent，Meta One 订阅打通 WhatsApp 全流程"},
+      {"num":"05","cat":"模型发布","numColor":"#ea4335","t":"谷歌 Gemini 3.5 Flash 发布，9 亿月活，Gemini Spark 个人 Agent 上线"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-ipo-filing",
+      "idx": "01",
+      "catText": "上市动态",
+      "accent": "#7c3aed",
+      "bg": {"top":"#F5F3FF","mid":"#EDE9FE","bot":"#DDD6FE","topRight":"#C4B5FD"},
+      "title": [{"text":"Anthropic 秘密提交 IPO 文件"},{"text":"年化营收 470 亿美元，估值 9650 亿美元","hl":true}],
+      "oneline": [{"text":"confidential S-1 已递交 SEC，"},{"text":"$65B 融资 + $47B 年化营收 + $965B 估值三连","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Anthropic 于 6 月 1 日向 SEC 秘密提交 IPO 申请，刚完成 650 亿美元融资，估值达 9650 亿美元，年化营收 470 亿美元"},
+        {"k":"为什么重要","v":"若上市成功将是 AI 独角兽迄今估值最高的 IPO，验证大模型公司能否转化为可持续商业价值；OpenAI 同期也在筹备上市"},
+        {"k":"对你的影响","v":"AI 公司 IPO 潮带来更多透明财务数据，开发者和用户可更好评估平台稳定性；竞争加剧或推动产品迭代提速"}
+      ],
+      "src": "📎 cbsnews.com · washingtonpost.com"
+    },
+    {
+      "slug": "02-deepseek-7b-funding",
+      "idx": "02",
+      "catText": "资金动态",
+      "accent": "#0d9488",
+      "bg": {"top":"#F0FDFA","mid":"#CCFBF1","bot":"#99F6E4","topRight":"#5EEAD4"},
+      "title": [{"text":"DeepSeek 接近完成"},{"text":"74 亿美元史上最大 AI 融资，腾讯 CATL 国家基金联合领投","hl":true}],
+      "oneline": [{"text":"约 500 亿元 term sheet 已签，"},{"text":"估值 3500-4000 亿元，创始人承诺继续开源 + 冲 AGI","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"DeepSeek 接近完成约 500 亿元（约 74 亿美元）首轮融资，腾讯、宁德时代、国家 AI 产业投资基金已签署 term sheet，融后估值 3500-4000 亿元"},
+        {"k":"为什么重要","v":"这是中国初创 AI 史上最大一笔融资，国家背书意味着战略优先级极高；创始人梁文锋承诺继续开源模型，以 AGI 为长期目标"},
+        {"k":"对你的影响","v":"DeepSeek 获充足资金后将加速开源模型迭代，开发者可期待更多高性价比开源基础模型；国内 AI 竞争格局将进一步加速"}
+      ],
+      "src": "📎 bloomberg.com · cnbc.com · pymnts.com"
+    },
+    {
+      "slug": "03-xai-grok-voice-grok5-training",
+      "idx": "03",
+      "catText": "模型发布",
+      "accent": "#2563eb",
+      "bg": {"top":"#EFF6FF","mid":"#DBEAFE","bot":"#BFDBFE","topRight":"#93C5FD"},
+      "title": [{"text":"xAI Grok Voice 正式公测"},{"text":"Grok 5 十万亿参数在 Colossus 2 超算开始训练","hl":true}],
+      "oneline": [{"text":"6 月 4 日 Grok Voice 上线 + Grok Imagine 1.5 API，"},{"text":"Grok 5 最大规格 10 万亿参数预计 6 月中发布","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"xAI 6 月 4 日公测 Grok Voice 语音对话功能，同步上线 Grok Imagine 1.5 Preview API；Grok 5 已在 Colossus 2 超算集群开训，最大规格达 10 万亿参数"},
+        {"k":"为什么重要","v":"Grok Voice 与 ChatGPT Advanced Voice Mode 正面竞争；10 万亿参数 Grok 5 若 6 月中发布，将大幅刷新前沿模型能力上限，推动整行业迭代提速"},
+        {"k":"对你的影响","v":"Grok Voice 语音交互和 Grok Imagine 1.5 已可通过 API 调用；SuperGrok 订阅用户将获 Grok 5 首批访问资格，值得关注"}
+      ],
+      "src": "📎 releasebot.io · bloomberg.com · engadget.com"
+    },
+    {
+      "slug": "04-meta-business-agent-meta-one",
+      "idx": "04",
+      "catText": "产品发布",
+      "accent": "#0866ff",
+      "bg": {"top":"#EFF6FF","mid":"#DBEAFE","bot":"#93C5FD","topRight":"#3B82F6"},
+      "title": [{"text":"Meta 发布企业级 AI Agent"},{"text":"Meta One 订阅打通 WhatsApp 全流程，零代码部署客服销售","hl":true}],
+      "oneline": [{"text":"伦敦 Conversations 会议发布，"},{"text":"自动回复 + 商品推荐 + 日历预约 + 销售成交一体化","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Meta 在伦敦 WhatsApp Conversations 会议发布 Meta One 企业订阅，含 AI Agent 可跨 WhatsApp、Messenger、Instagram 自动回复、推荐商品、预约日历和完成销售"},
+        {"k":"为什么重要","v":"Meta 首次将 AI Agent 作为独立收费产品，有意降低对广告收入的过度依赖；打通全平台电商和服务闭环，企业无需额外开发"},
+        {"k":"对你的影响","v":"中小企业可通过 Meta One 在 WhatsApp 和 Instagram 部署无代码客服 Agent，降低人力成本；移动端消费者互动场景将更多由 AI 承接"}
+      ],
+      "src": "📎 cnbc.com · finance.yahoo.com"
+    },
+    {
+      "slug": "05-google-gemini-35-flash",
+      "idx": "05",
+      "catText": "模型发布",
+      "accent": "#ea4335",
+      "bg": {"top":"#FFF1F2","mid":"#FFE4E6","bot":"#FECDD3","topRight":"#FB7185"},
+      "title": [{"text":"谷歌发布 Gemini 3.5 Flash"},{"text":"Agent 编码前沿性能，Gemini Spark 私人 Agent 同步上线","hl":true}],
+      "oneline": [{"text":"Gemini app 9 亿月活，"},{"text":"Gemini 3.5 Pro 下月上线；Gemini Spark 24/7 贴身 AI Agent","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"谷歌发布 Gemini 3.5 Flash，定位 Agent 和编码场景的前沿性能模型；Gemini Spark 个人 AI Agent 同步上线；Gemini app 月活用户已超 9 亿"},
+        {"k":"为什么重要","v":"Gemini 3.5 Flash 与 Claude Sonnet 4.6 直接竞争 Agent 中端市场；9 亿月活用户基础使谷歌成为全球最大 AI 应用平台之一，生态规模效应显著"},
+        {"k":"对你的影响","v":"Gemini 3.5 Flash 可通过 Google AI Studio 调用；Gemini Spark 整合 Gmail、日历和任务，是谷歌生态用户的全能助手；Gemini 3.5 Pro 下月发布值得关注"}
+      ],
+      "src": "📎 techcrunch.com · cloud.google.com"
+    }
+  ],
+  "mp": {"title": "Anthropic 上市申请 / DeepSeek 74亿 / Grok Voice + Grok 5 / Meta 企业 Agent / Gemini 3.5 Flash"}
+}
