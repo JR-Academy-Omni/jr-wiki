@@ -96,10 +96,16 @@ export function readRegistry(): Registry | null {
 }
 
 export function writeRegistry(slugs: SlugEntry[]): void {
+	const sortedSlugs = slugs.slice().sort((a, b) => KEY(a).localeCompare(KEY(b)));
+	const previous = readRegistry();
+	const slugsUnchanged =
+		previous != null &&
+		previous.slugs.length === sortedSlugs.length &&
+		previous.slugs.every((p, i) => KEY(p) === KEY(sortedSlugs[i]));
 	const reg: Registry = {
-		lockedAt: new Date().toISOString(),
+		lockedAt: slugsUnchanged && previous ? previous.lockedAt : new Date().toISOString(),
 		version: 1,
-		slugs: slugs.slice().sort((a, b) => KEY(a).localeCompare(KEY(b)))
+		slugs: sortedSlugs
 	};
 	writeFileSync(REGISTRY_PATH, `${JSON.stringify(reg, null, 2)}\n`);
 }

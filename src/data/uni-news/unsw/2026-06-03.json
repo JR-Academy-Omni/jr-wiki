@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-03",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "UNSW",
+    "hookSub": "Green Fellows 首批 58 国 400 申请 + AAS 3 名院士 + ARC 九百万",
+    "hookSubHighlight": "58 国 400 申请",
+    "subLines": [
+      "Green Fellows 首批亮相 · 58 国 400 申请 · 宪法/人口健康/可持续建筑",
+      "Boyer/Dzurak/Schmidt 3 人当选澳洲科学院院士 · 量子 + 太阳能 + 聚合物",
+      "ARC Linkage $9.1m · 16 项产研 · 生物安全+农业+防灾+量子计算"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "Green Fellows 首批", "data": "58 国 400 申请" },
+      { "num": "02", "title": "澳洲科学院院士", "data": "3 名 UNSW 学者" },
+      { "num": "03", "title": "ARC Linkage", "data": "$9.1m · 16 项" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术引进",
+      "h2Main": "UNSW Green Fellows 首批亮相：58 国 400 申请",
+      "h2Sub": "宪法法学 + 人口健康 + 可持续建筑 · 最长 2 年 + 转正机制",
+      "h2Highlight": "400 申请 58 国",
+      "lead": "6 月初，UNSW Sydney 公布其 Green Fellows 计划的首批学者，以<b>宪法法学、人口健康、可持续建筑与城市气候</b>三大领域领军人物加盟，首轮共收到来自 <b>58 个国家的 400 份申请</b>，彰显了该计划在全球学术圈的吸引力。",
+      "bullets": [
+        { "k": "项目背景", "v": "Green Fellowships 以 UNSW Scientia Professor <b>Martin Green</b>（太阳能电池技术奠基人）命名，旨在吸引全球顶尖学者加盟 UNSW 研究社区" },
+        { "k": "首批成员", "v": "<b>Prof Gautam Bhatia</b>（宪法法学，原 Jindal Global Law School）/ <b>Prof Jennifer DeVoe</b>（基础医疗与人口健康系统）/ <b>Prof Edward Ng</b>（可持续建筑设计与城市气候学）" },
+        { "k": "申请规模", "v": "首轮 <b>58 个国家</b>、<b>400 份申请</b>参与竞争，以 May 2026 筛选委员会评审短名单，凸显项目国际影响力" },
+        { "k": "待遇与机制", "v": "竞争性薪资套餐，任期<b>最长 2 年（全职澳洲 C/D/E 级）</b>，12 个月后可转为长期职位" },
+        { "k": "对你的影响", "v": "<b>Law / Public Health / Architecture / Urban Design</b>方向：这 3 名国际学者的加入意味着 UNSW 这三个方向将有新的国际级导师资源，对申请 HDR 或 Honours 的同学是利好" }
+      ],
+      "source": "UNSW Newsroom · 2026-06",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/06/unsw-attracts-world-leading-academics-through-green-fellowships",
+      "sourceQuote": "The first Green Fellows bring internationally recognised expertise in critical minerals, constitutional law, population health and sustainable architecture. The University received 400 applications from 58 countries in the first round of recruitment."
+    },
+    {
+      "idx": "02",
+      "category": "学术荣誉",
+      "h2Main": "UNSW 3 名学者当选 2026 澳洲科学院院士",
+      "h2Sub": "量子计算 Dzurak + 太阳能 Schmidt + 聚合物 Boyer · 28 名新院士之一",
+      "h2Highlight": "3 名院士",
+      "lead": "5 月，UNSW Sydney 的 <b>Scientia Professor Andrew Dzurak</b>（量子计算）、<b>Professor Timothy Schmidt</b>（太阳能/光化学）和 <b>Professor Cyrille Boyer</b>（高分子化学）三位学者当选 2026 年度澳洲科学院（AAS）院士，是 28 名新院士中的 UNSW 代表。",
+      "bullets": [
+        { "k": "Dzurak：量子计算", "v": "Scientia Professor Andrew Dzurak 是<b>半导体自旋量子比特</b>领域国际领军人，推动大规模商业量子计算落地，其研究对 UNSW 旗下量子计算公司 Diraq 至关重要" },
+        { "k": "Schmidt：太阳能", "v": "Professor Timothy Schmidt 是 UNSW 化学学院院长，专攻<b>太阳能与天体化学</b>，在光化学上转换效率上创世界纪录，是第一个将此技术应用于太阳能电池的研究者" },
+        { "k": "Boyer：高分子", "v": "Professor Cyrille Boyer 是 UNSW 化工学院副院长（科研），开创<b>光催化聚合物合成新方法</b>，研究涵盖精密聚合物合成、先进制造和可持续性" },
+        { "k": "AAS 意义", "v": "澳洲科学院（Australian Academy of Science）是澳洲最高科学荣誉机构，院士由同行评审选出，体现长期学术贡献；2026 年共 <b>28 名</b>新院士入选" },
+        { "k": "对你的影响", "v": "<b>Chemistry / Physics / Engineering / Quantum Computing</b>：这 3 位都在 UNSW 活跃招募研究生，入选院士说明其研究处于同领域顶端；考虑 HDR 的同学可关注其组内 PhD 名额" }
+      ],
+      "source": "UNSW Newsroom · 2026-05",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/05/pioneering-unsw-researchers-elected-to-australian-academy-of-science",
+      "sourceQuote": "Scientia Professor Andrew Dzurak and Professor Timothy Schmidt elected as 2026 Australian Academy of Science Fellows. Dzurak is paving the way for large, commercial-scale quantum computing, recognised internationally as a leader in spin-based qubits. Schmidt is a world-renowned physical chemist who achieved world-record photochemical upconversion efficiencies."
+    },
+    {
+      "idx": "03",
+      "category": "科研资助",
+      "h2Main": "UNSW ARC Linkage 获批 $9.1m：16 项产研合作",
+      "h2Sub": "生物安全+可持续农业+防灾减灾+量子计算 · 全国 $99.8m 178 项",
+      "h2Highlight": "$9.1m 16 项",
+      "lead": "5 月，UNSW Sydney 宣布在 ARC Linkage Projects 最新轮中获批超过 <b>$9.1 百万</b>澳元，支持 <b>16 项</b>由 UNSW 主导的产学研合作，覆盖<b>生物安全、可持续农业、防灾减灾和量子计算</b>四大方向，与澳洲国家科研优先领域高度吻合。",
+      "bullets": [
+        { "k": "资助规模", "v": "UNSW 获批 <b>$9.1 百万</b>；全国 ARC Linkage 此轮共向 178 项目拨款 <b>$99.8 百万</b>；UNSW 参与项目数量领先大多数高校" },
+        { "k": "四大方向", "v": "<b>生物安全</b>（biosecurity）/ <b>可持续农业</b>（sustainable farming）/ <b>防灾减灾</b>（disaster resilience）/ <b>量子计算</b>（quantum computing）——均对应澳洲国家战略优先议题" },
+        { "k": "参与学院", "v": "16 个项目横跨 UNSW <b>Engineering / Science / Arts, Design & Architecture</b> 三个学院，体现多学科交叉特点" },
+        { "k": "合作机制", "v": "ARC Linkage 要求行业方共同出资并参与人员，确保研究方向紧贴产业需求；每个项目均有行业合作伙伴联合督导" },
+        { "k": "对你的影响", "v": "<b>Engineering / Computer Science / Environmental Science / Agriculture</b> 方向同学：$9.1m 的新资助代表 UNSW 在这四个交叉方向的 PhD/Honours 课题会迎来新一轮招募，建议关注各系主页" }
+      ],
+      "source": "UNSW Newsroom · 2026-05",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/05/backing-australias-priorities-unsw-projects-awarded-9m-in-arc-grants",
+      "sourceQuote": "UNSW Sydney has been awarded more than $9.1 million from the Australian Research Council (ARC) to support collaborative research projects spanning biosecurity, sustainable farming, disaster resilience and quantum computing. The funding was awarded through the ARC Linkage Projects scheme, which committed more than $99.8 million nationally to 178 research partnerships between universities, industry, government and community organisations."
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 3 条",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW Green Fellows 首批（58 国 400 申请）、3 名学者当选澳洲科学院院士（量子计算+太阳能+聚合物）、ARC Linkage $9.1m 16 项产研——6 月 3 日 UNSW 三条核心更新。",
+    "items": [
+      { "n": "01", "title": "Green Fellows 首批 58 国 400 申请", "body": "宪法法学+人口健康+可持续建筑；最长 2 年可转正；Law/Public Health/Architecture 方向有新国际级导师" },
+      { "n": "02", "title": "3 名学者当选 AAS 院士", "body": "Dzurak（量子计算）+ Schmidt（太阳能光化学）+ Boyer（光催化聚合物）；28 名新院士之三；HDR 申请者可关注其组内名额" },
+      { "n": "03", "title": "ARC Linkage $9.1m · 16 项产研", "body": "生物安全+农业+防灾+量子计算；行业方共同出资协同；Engineering/CS/EnvSci/Agri 方向 PhD 新课题即将开放" }
+    ],
+    "cta": {
+      "big": "关注 UNSW 每日动态",
+      "sub": "奖学金 + 科研 + 招生 · 每天 3 校轮换 · JR Academy 同步",
+      "badge": "06 / 03"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 6/3：院士+海外引才+科研",
+      "body": "今天 UNSW 三条更新 🎓\n\n📌 Green Fellows 首批亮相（6月）\n58 国 400 申请参与竞争 · 首批：宪法法学/人口健康/可持续建筑\nLaw/Public Health/Architecture → 新国际级导师入驻 👀\n\n📌 3 名学者当选澳洲科学院院士（5月）\nDzurak（量子计算）+ Schmidt（太阳能）+ Boyer（聚合物）\nHDR 申请者关注这三位组里的 PhD 名额 🔬\n\n📌 ARC Linkage $9.1m · 16 项产研（5月）\n生物安全+农业+防灾+量子 · Engineering/CS PhD 新课题开放\n\n#UNSW #澳洲留学 #澳洲科研",
+      "tags": "#UNSW #新南威尔士大学 #澳洲留学 #澳洲科研 #留学读博",
+      "wechat": ["UNSW 6月3日：Green Fellows 首批（58 国 400 申请）宪法/人口健康/可持续建筑；3 名院士 Dzurak+Schmidt+Boyer（量子+太阳能+聚合物）；ARC Linkage $9.1m 16 项产研。"],
+      "community": ["UNSW 今日动态 | Green Fellows 首批 58 国 400 申请；3 名澳洲科学院院士（量子+太阳能+聚合物）；ARC $9.1m 16 项产研。Law/Chemistry/Engineering 同学关注。"]
+    },
+    "p2": {
+      "title": "UNSW Green Fellows 首批：58国400申请",
+      "body": "UNSW 的 Green Fellows 计划首批学者公布了 🌏\n\n首批成员：\n🌿 Prof Gautam Bhatia（宪法法学，来自印度 Jindal Global）\n🏥 Prof Jennifer DeVoe（基础医疗与人口健康）\n🏗️ Prof Edward Ng（可持续建筑与城市气候）\n\n首轮数据：\n· 58 个国家 · 400 份申请\n· 5月筛选委员会完成短名单评审\n\n待遇：竞争性薪资，最长 2 年（澳洲 C/D/E 级），可转长期职位 💼\n\n命名背景：以 UNSW Scientia Professor Martin Green（太阳能电池技术奠基人）命名\n\n对申 HDR 的同学：Law/Public Health/Architecture 方向有新导师资源进来了 👀\n\n#UNSW #澳洲科研 #澳洲留学",
+      "tags": "#UNSW #新南威尔士大学 #澳洲科研 #海外留学 #留学读博",
+      "wechat": ["UNSW Green Fellows 首批：58 国 400 申请，宪法法学+人口健康+可持续建筑三位国际学者加盟；最长 2 年可转正；Law/Public Health/Architecture HDR 有新导师资源。"],
+      "community": ["UNSW Green Fellows 首批：58 国 400 申请，首批 3 位国际顶尖学者（宪法法学/人口健康/可持续建筑）加盟；最长 2 年可转正。Law/Architecture/Public Health 同学关注。"]
+    },
+    "p3": {
+      "title": "UNSW 3名学者当选澳洲科学院院士",
+      "body": "UNSW 又有 3 人当选澳洲科学院院士 🏆\n\n三位新院士：\n⚛️ Scientia Prof Andrew Dzurak — 量子计算（自旋量子比特，推动半导体量子计算商业化）\n☀️ Prof Timothy Schmidt — 太阳能/天体化学（世界最高光化学上转换效率，太阳能电池应用第一人）\n🧪 Prof Cyrille Boyer — 高分子化学（光催化聚合物合成，先进制造+可持续材料）\n\n2026年共 28 名新院士入选，UNSW 占 3 席 💪\n\n在读/备考 HDR 的同学：这三位都还在 UNSW 活跃，院士级导师意味着资源和认可度双高 📚\n\n#UNSW #澳洲科研 #量子计算 #澳洲留学",
+      "tags": "#UNSW #新南威尔士大学 #澳洲科研 #量子计算 #太阳能",
+      "wechat": ["UNSW 3 名学者入选 2026 澳洲科学院院士：Dzurak（量子计算自旋量子比特）+ Schmidt（太阳能光化学世界纪录）+ Boyer（光催化聚合物合成）；28 名新院士之三。"],
+      "community": ["UNSW 3 名学者当选 2026 澳洲科学院院士：Dzurak（量子计算）+ Schmidt（太阳能）+ Boyer（聚合物）。Chemistry/Physics/Engineering HDR 同学关注这三位组内名额。"]
+    },
+    "p4": {
+      "title": "UNSW ARC $9.1m 16项产研",
+      "body": "UNSW ARC Linkage $9.1 百万，16 项产学研项目获批 🔬\n\n四大方向：\n🦠 生物安全（biosecurity）\n🌾 可持续农业\n🌊 防灾减灾\n⚛️ 量子计算\n\n全国 ARC Linkage 共 $99.8m · 178 项目，UNSW 拿到 16 个 🎯\n\n参与学院：Engineering + Science + Arts/Design/Architecture 三个学院全覆盖\n\nARC Linkage 特点：行业方必须共同出资+协同，课题贴近产业需求，不是纯学术项目 💡\n\n对你的影响：Engineering/CS/EnvSci/Agriculture 方向同学，这 16 项代表新一轮 PhD/Honours 课题开放 👀\n\n#UNSW #澳洲科研 #澳洲留学",
+      "tags": "#UNSW #新南威尔士大学 #澳洲科研 #ARC #留学读博",
+      "wechat": ["UNSW ARC Linkage $9.1m，16 项产研获批（生物安全+农业+防灾+量子），全国 $99.8m 178 项目；行业方共同出资；Engineering/CS/EnvSci PhD 新课题开放。"],
+      "community": ["UNSW ARC Linkage $9.1m 16 项：生物安全+农业+防灾+量子计算；全国 $99.8m 178 项；行业方共同出资协同课题。Engineering/CS/EnvSci 同学关注课题开放。"]
+    },
+    "p5": {
+      "title": "UNSW 今日速览：3 条核心",
+      "body": "6 月 3 日 UNSW 速览：\n\n🌏 Green Fellows 首批 · 58 国 400 申请\n宪法+人口健康+可持续建筑三位国际学者\n\n🏆 澳洲科学院院士 3 人\nDzurak（量子）+ Schmidt（太阳能）+ Boyer（聚合物）\n\n🔬 ARC Linkage $9.1m · 16 项产研\n生物安全+农业+防灾+量子计算\n\n👉 关注 JR Academy 看 10 所澳洲大学每日动态\n\n#UNSW #新南威尔士大学 #澳洲留学",
+      "tags": "#UNSW #新南威尔士大学 #澳洲留学 #澳洲科研 #留学读博"
+    }
+  },
+  "mp": {
+    "title": "UNSW 6月3日：Green Fellows 首批亮相 + 3 名澳洲科学院院士 + ARC $9.1m",
+    "lead": "6 月 3 日，新南威尔士大学三条重大更新：Green Fellows 计划首批学者公布，58 国 400 份申请中三位领军人物加盟（宪法法学/人口健康/可持续建筑）；Dzurak、Schmidt、Boyer 三位 UNSW 学者当选 2026 年澳洲科学院院士；ARC Linkage 再获 $9.1m 支持 16 项跨领域产研合作。",
+    "meta": { "readTime": "约 4 分钟" },
+    "quickview": {
+      "title": "今日速览",
+      "items": [
+        "Green Fellows 首批 · 58 国 400 申请 · 宪法法学+人口健康+可持续建筑三领域",
+        "Dzurak（量子计算）+ Schmidt（太阳能）+ Boyer（聚合物）入选澳洲科学院院士",
+        "ARC Linkage $9.1m · 16 项产研 · 生物安全+农业+防灾+量子",
+        "Engineering / CS / Law / Chemistry / Architecture HDR 申请者关注新导师与课题"
+      ]
+    },
+    "cta": {
+      "big": "关注 JR Academy 每天看澳洲大学动态",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步"
+    }
+  }
+}

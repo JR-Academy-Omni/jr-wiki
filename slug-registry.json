@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-01T23:45:11.178Z",
+  "lockedAt": "2026-06-04T23:44:16.041Z",
   "version": 1,
   "slugs": [
     {
@@ -208,6 +208,18 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-06-03"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-06-04"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-06-05"
+    },
+    {
+      "type": "article",
       "slug": "ai-startup-arr-inflation-vc-complicity-2026"
     },
     {
@@ -229,6 +241,10 @@
     {
       "type": "article",
       "slug": "anthropic-google-200b-cloud-bet-2026"
+    },
+    {
+      "type": "article",
+      "slug": "anthropic-ipo-safety-mission-public-market-2026"
     },
     {
       "type": "article",
@@ -440,6 +456,18 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-06-03"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-06-04"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-06-05"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -516,6 +544,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-06-05"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -580,6 +612,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-monash-2026-06-04"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-umelb-2026-04-24"
     },
     {
@@ -633,6 +669,10 @@
     {
       "type": "article",
       "slug": "uni-news-umelb-2026-06-01"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-06-04"
     },
     {
       "type": "article",
@@ -693,6 +733,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-06-01"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-06-03"
     },
     {
       "type": "article",
@@ -760,6 +804,14 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-uq-2026-06-03"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-uq-2026-06-05"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-usyd-2026-04-22"
     },
     {
@@ -813,6 +865,10 @@
     {
       "type": "article",
       "slug": "uni-news-usyd-2026-05-31"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-06-03"
     },
     {
       "type": "article",
@@ -1176,6 +1232,21 @@
     },
     {
       "type": "chapter",
+      "book": "crewai-guide",
+      "slug": "06-testing-debugging"
+    },
+    {
+      "type": "chapter",
+      "book": "crewai-guide",
+      "slug": "07-production-deployment"
+    },
+    {
+      "type": "chapter",
+      "book": "crewai-guide",
+      "slug": "08-knowledge-sources"
+    },
+    {
+      "type": "chapter",
       "book": "cursor-guide",
       "slug": "01-what-is-cursor"
     },
@@ -1472,12 +1543,27 @@
     {
       "type": "chapter",
       "book": "n8n-guide",
+      "slug": "03-core-features"
+    },
+    {
+      "type": "chapter",
+      "book": "n8n-guide",
       "slug": "03-self-hosting-deployment"
     },
     {
       "type": "chapter",
       "book": "n8n-guide",
       "slug": "04-ai-agent-advanced"
+    },
+    {
+      "type": "chapter",
+      "book": "n8n-guide",
+      "slug": "05-mcp-integration"
+    },
+    {
+      "type": "chapter",
+      "book": "n8n-guide",
+      "slug": "06-error-handling-monitoring"
     },
     {
       "type": "chapter",
