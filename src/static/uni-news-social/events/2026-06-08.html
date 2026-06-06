@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+
+<!-- 由 build/pipelines/uni-events.pipeline.ts 自动生成 -->
+<html lang="zh-CN">
+<!-- 校园活动 · 2026-06-08 · 6 校 -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>校园活动 · 2026-06-08 · 6 校</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800;900&family=Space+Grotesk:wght@500;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #160a2c;
+  --bg: #fef8f1;
+  --muted: #71628a;
+  --border-soft: rgba(106, 72, 170, 0.12);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Noto Sans SC', system-ui, sans-serif;
+  padding: 32px 20px 80px;
+  line-height: 1.6;
+}
+.page { max-width: 1400px; margin: 0 auto; }
+
+.breadcrumb {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 12px; color: var(--muted);
+  margin-bottom: 20px;
+  display: flex; align-items: center; gap: 8px;
+}
+.breadcrumb a { color: var(--muted); text-decoration: none; }
+.breadcrumb a:hover { color: #ff5757; }
+.breadcrumb .sep { opacity: 0.5; }
+.breadcrumb .current { color: #ff5757; font-weight: 700; }
+
+.page-head {
+  background: linear-gradient(135deg, #ff5757, #ff8a3d, #ffd44d);
+  border-radius: 24px;
+  padding: 36px 40px;
+  margin-bottom: 32px;
+  color: #fff;
+  box-shadow: 0 20px 60px rgba(255, 87, 87, 0.2);
+}
+.page-head h1 {
+  font-family: 'Playfair Display', 'Noto Sans SC', sans-serif;
+  font-size: 36px; font-weight: 900;
+  letter-spacing: -0.03em;
+  margin-bottom: 6px;
+}
+.page-head h1 em { font-style: italic; }
+.page-head .meta {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px; color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.08em;
+}
+.page-head .intro {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.95);
+  max-width: 760px;
+}
+.page-head-actions { margin-top: 18px; }
+.btn-cover {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  color: #ff5757;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 0.15s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.btn-cover:hover {
+  background: #ff5757;
+  color: #fff;
+  border-color: #fff;
+  transform: translate(-1px, -1px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.schools {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media (max-width: 1100px) { .schools { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px)  { .schools { grid-template-columns: 1fr; } }
+
+.school {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--border-soft);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 28px rgba(16, 22, 47, 0.06);
+  display: flex; flex-direction: column;
+}
+.school-cover {
+  padding: 24px 22px 20px;
+  color: #fff;
+}
+.school-cover h2 {
+  font-family: 'Playfair Display', 'Noto Sans SC', serif;
+  font-size: 22px; font-weight: 900;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+.school-cover .name-cn {
+  font-size: 13px; color: rgba(255, 255, 255, 0.85); font-weight: 500;
+}
+.school-cover .code {
+  font-family: 'Space Grotesk', monospace;
+  font-size: 10px; letter-spacing: 0.2em;
+  opacity: 0.7; margin-top: 8px;
+}
+
+.school-body { padding: 20px 22px 24px; flex: 1; display: flex; flex-direction: column; }
+.school-body h3 {
+  font-size: 12px; font-weight: 700; letter-spacing: 0.08em;
+  color: var(--muted); text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.event-list { display: flex; flex-direction: column; gap: 14px; margin-bottom: 18px; }
+.event {
+  padding: 12px 14px;
+  background: #fafafd;
+  border-radius: 12px;
+  border: 1px solid var(--border-soft);
+}
+.event .event-title {
+  font-size: 14px; font-weight: 700; color: var(--ink);
+  margin-bottom: 6px; line-height: 1.45;
+}
+.event .event-meta {
+  font-size: 11px; color: var(--muted);
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.event .event-meta .price {
+  display: inline-block; padding: 1px 8px;
+  background: #d1fae5; color: #059669;
+  border-radius: 4px; font-weight: 700;
+  font-family: 'Space Grotesk', monospace;
+}
+.event .event-meta .price.paid {
+  background: #fef3c7; color: #b45309;
+}
+.event a { color: #ff5757; text-decoration: none; font-weight: 600; }
+.no-events {
+  padding: 20px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+  font-style: italic;
+  background: #fafafd;
+  border-radius: 12px;
+  border: 1px dashed var(--border-soft);
+}
+
+.xhs-draft {
+  margin-top: auto;
+  padding: 16px 18px;
+  background: #1a0f2e;
+  color: #f5f5f5;
+  border-radius: 12px;
+}
+.xhs-draft h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 11px; letter-spacing: 0.08em;
+  color: #ffd44d; margin-bottom: 8px;
+}
+.xhs-draft .title {
+  font-size: 14px; font-weight: 700;
+  margin-bottom: 8px;
+}
+.xhs-draft .body {
+  font-size: 12px; line-height: 1.75;
+  color: rgba(245, 245, 245, 0.85);
+  white-space: pre-wrap;
+  margin-bottom: 10px;
+}
+.xhs-draft .tags {
+  font-size: 11px; color: #ff8a3d;
+  font-family: 'Space Grotesk', monospace;
+}
+
+footer { text-align: center; margin-top: 40px; color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="breadcrumb">
+    <a href="../">← 校园活动 hub</a><span class="sep">·</span><span class="current">2026-06-08</span>
+  </div>
+
+  <div class="page-head">
+    <h1>Campus <em>Events</em> · 2026-06-08</h1>
+    <div class="meta">6 SCHOOLS · 6 EVENTS THIS WEEK</div>
+    <div class="intro">下周 6/8–14 六校周报｜周一公众假期 · UNSW 尊重周 BBQ · USYD 免费餐车 · Monash 考试免费汤</div>
+    <div class="page-head-actions">
+      <a class="btn-cover" href="./2026-06-08-covers.html">📱 6 校 XHS 封面图 · 下载 PNG →</a>
+    </div>
+  </div>
+
+  <div class="schools">
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #094183, #062b56);">
+        <div class="code">UMELB</div>
+        <h2>University of Melbourne</h2>
+        <div class="name-cn">墨尔本大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="event-list">
+        <div class="event">
+          <div class="event-title"><a href="https://gsa.unimelb.edu.au/events-and-programs/academic-support/shut-up-write/">研究生写作马拉松｜GSA Shut Up &amp; Write</a></div>
+          <div class="event-meta">
+            <span>📅 周四 6/11 下午 2:00-4:00</span>
+            <span>📍 1888 Building 102 室 · Grattan St Parkville（线上线下同步）</span>
+            <span class="price paid">免费</span>
+            <span>学习活动</span>
+          </div>
+        </div></div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">墨大考试周｜番茄钟写作马拉松</div>
+        <div class="body">墨大这周正式进入考试期了，周一（6/8）是 King&#39;s Birthday 公众假期，周二（6/9）起图书馆和自习室都开满了人。
+
+有一个研究生同学可能会感兴趣的活动：周四（6/11）下午 2 点到 4 点，GSA（研究生学生会）有一场 Shut Up &amp; Write 写作马拉松，在 1888 Building 102 室，线上线下同时开放。格式是 Pomodoro（番茄钟）循环——25 分钟专注写作 + 5 分钟休息，跑两小时大概可以完成 4 个番茄钟。不管是论文、作业还是 take-home exam，换个环境跟一群人一起写效率真的会高很多。
+
+考试期图书馆的位置建议早点去占，上午 9 点前到基本稳拿靠窗座。ERC（电子资源中心）那层比较安静，适合需要查资料的科目；Baillieu 的阅览室适合纯看书不需要插电脑的时候用。
+
+周一放假不代表可以放空一天——这周之前把最难那科的笔记过一遍，后面会轻松很多。
+
+有在备考的墨大同学，你们最喜欢哪个地方复习？评论区聊一聊～</div>
+        <div class="tags">#墨尔本大学 #UMelb #澳洲留学 #墨尔本 #考试季 #研究生 #留学日常</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Melbourne, VIC</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-umelb-render" style="--cover-primary:#094183;--cover-deep:#062b56;--cover-light:#1565c0;--cover-accent:#ffce44;--cover-text:#ffffff;background:linear-gradient(145deg, #062b56 0%, #094183 54%, #1565c0 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Melbourne, VIC</div>
+                    </div>
+                    <div class="mini-cover-code">UMELB</div>
+                    <div class="mini-cover-cn">墨尔本大学</div>
+                    <div class="mini-cover-en">University of Melbourne</div>
+                    <div class="mini-events-shell">
+                      
+        <div class="inline-event-hook">
+          <div class="inline-event-index">01</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">研究生写作马拉松｜GSA Shut Up &amp; Write</div>
+            <div class="inline-event-meta">周四 6/11 下午 2:00-4:00<br>1888 Building 102 室 · Grattan St Parkville（线上线下同步）</div>
+          </div>
+        </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>UMELB</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-umelb-render" data-slug="cover-umelb">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #ffd100, #b89500);">
+        <div class="code">UNSW</div>
+        <h2>UNSW Sydney</h2>
+        <div class="name-cn">新南威尔士大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="event-list">
+        <div class="event">
+          <div class="event-title"><a href="https://www.arc.unsw.edu.au/events/respect-week-3">尊重周 · The Great Debate｜(dis)Respect 辩论之夜</a></div>
+          <div class="event-meta">
+            <span>📅 周二 6/9 下午 5:00</span>
+            <span>📍 Roundhouse Club Bar · Kensington 校区</span>
+            <span class="price paid">免费</span>
+            <span>社交</span>
+          </div>
+        </div>
+        <div class="event">
+          <div class="event-title"><a href="https://www.arc.unsw.edu.au/events/respect-week-3">Love Island · Pitch Your Pals｜帮朋友脱单大赛</a></div>
+          <div class="event-meta">
+            <span>📅 周三 6/10 晚 7:00（6:30 开门）</span>
+            <span>📍 Roundhouse Main Room · Kensington 校区</span>
+            <span class="price paid">免费入场（前 100 名赠饮）</span>
+            <span>社交</span>
+          </div>
+        </div>
+        <div class="event">
+          <div class="event-title"><a href="https://www.arc.unsw.edu.au/events/respect-week-3">Quad Takeover · 免费 BBQ + 社团嘉年华</a></div>
+          <div class="event-meta">
+            <span>📅 周四 6/11 上午 10:00-下午 4:00</span>
+            <span>📍 UNSW Quad · Kensington 校区</span>
+            <span class="price paid">免费</span>
+            <span>社交</span>
+          </div>
+        </div></div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">UNSW 尊重周｜BBQ+辩论+脱单大赛</div>
+        <div class="body">UNSW Term 2 第二周，Arc 这周办了一个「尊重周（Respect Week）」，周二到周四连续三天都有活动，而且基本都是免费的。
+
+周二（6/9）晚上 5 点，Roundhouse Club Bar 有 The Great Debate：(dis)Respect，辩题格式，围绕尊重、关系这些话题来辩，适合喜欢聊有点深度的东西的同学。
+
+周三（6/10）晚上 7 点（6:30 开门），Roundhouse Main Room 有 Love Island · Pitch Your Pals，要求你帮自己的单身朋友做 slides 来「推销」——前 100 个进场的免费赠一杯饮品。听起来很荒唐但很好笑，适合带朋友去放松一下。
+
+周四（6/11）上午 10 点到下午 4 点，Quad Takeover 是这周最大的活动，在 UNSW Quad 广场，有免费 BBQ、各个社团一起摆摊，来了就能吃到，不用提前报名。
+
+周一（6/8）是 King&#39;s Birthday 公众假期，Arc 闭馆，记得安排好。三个活动都在下午/晚上，和上课或复习时间基本不冲突，如果这周课业压力还好的话可以去转一圈。
+
+UNSW 的同学会去哪个活动？评论区见～</div>
+        <div class="tags">#UNSW #新南威尔士大学 #澳洲留学 #悉尼 #校园活动 #留学日常 #Term2</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Sydney, NSW</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-unsw-render" style="--cover-primary:#ffd100;--cover-deep:#b89500;--cover-light:#fff176;--cover-accent:#10162f;--cover-text:#10162f;background:linear-gradient(145deg, #b89500 0%, #ffd100 54%, #fff176 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Sydney, NSW</div>
+                    </div>
+                    <div class="mini-cover-code">UNSW</div>
+                    <div class="mini-cover-cn">新南威尔士大学</div>
+                    <div class="mini-cover-en">UNSW Sydney</div>
+                    <div class="mini-events-shell">
+                      
+        <div class="inline-event-hook">
+          <div class="inline-event-index">01</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">尊重周 · The Great Debate｜(dis)Respect 辩论之夜</div>
+            <div class="inline-event-meta">周二 6/9 下午 5:00<br>Roundhouse Club Bar · Kensington 校区</div>
+          </div>
+        </div>
+        <div class="inline-event-hook">
+          <div class="inline-event-index">02</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">Love Island · Pitch Your Pals｜帮朋友脱单大赛</div>
+            <div class="inline-event-meta">周三 6/10 晚 7:00（6:30 开门）<br>Roundhouse Main Room · Kensington 校区</div>
+          </div>
+        </div>
+        <div class="inline-event-hook">
+          <div class="inline-event-index">03</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">Quad Takeover · 免费 BBQ + 社团嘉年华</div>
+            <div class="inline-event-meta">周四 6/11 上午 10:00-下午 4:00<br>UNSW Quad · Kensington 校区</div>
+          </div>
+        </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>UNSW</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-unsw-render" data-slug="cover-unsw">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #51247a, #2a0f57);">
+        <div class="code">UQ</div>
+        <h2>University of Queensland</h2>
+        <div class="name-cn">昆士兰大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="no-events">本周无公开活动，下周见 🌱</div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">UQ 考试周来了｜St Lucia 图书馆攻略</div>
+        <div class="body">UQ 这周（6/8–14）正式进入期末考试周，SWOTVAC 备考周已经结束，从今天起开始正式出卷。
+
+昆士兰不过 King&#39;s Birthday（那是 10 月的事），所以周一（6/8）UQ 正常上课、图书馆正常开，不用担心。
+
+St Lucia 考试周图书馆情况：Biological Sciences Library 和 Central Library 的 24 小时阅览室在考试周通常延长开放，具体时间建议在 library.uq.edu.au 确认。考试周建议早点去，下午 2 点以后座位基本全满。
+
+如果你有多科考试分布在不同天，建议按考试顺序来排优先级，不要在已经考完的科目上继续花时间——翻篇就翻篇，专注下一科。
+
+有几个实用资源：Academic Skills 顾问在考试周仍然接预约，可以帮你拆解作答思路；Accessibility and Welfare Advisers 如果有特殊情况需要 Special Consideration，尽早联系。
+
+UQ 的同学考完第一科感觉怎么样？评论区聊一聊～</div>
+        <div class="tags">#UQ #昆士兰大学 #澳洲留学 #布里斯班 #考试季 #校园生活 #留学日常</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Brisbane, QLD</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-uq-render" style="--cover-primary:#51247a;--cover-deep:#2a0f57;--cover-light:#7c3aed;--cover-accent:#ffce44;--cover-text:#ffffff;background:linear-gradient(145deg, #2a0f57 0%, #51247a 54%, #7c3aed 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Brisbane, QLD</div>
+                    </div>
+                    <div class="mini-cover-code">UQ</div>
+                    <div class="mini-cover-cn">昆士兰大学</div>
+                    <div class="mini-cover-en">University of Queensland</div>
+                    <div class="mini-events-shell">
+                      <div class="inline-placeholder">
+        <div class="inline-placeholder-kicker">THIS WEEK</div>
+        <div class="inline-placeholder-title">本周无公开活动</div>
+        <div class="inline-placeholder-meta">这所学校本周适合先收藏，等下轮更新。</div>
+      </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>UQ</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-uq-render" data-slug="cover-uq">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #e64626, #9d2613);">
+        <div class="code">USYD</div>
+        <h2>University of Sydney</h2>
+        <div class="name-cn">悉尼大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="event-list">
+        <div class="event">
+          <div class="event-title"><a href="https://usu.edu.au/events/exam-ready-2026-s1/">Exam Ready · 免费早餐+午餐+下午茶（周四加晚餐）</a></div>
+          <div class="event-meta">
+            <span>📅 周二至周四 6/9-6/11 早餐 9:00 · 午餐 12:00 · 下午茶 14:30 · 周四晚餐 17:00（售完即止）</span>
+            <span>📍 Eastern Avenue USU 餐车 · Camperdown 校区</span>
+            <span class="price paid">免费（USU 会员）</span>
+            <span>免费餐食</span>
+          </div>
+        </div></div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">USYD 备考周｜免费餐车重新开摆</div>
+        <div class="body">悉尼大学 USU 的 Exam Ready 免费餐车这周继续，但要注意周一（6/8）是 King&#39;s Birthday 公众假期，餐车那天不运营，从周二（6/9）起恢复。
+
+时间安排：
+· 早上 9 点：免费早餐（USU 会员，售完即止）
+· 中午 12 点：免费午餐（USU 会员）+ USU Rewards 会员额外赠饮
+· 下午 2:30：免费下午茶小食（售完即止）
+· 周四晚上 5 点：免费晚餐（售完即止）
+
+地点在 Camperdown 校区 Eastern Avenue 的 USU 餐车旁边。USU 会员资格是免费的，报名一下就行，别因为不是会员错过白吃的机会。
+
+ Fisher Library 考试周座位紧，建议上午 8:30 前到。一楼大堂人声多，四楼和五楼相对安静一点，适合需要专注的时候。
+
+USYD 的同学这周考几科？有没有同学一起备考的？评论区聊一下～</div>
+        <div class="tags">#USYD #悉尼大学 #澳洲留学 #悉尼 #免费美食 #备考生活 #留学日常</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Sydney, NSW</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-usyd-render" style="--cover-primary:#e64626;--cover-deep:#9d2613;--cover-light:#ff7b59;--cover-accent:#ffce44;--cover-text:#ffffff;background:linear-gradient(145deg, #9d2613 0%, #e64626 54%, #ff7b59 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Sydney, NSW</div>
+                    </div>
+                    <div class="mini-cover-code">USYD</div>
+                    <div class="mini-cover-cn">悉尼大学</div>
+                    <div class="mini-cover-en">University of Sydney</div>
+                    <div class="mini-events-shell">
+                      
+        <div class="inline-event-hook">
+          <div class="inline-event-index">01</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">Exam Ready · 免费早餐+午餐+下午茶（周四加晚餐）</div>
+            <div class="inline-event-meta">周二至周四 6/9-6/11 早餐 9:00 · 午餐 12:00 · 下午茶 14:30 · 周四晚餐 17:00（售完即止）<br>Eastern Avenue USU 餐车 · Camperdown 校区</div>
+          </div>
+        </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>USYD</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-usyd-render" data-slug="cover-usyd">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #002f5f, #001838);">
+        <div class="code">ADELAIDE</div>
+        <h2>University of Adelaide</h2>
+        <div class="name-cn">阿德莱德大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="no-events">本周无公开活动，下周见 🌱</div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">阿德莱德考试周｜AUSA 食物补给指南</div>
+        <div class="body">阿德莱德大学这周继续考试期（一直到 6/21），周一（6/8）是 SA 州的 King&#39;s Birthday 公众假期，所以实际上周二（6/9）才是考试周的第一个正式工作日。
+
+AUSA（Adelaide University Student Association）有一个食物安全计划（Food Security），在校园内提供免费早餐和日用食品领取，具体的地点和时段可以去 ausaadelaide.com.au/support/foodsecurity 查一下。对于备考阶段没时间买菜、或者经济比较紧张的同学来说是个实用资源，不需要解释原因、直接领取就行。
+
+Barr Smith 图书馆考试周通常延长开放，阿德莱德的同学建议提前在学校网站确认开放时间，别临时扑空。Barr Smith Lawns 天气好的时候可以在草地上看书换换心情，下午 3 点以后风会小一些。
+
+考试期节奏建议：每天定一个「今天必须过完」的 checklist，而不是「尽量多看」——后者容易一直觉得没看够，前者完成了会有一点正向反馈。
+
+阿德莱德的同学这周考什么科？评论区说一下～</div>
+        <div class="tags">#阿德莱德大学 #AdelaideUni #澳洲留学 #阿德莱德 #考试季 #备考 #留学日常</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Adelaide, SA</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-adelaide-render" style="--cover-primary:#002f5f;--cover-deep:#001838;--cover-light:#1565c0;--cover-accent:#ff5757;--cover-text:#ffffff;background:linear-gradient(145deg, #001838 0%, #002f5f 54%, #1565c0 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Adelaide, SA</div>
+                    </div>
+                    <div class="mini-cover-code">ADELAIDE</div>
+                    <div class="mini-cover-cn">阿德莱德大学</div>
+                    <div class="mini-cover-en">University of Adelaide</div>
+                    <div class="mini-events-shell">
+                      <div class="inline-placeholder">
+        <div class="inline-placeholder-kicker">THIS WEEK</div>
+        <div class="inline-placeholder-title">本周无公开活动</div>
+        <div class="inline-placeholder-meta">这所学校本周适合先收藏，等下轮更新。</div>
+      </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>ADELAIDE</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-adelaide-render" data-slug="cover-adelaide">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+
+    <article class="school">
+      <header class="school-cover" style="background: linear-gradient(135deg, #006dae, #003f6b);">
+        <div class="code">MONASH</div>
+        <h2>Monash University</h2>
+        <div class="name-cn">莫纳什大学</div>
+      </header>
+      <div class="school-body">
+        <div class="school-layout">
+          <div class="school-main">
+            <h3>This Week's Events</h3>
+            <div class="event-list">
+        <div class="event">
+          <div class="event-title"><a href="https://msa.monash.edu/events">MSA 考试免费汤｜Clayton 校区工作日中午</a></div>
+          <div class="event-meta">
+            <span>📅 周一至周五（6/9 起，至 6/25）中午 12:00-14:00（公众假日除外）</span>
+            <span>📍 Clayton 校区（MSA 指定点位，无需预约）</span>
+            <span class="price paid">免费，全校区学生均可</span>
+            <span>健康活动</span>
+          </div>
+        </div></div>
+            
+      <div class="xhs-draft">
+        <h4>📱 小红书草稿</h4>
+        <div class="title">Monash 考试期开跑｜免费汤来了</div>
+        <div class="body">Monash 这周正式进入期末考试期，周一（6/8）是 VIC 州的 King&#39;s Birthday 公众假期，所以第一场考试实际上从周二（6/9）开始排。
+
+MSA（Monash Student Association）这段时间在 Clayton 校区推出免费汤（Free Soup），工作日每天中午 12 点到 2 点，不限专业和校区——Clayton、Caulfield、Peninsula 的同学都可以去领，完全不需要提前报名，直接去就行，供完为止。
+
+这个活动从 6/8 一直持续到 6/25，考试期全程覆盖，如果刚好在 Clayton 考试或图书馆自习，顺路去喝碗汤，比自己去买吃的省时间省钱。
+
+Clayton 考试周图书馆方面：Matheson Library 的小组讨论区建议提前预约（campus.monash.edu），个人座位周一到周四上午还比较好找，周五下午开始就很抢手了。
+
+备考节奏方面，第一周往往决定后面的状态，建议第一科考完当天不要全部放松，当晚把下一科的框架翻一遍，第二天再正式复习。
+
+Monash 的同学这周第一科考什么？评论区打一下～</div>
+        <div class="tags">#Monash #莫纳什大学 #澳洲留学 #墨尔本 #校园活动 #考试季 #留学日常</div>
+      </div>
+          </div>
+          <aside class="school-side">
+            <div class="poster-box">
+              <div class="poster-box-head">
+                <span>封面预览</span>
+                <em>Melbourne, VIC</em>
+              </div>
+              <div class="mini-cover-stage">
+                <div class="mini-cover" id="card-cover-monash-render" style="--cover-primary:#006dae;--cover-deep:#003f6b;--cover-light:#1e88e5;--cover-accent:#ffce44;--cover-text:#ffffff;background:linear-gradient(145deg, #003f6b 0%, #006dae 54%, #1e88e5 100%);">
+                  <div class="mini-cover-orb mini-cover-orb-a"></div>
+                  <div class="mini-cover-orb mini-cover-orb-b"></div>
+                  <div class="mini-cover-grid"></div>
+                  <div class="mini-cover-inner">
+                    <div class="mini-cover-topline">
+                      <div class="mini-chip">CAMPUS PULSE</div>
+                      <div class="mini-chip">Melbourne, VIC</div>
+                    </div>
+                    <div class="mini-cover-code">MONASH</div>
+                    <div class="mini-cover-cn">莫纳什大学</div>
+                    <div class="mini-cover-en">Monash University</div>
+                    <div class="mini-events-shell">
+                      
+        <div class="inline-event-hook">
+          <div class="inline-event-index">01</div>
+          <div class="inline-event-copy">
+            <div class="inline-event-title">MSA 考试免费汤｜Clayton 校区工作日中午</div>
+            <div class="inline-event-meta">周一至周五（6/9 起，至 6/25）中午 12:00-14:00（公众假日除外）<br>Clayton 校区（MSA 指定点位，无需预约）</div>
+          </div>
+        </div>
+                    </div>
+                    <div class="mini-cover-foot">
+                      <span>Weekly Edit</span>
+                      <span>MONASH</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="poster-dl-btn" data-target="card-cover-monash-render" data-slug="cover-monash">⬇ 下载这张 PNG</button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <footer>
+    <p>由 build/pipelines/uni-events.pipeline.ts 自动生成</p>
+    <p>Source: src/data/uni-events/2026-06-08.json</p>
+  </footer>
+</div>
+</body>
+</html>

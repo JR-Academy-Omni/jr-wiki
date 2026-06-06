@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-08",
+  "intro": "下周 6/8–14 六校周报｜周一公众假期 · UNSW 尊重周 BBQ · USYD 免费餐车 · Monash 考试免费汤",
+  "schools": [
+    {
+      "code": "umelb",
+      "events": [
+        {
+          "title": "研究生写作马拉松｜GSA Shut Up & Write",
+          "time": "周四 6/11 下午 2:00-4:00",
+          "location": "1888 Building 102 室 · Grattan St Parkville（线上线下同步）",
+          "price": "免费",
+          "category": "学习活动",
+          "url": "https://gsa.unimelb.edu.au/events-and-programs/academic-support/shut-up-write/"
+        }
+      ],
+      "xhsDraft": {
+        "title": "墨大考试周｜番茄钟写作马拉松",
+        "body": "墨大这周正式进入考试期了，周一（6/8）是 King's Birthday 公众假期，周二（6/9）起图书馆和自习室都开满了人。\n\n有一个研究生同学可能会感兴趣的活动：周四（6/11）下午 2 点到 4 点，GSA（研究生学生会）有一场 Shut Up & Write 写作马拉松，在 1888 Building 102 室，线上线下同时开放。格式是 Pomodoro（番茄钟）循环——25 分钟专注写作 + 5 分钟休息，跑两小时大概可以完成 4 个番茄钟。不管是论文、作业还是 take-home exam，换个环境跟一群人一起写效率真的会高很多。\n\n考试期图书馆的位置建议早点去占，上午 9 点前到基本稳拿靠窗座。ERC（电子资源中心）那层比较安静，适合需要查资料的科目；Baillieu 的阅览室适合纯看书不需要插电脑的时候用。\n\n周一放假不代表可以放空一天——这周之前把最难那科的笔记过一遍，后面会轻松很多。\n\n有在备考的墨大同学，你们最喜欢哪个地方复习？评论区聊一聊～",
+        "tags": ["#墨尔本大学", "#UMelb", "#澳洲留学", "#墨尔本", "#考试季", "#研究生", "#留学日常"]
+      }
+    },
+    {
+      "code": "unsw",
+      "events": [
+        {
+          "title": "尊重周 · The Great Debate｜(dis)Respect 辩论之夜",
+          "time": "周二 6/9 下午 5:00",
+          "location": "Roundhouse Club Bar · Kensington 校区",
+          "price": "免费",
+          "category": "社交",
+          "url": "https://www.arc.unsw.edu.au/events/respect-week-3"
+        },
+        {
+          "title": "Love Island · Pitch Your Pals｜帮朋友脱单大赛",
+          "time": "周三 6/10 晚 7:00（6:30 开门）",
+          "location": "Roundhouse Main Room · Kensington 校区",
+          "price": "免费入场（前 100 名赠饮）",
+          "category": "社交",
+          "url": "https://www.arc.unsw.edu.au/events/respect-week-3"
+        },
+        {
+          "title": "Quad Takeover · 免费 BBQ + 社团嘉年华",
+          "time": "周四 6/11 上午 10:00-下午 4:00",
+          "location": "UNSW Quad · Kensington 校区",
+          "price": "免费",
+          "category": "社交",
+          "url": "https://www.arc.unsw.edu.au/events/respect-week-3"
+        }
+      ],
+      "xhsDraft": {
+        "title": "UNSW 尊重周｜BBQ+辩论+脱单大赛",
+        "body": "UNSW Term 2 第二周，Arc 这周办了一个「尊重周（Respect Week）」，周二到周四连续三天都有活动，而且基本都是免费的。\n\n周二（6/9）晚上 5 点，Roundhouse Club Bar 有 The Great Debate：(dis)Respect，辩题格式，围绕尊重、关系这些话题来辩，适合喜欢聊有点深度的东西的同学。\n\n周三（6/10）晚上 7 点（6:30 开门），Roundhouse Main Room 有 Love Island · Pitch Your Pals，要求你帮自己的单身朋友做 slides 来「推销」——前 100 个进场的免费赠一杯饮品。听起来很荒唐但很好笑，适合带朋友去放松一下。\n\n周四（6/11）上午 10 点到下午 4 点，Quad Takeover 是这周最大的活动，在 UNSW Quad 广场，有免费 BBQ、各个社团一起摆摊，来了就能吃到，不用提前报名。\n\n周一（6/8）是 King's Birthday 公众假期，Arc 闭馆，记得安排好。三个活动都在下午/晚上，和上课或复习时间基本不冲突，如果这周课业压力还好的话可以去转一圈。\n\nUNSW 的同学会去哪个活动？评论区见～",
+        "tags": ["#UNSW", "#新南威尔士大学", "#澳洲留学", "#悉尼", "#校园活动", "#留学日常", "#Term2"]
+      }
+    },
+    {
+      "code": "uq",
+      "events": [],
+      "xhsDraft": {
+        "title": "UQ 考试周来了｜St Lucia 图书馆攻略",
+        "body": "UQ 这周（6/8–14）正式进入期末考试周，SWOTVAC 备考周已经结束，从今天起开始正式出卷。\n\n昆士兰不过 King's Birthday（那是 10 月的事），所以周一（6/8）UQ 正常上课、图书馆正常开，不用担心。\n\nSt Lucia 考试周图书馆情况：Biological Sciences Library 和 Central Library 的 24 小时阅览室在考试周通常延长开放，具体时间建议在 library.uq.edu.au 确认。考试周建议早点去，下午 2 点以后座位基本全满。\n\n如果你有多科考试分布在不同天，建议按考试顺序来排优先级，不要在已经考完的科目上继续花时间——翻篇就翻篇，专注下一科。\n\n有几个实用资源：Academic Skills 顾问在考试周仍然接预约，可以帮你拆解作答思路；Accessibility and Welfare Advisers 如果有特殊情况需要 Special Consideration，尽早联系。\n\nUQ 的同学考完第一科感觉怎么样？评论区聊一聊～",
+        "tags": ["#UQ", "#昆士兰大学", "#澳洲留学", "#布里斯班", "#考试季", "#校园生活", "#留学日常"]
+      }
+    },
+    {
+      "code": "usyd",
+      "events": [
+        {
+          "title": "Exam Ready · 免费早餐+午餐+下午茶（周四加晚餐）",
+          "time": "周二至周四 6/9-6/11 早餐 9:00 · 午餐 12:00 · 下午茶 14:30 · 周四晚餐 17:00（售完即止）",
+          "location": "Eastern Avenue USU 餐车 · Camperdown 校区",
+          "price": "免费（USU 会员）",
+          "category": "免费餐食",
+          "url": "https://usu.edu.au/events/exam-ready-2026-s1/"
+        }
+      ],
+      "xhsDraft": {
+        "title": "USYD 备考周｜免费餐车重新开摆",
+        "body": "悉尼大学 USU 的 Exam Ready 免费餐车这周继续，但要注意周一（6/8）是 King's Birthday 公众假期，餐车那天不运营，从周二（6/9）起恢复。\n\n时间安排：\n· 早上 9 点：免费早餐（USU 会员，售完即止）\n· 中午 12 点：免费午餐（USU 会员）+ USU Rewards 会员额外赠饮\n· 下午 2:30：免费下午茶小食（售完即止）\n· 周四晚上 5 点：免费晚餐（售完即止）\n\n地点在 Camperdown 校区 Eastern Avenue 的 USU 餐车旁边。USU 会员资格是免费的，报名一下就行，别因为不是会员错过白吃的机会。\n\n Fisher Library 考试周座位紧，建议上午 8:30 前到。一楼大堂人声多，四楼和五楼相对安静一点，适合需要专注的时候。\n\nUSYD 的同学这周考几科？有没有同学一起备考的？评论区聊一下～",
+        "tags": ["#USYD", "#悉尼大学", "#澳洲留学", "#悉尼", "#免费美食", "#备考生活", "#留学日常"]
+      }
+    },
+    {
+      "code": "adelaide",
+      "events": [],
+      "xhsDraft": {
+        "title": "阿德莱德考试周｜AUSA 食物补给指南",
+        "body": "阿德莱德大学这周继续考试期（一直到 6/21），周一（6/8）是 SA 州的 King's Birthday 公众假期，所以实际上周二（6/9）才是考试周的第一个正式工作日。\n\nAUSA（Adelaide University Student Association）有一个食物安全计划（Food Security），在校园内提供免费早餐和日用食品领取，具体的地点和时段可以去 ausaadelaide.com.au/support/foodsecurity 查一下。对于备考阶段没时间买菜、或者经济比较紧张的同学来说是个实用资源，不需要解释原因、直接领取就行。\n\nBarr Smith 图书馆考试周通常延长开放，阿德莱德的同学建议提前在学校网站确认开放时间，别临时扑空。Barr Smith Lawns 天气好的时候可以在草地上看书换换心情，下午 3 点以后风会小一些。\n\n考试期节奏建议：每天定一个「今天必须过完」的 checklist，而不是「尽量多看」——后者容易一直觉得没看够，前者完成了会有一点正向反馈。\n\n阿德莱德的同学这周考什么科？评论区说一下～",
+        "tags": ["#阿德莱德大学", "#AdelaideUni", "#澳洲留学", "#阿德莱德", "#考试季", "#备考", "#留学日常"]
+      }
+    },
+    {
+      "code": "monash",
+      "events": [
+        {
+          "title": "MSA 考试免费汤｜Clayton 校区工作日中午",
+          "time": "周一至周五（6/9 起，至 6/25）中午 12:00-14:00（公众假日除外）",
+          "location": "Clayton 校区（MSA 指定点位，无需预约）",
+          "price": "免费，全校区学生均可",
+          "category": "健康活动",
+          "url": "https://msa.monash.edu/events"
+        }
+      ],
+      "xhsDraft": {
+        "title": "Monash 考试期开跑｜免费汤来了",
+        "body": "Monash 这周正式进入期末考试期，周一（6/8）是 VIC 州的 King's Birthday 公众假期，所以第一场考试实际上从周二（6/9）开始排。\n\nMSA（Monash Student Association）这段时间在 Clayton 校区推出免费汤（Free Soup），工作日每天中午 12 点到 2 点，不限专业和校区——Clayton、Caulfield、Peninsula 的同学都可以去领，完全不需要提前报名，直接去就行，供完为止。\n\n这个活动从 6/8 一直持续到 6/25，考试期全程覆盖，如果刚好在 Clayton 考试或图书馆自习，顺路去喝碗汤，比自己去买吃的省时间省钱。\n\nClayton 考试周图书馆方面：Matheson Library 的小组讨论区建议提前预约（campus.monash.edu），个人座位周一到周四上午还比较好找，周五下午开始就很抢手了。\n\n备考节奏方面，第一周往往决定后面的状态，建议第一科考完当天不要全部放松，当晚把下一科的框架翻一遍，第二天再正式复习。\n\nMonash 的同学这周第一科考什么？评论区打一下～",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#墨尔本", "#校园活动", "#考试季", "#留学日常"]
+      }
+    }
+  ]
+}
