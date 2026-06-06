@@ -1,0 +1,92 @@
+{
+  "date": "2026-06-07",
+  "summary": {
+    "hook": ["GPT-5.5 入驻 AWS", "ChatGPT 锁定模式", "微软 MAI 七模型", "Claude 自写 80% 代码", "Qwen 3.7 Max"],
+    "sub": "OpenAI 旗舰 GPT-5.5 登陆 Amazon Bedrock，ChatGPT 上线 Lockdown Mode 防注入攻击，微软 Build 2026 发布 7 款自研 MAI 模型，Anthropic 警告 Claude 已自写超 80% 代码，Qwen 3.7 Max 以 1/6 成本接近 Claude Opus 4.7",
+    "items": [
+      {"num":"01","cat":"商业整合","numColor":"#10a37f","t":"OpenAI GPT-5.5 与 Codex 正式入驻 Amazon Bedrock，云端 AI 两强联手"},
+      {"num":"02","cat":"安全功能","numColor":"#ef4444","t":"ChatGPT 上线 Lockdown Mode，关闭网络访问防范 prompt injection 数据泄露"},
+      {"num":"03","cat":"模型发布","numColor":"#0078d4","t":"微软 Build 2026 发布 7 款自研 MAI 模型，首次摆脱 OpenAI 数据训练依赖"},
+      {"num":"04","cat":"AI 安全","numColor":"#7c3aed","t":"Anthropic 警告：Claude 已自写超 80% 代码，呼吁建立全球 AI 暂停机制"},
+      {"num":"05","cat":"开源模型","numColor":"#f59e0b","t":"Qwen 3.7 Max 基准测试超越 Claude Opus 4.6，成本仅为 Opus 4.7 的 1/6"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-gpt55-codex-aws-bedrock",
+      "idx": "01",
+      "catText": "商业整合",
+      "accent": "#10a37f",
+      "bg": {"top":"#F0FDF4","mid":"#DCFCE7","bot":"#BBF7D0","topRight":"#86EFAC"},
+      "title": [{"text":"OpenAI GPT-5.5 与 Codex"},{"text":"正式入驻 Amazon Bedrock，AI 两强深度绑定","hl":true}],
+      "oneline": [{"text":"GPT-5.5、GPT-5.4 及 Codex 现已可在 AWS 环境调用，"},{"text":"Managed Agents 同步公测，继承 AWS 全套安全与计费体系","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"OpenAI 将旗舰模型 GPT-5.5、GPT-5.4 及编程代理 Codex 正式上线 Amazon Bedrock，开发者可在 AWS 原生环境中调用 OpenAI 模型，同享 AWS 的身份认证、安全控制和计费系统"},
+        {"k":"为什么重要","v":"此次整合标志着 OpenAI 商业策略转向「渠道优先」——把模型送进客户已在用的云基础设施，而非强迫迁移至 OpenAI 自有平台；AWS Bedrock 用户基础庞大，触达效率远超直接销售"},
+        {"k":"对你的影响","v":"已在 AWS 上构建系统的团队无需更换云账户即可切换至 GPT-5.5；Codex 与 Bedrock 的结合让 CI/CD 流水线集成 AI 编程助手的门槛大幅降低，值得评估替代方案"}
+      ],
+      "src": "📎 openai.com · aws.amazon.com"
+    },
+    {
+      "slug": "02-chatgpt-lockdown-mode-elevated-risk",
+      "idx": "02",
+      "catText": "安全功能",
+      "accent": "#ef4444",
+      "bg": {"top":"#FFF1F2","mid":"#FFE4E6","bot":"#FECDD3","topRight":"#FCA5A5"},
+      "title": [{"text":"ChatGPT 上线 Lockdown Mode"},{"text":"关闭网络访问与 Agent Mode，防范 prompt injection 数据外泄","hl":true}],
+      "oneline": [{"text":"6 月 4 日向个人及商业用户推出，"},{"text":"开启后自动禁用网页浏览、Deep Research、Agent Mode 等联网功能","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"OpenAI 正式推出 Lockdown Mode 安全选项，开启后关闭 ChatGPT 的全部外部网络连接，包括实时网页浏览、Deep Research、Agent Mode、Canvas 联网、文件下载及图像来源引用；同步上线「Elevated Risk」标签警示高风险提示词"},
+        {"k":"为什么重要","v":"prompt injection 攻击（即通过网页或文档向 AI 注入恶意指令偷取数据）是企业部署 AI Agent 的头号安全隐患；Lockdown Mode 是业内首个内置于消费级产品的同类防护机制，具有标杆意义"},
+        {"k":"对你的影响","v":"使用 ChatGPT 处理敏感业务数据或在高安全要求场景作业的用户，建议在设置中启用 Lockdown Mode；「Elevated Risk」标签则提供实时风险提示，辅助判断特定查询的潜在风险"}
+      ],
+      "src": "📎 openai.com · neowin.net"
+    },
+    {
+      "slug": "03-microsoft-mai-seven-models-build-2026",
+      "idx": "03",
+      "catText": "模型发布",
+      "accent": "#0078d4",
+      "bg": {"top":"#EFF6FF","mid":"#DBEAFE","bot":"#BFDBFE","topRight":"#93C5FD"},
+      "title": [{"text":"微软 Build 2026 发布 7 款自研 MAI 模型"},{"text":"MAI-Thinking-1 首次完全不依赖 OpenAI 数据训练","hl":true}],
+      "oneline": [{"text":"6 月 2 日发布推理、代码、图像、语音全栈 MAI 系列，"},{"text":"MAI-Thinking-1 拥有 35B 激活参数和 256K 上下文窗口，MAI-Code-1-Flash 进驻 GitHub Copilot","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"微软在 Build 2026 大会（6 月 2 日）发布 7 款自研 MAI 系列模型：MAI-Thinking-1（推理旗舰，35B 激活参数，256K 上下文）、MAI-Code-1-Flash（5B 编程模型，进驻 GitHub Copilot）、MAI-Image-2.5、MAI-Transcribe-1.5、MAI-Voice-2 等，全部使用商业授权数据训练，不依赖任何第三方模型蒸馏"},
+        {"k":"为什么重要","v":"这是微软与 OpenAI 十年深度绑定关系以来最明确的技术自主化信号；摆脱外部依赖意味着微软可以在定价、版权保障和功能自定义上拥有完全控制权，战略意义重大"},
+        {"k":"对你的影响","v":"MAI-Code-1-Flash 已通过 GitHub Copilot 滚动发布（Free/Pro/Pro+/Max 均可用）；MAI-Thinking-1 在 Microsoft Foundry 开启私测，开发者可提交申请体验自主推理模型"}
+      ],
+      "src": "📎 cnbc.com · techtimes.com · datanorth.ai"
+    },
+    {
+      "slug": "04-anthropic-claude-80-percent-code-global-pause",
+      "idx": "04",
+      "catText": "AI 安全",
+      "accent": "#7c3aed",
+      "bg": {"top":"#F5F3FF","mid":"#EDE9FE","bot":"#DDD6FE","topRight":"#C4B5FD"},
+      "title": [{"text":"Anthropic 警告 Claude 已自写超 80% 代码"},{"text":"呼吁建立全球协调 AI 暂停机制防止递归自我改进","hl":true}],
+      "oneline": [{"text":"「When AI builds itself」报告 6 月 4 日发布，"},{"text":"Claude 代码贡献从 2025 年 2 月 <10% 飙升至 5 月 >80%，工程师人均合并代码量增长 8 倍","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Anthropic 6 月 4 日发布「When AI builds itself」报告：2026 年 5 月超过 80% 的合并代码由 Claude 自主编写，而 2025 年 2 月 Claude Code 进入研究预览时这一比例不足个位数；工程师人均季度代码合并量较 2021-2025 均值增长 8 倍"},
+        {"k":"为什么重要","v":"Anthropic 警告此趋势若持续将导致「递归自我改进」——AI 在几乎没有人类介入的情况下设计并开发自己的后继版本；公司呼吁 AI 开发商、政策制定者和公民社会共同设计可验证的全球协调暂停机制"},
+        {"k":"对你的影响","v":"AI 辅助开发已进入实质性自主阶段，工程师角色将从「写代码」转向「定方向和审查」；Anthropic 提出的暂停机制讨论将影响全球 AI 监管走向，IT 从业者应关注其政策进展"}
+      ],
+      "src": "📎 tomshardware.com · scientificamerican.com · the-decoder.com"
+    },
+    {
+      "slug": "05-alibaba-qwen37-max-benchmark-cost",
+      "idx": "05",
+      "catText": "开源模型",
+      "accent": "#f59e0b",
+      "bg": {"top":"#FFFBEB","mid":"#FEF3C7","bot":"#FDE68A","topRight":"#FCD34D"},
+      "title": [{"text":"Qwen 3.7 Max 基准超越 Claude Opus 4.6"},{"text":"1M 上下文窗口，成本仅为 Claude Opus 4.7 的 1/6","hl":true}],
+      "oneline": [{"text":"5 月 20 日阿里云峰会发布，"},{"text":"SWE-Bench Pro 60.6 / GPQA Diamond 92.4，$1.25/$3.75 per 1M tokens","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"阿里巴巴 Qwen 3.7 Max 在 Terminal-Bench 2.0（69.7）、SWE-Bench Pro（60.6）和 MCP-Atlas（76.4）等 Agent 基准上超越 Claude Opus 4.6 Max；GPQA Diamond 得分 92.4 超过 Claude Opus 4.6 Max 的 91.3；定价 $1.25/$3.75 per 1M tokens，约为 Claude Opus 4.7 成本的 1/6"},
+        {"k":"为什么重要","v":"性能接近顶级商用模型、价格低至 1/6，Qwen 3.7 Max 使得构建复杂 Agent 应用的算力成本门槛大幅下降；1M token 上下文窗口也让超长文档处理、代码库级分析成为低成本可行方案"},
+        {"k":"对你的影响","v":"通过 OpenRouter（qwen/qwen3.7-max）或阿里云 DashScope 即可调用；适合 SWE 型编程 Agent、科研推理场景；中小团队可考虑用 Qwen 3.7 Max 替代 Claude Opus 以降低 API 成本"}
+      ],
+      "src": "📎 openrouter.ai · datacamp.com · buildfastwithai.com"
+    }
+  ],
+  "mp": {"title": "GPT-5.5 入驻 AWS / ChatGPT 锁定模式 / 微软 MAI 7 模型 / Claude 自写 80% / Qwen 3.7 Max"}
+}
