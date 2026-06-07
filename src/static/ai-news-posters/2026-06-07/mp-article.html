@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 日报 2026-06-07 · 公众号文章（内部）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --mp-primary: #ff5757;
+  --mp-highlight: #ffce44;
+  --mp-dark: #10162f;
+}
+</style>
+<link rel="stylesheet" href="../../_lib/mp-page.v1.css">
+</head>
+<body>
+<div class="page">
+  <div class="topbar">
+    <div>
+      <h1>📰 AI 日报 · <span>公众号文章</span> · 2026-06-07</h1>
+      <div class="sub">左侧 375px 手机预览 · 右侧进度 + 操作。点「📋 复制富文本」后粘到公众号编辑器，图片自动抓取 re-host。</div>
+    </div>
+    <div class="acts">
+      <a class="btn" href="./">← 回海报库</a>
+      <button class="btn" id="btn-copy-html">📋 复制富文本</button>
+      <button class="btn primary" id="btn-download-all" disabled>⬇ 下载 6 张 PNG</button>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-bar">
+          <span><span class="dot"></span>mp.weixin.qq.com</span>
+          <span>375px · 预览</span>
+        </div>
+        <article class="mp" id="mp-article">
+<div class="mp-title">GPT-5.5 入驻 AWS / ChatGPT 锁定模式 / 微软 MAI 7 模型 / Claude 自写 80% / Qwen 3.7 Max</div>
+<div class="mp-meta">
+  <span class="author">JR Academy AI 日报</span>
+  <span>·</span><span>2026-06-07</span>
+  <span>·</span><span>阅读约 8 分钟</span>
+</div>
+<div class="mp-lead">2026-06-07 AI 日报，今日 5 条：OpenAI GPT-5.5 与 Codex 正式入驻 Amazon Bedrock，云端 AI 两强联手；ChatGPT 上线 Lockdown Mode，关闭网络访问防范 prompt injection 数据泄露；微软 Build 2026 发布 7 款自研 MAI 模型，首次摆脱 OpenAI 数据训练依赖；Anthropic 警告：Claude 已自写超 80% 代码，呼吁建立全球 AI 暂停机制；Qwen 3.7 Max 基准测试超越 Claude Opus 4.6，成本仅为 Opus 4.7 的 1/6。</div>
+<img class="mp-img" src="./poster-0.png" alt="图 1 · 合集海报" data-poster="poster-0" data-file="mp-01-summary.png">
+<div class="mp-caption">图 1 · 合集海报</div>
+<hr class="mp-divider">
+<div class="mp-hook">01 · 商业整合</div>
+<div class="mp-h2">OpenAI GPT-5.5 与 Codex正式入驻 Amazon Bedrock，AI 两强深度绑定</div>
+<img class="mp-img" src="./poster-1.png" alt="图 2 · 海报 01" data-poster="poster-1" data-file="mp-02-01-openai-gpt55-codex-aws-bedrock.png">
+<div class="mp-caption">图 2 · 海报 01</div>
+<div class="mp-oneline"><strong>一句话</strong>：GPT-5.5、GPT-5.4 及 Codex 现已可在 AWS 环境调用，<strong>Managed Agents 同步公测，继承 AWS 全套安全与计费体系</strong></div>
+<p>这是 OpenAI 与 Amazon 迄今为止最深度的商业整合。根据 OpenAI 官方公告，GPT-5.5（目前 OpenAI 发布的最强前沿模型）以及 GPT-5.4 现已在 Amazon Bedrock 上线，与此同时，AI 编程代理 Codex 也完成了 AWS 集成，支持以 Amazon Bedrock 作为模型提供商运行，并使用 AWS 托管的身份认证、账户控制和计费。值得关注的是，此次整合还包括 OpenAI Managed Agents 的公测上线——开发者可以在 AWS 安全沙箱环境中部署和运行 OpenAI 的 Agentic 应用，无需自行管理底层基础设施。</p>
+<p>理解这次整合的意义，需要看清 OpenAI 在商业战略上的一个重要转变。过去几年，OpenAI 一直在通过 platform.openai.com 直接向开发者销售 API 访问权限，自建分发渠道。而将模型送进 Amazon Bedrock，实质上是选择了一条「去中间商」的反向路径——通过 AWS 的庞大客户基础（全球数百万企业开发者）触达用户，而非要求用户专门迁移到 OpenAI 平台。这一策略与 Anthropic 将 Claude 深度整合进 AWS 的做法如出一辙，而 Google 也在把 Gemini 系列模型推进 Vertex AI 生态。云平台正在成为 AI 模型竞争的新战场，谁能更深地嵌入开发者的现有工作流，谁就占据了更持久的商业护城河。对于 OpenAI 而言，AWS 渠道意味着能够触达大量原本不会主动注册 OpenAI 账户的企业客户，尤其是已经与 AWS 签有大量承诺消费协议（EDP）的大型企业。</p>
+<p>对 AI 开发者和架构师而言，这次整合有几个具体的实操意义。第一，如果你的团队已经在 AWS 上构建系统，现在可以直接通过 Bedrock API 调用 GPT-5.5，而不需要开另一个 OpenAI 账户或管理单独的 API Key，账单也直接合入 AWS 月结。第二，Codex 与 Bedrock 的结合意味着可以把 OpenAI 的 AI 编程能力更自然地嵌入 AWS CodePipeline、CodeBuild 等 CI/CD 工具链中，而不是绕过 AWS 生态单独跑一套 Agent 流程。第三，Managed Agents 公测意味着 AWS 上的 Agentic 工作流将有更多现成的 OpenAI 模型选项，适合评估是否可以替换现有的 Claude on Bedrock 方案。总体而言，这是一次对已在 AWS 生态内构建的团队极为友好的整合，建议在当前选型阶段将 GPT-5.5 on Bedrock 纳入候选评估。</p>
+<div class="mp-source">来源：<a href="https://openai.com">openai.com</a> · <a href="https://aws.amazon.com">aws.amazon.com</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">02 · 安全功能</div>
+<div class="mp-h2">ChatGPT 上线 Lockdown Mode关闭网络访问与 Agent Mode，防范 prompt injection 数据外泄</div>
+<img class="mp-img" src="./poster-2.png" alt="图 3 · 海报 02" data-poster="poster-2" data-file="mp-03-02-chatgpt-lockdown-mode-elevated-risk.png">
+<div class="mp-caption">图 3 · 海报 02</div>
+<div class="mp-oneline"><strong>一句话</strong>：6 月 4 日向个人及商业用户推出，<strong>开启后自动禁用网页浏览、Deep Research、Agent Mode 等联网功能</strong></div>
+<p>ChatGPT 的安全能力迎来一次重要升级。6 月 4 日，OpenAI 宣布向个人账户和自助式 ChatGPT Business 账户推出 Lockdown Mode——这是一项可选的安全增强设置，专为有高安全要求的用户或处理敏感信息的使用场景设计。根据 OpenAI 的官方描述，启用 Lockdown Mode 后，ChatGPT 将限制或完全关闭所有联接外部网络和服务的功能，具体包括：实时网页浏览、响应中的图像支持（来源于网络的部分）、Deep Research（含购物研究）、Agent Mode、Canvas 联网功能、实时连接器（Live Connectors）以及文件下载。与此同时，OpenAI 还引入了「Elevated Risk」标签机制，在检测到提示词存在较高风险时（如可能触发数据外泄或恶意指令执行的输入）向用户发出实时警示，帮助用户在交互过程中识别和规避潜在安全隐患。</p>
+<p>要理解为什么 Lockdown Mode 意义重大，需要先了解 prompt injection 攻击的工作原理。当 ChatGPT 开启网页浏览或处理外部文档时，黑客可以在目标网页或文件中预先嵌入隐藏的恶意指令（看起来像正常文本，但 AI 会将其当作用户指令执行）。一旦 ChatGPT 访问这些资源，就可能在用户不知情的情况下执行数据提取、发送信息或修改行为。这种攻击在 AI Agent 场景下尤为危险——当 Agent 被授权代用户执行更多操作时，一次成功的 prompt injection 可能导致严重的数据泄露或系统破坏。OpenAI 此前已在 Agent Mode 中引入了部分防护机制，而 Lockdown Mode 是迄今为止最彻底的防护方案：直接切断所有外部网络连接，从根本上消除注入面。这也是业内主流消费级 AI 产品中第一个提供此类系统级安全隔离选项的功能，具有重要的行业参考价值。</p>
+<p>从实际操作来看，Lockdown Mode 的取舍很清晰：开启后你将失去 ChatGPT 的所有实时信息获取能力，换来的是更高的数据安全保障。对于以下场景的用户，这一选项值得认真评估：一是在 ChatGPT 中处理公司内部文件、客户数据或合规敏感信息；二是在企业安全策略下需要确保 AI 工具不向外部传输数据；三是使用 ChatGPT 进行高风险决策辅助（如法律、金融、医疗类查询）。「Elevated Risk」标签则对所有用户都有参考价值——当你输入包含敏感信息的提示词时，系统的实时风险评估可以帮助你在提交前进行二次确认。Lockdown Mode 的启用路径：ChatGPT 设置 → 安全与隐私 → Lockdown Mode。</p>
+<div class="mp-source">来源：<a href="https://openai.com">openai.com</a> · <a href="https://neowin.net">neowin.net</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">03 · 模型发布</div>
+<div class="mp-h2">微软 Build 2026 发布 7 款自研 MAI 模型MAI-Thinking-1 首次完全不依赖 OpenAI 数据训练</div>
+<img class="mp-img" src="./poster-3.png" alt="图 4 · 海报 03" data-poster="poster-3" data-file="mp-04-03-microsoft-mai-seven-models-build-2026.png">
+<div class="mp-caption">图 4 · 海报 03</div>
+<div class="mp-oneline"><strong>一句话</strong>：6 月 2 日发布推理、代码、图像、语音全栈 MAI 系列，<strong>MAI-Thinking-1 拥有 35B 激活参数和 256K 上下文窗口，MAI-Code-1-Flash 进驻 GitHub Copilot</strong></div>
+<p>这是微软与 OpenAI 长期技术绑定关系发生实质松动的最明确信号。6 月 2 日，微软在 Build 2026 开发者大会上正式对外宣布了 7 款自主研发的 MAI（Microsoft AI）系列模型，涵盖推理、编程、图像生成、语音识别和语音合成五大领域：MAI-Thinking-1（推理旗舰）、MAI-Code-1-Flash（编程模型）、MAI-Image-2.5 和 MAI-Image-2.5 Flash（图像生成）、MAI-Transcribe-1.5（语音识别）、MAI-Voice-2 和 MAI-Voice-2 Flash（语音合成）。其中最受关注的 MAI-Thinking-1 是一个稀疏混合专家（MoE）架构推理模型，拥有 350 亿激活参数和 25.6 万 token 的上下文窗口，设计用于处理复杂的多步骤指令、长上下文推理和代码生成任务，内置函数调用和开发者自定义指令支持。关键的区别在于：整个 MAI 系列从训练数据到模型架构均由微软自主完成，既未使用 OpenAI 的模型进行蒸馏，也未依赖 OpenAI 提供的训练数据，是微软首个真正意义上的自主基础模型系列。</p>
+<p>从战略层面看，微软此举背后的逻辑并不复杂，但影响深远。过去数年，微软在 AI 能力上高度依赖 OpenAI——Azure OpenAI Service 是微软 AI 商业化的核心载体，Copilot 系列产品的智能核心也源自 GPT 系列。这种依赖的代价是微软无法独立控制模型的研发节奏、定价策略和版权责任。MAI 系列的发布意味着微软正在构建独立于 OpenAI 的技术底座。特别是 MAI-Code-1-Flash 直接进驻 GitHub Copilot 这一战略性开发者产品，让微软可以在不需要 OpenAI 授权的情况下独立迭代 Copilot 的核心智能。对 OpenAI 而言，这是一个需要认真对待的竞争信号：曾经最重要的战略合作伙伴，如今也成为了模型市场的竞争对手。</p>
+<p>对 AI 开发者和 GitHub Copilot 用户来说，这次发布有几个直接影响。MAI-Code-1-Flash 目前正通过 GitHub Copilot 向所有订阅层级（Free、Pro、Pro+、Max）滚动推送，如果你在 VS Code 或 JetBrains 中使用 Copilot，近期可能已经或即将体验到由微软自研模型驱动的代码补全和建议。MAI-Thinking-1 目前在 Microsoft Foundry（微软的 AI 开发平台）以私测形式开放，有兴趣使用企业级推理模型的团队可申请访问。整体来看，MAI 系列的发布显著扩大了开发者在微软生态内的模型选择空间，同时微软的商业授权数据训练也使 MAI 系列在版权保障方面具有特定优势，这对企业用户尤为重要。</p>
+<div class="mp-source">来源：<a href="https://cnbc.com">cnbc.com</a> · <a href="https://techtimes.com">techtimes.com</a> · <a href="https://datanorth.ai">datanorth.ai</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">04 · AI 安全</div>
+<div class="mp-h2">Anthropic 警告 Claude 已自写超 80% 代码呼吁建立全球协调 AI 暂停机制防止递归自我改进</div>
+<img class="mp-img" src="./poster-4.png" alt="图 5 · 海报 04" data-poster="poster-4" data-file="mp-05-04-anthropic-claude-80-percent-code-global-pause.png">
+<div class="mp-caption">图 5 · 海报 04</div>
+<div class="mp-oneline"><strong>一句话</strong>：「When AI builds itself」报告 6 月 4 日发布，<strong>Claude 代码贡献从 2025 年 2 月 &lt;10% 飙升至 5 月 &gt;80%，工程师人均合并代码量增长 8 倍</strong></div>
+<p>这份报告的数据令整个 AI 行业为之一振。根据 Anthropic 于 6 月 4 日公开发布的研究报告「When AI builds itself」，在 2026 年 5 月，超过 80% 被合并进 Anthropic 生产代码库的代码由 Claude 自主编写——而仅在 2025 年 2 月 Claude Code 进入研究预览时，这一比例还不到个位数百分比。换算一下：在不到 16 个月的时间里，Claude 在 Anthropic 自身代码库中的贡献比例从 <10% 飙升至 >80%，几乎实现了完全的角色翻转。与此同时，Anthropic 工程师的代码产出效率也随之大幅提升——人均季度代码合并量相比 2021-2025 年均值增长了整整 8 倍。这意味着同样规模的工程团队，现在可以完成过去 8 倍体量的工程工作。</p>
+<p>Anthropic 的结论并不只是在展示成就，而是在提出严重警告。报告明确指出，当前的趋势如果持续，将可能导致「递归自我改进」（Recursive Self-Improvement）的临界点——即 AI 系统在几乎没有人类有效监督的情况下，自主设计并构建出能力更强的下一代 AI 系统。Anthropic 认为，一旦递归自我改进开始以超越人类安全研究和社会治理能力的速度推进，人类将面临实质性失去对 AI 系统控制权的风险。报告中措辞最为强烈的部分是 Anthropic 对「全球协调 AI 暂停机制」的明确呼吁：公司建议 AI 前沿开发商、政策制定者、研究机构和公民社会组织共同设计一套可验证的、多边协调的暂停方案，使各方在必要时能够以协调一致的方式暂停或减缓前沿 AI 发展，而不是任由技术发展速度超越安全防护能力。值得注意的是，这一呼吁来自 Anthropic——一家以「负责任地构建 AI」为核心使命的公司，同时也是目前 AI 自我代码生成比例最高的公司之一。这种自我披露本身，就是一种不寻常的透明度。</p>
+<p>对 IT 从业者和 AI 开发者而言，这份报告的意义是多层次的。首先，它是 AI 辅助开发能力已进入实质性自主阶段的最有力实证案例之一——如果连 Anthropic 自身的核心代码库都已经 80% 由 Claude 生成，那么构建 AI 辅助开发工作流已经不是未来的选择，而是当下的竞争力要素。其次，「8 倍生产力提升」的数字意味着人均产出的大幅跃升，对工程团队规模规划、招聘策略和绩效评估体系都将产生深远影响。最后，Anthropic 提出的全球暂停机制讨论，将实质性地影响各国政府的 AI 监管立法节奏——欧盟、英国、澳大利亚等主要市场的 AI 政策走向值得持续关注，因为这些政策将直接影响企业 AI 采购、数据处理合规和模型部署许可等具体商业决策。</p>
+<div class="mp-source">来源：<a href="https://tomshardware.com">tomshardware.com</a> · <a href="https://scientificamerican.com">scientificamerican.com</a> · <a href="https://the-decoder.com">the-decoder.com</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">05 · 开源模型</div>
+<div class="mp-h2">Qwen 3.7 Max 基准超越 Claude Opus 4.61M 上下文窗口，成本仅为 Claude Opus 4.7 的 1/6</div>
+<img class="mp-img" src="./poster-5.png" alt="图 6 · 海报 05" data-poster="poster-5" data-file="mp-06-05-alibaba-qwen37-max-benchmark-cost.png">
+<div class="mp-caption">图 6 · 海报 05</div>
+<div class="mp-oneline"><strong>一句话</strong>：5 月 20 日阿里云峰会发布，<strong>SWE-Bench Pro 60.6 / GPQA Diamond 92.4，$1.25/$3.75 per 1M tokens</strong></div>
+<p>阿里巴巴正在用一套极具竞争力的性价比方案向顶级商用大模型发起挑战。Qwen 3.7 Max 于 2026 年 5 月 20 日在阿里云峰会上正式发布，定位为专为 Agent 时代设计的旗舰推理模型，支持 100 万 token 的超长上下文窗口，针对代码 Agent、自动化推理和长程任务执行进行了深度优化。从基准测试数据来看，Qwen 3.7 Max 在多项 Agent 核心能力评测上的表现令人印象深刻：Terminal-Bench 2.0 得分 69.7、SWE-Bench Pro（软件工程 Agent 基准）60.6、MCP-Atlas 76.4，以及 GPQA Diamond（研究生级别跨学科推理）92.4——后者超越了 Claude Opus 4.6 Max 的 91.3 分。在 Artificial Analysis Intelligence Index 综合评分上，Qwen 3.7 Max 得分 56.6，属于当前顶级模型梯队。而这一切性能表现，对应的价格是 $1.25 per 1M 输入 tokens 和 $3.75 per 1M 输出 tokens，约为 Claude Opus 4.7 市场价格的六分之一。</p>
+<p>性价比从来不是衡量 AI 模型的唯一维度，但在 Agent 应用场景下，成本控制是工程可行性的核心约束之一。以一个中等规模的代码审查 Agent 为例，每天处理 100 个代码变更，每次调用约消耗 50K tokens，一年下来在 Claude Opus 4.7 上的 API 成本可能高达数十万美元；而切换到 Qwen 3.7 Max，同等调用量的成本可降至原来的 1/6。这一成本差距，在技术指标接近的前提下，足以改变许多团队的选型决策。值得一提的是，Qwen 3.7 Max 的 1M token 上下文窗口在处理整个代码库分析、超长法律文件或多轮长对话任务时提供了独特优势——这一上下文长度目前仍是 Claude Opus 4.7 的数倍。阿里云峰会上，阿里巴巴还同步展示了 Qwen 3.7 Plus（多模态 Agent 模型），面向对速度有更高要求的实时 Agent 场景，显示 Qwen 系列已形成完整的性能-成本-速度三角产品矩阵。</p>
+<p>对于正在评估 AI 模型选型或希望降低 API 成本的团队，Qwen 3.7 Max 有几个具体的接入方式可供选择：通过 OpenRouter（模型 ID：qwen/qwen3.7-max）可以直接调用，价格与阿里官方定价一致；阿里云 DashScope 也提供原生 API 接入，对已在阿里云体系内运营的团队更为便捷。在选型评估时，建议重点测试 SWE-Bench 类编程 Agent 任务和需要长上下文处理的场景——这是 Qwen 3.7 Max 当前表现最具竞争力的两个维度。值得注意的是，Qwen 3.7 Max 目前是商业闭源模型，若团队有数据隐私或本地部署需求，需关注阿里云的合规说明。</p>
+<div class="mp-source">来源：<a href="https://openrouter.ai">openrouter.ai</a> · <a href="https://datacamp.com">datacamp.com</a> · <a href="https://buildfastwithai.com">buildfastwithai.com</a></div>
+<hr class="mp-divider">
+<div class="mp-quickview">
+  <h3>📌 今日速览</h3>
+  <ul>
+    <li><strong>商业整合</strong>：OpenAI GPT-5.5 与 Codex 正式入驻 Amazon Bedrock，云端 AI 两强联手</li>
+    <li><strong>安全功能</strong>：ChatGPT 上线 Lockdown Mode，关闭网络访问防范 prompt injection 数据泄露</li>
+    <li><strong>模型发布</strong>：微软 Build 2026 发布 7 款自研 MAI 模型，首次摆脱 OpenAI 数据训练依赖</li>
+    <li><strong>AI 安全</strong>：Anthropic 警告：Claude 已自写超 80% 代码，呼吁建立全球 AI 暂停机制</li>
+    <li><strong>开源模型</strong>：Qwen 3.7 Max 基准测试超越 Claude Opus 4.6，成本仅为 Opus 4.7 的 1/6</li>
+  </ul>
+</div>
+<div class="mp-cta">
+  <div class="big">🎯 想每天 9 点收到 AI 日报？</div>
+  <div class="sub">关注 JR Academy 公众号 · 回复「AI 日报」自动订阅<br>官网 jiangren.com.au/blog · 历史日报全开放</div>
+</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="card">
+        <h2>🎯 发稿就绪 <span class="tag">READY</span></h2>
+        <div class="render-status done" id="render-status">✅ 文章已就绪，点「📋 复制富文本」粘到公众号</div>
+        <p style="margin-top:10px">海报走同目录 <code>./poster-0.png</code> ~ <code>./poster-5.png</code>（CI 部署时 puppeteer 产出，WeChat 粘贴时自动抓取 re-host）。本地 <code>bun run render:posters</code> 手动生成。</p>
+      </div>
+
+      <div class="card">
+        <h2>📊 稿件信息 <span class="tag">META</span></h2>
+        <div class="stat-grid">
+          <div class="stat-item"><div class="v">6894</div><div class="k">字数</div></div>
+          <div class="stat-item"><div class="v">6</div><div class="k">海报</div></div>
+          <div class="stat-item"><div class="v">5</div><div class="k">新闻</div></div>
+          <div class="stat-item"><div class="v">17</div><div class="k">分钟读</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>🚀 发稿 2 步 <span class="tag">FLOW</span></h2>
+        <ol>
+          <li><strong>点「📋 复制富文本」</strong>：图片 URL 自动转成 <code>https://jr-academy-ai.github.io/...</code> 绝对地址。</li>
+          <li><strong>粘到公众号编辑器</strong>：<code>mp.weixin.qq.com</code> → <code>⌘/Ctrl+V</code> → 图文自动 re-host → 预览 → 发布。</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h2>⚙️ 日志 <span class="tag">LOG</span></h2>
+        <div id="log"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="../../_lib/mp-inline.v1.js"></script>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：所有复制/粘贴逻辑在 ../../_lib/mp-inline.v1.js。
+ * 数据来源：src/data/ai-daily/2026-06-07.json → build/pipelines/ai-daily.pipeline.ts 生成。
+ * 请勿手改此文件。
+ * ------------------------------------------------------------------ */
+MpInline.init({
+  articleSel: '#mp-article',
+  copyBtnSel: '#btn-copy-html',
+  brand: {"primary":"#ff5757","highlight":"#ffce44","dark":"#10162f","onDark":"#ffffff"},
+  onStatus: (msg, kind) => {
+    const el = document.getElementById('render-status');
+    if (el) { el.textContent = msg; el.className = 'render-status ' + (kind || ''); }
+  },
+  onLog: (msg) => {
+    const log = document.getElementById('log');
+    if (log) log.textContent += msg + '\n';
+  },
+});
+</script>
+</body>
+</html>
