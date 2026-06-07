@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-06T23:42:34.197Z",
+  "lockedAt": "2026-06-07T02:06:48.726Z",
   "version": 1,
   "slugs": [
     {
@@ -249,6 +249,10 @@
     {
       "type": "article",
       "slug": "anthropic-google-200b-cloud-bet-2026"
+    },
+    {
+      "type": "article",
+      "slug": "anthropic-ipo-claude-code-trillion-2026"
     },
     {
       "type": "article",
