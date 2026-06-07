@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-08",
+  "school": "monash",
+  "summary": {
+    "hookMain": "Monash",
+    "hookSub": "全球首例基因编辑试验 + 50年枪击数据研究",
+    "hookSubHighlight": "全球首例",
+    "subLines": [
+      "维多利亚心脏医院 · STX-1150 全球第一站 · TGA 已清关",
+      "Monash 犯罪学 50 年数据 · 强制配枪后枪击率反而下降"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "胆固醇基因编辑", "data": "全球首例试验" },
+      { "num": "02", "title": "警察配枪研究", "data": "50年数据" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "医学研究",
+      "h2Main": "全球首例 STX-1150 胆固醇基因编辑疗法试验",
+      "h2Sub": "维多利亚心脏医院 · Monash Health × Monash University",
+      "h2Highlight": "全球首例",
+      "lead": "维多利亚心脏医院（Monash Health 运营）成为<b>全球首个</b>启动 STX-1150 的试验中心。STX-1150 是 Scribe Therapeutics 研发的 CRISPR 表观遗传沉默疗法，通过一次性输液沉默 PCSK9 基因降低 LDL 胆固醇，<b>不永久改变患者 DNA</b>。TGA 已完成审批清关。",
+      "bullets": [
+        { "k": "疗法机制", "v": "CRISPR <b>表观遗传沉默</b>（epigenetic silencing）一次性输液，沉默肝脏 PCSK9 基因，长期降 LDL 胆固醇" },
+        { "k": "试验规模", "v": "澳大利亚和新西兰共招募<b>最多 64 名</b>参与者，治疗后随访一年" },
+        { "k": "全球首发", "v": "维多利亚心脏医院是<b>全球第一个</b>启动 STX-1150 试验的临床站点，TGA 已完成监管清关" },
+        { "k": "负责人", "v": "<b>Professor Stephen Nicholls</b>：Monash 心脏病学教授，维多利亚心脏医院 / 研究所院长" },
+        { "k": "对你的影响", "v": "医学 / 生物医学 / 药学方向留学生：Monash 主导全球首例临床试验 = 博士课题和临床研究机构就业的顶级资质" }
+      ],
+      "source": "Victorian Heart Hospital · Monash Health · 2026-06-03",
+      "sourceUrl": "https://monashhealth.org/news/victorian-heart-hospital-world-first-clinical-trial-for-cholesterol-treatment/"
+    },
+    {
+      "idx": "02",
+      "category": "社会研究",
+      "h2Main": "50 年数据：澳洲警察配枪后枪击率反而下降",
+      "h2Sub": "Dr Ross Hendy + Dr Zarina Vakhitova · Monash 犯罪学",
+      "h2Highlight": "反而下降",
+      "lead": "Monash University 犯罪学研究员分析了澳洲 <b>50 年（1970—2020）</b>警察枪击数据，发现强制配枪政策出台后枪击率没有上升，1990 年代政策变化后反而出现<b>下降趋势</b>。战术训练是关键因素。",
+      "bullets": [
+        { "k": "数据规模", "v": "<b>50 年</b>（1970—2020）澳洲警察枪击数据，以 NSW 1991 年和 VIC 1993 年强制配枪政策为节点分析" },
+        { "k": "核心结论", "v": "强制配枪 <b>没有带来枪击率上升</b>；1990 年代政策变化后枪击率反而出现下降趋势" },
+        { "k": "关键因素", "v": "战术培训和去激化规程，而非武器本身，是影响枪击率的主要变量（Dr Zarina Vakhitova 结论）" },
+        { "k": "国际影响", "v": "研究结论被英国、新西兰、挪威、苏格兰等正在讨论配枪政策的国家引用" },
+        { "k": "对你的影响", "v": "犯罪学 / 法律 / 公共政策方向：长周期数据 + 政策应用的研究范式，是 Monash 犯罪学系的代表性方法论" }
+      ],
+      "source": "Monash Criminology · 2026-06-03",
+      "sourceUrl": "https://www.monash.edu/news/articles/new-study-challenges-link-between-arming-police-and-officer-shootings"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 6 月 8 日两条研究——全球首例胆固醇基因编辑疗法临床试验在维多利亚心脏医院启动；50 年警察枪击数据表明配枪不等于更多枪击。医学和犯罪学两条线，都有直接政策影响力。",
+    "items": [
+      { "n": "01", "title": "全球首例基因编辑试验", "body": "STX-1150 在维多利亚心脏医院全球首发；64 名参与者；TGA 清关；Monash 心脏科 Prof Nicholls 主导" },
+      { "n": "02", "title": "50 年数据说话", "body": "Monash 犯罪学 Dr Hendy + Dr Vakhitova：强制配枪后枪击率下降；战术训练是关键；英美多国参考" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "6 所澳洲大学 · 每天 2 校 · 科研 + 招生 + 奖学金一手同步",
+      "badge": "06 / 08"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash 6月两条研究速报",
+      "body": "在墨尔本读研这段时间，Monash News 的研究推送一直是我的日常读物。6 月初连着出了两条，方向差很远但都挺有意思的。\n\n01 / 全球首例胆固醇基因编辑试验——维多利亚心脏医院（Monash Health 运营）成为全球第一个启动 STX-1150 临床试验的中心。这个疗法用的是 CRISPR 表观遗传沉默技术，一次输液就能沉默 PCSK9 基因、长期降 LDL 胆固醇，而且不永久改变 DNA。澳大利亚新西兰共招 64 名参与者，TGA 已完成审批。\n\n02 / 50 年警察枪击数据研究——Monash 犯罪学的 Dr Ross Hendy 和 Dr Zarina Vakhitova 研究了 1970 到 2020 年澳洲警察枪击数据，结论很反直觉：NSW 1991 年、VIC 1993 年强制要求配枪之后，枪击率不但没升，反而下降了。关键在战术训练，不是武器本身。\n\n医学、犯罪学两条方向，感兴趣的姐妹评论区扣方向聊聊🙌",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #医学留学 #留学干货 #大学新闻 #Monash申请"
+    },
+    "p2": {
+      "title": "全球首例胆固醇基因编辑试验",
+      "body": "之前看过 CRISPR 相关的新闻，但这次是真的很惊喜——维多利亚心脏医院（Monash Health 和 Monash University 合作运营）成了全球第一个启动 STX-1150 临床试验的站点。\n\nSTX-1150 是 Scribe Therapeutics 研发的新一代 CRISPR 疗法，机制叫「表观遗传沉默」（epigenetic silencing）。具体说就是通过一次性输液，沉默肝脏里的 PCSK9 基因，从而长期降低 LDL 「坏」胆固醇水平。最重要的一点：这个技术是「沉默」基因，不是「改写」DNA，所以不会永久改变患者的遗传信息。\n\n试验计划在澳大利亚和新西兰招募最多 64 名参与者，每人治疗后跟踪随访一年。澳洲药监局 TGA 已经完成审批清关，试验正式启动。\n\n主导这项研究的是 Monash 心脏病学教授、维多利亚心脏医院院长 Professor Stephen Nicholls，他说：「Victorians, and Australians, will again play a leading role in the development of next-generation genetic therapies for heart disease.」\n\n走医学 / 生物医学 / 药学方向的姐妹，Monash 主导全球首例临床试验，这个层级的研究资质在找 PhD 导师或者进临床研究机构的时候是很硬的背书。",
+      "tags": "#Monash #莫纳什大学 #医学研究 #基因编辑 #CRISPR #生物医学 #澳洲留学 #医学留学"
+    },
+    "p3": {
+      "title": "警察配枪≠更多枪击？研究",
+      "body": "Monash 犯罪学的研究出来了，结论很反直觉——澳洲警察强制配枪，枪击率没有上升，反而是下降的。\n\nDr Ross Hendy 和 Dr Zarina Vakhitova 研究了 1970 到 2020 年整整 50 年的澳洲警察枪击数据，分析轴心是两个政策节点：NSW 1991 年和 VIC 1993 年把携枪从「自愿」改成「执勤必须携带」。\n\n结论：配枪政策出台之后，枪击率没有跟着上升；政策变化之后的几年里，枪击率实际上出现了下降趋势。\n\nDr Vakhitova 的解释是：战术培训和去激化规程，才是影响枪击发生率的主要因素，不是武器本身。配枪可以安全推行，但前提是配套好培训和规范。\n\n这项研究的国际影响已经出来了——英国、新西兰、挪威、苏格兰都在讨论是否给警察配枪，这 50 年的澳洲数据是目前最直接的真实世界证据之一。\n\n走犯罪学 / 法律 / 公共政策方向的姐妹，这条是典型的长周期实证研究，方法论层面对设计博士课题有直接参考价值。",
+      "tags": "#Monash #莫纳什大学 #犯罪学 #公共政策 #澳洲留学 #法律留学 #留学干货 #社会科学"
+    },
+    "p4": {
+      "title": "Monash医学研究新突破🧬",
+      "body": "维多利亚心脏医院是 Monash Health 和 Monash University 合作运营的，这个背景让我一直觉得 Monash 的医学研究很特别——学校和医院是真的深度整合，不是挂名合作。\n\n这次全球首例 STX-1150 临床试验就是一个很好的例子。TGA 批了、全球第一站在墨尔本启动、主导研究员是 Monash 自己的教授 Stephen Nicholls——这条链条是完整的。\n\n对走 MD / PhD / 生物医学方向的同学，找研究机会的角度是：Monash Health 和 Monash University 的双重背书，意味着临床研究 + 学术研究两条线可以同步探索。这种结构在澳洲顶尖大学里不是每所都有的。\n\n我在纠结要不要去维多利亚心脏研究所看看有没有 RA 或者 volunteer 的机会，有走这个方向的姐妹吗？评论区聊聊🙌",
+      "tags": "#Monash #莫纳什大学 #医学 #生物医学 #心脏病学 #基因编辑 #澳洲留学 #医学留学"
+    },
+    "p5": {
+      "title": "两条快报一眼看完",
+      "body": "Monash 这周两条研究，方向不同但都很硬：\n\n01 / 全球首例胆固醇基因编辑试验——维多利亚心脏医院（Monash Health 运营）全球第一站启动 STX-1150 试验；CRISPR 表观遗传沉默沉默 PCSK9 基因；64 名参与者 AU+NZ；TGA 已清关；Prof Nicholls 主导。医学 / 生物医学方向直接看。\n\n02 / 50 年澳洲警察枪击数据——Dr Hendy + Dr Vakhitova：NSW 1991 / VIC 1993 强制配枪后枪击率不升反降；战术培训是关键；英国 / 新西兰 / 挪威 / 苏格兰已在参考这组数据。犯罪学 / 法律 / 公共政策方向看。\n\n一条医学一条社科，都是 Monash 在各自领域的代表性研究输出。\n\n感兴趣的姐妹评论区扣研究方向🙌",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #医学研究 #犯罪学 #留学干货 #大学新闻 #Monash申请"
+    }
+  },
+  "mp": {
+    "title": "Monash 6 月 8 日：全球首例胆固醇基因编辑试验启动 + 50 年枪击数据研究",
+    "lead": "维多利亚心脏医院（Monash Health 运营，与 Monash University 合作）成为全球首个启动 STX-1150 胆固醇基因编辑疗法临床试验的中心。STX-1150 采用 CRISPR 表观遗传沉默技术，通过一次性输液沉默 PCSK9 基因、长期降 LDL 胆固醇，且不永久改变患者 DNA，澳大利亚药监局 TGA 已完成审批清关。同期，Monash University 犯罪学研究员 Dr Ross Hendy 与 Dr Zarina Vakhitova 发布 50 年（1970—2020）澳洲警察枪击数据研究，发现强制配枪政策出台后枪击率不升反降，战术培训是影响枪击率的关键因素，研究成果已被英国、新西兰等国引用。两条研究分别代表了 Monash 在医学科研与社会科学领域的国际影响力。",
+    "meta": { "readTime": "7 分钟" },
+    "newsBodies": [
+      {
+        "h2": "全球首例：STX-1150 胆固醇基因编辑疗法在维多利亚心脏医院启动临床试验",
+        "paragraphs": [
+          "维多利亚心脏医院（Victorian Heart Hospital）由 Monash Health 运营，与 Monash University 深度合作，成为全球首个正式启动 STX-1150 临床试验的中心。STX-1150 是美国生物技术公司 Scribe Therapeutics 研发的新一代 CRISPR 疗法，核心机制是「表观遗传沉默」（epigenetic silencing）。与传统 CRISPR 基因编辑不同，这种方法通过沉默肝脏中的 PCSK9 基因来长期降低 LDL（「坏」胆固醇）水平，而不会永久改变患者的 DNA 序列。整个疗法以单次静脉输液方式给药，设计用于在较长时间内持续降低胆固醇，减少心血管疾病风险。",
+          "试验计划在澳大利亚和新西兰共招募最多 64 名参与者，每位参与者在接受治疗后将接受为期一年的随访监测。澳大利亚药品监管机构 TGA 已完成对 STX-1150 的审批清关，试验得以正式启动。主导这项研究的是 Monash University 心脏病学教授、维多利亚心脏医院和维多利亚心脏研究所院长 Professor Stephen Nicholls，他表示：「It is incredibly exciting that Victorians, and Australians, will again play a leading role in the development of next-generation genetic therapies for heart disease.」这也是维多利亚心脏医院继 CTX310 CRISPR 疗法 Phase 1 全球试验之后，再次承担同类前沿疗法的全球首发临床试验站点角色。",
+          "对走医学、生物医学工程、药学、临床研究或健康科学方向的留学生，这条新闻有多层含义。Monash Health 与 Monash University 的深度整合，使得维多利亚心脏医院既是一线临床试验中心，也是学术研究平台。在这里，PhD 学生、研究助理可以同时接触临床数据和学术资源，这种双线结构在澳洲顶尖大学中并不常见。对有意申请 Monash 医学、生物医学相关 PhD 的同学，维多利亚心脏研究所是一个值得重点关注的研究平台。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://monashhealth.org/news/victorian-heart-hospital-world-first-clinical-trial-for-cholesterol-treatment/\">Victorian Heart Hospital · World-first clinical trial for cholesterol treatment · 2026-06-03</a>"
+      },
+      {
+        "h2": "50 年数据的反直觉结论：澳洲警察配枪后枪击率不升反降",
+        "paragraphs": [
+          "Monash University 犯罪学系的 Dr Ross Hendy（首席研究员）和 Dr Zarina Vakhitova（高级讲师）发布了一项跨越 50 年（1970—2020）的实证研究，系统分析了澳洲警察枪击事件的长期趋势，并以新南威尔士州（1991 年）和维多利亚州（1993 年）的强制配枪政策变化为分析节点。研究结论直接挑战了公众对「配枪 = 更多枪击」的直觉判断：强制配枪政策出台后，枪击事件发生率没有上升，在两州政策变化后的数年内，枪击率反而呈现下降趋势。",
+          "Dr Zarina Vakhitova 对此给出了一个清晰的解释：战术培训（tactical training）和去激化规程（de-escalation protocols），而非武器本身，才是影响警察枪击发生率的主要因素。配枪政策可以安全推行，但前提是必须配套高质量的战术训练和行为规范。这一结论提示：单纯的装备层面的政策讨论，忽略了训练和行为规范的核心作用。Dr Ross Hendy 则强调，这些发现是目前各国政策讨论中最直接的真实世界证据之一，对正在考虑是否给警察配枪的国家具有重要参考价值。",
+          "研究发布后，英国、新西兰、挪威、苏格兰等正在讨论警察配枪政策的国家已在关注这组来自澳洲的 50 年数据。对走犯罪学、法律、公共政策、社会科学方向的留学生，这条研究有两个层面的参考价值：一是内容层面，Monash 犯罪学系持续输出有国际政策影响力的实证研究；二是方法论层面，「长周期行政数据 + 政策节点分析」的研究范式，是设计犯罪学或社会科学博士课题的标准路径之一。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://australiansecuritymagazine.com.au/new-study-challenges-link-between-arming-police-and-officer-shootings/\">Australian Security Magazine · New study challenges link between arming police and officer shootings · 2026-06-03</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · 全球首例基因编辑试验</strong>：STX-1150 在维多利亚心脏医院全球首发；CRISPR 表观遗传沉默沉默 PCSK9 降 LDL；64 名参与者 AU+NZ；TGA 已清关；Prof Nicholls 主导；不永久改变 DNA",
+        "<strong>02 · 50 年枪击数据</strong>：Dr Hendy + Dr Vakhitova；NSW 1991 / VIC 1993 配枪政策后枪击率下降；战术培训是关键；英国 / 新西兰 / 挪威 / 苏格兰已参考"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "全球首例胆固醇基因编辑试验｜维多利亚心脏医院 Monash",
+        "body": "很少看到一条新闻让我觉得「这就是在教科书里会读到的历史时刻」——维多利亚心脏医院成了全球第一个启动 STX-1150 临床试验的中心。\n\nSTX-1150 是 Scribe Therapeutics 的疗法，技术路线是 CRISPR 表观遗传沉默（epigenetic silencing）。简单说：一次输液，沉默肝脏里的 PCSK9 基因，长期降 LDL 胆固醇，而且不会永久改写你的 DNA。澳洲新西兰共招 64 名参与者，TGA 已审批清关。\n\n主导的是 Monash 心脏病学教授 Stephen Nicholls，他之前也带领维多利亚心脏医院完成了 CTX310 基因编辑疗法的全球 Phase 1 试验。这所医院和 Monash University 的深度整合，让它真的有能力承担这种全球首发的角色。\n\n我在犹豫要不要去维多利亚心脏研究所问问 RA 或者 volunteer 的机会。走医学 / 生物医学方向的姐妹有类似想法的评论区聊聊？",
+        "tags": ["#Monash", "#莫纳什大学", "#基因编辑", "#CRISPR", "#医学研究", "#生物医学", "#澳洲留学", "#医学留学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "「全球首例 / 首个」属客观新闻事实保留（官方来源确认 Victorian Heart Hospital 是全球第一试验站点）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取", "result": "未检出（仅「评论区聊聊」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 站外域名", "result": "未检出（xhsCopy 与 drafts 全部扫描）" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "「基因编辑疗法」属学术医学语境，无任何疗效保证表述" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股", "result": "未检出" }
+    ]
+  }
+}
