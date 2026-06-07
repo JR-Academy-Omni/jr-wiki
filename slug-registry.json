@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-07T02:06:48.726Z",
+  "lockedAt": "2026-06-07T16:11:47.204Z",
   "version": 1,
   "slugs": [
     {
@@ -225,6 +225,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-06-07"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-06-08"
     },
     {
       "type": "article",
@@ -1581,6 +1585,11 @@
       "type": "chapter",
       "book": "n8n-guide",
       "slug": "03-self-hosting-deployment"
+    },
+    {
+      "type": "chapter",
+      "book": "n8n-guide",
+      "slug": "04-advanced-tips"
     },
     {
       "type": "chapter",
