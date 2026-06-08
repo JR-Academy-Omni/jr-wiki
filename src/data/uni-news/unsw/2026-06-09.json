@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-09",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "UNSW",
+    "hookSub": "Green Fellowships 首届 + 班加罗尔 8月迎新",
+    "hookSubHighlight": "全球 58 国",
+    "subLines": [
+      "Green Fellowships 首届学人 · 58 国 400 份申请 · 宪法韧性 + 批判矿产 + 人口健康 + 可持续建筑",
+      "Prof. Gautam Bhatia（宪法韧性）+ Prof. Saleem Ali（批判矿产资源）正式加盟 UNSW",
+      "UNSW 班加罗尔校区 8 月 10 日迎首批新生 · Go8 首个境外校区 · 颁发与悉尼本校相同学位"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "Green Fellowships 首届", "data": "58 国 400 份申请" },
+      { "num": "02", "title": "班加罗尔 8 月迎新", "data": "Go8 首个境外校区" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研招募",
+      "h2Main": "UNSW Green Fellowships 首届精英出炉：四大方向 · 58 国 400 份申请",
+      "h2Sub": "宪法韧性 · 批判矿产 · 人口健康 · 可持续建筑 · 以 Prof. Martin Green 命名",
+      "h2Highlight": "58 国 400 份",
+      "lead": "UNSW 公布 Green Fellowships 首届入选名单。这项以「现代太阳能电池之父」Scientia Professor Martin Green 命名的国际引才计划，从全球 58 个国家 <b>400 份申请</b>中遴选出首批学人，专注四大方向：<b>批判矿产资源、宪法韧性、人口健康与可持续建筑</b>。",
+      "bullets": [
+        { "k": "Prof. Gautam Bhatia（宪法韧性）", "v": "来自印度金达尔全球法学院，将依托 <b>UNSW Resilient Democracy Lab</b> 和 Gilbert and Tobin Centre of Public Law 开展民主与宪法韧性研究，延续比较宪法法与政治经济学批判方向" },
+        { "k": "Prof. Saleem Ali（批判矿产资源）", "v": "跨环境科学与资源经济学，将推动 UNSW 矿产与采矿工程研究与<b>联合国批判矿产政策</b>的知识对话，强化国际治理链条" },
+        { "k": "其余方向", "v": "另有<b>人口健康</b>与<b>可持续建筑</b>方向学人入选，形成四大战略研究集群" },
+        { "k": "对你的影响", "v": "走 <b>Law / Mining Engineering / Public Health / Architecture</b> 方向的同学，这批学者 2026 年加盟将直接影响 2027 年研究生的导师池和课题方向——值得现在提前关注其研究主页" }
+      ],
+      "source": "UNSW Newsroom · 2026-06",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/06/unsw-attracts-world-leading-academics-through-green-fellowships",
+      "sourceQuote": "The first Green Fellows bring internationally recognised expertise in critical minerals, constitutional law, population health and sustainable architecture. The University received 400 applications from 58 countries in the first round of recruitment."
+    },
+    {
+      "idx": "02",
+      "category": "招生",
+      "h2Main": "UNSW 班加罗尔校区 8 月开学：Go8 首个境外校区",
+      "h2Sub": "8 月 10 日首届新生 · 商科+CS+数据+网络安全硕士 · 颁与悉尼本校相同学位",
+      "h2Highlight": "Go8 首个",
+      "lead": "UNSW 班加罗尔校区将于 <b>2026 年 8 月 10 日</b>迎接首批学生，成为澳洲 Go8 八校联盟的<b>首个境外校区</b>。商科、媒体、计算机科学、数据科学本科及网络安全硕士全部开设，毕业生获得与<b>悉尼本校完全相同的 UNSW 学位</b>，在印度和国际市场均受认可。",
+      "bullets": [
+        { "k": "开学日期", "v": "<b>2026 年 8 月 10 日至 11 月 13 日（秋季教学期）</b>；位于北班加罗尔 Manyata Business Park，LEED 认证校园" },
+        { "k": "专业", "v": "本科：<b>商科 / 媒体 / 计算机科学 / 数据科学</b>；研究生：<b>网络安全硕士</b>" },
+        { "k": "学位认可", "v": "毕业生获得<b>与悉尼本校完全相同的 UNSW 学位</b>，得到印度和国际雇主及学术机构认可" },
+        { "k": "对你的影响", "v": "班加罗尔开设与悉尼同等学位，直接体现 UNSW 对自身品牌信心；CS、数据、网络安全方向的 UNSW 校友人脉将覆盖班加罗尔这个全球顶级科技中心，对职业发展有实质增益" }
+      ],
+      "source": "UNSW Bengaluru · 2026",
+      "sourceUrl": "https://www.unsw.edu.au/bengaluru",
+      "sourceQuote": "Graduates will receive the same UNSW qualifications as they do in Australia, valued by employers and academic institutions across India and internationally. UNSW Bengaluru is open from August 2026."
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "Green Fellowships 首届学人揭晓，58 国 400 份申请中脱颖而出的四大方向学者正式加盟 UNSW；班加罗尔校区 8 月迎首批新生，成为 Go8 首个境外校区颁发同等认可 UNSW 学位。两条合看，UNSW 的全球引才与全球扩张战略在 2026 年 6 月同步落地。",
+    "items": [
+      { "n": "01", "title": "Green Fellowships 首届精英", "body": "全球 58 国 400 份申请；Prof. Bhatia（宪法韧性 / 金达尔法学院）+ Prof. Ali（批判矿产）+ 人口健康 + 可持续建筑；以 Prof. Martin Green 命名" },
+      { "n": "02", "title": "班加罗尔 8 月开学", "body": "2026 年 8 月 10 日迎首批新生；Go8 首个境外校区；商科 + CS + 数据科学 + 网络安全硕士；颁发与悉尼本校完全相同的 UNSW 学位" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "06 / 09"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 6-9 两条硬料📣",
+      "body": "在申 UNSW 的姐妹注意，6 月 9 日 UNSW 出了两条对我影响挺大的消息。\n\n01 / Green Fellowships 首届学人正式公布——UNSW 从全球 58 个国家 400 份申请里选出第一批顶尖学者，方向是批判矿产资源、宪法韧性、人口健康和可持续建筑。这个 fellowship 用「太阳能电池之父」Martin Green 命名，定位就是往全球最高水平引才。\n\n02 / 班加罗尔校区 8 月 10 日正式迎新——Go8 第一个境外校区，拿和悉尼本校完全相同的 UNSW 学位。商科 + CS + 数据 + 网络安全硕士都有。\n\n两条合看，UNSW 在全球引才和全球扩张上是认真在走的。评论区有问题可以聊🙌",
+      "tags": "#UNSW #新南威尔士大学 #澳洲留学 #UNSW申请 #大学新闻 #留学干货"
+    },
+    "p2": {
+      "title": "UNSW 绿色学人首届揭晓🔬",
+      "body": "走法律或矿产资源方向的姐妹这条收藏：UNSW Green Fellowships 首届名单出来了。这个计划用 UNSW Scientia Professor Martin Green 命名——就是那位「现代太阳能电池之父」。\n\n全球 58 国收到 400 份申请，最终选了四大方向：批判矿产资源、宪法韧性、人口健康和可持续建筑。\n\n法律方向有 Prof. Gautam Bhatia，来自印度金达尔全球法学院，研究比较宪法法和政治经济学批判，会在 Resilient Democracy Lab 做事。批判矿产方向是 Prof. Saleem Ali，跨环境科学和资源经济学，推动 UNSW 矿产研究和联合国的政策对话。\n\n这批人 2026 年落地，2027 年入学的研究生导师资源肯定不一样。现在申 UNSW Law / Mining Engineering / Public Health 的姐妹可以开始关注这几位教授的方向了。",
+      "tags": "#UNSW #澳洲留学 #GreenFellowships #法律留学 #矿产资源 #研究生留学 #新南威尔士大学"
+    },
+    "p3": {
+      "title": "UNSW 班加罗尔 8月迎新🌏",
+      "body": "UNSW 班加罗尔校区 8 月 10 日正式迎新，是澳洲 Go8 八校联盟里第一个在海外开校区的。\n\n地点在北班加罗尔的 Manyata Business Park，LEED 认证校园。专业有商科、媒体、CS、数据科学本科，以及网络安全硕士。最重要的一点——毕业拿到的是和悉尼本校完全相同的 UNSW 学位，印度和国际市场都认可。\n\n对在澳洲读 UNSW 的我们来说有个间接意义：一个连印度都愿意开校区的 Go8 大学，UNSW 的国际品牌价值是经过认证的。而且 CS 和网络安全方向的校友在班加罗尔这个全球科技中心会有不少，职业人脉以后说不定用得上。\n\n对关注 UNSW 网络安全硕士的姐妹，班加罗尔同步开了这个专业，说明这个方向在 UNSW 的优先级很高。",
+      "tags": "#UNSW #澳洲留学 #班加罗尔 #Go8 #CyberSecurity #网络安全 #留学干货"
+    },
+    "p4": {
+      "title": "UNSW 6月两条全拆完📋",
+      "body": "把 UNSW 6 月 9 日的两条消息都拆一遍：\n\nGreen Fellowships 首届——名字来自太阳能电池之父 Martin Green，全球 58 国 400 份申请，选了宪法韧性（Prof. Gautam Bhatia，金达尔法学院）、批判矿产（Prof. Saleem Ali）、人口健康、可持续建筑四个方向。这批学者落地之后，UNSW 在这四条研究线上的导师资源明显升级，对 2027 年入学的研究生有实质影响。\n\n班加罗尔校区——8 月 10 日首届新生，Go8 首个境外校区。商科 / CS / 数据科学 / 网络安全硕士，颁和悉尼本校完全相同的 UNSW 学位。招印度本地和 NRI/OCI 学生。\n\n两条合看，UNSW 在 6 月同步推进了全球引才和全球校区布局。申 UNSW 的同学可以根据自己方向看这批新学人对应哪个学院，提前找到对的导师。",
+      "tags": "#UNSW #新南威尔士大学 #澳洲留学 #GreenFellowships #留学干货 #研究生申请 #班加罗尔"
+    },
+    "p5": {
+      "title": "UNSW 6-9 一眼总结📌",
+      "body": "6 月 9 日 UNSW 两条：\n\n01 / Green Fellowships 首届 · 58 国 400 份申请 · Prof. Bhatia（宪法韧性）+ Prof. Ali（批判矿产）+ 人口健康 + 可持续建筑 · 以太阳能电池之父 Martin Green 命名 · 四大方向学者正式加盟\n\n02 / 班加罗尔校区 · 8 月 10 日首届新生 · Go8 首个境外校区 · 商科+CS+数据+网络安全硕士 · 颁与悉尼本校完全相同的 UNSW 学位\n\n走 Law / Mining Engineering / Public Health / Architecture 在申 UNSW 的姐妹，Green Fellowships 这批学者的研究背景值得细看，可能直接决定你能接触到哪些导师。评论区聊🙌",
+      "tags": "#UNSW #新南威尔士大学 #澳洲留学 #大学新闻 #留学干货 #GreenFellowships"
+    }
+  },
+  "mp": {
+    "title": "UNSW 6 月 9 日：Green Fellowships 首届精英揭晓 · 班加罗尔校区 8 月迎首批新生",
+    "lead": "UNSW 公布 Green Fellowships 首届入选名单，来自全球 58 个国家 400 份申请中脱颖而出的顶尖学者将在批判矿产资源、宪法韧性、人口健康与可持续建筑四大方向加盟 UNSW。Professor Gautam Bhatia（宪法韧性）和 Professor Saleem Ali（批判矿产资源）已正式确认。与此同时，UNSW 班加罗尔校区将于 8 月 10 日迎接首批学生，成为 Go8 八校联盟首个境外校区，颁发与悉尼本校完全相同的 UNSW 学位。两条消息合看，UNSW 的全球人才引进与全球校区布局在 2026 年 6 月同步落地，进一步强化其世界级研究型大学定位。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "Green Fellowships 首届精英：宪法韧性 + 批判矿产 + 人口健康 + 可持续建筑",
+        "paragraphs": [
+          "UNSW 于 2026 年 6 月公布 Green Fellowships 首届入选学人。这项以「现代太阳能电池之父」UNSW Scientia Professor Martin Green 命名的国际引才计划，从全球 58 个国家的 400 份申请中遴选出首批学者，专注四大研究方向：批判矿产资源、宪法韧性、人口健康与可持续建筑。这是 UNSW 在 2025 年 7 月宣布该计划后首次对外公布入选名单。",
+          "法律与宪法方向的代表是 Professor Gautam Bhatia，来自印度顶尖的金达尔全球法学院（Jindal Global Law School），他是比较宪法法学与政治经济学批判领域的知名学者。加入 UNSW Law & Justice 后，他将依托 UNSW Resilient Democracy Lab 和 Gilbert and Tobin Centre of Public Law 开展民主韧性与宪法韧性研究，延续其在比较宪法法与政治经济学批判上的研究线。批判矿产资源方向的代表是 Professor Saleem Ali，他以跨环境科学与资源经济学的研究视野著称，加入 UNSW 后将推动大学的矿产与采矿工程研究与联合国在批判矿产科学与政策层面的知识对话。",
+          "对在申 UNSW 研究生项目的学生而言，这批学者的加盟意味着 2027 年入学的学生将能接触到质量明显提升的导师资源。走法律（宪法法 / 公共法 / 比较法）、采矿工程与批判矿产政策、公共卫生或可持续建筑方向的学生，值得现在关注这些教授的研究主页和博士招生信息——今天的学人入选即将转化为明年导师池的实质变化。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unsw.edu.au/newsroom/news/2026/06/unsw-attracts-world-leading-academics-through-green-fellowships\">UNSW Newsroom · UNSW attracts world-leading academics through Green Fellowships</a>"
+      },
+      {
+        "h2": "UNSW 班加罗尔校区 8 月开学：Go8 首个境外校区，颁发与悉尼本校相同学位",
+        "paragraphs": [
+          "UNSW 将于 2026 年 8 月 10 日在印度班加罗尔 Manyata Business Park 迎接首批学生，秋季教学期延续至 11 月 13 日。这是澳洲 Go8 八校联盟在海外开设的第一个境外校区，也是 UNSW 全球战略布局的标志性节点。校区坐落于北班加罗尔最重要的科技与创新生态圈内，校园建筑通过美国绿色建筑委员会 LEED 认证。",
+          "班加罗尔校区提供商科、媒体、计算机科学、数据科学本科学位，以及网络安全硕士课程。招生对象为印度本地居民（Indian Resident Citizens）、非居住印度公民（NRI）和印度籍海外公民（OCI）。毕业生获得的学位与在悉尼本校就读完全相同，在印度和国际雇主及学术机构均受认可。",
+          "对在澳洲读 UNSW 的国际学生，班加罗尔校区的落地体现了 UNSW 对自身学位品牌在全球范围内的信心。网络安全、计算机科学和数据科学方向的 UNSW 校友，未来在职业路径上将与班加罗尔这个全球顶级科技中心的人脉网络直接对接——同等认可的学位背景，在跨国求职和继续深造时的含金量可预期更高。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unsw.edu.au/bengaluru\">UNSW Bengaluru · About · 2026</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · Green Fellowships 首届精英</strong>：全球 58 国 400 份申请；Prof. Gautam Bhatia（宪法韧性 / 金达尔法学院）+ Prof. Saleem Ali（批判矿产资源）+ 人口健康 + 可持续建筑；以 Scientia Prof. Martin Green 命名；四大方向学者正式加盟 UNSW",
+        "<strong>02 · 班加罗尔校区 8 月开学</strong>：8 月 10 日首届新生；Go8 首个境外校区；商科 + CS + 数据科学 + 网络安全硕士；颁发与悉尼本校完全相同的 UNSW 学位；Manyata Business Park · LEED 认证校园"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 历史日报全开放",
+      "badge": "06 / 09"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "UNSW Green Fellowships 首届｜四大方向顶尖学者加盟",
+        "body": "研二申请季在找 UNSW 导师，刚看到这个消息真的有点震——UNSW Green Fellowships 首届名单出来了。\n\n这个计划用「太阳能电池之父」Martin Green 命名，不是那种小奖学金，是真的在全球引进顶尖中高级学者（Level C/D/E，相当于高级研究员到教授级）。第一轮全球 58 个国家投了 400 份申请，选了批判矿产资源、宪法韧性、人口健康和可持续建筑四个方向。\n\n法律方向进来了 Prof. Gautam Bhatia——印度金达尔全球法学院的，研究比较宪法法和政治经济学批判，会在 Resilient Democracy Lab 和 Gilbert and Tobin Centre of Public Law 做事。矿产资源方向是 Prof. Saleem Ali，跨环境科学和资源经济学，推动 UNSW 矿产研究和联合国政策的知识对接。\n\n我在纠结的是：这批人 2026 年加盟，2027 年的研究生导师池受影响最直接。现在在申 UNSW 的姐妹，如果方向对得上（特别是 Law、Mining Engineering、Public Health），不妨现在就去翻翻这几位教授的研究主页，提前发邮件建立联系。\n\n走宪法法 / 人权法 / 比较法方向的姐妹评论区聊🙋",
+        "tags": ["#UNSW", "#新南威尔士大学", "#GreenFellowships", "#澳洲留学", "#研究生申请", "#法律留学", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化",      "rule": "最 / 第一 / 唯一 / 100%",           "result": "未检出（「首个境外校区」为 Go8 联盟客观事实；「太阳能电池之父」为学界公认称谓）" },
+      { "category": "教育承诺",    "rule": "包过 / 保录取 / 稳上",              "result": "未检出" },
+      { "category": "引流",        "rule": "加V / VX / 薇信 / 私信领取",        "result": "未检出（仅 draft 出现「评论区聊」合规互动话术）" },
+      { "category": "封号红线",    "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 与 drafts 全部扫描；mp.cta 中「JR Academy 公众号」属发稿页合法引流）" },
+      { "category": "AI 味",       "rule": "首先其次最后 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品",  "rule": "治疗 / 速效 / 纯天然",              "result": "未检出" },
+      { "category": "政治金融",    "rule": "保本 / 稳赚 / 荐股",               "result": "未检出" }
+    ]
+  }
+}
