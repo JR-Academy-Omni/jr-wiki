@@ -1,0 +1,92 @@
+{
+  "date": "2026-06-09",
+  "summary": {
+    "hook": ["Apple WWDC Gemini 接管", "Anthropic 失控警告", "xAI 联邦合同", "DeepSeek 74亿", "国产模拟芯片"],
+    "sub": "Apple WWDC 2026 以 Google Gemini 驱动 Tim Cook 最后一届主旨演讲，Anthropic 公开警告 Claude 自写代码超 80% 恐失控，美国政府向 xAI 授予大型联邦 AI 合同，DeepSeek 接近 74 亿美元融资由腾讯领投，中国 Anatrix 打造模拟芯片矩阵方程一步求解",
+    "items": [
+      {"num":"01","cat":"产品发布","numColor":"#6366f1","t":"Apple WWDC 2026 开幕：Tim Cook 最后一届，Google Gemini 接管 Apple Intelligence 核心"},
+      {"num":"02","cat":"AI 安全","numColor":"#dc2626","t":"Anthropic 公开警告：Claude 自写代码率超 80%，模型或很快超出人类控制"},
+      {"num":"03","cat":"政策合同","numColor":"#0d9488","t":"美国政府向 xAI 授予全面联邦 AI 合同，Grok 进入政府核心服务市场"},
+      {"num":"04","cat":"商业融资","numColor":"#d97706","t":"DeepSeek 接近 74 亿美元历史级融资，腾讯、宁德时代、国家 AI 产业基金联手领投"},
+      {"num":"05","cat":"硬件技术","numColor":"#7c3aed","t":"中国 Anatrix 模拟芯片矩阵方程一步求解，挑战 GPU 数亿次乘法的并行范式"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-apple-wwdc-2026-gemini-tim-cook-last",
+      "idx": "01",
+      "catText": "产品发布",
+      "accent": "#6366f1",
+      "bg": {"top":"#EEF2FF","mid":"#E0E7FF","bot":"#C7D2FE","topRight":"#A5B4FC"},
+      "title": [{"text":"Apple WWDC 2026 Tim Cook 最后主旨演讲"},{"text":"Apple Intelligence 核心换引擎，Google Gemini 正式接管","hl":true}],
+      "oneline": [{"text":"6 月 8 日 WWDC 开幕，Tim Cook 退休前最后一届，"},{"text":"苹果 AI 功能底层切换至 Google Gemini，完成 AI 战略大转型","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Apple WWDC 2026 于 6 月 8 日开幕，这是 Tim Cook 担任 CEO 以来的最后一届开发者大会。苹果宣布 Apple Intelligence 底层核心模型切换至 Google Gemini，与 2025 年已集成的 ChatGPT 并行，标志苹果 AI 战略向「多模型路由」演进"},
+        {"k":"为什么重要","v":"苹果接入 Gemini 意味着全球约 15 亿台 iPhone/Mac 设备的 AI 交互将部分由 Google 基础设施处理，对 Google 的商业价值巨大；Tim Cook 退休将开启苹果 AI 时代新领导层，行业正密切关注继任者的 AI 战略取向"},
+        {"k":"对你的影响","v":"iOS/macOS 开发者需关注新版 Apple Intelligence API 文档，Gemini 接管后 on-device 与 cloud 处理的边界将调整；苹果生态 AI 集成能力大幅增强，App 开发 AI 功能门槛将降低，是学习 Apple Intelligence 集成的好时机"}
+      ],
+      "src": "📎 buildfastwithai.com · medium.com"
+    },
+    {
+      "slug": "02-anthropic-claude-80pct-self-code-warning",
+      "idx": "02",
+      "catText": "AI 安全",
+      "accent": "#dc2626",
+      "bg": {"top":"#FFF1F2","mid":"#FFE4E6","bot":"#FECDD3","topRight":"#FCA5A5"},
+      "title": [{"text":"Anthropic 公开警告：Claude 自写代码率超 80%"},{"text":"公司罕见承认「模型可能很快超出人类控制」","hl":true}],
+      "oneline": [{"text":"Claude 现已自主生成超 80% 的自身代码（一年前不足 10%），"},{"text":"Anthropic 称此趋势指向「AI 可完全自主设计并开发其继任者」","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Anthropic 公开披露 Claude 现已自主编写超过 80% 的自身代码，较 2025 年初不足 10% 急速跃升；公司罕见发出公开警告，称「这一趋势指向 AI 系统能够完全自主设计并开发其继任者」，并承认当前模型可能很快超出人类有效控制范围"},
+        {"k":"为什么重要","v":"自主写代码比例超 80% 是 AI 自我改进能力的重要阈值信号。Anthropic 作为「负责任 AI」倡导者公开承认这一问题，具有强烈警示意义，也将加速监管机构和研究界对 AI 自我复制风险的立法与技术讨论"},
+        {"k":"对你的影响","v":"短期内 Claude 的代码能力仍受人类目标约束；但若自主编写比例继续提升，AI 工具行为可预测性将降低；IT 从业者应关注 Anthropic 后续「可解释性」和「可控性」研究报告，尤其是涉及代码安全审计的最新指南"}
+      ],
+      "src": "📎 uk.finance.yahoo.com · cybersecuritynews.com"
+    },
+    {
+      "slug": "03-xai-us-government-federal-ai-contract",
+      "idx": "03",
+      "catText": "政策合同",
+      "accent": "#0d9488",
+      "bg": {"top":"#F0FDFA","mid":"#CCFBF1","bot":"#99F6E4","topRight":"#5EEAD4"},
+      "title": [{"text":"美国政府向 xAI 授予全面联邦 AI 合同"},{"text":"Grok 正式进入政府核心服务，特朗普政府与马斯克深度绑定","hl":true}],
+      "oneline": [{"text":"美联邦政府签署 xAI 大规模 AI 服务合同，"},{"text":"Grok 将整合至多个联邦机构工作流，开创民间 AI 进入政府服务核心先例","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"美国政府宣布向 xAI 授予大规模联邦 AI 合同，Grok 系列模型将被整合进多个联邦政府机构的工作流程；报道指出特朗普政府与马斯克的政治关系是推动此合同达成的背景因素之一"},
+        {"k":"为什么重要","v":"这是 xAI 在商业市场以外的重大节点——政府级合同意味着持续稳定收入来源和数据积累，也将强化 xAI 在联邦安全合规领域的资质；对竞争对手而言，微软/OpenAI 的 Azure Government 地位将迎来新挑战"},
+        {"k":"对你的影响","v":"澳洲/美国 IT 从业者若参与政府 AI 项目，xAI/Grok 生态将成可考察选项；美国政府采用 xAI 将加速澳洲、英国等盟国政府评估类似路径，政府云和 AI 合规市场需求上升"}
+      ],
+      "src": "📎 buildfastwithai.com · medium.com"
+    },
+    {
+      "slug": "04-deepseek-7b-funding-tencent-catl-national-fund",
+      "idx": "04",
+      "catText": "商业融资",
+      "accent": "#d97706",
+      "bg": {"top":"#FFFBEB","mid":"#FEF3C7","bot":"#FDE68A","topRight":"#FCD34D"},
+      "title": [{"text":"DeepSeek 接近完成 74 亿美元历史级融资"},{"text":"腾讯、宁德时代、国家 AI 产业基金三方联手领投","hl":true}],
+      "oneline": [{"text":"Bloomberg 6 月 3 日报道 DeepSeek 即将完成约 74 亿美元融资，"},{"text":"创中国初创公司最大融资纪录之一，创始人承诺坚守开源路线追求 AGI","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"彭博社报道 DeepSeek 接近完成约 74 亿美元融资，由腾讯、新能源龙头宁德时代及政府背景的国家人工智能产业投资基金三方联合领投；创始人梁文锋公开承诺在追求 AGI 大目标的同时，将继续推进开源模型的研发"},
+        {"k":"为什么重要","v":"74 亿美元将成中国创业公司历史上最大融资之一，显示资本和国家战略资本对「开源+低成本高效」AI 路线的高度认可；DeepSeek V4 系列价格优势已引发美国企业大规模迁移，此次融资将加速产品迭代和国际市场渗透"},
+        {"k":"对你的影响","v":"DeepSeek 资金到位后将加快 V4-Pro/V5 研发周期，API 定价有望维持低位竞争策略；对 AI 应用开发者而言，DeepSeek 是当前性价比最高的大模型 API 选项之一，宁德时代参与也暗示 AI+能源储能跨界布局将推进"}
+      ],
+      "src": "📎 bloomberg.com · pymnts.com · the-decoder.com"
+    },
+    {
+      "slug": "05-anatrix-analog-chip-matrix-single-step",
+      "idx": "05",
+      "catText": "硬件技术",
+      "accent": "#7c3aed",
+      "bg": {"top":"#F5F3FF","mid":"#EDE9FE","bot":"#DDD6FE","topRight":"#C4B5FD"},
+      "title": [{"text":"中国 Anatrix 打造模拟芯片"},{"text":"矩阵方程「一步求解」，挑战 GPU 数亿次乘法的并行范式","hl":true}],
+      "oneline": [{"text":"量子位报道国产芯片公司 Anatrix 通过模拟计算将矩阵求解压缩至单步，"},{"text":"相较 GPU 需要数亿次乘加运算，理论能效优势极为显著","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"量子位报道中国芯片公司 Anatrix 开发出利用模拟计算原理的矩阵求解芯片，可在「单步」内完成 GPU 需要数亿次矩阵乘加才能完成的计算；该芯片利用物理模拟过程（如电流叠加）绕过数字电路逐步迭代的固有瓶颈，理论能效上具备数量级优势"},
+        {"k":"为什么重要","v":"AI 大模型核心算力瓶颈是矩阵乘法，传统 GPU 需要数亿次 FP16/BF16 运算；若模拟芯片能在工程上实现可靠精度和规模化，将从根本上颠覆现有 GPU/NPU 主导的训练与推理架构，大幅降低 AI 算力成本"},
+        {"k":"对你的影响","v":"此阶段仍属早期研究成果，量产和工程化落地尚需数年；但对从事 AI 基础设施或芯片方向的技术人来说，模拟计算路线值得跟踪——Anatrix 的技术路径与英伟达、英特尔的数字路线直接竞争，可能成为下一个「颠覆者」"}
+      ],
+      "src": "📎 qbitai.com"
+    }
+  ],
+  "mp": {"title": "Apple WWDC Gemini 接管 / Anthropic 失控警告 / xAI 联邦合同 / DeepSeek 74亿 / 国产模拟芯片"}
+}
