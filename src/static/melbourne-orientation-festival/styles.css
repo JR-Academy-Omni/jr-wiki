@@ -1,59 +1,77 @@
 /* ============================================================
-   2026 S2 墨尔本新生节 · 在线 deck
-   图片幻灯播放器：每页 = Canva 导出的真图，固定 16:9
+   2026 S2 墨尔本新生节 · 在线 deck（高级播放器）
+   38 页真图 + 丝滑切换 + 缩略图总览 + 进度条
    ============================================================ */
 
-* , *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-html, body { height: 100%; background: #0b1622; color: #fff;
-  font-family: "PingFang SC","Microsoft YaHei","Noto Sans SC",-apple-system,system-ui,sans-serif;
-  -webkit-font-smoothing: antialiased; overflow: hidden; }
-
-/* 舞台：渐变底，居中等比 16:9 */
-.deck {
-  position: fixed; inset: 0; display: grid; place-items: center;
-  background: radial-gradient(1200px 800px at 50% 0%, #14304a, #0b1622 70%);
+:root{
+  --ink:#0b1622; --cyan:#5CFCFF; --orange:#E76141; --lime:#D8FF78;
 }
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;background:#070d15;color:#fff;
+  font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",-apple-system,system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased}
 
-/* 每页幻灯：固定 16:9，等比缩放贴满可视区 */
-.slide {
-  display: none;
-  width: min(98vw, calc(98vh * 16 / 9));
-  height: min(98vh, calc(98vw * 9 / 16));
-  aspect-ratio: 16 / 9;
+/* 舞台 */
+.deck{position:fixed;inset:0;display:grid;place-items:center;
+  background:radial-gradient(1400px 900px at 50% -8%,#16304a 0%,#0a1320 55%,#070d15 100%)}
+
+/* 幻灯：固定 16:9，淡入切换 */
+.frame{position:relative;width:min(94vw,calc(92vh*16/9));height:min(92vh,calc(94vw*9/16));aspect-ratio:16/9}
+.slide{position:absolute;inset:0;opacity:0;transform:scale(.992);
+  transition:opacity .45s ease,transform .45s ease;pointer-events:none}
+.slide.active{opacity:1;transform:none;pointer-events:auto}
+.slide img{width:100%;height:100%;object-fit:contain;display:block;border-radius:12px;
+  box-shadow:0 24px 70px rgba(0,0,0,.55),0 2px 0 rgba(255,255,255,.04) inset;background:#fff}
+
+/* 顶部细进度条 */
+.bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--cyan),var(--lime));
+  width:0;z-index:60;transition:width .4s ease;box-shadow:0 0 12px var(--cyan)}
+
+/* 顶部信息条 */
+.top{position:fixed;top:16px;left:0;right:0;display:flex;justify-content:space-between;
+  align-items:center;padding:0 22px;z-index:50;pointer-events:none}
+.top .name{font-size:13px;font-weight:700;color:#cfe3f5;letter-spacing:.04em;opacity:.92}
+.top .seg{font-size:12px;font-weight:800;color:#0b1622;background:var(--cyan);
+  padding:4px 12px;border-radius:999px}
+
+/* 底部控制台 */
+.hud{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:50;
+  display:flex;align-items:center;gap:6px;background:rgba(8,18,30,.82);
+  border:1px solid rgba(255,255,255,.08);padding:8px 10px;border-radius:999px;
+  backdrop-filter:blur(10px);box-shadow:0 8px 30px rgba(0,0,0,.4);user-select:none}
+.hud button{all:unset;cursor:pointer;width:34px;height:34px;display:grid;place-items:center;
+  border-radius:50%;font-size:17px;font-weight:800;color:#dfeefc;transition:background .15s}
+.hud button:hover{background:rgba(255,255,255,.12)}
+.hud .count{min-width:62px;text-align:center;font-variant-numeric:tabular-nums;
+  font-size:13px;font-weight:700;color:#eaf4ff}
+.hud .sep{width:1px;height:20px;background:rgba(255,255,255,.12);margin:0 2px}
+
+/* 缩略图总览 */
+.grid{position:fixed;inset:0;z-index:80;background:rgba(6,12,20,.96);
+  display:none;padding:54px 28px 28px;overflow-y:auto;backdrop-filter:blur(4px)}
+.grid.open{display:block}
+.grid h2{font-size:15px;color:#bcd4ea;margin-bottom:16px;font-weight:700;text-align:center;letter-spacing:.06em}
+.thumbs{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;max-width:1500px;margin:0 auto}
+.thumbs figure{cursor:pointer;border-radius:8px;overflow:hidden;border:2px solid transparent;
+  transition:border-color .15s,transform .15s;position:relative;background:#fff;aspect-ratio:16/9}
+.thumbs figure:hover{transform:translateY(-3px);border-color:var(--cyan)}
+.thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+.thumbs figcaption{position:absolute;left:6px;bottom:5px;font-size:11px;font-weight:800;
+  color:#fff;background:rgba(11,22,34,.78);padding:1px 7px;border-radius:6px}
+
+/* 全屏提示 / 关闭 */
+.tip{position:fixed;top:16px;left:50%;transform:translateX(-50%);font-size:11px;color:#7f97ad;z-index:50;pointer-events:none}
+.gclose{position:fixed;top:14px;right:18px;z-index:90;all:unset;cursor:pointer;color:#cfe3f5;font-size:22px;font-weight:700}
+
+/* 加载态 */
+.loader{position:fixed;inset:0;display:grid;place-items:center;z-index:100;background:#070d15;transition:opacity .4s}
+.loader.gone{opacity:0;pointer-events:none}
+.loader .ring{width:42px;height:42px;border:3px solid rgba(255,255,255,.15);
+  border-top-color:var(--cyan);border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+@media(max-width:760px){
+  .thumbs{grid-template-columns:repeat(3,1fr)}
+  .top .name{display:none}
+  .tip{display:none}
 }
-.slide.active { display: block; }
-.slide img {
-  width: 100%; height: 100%; object-fit: contain;
-  display: block; border-radius: 10px;
-  box-shadow: 0 14px 40px rgba(0,0,0,.45);
-  background: #fff;
-}
-
-/* ─── 底部导航 HUD ─── */
-.hud {
-  position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%);
-  display: flex; align-items: center; gap: 10px; z-index: 50;
-  background: rgba(5,23,32,.82); color:#fff; padding: 7px 14px; border-radius: 999px;
-  font-size: 13px; backdrop-filter: blur(6px); user-select: none;
-}
-.hud button { all: unset; cursor: pointer; padding: 2px 10px; border-radius: 999px; font-weight: 800; font-size: 16px; }
-.hud button:hover { background: rgba(255,255,255,.18); }
-.hud .count { font-variant-numeric: tabular-nums; opacity:.92; min-width: 56px; text-align:center; }
-.hud a { color: #5CFCFF; text-decoration: none; font-weight: 700; }
-.hud a:hover { text-decoration: underline; }
-
-/* ─── 顶部跨文件目录 ─── */
-.secnav {
-  position: fixed; top: 12px; left: 50%; transform: translateX(-50%);
-  display:flex; gap:5px; z-index:50; background: rgba(5,23,32,.74);
-  padding:5px 8px; border-radius:999px; backdrop-filter: blur(6px); max-width: 96vw; flex-wrap: nowrap; overflow-x:auto;
-}
-.secnav a { color:#cfe; text-decoration:none; font-size:11px; padding:3px 9px; border-radius:999px; font-weight:700; white-space:nowrap; }
-.secnav a.cur { background: #E76141; color:#fff; }
-.secnav a:hover { background: rgba(255,255,255,.16); }
-
-/* 全屏提示 */
-.tip { position: fixed; top: 12px; right: 14px; z-index:50; font-size: 11px; color:#9fb3c8; }
-
-@media (max-width: 640px) { .secnav { font-size:10px; } .tip { display:none; } }

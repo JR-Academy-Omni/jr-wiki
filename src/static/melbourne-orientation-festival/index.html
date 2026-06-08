@@ -8,28 +8,35 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<nav class="secnav">
-  <a href="index.html" class="cur">封面</a>
-  <a href="01-intro.html">活动</a>
-  <a href="02-why-venue.html">为什么选</a>
-  <a href="03-packages.html">套餐</a>
-  <a href="04-recap-data.html">数据</a>
-  <a href="05-highlights.html">亮点</a>
-  <a href="06-kedaibiao.html">课代表</a>
-  <a href="07-cooperation.html">合作</a>
-</nav>
-<span class="tip">← → 翻页 · F 全屏</span>
+
+<div class="bar"></div>
+
+<div class="top">
+  <span class="name">2026 S2 墨尔本三校新生节 · 商家合作企划</span>
+  <span class="seg">封面</span>
+</div>
+<span class="tip">← → / 空格 翻页 · G 总览 · F 全屏</span>
 
 <div class="deck">
-  <section class="slide active"><img src="assets/p01.jpg" alt="封面 · 2026 S2 墨尔本新生节"></section>
+  <div class="frame"></div>
 </div>
 
 <div class="hud">
-  <button class="prev" title="上一页">‹</button>
+  <button class="prev" title="上一页（←）">‹</button>
   <span class="count"></span>
-  <button class="next" title="下一页">›</button>
-  <a data-next-section href="01-intro.html">下一段 ›</a>
+  <button class="next" title="下一页（→）">›</button>
+  <span class="sep"></span>
+  <button class="grid-btn" title="缩略图总览（G）">▦</button>
+  <button class="fs-btn" title="全屏（F）">⛶</button>
 </div>
+
+<div class="grid">
+  <button class="gclose" title="关闭（Esc）">✕</button>
+  <h2>全部 38 页 · 点击跳转</h2>
+  <div class="thumbs"></div>
+</div>
+
+<div class="loader"><div class="ring"></div></div>
 
 <script src="deck.js"></script>
 </body>
