@@ -1,0 +1,133 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-08（Canvas 版）</title>
+<meta name="description" content="2026-06-08 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-08.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-08",
+  "summary": {
+    "hook": [
+      "Anthropic 冲刺 IPO",
+      "Gemini 3.5 Flash 上线",
+      "Grok V9 炼到 1.5T",
+      "ChatGPT 记忆进化",
+      "DeepSeek API 迁移"
+    ],
+    "sub": "Anthropic 以 9650 亿美元估值秘密递交 S-1，Google Gemini 3.5 Flash 正式 GA，xAI Grok V9 在 1.5T 参数级别训练中并发布 Grok Voice，ChatGPT 记忆升级双倍容量加入「做梦」自动刷新，DeepSeek 宣布 7 月 24 日弃用旧 API 名",
+    "items": [
+      {"num":"01","cat":"商业融资","numColor":"#d97706","t":"Anthropic 秘密递交 S-1，估值 9650 亿美元 ARR 470 亿，冲刺万亿 IPO"},
+      {"num":"02","cat":"模型发布","numColor":"#4285f4","t":"Google Gemini 3.5 Flash 正式 GA，2M Token 上下文主攻 Agent 与代码"},
+      {"num":"03","cat":"模型训练","numColor":"#0d9488","t":"xAI Grok V9 在 1.5T 参数量训练中，同步发布 Grok Voice 与编程模型 Grok Build"},
+      {"num":"04","cat":"产品功能","numColor":"#10a37f","t":"ChatGPT 记忆系统升级双倍容量，「做梦」机制自动修正过期记忆"},
+      {"num":"05","cat":"API 变更","numColor":"#dc2626","t":"DeepSeek 宣布 7 月 24 日废弃 deepseek-chat / deepseek-reasoner，迁至 V4-Flash"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-ipo-s1-965b-valuation",
+      "idx": "01",
+      "catText": "商业融资",
+      "accent": "#d97706",
+      "bg": {"top":"#FFFBEB","mid":"#FEF3C7","bot":"#FDE68A","topRight":"#FCD34D"},
+      "title": [{"text":"Anthropic 秘密递交 S-1"},{"text":"估值 9650 亿美元、ARR 470 亿，冲刺万亿 AI 巨头 IPO","hl":true}],
+      "oneline": [{"text":"6 月 1 日向 SEC 秘密提交招股说明书，"},{"text":"65 亿美元 H 轮后估值 9650 亿，预计 10 月上市、破万亿可期","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Anthropic 6 月 1 日向美国证交会（SEC）秘密递交 S-1 招股说明书，随附最新一轮 65 亿美元融资信息，投后估值约 9650 亿美元；公司披露 2026 年 5 月 ARR 约 470 亿美元，Q2 营收预计逾 109 亿美元，同比翻倍以上"},
+        {"k":"为什么重要","v":"此次 IPO 将是 AI 时代规模最大的科技公司上市之一，投行普遍预期 Anthropic 挂牌估值将突破万亿美元，市场将其视为 AI 商业化落地能力的「压力测试」；Fortune 分析认为定价成功将「打开 IPO 市场闸门」"},
+        {"k":"对你的影响","v":"估值如此之高意味着 Anthropic 将面临持续盈利压力，Claude 定价和 API 成本策略可能趋于稳定甚至下行；对 IT 从业者而言，Anthropic 上市后研报与财报将成追踪 AI 产品走向的公开信息窗口"}
+      ],
+      "src": "📎 fortune.com · cnbc.com · cbsnews.com"
+    },
+    {
+      "slug": "02-google-gemini-35-flash-ga-2m-context",
+      "idx": "02",
+      "catText": "模型发布",
+      "accent": "#4285f4",
+      "bg": {"top":"#EFF6FF","mid":"#DBEAFE","bot":"#BFDBFE","topRight":"#93C5FD"},
+      "title": [{"text":"Google Gemini 3.5 Flash 正式 GA"},{"text":"2M Token 上下文、持续前沿性能，主打 Agent 与代码任务","hl":true}],
+      "oneline": [{"text":"gemini-3.5-flash 本月正式进入通用可用阶段，"},{"text":"定位「持续前沿智能」，旧版 gemini-3.1-flash-image-preview 和 gemini-3-pro-image-preview 6 月 25 日下线","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"Google 发布 gemini-3.5-flash 正式版（GA），Gemini API changelog 将其定位为「我们在 Agent 和代码任务上最智能的持续前沿模型」，支持 200 万 token 上下文窗口；同步宣布 6 月 25 日停用 gemini-3.1-flash-image-preview 和 gemini-3-pro-image-preview"},
+        {"k":"为什么重要","v":"2M token 上下文窗口已进入商业 GA 阶段，意味着整个代码仓库或超长研究报告可整体注入单次对话；在 Agent 场景下，极长上下文减少了分段调用的开销，显著提升复杂任务的可靠性与连贯性"},
+        {"k":"对你的影响","v":"开发者可通过 Google AI Studio 或 Vertex AI 直接调用 gemini-3.5-flash；使用旧版预览模型（3.1-flash-image-preview / 3-pro-image-preview）的项目需在 6 月 25 日前完成迁移，否则 API 调用将返回错误"}
+      ],
+      "src": "📎 ai.google.dev · techtimes.com"
+    },
+    {
+      "slug": "03-xai-grok-v9-15t-voice-build-coding",
+      "idx": "03",
+      "catText": "模型训练",
+      "accent": "#0d9488",
+      "bg": {"top":"#F0FDFA","mid":"#CCFBF1","bot":"#99F6E4","topRight":"#5EEAD4"},
+      "title": [{"text":"xAI Grok V9 在 1.5T 参数量训练中"},{"text":"同步发布 Grok Voice 语音交互与 Grok Build 编程模型","hl":true}],
+      "oneline": [{"text":"V9-Medium 完成训练、SFT+RL 进行中，预计 6 月中旬发布；"},{"text":"Grok Voice 6 月 4 日上线，Grok Build 0.1 以 $1/$2 per 1M tokens 公测","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"xAI 证实 Grok V9-Medium 已完成 1.5 万亿参数预训练（是现行 V8-Small 500B 的 3 倍），SFT 与强化学习阶段进行中，预计 6 月中旬公开发布；同期 xAI 发布 Grok Voice（口语交互）及 Grok Build 0.1（编程专用，256K 上下文，$1/$2 per 1M tokens，已对接 Vapi 平台 250 万语音 Agent）"},
+        {"k":"为什么重要","v":"1.5T 参数量是当前主流开放模型的百倍量级，若性能对齐则将挑战 GPT-5.5 和 Claude Opus 4.8；Grok Build 专门针对代码场景定价极低，将加剧开发工具市场竞争"},
+        {"k":"对你的影响","v":"Grok Build 0.1 现可通过 xAI API 申请公测（$1/$2 定价），256K 上下文足够处理中型代码库；Grok V9 发布后预计 xAI 将同步更新 Grok 4.4 / 4.5 系列，值得跟踪基准对比结果"}
+      ],
+      "src": "📎 x.ai · bloomberg.com · web.swipeinsight.app"
+    },
+    {
+      "slug": "04-chatgpt-dreaming-memory-double-capacity",
+      "idx": "04",
+      "catText": "产品功能",
+      "accent": "#10a37f",
+      "bg": {"top":"#F0FDF4","mid":"#DCFCE7","bot":"#BBF7D0","topRight":"#86EFAC"},
+      "title": [{"text":"ChatGPT 记忆系统全面升级"},{"text":"「做梦」机制自动修正过期记忆，Plus/Pro 用户容量翻倍","hl":true}],
+      "oneline": [{"text":"新版记忆系统引入自动更新与个性化推断，"},{"text":"「做梦」功能让 ChatGPT 在对话间隔自主修订记忆，如「你要去新加坡」→「你去过新加坡」","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"OpenAI 推出新版 ChatGPT 记忆系统，包含三项升级：容量翻倍（Plus/Pro 用户）、「做梦（Dreaming）」机制（ChatGPT 可在对话间隔自动修订过期事件）、以及更主动的个性化推断（可从对话中提炼未明示的用户偏好）"},
+        {"k":"为什么重要","v":"此前记忆系统依赖用户手动保存或 ChatGPT 当场存储，记忆会随时间变得过时失真；「做梦」功能让 AI 助手首次具备时态感知能力，使长期个性化助理场景（如私人日程规划）的可靠性大幅提升"},
+        {"k":"对你的影响","v":"Plus/Pro 用户无需额外操作即可享受翻倍记忆容量与自动刷新；如需确认哪些内容被记录，可在「设置→个性化→记忆」中查阅和管理；涉及隐私的对话内容建议定期审核已存记忆列表"}
+      ],
+      "src": "📎 openai.com · releasebot.io"
+    },
+    {
+      "slug": "05-deepseek-api-migration-v4-flash-july24",
+      "idx": "05",
+      "catText": "API 变更",
+      "accent": "#dc2626",
+      "bg": {"top":"#FFF1F2","mid":"#FFE4E6","bot":"#FECDD3","topRight":"#FCA5A5"},
+      "title": [{"text":"DeepSeek 7 月 24 日废弃旧 API 名"},{"text":"deepseek-chat / deepseek-reasoner 统一迁至 V4-Flash 架构","hl":true}],
+      "oneline": [{"text":"API Docs 宣布 2026/07/24 UTC 停用旧模型名，"},{"text":"deepseek-chat 对应 V4-Flash 非思考模式，deepseek-reasoner 对应 V4-Flash 思考模式","bold":true}],
+      "bullets": [
+        {"k":"发生了什么","v":"DeepSeek 官方 API 文档宣布：2026 年 7 月 24 日 15:59 UTC 起，deepseek-chat 和 deepseek-reasoner 两个历史模型名将被停用，它们分别对应 deepseek-v4-flash 的「非思考模式」和「思考模式」；V4-Flash（284B 参数，13B 激活）及 V4-Pro（1.6T 参数，49B 激活）均支持 100 万 token 上下文"},
+        {"k":"为什么重要","v":"DeepSeek 正在将产品线统一至 V4 架构，清除历史别名有助于降低 API 混乱；V4-Pro 在知识处理和 Agent 任务上的性能优势已获多项基准验证，此次迁移也是推动用户升级至新版本的商业策略"},
+        {"k":"对你的影响","v":"所有使用 deepseek-chat 或 deepseek-reasoner 的生产项目必须在 7 月 24 日前将模型名替换为 deepseek-v4-flash（并按需选择 thinking_mode 参数）；未迁移的调用届时将返回错误，需预留测试窗口验证迁移效果"}
+      ],
+      "src": "📎 api-docs.deepseek.com · cnbc.com · sitepoint.com"
+    }
+  ],
+  "mp": {"title": "Anthropic 冲刺 IPO / Gemini 3.5 Flash 上线 / Grok V9 炼到 1.5T / ChatGPT 记忆进化 / DeepSeek API 迁移"},
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-08"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
