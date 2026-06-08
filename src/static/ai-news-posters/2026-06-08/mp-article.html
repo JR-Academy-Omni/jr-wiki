@@ -48,7 +48,7 @@
   <span>·</span><span>2026-06-08</span>
   <span>·</span><span>阅读约 8 分钟</span>
 </div>
-<div class="mp-lead">2026-06-08 AI 日报，今日 5 条：Anthropic 以 9650 亿美元估值秘密递交 S-1，附带 65 亿美元 H 轮融资，ARR 约 470 亿美元，预计 10 月上市冲刺万亿；Google Gemini 3.5 Flash 正式 GA，支持 200 万 token 上下文，旧版预览模型 6 月 25 日下线；xAI Grok V9-Medium 以 1.5T 参数完成预训练，同步发布 Grok Voice 与 $1/$2 定价的编程模型 Grok Build 0.1；ChatGPT 记忆系统引入「做梦」功能，Plus/Pro 容量翻倍；DeepSeek 宣布 7 月 24 日废弃旧版 API 名，迁至 V4-Flash。</div>
+<div class="mp-lead">2026-06-08 AI 日报，今日 5 条：Anthropic 秘密递交 S-1，估值 9650 亿美元 ARR 470 亿，冲刺万亿 IPO；Google Gemini 3.5 Flash 正式 GA，2M Token 上下文主攻 Agent 与代码；xAI Grok V9 在 1.5T 参数量训练中，同步发布 Grok Voice 与编程模型 Grok Build；ChatGPT 记忆系统升级双倍容量，「做梦」机制自动修正过期记忆；DeepSeek 宣布 7 月 24 日废弃 deepseek-chat / deepseek-reasoner，迁至 V4-Flash。</div>
 <img class="mp-img" src="./poster-0.png" alt="图 1 · 合集海报" data-poster="poster-0" data-file="mp-01-summary.png">
 <div class="mp-caption">图 1 · 合集海报</div>
 <hr class="mp-divider">
@@ -58,7 +58,7 @@
 <div class="mp-caption">图 2 · 海报 01</div>
 <div class="mp-oneline"><strong>一句话</strong>：6 月 1 日向 SEC 秘密提交招股说明书，<strong>65 亿美元 H 轮后估值 9650 亿，预计 10 月上市、破万亿可期</strong></div>
 <p>Anthropic 在 2026 年 6 月 1 日悄然向美国证券交易委员会（SEC）递交了 S-1 招股说明书，选择「秘密申报」通道以争取在正式公开前与监管方充分沟通。此次申报随附公司最新一轮 65 亿美元 H 轮融资文件，投后估值约为 9650 亿美元——距万亿美元市值仅一步之遥。这是继 2025 年 F 轮后，Anthropic 不到 18 个月内完成的第二次规模融资，累计外部融资额突破 130 亿美元。在财务披露方面，Anthropic 透露截至 2026 年 5 月的年化收入（ARR）已达约 470 亿美元，2026 年 Q2 营收预计超过 109 亿美元，实现季度同比翻倍以上增长。主承销商目前尚未最终确定，但高盛、摩根士丹利等已进入候选名单，路演窗口预期锁定在 10 月份。</p>
-<p>这次 IPO 引发市场广泛关注，原因不仅在于估值数字本身，更在于其背后的战略信号。Claude 商业化路径的快速成功证明了 Anthropic「安全优先，商业第二」的定位并不妨碍其盈利能力；相反，在企业级市场（Claude for Enterprise、AWS 和 Google Cloud 的集成渠道）中，「安全 AI」的品牌溢价反而成了差异化卖点。Fortune 评论指出，若 Anthropic 成功以万亿估值上市，将「打开 AI 创业公司 IPO 市场的闸门」——届时 OpenAI、Mistral、Cohere 等公司都可能面临资本市场要求其给出上市时间表的压力。</p>
+<p>这次 IPO 引发市场广泛关注，原因不仅在于估值数字本身，更在于其背后的战略信号。Claude 商业化路径的快速成功证明了 Anthropic 「安全优先，商业第二」的定位并不妨碍其盈利能力；相反，在企业级市场（Claude for Enterprise、AWS 和 Google Cloud 的集成渠道）中，「安全 AI」的品牌溢价反而成了差异化卖点。Fortune 评论指出，若 Anthropic 成功以万亿估值上市，将「打开 AI 创业公司 IPO 市场的闸门」——届时 OpenAI、Mistral、Cohere 等公司都可能面临资本市场要求其给出上市时间表的压力。</p>
 <p>对于 IT 从业者和开发者而言，Anthropic 上市后最直接的变化是：Claude API 的定价策略将受到华尔街盈利预期的约束，短期内大幅涨价的可能性下降；公司研报和财报将成为追踪 Claude 产品方向的公开信息渠道，模型路线图的透明度将显著提升。此外，上市公司地位也意味着 Anthropic 需要向投资者定期披露 AI 安全研究与商业产品之间的资源分配，或将影响 Claude 模型的迭代节奏与安全边界设定。</p>
 <div class="mp-source">来源：<a href="https://fortune.com">fortune.com</a> · <a href="https://cnbc.com">cnbc.com</a> · <a href="https://cbsnews.com">cbsnews.com</a></div>
 <hr class="mp-divider">
@@ -97,9 +97,9 @@
 <img class="mp-img" src="./poster-5.png" alt="图 6 · 海报 05" data-poster="poster-5" data-file="mp-06-05-deepseek-api-migration-v4-flash-july24.png">
 <div class="mp-caption">图 6 · 海报 05</div>
 <div class="mp-oneline"><strong>一句话</strong>：API Docs 宣布 2026/07/24 UTC 停用旧模型名，<strong>deepseek-chat 对应 V4-Flash 非思考模式，deepseek-reasoner 对应 V4-Flash 思考模式</strong></div>
-<p>DeepSeek 官方 API 文档在近期更新中正式宣布：自 2026 年 7 月 24 日 15:59 UTC 起，历史遗留的两个模型标识符 deepseek-chat 和 deepseek-reasoner 将被永久停用。官方说明澄清，这两个名称实际上是对同一底层模型架构（deepseek-v4-flash）两种推理模式的别名——deepseek-chat 对应「非思考模式（non-thinking mode）」，deepseek-reasoner 对应「思考模式（thinking mode）」。迁移后，开发者需直接使用 deepseek-v4-flash 作为模型名，并通过 thinking_mode 参数（<code>true</code>/<code>false</code>）显式控制推理模式。DeepSeek 目前的 API 产品线涵盖两款核心模型：deepseek-v4-flash（284B 总参数，13B 激活，100 万 token 上下文）和 deepseek-v4-pro（1.6 万亿总参数，49B 激活，100 万 token 上下文），两款均在知识处理和 Agent 任务基准上取得强势表现。</p>
+<p>DeepSeek 官方 API 文档在近期更新中正式宣布：自 2026 年 7 月 24 日 15:59 UTC 起，历史遗留的两个模型标识符 deepseek-chat 和 deepseek-reasoner 将被永久停用。官方说明澄清，这两个名称实际上是对同一底层模型架构（deepseek-v4-flash）两种推理模式的别名——deepseek-chat 对应「非思考模式（non-thinking mode）」，deepseek-reasoner 对应「思考模式（thinking mode）」。迁移后，开发者需直接使用 deepseek-v4-flash 作为模型名，并通过 thinking_mode 参数（`true`/`false`）显式控制推理模式。DeepSeek 目前的 API 产品线涵盖两款核心模型：deepseek-v4-flash（284B 总参数，13B 激活，100 万 token 上下文）和 deepseek-v4-pro（1.6 万亿总参数，49B 激活，100 万 token 上下文），两款均在知识处理和 Agent 任务基准上取得强势表现。</p>
 <p>此次 API 迁移背后是 DeepSeek 产品线的整体架构重构。DeepSeek 在今年 4 月底发布 V4 系列（V4-Pro 和 V4-Flash）后，持续通过 API changelog 推动用户升级，此次废弃旧别名是清理遗留混淆的最后一步。从技术层面来看，V4-Flash 在单 token 推理 FLOPs 上比 V3.2 降低了 73%（仅需 27% 的计算量），KV cache 也只有 V3.2 的 10%，使得 100 万 token 超长文档处理的成本和延迟均大幅下降。V4-Pro 则面向对精度要求更高的 Agent 工作流和知识密集型任务。两款模型均已通过 DeepSeek API（api.deepseek.com）开放商用调用，定价相比 Anthropic 和 OpenAI 旗舰模型仍有明显优势。</p>
-<p>开发者行动清单：首先检查所有生产代码中是否存在 <code>model: "deepseek-chat"</code> 或 <code>model: "deepseek-reasoner"</code> 的字符串，将其替换为 <code>model: "deepseek-v4-flash"</code>，并按需添加 <code>thinking_mode</code> 参数；其次在 staging 环境验证迁移后的响应格式和性能是否符合预期（V4-Flash 与旧版 V3 系列存在响应结构差异）；最后设置 7 月 24 日前的迁移 deadline 提醒，避免 API 调用在当天突然返回 <code>InvalidModel</code> 错误导致服务中断。如需升级至更高性能的 V4-Pro，可通过 <code>model: "deepseek-v4-pro"</code> 直接切换，定价差异可在 DeepSeek API 定价页面确认。</p>
+<p>开发者行动清单：首先检查所有生产代码中是否存在 `model: "deepseek-chat"` 或 `model: "deepseek-reasoner"` 的字符串，将其替换为 `model: "deepseek-v4-flash"`，并按需添加 `thinking_mode` 参数；其次在 staging 环境验证迁移后的响应格式和性能是否符合预期（V4-Flash 与旧版 V3 系列存在响应结构差异）；最后设置 7 月 24 日前的迁移 deadline 提醒，避免 API 调用在当天突然返回 `InvalidModel` 错误导致服务中断。如需升级至更高性能的 V4-Pro，可通过 `model: "deepseek-v4-pro"` 直接切换，定价差异可在 DeepSeek API 定价页面确认。</p>
 <div class="mp-source">来源：<a href="https://api-docs.deepseek.com">api-docs.deepseek.com</a> · <a href="https://cnbc.com">cnbc.com</a> · <a href="https://sitepoint.com">sitepoint.com</a></div>
 <hr class="mp-divider">
 <div class="mp-quickview">
@@ -130,10 +130,10 @@
       <div class="card">
         <h2>📊 稿件信息 <span class="tag">META</span></h2>
         <div class="stat-grid">
-          <div class="stat-item"><div class="v">6800</div><div class="k">字数</div></div>
+          <div class="stat-item"><div class="v">5963</div><div class="k">字数</div></div>
           <div class="stat-item"><div class="v">6</div><div class="k">海报</div></div>
           <div class="stat-item"><div class="v">5</div><div class="k">新闻</div></div>
-          <div class="stat-item"><div class="v">17</div><div class="k">分钟读</div></div>
+          <div class="stat-item"><div class="v">15</div><div class="k">分钟读</div></div>
         </div>
       </div>
 
