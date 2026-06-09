@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-10",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "USYD",
+    "hookSub": "国王生日荣誉 AO + 考拉基因组颠覆假说",
+    "hookSubHighlight": "考拉基因组颠覆假说",
+    "subLines": [
+      "Elizabeth Elliott 教授获 AO · 儿科医学 + FASD 30 年贡献",
+      "Toby Kovacs 博士生主导 · 考拉种群 10 万年前崩溃 · 早于人类到来",
+      "457 只考拉基因组 · Molecular Biology and Evolution · 6 月 9 日"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "国王生日荣誉 AO", "data": "Elliott 教授 · 儿科" },
+      { "num": "02", "title": "考拉基因组研究", "data": "10 万年前崩溃" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术荣誉",
+      "h2Main": "Elizabeth Elliott 教授获 AO：儿科 + FASD 30 年贡献",
+      "h2Sub": "2026 国王生日荣誉 6 月 8 日公布 · USYD 杰出儿科教授 · AO 级别",
+      "h2Highlight": "AO 级别",
+      "lead": "澳大利亚总督 Sam Mostyn 6 月 8 日公布 2026 年国王生日荣誉名单，悉尼大学儿科学<b>杰出教授 Elizabeth Elliott</b> 获颁 <b>AO（Officer of the Order of Australia）</b>，表彰其在儿科医学、女性健康及<b>胎儿酒精谱系障碍（FASD）</b>医学与社会认知领域的杰出贡献。",
+      "bullets": [
+        { "k": "AO 表彰原因", "v": "「为儿科医学、女性健康，以及胎儿酒精谱系障碍的医学和社会认知做出的杰出服务」——三十余年临床研究 + 政策推动双线并进" },
+        { "k": "FASD 贡献", "v": "Elliott 教授是澳洲推动 FASD 正式纳入儿科诊断框架的核心学者；主持多项儿科流行病学研究，为澳洲 FASD 临床诊断规范化提供了基准数据" },
+        { "k": "双重角色", "v": "同时担任 USYD 杰出儿科教授 + <b>Children's Hospital Westmead 儿科顾问医生</b>——临床 + 学术双线，是澳洲儿科转化医学的代表性路径" },
+        { "k": "对你的影响", "v": "走 <b>Medicine / Paediatrics / Public Health / Women's Health</b> 方向的同学：Elliott 教授的研究路径展示了临床实践如何转化为政策影响；USYD 医学院在儿科转化研究领域是申请 MD / 专科培训的强背书" }
+      ],
+      "source": "USYD News · 2026-06-08",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/06/08/congratulations-to-our-2026-king-s-birthday-honours-recipients-.html"
+    },
+    {
+      "idx": "02",
+      "category": "科研发现",
+      "h2Main": "USYD 博士生：考拉种群崩溃早于人类到来 10 万年",
+      "h2Sub": "Toby Kovacs 主导 · 457 只考拉基因组 · Molecular Biology and Evolution · 2026-06-09",
+      "h2Highlight": "早于人类到来 10 万年",
+      "lead": "悉尼大学博士生 <b>Toby Kovacs</b>（USYD × Texas A&M 联培）领衔的团队 6 月 9 日在《<b>Molecular Biology and Evolution</b>》发表研究，分析 <b>457 只考拉的全基因组</b>，发现约 <b>10 万年前</b>——<b>远早于人类踏上澳洲大陆</b>——考拉就经历了一次严峻的种群崩溃，主因是冰川期气候变化和栖息地萎缩，而非早期人类活动。",
+      "bullets": [
+        { "k": "方法突破", "v": "首次通过 <b>4 对亲子考拉基因组</b>精准测定考拉突变速率——约为人类的<b>一半</b>；以这个新基准重新分析 457 只考拉的基因组，重建了更精确的种群历史曲线" },
+        { "k": "关键发现", "v": "所有现代考拉均源自一个<b>在严酷冰川期存活下来的东部小种群</b>；西部种群在冰川期气候压力下彻底灭绝；种群崩溃的驱动因素是冷干气候 + 澳洲板块漂移导致的栖息地收缩" },
+        { "k": "学术意义", "v": "颠覆了「早期人类活动是考拉种群衰减主因」的假设；为理解物种在气候变化周期下的脆弱性和恢复机制提供了基因组学层面的直接证据" },
+        { "k": "对你的影响", "v": "走 <b>Biology / Genomics / Conservation Science / Environmental Science</b> 方向的同学：这项研究体现了基因组学与生态学交叉研究的前景——博士生第一作者发表 Molecular Biology and Evolution，是 USYD 理学院 PhD 研究深度的直接示例" }
+      ],
+      "source": "USYD News · 2026-06-09",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/06/09/-koala-population-crash-came-before-humans---genomic-study-revea.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "悉大本周两条：国王生日荣誉 AO 公布，Elizabeth Elliott 儿科教授三十年 FASD 研究和临床贡献获表彰；博士生 Toby Kovacs 领衔考拉基因组研究登上《Molecular Biology and Evolution》，发现种群崩溃早于人类到来 10 万年，颠覆既有假说。",
+    "items": [
+      { "n": "01", "title": "Elizabeth Elliott 教授 AO", "body": "儿科 + FASD + 女性健康 30 年 · Children's Hospital Westmead 顾问医生 · 2026-06-08 公布" },
+      { "n": "02", "title": "考拉种群崩溃研究", "body": "Toby Kovacs 博士生第一作者 · 457 只考拉基因组 · 10 万年前崩溃早于人类 · Molecular Biology and Evolution · 2026-06-09" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "06 / 10"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "悉大本周两条速看📋",
+      "body": "6 月 8 日国王生日荣誉勋章名单出来了，悉大 Elizabeth Elliott 教授获颁 AO——表彰她在儿科医学和胎儿酒精谱系障碍（FASD）领域三十年的贡献，她同时也是 Children's Hospital Westmead 的儿科顾问医生。\n\n另一条更有意思——悉大博士生 Toby Kovacs 领衔的考拉基因组研究 6 月 9 日发表在《Molecular Biology and Evolution》，结论挺反直觉：考拉种群崩溃发生在大约 10 万年前，比人类到来澳洲早多了，主因是冰川期气候变化，不是早期人类活动。他们分析了 457 只考拉的基因组，先从 4 对亲子考拉那里搞清楚了考拉的突变速率（大概是人类的一半）。\n\n两条覆盖医学荣誉和基础科学研究，放一起看挺好玩的。有兴趣聊的评论区🙋",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #大学新闻 #科研 #留学干货 #澳洲研究"
+    },
+    "p2": {
+      "title": "悉大教授获 AO 国王生日荣誉🏅",
+      "body": "6 月 8 日澳大利亚总督公布 2026 年国王生日荣誉名单，悉尼大学儿科学杰出教授 Elizabeth Elliott 获颁 AO（Officer of the Order of Australia）。\n\n表彰原因：「为儿科医学、女性健康，以及胎儿酒精谱系障碍（FASD）的医学和社会认知做出的杰出服务」。三十多年里她一边在 Children's Hospital Westmead 做临床儿科顾问，一边推动 FASD 在澳洲的正式诊断框架落地。\n\n这条对走 Medicine / Paediatrics / Public Health 方向的姐妹值得留意——Elliott 教授的路径展示了临床实践如何转化为政策影响。悉大医学院在儿科转化研究上的背书是真实的，不只是排名表格上的数字。\n\n今年国王生日荣誉完整名单在 gg.gov.au，可以按专业方向检索有哪些学者获表彰。",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #学术荣誉 #医学 #儿科 #留学干货"
+    },
+    "p3": {
+      "title": "考拉种群早于人类就崩溃了🐨",
+      "body": "悉大有一篇新出的研究，结论挺反直觉：考拉的种群崩溃在大约 10 万年前就发生了，那时候人类根本还没到澳洲。\n\n主导这个研究的是悉大博士生 Toby Kovacs（联合 Texas A&M），6 月 9 日发表在《Molecular Biology and Evolution》，用了 457 只考拉的全基因组数据。\n\n研究最有意思的方法部分：他们先从 4 对亲子考拉那里测出考拉的突变速率（是人类的一半），然后用这个新的基准重新算了 457 只考拉的基因组历史，才得到了更准确的种群变化时间线。\n\n结论：所有现代考拉都来自东部的一个小种群，在冰川期冷干气候里挣扎活下来的。西部种群在那时候直接灭了。主要压力是气候变化和澳洲板块漂移导致的栖息地收缩，不是早期人类打猎。\n\n走 Biology / Genomics / Conservation Science 方向的姐妹，这篇是博士生第一作者发在顶刊的，USYD 这条研究线值得关注。",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #科研 #基因组学 #生物学 #留学干货"
+    },
+    "p4": {
+      "title": "悉大申请参考 | 医学+生命科学💡",
+      "body": "正在考虑申悉尼大学 Medicine / Biology / Environmental Science 方向的姐妹，本周两条消息都可以收进「选校参考」：\n\n第一条：儿科教授 Elizabeth Elliott 获 AO——这是澳洲荣誉体系里很高的级别，表彰她三十年在儿科医学和 FASD 领域的贡献。悉大医学院在儿科转化研究上的深度，从这个层面能看一下。\n\n第二条：博士生 Toby Kovacs 在《Molecular Biology and Evolution》发表考拉基因组研究——第一作者是在读博士生，联合了 Texas A&M 的跨校合作，用 457 只考拉基因组颠覆了一个长期假说。这个展示了悉大 Biology / Genomics 方向的 PhD 研究生态：有资源做大规模基因组数据 + 有国际合作渠道 + 导师给博士生足够的主导空间。\n\n两条放一起——一个是学院历史积累，一个是实际在跑的 PhD 产出。选学校的时候，这类信息比院校介绍页要实在多了。有申悉大理科或医科的姐妹评论区聊。",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #医学留学 #生物学 #选校 #留学干货"
+    },
+    "p5": {
+      "title": "悉大 6-10｜一眼看完📌",
+      "body": "悉尼大学 6 月 10 日两条：\n\n01 / 国王生日荣誉 AO——2026 年 6 月 8 日公布，悉大儿科学杰出教授 Elizabeth Elliott 获颁 AO，表彰儿科医学 + FASD + 女性健康三十年贡献；同时任 Children's Hospital Westmead 儿科顾问医生。\n\n02 / 考拉基因组研究——博士生 Toby Kovacs（USYD × Texas A&M）领衔，6 月 9 日发表于《Molecular Biology and Evolution》；分析 457 只考拉全基因组，发现种群崩溃在约 10 万年前（人类到来之前），主因是冰川期气候变化；考拉突变速率约为人类的一半。\n\n评论区扣 1 获取相关研究和申请信息🙌",
+      "tags": "#USYD #悉尼大学 #澳洲留学 #大学新闻 #科研 #留学干货 #留学生活"
+    }
+  },
+  "mp": {
+    "title": "悉尼大学 6 月 10 日：国王生日荣誉 AO 表彰 Elizabeth Elliott + 考拉种群基因组颠覆假说",
+    "lead": "悉尼大学本周两条：2026 年国王生日荣誉勋章 6 月 8 日公布，儿科学杰出教授 Elizabeth Elliott 获颁 AO，表彰其三十余年在儿科医学、女性健康及胎儿酒精谱系障碍（FASD）领域的杰出贡献；与此同时，悉大博士生 Toby Kovacs 领衔的考拉种群基因组研究 6 月 9 日登上《Molecular Biology and Evolution》，分析 457 只考拉全基因组后发现，考拉种群崩溃发生在约 10 万年前——远早于人类踏上澳洲大陆，主要驱动因素是冰川期气候变化和栖息地萎缩，而非人类活动。",
+    "meta": { "readTime": "7 分钟" },
+    "newsBodies": [
+      {
+        "h2": "Elizabeth Elliott 教授获 AO：儿科转化研究 30 年，FASD 诊断框架奠基人",
+        "paragraphs": [
+          "澳大利亚总督 Sam Mostyn 6 月 8 日正式公布 2026 年国王生日荣誉名单，共 949 人获表彰。悉尼大学儿科学杰出教授 Elizabeth Elliott 获颁 AO（Officer of the Order of Australia），官方表彰理由为：「为儿科医学、女性健康，以及胎儿酒精谱系障碍（Fetal Alcohol Spectrum Disorder, FASD）的医学和社会认知做出的杰出服务」。Elliott 教授同时担任 Children's Hospital Westmead 的儿科顾问医生，临床与学术两条线并行了三十余年。",
+          "Elliott 教授在 FASD 领域的贡献有明确的政策落地点：她主导和参与的多项儿科流行病学研究，为 FASD 在澳洲正式获得临床诊断框架认可提供了关键的基准数据。这项工作不仅是学术研究，更推动了 FASD 从「社会问题」向「可诊断医学状况」的公众认知转变，直接影响了澳洲儿科临床实践规范的制订。走 Medicine、Paediatrics 或 Public Health 方向的学生，Elliott 教授的职业路径是理解「临床实践如何驱动政策变革」的典型案例——这也是悉大医学院培养医生和医学研究者的核心逻辑之一。",
+          "悉大在本届名单中另有多位学者及联系人获得不同级别的荣誉表彰，涵盖工程、法律、社区服务等方向。国王生日荣誉名单每年在 6 月初发布，是澳洲学术界定期可见的横截面——通过它可以了解哪些具体方向的教授在澳洲学界有长期持续的学术与社会影响力，对于做研究生导师选择或评估院系研究深度，这份名单是有效的参考工具。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.sydney.edu.au/news-opinion/news/2026/06/08/congratulations-to-our-2026-king-s-birthday-honours-recipients-.html\">USYD News — Congratulations to our 2026 King's Birthday Honours recipients</a>"
+      },
+      {
+        "h2": "考拉种群在 10 万年前就崩溃了——博士生 Toby Kovacs 基因组研究颠覆既有假说",
+        "paragraphs": [
+          "悉尼大学博士生 Toby Kovacs 与 Texas A&M University 的研究人员联合开展的考拉基因组研究，6 月 9 日发表于《Molecular Biology and Evolution》。这项研究的核心发现是：考拉的种群崩溃发生在大约 10 万年前，远早于人类约 5 万年前抵达澳洲大陆的时间。研究团队据此得出结论：这次种群崩溃的主要驱动因素是气候变化——特别是冰川期带来的冷干环境和澳洲板块漂移导致的栖息地收缩——而非早期人类的狩猎活动。这一结论颠覆了之前部分学者认为人类活动是考拉种群历史衰减主因的假设。",
+          "研究方法上有一个关键突破：团队首先对 4 对考拉亲子进行全基因组测序，通过计算亲代与子代之间的突变数量，精准测定了考拉的基因组突变速率——结果约为人类突变速率的一半。这个新的考拉特异性突变速率被作为基准，重新应用于另外 457 只考拉基因组的分析，从而得出了比以往更准确的种群历史时间线。研究发现，所有现代考拉都是一个在严酷冰川期幸存下来的东部小种群的后裔；西部种群在那一时期已完全消亡，没有留下任何现代后代。",
+          "这项研究对当下的考拉保育工作有现实意义：即使种群崩溃的历史根源不是人类活动，现代考拉面临的栖息地破坏和气候变化威胁依然严峻。研究结论提示，种群规模本来就偏小的考拉，对当代气候变化带来的栖息地压力可能格外脆弱。对走 Biology / Genomics / Conservation Science 方向的学生而言，这项研究的模式值得留意：悉大博士生担任第一作者，与国际机构合作，用大规模基因组数据解决生态学上的悬案——这是悉大生命科学研究生态的一个缩影。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.sydney.edu.au/news-opinion/news/2026/06/09/-koala-population-crash-came-before-humans---genomic-study-revea.html\">USYD News — Koala population crash came before humans, genomic study reveals</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · Elizabeth Elliott 教授 AO</strong>：儿科 + FASD + 女性健康 30 年 · Children's Hospital Westmead 顾问 · 2026-06-08 国王生日荣誉公布",
+        "<strong>02 · 考拉基因组研究</strong>：Toby Kovacs 博士生第一作者 · 457 只考拉全基因组 · 10 万年前崩溃早于人类到来 · 气候变化是主因 · Molecular Biology and Evolution · 2026-06-09"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 历史日报全开放",
+      "badge": "06 / 10"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "悉大国王生日荣誉 AO｜医学方向申请参考",
+        "body": "2026 年 6 月 8 日国王生日荣誉公布，悉大儿科学杰出教授 Elizabeth Elliott 获颁 AO——她是 FASD（胎儿酒精谱系障碍）在澳洲诊断框架落地的核心推动者之一，同时是 Children's Hospital Westmead 的儿科顾问医生，临床 + 学术双线三十年。\n\n走 Medicine / Paediatrics / Public Health 方向的姐妹：Elliott 教授的路径是「如何把临床实践转化为政策影响」的具体案例，不是抽象的。悉大医学院和 Children's Hospital Westmead 的深度绑定，是它在儿科和公共健康方向的实质竞争力。\n\n今年完整荣誉名单在 gg.gov.au，有在研究导师或评估院系的姐妹可以去扫一遍自己专业方向的获奖情况。",
+        "tags": ["#USYD", "#悉尼大学", "#澳洲留学", "#学术荣誉", "#医学", "#儿科", "#留学干货"]
+      },
+      {
+        "heading": "考拉种群研究｜生命科学博士课题参考",
+        "body": "悉大博士生 Toby Kovacs 第一作者，和 Texas A&M 一起，6 月 9 日在《Molecular Biology and Evolution》发了一篇考拉基因组研究，结论很反直觉：考拉种群崩溃在 10 万年前就发生了，人类那时候还没到澳洲，主要原因是冰川期气候变化。\n\n方法很干净：先从 4 对亲子考拉那里测出考拉突变速率（是人类的一半），再拿这个基准重新算 457 只考拉的基因组历史。结论是所有现代考拉都来自一个在冰川期活下来的东部小种群，西部种群早就灭了。\n\n走 Biology / Genomics / Conservation Science 方向的姐妹——这个项目是博士生主导、国际合作、大规模基因组数据，在悉大理学院 PhD 体系里是典型的产出模式，可以做申请参考。",
+        "tags": ["#USYD", "#悉尼大学", "#澳洲留学", "#科研", "#基因组学", "#生物学", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 公众号 / 二维码", "result": "未检出（仅出现「评论区扣 1」合规互动话术）" },
+      { "category": "AI 味", "rule": "首先其次最后 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 站外域名", "result": "未检出（xhsCopy 与 drafts 全部扫描）" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股", "result": "未检出" }
+    ]
+  }
+}
