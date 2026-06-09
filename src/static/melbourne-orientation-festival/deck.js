@@ -1,93 +1,100 @@
-// 2026 S2 墨尔本新生节 · 单页播放器
-// 38 页真图清单 + 板块标签
-const SLIDES = [
-  { p:'01', seg:'封面' },
-  { p:'02', seg:'活动概览' }, { p:'03', seg:'活动介绍' }, { p:'04', seg:'活动目的' },
-  { p:'05', seg:'吸引新生' }, { p:'06', seg:'商家机会' },
-  { p:'07', seg:'为什么选' }, { p:'08', seg:'场地介绍' }, { p:'09', seg:'Floor Plan' },
-  { p:'10', seg:'合作套餐' }, { p:'11', seg:'价格对比' },
-  { p:'12', seg:'往期回顾' }, { p:'13', seg:'活动概述' }, { p:'14', seg:'活动数据' },
-  { p:'15', seg:'活动数据' }, { p:'16', seg:'赞助商' },
-  { p:'17', seg:'活动亮点' }, { p:'18', seg:'反馈·参与者' }, { p:'19', seg:'反馈·参展商' },
-  { p:'20', seg:'反馈·志愿者' }, { p:'21', seg:'活动照片' }, { p:'22', seg:'活动照片' },
-  { p:'23', seg:'活动照片' }, { p:'24', seg:'活动照片' },
-  { p:'25', seg:'关于课代表' }, { p:'26', seg:'课代表·小红书' }, { p:'27', seg:'课代表·小红书' },
-  { p:'28', seg:'账号矩阵' }, { p:'29', seg:'课代表·公众号' }, { p:'30', seg:'课代表·公众号' },
-  { p:'31', seg:'公众号矩阵' }, { p:'32', seg:'课代表·社群' },
-  { p:'33', seg:'合作机会' }, { p:'34', seg:'成果展示' }, { p:'35', seg:'大学合作' },
-  { p:'36', seg:'品牌活动' }, { p:'37', seg:'企业合作' }, { p:'38', seg:'联络我们' },
-];
-
+// 2026 S2 墨尔本新生节 · 真文字播放器
 const $ = (s) => document.querySelector(s);
-const frame = $('.frame'), thumbs = $('.thumbs'), gridEl = $('.grid');
-const counter = $('.count'), segEl = $('.seg'), barEl = $('.bar');
+const $$ = (s) => Array.from(document.querySelectorAll(s));
+const slides = $$('.slide');
+const N = slides.length;
+const counter = $('.count'), segEl = $('.seg'), barEl = $('.bar'), ovlist = $('.ovlist');
 let i = 0;
 
-// 构建幻灯
-const nodes = SLIDES.map((s, n) => {
-  const el = document.createElement('div');
-  el.className = 'slide' + (n === 0 ? ' active' : '');
-  el.innerHTML = `<img src="assets/p${s.p}.jpg" alt="第${n + 1}页 · ${s.seg}" ${n > 1 ? 'loading="lazy"' : ''}>`;
-  frame.appendChild(el);
-  return el;
-});
-
-// 构建缩略图
-SLIDES.forEach((s, n) => {
-  const fig = document.createElement('figure');
-  fig.innerHTML = `<img src="assets/p${s.p}.jpg" alt=""><figcaption>${n + 1} · ${s.seg}</figcaption>`;
-  fig.addEventListener('click', () => { go(n); closeGrid(); });
-  thumbs.appendChild(fig);
-});
-
-function render() {
-  nodes.forEach((el, n) => el.classList.toggle('active', n === i));
-  counter.textContent = (i + 1) + ' / ' + SLIDES.length;
-  segEl.textContent = SLIDES[i].seg;
-  barEl.style.width = ((i + 1) / SLIDES.length * 100) + '%';
+function chrome() {
+  counter.textContent = (i + 1) + ' / ' + N;
+  segEl.textContent = slides[i].dataset.seg || '';
+  barEl.style.width = ((i + 1) / N * 100) + '%';
+  ovlist && $$('.ovlist button').forEach((b, n) => b.classList.toggle('cur', n === i));
   history.replaceState(null, '', '#' + (i + 1));
 }
-function go(n) { i = Math.max(0, Math.min(SLIDES.length - 1, n)); render(); }
-function openGrid() { gridEl.classList.add('open'); }
-function closeGrid() { gridEl.classList.remove('open'); }
+function go(n) {
+  n = Math.max(0, Math.min(N - 1, n));
+  if (n === i) { chrome(); return; }
+  const dir = n > i ? 1 : -1, inc = slides[n];
+  inc.classList.add(dir > 0 ? 'prep-next' : 'prep-prev');
+  slides[i].classList.remove('active');
+  void inc.offsetWidth;
+  inc.classList.remove('prep-next', 'prep-prev');
+  inc.classList.add('active');
+  i = n; chrome();
+}
+
+// 板块总览
+slides.forEach((s, n) => {
+  const b = document.createElement('button');
+  b.innerHTML = `<span class="pg">${n + 1}</span> ${s.dataset.seg || ''}`;
+  b.addEventListener('click', () => { go(n); closeOv(); });
+  ovlist.appendChild(b);
+});
+const ov = $('.grid-ov');
+const openOv = () => ov.classList.add('open');
+const closeOv = () => ov.classList.remove('open');
+
+// 编辑开关
+let editing = false;
+function toggleEdit() {
+  editing = !editing;
+  document.body.classList.toggle('edit', editing);
+  $('.edit-btn').classList.toggle('on', editing);
+  $$('[data-edit]').forEach((el) => el.contentEditable = editing ? 'true' : 'false');
+}
 
 // 控件
-$('.prev').addEventListener('click', () => go(i - 1));
-$('.next').addEventListener('click', () => go(i + 1));
-$('.grid-btn').addEventListener('click', openGrid);
-$('.gclose').addEventListener('click', closeGrid);
-$('.fs-btn').addEventListener('click', () => {
+$('.prev').addEventListener('click', (e) => { e.stopPropagation(); go(i - 1); });
+$('.next').addEventListener('click', (e) => { e.stopPropagation(); go(i + 1); });
+$('.grid-btn').addEventListener('click', (e) => { e.stopPropagation(); openOv(); });
+$('.gclose').addEventListener('click', closeOv);
+$('.edit-btn').addEventListener('click', (e) => { e.stopPropagation(); toggleEdit(); });
+$('.fs-btn').addEventListener('click', (e) => {
+  e.stopPropagation();
   if (!document.fullscreenElement) document.documentElement.requestFullscreen?.();
   else document.exitFullscreen?.();
 });
 
-// 点击左右半屏翻页
+// 点击翻页（编辑态/点到文字时不翻）
 $('.deck').addEventListener('click', (e) => {
-  if (e.target.closest('.hud') || e.target.closest('.grid')) return;
+  if (editing || e.target.closest('.hud,.grid-ov,.top,[data-edit]')) return;
   go(e.clientX > window.innerWidth / 2 ? i + 1 : i - 1);
 });
-
+// 触屏滑动
+let sx = null;
+$('.deck').addEventListener('touchstart', (e) => { sx = e.touches[0].clientX; }, { passive: true });
+$('.deck').addEventListener('touchend', (e) => {
+  if (sx === null || editing) return;
+  const dx = e.changedTouches[0].clientX - sx;
+  if (Math.abs(dx) > 45) go(dx < 0 ? i + 1 : i - 1);
+  sx = null;
+});
+// 键盘
 document.addEventListener('keydown', (e) => {
-  if (gridEl.classList.contains('open') && e.key === 'Escape') return closeGrid();
+  if (editing) { if (e.key === 'Escape') toggleEdit(); return; }
+  if (ov.classList.contains('open')) { if (e.key === 'Escape') closeOv(); return; }
   switch (e.key) {
     case 'ArrowRight': case ' ': case 'PageDown': e.preventDefault(); go(i + 1); break;
     case 'ArrowLeft': case 'PageUp': e.preventDefault(); go(i - 1); break;
-    case 'Home': go(0); break;
-    case 'End': go(SLIDES.length - 1); break;
-    case 'g': case 'G': gridEl.classList.contains('open') ? closeGrid() : openGrid(); break;
+    case 'Home': go(0); break; case 'End': go(N - 1); break;
+    case 'g': case 'G': openOv(); break;
+    case 'e': case 'E': toggleEdit(); break;
     case 'f': case 'F':
       if (!document.fullscreenElement) document.documentElement.requestFullscreen?.();
       else document.exitFullscreen?.(); break;
   }
 });
 
-// 从 hash 恢复
-const h = parseInt(location.hash.replace('#', ''), 10);
-if (!isNaN(h) && h >= 1 && h <= SLIDES.length) i = h - 1;
+// 待机自动隐藏
+let idleT;
+function activity() { document.body.classList.remove('idle'); clearTimeout(idleT); idleT = setTimeout(() => { if (!editing) document.body.classList.add('idle'); }, 2800); }
+['mousemove', 'mousedown', 'keydown', 'touchstart'].forEach((ev) => document.addEventListener(ev, activity, { passive: true }));
+activity();
 
-// 预加载首图后隐藏 loader
-const first = new Image();
-first.onload = () => { render(); $('.loader')?.classList.add('gone'); };
-first.onerror = () => { render(); $('.loader')?.classList.add('gone'); };
-first.src = `assets/p${SLIDES[i].p}.jpg`;
-render();
+// hash 恢复
+const h = parseInt(location.hash.replace('#', ''), 10);
+if (!isNaN(h) && h >= 1 && h <= N) i = h - 1;
+slides.forEach((s, n) => s.classList.toggle('active', n === i));
+chrome();
