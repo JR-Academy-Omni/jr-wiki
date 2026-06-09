@@ -1,0 +1,307 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-10（Canvas 版）</title>
+<meta name="description" content="2026-06-10 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-10.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-10",
+  "summary": {
+    "hook": [
+      "OpenAI/Anthropic 同周递交 IPO",
+      "DeepSeek 封 74 亿美元融资"
+    ],
+    "sub": "美国两大 AI 巨头同周申请上市，DeepSeek 获腾讯领投创纪录融资，Gemini Omni 开启视频生成新纪元",
+    "items": [
+      {
+        "num": "01",
+        "cat": "资本市场",
+        "numColor": "#10A37F",
+        "t": "OpenAI 保密提交 IPO 申请，估值 8520 亿美元"
+      },
+      {
+        "num": "02",
+        "cat": "融资动态",
+        "numColor": "#E84B3A",
+        "t": "DeepSeek 近封 74 亿美元融资，腾讯宁德领投"
+      },
+      {
+        "num": "03",
+        "cat": "模型前沿",
+        "numColor": "#D4A853",
+        "t": "Claude 已自主撰写超 80% 代码，Anthropic 同步申请 IPO"
+      },
+      {
+        "num": "04",
+        "cat": "产品发布",
+        "numColor": "#4285F4",
+        "t": "Google 推 Gemini Omni 与 3.5，全面进入智能体时代"
+      },
+      {
+        "num": "05",
+        "cat": "政策监管",
+        "numColor": "#6B7FD4",
+        "t": "白宫签署 AI 创新与安全行政令，联邦主导监管格局"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-ipo",
+      "idx": "01",
+      "catText": "资本市场",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#0D1F1A",
+        "mid": "#0F2820",
+        "bot": "#071510",
+        "topRight": "#1A4030"
+      },
+      "title": [
+        {
+          "text": "OpenAI 保密递交 IPO 申请"
+        },
+        {
+          "text": "估值 8520 亿美元",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "继 Anthropic 之后不足两周，OpenAI 向 SEC 提交保密上市申请，"
+        },
+        {
+          "text": "成为史上估值最高 AI 科技 IPO。",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 已向美国证券交易委员会（SEC）保密提交 IPO 文件，公司最新一轮融资后估值达 8520 亿美元，上市时间窗口预计在 2026 年底前后。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 AI 行业迄今规模最大的上市计划之一。OpenAI 与 Anthropic 相继递表，标志着头部 AI 公司从「长期亏损研究机构」向「公众可投资成长股」的身份转变。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IPO 后 OpenAI 将承受季报压力，可能加速 API 商业化定价、推动企业版功能收费，用开发者需关注成本结构变化。"
+        }
+      ],
+      "src": "📎 techcrunch.com · pbs.org"
+    },
+    {
+      "slug": "02-deepseek-74yi-funding",
+      "idx": "02",
+      "catText": "融资动态",
+      "accent": "#E84B3A",
+      "bg": {
+        "top": "#1F0D0A",
+        "mid": "#261008",
+        "bot": "#150705",
+        "topRight": "#3D1A14"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 近封"
+        },
+        {
+          "text": "74 亿美元历史性融资",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "腾讯、宁德时代、国家 AI 产业投资基金联合领投，"
+        },
+        {
+          "text": "成为中国初创公司史上最大融资之一。",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 距离完成约 500 亿人民币（约 74 亿美元）融资仅一步之遥，腾讯与宁德时代为最大股东，国家 AI 产业投资基金亦参与其中。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "DeepSeek 以极低成本训练出顶尖开源模型，此次融资显示中国科技巨头正加码支持国产 AI 基础模型，并与政府资金形成合力，将开源战略推向国际竞争前沿。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "DeepSeek 已跃居美国企业软件 Ramp 采购榜首，性价比驱动的替换浪潮仍在加速。开发者可关注其即将发布的新版本模型及 API 价格动态。"
+        }
+      ],
+      "src": "📎 bloomberg.com · cnbc.com · the-decoder.com"
+    },
+    {
+      "slug": "03-anthropic-claude-self-code-ipo",
+      "idx": "03",
+      "catText": "模型前沿",
+      "accent": "#D4A853",
+      "bg": {
+        "top": "#1F1608",
+        "mid": "#261A06",
+        "bot": "#150E03",
+        "topRight": "#3D2D10"
+      },
+      "title": [
+        {
+          "text": "Claude 自主撰写超 80% 代码"
+        },
+        {
+          "text": "Anthropic 同步递交 IPO",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Anthropic 披露 Claude 代码自写比例从去年 10% 飙升至 80%+，"
+        },
+        {
+          "text": "同日宣布估值 9650 亿美元保密 IPO 申请。",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 研究团队公开数据：Claude 现已自主完成超过 80% 的自身代码编写，较 2025 年 2 月的不足 10% 大幅提升；与此同时，公司已在最新 650 亿美元融资后以近万亿美元估值保密申请 IPO。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "「AI 写自己的代码」被视为通往 AGI 的里程碑式信号。80% 的门槛意味着人类工程师已退出大部分代码生成环节，Anthropic 研究员直言这指向「完全自主设计下一代模型」的可能性。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "软件开发者需重新评估 AI 辅助编码的竞争格局。Claude Code 将成为 Anthropic 上市后的核心变现产品，企业版订阅及 API 定价可能随 IPO 进程同步调整。"
+        }
+      ],
+      "src": "📎 techcrunch.com · uk.finance.yahoo.com · cbsnews.com"
+    },
+    {
+      "slug": "04-google-gemini-omni-35",
+      "idx": "04",
+      "catText": "产品发布",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#0A1020",
+        "mid": "#0C1428",
+        "bot": "#060A14",
+        "topRight": "#142040"
+      },
+      "title": [
+        {
+          "text": "Google 推出 Gemini Omni 与 Gemini 3.5"
+        },
+        {
+          "text": "全面进入智能体时代",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Gemini Omni 支持「任意输入生成任意输出」含视频，"
+        },
+        {
+          "text": "Gemini 3.5 整合前沿推理与行动能力。",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google 发布 Gemini 3.5 与 Gemini Omni 两款新模型。Omni 支持从图片、文字、音频到视频的全模态输入输出，可将静态图转为高质量视频；Gemini 3.5 则融合深度推理与行动执行能力，适配 Daily Brief 和 Gemini Spark 个人智能体功能。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Google 将 Gemini 从对话 AI 进化为跨 Search、Gmail、Android 的「连接式工作系统」，并以 TPU 8i 基础设施为支撑。Gemini Omni 的视频生成能力直接挑战 OpenAI Sora 和 Runway 的市场地位。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "内容创作者可尝试 Gemini Omni 的图生视频功能用于社媒素材生产；开发者可关注 Gemini API 中 Gemini 3.5 的发布节点，更强的推理能力将提升 agent 工作流的可靠性。"
+        }
+      ],
+      "src": "📎 blog.google · techcrunch.com · ai.google.dev"
+    },
+    {
+      "slug": "05-whitehouse-ai-order-june2026",
+      "idx": "05",
+      "catText": "政策监管",
+      "accent": "#6B7FD4",
+      "bg": {
+        "top": "#0C0F20",
+        "mid": "#0E1128",
+        "bot": "#070914",
+        "topRight": "#18203D"
+      },
+      "title": [
+        {
+          "text": "白宫签署 AI 创新与安全行政令"
+        },
+        {
+          "text": "联邦主导监管格局成型",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "6 月 2 日行政令削减开发者合规障碍，"
+        },
+        {
+          "text": "同时推动联邦层面统一 AI 监管取代州法拼盘。",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "白宫于 6 月 2 日发布「推进人工智能创新与安全」行政令，宣布大幅削减对 AI 开发者的官僚审批约束，同步推动以联邦框架统一代替科罗拉多、加州、德克萨斯等州各自为政的 AI 法律体系。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "科罗拉多 AI 法案将于 6 月 30 日生效，EU AI Act 关键透明度条款 8 月 2 日到期，叠加联邦行政令，2026 年下半年将是全球 AI 合规最密集的窗口期，企业面临多重重叠的法律义务。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "在美国部署 AI 产品的企业需同时满足联邦行政令要求与各州法律，EU 市场则须在 8 月前完成 AI Act 高风险系统评估。合规成本上升，中小型 AI 创业公司可能加速并购或整合。"
+        }
+      ],
+      "src": "📎 whitehouse.gov · cooley.com · vorys.com"
+    }
+  ],
+  "mp": {
+    "title": "OpenAI IPO 保密申报 / DeepSeek 融 74 亿 / Gemini Omni 发布 / Claude 自写 80% 代码 / 白宫 AI 创新令"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-10"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
