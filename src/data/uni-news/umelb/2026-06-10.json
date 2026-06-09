@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-10",
+  "school": "umelb",
+  "summary": {
+    "hookMain": "UMelb",
+    "hookSub": "国王生日荣誉 + 国际生项目获 $12 万续命",
+    "hookSubHighlight": "国际生项目获 $12 万续命",
+    "subLines": [
+      "2026 King's Birthday Honours 6 月 8 日公布 · 墨大学者入选",
+      "Joanna Mendelssohn 副教授 AM · 美术史研究数十年贡献",
+      "Being a Melburnian 项目 $121,930 延续至 2028 · 8 月开放报名"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "国王生日荣誉", "data": "AM · 墨大学者" },
+      { "num": "02", "title": "国际生融入项目", "data": "$121,930 · 2028" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术荣誉",
+      "h2Main": "2026 国王生日荣誉：墨大学者获 AM 表彰",
+      "h2Sub": "6 月 8 日公布 · Joanna Mendelssohn 副教授 AM · 美术史研究",
+      "h2Highlight": "AM 表彰",
+      "lead": "澳大利亚总督 Sam Mostyn 6 月 8 日正式公布 2026 年国王生日荣誉勋章名单，共 <b>949 人</b>获表彰。墨尔本大学荣誉高级研究员 <b>Joanna Mendelssohn 副教授</b>获颁 <b>AM（澳大利亚勋章）</b>，表彰其数十年在美术史研究与写作领域的贡献；牙科领域，与墨大牙学院深度合作的 <b>Peter Paraschos 教授</b>因四十余年牙髓病学教育与研究积累而获表彰。",
+      "bullets": [
+        { "k": "Joanna Mendelssohn AM", "v": "<b>Honorary Senior Fellow at University of Melbourne</b>；获 AM 表彰美术史研究与写作方面「significant service」——数十年学术积累横跨澳洲艺术史、女性艺术家研究等领域" },
+        { "k": "Peter Paraschos 牙科教育", "v": "与墨大牙学院深度合作，<b>40 余年</b>投入牙髓病学（endodontics）教育和研究；表彰其在澳洲牙科教育体系中的奠基性角色" },
+        { "k": "全国 949 人获表彰", "v": "本届荣誉名单涵盖 Companion（AC）、Officer（AO）、Member（AM）、Medal（OAM）多个级别；自然科学（数学、物理、基因组学）类别集中获高阶表彰" },
+        { "k": "对你的影响", "v": "走 <b>Arts / Art History / Dentistry / Health Sciences</b> 方向的同学：荣誉名单是了解哪位教授在澳洲学界影响力的直接参考；墨大在美术史和牙科领域的学者入选，也侧面印证学科研究深度" }
+      ],
+      "source": "Governor-General of Australia · 2026-06-08",
+      "sourceUrl": "https://www.gg.gov.au/kings-birthday-2026-honours-list"
+    },
+    {
+      "idx": "02",
+      "category": "国际生活动",
+      "h2Main": "Being a Melburnian 获注资 $121,930 延续至 2028",
+      "h2Sub": "City of Melbourne 出资 · 8 月报名 · 全墨尔本高校国际生可参与",
+      "h2Highlight": "延续至 2028",
+      "lead": "由墨大国际生发起的跨代际友谊项目 <b>Being a Melburnian</b> 获 City of Melbourne 注资 <b>$121,930</b>，将在 2026 年 7 月至 2028 年 6 月继续运营两年。2026 年新一期将在 <b>8–9 月</b>落地，面向大墨尔本地区<b>所有高校</b>国际生开放，不限学校。",
+      "bullets": [
+        { "k": "项目起源", "v": "由墨大三位国际生 <b>Peiqi（Kevin）Shi、Nava Lok、Arnav Goyal</b> 与 Dr Ash Alam、Dr James Thompson 和 North & West Melbourne Neighbourhood Centre 联合研发；核心目标是在国际生与本地长者之间建立真实的跨代际友谊" },
+        { "k": "2025 试点成果", "v": "<b>42 名国际生 + 28 位本地长者</b>，6 场活动：AFLW 观赛、探索咖啡文化、解码澳洲俚语与口音等；项目结束后参与者仍自发保持联系" },
+        { "k": "2026 新一期", "v": "8–9 月在 North & West Melbourne Neighbourhood Centre 落地；面向<b>大墨尔本地区所有高校国际生</b>（不限于墨大）；报名渠道后续公布" },
+        { "k": "对你的影响", "v": "在墨尔本读书、想真正融入本地生活的国际生：这不是学校官方「增强归属感」宣传语，是一个有试点数据支撑的实际项目；42 人里有人通过 AFLW 比赛认识了澳洲朋友，结束后还在聚" }
+      ],
+      "source": "UMelb Newsroom · 2026-05",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/may/new-program-fosters-intergenerational-friendships"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "墨大本周两条：国王生日荣誉勋章公布，荣誉高级研究员 Joanna Mendelssohn 副教授获 AM；City of Melbourne 注资 $121,930 延续 Being a Melburnian 国际生跨代际项目至 2028，8–9 月新一期面向全墨尔本高校开放报名。",
+    "items": [
+      { "n": "01", "title": "国王生日荣誉 AM", "body": "Joanna Mendelssohn 副教授（墨大荣誉高级研究员）获 AM · 美术史研究数十年 · 2026-06-08 公布" },
+      { "n": "02", "title": "Being a Melburnian 续命", "body": "City of Melbourne $121,930 注资 · 2026 年 7 月–2028 年 6 月 · 8 月开放报名 · 全墨尔本高校国际生可参与" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "06 / 10"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "墨大本周两条速看📋",
+      "body": "6 月 8 日国王生日荣誉勋章名单出来了，墨大有学者入选。另一条是之前不太有人关注的国际生融入项目——Being a Melburnian——City of Melbourne 刚给了 $12 万续命到 2028，8 月就会开放新一期报名。\n\n01 / 国王生日荣誉——荣誉高级研究员 Joanna Mendelssohn 副教授获颁 AM（澳大利亚勋章），表彰其数十年美术史研究贡献。牙髓病学教育领域的 Peter Paraschos 教授也因与墨大深度合作的四十余年积累获得表彰。\n\n02 / Being a Melburnian——这个项目是三位墨大国际生自己发起的：Peiqi（Kevin）Shi、Nava Lok 和 Arnav Goyal，和本地长者一起参加活动（AFLW、咖啡、俚语解码……），2025 年试点 42 名国际生 + 28 位长者，项目结束后仍在自发聚会。现在 City of Melbourne 出钱让它跑到 2028，8 月新一期开放，面向全墨尔本高校国际生。\n\n评论区有想报名的扣 1🙌",
+      "tags": "#UMelb #墨尔本大学 #澳洲留学 #国际生 #墨尔本 #留学生活 #大学新闻"
+    },
+    "p2": {
+      "title": "墨大学者获国王生日 AM🏅",
+      "body": "6 月 8 日澳大利亚总督 Sam Mostyn 公布了 2026 年国王生日荣誉勋章名单，今年共 949 人获表彰。\n\n和墨大相关的两位：荣誉高级研究员 Joanna Mendelssohn 副教授获颁 AM，表彰她数十年在美术史研究与写作领域的贡献；牙髓病学教育的 Peter Paraschos 教授因与墨大牙学院深度合作四十多年的积累同样入选。\n\n每年国王生日前后澳洲学界都会有一轮集中表彰，名单本身是个很好的研究切入口——哪个方向的教授在澳洲学界能见度高，往往从荣誉名单里就能看出来。走 Arts / Art History / Dentistry 方向的姐妹可以顺手搜一下今年各学科的获奖情况，做选校判断用。\n\n完整名单在澳大利亚总督官网，搜 「King's Birthday 2026 Honours List」就能找到。",
+      "tags": "#UMelb #墨尔本大学 #澳洲留学 #学术荣誉 #澳洲大学 #留学干货 #UMelb申请"
+    },
+    "p3": {
+      "title": "墨尔本国际生项目 8 月开报名🤝",
+      "body": "在墨尔本读书的姐妹——Being a Melburnian 这个项目你们知道吗？三位墨大国际生自己做起来的，专门让国际生和墨尔本本地长者一起参加活动。刚刚获得 City of Melbourne 注资 $121,930，延续到 2028 年。\n\n2025 年试点：42 名国际生 + 28 位本地长者，6 场活动——AFLW 观赛、咖啡文化探索、澳洲俚语和口音解码……活动结束后大家仍然自发约着继续见面。\n\n2026 年新一期 8–9 月开始，在 North & West Melbourne Neighbourhood Centre 落地，面向大墨尔本地区<b>所有高校</b>的国际生（不限墨大在读）。\n\n不在墨大也可以报名这个事我觉得很重要——如果你在 RMIT / Swinburne / Melbourne Polytechnic，同样可以参加。8 月报名渠道后续会公布，有兴趣的姐妹先在评论区扣 1，我跟进到消息出来📌",
+      "tags": "#墨尔本 #澳洲留学 #国际生 #留学生活 #UMelb #墨尔本大学 #在澳留学"
+    },
+    "p4": {
+      "title": "墨大申请参考 | 荣誉+项目双料💡",
+      "body": "正在考虑申墨大或者已经在墨尔本就读的姐妹，这周两条消息放一起看挺有意思。\n\n一条是国王生日荣誉勋章，墨大有学者获 AM——荣誉名单是判断一个学校在某个学科学术地位的参考；美术史和牙科两个方向的教授都和墨大有深度连接，这对考虑这两个方向的同学是额外加分信息。\n\n另一条是更生活化的：Being a Melburnian 项目续命到 2028，8 月开放报名，面向全墨尔本高校国际生。2025 年试点的 42 名国际生里，有人通过 AFLW 比赛认识了本地朋友，项目结束后还在聚。这个在中介介绍里几乎不会被提到——但对于「来了以后能不能真正融入本地生活」这个问题，它是一个有实际数据的参考。\n\n有申墨大或者在墨尔本就读的姐妹，评论区聊。",
+      "tags": "#UMelb #墨尔本大学 #澳洲留学 #国际生 #选校 #留学干货 #墨尔本生活"
+    },
+    "p5": {
+      "title": "墨大 6-10｜一眼看完📌",
+      "body": "墨尔本大学 6 月 10 日两条消息：\n\n01 / 国王生日荣誉——2026 年 6 月 8 日公布，共 949 人获表彰。墨大荣誉高级研究员 Joanna Mendelssohn 副教授获 AM（美术史研究数十年）；牙髓病学教育者 Peter Paraschos 教授因与墨大牙学院四十余年深度合作获得表彰。\n\n02 / Being a Melburnian 获续——City of Melbourne $121,930 注资，2026 年 7 月–2028 年 6 月运营；8–9 月在 North & West Melbourne Neighbourhood Centre 落地，面向大墨尔本地区所有高校国际生开放。2025 年试点：42 国际生 + 28 本地长者，活动结束后仍在自发聚会。\n\n评论区扣 1 获取项目报名信息🙌",
+      "tags": "#UMelb #墨尔本大学 #澳洲留学 #国际生 #大学新闻 #留学生活 #留学干货"
+    }
+  },
+  "mp": {
+    "title": "墨尔本大学 6 月 10 日：国王生日荣誉 AM 表彰 + 国际生融入项目 $121,930 续命",
+    "lead": "墨尔本大学本周两条：2026 年国王生日荣誉勋章 6 月 8 日公布，墨大荣誉高级研究员 Joanna Mendelssohn 副教授获颁澳大利亚勋章（AM），表彰其数十年美术史研究与写作贡献；与此同时，City of Melbourne 为由墨大国际生发起的跨代际融入项目 Being a Melburnian 注资 $121,930，项目将从 2026 年 7 月持续至 2028 年 6 月，8–9 月新一期面向大墨尔本地区所有高校国际生开放报名。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "2026 国王生日荣誉：墨大学者入选，Joanna Mendelssohn 副教授获 AM",
+        "paragraphs": [
+          "澳大利亚总督 Sam Mostyn 6 月 8 日正式公布 2026 年国王生日荣誉勋章名单，共 949 人获表彰，涵盖澳大利亚勋章 Companion（AC）、Officer（AO）、Member（AM）及荣誉勋章（OAM）等级别。与墨尔本大学相关的两位学者入选：墨大荣誉高级研究员 Joanna Mendelssohn 副教授获颁 AM，以表彰其数十年在美术史研究与写作领域的杰出贡献；牙科教育领域的 Peter Paraschos 教授因在牙髓病学（endodontics）教育和研究方面超过四十年的投入，以及与墨大牙学院长期深度合作而获得表彰。",
+          "每年国王生日前后，澳大利亚学术界会集中公布一批荣誉表彰，这份名单是了解各学科在澳洲学界影响力的直接参考。Mendelssohn 副教授在美术史研究上的持续贡献，体现了墨大在人文艺术领域的学术积淀；Paraschos 教授在牙科教育体系的建设则印证了墨大牙学院在澳洲健康教育领域的长期地位。对于考虑 Arts / Art History / Dentistry 方向的学生，荣誉名单可以作为判断导师学术背景和学院研究深度的参考工具。",
+          "2026 年 Companion of the Order of Australia（AC）共颁给 5 位学者，涵盖数学、医学、物理学和基因科学等方向，体现了澳洲在自然科学基础研究上的持续重视。完整名单可在澳大利亚总督官网（gg.gov.au）下载查阅，同时墨大澳洲荣誉页面也会同步更新本校获奖情况。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.gg.gov.au/kings-birthday-2026-honours-list\">Governor-General of Australia — King's Birthday 2026 Honours List</a> · <a href=\"https://about.unimelb.edu.au/news-resources/awards-and-achievements/australian-honours\">UMelb Australian Honours</a>"
+      },
+      {
+        "h2": "City of Melbourne 注资 $121,930：Being a Melburnian 延续到 2028",
+        "paragraphs": [
+          "由墨尔本大学国际生发起的跨代际友谊项目 Being a Melburnian 获 City of Melbourne 注资 $121,930，将在 2026 年 7 月至 2028 年 6 月持续运营两年。这个项目由三位墨大国际生 Peiqi（Kevin）Shi、Nava Lok 和 Arnav Goyal 联合设计，并与大学移民与学生福祉专家 Dr Ash Alam、Dr James Thompson 及 North & West Melbourne Neighbourhood Centre 协作落地。项目的核心目标是通过共同体验澳洲文化活动，帮助国际生真正融入本地社会，而不是仅仅停留在校园内部的多元文化活动层面。",
+          "2025 年试点中，42 名来自不同院校的国际生与 28 位墨尔本本地长者一起参加了 6 场活动：AFLW 澳式足球女子联赛观赛、探索墨尔本咖啡文化、解码澳洲俚语与口音等。项目设计的一个关键亮点是「跨代际」——让国际生不只是在同龄留学生圈子里社交，而是与真正生活在这座城市几十年的老墨尔本人建立联系，双方在相互理解中同时减少孤独感。2025 年的参与者在六场活动结束后仍自发保持联系，这种持续性是试点数据中最有说服力的成果。",
+          "2026 年新一期将在 8 月和 9 月于 North & West Melbourne Neighbourhood Centre 落地，面向大墨尔本地区所有高校的国际生开放，不限于墨大在读。这意味着在 RMIT、Swinburne、Melbourne Polytechnic 就读的国际生也可以报名参加。对于初来墨尔本、或者在墨尔本生活了一段时间但仍感到与本地社会有距离的国际生，这个项目是一个低门槛、有社区支持的参与路径。具体报名渠道将在 7 月后公布。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unimelb.edu.au/newsroom/news/2026/may/new-program-fosters-intergenerational-friendships\">UMelb Newsroom — New program fosters intergenerational friendships</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · 国王生日荣誉 AM</strong>：Joanna Mendelssohn 副教授（墨大荣誉高级研究员）获 AM · 美术史研究数十年 · 949 人获表彰 · 6 月 8 日公布",
+        "<strong>02 · Being a Melburnian 续命</strong>：City of Melbourne $121,930 注资 · 2026 年 7 月–2028 年 6 月 · 8–9 月新一期 · 全墨尔本高校国际生均可参与"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 历史日报全开放",
+      "badge": "06 / 10"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "墨大国王生日荣誉 AM｜学术地位参考",
+        "body": "6 月 8 日 2026 年国王生日荣誉名单出了，和墨大相关的两位入选：荣誉高级研究员 Joanna Mendelssohn 副教授获 AM（美术史研究数十年），以及牙髓病学教育的 Peter Paraschos 教授（与墨大牙学院四十余年深度合作）。\n\n每年荣誉名单发出来我都会扫一遍，不是为了「哪个学校获奖多」那种表层排名，而是看哪些具体方向的学者在澳洲学界有影响力——这个信息在选导师、判断院系研究深度的时候比排名表格有用多了。\n\n走 Arts / Art History 或者 Dentistry 方向的姐妹可以去 gg.gov.au 查今年完整名单，顺手搜一下自己感兴趣方向有没有获奖学者。",
+        "tags": ["#UMelb", "#墨尔本大学", "#澳洲留学", "#学术荣誉", "#选校", "#留学干货"]
+      },
+      {
+        "heading": "Being a Melburnian 报名指南｜墨尔本国际生必看",
+        "body": "在墨尔本的姐妹，这个项目你们知道吗：Being a Melburnian，三位墨大国际生自己做的，专门让国际生和本地长者一起参加活动，2025 年试点结束后参与者仍在自发聚会。\n\nCity of Melbourne 刚注资 $121,930 让它跑到 2028，8 月新一期开放，面向<b>全墨尔本高校</b>国际生（不限墨大）。\n\n具体活动：AFLW 观赛、咖啡文化、澳洲俚语解码……6 场活动，每场都有话题，不会尴尬地不知道聊什么。我觉得这个项目对刚来墨尔本觉得本地人很难认识的姐妹来说，是一个很实际的切入口。\n\n8 月报名渠道后续公布，有兴趣的评论区扣 1 我跟进📌",
+        "tags": ["#墨尔本", "#UMelb", "#澳洲留学", "#国际生", "#留学生活", "#墨尔本大学", "#在澳留学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 公众号 / 二维码", "result": "未检出（仅出现「评论区扣 1」合规互动话术）" },
+      { "category": "AI 味", "rule": "首先其次最后 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 站外域名", "result": "未检出（xhsCopy 与 drafts 全部扫描）" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股", "result": "未检出" }
+    ]
+  }
+}
