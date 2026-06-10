@@ -1,0 +1,312 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-11（Canvas 版）</title>
+<meta name="description" content="2026-06-11 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-11.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-11",
+  "summary": {
+    "hook": [
+      {
+        "text": "AI 行业大事同步发酵："
+      },
+      {
+        "text": "IPO 潮、千亿参数竞赛、联邦立法齐上阵",
+        "hl": true
+      }
+    ],
+    "sub": "OpenAI 与 Anthropic 双双冲刺 IPO；Fable 5 发布定义「Mythos 级」AI；DeepSeek 宣布 500 亿首轮融资；xAI 完成 1.5 万亿参数 Grok V9 训练；美国两党推出首部联邦 AI 法案草案。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "商业",
+        "numColor": "#4ADE80",
+        "t": "OpenAI 秘密递交 IPO 申请，估值 $852B"
+      },
+      {
+        "num": "02",
+        "cat": "新模型",
+        "numColor": "#A78BFA",
+        "t": "Anthropic 发布 Claude Fable 5，Mythos 级正式公开"
+      },
+      {
+        "num": "03",
+        "cat": "融资",
+        "numColor": "#F87171",
+        "t": "DeepSeek 首轮募资 500 亿元，国家基金领投"
+      },
+      {
+        "num": "04",
+        "cat": "训练",
+        "numColor": "#38BDF8",
+        "t": "xAI 完成 Grok V9 训练：1.5 万亿参数"
+      },
+      {
+        "num": "05",
+        "cat": "政策",
+        "numColor": "#FB923C",
+        "t": "美国首部联邦 AI 法案草案出炉，两党联署"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-ipo-s1",
+      "idx": "01",
+      "catText": "商业 / IPO",
+      "accent": "#4ADE80",
+      "bg": {
+        "top": "#052e16",
+        "mid": "#14532d",
+        "bot": "#166534",
+        "topRight": "#4ade80"
+      },
+      "title": [
+        {
+          "text": "OpenAI 秘密递交"
+        },
+        {
+          "text": "S-1 上市申请",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "估值 $852B，"
+        },
+        {
+          "text": "CEO 称「上市时机未定，还有些事更适合私下推进」",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 向美国 SEC 秘密递交 IPO 注册草稿，成为继 Anthropic 后第二家启动上市程序的顶级 AI 实验室，目前未宣布定价或发行规模。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "两家最具代表性的 AI 公司在同一个月冲刺 IPO，标志 AI 行业从「烧钱扩张」向「公开市场变现」加速转型，资本关注度史无前例。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "上市后 OpenAI 须向公众披露营收、算力成本和研究进展，模型定价与 API 商业逻辑将更透明，开发者和企业可依据财报做采购决策。"
+        }
+      ],
+      "src": "📎 techcrunch.com · openai.com"
+    },
+    {
+      "slug": "02-claude-fable-5",
+      "idx": "02",
+      "catText": "新模型",
+      "accent": "#A78BFA",
+      "bg": {
+        "top": "#2e1065",
+        "mid": "#4c1d95",
+        "bot": "#5b21b6",
+        "topRight": "#a78bfa"
+      },
+      "title": [
+        {
+          "text": "Anthropic 发布"
+        },
+        {
+          "text": "Claude Fable 5",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "首个「Mythos 级」公开模型，"
+        },
+        {
+          "text": "定价约为 Opus 两倍，面向机构和安全领域",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 于 6 月 9 日正式发布 Claude Fable 5，这是首款面向公众的「Mythos 类」模型，能自主发现并链式利用零日漏洞，安全分类器会自动拦截敏感请求。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Fable 5 将「自主完成复杂长任务」的能力推向新高度，同时内置硬编码安全限制，代表 Anthropic「能力与安全同步迭代」路线的最新成果。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者可通过 API 调用 Fable 5 处理高难度推理和代码任务；定价约 Opus 两倍，适合对精度要求极高的企业和研究场景，普通用户可继续用 Opus 4.8。"
+        }
+      ],
+      "src": "📎 anthropic.com · gate.com · jang.com.pk"
+    },
+    {
+      "slug": "03-deepseek-7b-fundraise",
+      "idx": "03",
+      "catText": "融资",
+      "accent": "#F87171",
+      "bg": {
+        "top": "#450a0a",
+        "mid": "#7f1d1d",
+        "bot": "#991b1b",
+        "topRight": "#f87171"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 首轮融资"
+        },
+        {
+          "text": "500 亿元（约 $7B）",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "国家集成电路基金领投，"
+        },
+        {
+          "text": "估值或达 $45B，CATL 等产业资本跟投",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 宣布首次外部融资，目标募集约 500 亿元（约 $7.4B），由中国国家集成电路产业投资基金领投，CATL 等产业资本参与跟投。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "此前 DeepSeek 完全自筹资金，此次引入国家资本标志着其从「民营研究机构」转向「国家战略基础设施」，也为中美 AI 竞争格局增添新变量。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "更多资金将加速 DeepSeek V4 及后续模型迭代；同时国资背景可能影响模型的对外开放程度和数据政策，海外开发者需关注相关合规风险。"
+        }
+      ],
+      "src": "📎 cnbc.com · techcrunch.com · fortune.com"
+    },
+    {
+      "slug": "04-grok-v9-1-5t",
+      "idx": "04",
+      "catText": "模型训练",
+      "accent": "#38BDF8",
+      "bg": {
+        "top": "#082f49",
+        "mid": "#0c4a6e",
+        "bot": "#075985",
+        "topRight": "#38bdf8"
+      },
+      "title": [
+        {
+          "text": "xAI 完成"
+        },
+        {
+          "text": "Grok V9 训练 · 1.5 万亿参数",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "现役模型三倍体量，"
+        },
+        {
+          "text": "6 月中旬公开发布，领导层同步换血",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 宣布完成 Grok V9 训练，参数量 1.5 万亿，是现役 V8-small（5000 亿参数）的三倍，目前进行监督微调和强化学习，预计 6 月中旬对外发布。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "1.5 万亿参数量接近 GPT-4 级别估计值，若发布后表现达预期，xAI 将具备与 OpenAI、Anthropic 在顶级推理任务上正面竞争的能力。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Grok V9 将通过 grok.com 和 X Premium 提供，企业 API 定价尚未公布；目前可先试用 Grok Build 0.1 编程模型（$1/百万输入 token），提前熟悉 xAI 工具链。"
+        }
+      ],
+      "src": "📎 openpr.com · bloomberg.com · basenor.com"
+    },
+    {
+      "slug": "05-great-american-ai-act",
+      "idx": "05",
+      "catText": "政策",
+      "accent": "#FB923C",
+      "bg": {
+        "top": "#431407",
+        "mid": "#7c2d12",
+        "bot": "#9a3412",
+        "topRight": "#fb923c"
+      },
+      "title": [
+        {
+          "text": "美国首部联邦 AI 法案"
+        },
+        {
+          "text": "草案出炉",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "两党联署「大美国 AI 法案」，"
+        },
+        {
+          "text": "强制三方审计、禁止报复举报人",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "美国众议员 Jay Obernolte（共）与 Lori Trahan（民）联署发布「大美国人工智能法案 2026」草案，首次提出联邦层面 AI 治理框架，涵盖边界模型监管、劳动力、网络安全和研发四大模块。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "法案要求前沿 AI 开发者披露模型信息、委托独立核查机构（IVO）三方审计，并保护举报人；若通过，将成为美国迄今最具约束力的 AI 监管法律。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "企业 AI 应用合规成本将上升，第三方审计市场将爆发；草案目前处于讨论阶段，可在 hklaw.com 等法律媒体持续追踪立法进展，提前评估对贵司 AI 产品的影响。"
+        }
+      ],
+      "src": "📎 whitehouse.gov · mcdonaldhopkins.com · jenner.com"
+    }
+  ],
+  "mp": {
+    "title": "OpenAI IPO 启动 / Fable 5 发布 / DeepSeek 融 $7B / Grok V9 1.5T / 美联邦 AI 法案"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-11"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
