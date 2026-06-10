@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-10T02:06:29.381Z",
+  "lockedAt": "2026-06-10T23:39:28.460Z",
   "version": 1,
   "slugs": [
     {
@@ -237,6 +237,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-06-10"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-06-11"
     },
     {
       "type": "article",
@@ -517,6 +521,10 @@
     {
       "type": "article",
       "slug": "it-daily-2026-06-10"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-06-11"
     },
     {
       "type": "article",
@@ -1647,6 +1655,11 @@
       "type": "chapter",
       "book": "n8n-guide",
       "slug": "04-ai-agent-advanced"
+    },
+    {
+      "type": "chapter",
+      "book": "n8n-guide",
+      "slug": "05-faq"
     },
     {
       "type": "chapter",
