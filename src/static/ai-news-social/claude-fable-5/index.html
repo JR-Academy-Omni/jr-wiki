@@ -1,0 +1,531 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Claude Fable 5 · 内容预览(博客 + 小红书)</title>
+<style>
+body{font-family:-apple-system,"Noto Sans SC",sans-serif;line-height:1.75;color:#1a1a1a;background:#fffcf6;margin:0}
+.tabs{position:sticky;top:0;background:#0D0F12;padding:10px 16px;display:flex;gap:8px;z-index:9}
+.tabs button{font:600 14px/1 inherit;color:#fff;background:#2a2d33;border:none;padding:10px 18px;border-radius:8px;cursor:pointer}
+.tabs button.on{background:#FF4D4F}
+.wrap{max-width:780px;margin:0 auto;padding:28px 24px 80px}
+.pane{display:none}.pane.on{display:block}
+h1{font-size:28px;line-height:1.3;margin:24px 0 8px}
+h2{font-size:21px;margin:36px 0 12px;padding-bottom:8px;border-bottom:2px solid #F3D8B5}
+h3{font-size:17px;margin:22px 0 6px;color:#0D0F12}
+p,li{font-size:15px}a{color:#FF4D4F}
+code{background:#f3f0ea;padding:2px 6px;border-radius:4px;font-size:13px;font-family:Menlo,monospace}
+pre{background:#0D0F12;color:#e8e8e8;padding:16px;border-radius:8px;overflow-x:auto}pre code{background:none;color:inherit;padding:0}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14px;display:block;overflow-x:auto}
+th,td{border:1px solid #e2d9c8;padding:8px 11px;text-align:left}th{background:#FFFDF8;font-weight:600}tr:nth-child(even){background:#fffdf8}
+blockquote{border-left:4px solid #7B61FF;background:#f6f4ff;margin:14px 0;padding:9px 15px;border-radius:0 6px 6px 0;white-space:pre-wrap}
+img{max-width:100%;border-radius:8px}hr{border:none;border-top:1px solid #eee;margin:28px 0}
+.note{background:#FFFDF8;border:1px solid #F3D8B5;border-radius:8px;padding:8px 14px;font-size:12px;color:#6b7280;margin:0}
+</style></head><body>
+<div class="tabs">
+  <button id="b2" class="on" onclick="sw('xhs')">📱 小红书文案 + 设计</button>
+  <button id="b1" onclick="sw('blog')">📄 博客正文</button>
+</div>
+<div class="wrap">
+<p class="note">内部预览 · noindex · 对外正式博客在 jiangren.com.au/blog/claude-fable-5-guide</p>
+<div id="xhs" class="pane on">
+<h1>小红书 · Claude Fable 5 发布(9 张图文)</h1>
+<blockquote>
+<p>配套博客:<code>/blog/claude-fable-5-guide</code>。事实均来自 Anthropic 官方页核对。
+你负责做图,本文件 = 每张图的<strong>文字内容 + 设计规格</strong>。设计风格见文末「统一设计风格」。</p>
+</blockquote>
+<hr>
+<h2>🎨 统一设计风格(所有图通用)</h2>
+<p><strong>唯一视觉 SoT = <code>jr-academy-brand/</code></strong>(<code>DESIGN.md</code> + Brand Board <code>index.html</code> + token <code>tokens/tokens.css</code>)。下面是从 brand v4.2 token 抄出来的,做图直接照用,别自己编 hex:</p>
+<table>
+<thead>
+<tr>
+<th>用途</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>尺寸</td>
+<td>1242 × 1660(竖版 3:4)</td>
+</tr>
+<tr>
+<td>页面底色</td>
+<td><code>#FFFCF6</code>(暖白 <code>--jr-surface-canvas</code>)</td>
+</tr>
+<tr>
+<td>卡片/面板底</td>
+<td><code>#FFFDF8</code>(<code>--jr-surface-panel</code>)</td>
+</tr>
+<tr>
+<td>细边框</td>
+<td><code>#F3D8B5</code>(浅橙 <code>--jr-border-warm</code>,1–2px)</td>
+</tr>
+<tr>
+<td>主文字 / 标识 / 主标题</td>
+<td><code>#0D0F12</code>(<code>--jr-black</code>)</td>
+</tr>
+<tr>
+<td>强调 / 编号 / &quot;坏消息&quot;/danger</td>
+<td><code>#FF4D4F</code>(<code>--jr-red</code>,<strong>只做点缀,绝不做大块背景</strong>)</td>
+</tr>
+<tr>
+<td>红底配白字时</td>
+<td>用 <code>#D92D20</code>(<code>--jr-red-aa</code>,保证对比度)</td>
+</tr>
+<tr>
+<td>AI / 进度 / tag</td>
+<td><code>#7B61FF</code>(紫 <code>--jr-purple</code>)</td>
+</tr>
+<tr>
+<td>圆角</td>
+<td>卡片/按钮 8px,大面板 16px</td>
+</tr>
+<tr>
+<td>Logo 角标</td>
+<td>取 <code>jr-academy-brand/assets/logo/jr-box.svg</code>,放右上或右下小角标</td>
+</tr>
+</tbody></table>
+<p><strong>字号(竖版海报,最小 24px,别再小):</strong> display 100+ / headline 60 / title 40 / subtitle 32 / label 30 / body 28 / meta 24。</p>
+<p><strong>基调:</strong> 暖白底 + 黑字 + 红点缀,干净留白,一张图一个核心信息。不要紫蓝当主色、不要黑粗边 offset 阴影、不要全 pill 按钮(那是被废弃的旧 neo-brutalism)。</p>
+<hr>
+<h2>🖼 第 1 张 · 封面(限时钩子)</h2>
+<p><strong>文字:</strong></p>
+<blockquote>
+<p>限时 2 周 ⏰
+Claude 新顶配模型 Fable 5
+订阅用户现在能免费白嫖
+6/23 起就要额外付费</p>
+</blockquote>
+<p><strong>设计:</strong> 暖白底。主标题 &quot;Claude 新顶配 Fable 5&quot; 用黑色 headline(60+)。&quot;限时 2 周 ⏰&quot; 做红色 label 角标(红色点缀,不铺红底)。底部一行小字黑色。右下角 jr-box logo。字最少、留白最多,钩子要狠。</p>
+<hr>
+<h2>🖼 第 2 张 · 它是什么(天花板定位)</h2>
+<p><strong>文字:</strong></p>
+<blockquote>
+<p>先说结论:Fable 5 = 新的天花板</p>
+<p>• Anthropic 6/9 刚发的 <code>claude-fable-5</code>
+• 模型梯队变了:Fable ＞ Opus ＞ Sonnet ＞ Haiku
+• 官方定位:目前公开能用到的最能打的一档
+• 主打&quot;超长链路&quot;任务——agent 连跑几小时不掉线那种</p>
+<p>📊 到底多强?下一张上数据 👇</p>
+</blockquote>
+<p><strong>设计:</strong> 白卡片 + 浅橙细边。标题黑色 title。4 条要点用黑色 body,行首圆点用红色。&quot;Fable ＞ Opus ＞ Sonnet ＞ Haiku&quot; 可做成一行小标签链(紫色 tag)。底部引流句小字。</p>
+<hr>
+<h2>🖼 第 3 张 · 跑分(官方 benchmark)</h2>
+<p><strong>文字:</strong></p>
+<blockquote>
+<p>跑分说话,贴官方数据 📊
+Fable 5 vs 各家旗舰</p>
+<p>🧑‍💻 编程实战 SWE-Bench Pro
+Fable 5 … 80.3%
+Opus 4.8 … 69.2%
+GPT-5.5 … 58.6%
+Gemini 3.1 Pro … 54.2%</p>
+<p>🔥 高难编程题 FrontierCode
+Fable 5 … 29.3% vs Opus 13.4%(两倍多)</p>
+<p>🧩 空间推理 Blueprint-Bench 2
+Fable 5 … 38.6% vs Opus 14.5%</p>
+<p>数据来自 Anthropic 官方 benchmark</p>
+</blockquote>
+<p><strong>设计:</strong> 白卡。三组对比,每组一个 emoji 小标题(黑色 label)。Fable 5 那一行的数字加粗、用红色或黑色加重突出第一;其余竞品数字灰一点(<code>#6b7280</code>)。可做成迷你横向条形,但别花。
+<strong>⚠️ 红线:</strong> 只能放这三组(无星号、确属 Fable 5)。官方表里带 <code>*</code> 的(Terminal-Bench 88% / 网络安全 78% / 生物 / Health)是 Mythos 5 成绩,Fable 5 实际接近 Opus,<strong>别往图里放</strong>。</p>
+<hr>
+<h2>🖼 第 4 张 · 价格翻倍(核心冲突)</h2>
+<p><strong>文字:</strong></p>
+<blockquote>
+<p>重点来了:价格翻倍 💸</p>
+<p>• $10 / $50(输入 / 输出,每百万 token)
+• 正好是 Opus 4.8 的 2 倍
+• 还有个隐藏坑:换了新分词器,同样的字多算约 30% token
+• 一句话:它是&quot;专家会诊&quot;,不是&quot;全科门诊&quot;</p>
+</blockquote>
+<p><strong>设计:</strong> 白卡。&quot;价格翻倍 💸&quot; 标题用红色强调(这是负面/警示信息,红色点缀正合适)。&quot;$10 / $50&quot; 做大号黑色 title 突出。最后一句&quot;专家会诊/全科门诊&quot;做成黑底白字或加粗结论条。</p>
+<hr>
+<h2>🖼 第 5 张 · 谁该用</h2>
+<p><strong>文字:</strong></p>
+<blockquote>
+<p>那到底谁该用?</p>
+<p>❌ 日常写代码 / 聊天 / 批量活 → 别用,烧钱
+✅ 跨整个项目改代码、连续几小时的 agent 任务
+✅ 最高难度、一次就要解对的硬题
+🎓 学习练手 → Sonnet 就够,概念比模型重要</p>
+</blockquote>
+<p><strong>设计:</strong> 白卡。❌/✅/🎓 emoji 做行首视觉锚点。❌ 那行可用红色,✅ 那两行黑色,留白清爽。</p>
+<hr>
+<h2>🖼 第 6 张 · 开发者注意(API)</h2>
+<p><strong>文字:</strong></p>
+<blockquote>
+<p>接入要改 3 处(开发者收藏)</p>
+<p>① model 换成 <code>claude-fable-5</code>
+② <code>thinking:{type:&quot;disabled&quot;}</code> 不能传了,传了报错 → 直接不写这参数
+③ 要处理&quot;拒答&quot;:它会拒某些请求,返回 refusal(不是报错)
+🆕 新参数 <code>fallbacks</code>:被拒自动换别的模型重试</p>
+</blockquote>
+<p><strong>设计:</strong> 白卡,稍微&quot;代码感&quot;。代码片段(<code>claude-fable-5</code> 等)用深色 code 底(<code>#0D0F12</code> 底 + 浅字)。①②③ 编号用红色圆标。&quot;🆕&quot; 那行可加紫色 tag 标&quot;新&quot;。</p>
+<hr>
+<h2>🖼 第 7 张 · 一张表选模型</h2>
+<p><strong>文字:</strong></p>
+<blockquote>
+<p>选哪个?照这张表</p>
+<p>🔴 Fable 5 → 最硬的长链路任务
+🟠 Opus 4.8 → 日常开发主力
+🟡 Sonnet 4.6 → 高频生产 / 客服
+🟢 Haiku 4.5 → 又快又便宜</p>
+<p>判断标准:多花一倍钱换更高成功率,值不值?</p>
+</blockquote>
+<p><strong>设计:</strong> 白卡,4 行做成清爽的&quot;档位表&quot;,左侧彩点(红/橙/黄/绿)分级,右侧黑字说明。底部判断句加粗或做结论条。</p>
+<hr>
+<h2>🖼 第 8 张 · 限时免费窗口(订阅用户 · CTA)</h2>
+<p><strong>文字:</strong></p>
+<blockquote>
+<p>⏰ 订阅用户:免费只有两周</p>
+<p>• 即日起 ~ 6/22:Pro / Max / Team / 企业版 免费用 Fable 5
+• 6/23 起:从套餐移除,再用要花 usage credits
+• 官方:容量够了会想办法恢复成标配</p>
+<p>想试的,这两周是窗口期 🏃‍♀️
+注 · API 按 token 另算($10/$50),不在此列</p>
+</blockquote>
+<p><strong>设计:</strong> 白卡。&quot;⏰ 免费只有两周&quot; 用红色强调(紧迫感)。日期 &quot;6/22&quot; &quot;6/23&quot; 加粗黑色。最底部&quot;注 · API 按 token 另算&quot;用灰色 meta(24px)小字,<strong>这条必须留,防止误导</strong>。</p>
+<hr>
+<h2>🖼 第 9 张 · 总结 + 互动</h2>
+<p><strong>文字:</strong></p>
+<blockquote>
+<p>一句话总结 👇</p>
+<p>Anthropic 第一次把&quot;最强&quot;和&quot;主力&quot;分成两层卖。
+你现在要多做一个判断:这个任务,值不值最顶那一档的价?</p>
+<p>💬 你会为了更强,多付一倍吗?评论区聊聊
+(想系统学 AI / Claude Code,主页有资料)</p>
+</blockquote>
+<p><strong>设计:</strong> 黑底白字(<code>#0D0F12</code> 底)收尾,跟封面呼应。结论两句白色大字。互动问句下方留白。右下角 jr-box logo(深色 bg 用白色版 logo)。</p>
+<hr>
+<h2>📝 正文(发在图文下方)</h2>
+<blockquote>
+<p>Claude 又又又出新模型了。这次不是小升级——Anthropic 6/9 上线的 <strong>Fable 5</strong> 直接架在 Opus 之上,成了公开能用到的天花板。</p>
+<p>⚠️ 划重点:订阅用户(Pro/Max/Team/企业版)到 6/22 免费用,6/23 起就要 usage credits 了,想试别拖。</p>
+<p>但它没那么&quot;香&quot;:价格是 Opus 4.8 的整整 2 倍($10/$50),还换了新分词器,同样内容多烧约 30% token。所以它不是默认升上去的模型,是&quot;挑硬骨头才用&quot;的。</p>
+<p>简单结论:日常活继续 Sonnet / Opus,真正卡住的超长 agent 任务、最高难度推理再上 Fable 5。开发者接入记得改 model id、删掉 <code>thinking disabled</code>、处理 refusal。</p>
+<p>你会为了更强多付一倍吗?🤔</p>
+</blockquote>
+<p><strong>话题标签:</strong>
+<code>#Claude #ClaudeFable5 #Anthropic #AI编程 #ClaudeCode #大模型 #AI工具 #程序员 #人工智能 #AI学习</code></p>
+<hr>
+<h2>发布备注</h2>
+<ul>
+<li>封面(第1张)和限时窗口(第8张)是钩子/CTA,字最少、最该花心思。</li>
+<li>跑分(第3张)、价格(第4张)、选型表(第7张)最容易被收藏/转发。</li>
+<li>发布前过一遍 <code>/xhs-review</code>(违禁词 + 降 AI 率)。第2张&quot;最能打&quot;这类含&quot;最&quot;的词在小红书踩广告法边,过一遍更稳。</li>
+</ul>
+
+</div>
+<div id="blog" class="pane">
+<p><img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200&q=80" alt="Claude Fable 5 发布 Anthropic 新顶配模型"></p>
+<h2>Claude Fable 5 是什么</h2>
+<p>Claude Fable 5（API 模型 ID <code>claude-fable-5</code>）是 Anthropic 在 2026 年 6 月 9 日上线的最新模型。官方原话是 &quot;Anthropic&#39;s most capable widely released model, for the most demanding reasoning and long-horizon agentic work&quot;——注意这里的定位：它不是 Opus 的小版本升级，而是<strong>架在 Opus 之上的新一层</strong>。模型家族现在是 Fable（最强公开）&gt; Opus（旗舰）&gt; Sonnet（主力）&gt; Haiku（快），不是过去那种 Opus 当顶的结构。</p>
+<p>硬指标（全部来自官方 <a href="https://platform.claude.com/docs/en/about-claude/models/overview">models overview</a>）：</p>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>Claude Fable 5</th>
+<th>Claude Opus 4.8（对比）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>API 模型 ID</td>
+<td><code>claude-fable-5</code></td>
+<td><code>claude-opus-4-8</code></td>
+</tr>
+<tr>
+<td>上下文窗口</td>
+<td>1M tokens</td>
+<td>1M tokens</td>
+</tr>
+<tr>
+<td>单次最大输出</td>
+<td>128k tokens</td>
+<td>128k tokens</td>
+</tr>
+<tr>
+<td>输入价格</td>
+<td><strong>$10 / MTok</strong></td>
+<td>$5 / MTok</td>
+</tr>
+<tr>
+<td>输出价格</td>
+<td><strong>$50 / MTok</strong></td>
+<td>$25 / MTok</td>
+</tr>
+<tr>
+<td>Extended thinking</td>
+<td>❌ 不支持</td>
+<td>❌ 不支持</td>
+</tr>
+<tr>
+<td>Adaptive thinking</td>
+<td>✅ 永远开启</td>
+<td>✅</td>
+</tr>
+</tbody></table>
+<p>上架渠道：Claude API、Claude Platform on AWS、Amazon Bedrock（<code>anthropic.claude-fable-5</code>）、Google Vertex AI（<code>claude-fable-5</code>）、Microsoft Foundry，6 月 9 日同步 GA。</p>
+<h2>跑分对比:Fable 5 到底比 Opus 强多少</h2>
+<p>下面是 Anthropic 官方发布的 benchmark。高亮列是 <strong>Mythos 5 / Fable 5 合并列</strong>,取两者较高值(二者差距在 1–3 个百分点内)：</p>
+<table>
+<thead>
+<tr>
+<th>维度（benchmark）</th>
+<th>Mythos 5 / Fable 5</th>
+<th>Opus 4.8</th>
+<th>GPT-5.5</th>
+<th>Gemini 3.1 Pro</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Agentic 编码 · SWE-Bench Pro</td>
+<td><strong>80.3%</strong></td>
+<td>69.2%</td>
+<td>58.6%</td>
+<td>54.2%</td>
+</tr>
+<tr>
+<td>高难编码 · FrontierCode (Diamond, xhigh)</td>
+<td><strong>29.3%</strong></td>
+<td>13.4%</td>
+<td>5.7%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>知识工作 · GDPval-AA</td>
+<td><strong>1932</strong></td>
+<td>1890</td>
+<td>1769</td>
+<td>1314</td>
+</tr>
+<tr>
+<td>知识工作（视觉）· GDP.pdf（no tools）</td>
+<td><strong>29.8%</strong></td>
+<td>22.5%</td>
+<td>24.9%</td>
+<td>16.7%</td>
+</tr>
+<tr>
+<td>空间推理 · Blueprint-Bench 2</td>
+<td><strong>38.6%</strong></td>
+<td>14.5%</td>
+<td>36.2%</td>
+<td>26.5%</td>
+</tr>
+<tr>
+<td>工具调用 · AutomationBench</td>
+<td><strong>17.4%</strong></td>
+<td>15.5%</td>
+<td>12.9%</td>
+<td>9.6%</td>
+</tr>
+<tr>
+<td>电脑操作 · OSWorld-Verified</td>
+<td>85.0%</td>
+<td>83.4%</td>
+<td>78.7%</td>
+<td>76.2%</td>
+</tr>
+<tr>
+<td>法律 · Legal Agent Benchmark</td>
+<td><strong>13.3%</strong></td>
+<td>10.4%</td>
+<td>2.1%</td>
+<td>0.0%</td>
+</tr>
+<tr>
+<td>跨学科推理 · Humanity&#39;s Last Exam（no tools）</td>
+<td>59.0%*</td>
+<td>49.8%</td>
+<td>41.4%</td>
+<td>44.4%</td>
+</tr>
+<tr>
+<td>跨学科推理 · Humanity&#39;s Last Exam（with tools）</td>
+<td>64.5%*</td>
+<td>57.9%</td>
+<td>52.2%</td>
+<td>51.4%</td>
+</tr>
+<tr>
+<td>生物 · BioMysteryBench（hard）</td>
+<td>46.1%*</td>
+<td>40.0%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>生物 · BioMysteryBench（human solved）</td>
+<td>83.9%*</td>
+<td>80.4%</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Agentic 编码 · Terminal-Bench 2.1</td>
+<td>88.0%*</td>
+<td>82.7%</td>
+<td>83.4%（Codex CLI）</td>
+<td>70.7%（Gemini CLI）</td>
+</tr>
+<tr>
+<td>网络安全 · ExploitBench（Cap%）</td>
+<td>78.0%*</td>
+<td>40.0%</td>
+<td>34.0%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>健康 · HealthBench Professional</td>
+<td>66.0%*</td>
+<td>56.9%</td>
+<td>51.8%</td>
+<td>—</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>怎么读这张表</strong>：带 <code>*</code> 的指标，Mythos 5 和 Fable 5 差距较大——因为对网络安全 / 生物类问题有 blocking 安全护栏，这些项 <strong>Fable 5 经 fallback 后实际更接近 Opus 4.8 那一列</strong>，不要当成 Fable 5 的成绩。没有 <code>*</code> 的才是 Fable 5 实打实的水平。详见官方 system card。</p>
+</blockquote>
+<p>实际看点（以下都取无星号项，代表 Fable 5 本体）：</p>
+<ul>
+<li><strong>编程是最干净的赢面</strong>：SWE-Bench Pro 拿 80.3%，Opus 4.8 是 69.2%，把 GPT-5.5（58.6%）和 Gemini 3.1 Pro（54.2%）甩开一截。</li>
+<li><strong>越难的编码题差距越大</strong>：FrontierCode（Diamond）Fable 5 拿 29.3%，Opus 4.8 只有 13.4%，两倍多。</li>
+<li><strong>空间推理</strong>：Blueprint-Bench 2 拿 38.6%，Opus 4.8 才 14.5%。</li>
+<li>知识工作、工具调用、电脑操作也都比 Opus 4.8 高一截，但幅度没编码那么夸张。</li>
+</ul>
+<p>一句话：Fable 5 的强主要强在<strong>编码和长链路推理</strong>，正好对得上它&quot;长时程 agentic 任务&quot;的定位。其余维度对 Opus 4.8 是稳定小胜，不是代差。</p>
+<h2>价格是这次最该先想清楚的事</h2>
+<p>Fable 5 的定价是 <strong>$10 输入 / $50 输出</strong>，正好是 Opus 4.8（$5/$25）的<strong>两倍</strong>。这意味着它不是&quot;默认升级上去&quot;的模型，而是&quot;挑硬骨头用&quot;的模型。</p>
+<p>还有一个容易被忽略的成本点。官方明确写了：</p>
+<blockquote>
+<p>Claude Fable 5 和 Mythos 5 用的是 Opus 4.7 引入的新 tokenizer，相比 4.7 之前的模型，同样的文本会多产生大约 30% 的 token。</p>
+</blockquote>
+<p>拆开看：</p>
+<ul>
+<li>你如果是从 <strong>Opus 4.8 / 4.7</strong> 迁过来——它俩已经是同一套 tokenizer，token 数基本不变，差别只在单价翻倍。</li>
+<li>你如果是从 <strong>Opus 4.6 或更早</strong>（含 GPT/Gemini 切过来按旧经验估算）——同一段 prompt 在 Fable 5 上 token 数会多约 30%，叠加单价翻倍，实际账单可能是原来的 2.5 倍以上。迁移前一定重新跑一遍 <code>client.messages.count_tokens()</code> 校准 budget。</li>
+</ul>
+<p>一句话：把 Fable 5 当&quot;专家会诊&quot;，不是&quot;全科门诊&quot;。日常 CRUD、批量处理、客服问答继续用 Sonnet 4.6 / Opus 4.8，把 Fable 5 留给真正卡住的长链路 agentic 任务和最高难度推理。</p>
+<h2>注意：Claude.ai 订阅用户有个限时免费窗口</h2>
+<p>上面 $10/$50 是 <strong>API 按 token 计费</strong>，一直是这样、不受下面影响。但如果你用的是 Claude.ai 的订阅套餐（Pro / Max / Team / 按席位 Enterprise），这次有个限时安排：</p>
+<ul>
+<li><strong>即日起到 6 月 22 日</strong>：Fable 5 在 Pro / Max / Team / 按席位 Enterprise 套餐里免费包含，不额外收费。</li>
+<li><strong>6 月 23 日起</strong>：从这些套餐里移除，之后再用 Fable 5 需要消耗 usage credits。官方说如果容量允许，会延长这个免费窗口。</li>
+<li><strong>再往后</strong>：等容量够了，Anthropic 计划把 Fable 5 恢复成订阅套餐的标配，并说会尽快。</li>
+</ul>
+<p>一句话：想&quot;白嫖&quot; Fable 5 的订阅用户，<strong>到 6/22 这两周是窗口期</strong>，过了就要按 credits 付费。API 用户不受这个影响——你本来就是按 token 付钱。</p>
+<h2>对不同角色意味着什么</h2>
+<p><strong>全栈 / 后端开发者</strong> — Fable 5 主打 &quot;long-horizon agentic work&quot;，就是那种跨几十个文件、连续几小时不掉线的改代码任务。如果你团队有&quot;修一个大 bug 要跨一整天&quot;&quot;一次重构动几百个文件&quot;这种活，值得拿 Fable 5 单独跑一轮看值不值这个价。普通功能开发没必要。</p>
+<p><strong>数据 / AI 工程师</strong> — 关注两点：1M 上下文 + 128k 输出意味着可以一次性喂超大代码库或长文档；但 128k 输出<strong>必须用 streaming</strong> 调用，否则 SDK 会因为超时报错。</p>
+<p><strong>做产品 / 接 API 的团队</strong> — 这次最实际的新东西是<strong>拒答 + fallback + 计费</strong>这套机制（下面单讲），它直接影响你的接入代码要怎么写。</p>
+<p><strong>正在学 AI 应用开发的同学</strong> — 不用一上来就用最贵的。学习和练手用 Sonnet 4.6 完全够，理解清楚 adaptive thinking、effort、tool use 这些概念更重要，模型选哪个是工程权衡不是越贵越好。</p>
+<h2>API 和命令：怎么调用 + 有哪些变化</h2>
+<blockquote>
+<p>下面这些 Messages API 行为是 Fable 5（和 Mythos 5）<strong>专属</strong>的，Opus / Sonnet / Haiku 不受影响。</p>
+</blockquote>
+<h3>基本调用</h3>
+<pre><code class="language-python">from anthropic import Anthropic
+
+client = Anthropic()
+
+response = client.messages.create(
+    model=&quot;claude-fable-5&quot;,
+    max_tokens=8192,
+    output_config={&quot;effort&quot;: &quot;high&quot;},   # low | medium | high | xhigh | max
+    messages=[{&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;...&quot;}],
+)
+</code></pre>
+<h3>变化 1：<code>thinking: {&quot;type&quot;: &quot;disabled&quot;}</code> 不支持（这是 Fable 5 独有的新 breaking change）</h3>
+<p>Adaptive thinking 是 Fable 5 上<strong>唯一</strong>的思考模式，而且永远开着。官方原话：</p>
+<blockquote>
+<p>Adaptive thinking is the only thinking mode on Claude Fable 5 and Claude Mythos 5. It applies whenever the <code>thinking</code> parameter is unset, and <code>thinking: {&quot;type&quot;: &quot;disabled&quot;}</code> is not supported.</p>
+</blockquote>
+<p>注意这点和 Opus 4.8/4.7 不一样——Opus 上你可以显式传 <code>disabled</code>，Fable 5 上传了会直接 <strong>400</strong>。要&quot;关思考&quot;的写法是<strong>根本不传 <code>thinking</code> 参数</strong>，靠 <code>effort</code> 调深浅。</p>
+<h3>变化 2：raw thinking 默认不返回</h3>
+<p>Fable 5 永远不返回原始思维链。<code>thinking.display</code> 默认是 <code>&quot;omitted&quot;</code>（思考块的 <code>thinking</code> 字段为空）。如果你在 UI 里要给用户展示&quot;思考进度&quot;，显式设 <code>display: &quot;summarized&quot;</code> 拿可读摘要：</p>
+<pre><code class="language-python">thinking={&quot;type&quot;: &quot;adaptive&quot;, &quot;display&quot;: &quot;summarized&quot;}
+</code></pre>
+<p>多轮对话里，思考块要<strong>原样传回</strong>（不要改），且只能在同一个模型上传回。</p>
+<h3>变化 3：这些老参数全部移除（传了就 400）</h3>
+<ul>
+<li><code>thinking: {type: &quot;enabled&quot;, budget_tokens: N}</code> —— 用 adaptive thinking + effort 代替</li>
+<li><code>temperature</code> / <code>top_p</code> / <code>top_k</code> —— 全部移除，靠 prompt 引导行为</li>
+<li>最后一条 assistant 消息做 prefill —— 移除，改用 structured outputs（<code>output_config.format</code>）或系统提示控制输出格式</li>
+</ul>
+<h3>新机制：拒答（refusal）+ 回退（fallback）+ 计费</h3>
+<p>这是 Fable 5 接入时最该改代码的地方。Fable 5 带了 safety classifier，会拒绝某些请求：</p>
+<ul>
+<li><strong>拒答不是报错</strong>：被拒时 Messages API 返回 <code>stop_reason: &quot;refusal&quot;</code>，HTTP 状态是 <strong>200</strong>（成功），响应里会告诉你是哪个 classifier 拦的。你的代码要处理这个 stop_reason，不要当异常崩。</li>
+<li><strong>自动回退</strong>：被 Fable 5 拒的请求通常别的 Claude 模型能接。传 <code>fallbacks</code> 参数让 API 自动重试（beta），或用 SDK middleware 在客户端重试。</li>
+<li><strong>计费</strong>：在产出任何 output 之前被拒的请求<strong>不计费</strong>；切到别的模型重试时，fallback credit 会退掉切换产生的 prompt-cache 成本。</li>
+</ul>
+<p>另外 Fable 5 / Mythos 5 是 &quot;Covered Models&quot;，数据保留 30 天，不支持零数据保留（ZDR）。</p>
+<h3>已支持的功能（launch 时）</h3>
+<p>Effort、Task budgets（beta header <code>task-budgets-2026-03-13</code>）、memory tool、context editing 清理工具结果（beta header <code>context-management-2025-06-27</code>）、Compaction、Vision。</p>
+<h3>Claude Code 里怎么切</h3>
+<p>Claude Code 切模型用 <code>/model</code> 命令：</p>
+<pre><code>/model claude-fable-5
+</code></pre>
+<p>切完直接用。需要注意 Fable 5 单价翻倍，长 session 的 token 账单会明显高于 Opus，跑大任务前心里有数。</p>
+<h2>Fable 5 vs Opus 4.8 怎么选</h2>
+<table>
+<thead>
+<tr>
+<th>场景</th>
+<th>选谁</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>跨整个代码库的长链路重构、连续几小时的 agentic 任务</td>
+<td>Fable 5</td>
+</tr>
+<tr>
+<td>最高难度的推理 / 一次性解决的硬题</td>
+<td>Fable 5</td>
+</tr>
+<tr>
+<td>日常功能开发、代码 review、写测试</td>
+<td>Opus 4.8</td>
+</tr>
+<tr>
+<td>高并发生产、批量处理、客服问答</td>
+<td>Sonnet 4.6</td>
+</tr>
+<tr>
+<td>学习练手、demo、成本敏感</td>
+<td>Sonnet 4.6 / Haiku 4.5</td>
+</tr>
+</tbody></table>
+<p>判断标准很简单：这个任务&quot;多花一倍的钱换更高成功率&quot;划不划算？划算（任务长、出错代价高、人工兜底贵）→ Fable 5；不划算 → Opus 4.8 起步，需要再往上调。</p>
+<h2>Claude Mythos 5 是什么（顺带）</h2>
+<p>发布会同时出了个孪生模型 <code>claude-mythos-5</code>：能力和 Fable 5 一样，但<strong>去掉了 safety classifier</strong>。它不公开卖，只通过 <a href="https://anthropic.com/glasswing">Project Glasswing</a> 邀请制给批准的客户用，是 Claude Mythos Preview 的继任者。没有 Mythos 5 权限的团队，公开渠道能用的最强 Mythos 级模型就是 Fable 5。简单说：<strong>Fable 5 = 能买到的最强，Mythos 5 = 暂时不卖。</strong></p>
+<h2>常见问题</h2>
+<h3>Claude Fable 5 比 Opus 4.8 贵多少</h3>
+<p>正好两倍。Fable 5 是 $10 输入 / $50 输出 per MTok，Opus 4.8 是 $5 / $25。所以 Fable 5 是&quot;挑任务用&quot;，不是&quot;默认升上去&quot;。</p>
+<h3>从 Opus 4.8 迁到 Fable 5 要改代码吗</h3>
+<p>主要改三处：把 <code>model</code> 换成 <code>claude-fable-5</code>；如果你之前显式传了 <code>thinking: {type: &quot;disabled&quot;}</code>，删掉这个参数（Fable 5 上传了会 400）；加上对 <code>stop_reason: &quot;refusal&quot;</code> 的处理 + 视情况配 <code>fallbacks</code>。<code>budget_tokens</code>/<code>temperature</code>/<code>top_p</code>/prefill 这些在 Opus 4.8 上已经不能用了，迁过来不用额外动。</p>
+<h3>1M 上下文是不是意味着 token 更便宜</h3>
+<p>不是。1M 是窗口大小，单价该多少还是多少。而且 Fable 5 用的是 Opus 4.7 的新 tokenizer，同样文本比 4.6 之前的模型多约 30% token。上下文大是&quot;能塞更多&quot;，不是&quot;塞得更便宜&quot;。</p>
+<h3>128k 输出怎么用</h3>
+<p>调用时必须开 streaming（<code>client.messages.stream(...)</code> + <code>.get_final_message()</code>），否则 SDK 会因为长输出超时直接报错。这一点和 Opus 4.8 一样。</p>
+<h3>Fable 5 适合放进我的生产 API 吗</h3>
+<p>看任务。如果是高频、低难度的请求，放 Fable 5 是烧钱——用 Sonnet 4.6。如果是低频但每次都很硬、出错代价高的请求（复杂分析、长链路 agent），Fable 5 划算。不管放不放，记得处理 <code>refusal</code> stop_reason，因为它带 safety classifier 会拒答。</p>
+<h2>JR Academy 相关资源</h2>
+<p>想系统学 AI 应用 / agentic 编程的话：</p>
+<ul>
+<li><a href="/wiki/claude-code">Claude Code 实战指南</a> — 从安装到 MCP 配置</li>
+<li><a href="/blog/claude-opus-4-7-upgrade-guide">Claude Opus 4.7 升级指南</a> — 上一代旗舰的迁移要点，和这篇对照看</li>
+<li><a href="/blog/ai-coding-tools-app-store-boom-2026">AI 编程工具引爆 App Store</a> — AI 工具怎么实际加速开发</li>
+<li><a href="https://jiangren.com.au/campus">Web 全栈课程</a> — 打好基础再用 AI 工具加速</li>
+</ul>
+<p>Fable 5 真正的意义不是&quot;又快又强了&quot;，而是 Anthropic 第一次把&quot;最强能力&quot;和&quot;旗舰主力&quot;分成两层卖——你现在要多做一个判断：这个任务到底值不值最顶那一档的价。本文所有数字来自 Anthropic 官方 <a href="https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5">Introducing Claude Fable 5 and Claude Mythos 5</a>，发布日 2026 年 6 月 9 日。</p>
+
+</div></div>
+<script>
+function sw(id){
+  document.querySelectorAll('.pane').forEach(function(p){p.classList.remove('on')});
+  document.getElementById(id).classList.add('on');
+  document.getElementById('b1').classList.toggle('on', id==='blog');
+  document.getElementById('b2').classList.toggle('on', id==='xhs');
+  window.scrollTo(0,0);
+}
+</script></body></html>
