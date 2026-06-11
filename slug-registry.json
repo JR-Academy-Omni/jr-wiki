@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-11T03:27:02.896Z",
+  "lockedAt": "2026-06-11T04:15:15.758Z",
   "version": 1,
   "slugs": [
     {
@@ -241,6 +241,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-06-11"
+    },
+    {
+      "type": "article",
+      "slug": "ai-hackathon-weekly"
     },
     {
       "type": "article",
