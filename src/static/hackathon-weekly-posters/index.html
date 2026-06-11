@@ -1,147 +1,132 @@
 <!doctype html>
 
-<!-- 由「OPC 比赛雷达 · 每周官网周报」cloud routine 每周一刷新（只改 POSTER_DATA，模板别动） -->
+<!-- 由「OPC 比赛雷达 · 每周官网周报」cloud routine 每周一刷新（只改 POSTER_DATA，模板和 renderer.js 别动） -->
 <html lang="zh">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>AI 比赛雷达周报海报 · 2026-06-11</title>
-<meta name="description" content="本周 hackathon / AI 奖金赛 / 加速器精选海报，Canvas 2D 绘制，扫码直达官网周报。">
+<title>一人公司搞钱周报海报 · 2026-06-11</title>
+<meta name="description" content="本周 AI hackathon / 奖金赛 / 加速器精选海报，brand v4.2 风格，高度自适应，页面内下载 PNG。">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
-<script src="../ai-news-posters/_lib/poster-renderer.v3.js"></script>
+<script src="renderer.js"></script>
 </head>
 <body>
 <script>
 /* ------------------------------------------------------------------
  * 薄壳页面：只放数据 + 一次 renderAll() 调用。
- * 画法在 ../ai-news-posters/_lib/poster-renderer.v3.js（v2 + LABELS 配置）。
+ * 画法在同目录 renderer.js（独立渲染器，brand v4.2，高度自适应）。
  * 数据来源：omni-report/hackathon-radar/ 雷达报告（每条带官方来源链接）。
  * 每周一由 cloud routine 重写 POSTER_DATA，与 /blog/ai-hackathon-weekly 同步。
+ * POSTER_DATA 必须是严格 JSON（double quotes、无尾逗号、无注释）。
  * ------------------------------------------------------------------ */
 
 const POSTER_DATA = {
   "date": "2026-06-11",
   "articleUrl": "https://jiangren.com.au/blog/ai-hackathon-weekly",
-  "summary": {
-    "hook": [
-      { "text": "Gemini XPRIZE $2M 奖池", "hl": true },
-      { "text": " · " },
-      { "text": "Band of Agents 周五截止" },
-      { "text": " · " },
-      { "text": "YC 秋季 7/27 关窗" }
+  "pageTitle": "一人公司搞钱周报海报",
+  "footerNote": "OPC WEEKLY · TOP 5",
+  "hero": {
+    "kicker": "WEEKLY",
+    "tagline": "一人公司搞钱周报 · 每周一更新",
+    "titleLines": [
+      [ { "text": "这周 AI 圈在发钱：" } ],
+      [ { "text": "5 个奖金机会", "hl": true }, { "text": "你也能冲" } ]
     ],
-    "sub": "本周给一人公司创业者筛的 5 个机会：全部 solo 可参加、有真金白银、deadline 还来得及。扫码看完整周报和报名链接",
-    "items": [
-      { "num": "01", "cat": "Hackathon", "numColor": "#FF4D4F", "t": "Build with Gemini XPRIZE：$2M 总奖池，90 天做出真用户真收入，截止 8/17" },
-      { "num": "02", "cat": "Hackathon", "numColor": "#00B0FF", "t": "Band of Agents（lablab.ai）：$10K+ 奖池，6/19 本周五截止，有 agent 代码直接改" },
-      { "num": "03", "cat": "Hackathon", "numColor": "#4285F4", "t": "Hack-Nation 全球 AI 黑客松：$35K+ 现金 + OpenAI credits，6/20 报名截止" },
-      { "num": "04", "cat": "比赛", "numColor": "#10A37F", "t": "ARC Prize 2026：$2M 总奖池，Milestone 1 提交 6/30 截止" },
-      { "num": "05", "cat": "加速器", "numColor": "#7B61FF", "t": "YC Fall 2026：$500K 投资，solo founder 可申，7/27 截止" }
-    ]
+    "sub": "Hackathon、奖金赛、加速器申请窗口，全部一个人就能参加。奖金、deadline 来自官方页面，扫码看完整清单和报名链接。"
   },
+  "items": [
+    {
+      "num": "01",
+      "tag": "Hackathon",
+      "title": "Build with Gemini XPRIZE — 90 天做出真用户真收入就能参赛",
+      "prize": "$2M 总奖池 · 大奖 $500K",
+      "deadline": "截止 2026-08-17"
+    },
+    {
+      "num": "02",
+      "tag": "Hackathon",
+      "urgent": "⚡ 本周五截止",
+      "title": "Band of Agents（lablab.ai）— 有 agent 代码改个 demo 就能交",
+      "prize": "$10K+ 奖池",
+      "deadline": "截止 06-19"
+    },
+    {
+      "num": "03",
+      "tag": "Hackathon",
+      "title": "Hack-Nation 全球 AI 黑客松 — 24 小时线上冲刺",
+      "prize": "$35K+ 现金 + OpenAI credits",
+      "deadline": "报名截止 06-20"
+    },
+    {
+      "num": "04",
+      "tag": "比赛",
+      "title": "ARC Prize 2026 — AI 推理方向，Kaggle 线上提交",
+      "prize": "$2M 总奖池",
+      "deadline": "Milestone 1 · 06-30"
+    },
+    {
+      "num": "05",
+      "tag": "加速器",
+      "title": "YC Fall 2026 — 明确接受 solo founder，申请免费",
+      "prize": "$500K 投资",
+      "deadline": "申请截止 07-27"
+    }
+  ],
   "news": [
     {
-      "slug": "01-gemini-xprize",
+      "slug": "gemini-xprize",
       "idx": "01",
-      "catText": "Hackathon",
-      "accent": "#D97757",
-      "bg": { "top": "#FBE9E7", "mid": "#FFCCBC", "bot": "#FFAB91", "topRight": "#BF360C" },
-      "title": [
-        { "text": "Build with Gemini " },
-        { "text": "XPRIZE", "hl": true },
-        { "text": "：$2M 总奖池" }
+      "tag": "Hackathon",
+      "titleLines": [
+        [ { "text": "Build with Gemini XPRIZE" } ],
+        [ { "text": "$2M 总奖池", "hl": true }, { "text": "，个人可参赛" } ]
       ],
-      "oneline": [
-        { "text": "不比 demo，比真生意——" },
-        { "text": "90 天内做出有真实用户和真实收入的 AI 产品", "bold": true },
-        { "text": "，个人就能参赛" }
+      "oneline": "不比 demo，比真生意——90 天内做出有真实用户和真实收入的 AI 产品，一个人就能报名。",
+      "facts": [
+        { "k": "奖金怎么分", "v": "大奖 $500K、二等 $200K、5 个 $100K、15 个 $50K。要求用至少一款 Google Cloud 产品（Vertex AI 或 Cloud Run 都算）。" },
+        { "k": "Deadline", "v": "2026-08-17 截止，全球线上，个人或 25 人以内团队均可报名。" },
+        { "k": "为什么是你", "v": "评的是真实用户和收入增长，不是熬夜写 demo 的技术秀——已有 MVP 的一人公司天然占优。今晚注册，把现有产品接上 Google Cloud，从今天开始记录增长数据。" }
       ],
-      "bullets": [
-        { "k": "奖金怎么分", "v": "大奖 $500K、二等 $200K、5 个 $100K、15 个 $50K。要求用至少一款 Google Cloud 产品（Vertex AI 或 Cloud Run 都算）" },
-        { "k": "Deadline", "v": "2026-08-17 截止，全球线上，个人或 25 人以内团队均可报名" },
-        { "k": "为什么是你", "v": "评的是真实用户和收入增长，不是熬夜写 demo 的技术秀——已有 MVP 的一人公司天然占优。今晚注册，把现有产品接上 Google Cloud，从今天开始记录增长数据" }
-      ],
-      "sourceQuote": "数据来源：omni-report/hackathon-radar/2026-06-11.md（官方页 xprize.devpost.com / geminixprize.com）",
       "src": "xprize.devpost.com"
     },
     {
-      "slug": "02-band-of-agents",
+      "slug": "band-of-agents",
       "idx": "02",
-      "catText": "本周五截止",
-      "accent": "#00B0FF",
-      "bg": { "top": "#E1F5FE", "mid": "#B3E5FC", "bot": "#81D4FA", "topRight": "#01579B" },
-      "title": [
-        { "text": "Band of Agents：" },
-        { "text": "$10K+ 奖池", "hl": true },
-        { "text": "，6/19 截止" }
+      "tag": "Hackathon",
+      "urgent": "⚡ 6/19 本周五截止",
+      "titleLines": [
+        [ { "text": "Band of Agents" } ],
+        [ { "text": "$10K+ 奖池", "hl": true }, { "text": "，全程线上" } ]
       ],
-      "oneline": [
-        { "text": "lablab.ai 多 agent 主题黑客松，全程线上——" },
-        { "text": "deadline 越近竞争者越少", "bold": true },
-        { "text": "，现成 agent 代码改一版就能交" }
+      "oneline": "lablab.ai 多 agent 主题黑客松——deadline 越近竞争者越少，现成 agent 代码改一版就能交。",
+      "facts": [
+        { "k": "玩法", "v": "围绕工作流自动化和 multi-agent 协调系统做一个 demo，线上提交，一个人可以参加。" },
+        { "k": "Deadline", "v": "2026-06-19（本周五）截止。" },
+        { "k": "为什么是你", "v": "手上有任何 Claude / GPT workflow 代码的人，明天就能改成多 agent 版本交上去。用现有项目，不需要从零开始。" }
       ],
-      "bullets": [
-        { "k": "玩法", "v": "围绕工作流自动化和 multi-agent 协调系统做一个 demo，线上提交，solo 可参加" },
-        { "k": "Deadline", "v": "2026-06-19（本周五）截止" },
-        { "k": "为什么是你", "v": "手上有任何 Claude / GPT workflow 代码的人，明天就能改成多 agent 版本交上去。用现有项目，不需要从零开始" }
-      ],
-      "sourceQuote": "数据来源：omni-report/hackathon-radar/2026-06-11.md（官方页 lablab.ai/ai-hackathons/band-of-agents-hackathon）",
       "src": "lablab.ai"
     },
     {
-      "slug": "03-yc-fall-2026",
+      "slug": "yc-fall-2026",
       "idx": "03",
-      "catText": "加速器",
-      "accent": "#FF6D00",
-      "bg": { "top": "#FFF3E0", "mid": "#FFE0B2", "bot": "#FFCC80", "topRight": "#E65100" },
-      "title": [
-        { "text": "YC Fall 2026：" },
-        { "text": "$500K 投资", "hl": true },
-        { "text": "，solo founder 可申" }
+      "tag": "加速器",
+      "titleLines": [
+        [ { "text": "YC Fall 2026" } ],
+        [ { "text": "$500K 投资", "hl": true }, { "text": "，solo 可申" } ]
       ],
-      "oneline": [
-        { "text": "Y Combinator 明确接受一人申请，" },
-        { "text": "AI 方向今年被积极投资", "bold": true },
-        { "text": "——申请免费，7/27 关窗" }
+      "oneline": "Y Combinator 明确接受一人申请，AI 方向今年被积极投资——申请免费，7/27 关窗。",
+      "facts": [
+        { "k": "给什么", "v": "$500K 投资（标准条款）+ 3 个月旧金山加速 + YC 校友生态。" },
+        { "k": "Deadline", "v": "2026-07-27 晚 8pm PT 截止，任何阶段都可申请。" },
+        { "k": "为什么是你", "v": "现在就填申请表草稿（免费），把项目录成 2 分钟 demo 视频——离截止还有 6 周，正好够打磨。Anthropic / Google Cloud startup credits 也是 rolling 开放，先到先得。" }
       ],
-      "bullets": [
-        { "k": "给什么", "v": "$500K 投资（标准条款）+ 3 个月旧金山加速 + YC 校友生态" },
-        { "k": "Deadline", "v": "2026-07-27 晚 8pm PT 截止，任何阶段都可申请" },
-        { "k": "为什么是你", "v": "现在就填申请表草稿（免费），把你的项目录成 2 分钟 demo 视频——离截止还有 6 周，正好够打磨。同场加映：Anthropic / Google Cloud startup credits 都是 rolling 开放，先到先得" }
-      ],
-      "sourceQuote": "数据来源：omni-report/hackathon-radar/2026-06-11.md（官方页 ycombinator.com/apply）",
       "src": "ycombinator.com/apply"
     }
   ]
 };
 
-PosterRenderer.renderAll({
-  DATE: POSTER_DATA.date,
-  SUMMARY: POSTER_DATA.summary,
-  NEWS: POSTER_DATA.news,
-  articleUrl: POSTER_DATA.articleUrl,
-  title: 'AI 比赛雷达周报海报',
-  FLEX_HEIGHT: true,
-  LABELS: {
-    kicker: 'JR ACADEMY · 比赛雷达',
-    cornerTag: '匠人比赛雷达',
-    summaryTagline: 'prizes, grants and deadlines for one-person companies.',
-    headlinePrefix: '本周最值得冲：',
-    headlineSuffix: ' 这条线先看。',
-    summaryFooterLeft: 'JR ACADEMY · OPC RADAR',
-    summaryFooterRight: '#HACKATHON-WEEKLY · TOP 5',
-    brandSuffix: ' · 比赛雷达',
-    qrHint: '扫码看完整周报 →',
-    highlightTag: '本周比赛雷达 · HIGHLIGHT',
-    highlightSub: '5 个机会，按值得冲的程度排序。',
-    boxBrand: 'JR Academy / OPC Radar',
-    boxLine1: 'OPPORTUNITY · TOP 5',
-    boxLine2: 'HACKATHON · PRIZE · GRANT',
-    heroLine2: '比赛雷达，',
-    heroLine3Hl: '5 个机会必看'
-  }
-});
+WeeklyPoster.renderAll(POSTER_DATA);
 </script>
 </body>
 </html>
