@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-12",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "Adelaide",
+    "hookSub": "国王荣誉 Prof Gécz + 月球栖息地 PhD + 植物酶突破",
+    "hookSubHighlight": "Prof Gécz",
+    "subLines": [
+      "Professor Jozef Gécz 获 AM · 识别 350+ 致病基因 · 神经发育障碍研究先驱",
+      "PhD 候选人 Albert Rajkumar · Andy Thomas Centre · 月球栖息地人机协作新框架",
+      "植物外水解酶新特性 · 或推动医学 + 制药 + 生物技术多行业应用"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "Prof Gécz 国王荣誉", "data": "AM · 350+ 致病基因" },
+      { "num": "02", "title": "月球栖息地 PhD", "data": "Andy Thomas Centre" },
+      { "num": "03", "title": "植物酶研究突破", "data": "医药生物技术" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术荣誉",
+      "h2Main": "2026 国王生日荣誉：Professor Jozef Gécz 获 AM 表彰",
+      "h2Sub": "6 月 8 日公布 · 遗传科学 + 儿童健康 + 神经发育障碍 · 识别 350+ 致病基因",
+      "h2Highlight": "350+ 致病基因",
+      "lead": "澳大利亚总督 Sam Mostyn 6 月 8 日正式公布 2026 年国王生日荣誉名单，Adelaide University 遗传学教授、Robinson Research Institute 神经遗传学研究项目创始主任 <b>Professor Jozef Gécz</b> 获颁 <b>AM（澳大利亚勋章）</b>，表彰其对人类转化遗传科学、基因组研究、儿童健康及神经发育障碍领域的杰出贡献。",
+      "bullets": [
+        { "k": "基因发现成就", "v": "Gécz 教授已识别超过 <b>350 个</b>与大脑功能相关的致病基因，涵盖智力障碍、自闭症、癫痫和脑瘫等神经发育疾病——这一数字在全球同领域学者中极为罕见" },
+        { "k": "研究影响", "v": "这些发现揭示了大脑发育的<b>新生物学路径</b>，直接推动针对神经发育障碍的诊断改善与机制性治疗研究" },
+        { "k": "机构背景", "v": "Gécz 教授同时担任 Adelaide 医学院与 Robinson Research Institute 联合教授，是 PCDH19 联盟等国际罕见病研究网络的核心成员" },
+        { "k": "对你的影响", "v": "走 <b>Genetics / Neuroscience / Biomedical Science / Medicine</b> 方向的同学：Gécz 实验室是 Adelaide 在遗传学与神经发育研究领域最具代表性的导师团队，Honours 和 PhD 入口清晰" }
+      ],
+      "source": "Governor-General of Australia · 2026-06-08",
+      "sourceUrl": "https://www.gg.gov.au/kings-birthday-2026-honours-list",
+      "sourceQuote": "Professor Jozef Gécz: for distinguished service to human translational genetic science, to genomic research, to child health, and to neurodevelopmental disability."
+    },
+    {
+      "idx": "02",
+      "category": "科研成果",
+      "h2Main": "Adelaide PhD 研究：月球栖息地里，砖块也是「主动参与者」",
+      "h2Sub": "Albert Rajkumar · Andy Thomas Centre for Space Resources · 人机协作建造新框架",
+      "h2Highlight": "主动参与者",
+      "lead": "Adelaide University Andy Thomas Centre for Space Resources PhD 候选人 <b>Albert Rajkumar</b> 于 6 月 11 日发布最新研究：在月球建造人类栖息地时，建筑构件本身——如砖块——不是被动建材，而是人类与机器人协作建造过程中的<b>主动参与者（active agent）</b>。",
+      "bullets": [
+        { "k": "核心概念", "v": "Rajkumar 挑战传统建筑学中「材料被动」的假设——研究认为建筑元素本身的形态设计可以<b>引导和支持人机协作</b>的方式，而不是单纯依靠外部指令调度" },
+        { "k": "人机协作框架", "v": "研究探索<b>人类 + 机器人 + 建筑材料</b>三方协同完成月球栖息地建造的新模型，兼顾太空环境的极端约束条件" },
+        { "k": "双重价值", "v": "Rajkumar 希望这一框架不只服务于太空建造场景，也能<b>为地球上人机协作建造</b>（如灾区重建、无人区施工）提供设计参考" },
+        { "k": "对你的影响", "v": "走 <b>Architecture / Robotics / Space Engineering / Civil Engineering</b> 方向的同学：Adelaide 的 Andy Thomas Centre for Space Resources 是澳洲在太空资源与建造研究领域少数有完整 PhD 课题的中心之一" }
+      ],
+      "source": "Adelaide University News · 2026-06-11",
+      "sourceUrl": "https://adelaide.edu.au/about/news/"
+    },
+    {
+      "idx": "03",
+      "category": "科研成果",
+      "h2Main": "Adelaide 植物外水解酶研究：新特性或带动医药与生物技术多行业突破",
+      "h2Sub": "6 月 10 日 · 医学 + 制药 + 化工 + 生物技术潜在应用场景",
+      "h2Highlight": "多行业突破",
+      "lead": "Adelaide University 6 月 10 日发布的研究揭示了<b>植物外水解酶（plant exo-hydrolytic enzyme）</b>在结构与功能上的新特性，研究团队发现这类酶的复杂性可为医学、制药、化工及生物技术行业带来多领域潜在应用，包括改进工业酶制剂和推动新型生物制品开发。",
+      "bullets": [
+        { "k": "核心发现", "v": "研究揭示了植物外水解酶此前未知的<b>结构与功能特性</b>，增进了学界对这类酶在细胞壁修饰和碳水化合物代谢中角色的理解" },
+        { "k": "跨行业应用潜力", "v": "研究团队指出潜在应用覆盖 <b>医学、制药、化工和生物技术</b> 四个方向——这类基础研究通常需要 5-10 年才能转化为实际产品" },
+        { "k": "对你的影响", "v": "走 <b>Biochemistry / Biotechnology / Pharmaceutical Science / Plant Science</b> 方向的同学，Adelaide 在植物酶学和农业生物技术的基础研究上有长期积累，Honours 和 PhD 课题有直接入口" }
+      ],
+      "source": "Adelaide University News · 2026-06-10",
+      "sourceUrl": "https://adelaide.edu.au/about/news/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 3 条",
+    "titleHighlight": "一眼看完",
+    "sub": "Adelaide University 6 月 12 日三条：遗传学家 Professor Jozef Gécz 获 2026 国王生日荣誉 AM，毕生识别 350+ 致病基因；PhD 候选人 Albert Rajkumar 提出月球栖息地「建材主动参与者」新框架；植物外水解酶研究揭示新特性，或推动医药与生物技术多行业应用。",
+    "items": [
+      { "n": "01", "title": "Prof Gécz 获 AM 国王荣誉", "body": "6 月 8 日公布；遗传学 + 神经发育障碍 + 儿童健康；识别 350+ 致病基因；Robinson Research Institute 创始主任" },
+      { "n": "02", "title": "月球栖息地 PhD", "body": "Albert Rajkumar；Andy Thomas Centre for Space Resources；砖块是主动参与者；人机协作建造新框架" },
+      { "n": "03", "title": "植物外水解酶新发现", "body": "6 月 10 日；结构功能新特性；医学 + 制药 + 化工 + 生物技术多行业潜力" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 奖学金 + 科研 + 校园动态一手同步",
+      "badge": "06 / 12"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Adelaide 6-12 三条硬料🌏",
+      "body": "在申 Adelaide 的姐妹，6 月 12 日三条消息：\n\n01 / 国王生日荣誉——遗传学家 Professor Jozef Gécz 获 AM 勋章，他一生识别了超过 350 个与大脑功能相关的致病基因，覆盖智力障碍、自闭症、癫痫、脑瘫，这个数字在全球同领域很少见。表彰他对人类转化遗传科学、基因组研究与神经发育障碍的贡献。\n\n02 / 月球栖息地 PhD——Andy Thomas Centre 的 PhD 候选人 Albert Rajkumar 发布新研究：在月球建栖息地时，砖块本身不是被动建材，而是人机协作中的「主动参与者」。这个框架挑战了传统建筑学的假设，也想用到地球上的人机协作建造场景。\n\n03 / 植物酶研究——Adelaide 6 月 10 日发布关于植物外水解酶新特性的研究，潜在应用覆盖医学、制药、化工和生物技术四个方向。\n\n感觉这周 Adelaide 在科研上产出挺密集，评论区聊🙌",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #Adelaide申请 #大学新闻 #留学干货"
+    },
+    "p2": {
+      "title": "Prof Gécz 获国王荣誉勋章🏅",
+      "body": "走遗传学或神经科学方向的姐妹这条必看：Adelaide University 的 Professor Jozef Gécz 在 2026 年国王生日荣誉里获颁 AM（澳大利亚勋章），表彰他在人类转化遗传科学、基因组研究、儿童健康及神经发育障碍领域的杰出贡献。\n\nGécz 教授是 Robinson Research Institute 神经遗传学研究项目的创始主任。他做的事情很直接：一生专注于发现罕见遗传疾病背后的基因，至今已识别了超过 350 个与大脑功能相关的致病基因——涵盖智力障碍、自闭症、癫痫和脑瘫。这个数量在全球同领域研究者里是相当罕见的积累。\n\n这些发现不只是学术数据，而是直接推动了相关疾病的诊断改进和机制性治疗研究。他也是 PCDH19 联盟等国际罕见病研究网络的核心成员。\n\n申 Adelaide Genetics / Neuroscience / Biomedical Science 方向的同学，Gécz 实验室的 PhD 和 Honours 入口是相对清晰的。评论区可以问🙋",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #遗传学 #神经科学 #PhD申请 #留学干货"
+    },
+    "p3": {
+      "title": "Adelaide 月球栖息地 PhD🚀",
+      "body": "走建筑学、机器人或航天工程方向的姐妹这条蛮值得看：Adelaide University Andy Thomas Centre for Space Resources 的 PhD 候选人 Albert Rajkumar 发布了他的月球栖息地研究框架，角度很有意思。\n\n传统建筑学里，建筑材料是被动对象——砖就是砖，人或机器人决定怎么用它。Rajkumar 的研究翻了这个假设：他认为在月球建造栖息地时，建筑构件本身的形态设计可以引导和支持人机协作的方式，砖块是「主动参与者（active agent）」，不是等待指令的被动材料。\n\n这个框架想解决的问题是：人类和机器人在月球上协同建造时，怎么让建筑材料本身也参与进来，降低协作成本和失误率。他也希望这套思路能在地球上的人机协作施工场景里用到。\n\nAdelaide 的 Andy Thomas Centre for Space Resources 在澳洲是少数有完整太空建造 PhD 课题的机构，感兴趣的姐妹可以看看他们的研究线。评论区聊🙋",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #航天工程 #建筑留学 #PhD申请 #留学干货"
+    },
+    "p4": {
+      "title": "植物酶研究突破 医药新希望💊",
+      "body": "走生物技术或制药方向的姐妹这条可以关注下：Adelaide University 6 月 10 日发布了关于植物外水解酶新特性的研究，发现了这类酶在结构和功能上此前未知的复杂性。\n\n研究团队认为这些发现在医学、制药、化工和生物技术四个方向都有潜在应用价值。植物酶学的基础研究通常需要较长时间才能转化，但方向本身一直是 Adelaide 在农业生物技术和生命科学领域的积累所在。\n\n走 Biochemistry / Biotechnology / Pharmaceutical Science / Plant Science 方向的同学，Adelaide 在这条线上有 Honours 和 PhD 入口，感兴趣的可以看他们的研究团队介绍。",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #生物技术 #制药留学 #留学干货"
+    },
+    "p5": {
+      "title": "Adelaide 6-12 一眼总结📌",
+      "body": "Adelaide University 6 月 12 日三条：\n\n01 / 国王生日荣誉 · 6 月 8 日 · Professor Jozef Gécz AM · 遗传科学 + 儿童健康 + 神经发育障碍 · 识别 350+ 致病基因 · Robinson Research Institute 创始主任\n\n02 / 月球栖息地 PhD · 6 月 11 日 · Albert Rajkumar · Andy Thomas Centre for Space Resources · 砖块是「主动参与者」· 人机协作建造新框架\n\n03 / 植物外水解酶 · 6 月 10 日 · 新结构功能特性 · 医学 + 制药 + 化工 + 生物技术多行业潜力\n\n评论区有问题可以聊🙌",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #大学新闻 #留学干货"
+    }
+  },
+  "mp": {
+    "title": "Adelaide University 6 月 12 日：Prof Gécz 获国王荣誉勋章 · 月球栖息地 PhD 新框架 · 植物酶研究揭示多行业应用",
+    "lead": "Adelaide University 6 月 12 日三条：遗传学教授 Jozef Gécz 在 2026 年国王生日荣誉中获颁 AM，表彰其在转化遗传科学与神经发育障碍领域识别 350 余个致病基因的毕生贡献；PhD 候选人 Albert Rajkumar（Andy Thomas Centre for Space Resources）发布月球栖息地新研究，提出建筑构件是人机协作中「主动参与者」的框架；植物外水解酶研究揭示新结构功能特性，潜在应用覆盖医学、制药、化工和生物技术四个方向。三条横跨学术荣誉、太空建造研究与生命科学前沿，覆盖 Adelaide 在遗传学、工程与生物技术三条研究线的最新进展。",
+    "meta": { "readTime": "7 分钟" },
+    "newsBodies": [
+      {
+        "h2": "2026 国王生日荣誉：Professor Jozef Gécz 获 AM，毕生识别 350+ 神经发育致病基因",
+        "paragraphs": [
+          "澳大利亚总督 Sam Mostyn 于 6 月 8 日正式公布 2026 年国王生日荣誉名单。Adelaide University 遗传学教授、Robinson Research Institute 神经遗传学研究项目创始主任 Professor Jozef Gécz 获颁 AM（澳大利亚勋章），表彰其对人类转化遗传科学、基因组研究、儿童健康及神经发育障碍领域的杰出贡献。Gécz 教授同时获澳大利亚医学科学院及皇家病理学家学院荣誉院士头衔。",
+          "Gécz 教授是罕见遗传疾病基因发现领域的全球先驱，迄今已识别超过 350 个与大脑功能相关的致病基因，涵盖智力障碍、自闭症、癫痫及脑瘫等神经发育疾病。这些发现揭示了大脑发育的新生物学路径，不仅推动了相关疾病的诊断技术改善，还直接为机制性治疗研究提供了靶点。他还是 PCDH19 联盟等多个国际罕见病研究网络的核心成员。",
+          "对申请 Adelaide 遗传学和神经科学方向的学生而言，Gécz 实验室是学校在这条研究线上最具代表性的导师资源之一。其研究涵盖基因组学、神经发育障碍机制和基因治疗前沿，Robinson Research Institute 提供完整的 Honours 和 PhD 入口。走 Genetics、Neuroscience、Biomedical Science 方向的学生，关注 Adelaide Medical School 的导师资源时，Gécz 教授是值得优先了解的名字。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.gg.gov.au/kings-birthday-2026-honours-list\">Governor-General of Australia · The King's Birthday 2026 Honours List</a>"
+      },
+      {
+        "h2": "月球栖息地 PhD 研究：砖块是「主动参与者」——Adelaide 提出人机协作建造新框架",
+        "paragraphs": [
+          "Adelaide University Andy Thomas Centre for Space Resources PhD 候选人 Albert Rajkumar 于 6 月 11 日发布了他的月球栖息地研究最新进展，核心论点简洁而颠覆：在月球建造人类栖息地的过程中，建筑构件本身——如砖块——不应被视为被动建材，而是人类与机器人协作建造过程中的主动参与者（active agent）。",
+          "传统建筑学框架中，建筑材料是等待使用的静态对象，建造逻辑由人（或机器人）单方面决定。Rajkumar 的研究提出，构件的形态设计本身可以引导和支持人机协作的方式，当材料被赋予这种「主动性」时，协作过程的鲁棒性和效率都可以提升——这在月球环境下尤其重要，因为通信延迟和极端条件使得单纯依赖外部指令的建造方式存在极高风险。",
+          "Rajkumar 表示，这一框架的价值不局限于太空场景，同样适用于地球上无人区施工、灾区紧急建造等对人机协作依赖度极高的场景。Adelaide 的 Andy Thomas Centre for Space Resources 是澳洲少数在太空资源利用与建造领域有完整 PhD 研究课题的机构，走 Architecture、Robotics、Space Engineering 或 Civil Engineering 方向的学生可关注该中心的研究线。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://adelaide.edu.au/about/news/\">Adelaide University News · 2026-06-11</a>"
+      },
+      {
+        "h2": "植物外水解酶研究：Adelaide 揭示新结构功能特性，或推动医药与生物技术多行业突破",
+        "paragraphs": [
+          "Adelaide University 研究团队 6 月 10 日发布最新研究成果，揭示了植物外水解酶（plant exo-hydrolytic enzyme）在结构与功能上此前未知的新特性。研究发现这类酶的复杂性远超预期，为多个行业提供了重要的应用参考：涵盖医学、制药、化工和生物技术四个方向。",
+          "植物外水解酶在细胞壁修饰和碳水化合物代谢中扮演关键角色。这项研究对工业酶制剂的改进、新型生物制品开发及农业作物产量提升等应用场景具有直接的启示意义。虽然基础酶学研究到产业化应用通常需要较长的转化周期，但此类发现是后续应用开发不可绕过的基础积累。",
+          "Adelaide University 在农业生物技术和植物科学领域有长期的研究积累，相关 Honours 和 PhD 课题有清晰的入口。走 Biochemistry、Biotechnology、Pharmaceutical Science 或 Plant Science 方向的学生，可关注 Adelaide 生命科学相关学院的导师团队。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://adelaide.edu.au/about/news/\">Adelaide University News · 2026-06-10</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · Prof Gécz 获 AM 国王荣誉</strong>：6 月 8 日公布；表彰人类转化遗传科学 + 基因组研究 + 儿童健康 + 神经发育障碍；识别 350+ 致病基因；Robinson Research Institute 创始主任",
+        "<strong>02 · 月球栖息地 PhD 新框架</strong>：Albert Rajkumar；Andy Thomas Centre for Space Resources；砖块是「主动参与者」；人机协作建造；兼顾太空与地球场景",
+        "<strong>03 · 植物外水解酶新特性</strong>：6 月 10 日；结构功能新发现；医学 + 制药 + 化工 + 生物技术四方向潜力"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 历史日报全开放",
+      "badge": "06 / 12"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "Prof Gécz 获国王荣誉｜Adelaide 遗传学先驱",
+        "body": "走遗传学或神经科学方向在看 Adelaide 的姐妹，这条值得关注。\n\nAdelaide University 的 Professor Jozef Gécz 在 2026 年国王生日荣誉里拿到了 AM（澳大利亚勋章）。表彰他在人类转化遗传科学、基因组研究、儿童健康和神经发育障碍领域的贡献。他是 Robinson Research Institute 神经遗传学研究项目的创始主任。\n\n让我觉得这个荣誉含金量很实的是他的成果数字：一生识别了超过 350 个与大脑功能相关的致病基因，覆盖智力障碍、自闭症、癫痫、脑瘫。这在全球同领域研究者里是相当少见的积累量。\n\n这些基因发现直接推动了相关疾病的诊断改进和机制性治疗研究，不是停留在论文里的纯基础科学。他同时是 PCDH19 联盟等国际罕见病研究网络的核心成员。\n\n想申 Adelaide Genetics/Neuroscience 方向的姐妹：Gécz 实验室的 PhD 和 Honours 入口是相对透明的，官网可以查到他的研究方向和学生招募信息。有问的评论区扣🙋",
+        "tags": ["#Adelaide", "#阿德莱德大学", "#遗传学", "#神经科学", "#PhD申请", "#澳洲留学", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化",      "rule": "最 / 第一 / 唯一 / 100%",            "result": "未检出（「先驱」为客观学界描述，无绝对化表述）" },
+      { "category": "教育承诺",    "rule": "包过 / 保录取 / 稳上",               "result": "未检出" },
+      { "category": "引流",        "rule": "加V / VX / 薇信 / 私信领取",         "result": "未检出（仅出现「评论区聊/扣」合规互动话术）" },
+      { "category": "封号红线",    "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 与 drafts 全部扫描；mp.cta 中「JR Academy 公众号」属发稿页合法引流）" },
+      { "category": "AI 味",       "rule": "首先其次最后 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品",  "rule": "治疗 / 速效 / 纯天然",               "result": "未检出（「治疗研究」为学术语境客观表述，无疗效承诺）" },
+      { "category": "政治金融",    "rule": "保本 / 稳赚 / 荐股",                "result": "未检出" }
+    ]
+  }
+}
