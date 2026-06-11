@@ -1,0 +1,92 @@
+{
+  "date": "2026-06-12",
+  "summary": {
+    "hook": ["Fable 5", "IPO", "$74亿", "Grok诉讼", "AI法案"],
+    "sub": "Claude史上最强公开模型上线 · OpenAI递交IPO · DeepSeek融74亿 · Grok吹哨人被炒 · 美联邦AI法草案",
+    "items": [
+      {"num":"01","cat":"模型发布","numColor":"#E84E2C","t":"Anthropic发布Claude Fable 5，超Opus成史上最强公开模型"},
+      {"num":"02","cat":"资本动向","numColor":"#10A37F","t":"OpenAI秘密递交S-1，向SEC提交IPO上市申请"},
+      {"num":"03","cat":"中国AI","numColor":"#3B82F6","t":"DeepSeek接近完成74亿美元融资，腾讯CATL领投"},
+      {"num":"04","cat":"公司动态","numColor":"#F59E0B","t":"xAI解雇安全工程师遭起诉，Grok V9达1.5万亿参数"},
+      {"num":"05","cat":"政策法规","numColor":"#8B5CF6","t":"美国首部联邦AI法草案出炉，涵盖前沿治理与网络安全"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-claude-fable-5",
+      "idx": "01",
+      "catText": "模型发布",
+      "accent": "#E84E2C",
+      "bg": {"top": "#2D1040", "mid": "#4A1D6A", "bot": "#6B2E99", "topRight": "#8B44C0"},
+      "title": [{"text": "Anthropic 发布 "},{"text": "Claude Fable 5","hl": true}],
+      "oneline": [{"text": "Mythos 级旗舰模型上线，"},{"text": "1M context · 128K 输出 · 默认推理","bold": true}],
+      "bullets": [
+        {"k": "发生了什么","v": "Anthropic 6月9日发布 Claude Fable 5，首批 Mythos 级别模型，全面超越 Opus 成最强公开模型，支持百万 token 上下文与 12.8万 token 输出，默认开启自适应思维。"},
+        {"k": "为什么重要","v": "Fable 5 在几乎所有基准测试中达 SOTA，以完全公开可用的模型直接挑战 GPT-o3 与 Gemini 3.5 的能力边界，重塑开源与闭源竞争格局。"},
+        {"k": "对你的影响","v": "API 已开放调用，长文档分析、复杂代码与多步 Agent 任务性能大幅跃升；Managed Agents 支持定时调度和 vault 环境变量，适合自动化工作流。"}
+      ],
+      "src": "📎 cnbc.com · anthropic.com"
+    },
+    {
+      "slug": "02-openai-s1-ipo",
+      "idx": "02",
+      "catText": "资本动向",
+      "accent": "#10A37F",
+      "bg": {"top": "#0A2B20", "mid": "#124030", "bot": "#1A5A44", "topRight": "#1F7A5C"},
+      "title": [{"text": "OpenAI 秘密递交 "},{"text": "S-1 上市申请","hl": true}],
+      "oneline": [{"text": "向 SEC 提交 IPO 文件，"},{"text": "窗口已开但时间节点未定","bold": true}],
+      "bullets": [
+        {"k": "发生了什么","v": "OpenAI 6月8日宣布已向 SEC 秘密递交 S-1 草稿，CEO Altman 称预料文件会泄露故主动披露，但公司尚未决定具体 IPO 时间，仍有事项适合私募阶段完成。"},
+        {"k": "为什么重要","v": "这是 OpenAI 迈向公开资本市场的关键一步，上市后财务数据透明，将成为科技史上估值最高 IPO 之一，同时倒逼 Anthropic 与 Google 加速商业化节奏。"},
+        {"k": "对你的影响","v": "开发者和企业可期待更透明的 API 路线图与定价；IPO 准备期间 OpenAI 可能收缩免费层或调整 workspace agents 信用计费策略，需提前评估成本。"}
+      ],
+      "src": "📎 openai.com · cnbc.com"
+    },
+    {
+      "slug": "03-deepseek-74b-funding",
+      "idx": "03",
+      "catText": "中国AI",
+      "accent": "#3B82F6",
+      "bg": {"top": "#0F1B4C", "mid": "#1A2E6F", "bot": "#253E8F", "topRight": "#2D4FAD"},
+      "title": [{"text": "DeepSeek 接近完成 "},{"text": "$74亿 历史级融资","hl": true}],
+      "oneline": [{"text": "腾讯、CATL、国家 AI 基金领投，"},{"text": "坚守开源 AGI 路线","bold": true}],
+      "bullets": [
+        {"k": "发生了什么","v": "DeepSeek 正接近完成约 500亿元人民币（约74亿美元）融资，投资方含腾讯、宁德时代及国家人工智能产业投资基金，为中国初创史上最大单轮融资之一。"},
+        {"k": "为什么重要","v": "DeepSeek 明确聚焦突破性 AI 研究而非短期商业化，持续维护开源模型战略，大额资金将支撑其参与全球 AGI 竞赛，强化中国在基础模型领域话语权。"},
+        {"k": "对你的影响","v": "DeepSeek 开源模型成本效益优势持续加强，企业可低成本部署高性能 AI；但 Ramp 数据显示美国企业已将 DeepSeek 列为首选，安全机构同步发出数据隐私警告。"}
+      ],
+      "src": "📎 bloomberg.com · pymnts.com"
+    },
+    {
+      "slug": "04-xai-grok-safety-lawsuit",
+      "idx": "04",
+      "catText": "公司动态",
+      "accent": "#F59E0B",
+      "bg": {"top": "#2B1A0A", "mid": "#4A2E10", "bot": "#6B421A", "topRight": "#8B5820"},
+      "title": [{"text": "xAI 解雇安全工程师遭起诉，"},{"text": "Grok V9 达1.5万亿参数","hl": true}],
+      "oneline": [{"text": "安全文化与规模竞赛同步爆发，"},{"text": "Grok 5 已在 Colossus 2 训练","bold": true}],
+      "bullets": [
+        {"k": "发生了什么","v": "前 xAI 工程师 Devin Kim 起诉称因举报 Grok 安全隐患遭解雇；同期 xAI 完成 Grok V9-Medium 训练，1.5万亿参数，计划6月中旬发布；Grok 5 已在 Colossus 2 超算上开跑。"},
+        {"k": "为什么重要","v": "安全诉讼直接考验 xAI「追求真理」定位的可信度，在 AI 安全监管压力上升背景下，与即将出台的美联邦 AI 法框架形成直接呼应。"},
+        {"k": "对你的影响","v": "Grok Build 0.1 代码模型已开放 API（256K 上下文，$1/M tokens），可与 Claude / GPT 对比评估；诉讼走向若升级或影响 xAI 产品迭代与 API 稳定性。"}
+      ],
+      "src": "📎 techcrunch.com · bloomberg.com"
+    },
+    {
+      "slug": "05-great-american-ai-act",
+      "idx": "05",
+      "catText": "政策法规",
+      "accent": "#8B5CF6",
+      "bg": {"top": "#1A0F2E", "mid": "#2E1A4A", "bot": "#43256B", "topRight": "#5A318C"},
+      "title": [{"text": "美国首部联邦 AI 法草案 "},{"text": "「大美国 AI 法」出炉","hl": true}],
+      "oneline": [{"text": "两党联合，覆盖前沿治理·劳动力·网安，"},{"text": "拟取代各州自立法","bold": true}],
+      "bullets": [
+        {"k": "发生了什么","v": "两党议员6月4日发布「大美国人工智能法」(GAAIA) 讨论草案，建立美国首个综合联邦 AI 框架，含前沿 AI 治理、劳动力转型、网络安全及国际合作四大板块。"},
+        {"k": "为什么重要","v": "白宫同步推行行政令并谈判以联邦法取代各州 AI 立法（科罗拉多州法将于6月30日生效），标志美国 AI 监管从「放任创新」向「有限联邦统一管辖」转变。"},
+        {"k": "对你的影响","v": "在美运营的 AI 产品须关注前沿 AI 治理合规要求；法案仍为讨论草案，企业有窗口期提交公众评论、影响最终条款，澳洲团队服务美国客户需同步跟进。"}
+      ],
+      "src": "📎 whitehouse.gov · mcdonaldhopkins.com"
+    }
+  ],
+  "mp": {"title": "Claude Fable 5破顶 / OpenAI递IPO / DeepSeek融74亿 / Grok吹哨人被炒 / 美联邦AI法草案"}
+}
