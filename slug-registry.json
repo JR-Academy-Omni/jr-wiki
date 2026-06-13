@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-13T02:16:05.129Z",
+  "lockedAt": "2026-06-13T23:37:39.339Z",
   "version": 1,
   "slugs": [
     {
@@ -249,6 +249,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-06-13"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-06-14"
     },
     {
       "type": "article",
@@ -549,6 +553,10 @@
     {
       "type": "article",
       "slug": "it-daily-2026-06-13"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-06-14"
     },
     {
       "type": "article",
@@ -864,6 +872,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-unsw-2026-06-14"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-uq-2026-04-22"
     },
     {
@@ -1013,6 +1025,10 @@
     {
       "type": "article",
       "slug": "uni-news-usyd-2026-06-10"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-06-14"
     },
     {
       "type": "article",
@@ -1273,6 +1289,11 @@
       "type": "chapter",
       "book": "claude-code-guide",
       "slug": "08-parallel-dev-worktree"
+    },
+    {
+      "type": "chapter",
+      "book": "claude-code-guide",
+      "slug": "09-subagent-design"
     },
     {
       "type": "chapter",
