@@ -1,0 +1,320 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-14（Canvas 版）</title>
+<meta name="description" content="2026-06-14 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-14.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-14",
+  "summary": {
+    "hook": [
+      {
+        "text": "OpenAI IPO"
+      },
+      {
+        "text": " · "
+      },
+      {
+        "text": "Claude Fable 5"
+      },
+      {
+        "text": " · "
+      },
+      {
+        "text": "DeepSeek 融资 $74亿"
+      }
+    ],
+    "sub": "双巨头同周IPO冲刺、Anthropic新旗舰震场、DeepSeek史诗级融资、xAI安全诉讼曝光、Meta被迫终止20亿并购",
+    "items": [
+      {
+        "num": "01",
+        "cat": "IPO·资本",
+        "numColor": "#6366f1",
+        "t": "OpenAI秘密递交S-1，IPO在即"
+      },
+      {
+        "num": "02",
+        "cat": "模型·前沿",
+        "numColor": "#10b981",
+        "t": "Claude Fable 5 发布，超越历代旗舰"
+      },
+      {
+        "num": "03",
+        "cat": "融资·开源",
+        "numColor": "#f59e0b",
+        "t": "DeepSeek 融资 $74亿，腾讯领投"
+      },
+      {
+        "num": "04",
+        "cat": "安全·监管",
+        "numColor": "#ef4444",
+        "t": "xAI 前员工起诉：举报 Grok 安全被解雇"
+      },
+      {
+        "num": "05",
+        "cat": "并购·地缘",
+        "numColor": "#8b5cf6",
+        "t": "Meta 终止 Manus $20亿并购，北京施压"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-ipo-s1",
+      "idx": "01",
+      "catText": "IPO · 资本",
+      "accent": "#6366f1",
+      "bg": {
+        "top": "#1e1b4b",
+        "mid": "#312e81",
+        "bot": "#1e1b4b",
+        "topRight": "#4338ca"
+      },
+      "title": [
+        {
+          "text": "OpenAI 秘密递交 S-1"
+        },
+        {
+          "text": "，上市倒计时",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Anthropic 刚提交 IPO 申请一周后，"
+        },
+        {
+          "text": "OpenAI 随即跟进，两大巨头同月冲刺上市",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 于 6 月 8 日向 SEC 秘密递交 S-1 草稿，称「上市时机尚未最终决定」，但已是 Anthropic 递交申请后仅一周。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "两家顶级 AI 公司同期 IPO 意味着 AI 投资浪潮正走向公开市场，估值透明度将大幅提升，散户投资者首次可参与押注 AI 领导者。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "AI 行业上市潮将带来更多信息披露，产品路线图和营收模型不再是黑箱；但上市压力也可能推动公司加速商业化，免费功能缩减。"
+        }
+      ],
+      "src": "📎 openai.com · techcrunch.com · nbcnews.com"
+    },
+    {
+      "slug": "02-claude-fable5-mythos",
+      "idx": "02",
+      "catText": "模型 · 前沿",
+      "accent": "#10b981",
+      "bg": {
+        "top": "#064e3b",
+        "mid": "#065f46",
+        "bot": "#064e3b",
+        "topRight": "#059669"
+      },
+      "title": [
+        {
+          "text": "Claude Fable 5 发布"
+        },
+        {
+          "text": "，Anthropic 史上最强旗舰",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Mythos 级架构首次向公众开放，"
+        },
+        {
+          "text": "编程、推理、视觉全面超越历代 Claude",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 于 6 月 9 日正式发布 Claude Fable 5，这是 Mythos 架构系列的通用公开版，同时为受信用户推出 Claude Mythos 5，拥有更强安全防护与研究权限。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Fable 5 在编程、知识工作、视觉、记忆与长上下文方面均超越 Anthropic 此前任何公开模型，并新增 20+ 法律 MCP 连接器，加速专业落地。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 从业者和开发者可立即通过 API 接入 Fable 5；法律、医疗等垂直行业 AI 助理能力大幅跃升，竞争格局重塑。"
+        }
+      ],
+      "src": "📎 gate.com · anthropic.com · releasebot.io"
+    },
+    {
+      "slug": "03-deepseek-74b-funding",
+      "idx": "03",
+      "catText": "融资 · 开源",
+      "accent": "#f59e0b",
+      "bg": {
+        "top": "#78350f",
+        "mid": "#92400e",
+        "bot": "#78350f",
+        "topRight": "#d97706"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 融资 $74 亿"
+        },
+        {
+          "text": "，腾讯领投 · 估值最高 4000 亿元",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "中国史上最大 AI 初创融资，"
+        },
+        {
+          "text": "DeepSeek 专注前沿研究、暂不短期商业化",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 接近敲定 74 亿美元融资，腾讯与国家人工智能产业投资基金参投，估值区间 3500–4000 亿元，为中国初创史上最大规模。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "DeepSeek 以极低成本训练出高性能开源模型，正成为美国企业替代 OpenAI 的首选；此轮融资将大幅提升研发算力，加速开源生态布局。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开源社区受益：更强的 DeepSeek V4 模型预计随融资落地；成本敏感型企业可获得更具竞争力的 API 定价。"
+        }
+      ],
+      "src": "📎 bloomberg.com · pymnts.com · the-decoder.com"
+    },
+    {
+      "slug": "04-xai-safety-lawsuit",
+      "idx": "04",
+      "catText": "安全 · 监管",
+      "accent": "#ef4444",
+      "bg": {
+        "top": "#450a0a",
+        "mid": "#7f1d1d",
+        "bot": "#450a0a",
+        "topRight": "#dc2626"
+      },
+      "title": [
+        {
+          "text": "xAI 前员工起诉：举报 Grok 安全风险"
+        },
+        {
+          "text": "遭解雇",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "SpaceX IPO 前夕，工程师因警示 Grok 安全问题被开除，"
+        },
+        {
+          "text": "AI 吹哨人保护再引热议",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "一名前 xAI 工程师提起诉讼，指其在向公司举报 Grok 存在安全隐患数日后、SpaceX 历史性 IPO 前夕遭到解雇，并同时起诉 xAI 与 SpaceX。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 AI 安全领域首批公开诉讼之一，直指头部实验室内部安全审查文化；恰逢马斯克旗下公司 IPO 密集期，舆论与监管压力同步升温。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "AI 行业安全监管立法讨论将提速；企业在选择 AI 供应商时，内部安全治理记录将成为重要考量指标。"
+        }
+      ],
+      "src": "📎 techcrunch.com · bloomberg.com · x.ai"
+    },
+    {
+      "slug": "05-meta-manus-unwind",
+      "idx": "05",
+      "catText": "并购 · 地缘",
+      "accent": "#8b5cf6",
+      "bg": {
+        "top": "#2e1065",
+        "mid": "#3b0764",
+        "bot": "#2e1065",
+        "topRight": "#7c3aed"
+      },
+      "title": [
+        {
+          "text": "Meta 终止 Manus $20 亿并购"
+        },
+        {
+          "text": "，北京叫停跨境数据流动",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "地缘政治打断 AI 跨境并购，"
+        },
+        {
+          "text": "Meta 拆分运营并切断与 Manus 数据共享",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Meta 完成与 Manus 的运营拆分并停止数据共享，标志着这笔 20 亿美元收购在中国政府反对下正式开始瓦解，Bloomberg 6 月 11 日报道。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Manus 是爆红的中国 AI Agent，此次并购失败揭示中美 AI 技术并购的监管红线，也预示未来跨境 AI 整合将面临更高地缘壁垒。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "海外赴华 AI 投资与并购将经历更严格审查；国内 AI 创业公司赴海外融资路径亦将受到影响，独立技术生态加速形成。"
+        }
+      ],
+      "src": "📎 bloomberg.com · techcrunch.com"
+    }
+  ],
+  "mp": {
+    "title": "OpenAI IPO / Claude Fable 5 / DeepSeek $74亿 / xAI 安全诉讼 / Meta 弃购 Manus"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-14"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
