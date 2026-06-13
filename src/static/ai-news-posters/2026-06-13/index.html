@@ -1,0 +1,310 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-13（Canvas 版）</title>
+<meta name="description" content="2026-06-13 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-13.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-13",
+  "summary": {
+    "hook": [
+      "iOS 27 AI扩展",
+      "Ona收购",
+      "Gemini 3.5 Pro",
+      "GPT-5.4 mini",
+      "Snap裁千人"
+    ],
+    "sub": "苹果让Claude首次可替代Siri · OpenAI收购Ona强化Codex · Gemini 3.5 Pro本月来袭 · GPT-5.4 mini向免费用户开放 · Snap裁千人AI代码占65%",
+    "items": [
+      {
+        "num": "01",
+        "cat": "苹果生态",
+        "numColor": "#1C1C1E",
+        "t": "iOS 27 AI Extensions上线，Claude首次可成iPhone默认AI助手"
+      },
+      {
+        "num": "02",
+        "cat": "代码智能",
+        "numColor": "#10A37F",
+        "t": "OpenAI收购德国初创Ona，Codex迈向跨天长任务执行"
+      },
+      {
+        "num": "03",
+        "cat": "模型竞赛",
+        "numColor": "#4285F4",
+        "t": "Gemini 3.5 Pro本月发布：200万Token上下文+Deep Think"
+      },
+      {
+        "num": "04",
+        "cat": "产品更新",
+        "numColor": "#FF6B35",
+        "t": "GPT-5.4 mini免费开放，ChatGPT超级应用化加速"
+      },
+      {
+        "num": "05",
+        "cat": "就业冲击",
+        "numColor": "#EF4444",
+        "t": "Snap裁员千人：AI写65%代码，年省5亿美元成本"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-apple-wwdc-ios27-ai-extensions",
+      "idx": "01",
+      "catText": "苹果生态",
+      "accent": "#1C1C1E",
+      "bg": {
+        "top": "#0A0A0F",
+        "mid": "#1A1A2E",
+        "bot": "#2A2A4A",
+        "topRight": "#3D3D6B"
+      },
+      "title": [
+        {
+          "text": "iOS 27 AI Extensions："
+        },
+        {
+          "text": "Claude 首次可替代 Siri",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "苹果开放三方 AI 市场，"
+        },
+        {
+          "text": "Claude / Gemini / ChatGPT 均可成默认助手",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "6月9日 WWDC 2026，Apple 宣布 iOS 27 引入 AI Extensions，用户可在设置中将 Claude、ChatGPT 或 Gemini 设为跨系统功能的默认 AI；Siri 则由苹果以约 10 亿美元/年授权的 Gemini 定制模型提供支撑。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 Claude 首次以系统级身份登陆 iPhone，意味着 Anthropic 和 OpenAI 直接获得 10 亿+ 苹果设备的分发入口，AI 助手市场从「独立 App 竞争」正式转向「OS 级生态整合」。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "iOS 27 开发者 Beta 已在 6月9日推出，公测版预计7月开放；若你的 App 已集成 Claude 或 ChatGPT API，可提前评估 Extensions 接口，将能力直接暴露给 Siri 工作流，扩大用户触达。"
+        }
+      ],
+      "src": "📎 techcrunch.com · aiweekly.co"
+    },
+    {
+      "slug": "02-openai-acquires-ona-codex",
+      "idx": "02",
+      "catText": "代码智能",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "#041A12",
+        "mid": "#0A2E20",
+        "bot": "#124030",
+        "topRight": "#1A5A44"
+      },
+      "title": [
+        {
+          "text": "OpenAI 收购 Ona，"
+        },
+        {
+          "text": "Codex 迈向跨天长任务",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "德国云初创 Ona 被并购，"
+        },
+        {
+          "text": "Codex Agent 可在你关机后继续工作数小时",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "6月11日，OpenAI 宣布收购德国云环境初创公司 Ona（原 Gitpod，2019年成立），该公司为 AI 智能体提供安全的预配置云执行环境。收购金额未披露，将整合进 Codex 产品线。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Codex 当前只能处理分钟级任务；Ona 的持久化云执行技术让 Codex 智能体可以运行数小时乃至数天，同时保持在客户自有云环境中执行，数据不离境，是「异步编程智能体」的关键基础设施。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "企业用 Codex 做代码重构、大型测试套件、跨库依赖升级等长时间任务的门槛将大幅降低；Ona 的客户控制执行模型也意味着企业可在自有 AWS/Azure 环境中运行 Codex，满足合规要求。"
+        }
+      ],
+      "src": "📎 openai.com · cnbc.com"
+    },
+    {
+      "slug": "03-gemini-35-pro-launch",
+      "idx": "03",
+      "catText": "模型竞赛",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "#0C1A3E",
+        "mid": "#153060",
+        "bot": "#1A3060",
+        "topRight": "#224488"
+      },
+      "title": [
+        {
+          "text": "Gemini 3.5 Pro 本月发布："
+        },
+        {
+          "text": "200万 Token + Deep Think",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "业界最长上下文窗口来了，"
+        },
+        {
+          "text": "Deep Think 深度推理模式对标 o3",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "继5月发布 Gemini 3.5 Flash 后，Google 确认 Gemini 3.5 Pro 将于2026年6月正式推出，主打 200万 token 上下文窗口和「Deep Think」深度推理模式，已在 Google AI Studio 限量预览。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "200万 token 是当前主流模型上下文上限的两倍，可一次性处理整个大型代码库或数百页法律文件；Deep Think 对标 OpenAI o3 的推理链技术，将 Gemini 的强项多模态能力与深度推理结合。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Pro 的 API 定价预计高于 Flash（Flash 为 $1.50/$9 per 1M tokens）；对需要超长上下文场景——如整库代码审查、长合同分析——可优先评估 Pro；现有 Flash 用户无需迁移即可等待 Pro 替换。"
+        }
+      ],
+      "src": "📎 techtimes.com · techcrunch.com"
+    },
+    {
+      "slug": "04-gpt54-mini-chatgpt-superapp",
+      "idx": "04",
+      "catText": "产品更新",
+      "accent": "#FF6B35",
+      "bg": {
+        "top": "#2B0F05",
+        "mid": "#451A0A",
+        "bot": "#602514",
+        "topRight": "#7B321C"
+      },
+      "title": [
+        {
+          "text": "GPT-5.4 mini 面向免费用户开放，"
+        },
+        {
+          "text": "ChatGPT 超级应用化",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "免费版也能用推理模型，"
+        },
+        {
+          "text": "互动学习 + 工作区智能体同步上线",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 将 GPT-5.4 mini 推向 ChatGPT 免费与 Go 用户，通过「+」菜单中的 Thinking 功能启用；同步上线 70+ 数学与科学互动学习模块，以及 Enterprise/EDU 专属工作区智能体，支持跨工具共享自动化流程。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "GPT-5.4 mini 在 SWE-bench Pro 达到 54.4%，接近完整版的 57.7%，但成本约低6倍；将推理能力下放至免费层是 OpenAI 超级应用战略的核心——用高质量免费体验锁住9亿周活用户，再向付费层导流。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "高并发轻量场景（客服、内容生成、代码补全）可用 mini 替代 full，大幅降本；团队版用户可评估工作区智能体接管重复任务；注意 GPT-4.5 将于6月27日退役，需提前迁移到 GPT-5 系列接口。"
+        }
+      ],
+      "src": "📎 openai.com · nxcode.io"
+    },
+    {
+      "slug": "05-snap-layoffs-ai-code-65pct",
+      "idx": "05",
+      "catText": "就业冲击",
+      "accent": "#EF4444",
+      "bg": {
+        "top": "#2B0808",
+        "mid": "#451212",
+        "bot": "#601A1A",
+        "topRight": "#7B2222"
+      },
+      "title": [
+        {
+          "text": "Snap 裁员千人："
+        },
+        {
+          "text": "AI 写65%代码，年省5亿美元",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "科技业 AI 替代就业加速，"
+        },
+        {
+          "text": "「AI 写码省出5亿」成新资本逻辑",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Snap 宣布裁员约1000人（占全职员工16%），CEO Evan Spiegel 称公司处于「关键时刻」；AI 目前生成超过65%的新代码，全年化成本节省预计超5亿美元，股价应声上涨。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Snap 是此轮 AI 驱动裁员的标志性案例：AI 代码生成率超过50%后，企业可用更小团队维持相同产出，「AI 效率红利」正被资本市场定价为利润来源而非威胁，推动更多公司跟进。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 从业者需关注：AI 写代码占比持续上升，纯代码产出已不是核心竞争力；转向 AI 编排、系统设计、产品决策的能力才是壁垒。Snap 案例也意味着 Copilot/Cursor 类工具的 ROI 论证正在变得更容易说服管理层。"
+        }
+      ],
+      "src": "📎 cnbc.com · foxbusiness.com"
+    }
+  ],
+  "mp": {
+    "title": "iOS 27让Claude上iPhone / Codex收购Ona / Gemini 3.5 Pro本月 / GPT-5.4 mini免费开放 / Snap裁千人"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-13"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
