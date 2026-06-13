@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-12T23:35:40.119Z",
+  "lockedAt": "2026-06-13T02:16:05.129Z",
   "version": 1,
   "slugs": [
     {
@@ -309,6 +309,10 @@
     {
       "type": "article",
       "slug": "anthropic-two-tier-strategy-opus-mythos-2026"
+    },
+    {
+      "type": "article",
+      "slug": "apple-wwdc-2026-gemini-siri-openai-divorce-2026"
     },
     {
       "type": "article",
