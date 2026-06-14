@@ -6,8 +6,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>一人公司搞钱周报海报 · 2026-06-11</title>
-<meta name="description" content="本周 AI hackathon / 奖金赛 / 加速器精选海报，brand v4.2 风格，高度自适应，页面内下载 PNG。">
+<title>一人公司搞钱周报 · 2026-06-14</title>
+<meta name="description" content="本周 AI hackathon / 奖金赛 / 加速器 / 政府 grant 聚合列表（含澳洲本地机会），点条目直达官网报名，下面附可下载海报。">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
 <script src="renderer.js"></script>
 </head>
@@ -17,37 +17,39 @@
  * 薄壳页面：只放数据 + 一次 renderAll() 调用。
  * 画法在同目录 renderer.js（独立渲染器，brand v4.2，高度自适应）。
  * 数据来源：omni-report/hackathon-radar/ 雷达报告（每条带官方来源链接）。
+ * items = 全类型聚合列表（hackathon + 比赛 + 加速器 + grant），🇦🇺 标澳洲本地机会。
  * 每周一由 cloud routine 重写 POSTER_DATA，与 /blog/ai-hackathon-weekly 同步。
  * POSTER_DATA 必须是严格 JSON（double quotes、无尾逗号、无注释）。
  * ------------------------------------------------------------------ */
 
 const POSTER_DATA = {
-  "date": "2026-06-11",
+  "date": "2026-06-14",
   "articleUrl": "https://jiangren.com.au/blog/ai-hackathon-weekly",
-  "pageTitle": "一人公司搞钱周报海报",
+  "pageTitle": "一人公司搞钱周报",
   "footerNote": "OPC WEEKLY · TOP 5",
   "hero": {
     "kicker": "WEEKLY",
     "tagline": "一人公司搞钱周报 · 每周一更新",
     "titleLines": [
-      [ { "text": "这周 AI 圈在发钱：" } ],
-      [ { "text": "5 个奖金机会", "hl": true }, { "text": "你也能冲" } ]
+      [ { "text": "这周能搞钱的" } ],
+      [ { "text": "9 个机会", "hl": true }, { "text": "全在这" } ]
     ],
-    "sub": "Hackathon、奖金赛、加速器申请窗口，全部一个人就能参加。奖金、deadline 来自官方页面，扫码看完整清单和报名链接。"
+    "sub": "Hackathon、奖金赛、加速器、政府 grant — 一个人就能参加。🇦🇺 标的是澳洲本地机会，奖金和 deadline 都来自官方页面，点条目直达报名。"
   },
   "items": [
     {
       "num": "01",
       "tag": "Hackathon",
-      "title": "Build with Gemini XPRIZE — 90 天做出真用户真收入就能参赛",
-      "prize": "$2M 总奖池 · 大奖 $500K",
-      "deadline": "截止 2026-08-17",
-      "url": "https://xprize.devpost.com/"
+      "urgent": "⚡ 后天 6/15 截止",
+      "title": "Turing Test Hackathon 2026 — Mantle 上部署 on-chain AI agent",
+      "prize": "$120K 总奖池",
+      "deadline": "截止 06-15",
+      "url": "https://dorahacks.io/hackathon/mantleturingtesthackathon2026/detail"
     },
     {
       "num": "02",
       "tag": "Hackathon",
-      "urgent": "⚡ 本周五截止",
+      "urgent": "⚡ 还剩 5 天",
       "title": "Band of Agents（lablab.ai）— 有 agent 代码改个 demo 就能交",
       "prize": "$10K+ 奖池",
       "deadline": "截止 06-19",
@@ -56,10 +58,10 @@ const POSTER_DATA = {
     {
       "num": "03",
       "tag": "Hackathon",
-      "title": "Hack-Nation 全球 AI 黑客松 — 24 小时线上冲刺",
-      "prize": "$35K+ 现金 + OpenAI credits",
-      "deadline": "报名截止 06-20",
-      "url": "https://hack-nation.ai/"
+      "title": "AMD Developer Hackathon ACT II — AI Agents 主题，全程线上",
+      "prize": "$10K 现金 + AMD Cloud credits",
+      "deadline": "截止 07-11",
+      "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii"
     },
     {
       "num": "04",
@@ -71,62 +73,93 @@ const POSTER_DATA = {
     },
     {
       "num": "05",
+      "tag": "Hackathon",
+      "title": "Build with Gemini XPRIZE — 90 天做出真用户真收入",
+      "prize": "$2M 总奖池 · 大奖 $500K",
+      "deadline": "截止 08-17",
+      "url": "https://xprize.devpost.com/"
+    },
+    {
+      "num": "06",
+      "tag": "🇦🇺 加速器",
+      "title": "Antler Australia Cohort 14 — 悉尼/墨尔本/布里斯班三城在地加速",
+      "prize": "AU$260K 投资",
+      "deadline": "07-27 开营 · 滚动申请",
+      "url": "https://www.antler.co/apply"
+    },
+    {
+      "num": "07",
+      "tag": "🇦🇺 政府 Grant",
+      "title": "CSIRO Kick-Start — 澳洲注册公司 R&D 匹配资金，solo 可申",
+      "prize": "最高 AU$50K",
+      "deadline": "Rolling 开放",
+      "url": "https://www.csiro.au/en/work-with-us/funding-programs/SME/CSIRO-Kick-Start/about"
+    },
+    {
+      "num": "08",
       "tag": "加速器",
-      "title": "YC Fall 2026 — 明确接受 solo founder，申请免费",
+      "title": "Y Combinator Fall 2026 — 明确接受 solo founder，申请免费",
       "prize": "$500K 投资",
       "deadline": "申请截止 07-27",
       "url": "https://www.ycombinator.com/apply"
+    },
+    {
+      "num": "09",
+      "tag": "平台 Credits",
+      "title": "Microsoft for Startups Founders Hub — 无需 VC 背书直接申",
+      "prize": "高达 $150K Azure credits",
+      "deadline": "Rolling 开放",
+      "url": "https://foundershub.startups.microsoft.com/"
     }
   ],
   "news": [
     {
-      "slug": "gemini-xprize",
+      "slug": "antler-australia",
       "idx": "01",
-      "tag": "Hackathon",
+      "tag": "🇦🇺 加速器",
       "titleLines": [
-        [ { "text": "Build with Gemini XPRIZE" } ],
-        [ { "text": "$2M 总奖池", "hl": true }, { "text": "，个人可参赛" } ]
+        [ { "text": "Antler Australia" } ],
+        [ { "text": "AU$260K", "hl": true }, { "text": " 三城在地" } ]
       ],
-      "oneline": "不比 demo，比真生意——90 天内做出有真实用户和真实收入的 AI 产品，一个人就能报名。",
+      "oneline": "悉尼 / 墨尔本 / 布里斯班三城 14 周在地加速，一人公司可申，7/27 开营。",
       "facts": [
-        { "k": "奖金怎么分", "v": "大奖 $500K、二等 $200K、5 个 $100K、15 个 $50K。要求用至少一款 Google Cloud 产品（Vertex AI 或 Cloud Run 都算）。" },
-        { "k": "Deadline", "v": "2026-08-17 截止，全球线上，个人或 25 人以内团队均可报名。" },
-        { "k": "为什么是你", "v": "评的是真实用户和收入增长，不是熬夜写 demo 的技术秀——已有 MVP 的一人公司天然占优。今晚注册，把现有产品接上 Google Cloud，从今天开始记录增长数据。" }
+        { "k": "给什么", "v": "AU$260,000 投资（换 12% 股权）+ 14 周在地加速 + Antler 全球网络。" },
+        { "k": "Deadline", "v": "Cohort 14 预计 2026-07-27 开营，滚动申请、先到先审。" },
+        { "k": "为什么是你", "v": "明确接受一人公司、AI 方向被积极接受，钱先进来不用先融资。今晚去 antler.co/apply 填免费申请草稿，把用户数 / 收入 / 反馈截图整理进去。" }
       ],
-      "src": "xprize.devpost.com"
+      "src": "antler.co/apply"
     },
     {
-      "slug": "band-of-agents",
+      "slug": "amd-hackathon",
       "idx": "02",
       "tag": "Hackathon",
-      "urgent": "⚡ 6/19 本周五截止",
       "titleLines": [
-        [ { "text": "Band of Agents" } ],
-        [ { "text": "$10K+ 奖池", "hl": true }, { "text": "，全程线上" } ]
+        [ { "text": "AMD Developer" } ],
+        [ { "text": "Hackathon", "hl": true }, { "text": " ACT II" } ]
       ],
-      "oneline": "lablab.ai 多 agent 主题黑客松——deadline 越近竞争者越少，现成 agent 代码改一版就能交。",
+      "oneline": "AI Agents 主题，全程线上不用飞，$10K 现金 + AMD Cloud credits。",
       "facts": [
-        { "k": "玩法", "v": "围绕工作流自动化和 multi-agent 协调系统做一个 demo，线上提交，一个人可以参加。" },
-        { "k": "Deadline", "v": "2026-06-19（本周五）截止。" },
-        { "k": "为什么是你", "v": "手上有任何 Claude / GPT workflow 代码的人，明天就能改成多 agent 版本交上去。用现有项目，不需要从零开始。" }
+        { "k": "奖金", "v": "$10,000 现金 + 每人 $100 AMD Cloud Credits + 1 个月 DeepLearning.AI Pro。" },
+        { "k": "Deadline", "v": "2026-07-11 截止，单人或团队均可，全球线上。" },
+        { "k": "为什么是你", "v": "AMD API 兼容 OpenAI 格式，现有 agent 代码通常半天能移植。今晚去 lablab.ai 注册，把手里的 agent 产品改成调 AMD Cloud 的版本交上去。" }
       ],
       "src": "lablab.ai"
     },
     {
-      "slug": "yc-fall-2026",
+      "slug": "gemini-xprize",
       "idx": "03",
-      "tag": "加速器",
+      "tag": "Hackathon",
       "titleLines": [
-        [ { "text": "YC Fall 2026" } ],
-        [ { "text": "$500K 投资", "hl": true }, { "text": "，solo 可申" } ]
+        [ { "text": "Build with Gemini" } ],
+        [ { "text": "XPRIZE", "hl": true }, { "text": " $2M 奖池" } ]
       ],
-      "oneline": "Y Combinator 明确接受一人申请，AI 方向今年被积极投资——申请免费，7/27 关窗。",
+      "oneline": "不比 demo，比真生意——90 天内做出有真实用户和真实收入的 AI 产品。",
       "facts": [
-        { "k": "给什么", "v": "$500K 投资（标准条款）+ 3 个月旧金山加速 + YC 校友生态。" },
-        { "k": "Deadline", "v": "2026-07-27 晚 8pm PT 截止，任何阶段都可申请。" },
-        { "k": "为什么是你", "v": "现在就填申请表草稿（免费），把项目录成 2 分钟 demo 视频——离截止还有 6 周，正好够打磨。Anthropic / Google Cloud startup credits 也是 rolling 开放，先到先得。" }
+        { "k": "奖金怎么分", "v": "大奖 $500K、二等 $200K、5 个 $100K、15 个 $50K。需接入至少一款 Google Cloud 产品。" },
+        { "k": "Deadline", "v": "2026-08-17 截止，全球线上，个人或 25 人以内团队均可。" },
+        { "k": "为什么是你", "v": "评的是真实用户和收入增长，不是熬夜写 demo 的技术秀——已有 MVP 的一人公司天然占优。今晚注册，把现有产品接上 Google Cloud，从今天开始记录增长数据。" }
       ],
-      "src": "ycombinator.com/apply"
+      "src": "xprize.devpost.com"
     }
   ]
 };
