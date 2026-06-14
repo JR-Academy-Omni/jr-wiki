@@ -398,23 +398,81 @@
 
   function injectStyles() {
     const css = `
-      body { margin:0; background:#EFEAE0; font-family:${FF_CN}; }
-      .wp-head { max-width:1000px; margin:28px auto 8px; padding:0 16px; }
-      .wp-head h1 { font-size:22px; color:#0D0F12; margin:0 0 6px; }
-      .wp-head p { font-size:14px; color:#6B7280; margin:0; }
-      .wp-list { max-width:1000px; margin:0 auto 80px; padding:0 16px; }
-      .wp-item { margin:28px 0; }
+      body { margin:0; background:${C.canvas}; font-family:${FF_CN}; color:${C.text}; }
+      .wp-wrap { max-width:760px; margin:0 auto; padding:0 16px; }
+      .wp-head { padding:32px 0 4px; }
+      .wp-head h1 { font-size:24px; color:${C.black}; margin:0 0 6px; font-weight:900; }
+      .wp-head p { font-size:14px; color:${C.sub}; margin:0; line-height:1.5; }
+
+      /* ---- 快速列表（默认主视图，秒开） ---- */
+      .wp-listcard { margin:22px 0 8px; }
+      .wp-row { display:flex; align-items:flex-start; gap:14px; text-decoration:none;
+        background:${C.card}; border:2px solid ${C.border}; border-radius:14px;
+        padding:18px 18px; margin:12px 0; color:inherit; transition:border-color .15s, transform .1s; }
+      a.wp-row:hover { border-color:${C.red}; transform:translateY(-1px); }
+      .wp-num { font-family:${FF_MONO}; font-weight:800; font-size:26px; color:${C.red};
+        line-height:1.1; min-width:34px; }
+      .wp-main { flex:1; min-width:0; }
+      .wp-tagline { display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:6px; }
+      .wp-tag { background:${C.purpleBg}; color:${C.purple}; font-size:12px; font-weight:700;
+        padding:3px 10px; border-radius:6px; }
+      .wp-urgent { color:${C.red}; font-size:12px; font-weight:800; }
+      .wp-title { font-size:17px; font-weight:700; color:${C.text}; line-height:1.45; }
+      .wp-meta { margin-top:7px; font-size:14px; line-height:1.5; }
+      .wp-prize { color:${C.red}; font-weight:800; }
+      .wp-dl { color:${C.sub}; font-family:${FF_MONO}; font-size:13px; }
+      .wp-go { font-size:12px; color:${C.sub}; margin-top:6px; }
+      .wp-cta { display:inline-block; margin:10px 0 4px; background:${C.black}; color:#fff;
+        text-decoration:none; padding:11px 22px; border-radius:10px; font-size:15px; font-weight:700; }
+      .wp-cta:hover { opacity:.85; }
+
+      /* ---- 海报区（次要，想下载再翻） ---- */
+      .wp-postsec { margin:44px 0 16px; padding-top:24px; border-top:2px solid ${C.border}; }
+      .wp-postsec h2 { font-size:18px; color:${C.black}; margin:0 0 4px; font-weight:800; }
+      .wp-postsec p { font-size:13px; color:${C.sub}; margin:0; }
+      .wp-list { margin:0 0 80px; }
+      .wp-item { margin:24px 0; }
       .wp-item canvas { width:100%; height:auto; display:block; border-radius:16px;
         box-shadow:0 6px 28px rgba(13,15,18,.10); }
       .wp-bar { display:flex; justify-content:space-between; align-items:center; margin:10px 2px 0; }
-      .wp-bar span { font-size:13px; color:#6B7280; }
-      .wp-bar button { background:#0D0F12; color:#fff; border:0; border-radius:8px;
+      .wp-bar span { font-size:13px; color:${C.sub}; }
+      .wp-bar button { background:${C.black}; color:#fff; border:0; border-radius:8px;
         padding:9px 20px; font-size:14px; font-weight:700; cursor:pointer; }
       .wp-bar button:hover { opacity:.85; }
     `;
     const el = document.createElement('style');
     el.textContent = css;
     document.head.appendChild(el);
+  }
+
+  // 纯 HTML 快速列表（轻量、秒开、可点链接），渲染 d.items
+  function buildList(d) {
+    const sec = document.createElement('div');
+    sec.className = 'wp-listcard';
+    for (const it of d.items) {
+      const row = document.createElement(it.url ? 'a' : 'div');
+      row.className = 'wp-row';
+      if (it.url) { row.href = it.url; row.target = '_blank'; row.rel = 'noopener'; }
+      const urgent = it.urgent ? `<span class="wp-urgent">${it.urgent}</span>` : '';
+      const go = it.url ? `<div class="wp-go">${it.url.replace(/^https?:\/\//, '').replace(/\/$/, '')} ↗</div>` : '';
+      row.innerHTML = `
+        <div class="wp-num">${it.num}</div>
+        <div class="wp-main">
+          <div class="wp-tagline"><span class="wp-tag">${it.tag}</span>${urgent}</div>
+          <div class="wp-title">${it.title}</div>
+          <div class="wp-meta"><span class="wp-prize">${it.prize}</span> &nbsp;·&nbsp; <span class="wp-dl">${it.deadline}</span></div>
+          ${go}
+        </div>`;
+      sec.appendChild(row);
+    }
+    const cta = document.createElement('a');
+    cta.className = 'wp-cta';
+    cta.href = d.articleUrl;
+    cta.target = '_blank';
+    cta.rel = 'noopener';
+    cta.textContent = '看完整周报（含加速器 / Credits / 案例）→';
+    sec.appendChild(cta);
+    return sec;
   }
 
   function injectFonts() {
@@ -453,15 +511,29 @@
     injectFonts();
     injectStyles();
 
+    const wrap = document.createElement('div');
+    wrap.className = 'wp-wrap';
+    document.body.appendChild(wrap);
+
     const head = document.createElement('div');
     head.className = 'wp-head';
-    head.innerHTML = `<h1>${d.pageTitle || '一人公司搞钱周报海报'} · ${d.date}</h1>
-      <p>1 张合集 + ${d.news.length} 张单图 · 高度随内容自适应 · 二维码 → ${d.articleUrl.replace(/^https?:\/\//, '')}</p>`;
-    document.body.appendChild(head);
+    head.innerHTML = `<h1>${d.pageTitle || '一人公司搞钱周报'} · ${d.date}</h1>
+      <p>本周 ${d.items.length} 个一个人就能参加的奖金机会 · 点条目直达官网报名</p>`;
+    wrap.appendChild(head);
+
+    // 1) 快速列表（默认主视图，纯 HTML 秒开）
+    wrap.appendChild(buildList(d));
+
+    // 2) 海报区（次要：想发小红书/朋友圈再往下翻）
+    const postsec = document.createElement('div');
+    postsec.className = 'wp-postsec';
+    postsec.innerHTML = `<h2>📥 配套海报（下载发小红书 / 朋友圈）</h2>
+      <p>1 张合集 + ${d.news.length} 张单图 · 高度随内容自适应</p>`;
+    wrap.appendChild(postsec);
 
     const list = document.createElement('div');
     list.className = 'wp-list';
-    document.body.appendChild(list);
+    wrap.appendChild(list);
 
     try { await document.fonts.ready; } catch (e) { /* 字体加载失败用 fallback 字体继续画 */ }
     // Google Fonts 的 CJK 子集是懒加载的：先用真实文案触发一次，再等 ready
