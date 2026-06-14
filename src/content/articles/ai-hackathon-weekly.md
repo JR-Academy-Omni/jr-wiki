@@ -14,51 +14,52 @@ keywords: "AI hackathon 2026, AI 比赛奖金, startup credits, 加速器申请,
 
 <!-- AUTO-GENERATED-BODY: 本文正文每周一由 cloud routine 重写（数据源 omni-report/hackathon-radar/）。frontmatter 不要动 —— DB 元数据在 sync 时已冻结，改了也不会生效。 -->
 
-> **本期更新：2026-06-11** · 每周一刷新。所有 deadline 和奖金数额均来自官方页面，标 ⚠️ 的表示官网暂未公布确切日期，报名前请以官网为准。
+> **本期更新：2026-06-15** · 每周一刷新。所有 deadline 和奖金数额均来自官方页面，标 ⚠️ 的表示官网暂未公布确切日期，报名前请以官网为准。
 
-**本周最值得冲：Build with Gemini XPRIZE** — $2M 总奖池（大奖 $500K），规则不是拼 demo，是 90 天内做出有真实用户和真实收入的 AI 产品，个人可参赛，截止 **2026-08-17**。
+**本周最值得冲：Band of Agents Hackathon** — $10,000+ 奖池，全程线上，**2026-06-19（本周五）截止**，有现成 Claude/GPT agent 代码的今晚就能注册改一版交上去，临近截止参赛人少。
 
 ## 🏆 近期 Hackathon
 
 | 名称 | 主办方 | 奖金 | Deadline | 形式 | Solo? | 链接 |
 |------|--------|------|----------|------|-------|------|
-| Build with Gemini XPRIZE | XPRIZE + Google | $2M 总奖池，大奖 $500K | 2026-08-17 | 线上/全球 | ✅ 个人或 <25 人 | [devpost](https://xprize.devpost.com/) |
+| Turing Test Hackathon 2026 ⚡今日最后（Web3） | Mantle + DoraHacks + Tencent Cloud | $120,000 总奖池 | 2026-06-15 | 线上/全球 | ✅ 个人可参加 | [DoraHacks](https://dorahacks.io/hackathon/mantleturingtesthackathon2026/detail) |
 | Band of Agents Hackathon ⚡本周五截止 | lablab.ai | $10,000+ | 2026-06-19 | 线上 | ✅ | [lablab.ai](https://lablab.ai/ai-hackathons/band-of-agents-hackathon) |
-| Hack-Nation Global AI Hackathon | Hack-Nation | $35,000+ 现金 + OpenAI credits | 报名 2026-06-20，比赛 7/18–19 | 线上 + 全球站点 | ✅ | [hack-nation.ai](https://hack-nation.ai/) |
-| RAISE Summit AI Hackathon | RAISE Summit | €200,000 | ⚠️ 报名截止待确认，比赛 7/8–9 | 巴黎线下 | ✅ | [raisesummit.com](https://www.raisesummit.com/hackathon) |
-| AI Dev Days Hackathon | Microsoft Reactor | 每类别 $10,000 | ⚠️ 日期待确认 | 线上 + Reactor 站点 | ✅ | [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/events/26647/) |
+| Hack-Nation Global AI Hackathon ⚡报名本周六截止 | Hack-Nation | $35,000+ 现金 + OpenAI credits | 报名 2026-06-20，比赛 7/18–19 | 线上 + 全球站点 | ✅ | [hack-nation.ai](https://hack-nation.ai/) |
+| Qwen Cloud Global AI Hackathon | Alibaba Cloud / Qwen | $70,000+ 总奖 | 2026-07-08 | 线上/全球 | ✅ 1–5 人 | [devpost](https://qwencloud-hackathon.devpost.com/) |
+| AMD Developer Hackathon ACT II | AMD × lablab.ai | $10,000 现金 + AMD Cloud credits | 2026-07-11 | 线上/全球 | ✅ | [lablab.ai](https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii) |
+| Build with Gemini XPRIZE | XPRIZE + Google | $2M 总奖池，大奖 $500K | 2026-08-17 | 线上/全球 | ✅ 个人或 <25 人 | [devpost](https://xprize.devpost.com/) |
 
-**怎么选**：手上已有 MVP 的优先冲 Gemini XPRIZE（比的是真实增长，不是熬夜写 demo）；有现成 agent/workflow 代码的，Band of Agents 本周五截止、竞争少、$10K 奖池，明天就能改个 demo 交上去。
+**怎么选**：有 Web3 / on-chain 背景的今天就去 DoraHacks 提交 Turing Test（今日最后）；有现成 agent 代码的冲 Band of Agents（本周五截止，临近截止竞争少）；做 AI 工作流的长线冲 Qwen Cloud（$70K+ 奖池，7/8 前还有 3 周）。
 
 ## 💰 AI 比赛 / 奖金挑战
 
 | 名称 | 主办方 | 奖金 | Deadline | Solo? | 链接 |
 |------|--------|------|----------|-------|------|
 | ARC Prize 2026 — ARC-AGI-3 | ARC Prize Foundation | $2M 总奖；Milestone 1 首奖 $25K | Milestone 1：2026-06-30；终轮 11-02 | ✅ | [Kaggle](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3) |
-| ARC Prize 2026 — Paper Track | ARC Prize Foundation | $375,000（论文评分 >4.5/5） | 与主赛道同步 | ✅ | [Kaggle](https://www.kaggle.com/competitions/arc-prize-2026-paper-track) |
-| Ant Media AI Hackathon | Ant Media | 最高 $10,000 | ⚠️ 日期待确认 | ✅ 个人或 ≤5 人 | [antmedia.io](https://antmedia.io/ai-hackathon/) |
+| NeuroGolf Championship 2026 | IJCAI-ECAI 2026 | 持续领先奖 $10,000 + 顶学生队 $8,000 | 2026-07-15 | ✅ | [Kaggle](https://www.kaggle.com/competitions/neurogolf-2026) |
 | 阿里云天池 AI 大模型竞赛 | 阿里云 | 各赛事数万到数十万人民币 | ⚠️ 各赛事不同 | ✅ | [tianchi.aliyun.com](https://tianchi.aliyun.com/competition/aillmList) |
 
 ## 🚀 加速器 / Grant / Startup Credits
 
-这部分对一人公司往往比比赛奖金更实在——credits 是直接省下来的成本。
+这部分对一人公司往往比比赛奖金更实在——credits 直接省成本，加速器直接拿钱进来。
 
-- **Anthropic Startup Program** — Claude API credits $1,000–$25,000+（自申请档 $1K–$5K，加速器推荐最高 $25K+）。有公司网站 + 产品描述就能申请。Rolling 开放 → [claude.com/programs/startups](https://claude.com/programs/startups)
-- **Google Cloud for Startups（AI-First 档）** — 最高 $350,000 云 credits（含 $150K AI 专属）。公司 <5 年、Series A 前；AI-First 档需知名加速器校友，普通档 $200K 可直接申请。Rolling → [cloud.google.com/startup](https://cloud.google.com/startup/ai)
-- **Y Combinator Fall 2026** — $500K 投资 + 3 个月 SF 加速，明确接受 solo founder。申请截止 **2026-07-27**（8pm PT）→ [ycombinator.com/apply](https://www.ycombinator.com/apply)
-- **Startmate Accelerator（澳新）** — AUD $120,000 投资 + 14 周加速，面向澳新创始人，远程为主。⚠️ 下一期日期待确认 → [startmate.com/accelerator](https://www.startmate.com/accelerator/program)
+- **🇦🇺 Antler Australia Cohort 14** — AU$260,000 投资（换 12% 股权）+ 14 周悉尼/墨尔本/布里斯班在地加速，一人公司可申，AI 方向被积极接受，Cohort 14 预计 2026-07-27 开营，**滚动申请先到先审** → [antler.co/apply](https://www.antler.co/apply)
+- **🇦🇺 CSIRO Kick-Start** — 最高 AU$50,000 政府匹配资金（自己出一半，CSIRO 出另一半），澳洲注册、年营业额 <$10M 或开业 <3 年、solo founder 可申，Rolling 开放 → [csiro.au/Kick-Start](https://www.csiro.au/en/work-with-us/funding-programs/SME/CSIRO-Kick-Start/about)
+- **🇦🇺 77 Venture Challenge（昆士兰）** — 昆士兰注册的早期 FrontierTech（AI/IoT/先进制造/量子等）初创，pre-seed 至 pre-Series A，投资人一对一对接，不拿股权参与费用，**申请截止 2026-08-10** → [77partners.vc/challenge](https://www.77partners.vc/challenge)
+- **Y Combinator Fall 2026** — $500,000 投资 + 3 个月 SF 加速，明确接受 solo founder，AI 方向有优先，申请截止 **2026-07-27**（8pm PT）→ [ycombinator.com/apply](https://www.ycombinator.com/apply)
+- **Microsoft for Startups Founders Hub** — 高达 $150,000 Azure Credits（含 OpenAI API 访问权限），无需 VC 背书，solo/bootstrapped 均可直接申请，Rolling 开放 → [foundershub.startups.microsoft.com](https://foundershub.startups.microsoft.com/)
 
 ## 🧑‍💻 本周 Solo Founder 案例
 
-**Mattia（Sleek.design）— 6 周 $10K MRR，零广告费。** 一个人 3 周用 AI 工具搭出给不懂设计的 app 开发者用的界面工具，靠"只做手机 app 界面"这个够窄的定位 + 垂直内容 SEO 起量。来源：[Indie Hackers](https://www.indiehackers.com/post/tech/hitting-10k-mrr-in-six-weeks-with-an-ai-design-tool-pEvmU5qkWS6ny0AR9SUv)
+**Hasaam Bhatti（Launch Fast）— 非技术背景，48 小时建产品，稳在 $30K MRR。** 亚马逊卖家出身，没有 CS 学位，用 Cursor + AI 工具 48 小时内搭出 Launch Fast（亚马逊卖家 AI 研究工具），借助两年前加入的 1000 人卖家社群，第 30 天到 $10K MRR，第 90 天 $21.8K，现在稳在 $30K MRR。分发渠道先于产品存在，产品只是把用户痛点工具化。来源：[Indie Hackers](https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9)
 
-**Pieter Levels（@levelsio）— 三款产品 $3M+ ARR，无融资无员工。** NomadList + RemoteOK + PhotoAI，全部 AI 辅助开发，数据在 X 上实时公开。来源：[The Rundown AI](https://www.therundown.ai/p/ai-just-made-the-billion-dollar-solo-founder-real)
+**Santanu Dasgupta — AI 编排平台，4 周 $3K MRR。** 做 B2B LLM 工作流中间件，$30–$50/月定价，60–100 名付费用户，从 0 到 $3K MRR 只用 4 周。目标客户从第一天起就极窄（企业开发工具），先验证有人付钱、再扩功能。来源：[Indie Hackers](https://www.indiehackers.com/post/tech/growing-an-ai-orchestration-platform-to-3k-mrr-in-4-weeks-gK3zYDqQjXYG9ANwmxzA)
 
 ## 🎯 这周怎么行动
 
-1. **今晚**：去 [xprize.devpost.com](https://xprize.devpost.com/) 注册 Gemini XPRIZE，把现有产品接一个 Google Cloud 服务（Vertex AI 或 Cloud Run），从今天开始记录真实用户数据。
-2. **明天**：有 agent 代码的，改一版交 Band of Agents（6/19 截止，越临近截止竞争越少）。
-3. **本月内**：填 YC 申请表草稿（免费），录 2 分钟 demo 视频，7/27 截止前还有 6 周打磨时间。
+1. **今天（6/15）就动**：有 Web3 / on-chain 背景的，去 [DoraHacks](https://dorahacks.io/hackathon/mantleturingtesthackathon2026/detail) 提交 Turing Test Hackathon（今日最后，$120K 奖池）；没有 Web3 背景的，去 [lablab.ai](https://lablab.ai/ai-hackathons/band-of-agents-hackathon) 注册 Band of Agents，把现有 agent 代码改成 multi-agent 版，本周五（6/19）截止。
+2. **这周内**：申加速器的，去 [antler.co/apply](https://www.antler.co/apply) 填申请草稿（免费），把项目验证数据（用户数/收入/用户反馈截图）整理进去，7/27 开营前还有 6 周打磨；昆士兰的创始人顺带看一眼 [77partners.vc/challenge](https://www.77partners.vc/challenge)，8/10 截止不急但早申早审。
+3. **7 月前**：做 AI Agents / 工作流的注册 [Qwen Cloud Hackathon](https://qwencloud-hackathon.devpost.com/)，选最配的赛道，$70K+ 奖池、7/8 截止，还有 3 周冲一版 demo 的时间。
 
 ---
 

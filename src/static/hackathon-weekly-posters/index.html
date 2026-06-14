@@ -23,7 +23,7 @@
  * ------------------------------------------------------------------ */
 
 const POSTER_DATA = {
-  "date": "2026-06-14",
+  "date": "2026-06-15",
   "articleUrl": "https://jiangren.com.au/blog/ai-hackathon-weekly",
   "pageTitle": "一人公司搞钱周报",
   "footerNote": "OPC WEEKLY · TOP 5",
@@ -40,39 +40,47 @@ const POSTER_DATA = {
     {
       "num": "01",
       "tag": "Hackathon",
-      "urgent": "⚡ 后天 6/15 截止",
-      "title": "Turing Test Hackathon 2026 — Mantle 上部署 on-chain AI agent",
-      "prize": "$120K 总奖池",
-      "deadline": "截止 06-15",
-      "url": "https://dorahacks.io/hackathon/mantleturingtesthackathon2026/detail"
-    },
-    {
-      "num": "02",
-      "tag": "Hackathon",
-      "urgent": "⚡ 还剩 5 天",
+      "urgent": "⚡ 本周五截止",
       "title": "Band of Agents（lablab.ai）— 有 agent 代码改个 demo 就能交",
       "prize": "$10K+ 奖池",
       "deadline": "截止 06-19",
       "url": "https://lablab.ai/ai-hackathons/band-of-agents-hackathon"
     },
     {
+      "num": "02",
+      "tag": "Hackathon",
+      "urgent": "⚡ 报名本周六",
+      "title": "Hack-Nation Global AI Hackathon — 24h 冲出可演示 AI 产品",
+      "prize": "$35K+ 现金 + OpenAI credits",
+      "deadline": "报名截止 06-20",
+      "url": "https://hack-nation.ai/"
+    },
+    {
       "num": "03",
       "tag": "Hackathon",
-      "title": "AMD Developer Hackathon ACT II — AI Agents 主题，全程线上",
+      "title": "Qwen Cloud Global AI Hackathon — 5 赛道，AI 工作流专项",
+      "prize": "$70K+ 总奖",
+      "deadline": "截止 07-08",
+      "url": "https://qwencloud-hackathon.devpost.com/"
+    },
+    {
+      "num": "04",
+      "tag": "Hackathon",
+      "title": "AMD Developer Hackathon ACT II — OpenAI 兼容格式半天能移植",
       "prize": "$10K 现金 + AMD Cloud credits",
       "deadline": "截止 07-11",
       "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-ii"
     },
     {
-      "num": "04",
+      "num": "05",
       "tag": "比赛",
-      "title": "ARC Prize 2026 — AI 推理方向，Kaggle 线上提交",
+      "title": "ARC Prize 2026 — AI 推理方向，Kaggle 线上，Milestone 1 月底",
       "prize": "$2M 总奖池",
       "deadline": "Milestone 1 · 06-30",
       "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3"
     },
     {
-      "num": "05",
+      "num": "06",
       "tag": "Hackathon",
       "title": "Build with Gemini XPRIZE — 90 天做出真用户真收入",
       "prize": "$2M 总奖池 · 大奖 $500K",
@@ -80,7 +88,7 @@ const POSTER_DATA = {
       "url": "https://xprize.devpost.com/"
     },
     {
-      "num": "06",
+      "num": "07",
       "tag": "🇦🇺 加速器",
       "title": "Antler Australia Cohort 14 — 悉尼/墨尔本/布里斯班三城在地加速",
       "prize": "AU$260K 投资",
@@ -88,7 +96,7 @@ const POSTER_DATA = {
       "url": "https://www.antler.co/apply"
     },
     {
-      "num": "07",
+      "num": "08",
       "tag": "🇦🇺 政府 Grant",
       "title": "CSIRO Kick-Start — 澳洲注册公司 R&D 匹配资金，solo 可申",
       "prize": "最高 AU$50K",
@@ -96,26 +104,34 @@ const POSTER_DATA = {
       "url": "https://www.csiro.au/en/work-with-us/funding-programs/SME/CSIRO-Kick-Start/about"
     },
     {
-      "num": "08",
+      "num": "09",
       "tag": "加速器",
       "title": "Y Combinator Fall 2026 — 明确接受 solo founder，申请免费",
       "prize": "$500K 投资",
       "deadline": "申请截止 07-27",
       "url": "https://www.ycombinator.com/apply"
-    },
-    {
-      "num": "09",
-      "tag": "平台 Credits",
-      "title": "Microsoft for Startups Founders Hub — 无需 VC 背书直接申",
-      "prize": "高达 $150K Azure credits",
-      "deadline": "Rolling 开放",
-      "url": "https://foundershub.startups.microsoft.com/"
     }
   ],
   "news": [
     {
-      "slug": "antler-australia",
+      "slug": "band-of-agents",
       "idx": "01",
+      "tag": "Hackathon",
+      "titleLines": [
+        [ { "text": "Band of Agents" } ],
+        [ { "text": "本周五截止", "hl": true }, { "text": " $10K+" } ]
+      ],
+      "oneline": "全程线上，有现成 Claude/GPT agent 代码改成 multi-agent 版就能交。",
+      "facts": [
+        { "k": "奖金", "v": "$10,000+ 奖池，lablab.ai 社区赛，全球线上，solo 可参加。" },
+        { "k": "Deadline", "v": "2026-06-19（本周五）截止，越临近截止竞争者越少。" },
+        { "k": "为什么是你", "v": "已有任何 Claude/GPT workflow 代码，改成多 agent 协调版本就能交。今晚注册，明天改代码，后天交 demo。" }
+      ],
+      "src": "lablab.ai"
+    },
+    {
+      "slug": "antler-australia",
+      "idx": "02",
       "tag": "🇦🇺 加速器",
       "titleLines": [
         [ { "text": "Antler Australia" } ],
@@ -125,41 +141,25 @@ const POSTER_DATA = {
       "facts": [
         { "k": "给什么", "v": "AU$260,000 投资（换 12% 股权）+ 14 周在地加速 + Antler 全球网络。" },
         { "k": "Deadline", "v": "Cohort 14 预计 2026-07-27 开营，滚动申请、先到先审。" },
-        { "k": "为什么是你", "v": "明确接受一人公司、AI 方向被积极接受，钱先进来不用先融资。今晚去 antler.co/apply 填免费申请草稿，把用户数 / 收入 / 反馈截图整理进去。" }
+        { "k": "为什么是你", "v": "明确接受一人公司，AI 方向被积极接受，今晚去 antler.co/apply 填免费申请草稿，把项目验证数据（用户数/收入/反馈截图）整理进去，7/27 前还有 6 周打磨。" }
       ],
-      "src": "antler.co/apply"
+      "src": "antler.co"
     },
     {
       "slug": "amd-hackathon",
-      "idx": "02",
+      "idx": "03",
       "tag": "Hackathon",
       "titleLines": [
         [ { "text": "AMD Developer" } ],
         [ { "text": "Hackathon", "hl": true }, { "text": " ACT II" } ]
       ],
-      "oneline": "AI Agents 主题，全程线上不用飞，$10K 现金 + AMD Cloud credits。",
+      "oneline": "AI Agents 主题，OpenAI 兼容格式，现有 agent 代码半天能移植，$10K 现金。",
       "facts": [
         { "k": "奖金", "v": "$10,000 现金 + 每人 $100 AMD Cloud Credits + 1 个月 DeepLearning.AI Pro。" },
-        { "k": "Deadline", "v": "2026-07-11 截止，单人或团队均可，全球线上。" },
-        { "k": "为什么是你", "v": "AMD API 兼容 OpenAI 格式，现有 agent 代码通常半天能移植。今晚去 lablab.ai 注册，把手里的 agent 产品改成调 AMD Cloud 的版本交上去。" }
+        { "k": "Deadline", "v": "2026-07-11 截止，单人或团队均可，全程线上全球参加。" },
+        { "k": "为什么是你", "v": "AMD API 与 OpenAI 格式兼容，现有 agent 代码通常半天能改完。今晚去 lablab.ai 注册，把手里的 agent 改成调用 AMD Cloud 的版本交上去。" }
       ],
       "src": "lablab.ai"
-    },
-    {
-      "slug": "gemini-xprize",
-      "idx": "03",
-      "tag": "Hackathon",
-      "titleLines": [
-        [ { "text": "Build with Gemini" } ],
-        [ { "text": "XPRIZE", "hl": true }, { "text": " $2M 奖池" } ]
-      ],
-      "oneline": "不比 demo，比真生意——90 天内做出有真实用户和真实收入的 AI 产品。",
-      "facts": [
-        { "k": "奖金怎么分", "v": "大奖 $500K、二等 $200K、5 个 $100K、15 个 $50K。需接入至少一款 Google Cloud 产品。" },
-        { "k": "Deadline", "v": "2026-08-17 截止，全球线上，个人或 25 人以内团队均可。" },
-        { "k": "为什么是你", "v": "评的是真实用户和收入增长，不是熬夜写 demo 的技术秀——已有 MVP 的一人公司天然占优。今晚注册，把现有产品接上 Google Cloud，从今天开始记录增长数据。" }
-      ],
-      "src": "xprize.devpost.com"
     }
   ]
 };
