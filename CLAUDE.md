@@ -107,7 +107,7 @@ jr-wiki (GitHub) → bun run sync → MongoDB (元数据 + contentUrl)
 ### 后端读 .md 的逻辑
 
 - Dev: 直接读本地文件 `path.resolve(cwd, '..', 'jr-wiki', contentUrl)`
-- Prod: `fetch https://raw.githubusercontent.com/JR-Academy-AI/jr-wiki/main/{contentUrl}` + GITHUB_TOKEN
+- Prod: `fetch https://raw.githubusercontent.com/JR-Academy-Omni/jr-wiki/main/{contentUrl}` + GITHUB_TOKEN
 
 ### wiki 特殊处理
 
