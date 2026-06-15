@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Git / GitHub 入门 · 匠人学院内部学习</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#fff1e7; --card:#ffffff; --ink:#10162f; --slate:#5b6172;
+    --red:#ff5757; --yellow:#FFDE59; --blue:#38B6FF; --purple:#CB6CE6; --green:#34c759;
+    --border:3px solid #000; --border-sm:2px solid #000; --shadow:6px 6px 0 #000; --shadow-sm:4px 4px 0 #000;
+    --fh:'Bricolage Grotesque','Noto Sans SC','PingFang SC',sans-serif;
+    --fs:'DM Sans','Noto Sans SC','PingFang SC',sans-serif;
+    --fm:'Space Mono','SF Mono',Menlo,Consolas,monospace;
+  }
+  *,*::before,*::after{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:var(--fs);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;}
+  h1,h2,h3,h4{font-family:var(--fh);font-weight:800;line-height:1.15;margin:0;}
+  code,.mono{font-family:var(--fm);}
+  .wrap{max-width:920px;margin:0 auto;padding:28px 18px 120px;}
+
+  .hero{background:var(--ink);color:#fff;border:var(--border);box-shadow:var(--shadow);padding:28px 26px;margin-bottom:22px;}
+  .hero .logo{height:38px;width:auto;display:block;margin-bottom:18px;}
+  .hero .kicker{font-family:var(--fm);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--yellow);margin-bottom:10px;}
+  .hero h1{font-size:clamp(28px,6vw,42px);color:#fff;}
+  .hero p{margin:12px 0 0;color:#e2e4ee;font-size:15.5px;line-height:1.8;max-width:650px;}
+
+  .pwrap{display:flex;align-items:center;gap:12px;margin:18px 0 8px;}
+  .ptrack{flex:1;height:18px;background:#fff;border:var(--border-sm);overflow:hidden;}
+  .pfill{height:100%;background:repeating-linear-gradient(45deg,var(--green),var(--green) 8px,#2ca84c 8px,#2ca84c 16px);width:0;transition:width .4s ease;}
+  .ppct{font-family:var(--fm);font-weight:700;font-size:14px;min-width:42px;text-align:right;}
+
+  .nav{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:26px;}
+  .nav button{font-family:var(--fh);font-weight:700;background:#fff;border:var(--border);box-shadow:var(--shadow-sm);padding:12px 8px;cursor:pointer;text-align:left;transition:transform .12s,box-shadow .12s;position:relative;}
+  .nav button:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 #000;}
+  .nav button.active{background:var(--yellow);}
+  .nav .lv{font-family:var(--fm);font-size:12px;color:var(--slate);}
+  .nav .nm{font-size:14px;display:block;margin-top:2px;}
+  .nav .chk{position:absolute;top:-9px;right:-9px;width:24px;height:24px;border-radius:999px;background:var(--green);border:var(--border-sm);color:#fff;font-size:13px;display:none;align-items:center;justify-content:center;font-weight:700;}
+  .nav button.done .chk{display:flex;}
+
+  .panel{display:none;animation:fade .3s ease;}
+  .panel.show{display:block;}
+  @keyframes fade{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
+  .card{background:var(--card);border:var(--border);box-shadow:var(--shadow);padding:22px 20px;margin-bottom:20px;}
+  .when{display:inline-block;background:var(--blue);color:#000;border:var(--border-sm);font-family:var(--fm);font-size:12px;font-weight:700;padding:4px 10px;margin-bottom:14px;}
+  .ptitle{font-size:clamp(22px,4.5vw,30px);margin-bottom:10px;}
+  h3.sec{font-size:18px;margin:26px 0 10px;display:flex;align-items:center;gap:8px;}
+  p{margin:0 0 12px;}
+
+  .lead{font-size:18px;font-weight:700;background:var(--yellow);border:var(--border-sm);padding:14px 16px;box-shadow:var(--shadow-sm);text-align:center;line-height:1.6;}
+  .story{font-size:16px;line-height:1.9;margin:0 0 14px;}
+  .story strong{background:#fff3bf;padding:0 3px;}
+  .scene{background:#fff8ef;border:var(--border-sm);border-left:7px solid var(--red);box-shadow:var(--shadow-sm);padding:14px 16px;margin:6px 0 16px;font-size:15.5px;line-height:1.9;}
+  .scene .sl{font-family:var(--fm);font-size:12px;font-weight:700;color:var(--red);display:block;margin-bottom:6px;}
+  .aha{background:#faf0ff;border:var(--border-sm);border-left:7px solid var(--purple);padding:13px 16px;margin:14px 0;font-size:15.5px;line-height:1.85;}
+
+  /* git vs github 主角卡 */
+  .twocard{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:6px 0 6px;}
+  .role{border:var(--border);box-shadow:var(--shadow-sm);padding:16px;}
+  .role.git{background:#fff;}
+  .role.gh{background:#eaf6ff;}
+  .role .em{font-size:30px;}
+  .role .lg{height:48px;display:flex;align-items:center;margin-bottom:4px;}
+  .role .lg svg{display:block;}
+  .role .rn{font-family:var(--fh);font-weight:800;font-size:17px;margin:4px 0 2px;}
+  .role .rt{font-family:var(--fm);font-size:11px;color:var(--slate);margin-bottom:8px;}
+  .role .rd{font-size:14px;line-height:1.75;}
+
+  /* 黑话翻译表 */
+  .jargon{width:100%;border-collapse:collapse;margin:6px 0 6px;}
+  .jargon td{border:var(--border-sm);padding:10px 12px;font-size:14px;vertical-align:top;line-height:1.7;}
+  .jargon .en{font-family:var(--fm);font-weight:700;white-space:nowrap;width:38%;background:#fff7ec;}
+  .jargon .en small{display:block;color:var(--slate);font-weight:400;font-size:11px;margin-top:2px;}
+  .jargon .cn{background:#fff;}
+
+  .fig{margin:6px 0 4px;}
+  .fig svg{width:100%;height:auto;display:block;border:var(--border);box-shadow:var(--shadow-sm);background:#fff7ec;}
+  .figcap{font-family:var(--fs);font-size:13.5px;color:var(--slate);margin:10px 2px 16px;line-height:1.8;}
+
+  .say{display:flex;align-items:center;gap:10px;background:var(--ink);color:#fff;border:var(--border-sm);padding:12px 14px;margin-bottom:10px;flex-wrap:wrap;}
+  .say .lab{font-family:var(--fm);font-size:12px;font-weight:700;background:var(--red);color:#fff;padding:2px 8px;border:1px solid #fff;}
+  .say .txt{font-family:var(--fm);font-size:14px;flex:1;min-width:160px;}
+  .say .cp{font-family:var(--fh);font-weight:700;font-size:13px;background:var(--yellow);color:#000;border:var(--border-sm);padding:5px 12px;cursor:pointer;transition:transform .1s;}
+  .say .cp:active{transform:scale(.94);}
+
+  .diag{border:var(--border);background:#fff7ec;padding:16px;margin:6px 0 4px;}
+  .boxes{display:flex;gap:12px;align-items:stretch;}
+  .box{flex:1;background:#fff;border:var(--border);box-shadow:var(--shadow-sm);padding:14px;text-align:center;min-height:118px;}
+  .box .bt{font-family:var(--fh);font-weight:800;font-size:15px;}
+  .box .bs{font-size:12px;color:var(--slate);margin-top:4px;}
+  .box.cloud .bt{color:var(--blue);}
+  .files{margin-top:10px;min-height:40px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;}
+  .file{font-family:var(--fm);font-size:11px;background:var(--yellow);border:1px solid #000;padding:2px 7px;animation:pop .3s ease;}
+  @keyframes pop{from{transform:scale(0);}to{transform:scale(1);}}
+  .channel{width:50px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;}
+  .arrow{font-family:var(--fm);font-size:11px;color:var(--slate);}
+  .diagctl{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;}
+  .diagctl button{font-family:var(--fh);font-weight:700;font-size:13px;border:var(--border-sm);box-shadow:var(--shadow-sm);padding:8px 12px;cursor:pointer;transition:transform .1s,box-shadow .1s;}
+  .diagctl button:active{transform:translate(2px,2px);box-shadow:none;}
+  .b-save{background:#fff;} .b-push{background:var(--green);color:#fff;} .b-pull{background:var(--blue);} .b-reset{background:#fff;}
+  .diagmsg{font-family:var(--fm);font-size:13px;margin-top:12px;padding:10px 12px;border:var(--border-sm);background:#fff;min-height:42px;line-height:1.6;}
+
+  .myth{border:var(--border);box-shadow:var(--shadow-sm);background:#fff;padding:14px 16px;margin-bottom:12px;cursor:pointer;}
+  .myth .q{font-weight:700;font-size:15px;display:flex;gap:8px;}
+  .myth .x{color:var(--red);font-weight:800;}
+  .myth .a{display:none;margin-top:10px;padding-top:10px;border-top:2px dashed #000;font-size:14.5px;line-height:1.85;}
+  .myth.open .a{display:block;}
+  .myth .kou{display:inline-block;margin-top:8px;background:var(--yellow);border:1px solid #000;font-family:var(--fm);font-size:12px;font-weight:700;padding:3px 8px;}
+  .myth .hint{font-family:var(--fm);font-size:11px;color:var(--slate);margin-top:6px;}
+
+  .vs{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:6px 0 14px;}
+  .vscard{border:var(--border);box-shadow:var(--shadow-sm);padding:14px;}
+  .vscard.auto{background:#eef6ff;}
+  .vscard.manual{background:#fff;}
+  .vscard .vh{font-family:var(--fh);font-weight:800;font-size:15px;margin-bottom:6px;}
+  .vscard .vl{font-size:13.5px;margin:4px 0;line-height:1.6;}
+
+  .redline{border:var(--border-sm);background:#fff;padding:12px 14px;margin-bottom:10px;display:flex;gap:10px;align-items:flex-start;font-size:15px;line-height:1.6;}
+  .redline .ic{font-size:18px;}
+  .redline.bad{background:#fff0f0;border-color:var(--red);}
+  .redline.good{background:#eefcf2;border-color:var(--green);}
+
+  .quiz{border:var(--border);box-shadow:var(--shadow);background:var(--card);padding:20px;margin:20px 0;}
+  .quiz .qh{font-family:var(--fm);font-size:12px;font-weight:700;color:var(--red);text-transform:uppercase;letter-spacing:.08em;}
+  .quiz .qq{font-weight:700;font-size:16px;margin:8px 0 14px;line-height:1.6;}
+  .opt{display:block;width:100%;text-align:left;border:var(--border-sm);background:#fff;padding:12px 14px;margin-bottom:10px;cursor:pointer;font-family:var(--fs);font-size:15px;transition:transform .1s,background .15s;line-height:1.55;}
+  .opt:hover{transform:translate(2px,2px);background:#fff7ec;}
+  .opt.correct{background:#eefcf2;border-color:var(--green);font-weight:600;}
+  .opt.wrong{background:#fff0f0;border-color:var(--red);}
+  .opt[disabled]{cursor:default;}
+  .feedback{display:none;font-size:14.5px;padding:12px 14px;border:var(--border-sm);margin-top:6px;line-height:1.7;}
+  .feedback.ok{display:block;background:#eefcf2;border-color:var(--green);}
+  .feedback.no{display:block;background:#fff0f0;border-color:var(--red);}
+
+  .navbtns{display:flex;justify-content:space-between;gap:12px;margin-top:24px;}
+  .navbtns button{font-family:var(--fh);font-weight:700;font-size:15px;border:var(--border);box-shadow:var(--shadow-sm);padding:12px 22px;cursor:pointer;background:#fff;transition:transform .1s,box-shadow .1s;}
+  .navbtns button:active{transform:translate(2px,2px);box-shadow:none;}
+  .navbtns .next{background:var(--red);color:#fff;}
+  .navbtns button[disabled]{opacity:.4;cursor:not-allowed;}
+
+  .finale{display:none;text-align:center;background:var(--yellow);border:var(--border);box-shadow:var(--shadow);padding:36px 24px;margin-top:24px;}
+  .finale.show{display:block;animation:fade .4s;}
+  .finale .badge{font-size:60px;}
+  .finale h2{font-size:28px;margin:10px 0;}
+  .resetall{font-family:var(--fm);font-size:12px;background:transparent;border:none;color:var(--slate);text-decoration:underline;cursor:pointer;margin-top:14px;}
+
+  .crumb{font-family:var(--fm);font-size:13px;margin-bottom:14px;}
+  .crumb a{color:var(--ink);}
+  .foot{font-family:var(--fm);font-size:12px;color:var(--slate);text-align:center;margin-top:40px;border-top:2px solid #000;padding-top:16px;}
+
+  .st{font-family:'Bricolage Grotesque','Noto Sans SC',sans-serif;font-weight:800;}
+  .sx{font-family:'DM Sans','Noto Sans SC',sans-serif;}
+  .sm{font-family:'Space Mono',monospace;}
+
+  @media(max-width:600px){
+    .nav{grid-template-columns:repeat(2,1fr);}
+    .boxes{flex-direction:column;}
+    .channel{width:auto;flex-direction:row;}
+    .vs,.twocard{grid-template-columns:1fr;}
+    .jargon .en{width:42%;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="crumb"><a href="../">← 新员工 Onboarding</a> / Git · GitHub 入门</div>
+
+  <div class="hero">
+    <img class="logo" src="logo.png" alt="匠人学院 JR Academy">
+    <div class="kicker">内部学习资料 · 全员必修</div>
+    <h1>Git / GitHub 入门</h1>
+    <p>给每一个不是程序员、却被 GitHub 搞得头大的同事。<br>我们不想把你培养成工程师——只想用大白话 + 几张图，让你看懂这俩东西到底在帮公司干嘛。看不懂的命令、英文词，看完这页你就不怕了。</p>
+  </div>
+
+  <div class="pwrap">
+    <span class="mono" style="font-weight:700;font-size:13px;">学习进度</span>
+    <div class="ptrack"><div class="pfill" id="pfill"></div></div>
+    <span class="ppct" id="ppct">0%</span>
+  </div>
+
+  <div class="nav" id="nav">
+    <button data-lv="0" class="active"><span class="lv">L0</span><span class="nm">这俩是啥+先上手</span><span class="chk">✓</span></button>
+    <button data-lv="1"><span class="lv">L1</span><span class="nm">本地 vs 云端</span><span class="chk">✓</span></button>
+    <button data-lv="2"><span class="lv">L2</span><span class="nm">多人协作</span><span class="chk">✓</span></button>
+    <button data-lv="3"><span class="lv">L3</span><span class="nm">出事不慌</span><span class="chk">✓</span></button>
+  </div>
+
+  <!-- ===== L0 ===== -->
+  <div class="panel show" data-panel="0">
+    <div class="card">
+      <span class="when">📅 入职第一天，别人让你"把东西放 GitHub 上"</span>
+      <h2 class="ptitle">L0 · 先搞懂这俩是啥，再动手</h2>
+
+      <div class="scene"><span class="sl">先讲个你一定会遇到的场景</span>第一天上班，同事甩给你一句："你把改好的课程大纲<strong>放到 GitHub 上</strong>，开个 PR 我 review 一下。"<br>你心里 OS：GitHub 是啥？放？PR 又是啥？……别慌，这一级我先把这几个词给你说成人话。</div>
+
+      <h3 class="sec">🎭 先认识俩主角：git 和 GitHub</h3>
+      <p class="story">很多人一上来就把这俩搞混。其实特别简单，<strong>一个是工具，一个是网站</strong>：</p>
+      <div class="twocard">
+        <div class="role git">
+          <div class="lg">
+            <svg viewBox="0 0 97 97" width="46" height="46" role="img" aria-label="git logo"><path fill="#F03C2E" d="M95.6 44.4 52.6 1.4a4.7 4.7 0 0 0-6.7 0l-8.9 8.9 11.3 11.3a5.6 5.6 0 0 1 7.1 7.2l10.9 10.9a5.6 5.6 0 1 1-3.4 3.2L52.9 32.7v26.8a5.6 5.6 0 1 1-4.6-.2V32.3a5.6 5.6 0 0 1-3-7.4L34.1 13.7 1.4 46.4a4.7 4.7 0 0 0 0 6.7l43 43a4.7 4.7 0 0 0 6.7 0l42.5-42.5a4.7 4.7 0 0 0 0-6.7"/></svg>
+          </div>
+          <div class="rn">git</div>
+          <div class="rt">一个工具 · 装在你电脑上</div>
+          <div class="rd">帮你<strong>记录每次改了啥、还能随时反悔退回去</strong>。你就把它想成"整个项目的修订历史 + 后悔药"。它在你电脑里默默干活，平时你都不用直接碰它。</div>
+        </div>
+        <div class="role gh">
+          <div class="lg">
+            <svg viewBox="0 0 98 96" width="44" height="44" role="img" aria-label="GitHub logo"><path fill="#1a1a1a" fill-rule="evenodd" clip-rule="evenodd" d="M48.9 0C21.8 0 0 21.9 0 49c0 21.6 14 39.9 33.4 46.4 2.4.5 3.3-1.1 3.3-2.4 0-1.1-.1-4.6-.1-8.4-13.6 3-16.4-5.8-16.4-5.8-2.2-5.6-5.4-7.1-5.4-7.1-4.4-3 .3-3 .3-3 4.9.3 7.5 5 7.5 5 4.4 7.5 11.4 5.3 14.2 4.1.4-3.2 1.7-5.4 3.1-6.6-10.9-1.2-22.3-5.4-22.3-24.2 0-5.4 1.9-9.7 5-13.2-.5-1.2-2.2-6.2.5-12.9 0 0 4.1-1.3 13.4 5a46.6 46.6 0 0 1 24.4 0c9.3-6.3 13.4-5 13.4-5 2.7 6.7 1 11.7.5 12.9 3.1 3.4 5 7.8 5 13.2 0 18.9-11.5 23-22.4 24.2 1.8 1.5 3.3 4.5 3.3 9.1 0 6.6-.1 11.9-.1 13.5 0 1.3.9 2.9 3.3 2.4C84 88.9 98 70.6 98 49 98 21.9 76.1 0 48.9 0"/></svg>
+          </div>
+          <div class="rn">GitHub</div>
+          <div class="rt">一个网站 · 在网上（云端）</div>
+          <div class="rd">大家把项目<strong>放上网，一起看、一起改</strong>的地方。你可以把它理解成"公司的共享网盘"，只不过它专门给代码和文档用，还带完整历史记录。</div>
+        </div>
+      </div>
+      <div class="aha">💡 <strong>一句话记住</strong>：git 是你电脑上的"后悔药工具"，GitHub 是网上"大家一起放东西的地方"。你用 git 在自己电脑上记录，再把东西放到 GitHub 上跟同事共享。</div>
+
+      <h3 class="sec">🕰 git 最值钱的地方：每改一次，都给你存一个"版本"</h3>
+      <p class="story">普通文件你改了存了，<strong>旧的就没了</strong>，想反悔只能哭。git 不一样：你每提交一次，它就<strong>悄悄给整个项目拍一张快照，存成一个版本</strong>，还记下"谁、啥时候、改了啥"。所有这些版本<strong>都躺在 GitHub 云端</strong>——哪天你手抖删错、改砸了，随时能翻回到以前任何一个版本。</p>
+      <div class="fig">
+        <svg viewBox="0 0 640 250" role="img" aria-label="git 版本历史时间线">
+          <rect x="118" y="14" width="404" height="40" fill="#eaf6ff" stroke="#000" stroke-width="2.5"/>
+          <text x="320" y="39" text-anchor="middle" class="st" font-size="13" fill="#1f7fc0">☁️ 每个版本都存在 GitHub 云端 · 删错改砸都能找回</text>
+          <line x1="80" y1="150" x2="560" y2="150" stroke="#000" stroke-width="4"/>
+          <g><circle cx="110" cy="150" r="24" fill="#FFDE59" stroke="#000" stroke-width="3"/><text x="110" y="157" text-anchor="middle" class="st" font-size="15">v1</text><text x="110" y="192" text-anchor="middle" class="sx" font-size="12">📄 初稿</text></g>
+          <g><circle cx="250" cy="150" r="24" fill="#CB6CE6" stroke="#000" stroke-width="3"/><text x="250" y="157" text-anchor="middle" class="st" font-size="15" fill="#fff">v2</text><text x="250" y="192" text-anchor="middle" class="sx" font-size="12">➕ 加第3章</text></g>
+          <g><circle cx="390" cy="150" r="24" fill="#38B6FF" stroke="#000" stroke-width="3"/><text x="390" y="157" text-anchor="middle" class="st" font-size="15">v3</text><text x="390" y="192" text-anchor="middle" class="sx" font-size="12">✏️ 改价格</text></g>
+          <g><circle cx="530" cy="150" r="26" fill="#34c759" stroke="#000" stroke-width="3"/><text x="530" y="157" text-anchor="middle" class="st" font-size="14" fill="#fff">现在</text><text x="530" y="194" text-anchor="middle" class="sx" font-size="12">⭐ 最新</text></g>
+          <line x1="530" y1="220" x2="112" y2="220" stroke="#ff5757" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#vb)"/>
+          <text x="320" y="240" text-anchor="middle" class="st" font-size="13" fill="#ff5757">想跳回任何一个旧版本，都行 ←</text>
+          <defs><marker id="vb" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#ff5757"/></marker></defs>
+        </svg>
+      </div>
+      <p class="figcap">这就是为什么公司的东西放 git / GitHub 上最安全——它不是"覆盖式保存"，而是"每一版都留底、全存云端"。你几乎不可能真把东西弄丢。</p>
+
+      <h3 class="sec">🗯 AI 老爱跟你蹦这些词，我先翻成人话</h3>
+      <p class="story">下面这些英文词，你早晚会听到 Claude 或同事说。<strong>你不用会用，先能听懂就行</strong>——记我这版人话，别去看那些绕的专业解释：</p>
+      <table class="jargon">
+        <tr><td class="en">repo<small>仓库 repository</small></td><td class="cn">就是<strong>一个项目的文件夹</strong>（连同它的全部历史）。比如咱们的网站项目就是一个 repo。</td></tr>
+        <tr><td class="en">clone<small>克隆</small></td><td class="cn"><strong>第一次把网上的项目整个拷到你电脑</strong>。一个项目只做一次，之后就用 pull 更新。（下一节细讲）</td></tr>
+        <tr><td class="en">commit<small>提交</small></td><td class="cn"><strong>存个档、拍张快照</strong>，顺手写一句"我这次改了啥"。像游戏存档点。</td></tr>
+        <tr><td class="en">push<small>推送</small></td><td class="cn">把你电脑上的改动<strong>"交上去"到 GitHub</strong>。交了，同事才看得到。</td></tr>
+        <tr><td class="en">pull<small>拉取</small></td><td class="cn">把 GitHub 上别人的新改动<strong>"取下来"到你电脑</strong>。开工前先取，免得用的是旧的。</td></tr>
+        <tr><td class="en">branch<small>分支</small></td><td class="cn">你自己的<strong>一份副本</strong>，随便改，不影响别人。（L2 细讲）</td></tr>
+        <tr><td class="en">main<small>主分支 / 旧称 master</small></td><td class="cn"><strong>正式版那条线</strong>。有些老项目叫 master，一个意思。默认别直接动它。</td></tr>
+        <tr><td class="en">PR<small>Pull Request</small></td><td class="cn">"我改完了，<strong>请你看一眼再合并</strong>"的一个申请。给同事 review 用的。</td></tr>
+        <tr><td class="en">merge<small>合并</small></td><td class="cn">PR 通过后，把你的改动<strong>正式并进 main</strong>。到这一步你的活儿才算"进了正式版"。</td></tr>
+      </table>
+      <p class="story" style="font-size:14px;color:var(--slate);">看不懂没关系，这张表你随时能翻回来。下面真正干活的时候，你会发现——<strong style="background:none;">这些你一个都不用自己敲</strong>。</p>
+
+      <h3 class="sec">🔌 最最开始：怎么把项目弄到你电脑上（一个项目只做一次）</h3>
+      <div class="scene"><span class="sl">新人第一个真问题</span>"项目在 GitHub 网上，我电脑里啥都没有，我改个锤子？"<br>对，所以你上手的<strong>第一件事</strong>不是改文件，是先把整个项目<strong>从网上拷一份到你电脑</strong>——这个动作叫 <strong>clone（克隆）</strong>。同一个项目这辈子只 clone 一次，之后每天开工用 pull 更新就行。</div>
+      <div class="fig">
+        <svg viewBox="0 0 640 210" role="img" aria-label="第一次 clone 把项目拷到电脑">
+          <rect x="392" y="40" width="220" height="120" fill="#000"/>
+          <rect x="386" y="34" width="220" height="120" fill="#fff" stroke="#000" stroke-width="3"/>
+          <text x="496" y="74" text-anchor="middle" font-size="30">☁️</text>
+          <text x="496" y="104" text-anchor="middle" class="st" font-size="15" fill="#1f7fc0">GitHub 上的项目</text>
+          <text x="496" y="128" text-anchor="middle" class="sx" font-size="12" fill="#5b6172">同事已经建好、在那放着</text>
+          <rect x="34" y="40" width="220" height="120" fill="#000"/>
+          <rect x="28" y="34" width="220" height="120" fill="#fff7ec" stroke="#000" stroke-width="3"/>
+          <text x="138" y="74" text-anchor="middle" font-size="30">💻</text>
+          <text x="138" y="104" text-anchor="middle" class="st" font-size="15">你的电脑</text>
+          <text x="138" y="128" text-anchor="middle" class="sx" font-size="12" fill="#5b6172">本来空的 → clone 后有了</text>
+          <line x1="380" y1="94" x2="262" y2="94" stroke="#CB6CE6" stroke-width="6" marker-end="url(#cl)"/>
+          <text x="320" y="80" text-anchor="middle" class="st" font-size="14" fill="#9a3fb8">clone 克隆</text>
+          <text x="320" y="184" text-anchor="middle" class="sm" font-size="12" fill="#5b6172">第一次：整个项目拷到你电脑 · 一个项目只做一次</text>
+          <defs><marker id="cl" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#CB6CE6"/></marker></defs>
+        </svg>
+      </div>
+      <p class="story">所以你入职的起步三步是：<br>1️⃣ <strong>注册 / 登录 GitHub 账号</strong>，把账号给同事，请他把你<strong>拉进项目</strong>（不然你没权限）。<br>2️⃣ 让 Claude 帮你 clone：对它说下面这句。<br>3️⃣ clone 完，项目就在你电脑上了，以后才谈"改文件"。</p>
+      <div class="say"><span class="lab">第一次</span><span class="txt">帮我把 XX 项目 clone 到我电脑上</span><button class="cp" data-copy="帮我把这个项目 clone 到我电脑上">复制</button></div>
+
+      <h3 class="sec">🗣 项目到电脑后，日常干活只要对 Claude 说两句话</h3>
+      <p class="story">上面那堆词，全是 Claude 的活儿。你只管用大白话告诉它"我开工了 / 我弄完了"，它替你把那些命令跑掉：</p>
+      <div class="say"><span class="lab">开工时</span><span class="txt">帮我拉最新，开个今天的分支</span><button class="cp" data-copy="帮我拉最新，开个今天的分支">复制</button></div>
+      <div class="say"><span class="lab">弄完时</span><span class="txt">帮我提交，开个 PR @我的 review 人</span><button class="cp" data-copy="帮我提交，开个 PR">复制</button></div>
+
+      <h3 class="sec">🗺 你改的东西，要"走 4 站"才算交出去</h3>
+      <p class="story">你可能以为"我改完保存就完事了"。其实你的东西要走完下面这趟车，才算真的交到公司手里——而且最容易栽的坑就在中间那条红线：</p>
+      <div class="fig">
+        <svg viewBox="0 0 640 230" role="img" aria-label="一次提交的 4 站旅程图">
+          <rect x="20" y="40" width="300" height="120" fill="#fff" stroke="#000" stroke-width="2"/>
+          <rect x="320" y="40" width="300" height="120" fill="#eaf6ff" stroke="#000" stroke-width="2"/>
+          <text x="170" y="60" text-anchor="middle" class="sm" font-size="13" fill="#5b6172">📍 还在你电脑（别人看不到）</text>
+          <text x="470" y="60" text-anchor="middle" class="sm" font-size="13" fill="#1f7fc0">☁️ 已上 GitHub（全公司看得到）</text>
+          <line x1="320" y1="34" x2="320" y2="170" stroke="#ff5757" stroke-width="3" stroke-dasharray="7 5"/>
+          <text x="320" y="186" text-anchor="middle" class="st" font-size="13" fill="#ff5757">↑ 交出去的分界线</text>
+          <line x1="90" y1="105" x2="550" y2="105" stroke="#000" stroke-width="3"/>
+          <g><circle cx="90" cy="105" r="26" fill="#FFDE59" stroke="#000" stroke-width="3"/><text x="90" y="112" text-anchor="middle" font-size="22">📝</text><text x="90" y="152" text-anchor="middle" class="st" font-size="13">改+保存</text></g>
+          <g><circle cx="240" cy="105" r="26" fill="#CB6CE6" stroke="#000" stroke-width="3"/><text x="240" y="112" text-anchor="middle" font-size="22">📦</text><text x="240" y="152" text-anchor="middle" class="st" font-size="13">提交commit</text></g>
+          <g><circle cx="400" cy="105" r="26" fill="#34c759" stroke="#000" stroke-width="3"/><text x="400" y="112" text-anchor="middle" font-size="22">🚀</text><text x="400" y="152" text-anchor="middle" class="st" font-size="13">推送push</text></g>
+          <g><circle cx="550" cy="105" r="26" fill="#38B6FF" stroke="#000" stroke-width="3"/><text x="550" y="112" text-anchor="middle" font-size="22">🙋</text><text x="550" y="152" text-anchor="middle" class="st" font-size="13">开PR请人看</text></g>
+        </svg>
+      </div>
+      <p class="figcap">注意中间那条红色虚线：前两站（改、提交），东西还窝在你自己电脑里，<b>谁都看不见</b>；一定要坐到第 3 站「推送 push」，过了红线，同事和老板才看得到。这就是新人最常踩的坑——以为保存了 = 交了。</p>
+
+      <h3 class="sec">✅ push 完心里没底？这样确认它真上去了</h3>
+      <p class="story">新人 push 完最常问"它…成了吗？"。别靠感觉，<strong>去 GitHub 网页眼见为实</strong>：</p>
+      <div class="aha">打开浏览器 → 进你们项目的 GitHub 页面 → 看到<strong>你刚写的那句改动说明</strong>、时间是"几秒前 / just now"、作者是你 → ✅ 成了。<br>看不到？大概率是<strong>没 push</strong>（只 commit 了）或<strong>没开 PR</strong>。直接问 Claude："我刚才的改动 push 上去了吗？帮我确认下。"</div>
+
+      <div style="background:#eefcf2;border:var(--border-sm);padding:12px 14px;margin-top:8px;font-size:14px;line-height:1.7;">
+        ✅ <strong>这一级你不用全记住</strong>。只要：知道 git=工具 / GitHub=网站、第一次要 clone、那张黑话表能翻回来看，再让 Buddy 陪你跑通一次"两句话"，就过关了。
+      </div>
+    </div>
+
+    <div class="quiz" data-quiz="0">
+      <div class="qh">L0 自测</div>
+      <div class="qq">git 和 GitHub 的区别，下面哪个说法对？</div>
+      <button class="opt">它俩是一个东西，两个名字</button>
+      <button class="opt" data-correct="1">git 是你电脑上的工具（后悔药），GitHub 是网上大家一起放东西的网站</button>
+      <button class="opt">git 是网站，GitHub 是手机 App</button>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="navbtns"><button disabled>← 上一级</button><button class="next" data-go="1">下一级：东西到底在哪 →</button></div>
+  </div>
+
+  <!-- ===== L1 ===== -->
+  <div class="panel" data-panel="1">
+    <div class="card">
+      <span class="when">📅 上手几天后，开始纳闷"我明明改了，同事怎么说没看到"</span>
+      <h2 class="ptitle">L1 · 本地 vs 云端（最重要的一级）</h2>
+
+      <div class="scene"><span class="sl">这事八成会发生在你身上</span>你周五下午改完课程大纲，Ctrl+S 存好，信心满满跟同事说"我弄完了，你打开看看"。<br>结果同事打开一看——啥都没变，还是老样子。你俩面面相觑。<br>不是你电脑坏了，也不是同事眼神不好。是 git 有个让<strong>每个新人都栽一次</strong>的设定 👇</div>
+
+      <p class="lead">同一份大纲，其实有两份：一份在你电脑里，一份在 GitHub 上。<br>它俩不会自己同步。</p>
+
+      <h3 class="sec">🖼 看这张图就懂了</h3>
+      <div class="fig">
+        <svg viewBox="0 0 640 250" role="img" aria-label="本地电脑与 GitHub 云端两份拷贝示意图">
+          <rect x="34" y="54" width="220" height="150" fill="#000"/>
+          <rect x="28" y="48" width="220" height="150" fill="#fff" stroke="#000" stroke-width="3"/>
+          <text x="138" y="86" text-anchor="middle" font-size="34">💻</text>
+          <text x="138" y="120" text-anchor="middle" class="st" font-size="16">你的电脑</text>
+          <text x="138" y="144" text-anchor="middle" class="sx" font-size="12" fill="#5b6172">= 你的草稿桌</text>
+          <text x="138" y="166" text-anchor="middle" class="sx" font-size="12" fill="#5b6172">只有你看得到</text>
+          <rect x="398" y="54" width="220" height="150" fill="#000"/>
+          <rect x="392" y="48" width="220" height="150" fill="#fff" stroke="#000" stroke-width="3"/>
+          <text x="502" y="86" text-anchor="middle" font-size="34">☁️</text>
+          <text x="502" y="120" text-anchor="middle" class="st" font-size="16" fill="#1f7fc0">GitHub</text>
+          <text x="502" y="144" text-anchor="middle" class="sx" font-size="12" fill="#5b6172">= 公司档案室</text>
+          <text x="502" y="166" text-anchor="middle" class="sx" font-size="12" fill="#5b6172">全公司看得到</text>
+          <line x1="256" y1="98" x2="384" y2="98" stroke="#34c759" stroke-width="5" marker-end="url(#ag)"/>
+          <text x="320" y="88" text-anchor="middle" class="st" font-size="13" fill="#239a45">push 推送 ↑ 交上去</text>
+          <line x1="384" y1="150" x2="256" y2="150" stroke="#38B6FF" stroke-width="5" marker-end="url(#ab)"/>
+          <text x="320" y="172" text-anchor="middle" class="st" font-size="13" fill="#1f7fc0">pull 拉取 ↓ 取下来</text>
+          <defs>
+            <marker id="ag" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#34c759"/></marker>
+            <marker id="ab" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#38B6FF"/></marker>
+          </defs>
+          <text x="320" y="232" text-anchor="middle" class="sm" font-size="12" fill="#5b6172">东西不会自己跑过去——你说 push 才上去，说 pull 才下来</text>
+        </svg>
+      </div>
+      <p class="figcap">所以你那次"白存了"，是因为东西只待在左边（你电脑），你没做那个绿色的 push 把它交到右边（GitHub）。同事看的是右边——右边没有，他当然看不到。</p>
+
+      <h3 class="sec">🚗 为什么不能像网盘那样自动同步？</h3>
+      <p class="story">你肯定想问：网盘改完自己就传上去了，多省心，git 干嘛非要我手动？<br>因为 git 觉得<strong>"自动"太危险</strong>——万一你和同事同时改同一个文件，自动同步会"咣"一下把其中一个人的活儿盖没了，还没人发现。所以它故意改成手动：<strong>你不亲口说一声"传上去"，它就一直憋着，搁你电脑里不动。</strong>多按一下，换来谁的活儿都不会被悄悄覆盖。</p>
+      <div class="vs">
+        <div class="vscard auto"><div class="vh">📁 普通网盘</div><div class="vl">改完自动同步，省心</div><div class="vl">⚠️ 但可能默默盖掉别人的改动</div></div>
+        <div class="vscard manual"><div class="vh">🔧 git（手动）</div><div class="vl">你说"传"才传、"取"才取</div><div class="vl">✅ 每一步看得见，不误伤队友</div></div>
+      </div>
+
+      <h3 class="sec">🎮 自己点点看：东西到底去哪边</h3>
+      <p class="story">光看不够，你点几下就有感觉了——看那个"大纲.md"文件，在你点按钮时怎么从左边跑到右边：</p>
+      <div class="diag">
+        <div class="boxes">
+          <div class="box local"><div class="bt">💻 你的电脑</div><div class="bs">草稿桌 · 只有你看得到</div><div class="files" id="localFiles"></div></div>
+          <div class="channel"><span class="arrow">push →</span><span class="arrow">← pull</span></div>
+          <div class="box cloud"><div class="bt">☁️ GitHub</div><div class="bs">档案室 · 全公司看得到</div><div class="files" id="cloudFiles"></div></div>
+        </div>
+        <div class="diagctl">
+          <button class="b-save" id="bSave">① 改文件 + Ctrl+S</button>
+          <button class="b-push" id="bPush">② push 推送</button>
+          <button class="b-pull" id="bPull">③ pull 拉取</button>
+          <button class="b-reset" id="bReset">重置</button>
+        </div>
+        <div class="diagmsg" id="diagMsg">👆 先点①，看文件出现在哪边；再点②，看它怎么跑到右边去。</div>
+      </div>
+
+      <h3 class="sec">⚠️ 两个所有人都犯过的误会（点开看）</h3>
+      <div class="myth">
+        <div class="q"><span class="x">误会①</span> "我 Ctrl+S 保存了，就等于交上去了"</div>
+        <div class="hint">点一下展开</div>
+        <div class="a">❌ 保存只是把东西留在<strong>你自己电脑</strong>里。别人、老板、线上网站，统统看不到。一定要 push（推上去），才算真交。<span class="kou">记住：保存在电脑 ≠ 交到公司</span></div>
+      </div>
+      <div class="myth">
+        <div class="q"><span class="x">误会②</span> "我电脑上看到的，肯定是最新版"</div>
+        <div class="hint">点一下展开</div>
+        <div class="a">❌ 别人昨天改了 GitHub 上那份，你电脑里这份还是旧的。所以<strong>开工前先 pull 一下</strong>，把最新的取下来，别在过期版本上白忙活。<span class="kou">记住：开工先拉，收工再推</span></div>
+      </div>
+    </div>
+
+    <div class="quiz" data-quiz="1">
+      <div class="qh">L1 关键题（答对才算真懂）</div>
+      <div class="qq">你改完大纲、Ctrl+S 存了，但还没做别的。同事现在打开 GitHub，看得到你的修改吗？</div>
+      <button class="opt">看得到，存了就上去了</button>
+      <button class="opt" data-correct="1">看不到——东西还在我电脑里，没 push 上去</button>
+      <button class="opt">看得到一半</button>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="navbtns"><button data-go="0">← L0</button><button class="next" data-go="2">下一级：跟人一起改 →</button></div>
+  </div>
+
+  <!-- ===== L2 ===== -->
+  <div class="panel" data-panel="2">
+    <div class="card">
+      <span class="when">📅 当你发现，这个项目不止你一个人在改</span>
+      <h2 class="ptitle">L2 · 怎么跟人一起改</h2>
+
+      <div class="scene"><span class="sl">第二个坎</span>用了几天你会意识到：这项目好多人都在改。问题立刻来了——大家都往同一份文件上招呼，不就乱套、互相覆盖了吗？<br>git 的解法挺聪明：<strong>每个人先各自复制一份去改，谁也不碰谁，改好了再合到一起。</strong>这份你自己的副本，就是 L0 表里那个词——"分支"。</div>
+
+      <h3 class="sec">🌳 分支：先在自己的副本上改，改好再合回正式版</h3>
+      <div class="fig">
+        <svg viewBox="0 0 640 240" role="img" aria-label="分支从 main 主干岔出再合并回去的树状图">
+          <line x1="40" y1="180" x2="600" y2="180" stroke="#000" stroke-width="5"/>
+          <text x="40" y="212" class="st" font-size="14">main = 正式版（大家共用，别直接动它）</text>
+          <circle cx="110" cy="180" r="9" fill="#000"/>
+          <circle cx="560" cy="180" r="11" fill="#34c759" stroke="#000" stroke-width="3"/>
+          <path d="M170,180 C200,180 200,90 240,90 L420,90 C460,90 460,180 500,180" fill="none" stroke="#CB6CE6" stroke-width="5"/>
+          <circle cx="290" cy="90" r="9" fill="#CB6CE6" stroke="#000" stroke-width="2.5"/>
+          <circle cx="370" cy="90" r="9" fill="#CB6CE6" stroke="#000" stroke-width="2.5"/>
+          <text x="330" y="64" text-anchor="middle" class="st" font-size="14" fill="#9a3fb8">你的分支（自己的副本，改坏也不影响别人）</text>
+          <rect x="438" y="120" width="155" height="34" fill="#FFDE59" stroke="#000" stroke-width="2.5"/>
+          <text x="515" y="142" text-anchor="middle" class="st" font-size="12.5">PR：请人看→合并回去</text>
+        </svg>
+      </div>
+      <p class="figcap">黑线是 main（公司的正式版）。你不直接在它上面改，而是从它岔出一条紫线（你的分支）去改；改好了，发一个 PR 请同事看一眼，没问题就合回黑线。这样大家各改各的，最后干干净净汇到一起。</p>
+
+      <h3 class="sec">💥 "冲突"听着吓人，其实就是 git 在问你"听谁的"</h3>
+      <div class="fig">
+        <svg viewBox="0 0 640 210" role="img" aria-label="两人改同一行产生冲突，git 询问听谁的">
+          <rect x="34" y="40" width="200" height="70" fill="#fff" stroke="#000" stroke-width="3"/>
+          <text x="50" y="68" font-size="22">👩</text>
+          <text x="84" y="64" class="st" font-size="13">同事 A 改第 5 行</text>
+          <text x="84" y="92" class="sm" font-size="13" fill="#ff5757">"周五开课"</text>
+          <rect x="34" y="120" width="200" height="70" fill="#fff" stroke="#000" stroke-width="3"/>
+          <text x="50" y="148" font-size="22">🧑</text>
+          <text x="84" y="144" class="st" font-size="13">你也改了第 5 行</text>
+          <text x="84" y="172" class="sm" font-size="13" fill="#1f7fc0">"周六开课"</text>
+          <line x1="234" y1="80" x2="360" y2="105" stroke="#000" stroke-width="3" marker-end="url(#ak)"/>
+          <line x1="234" y1="150" x2="360" y2="115" stroke="#000" stroke-width="3" marker-end="url(#ak)"/>
+          <defs><marker id="ak" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#000"/></marker></defs>
+          <rect x="372" y="62" width="234" height="90" fill="#10162f" stroke="#000" stroke-width="3"/>
+          <text x="489" y="96" text-anchor="middle" font-size="24">🤖</text>
+          <text x="489" y="122" text-anchor="middle" class="st" font-size="15" fill="#FFDE59">git：这俩不一样，听谁的？</text>
+          <text x="489" y="143" text-anchor="middle" class="sx" font-size="12" fill="#fff">→ 不是事故，叫人一起定就行</text>
+        </svg>
+      </div>
+      <p class="story">你迟早会看到"冲突 conflict"这个词，第一反应肯定是"完了，我把项目搞坏了"。<strong>真没有。</strong>冲突就是上图这么回事：你和同事不约而同改了同一行，git 一看傻眼了——"你俩写的不一样，我不敢替你们拍板"，于是它停下来举手叫人。这不是报错，是 git 在等你拿主意。叫上同事一起定一下就好。</p>
+
+      <h3 class="sec">🔁 我开了 PR，然后呢？（很多人卡在这）</h3>
+      <div class="scene"><span class="sl">真实困惑</span>"PR 开完了，我是不是就没事了？要一直刷新等吗？"——不是干等，它是个<strong>小循环</strong>：</div>
+      <div class="fig">
+        <svg viewBox="0 0 640 180" role="img" aria-label="PR 之后的 review 循环">
+          <rect x="20" y="60" width="120" height="56" fill="#FFDE59" stroke="#000" stroke-width="3"/>
+          <text x="80" y="84" text-anchor="middle" class="st" font-size="13">① 你开 PR</text>
+          <text x="80" y="103" text-anchor="middle" class="sx" font-size="11">@ 上同事</text>
+          <rect x="180" y="60" width="120" height="56" fill="#fff" stroke="#000" stroke-width="3"/>
+          <text x="240" y="84" text-anchor="middle" class="st" font-size="13">② 同事 review</text>
+          <text x="240" y="103" text-anchor="middle" class="sx" font-size="11">提意见 / 通过</text>
+          <rect x="340" y="60" width="120" height="56" fill="#fff" stroke="#000" stroke-width="3"/>
+          <text x="400" y="80" text-anchor="middle" class="st" font-size="12.5">③ 要改？</text>
+          <text x="400" y="100" text-anchor="middle" class="sx" font-size="11">改完再 push</text>
+          <rect x="500" y="60" width="120" height="56" fill="#34c759" stroke="#000" stroke-width="3"/>
+          <text x="560" y="84" text-anchor="middle" class="st" font-size="13" fill="#fff">④ 合并 merge</text>
+          <text x="560" y="103" text-anchor="middle" class="sx" font-size="11" fill="#fff">进正式版✓</text>
+          <line x1="140" y1="88" x2="176" y2="88" stroke="#000" stroke-width="3" marker-end="url(#pr1)"/>
+          <line x1="300" y1="88" x2="336" y2="88" stroke="#000" stroke-width="3" marker-end="url(#pr1)"/>
+          <line x1="460" y1="88" x2="496" y2="88" stroke="#000" stroke-width="3" marker-end="url(#pr1)"/>
+          <path d="M400,116 C400,150 240,150 240,118" fill="none" stroke="#ff5757" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#pr2)"/>
+          <text x="320" y="170" text-anchor="middle" class="sm" font-size="11" fill="#ff5757">有意见就改了再推，回到第②步，直到通过</text>
+          <defs>
+            <marker id="pr1" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#000"/></marker>
+            <marker id="pr2" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#ff5757"/></marker>
+          </defs>
+        </svg>
+      </div>
+      <p class="story">所以开完 PR 你<strong>不用干等</strong>：同事看完会 @ 你。如果他说"这里改一下"，你<strong>在同一个分支改了、再 push 一次，PR 会自动更新</strong>，不用重开。来回几轮直到他点通过、合并(merge)，你这次活儿才真进了正式版。被要求改不丢人，这就是正常流程。</p>
+
+      <p class="glossary">📌 <b>名词混了就回来瞄一眼</b>：main = 正式版 · 分支 = 你的副本 · 提交(commit) = 存个档 · PR = 请人看了再合并 · 合并(merge) = 把你的改动并进正式版。</p>
+    </div>
+
+    <div class="quiz" data-quiz="2">
+      <div class="qh">L2 自测</div>
+      <div class="qq">看那张分支图——为什么大家不直接在 main 上改，要各开各的分支？</div>
+      <button class="opt" data-correct="1">main 是全公司的正式版，分支是自己的副本，改坏也不影响别人，最后再合回去</button>
+      <button class="opt">没区别，纯粹是工程师讲究</button>
+      <button class="opt">分支跑得更快</button>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="navbtns"><button data-go="1">← L1</button><button class="next" data-go="3">下一级：出事了怎么办 →</button></div>
+  </div>
+
+  <!-- ===== L3 ===== -->
+  <div class="panel" data-panel="3">
+    <div class="card">
+      <span class="when">📅 某天满屏红字弹出来，你心里一紧的时候</span>
+      <h2 class="ptitle">L3 · 出事不慌</h2>
+
+      <div class="scene"><span class="sl">总有这么一天</span>你会突然看到满屏红字，心里咯噔一下——"我是不是把公司项目搞炸了？"<br>先深呼吸。<strong>99% 的情况你啥也没炸。</strong>真正会把事情搞大的，往往是慌乱中乱点。所以你只要记住一件事：<strong>出事别自己硬刚，叫人。</strong></div>
+
+      <h3 class="sec">🚦 看到报错，往哪条路走？</h3>
+      <div class="fig">
+        <svg viewBox="0 0 640 200" role="img" aria-label="遇到报错的正确与错误处理路径">
+          <rect x="200" y="20" width="240" height="46" fill="#FFDE59" stroke="#000" stroke-width="3"/>
+          <text x="320" y="49" text-anchor="middle" class="st" font-size="15">😱 看到红色报错 / 冲突</text>
+          <line x1="280" y1="66" x2="150" y2="110" stroke="#000" stroke-width="3" marker-end="url(#aw)"/>
+          <rect x="30" y="112" width="240" height="64" fill="#fff0f0" stroke="#ff5757" stroke-width="3"/>
+          <text x="150" y="138" text-anchor="middle" class="st" font-size="14" fill="#c0392b">❌ 自己瞎点 / 强行覆盖</text>
+          <text x="150" y="160" text-anchor="middle" class="sx" font-size="12" fill="#c0392b">→ 可能弄丢别人的工作</text>
+          <line x1="360" y1="66" x2="490" y2="110" stroke="#000" stroke-width="3" marker-end="url(#aw)"/>
+          <rect x="370" y="112" width="240" height="64" fill="#eefcf2" stroke="#34c759" stroke-width="3"/>
+          <text x="490" y="138" text-anchor="middle" class="st" font-size="14" fill="#1f7a3a">✅ 截图发群 / 问 Claude</text>
+          <text x="490" y="160" text-anchor="middle" class="sx" font-size="12" fill="#1f7a3a">→ 等人帮看，最安全</text>
+          <defs><marker id="aw" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#000"/></marker></defs>
+        </svg>
+      </div>
+      <p class="story">就这么简单：<strong>慌的时候走右边</strong>。把屏幕整个截下来，发工作群，写一句"我刚做了 XX，冒出来这个"，等人帮你看。或者直接问 Claude"这是啥意思、我该怎么办"。千万别走左边自己乱试。</p>
+
+      <h3 class="sec">🚫 3 条红线（背下来，比啥都管用）</h3>
+      <div class="redline bad"><span class="ic">❌</span><div>不在 <strong>main</strong>（正式版）上直接改</div></div>
+      <div class="redline bad"><span class="ic">❌</span><div>看到报错 / 冲突<strong>别硬来</strong>，截图发群叫人</div></div>
+      <div class="redline bad"><span class="ic">❌</span><div>别人教你的"强行覆盖（force push）"、"删分支"——<strong>没人盯着别自己点</strong></div></div>
+      <div class="redline good"><span class="ic">✅</span><div>迷路了就问 Claude：<span class="mono">"我现在在哪个分支？改了什么？帮我看看"</span></div></div>
+
+      <h3 class="sec">🙅 还有：这些东西千万别往 git 里塞</h3>
+      <p class="story">GitHub 是<strong>给文字 / 代码 / 文档</strong>用的，而且一旦 push 上去，<strong>历史里就洗不掉了</strong>（哪怕你后来删了，旧版本还留着）。所以这几类东西不要往里放：</p>
+      <div class="redline bad"><span class="ic">🔑</span><div><strong>密码 / 密钥 / token / API key</strong> —— 等于公开挂网上，最危险。要用问同事怎么走安全方式。</div></div>
+      <div class="redline bad"><span class="ic">🧑</span><div><strong>客户名单 / 学员隐私 / 身份证 / 简历 / 薪资</strong> —— 个人信息进 git 是合规事故，放该放的系统（如 Notion / 后台）。</div></div>
+      <div class="redline bad"><span class="ic">🎬</span><div><strong>大文件：视频 / 大图 / 几百 MB 的素材</strong> —— git 扛不动会拖垮整个项目，用网盘 / S3 放。</div></div>
+      <div class="redline good"><span class="ic">🤔</span><div>不确定"这个能不能放"？—— <strong>先别 push，问一句</strong>。push 前问一句 = 0 成本；push 错了再清 = 大麻烦。</div></div>
+    </div>
+
+    <div class="quiz" data-quiz="3">
+      <div class="qh">L3 最后一题</div>
+      <div class="qq">满屏红字冒出来，你该走哪条路？</div>
+      <button class="opt">左边——自己一通乱点，把红字点掉</button>
+      <button class="opt" data-correct="1">右边——截图发群叫人，或问 Claude 这是咋回事</button>
+      <button class="opt">直接强行覆盖盖过去</button>
+      <div class="feedback"></div>
+    </div>
+
+    <div class="navbtns"><button data-go="2">← L2</button><button class="next" disabled>已是最后一级</button></div>
+  </div>
+
+  <div class="finale" id="finale">
+    <div class="badge">🎓</div>
+    <h2>4 级全部通关！</h2>
+    <p>现在你知道 git 是后悔药工具、GitHub 是共享网盘，懂了东西在哪、怎么跟人一起改、出事怎么办。<br>剩下那些命令——放心交给 Claude Code。</p>
+    <button class="resetall" id="resetAll">清空进度，重新学一遍</button>
+  </div>
+
+  <div class="foot">匠人学院内部学习资料 · 仅供员工 · 视觉走 brand v5 · 配套 PRD: GIT_GITHUB_ONBOARDING_TRAINING_PRD.md</div>
+</div>
+
+<script>
+(function(){
+  var KEY='jr-git-onboarding-progress';
+  var done={};
+  try{done=JSON.parse(localStorage.getItem(KEY)||'{}');}catch(e){done={};}
+
+  var nav=document.getElementById('nav');
+  var navBtns=[].slice.call(nav.querySelectorAll('button'));
+  var panels=[].slice.call(document.querySelectorAll('.panel'));
+
+  function showLevel(lv){
+    navBtns.forEach(function(b){b.classList.toggle('active',+b.dataset.lv===lv);});
+    panels.forEach(function(p){p.classList.toggle('show',+p.dataset.panel===lv);});
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+  navBtns.forEach(function(b){b.addEventListener('click',function(){showLevel(+b.dataset.lv);});});
+  document.querySelectorAll('[data-go]').forEach(function(b){
+    b.addEventListener('click',function(){if(!b.disabled)showLevel(+b.dataset.go);});
+  });
+
+  function render(){
+    var n=Object.keys(done).filter(function(k){return done[k];}).length;
+    var pct=Math.round(n/4*100);
+    document.getElementById('pfill').style.width=pct+'%';
+    document.getElementById('ppct').textContent=pct+'%';
+    navBtns.forEach(function(b){b.classList.toggle('done',!!done[b.dataset.lv]);});
+    document.getElementById('finale').classList.toggle('show',n===4);
+  }
+  function markDone(lv){done[lv]=true;localStorage.setItem(KEY,JSON.stringify(done));render();}
+
+  document.querySelectorAll('.cp').forEach(function(b){
+    b.addEventListener('click',function(){
+      navigator.clipboard&&navigator.clipboard.writeText(b.dataset.copy);
+      var t=b.textContent;b.textContent='已复制 ✓';setTimeout(function(){b.textContent=t;},1200);
+    });
+  });
+
+  var localF=document.getElementById('localFiles'),cloudF=document.getElementById('cloudFiles'),dmsg=document.getElementById('diagMsg');
+  var state={saved:false,pushed:false};
+  function chip(){var e=document.createElement('span');e.className='file';e.textContent='大纲.md';return e;}
+  function renderDiag(){localF.innerHTML='';cloudF.innerHTML='';if(state.saved)localF.appendChild(chip());if(state.pushed)cloudF.appendChild(chip());}
+  document.getElementById('bSave').addEventListener('click',function(){state.saved=true;renderDiag();dmsg.textContent='① 你改完保存了。文件出现在左边【你的电脑】。⚠️ 右边 GitHub 还是空的——同事现在看不到！';});
+  document.getElementById('bPush').addEventListener('click',function(){if(!state.saved){dmsg.textContent='要先点①改文件保存，才有东西可以 push 呀。';return;}state.pushed=true;renderDiag();dmsg.textContent='② push 成功！文件跑到右边【GitHub】了 = 交进了公司档案室，现在全公司都看得到。这一步才叫"真交了"。';});
+  document.getElementById('bPull').addEventListener('click',function(){dmsg.textContent='③ pull = 把右边别人的新改动取下来，放回你左边的草稿桌。开工前先做这步，免得用的是旧版本。';});
+  document.getElementById('bReset').addEventListener('click',function(){state={saved:false,pushed:false};renderDiag();dmsg.textContent='已重置。再点①从头试试。';});
+  renderDiag();
+
+  document.querySelectorAll('.myth').forEach(function(m){m.addEventListener('click',function(){m.classList.toggle('open');});});
+
+  document.querySelectorAll('.quiz').forEach(function(q){
+    var lv=q.dataset.quiz;
+    var opts=[].slice.call(q.querySelectorAll('.opt'));
+    var fb=q.querySelector('.feedback');
+    opts.forEach(function(o){o.addEventListener('click',function(){
+      if(o.disabled)return;
+      if(o.dataset.correct==='1'){
+        o.classList.add('correct');fb.className='feedback ok';fb.textContent='✅ 对了！就是这么回事，接着往下走。';
+        opts.forEach(function(x){x.disabled=true;});markDone(lv);
+      }else{
+        o.classList.add('wrong');fb.className='feedback no';fb.textContent='❌ 不急，回上面那张图再瞄一眼，答对就解锁这一级啦。';
+        setTimeout(function(){o.classList.remove('wrong');},900);
+      }
+    });});
+  });
+
+  document.getElementById('resetAll').addEventListener('click',function(){localStorage.removeItem(KEY);location.reload();});
+  render();
+})();
+</script>
+</body>
+</html>
