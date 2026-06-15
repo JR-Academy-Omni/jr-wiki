@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://jr-academy-ai.github.io/jr-wiki/schemas/uni-news.schema.json",
+  "$id": "https://jr-academy-omni.github.io/jr-wiki/schemas/uni-news.schema.json",
   "title": "Uni News Daily Data",
   "description": "Per-school per-day uni news data. Drives xhs-posters.html (5-poster carousel) + mp-article.html (公众号) + xhs-drafts.md + blog markdown article. Brand colors resolved from uni-brand.v1.json by school code.",
   "type": "object",

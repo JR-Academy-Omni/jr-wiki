@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://jr-academy-ai.github.io/jr-wiki/schemas/uni-events.schema.json",
+  "$id": "https://jr-academy-omni.github.io/jr-wiki/schemas/uni-events.schema.json",
   "title": "Uni Events Daily Data",
   "description": "6-school daily campus events. Drives events/{DATE}.html + xhs drafts per school. School pool fixed: umelb/unsw/uq/usyd/adelaide/monash.",
   "type": "object",
