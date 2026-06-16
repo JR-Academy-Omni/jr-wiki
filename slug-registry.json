@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-14T23:41:36.051Z",
+  "lockedAt": "2026-06-11T01:13:23.858Z",
   "version": 1,
   "slugs": [
     {
@@ -2020,6 +2020,16 @@
       "type": "chapter",
       "book": "vercel-ai-sdk-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "06-mcp-integration"
+    },
+    {
+      "type": "chapter",
+      "book": "vercel-ai-sdk-guide",
+      "slug": "07-testing-observability"
     },
     {
       "type": "chapter",
