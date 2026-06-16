@@ -65,7 +65,7 @@
 ## P4 · 长书扩章（8 章 → 10 章）
 
 ### claude-code-guide
-- [ ] claude-code-guide/09-subagent-design.md — new-chapter: Subagent 设计模式（什么时候用 / prompt 结构 / 与主对话隔离的好处）
+- [x] claude-code-guide/09-subagent-design.md — new-chapter: Subagent 设计模式（什么时候用 / prompt 结构 / 与主对话隔离的好处）
 - [ ] claude-code-guide/10-skills-system.md — new-chapter: Skills 系统实战（自定义 skill 的完整流程 + 真实例子）
 
 ### v0-guide

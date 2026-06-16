@@ -63,7 +63,7 @@ jr-wiki 是一个 **Headless 内容仓库**：
          ↓
 后端查 posts 集合，发现 source=jr-wiki 且有 contentUrl
          ↓
-fetch https://raw.githubusercontent.com/JR-Academy-AI/jr-wiki/main/src/content/articles/cursor-tips.md
+fetch https://raw.githubusercontent.com/JR-Academy-Omni/jr-wiki/main/src/content/articles/cursor-tips.md
 （带 GITHUB_TOKEN header，dev 时直接读本地文件 ../jr-wiki/src/content/articles/cursor-tips.md）
          ↓
 去掉 frontmatter → markdown 转 HTML
@@ -227,7 +227,7 @@ fetch GitHub raw .md → 去 frontmatter → markdown 转 HTML
 
 ```
 Dev:  直接读本地文件 path.resolve(cwd, '..', 'jr-wiki', contentUrl)
-Prod: fetch https://raw.githubusercontent.com/JR-Academy-AI/jr-wiki/main/{contentUrl}
+Prod: fetch https://raw.githubusercontent.com/JR-Academy-Omni/jr-wiki/main/{contentUrl}
       header: Authorization: token {GITHUB_TOKEN}
 ```
 

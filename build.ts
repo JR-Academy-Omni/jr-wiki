@@ -231,7 +231,7 @@ const manifest = {
 writeFileSync(join(DIST, 'manifest.json'), JSON.stringify(manifest, null, 2));
 
 // ─── Write robots.txt ───
-// jr-wiki GitHub Pages (jr-academy-ai.github.io/jr-wiki/*) 全站禁止爬虫。
+// jr-wiki GitHub Pages (jr-academy-omni.github.io/jr-wiki/*) 全站禁止爬虫。
 // 所有链接都是**运营内部**使用（海报下载 / 公众号发稿 / 校园活动审阅）。
 // 真正对外的公开内容（博客 / wiki / 故事）走 jiangren.com.au/*，由主站 Next.js 提供 SEO。
 
@@ -245,7 +245,7 @@ if (existsSync(STATIC)) {
 
 // ─── Expose src/data/ to GitHub Pages as /data/*.json（供牛小匠等外部 app 消费） ───
 // Copy 所有 data JSON（schemas + samples），生成 per-type index.json 汇总最新 N 条。
-// 外部 app 读 URL：https://jr-academy-ai.github.io/jr-wiki/data/uni-events/2026-04-23.json
+// 外部 app 读 URL：https://jr-academy-omni.github.io/jr-wiki/data/uni-events/2026-04-23.json
 
 const DATA_SRC = './src/data';
 const DATA_DIST = join(DIST, 'data');

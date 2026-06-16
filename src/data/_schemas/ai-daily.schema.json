@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://jr-academy-ai.github.io/jr-wiki/schemas/ai-daily.schema.json",
+  "$id": "https://jr-academy-omni.github.io/jr-wiki/schemas/ai-daily.schema.json",
   "title": "AI Daily News Data",
   "description": "Schema for a single day's AI Daily News data. Feeds the AI Daily pipeline which renders XHS posters + mp-article + blog markdown.",
   "type": "object",

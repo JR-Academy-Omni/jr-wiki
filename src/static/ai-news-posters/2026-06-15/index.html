@@ -1,0 +1,320 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-15（Canvas 版）</title>
+<meta name="description" content="2026-06-15 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-15.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-15",
+  "summary": {
+    "hook": [
+      {
+        "text": "ChatGPT Aria 超级应用"
+      },
+      {
+        "text": " · "
+      },
+      {
+        "text": "DiffusionGemma 4x"
+      },
+      {
+        "text": " · "
+      },
+      {
+        "text": "DeepMind AGI→ASI"
+      }
+    ],
+    "sub": "OpenAI最大产品变革席卷9亿用户、Google扩散模型重写生成速度上限、DeepMind绘出AGI后路线图、科罗拉多AI法倒计时15天、Meta Muse Spark接棒Llama",
+    "items": [
+      {
+        "num": "01",
+        "cat": "产品·平台",
+        "numColor": "#10a37f",
+        "t": "ChatGPT「Aria」超级应用改版，9亿用户受影响"
+      },
+      {
+        "num": "02",
+        "cat": "模型·开源",
+        "numColor": "#4285f4",
+        "t": "DiffusionGemma 26B 发布，生成速度是Gemma 4倍"
+      },
+      {
+        "num": "03",
+        "cat": "研究·安全",
+        "numColor": "#34a853",
+        "t": "DeepMind：AGI到ASI的四条路径与硬性边界"
+      },
+      {
+        "num": "04",
+        "cat": "监管·政策",
+        "numColor": "#8b5cf6",
+        "t": "科罗拉多AI法6月30日上线，白宫联邦统管角力"
+      },
+      {
+        "num": "05",
+        "cat": "模型·生态",
+        "numColor": "#f59e0b",
+        "t": "Meta Muse Spark接棒Llama登上智能眼镜"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-chatgpt-aria-super-app",
+      "idx": "01",
+      "catText": "产品 · 平台",
+      "accent": "#10a37f",
+      "bg": {
+        "top": "#022c22",
+        "mid": "#064e3b",
+        "bot": "#022c22",
+        "topRight": "#059669"
+      },
+      "title": [
+        {
+          "text": "ChatGPT「Aria」大改版"
+        },
+        {
+          "text": "：9亿用户迎史上最大产品变革",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenAI 将 ChatGPT、Codex、AI 浏览器三合一，"
+        },
+        {
+          "text": "从问答工具升级为可完成任务的超级应用",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 正在推进代号「Aria」的最大改版，将 ChatGPT 变为整合 Codex、AI Agents、图像生成与第三方服务的超级应用，影响 9 亿周活用户。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Codex 周活用户已达 500 万、6 倍增长，Aria 完成后将把编程、搜索、预订、工作流全部整合进一个入口，彻底改变 AI 工具格局。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 从业者将迎来 ChatGPT 作为企业核心入口的时代；第三方开发者有机会通过插件市场接入 9 亿用户，同时需关注数据隐私边界。"
+        }
+      ],
+      "src": "📎 techcrunch.com · gagadget.com · pcworld.com"
+    },
+    {
+      "slug": "02-diffusiongemma-26b-release",
+      "idx": "02",
+      "catText": "模型 · 开源",
+      "accent": "#4285f4",
+      "bg": {
+        "top": "#0a192f",
+        "mid": "#1e3a5f",
+        "bot": "#0a192f",
+        "topRight": "#2563eb"
+      },
+      "title": [
+        {
+          "text": "Google DiffusionGemma 26B 开源发布"
+        },
+        {
+          "text": "，生成速度达 Gemma 4 倍",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "扩散式文本生成首次规模化落地，"
+        },
+        {
+          "text": "单张 H100 超过 1000 token/秒，Apache 2.0 可商用",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google DeepMind 6 月 10 日开源 DiffusionGemma 26B，采用扩散架构（非自回归），256 token 并行生成，H100 单卡达 1000+ tok/sec，比 Gemma 快 4 倍，Apache 2.0 协议。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "扩散式文本生成打破了 GPT 系列十年自回归范式的垄断；更高速度意味着更低推理成本，本地部署 AI 变得更可行，NVIDIA 已提供 RTX 优化版本。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者现在可以用 Hugging Face / Google Cloud 免费调用；实时代码补全、低延迟聊天机器人的构建成本将大幅下降，值得立即评估。"
+        }
+      ],
+      "src": "📎 mlq.ai · marktechpost.com · blogs.nvidia.com"
+    },
+    {
+      "slug": "03-deepmind-agi-to-asi-roadmap",
+      "idx": "03",
+      "catText": "研究 · 安全",
+      "accent": "#34a853",
+      "bg": {
+        "top": "#052e16",
+        "mid": "#14532d",
+        "bot": "#052e16",
+        "topRight": "#16a34a"
+      },
+      "title": [
+        {
+          "text": "DeepMind 发布 AGI→ASI 路线图"
+        },
+        {
+          "text": "，同步砸 $1000 万押注多智能体安全",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "「超越人类之后该怎么走」——DeepMind 首次"
+        },
+        {
+          "text": "正式绘出四条通向超级智能的路径与硬性边界",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepMind 6 月 10–11 日双发：一份「From AGI to ASI」报告梳理四条路径与限制条件；同时联合 Schmidt Sciences 等宣布 1000 万美元多智能体安全研究基金。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是顶级 AI 实验室首次以正式报告讨论 AGI 后的超级智能路径；资金面对的是未来数百万 AI Agent 互相交互引发的「级联失控」风险，监管空窗已引发学界警觉。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 架构师在设计多 Agent 系统时须考虑跨组织交互安全；研究人员可申请 DeepMind+Schmidt 的基金，方向包括 Agent 协议标准化与行为可预测性。"
+        }
+      ],
+      "src": "📎 technologyreview.com · techtimes.com · deepmind.google"
+    },
+    {
+      "slug": "04-colorado-ai-act-whitehouse-federal",
+      "idx": "04",
+      "catText": "监管 · 政策",
+      "accent": "#8b5cf6",
+      "bg": {
+        "top": "#1e1b4b",
+        "mid": "#312e81",
+        "bot": "#1e1b4b",
+        "topRight": "#7c3aed"
+      },
+      "title": [
+        {
+          "text": "科罗拉多 AI 法 6月30日上线"
+        },
+        {
+          "text": "，白宫同步发 EO 要「联邦统管」",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "美国首部州级 AI 监管法案15天后生效，"
+        },
+        {
+          "text": "联邦与州政府监管权之争正式开打",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "科罗拉多 AI Act 将于 6 月 30 日正式生效，规范就业、教育、医疗、住房、金融等高风险 AI 决策系统；白宫同期发布 EO，要求联邦监管优先、挑战州法合法性。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是美国首部真正上线的高风险 AI 监管法案；若联邦-州冲突持续，企业将面临「哪个法规说了算」的合规困境，类似 GDPR 初期乱局可能重演。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "在科罗拉多运营或使用 AI 做招聘/信贷/医疗决策的企业必须立即做合规排查；澳洲企业若对接美国客户，也应关注这股监管浪潮向其他州蔓延的趋势。"
+        }
+      ],
+      "src": "📎 wsgr.com · whitehouse.gov · vorys.com"
+    },
+    {
+      "slug": "05-meta-muse-spark-llama-successor",
+      "idx": "05",
+      "catText": "模型 · 生态",
+      "accent": "#f59e0b",
+      "bg": {
+        "top": "#451a03",
+        "mid": "#78350f",
+        "bot": "#451a03",
+        "topRight": "#d97706"
+      },
+      "title": [
+        {
+          "text": "Meta Muse Spark 取代 Llama"
+        },
+        {
+          "text": "，「超级智能实验室」首款产品上眼镜",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Zuckerberg 的 Meta Superintelligence Labs 首次公开亮相，"
+        },
+        {
+          "text": "Muse 系列宣告 Llama 品牌时代落幕",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Meta 正式以 Muse Spark 替换 Meta 智能眼镜上的 Llama 4，这是 Meta Superintelligence Labs（MSL）首款公开产品；Muse 系列被定义为 Llama 的继任者。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "MSL 由 Zuckerberg 亲自组建，目标是迈向超级智能；Llama 品牌被新系列取代意味着 Meta 将从「开源领先」转向「能力优先」，开源策略或面临重大调整。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "依赖 Llama 开源模型构建产品的开发者需密切跟踪 Muse 系列的开放程度；智能眼镜赛道开始成为 AI 落地的新战场，穿戴式 AI 竞争提前引爆。"
+        }
+      ],
+      "src": "📎 uploadvr.com · ai.meta.com · en.wikipedia.org"
+    }
+  ],
+  "mp": {
+    "title": "ChatGPT超级应用Aria / DiffusionGemma 4倍提速 / DeepMind AGI路线图 / 科罗拉多AI法 / Meta Muse Spark"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-15"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>

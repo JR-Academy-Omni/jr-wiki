@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "3.0",
+  "rangeStart": "2026-06-13",
+  "rangeEnd": "2026-07-13",
+  "rangeDays": 31,
+  "generatedAt": "2026-06-13T09:00:00+10:00",
+  "countries": [
+    { "code": "GLOBAL", "label": "全球华人", "flag": "🌏" },
+    { "code": "CN", "label": "中国", "flag": "🇨🇳" },
+    { "code": "AU", "label": "澳洲", "flag": "🇦🇺" },
+    { "code": "SG", "label": "新加坡", "flag": "🇸🇬" },
+    { "code": "MY", "label": "马来西亚", "flag": "🇲🇾" },
+    { "code": "US", "label": "美国", "flag": "🇺🇸" },
+    { "code": "GB", "label": "英国", "flag": "🇬🇧" }
+  ],
+  "holidays": [
+    {
+      "date": "2026-06-15",
+      "country": "GLOBAL",
+      "name": "毕业季",
+      "nameZh": "毕业季",
+      "type": "marketing-node",
+      "emoji": "🎓",
+      "tier": "S",
+      "seasonal": true,
+      "window": "2026-06-01~2026-07-15",
+      "playbook": {
+        "audience": "应届毕业生 / 留学生 · 求职焦虑高峰 · 全年最关键的招生窗口之一",
+        "angle": "毕业 = 求职起跑线：用真实岗位 + 作品集 + 内推把『毕业即失业』焦虑变成行动",
+        "contentIdeas": [
+          "小红书：毕业了还没 offer？这份 30 天求职冲刺清单存好",
+          "公众号：2026 应届生 IT/AI 求职现状 + 真实岗位拆解",
+          "线下/线上：毕业季求职冲刺营 + 简历门诊 + 模拟面试"
+        ],
+        "productHook": "求职匠 + IT 求职 Bootcamp + 简历/面试辅导 + 内推资源",
+        "copyHooks": [
+          "毕业不是终点，是求职的发令枪",
+          "别人在投简历，你还在等运气？"
+        ],
+        "channels": ["小红书", "公众号", "线下活动", "线上讲座", "EOI 跟进"],
+        "avoid": "❌ 不承诺『包就业/保 offer』；只承诺真实岗位拆解、作品、面试训练量"
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "country": "MY",
+      "name": "Awal Muharram",
+      "localName": "Tahun Baru Hijrah",
+      "nameZh": "伊斯兰新年",
+      "type": "public-holiday",
+      "marketingNote": "伊斯兰新年联邦假 · 马来穆斯林节庆，发社群温情内容，避课程转化推送"
+    },
+    {
+      "date": "2026-06-18",
+      "country": "CN",
+      "name": "618 年中大促",
+      "nameZh": "618 年中大促",
+      "type": "marketing-node",
+      "emoji": "🛒",
+      "tier": "S",
+      "seasonal": true,
+      "window": "2026-06-01~2026-06-20",
+      "playbook": {
+        "audience": "国内有付费意愿用户 · 购物节剁手心智已被激活",
+        "angle": "全年第二大促销窗口：membership 年卡 / Bootcamp 用 618 心智集中转化",
+        "contentIdeas": [
+          "小红书：618 别只囤护肤品，给大脑也囤点货",
+          "公众号：618 学习年卡值不值 + 课程对比测评",
+          "学习群：618 限时阶梯优惠 + 老学员续费福利"
+        ],
+        "productHook": "membership 年卡 618 价 + Bootcamp 早鸟 + 课程组合包",
+        "copyHooks": ["618 最保值的一笔：投资自己", "护肤品会用完，技能不会"],
+        "channels": ["小红书", "公众号", "学习群", "销售页"],
+        "avoid": "❌ 价格必须真优惠不玩先涨后降；别堆满促销词冲淡品牌"
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "country": "CN",
+      "name": "端午节",
+      "nameZh": "端午节",
+      "type": "marketing-node",
+      "emoji": "🐉",
+      "tier": "A",
+      "seasonal": false,
+      "playbook": {
+        "audience": "全球华人 · 三天小长假 · 传统文化共鸣 + 海外华人思乡",
+        "angle": "端午安康 + 传统遇见 AI：轻文化向内容，假期不催学只陪伴",
+        "contentIdeas": [
+          "小红书：用 AI 给屈原写首诗 / AI 复原端午习俗（玩法向）",
+          "公众号：端午安康 + 海外学员怎么过端午",
+          "学习群：端午互动（包粽子/赛龙舟梗）+ 节后开课预告"
+        ],
+        "productHook": "轻挂 membership；主打品牌温度不主推转化",
+        "copyHooks": ["端午安康", "粽有牵挂，学不打烊（轻松版）"],
+        "channels": ["小红书", "公众号", "学习群"],
+        "avoid": "❌ 说『端午快乐』要谨慎，传统上多用『安康』；小长假别硬催单"
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "country": "US",
+      "name": "Juneteenth National Independence Day",
+      "localName": "Juneteenth National Independence Day",
+      "nameZh": "六月节独立日",
+      "type": "public-holiday",
+      "marketingNote": "美国联邦假 · 推多元包容/职场公平话题，与有色人种学员群体共鸣"
+    },
+    {
+      "date": "2026-06-21",
+      "country": "GLOBAL",
+      "name": "父亲节",
+      "nameZh": "父亲节",
+      "type": "marketing-node",
+      "emoji": "👔",
+      "tier": "B",
+      "seasonal": false,
+      "playbook": {
+        "audience": "想给爸爸送礼的学员 · 也包括『技术老爸』自己",
+        "angle": "给爸爸的科技礼物 / 致敬还在学新东西的老爸 —— 学习不分年龄",
+        "contentIdeas": [
+          "小红书：教我爸用 AI 的一天（温情+实用）",
+          "公众号：50 岁还在学编程的他们"
+        ],
+        "productHook": "membership 当礼物 + 适合长辈的 AI 入门内容",
+        "copyHooks": ["爸，这个 AI 工具你肯定用得上", "活到老学到老不是口号"],
+        "channels": ["小红书", "公众号"],
+        "avoid": "❌ 教育产品蹭父亲节要轻，温情为主不硬卖"
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "country": "GLOBAL",
+      "name": "暑期充电季",
+      "nameZh": "暑期充电季",
+      "type": "marketing-node",
+      "emoji": "☀️",
+      "tier": "A",
+      "seasonal": true,
+      "window": "2026-07-01~2026-08-15",
+      "playbook": {
+        "audience": "大学生/研究生暑假 + 想转型的职场人利用暑期 + 留学生 gap",
+        "angle": "暑假是弯道超车窗口：两个月集中学完一门能写进简历的技能",
+        "contentIdeas": [
+          "小红书：这个暑假我没去实习，但我学了 AI 工程",
+          "公众号：暑期 8 周学习计划表 + 作品集打卡挑战",
+          "学习群：暑期集训营 + 每周打卡奖励"
+        ],
+        "productHook": "暑期 Bootcamp 集训 + 自学档暑期价 + 实战项目营",
+        "copyHooks": ["两个月，让简历多一行硬技能", "暑假怎么过，秋招见分晓"],
+        "channels": ["小红书", "公众号", "学习群", "线上讲座"],
+        "avoid": "❌ 不贩卖『不努力就完蛋』焦虑；强调可完成的具体成果"
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "country": "US",
+      "name": "Independence Day",
+      "localName": "Independence Day",
+      "nameZh": "美国独立日",
+      "type": "public-holiday",
+      "marketingNote": "美国独立日联邦假（今年7/4周六，联邦观察日7/3）· 美股休市，北美学员假期，轻推品牌内容"
+    }
+  ]
+}

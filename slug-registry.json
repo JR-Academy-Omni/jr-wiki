@@ -244,6 +244,26 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-06-12"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-06-13"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-06-14"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-06-15"
+    },
+    {
+      "type": "article",
+      "slug": "ai-hackathon-weekly"
+    },
+    {
+      "type": "article",
       "slug": "ai-startup-arr-inflation-vc-complicity-2026"
     },
     {
@@ -297,6 +317,10 @@
     {
       "type": "article",
       "slug": "anthropic-two-tier-strategy-opus-mythos-2026"
+    },
+    {
+      "type": "article",
+      "slug": "apple-wwdc-2026-gemini-siri-openai-divorce-2026"
     },
     {
       "type": "article",
@@ -528,6 +552,22 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-06-12"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-06-13"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-06-14"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-06-15"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -612,6 +652,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-06-12"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -684,6 +728,14 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-monash-2026-06-11"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-monash-2026-06-15"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-umelb-2026-04-24"
     },
     {
@@ -749,6 +801,14 @@
     {
       "type": "article",
       "slug": "uni-news-umelb-2026-06-10"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-06-12"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-06-15"
     },
     {
       "type": "article",
@@ -821,6 +881,14 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-06-09"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-06-11"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-06-14"
     },
     {
       "type": "article",
@@ -900,6 +968,14 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-uq-2026-06-11"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-uq-2026-06-13"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-usyd-2026-04-22"
     },
     {
@@ -965,6 +1041,10 @@
     {
       "type": "article",
       "slug": "uni-news-usyd-2026-06-10"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-06-14"
     },
     {
       "type": "article",
@@ -1225,6 +1305,11 @@
       "type": "chapter",
       "book": "claude-code-guide",
       "slug": "08-parallel-dev-worktree"
+    },
+    {
+      "type": "chapter",
+      "book": "claude-code-guide",
+      "slug": "09-subagent-design"
     },
     {
       "type": "chapter",
