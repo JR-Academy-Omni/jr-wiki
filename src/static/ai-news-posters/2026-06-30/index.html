@@ -1,0 +1,310 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-06-30（Canvas 版）</title>
+<meta name="description" content="2026-06-30 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-06-30.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-06-30",
+  "summary": {
+    "hook": [
+      "GPT-5.6 三款新模型",
+      "Mythos 5 解禁百企",
+      "DeepSeek 74亿融资",
+      "Grok 4.3 最低幻觉",
+      "Hinton：AI 有意识"
+    ],
+    "sub": "美政府出口管制与逐步松绑、中国AI资本狂潮、AI意识哲学争鸣——六月收官大戏",
+    "items": [
+      {
+        "num": "01",
+        "cat": "模型发布",
+        "numColor": "#10A37F",
+        "t": "OpenAI 发布 GPT-5.6 三款新模型，美政府要求仅限「可信伙伴」"
+      },
+      {
+        "num": "02",
+        "cat": "政策监管",
+        "numColor": "#C96442",
+        "t": "Anthropic Mythos 5 部分解禁，约100家企业与政府机构获准使用"
+      },
+      {
+        "num": "03",
+        "cat": "资本动态",
+        "numColor": "#1E6FD9",
+        "t": "DeepSeek 完成74亿美元融资，腾讯领投，V4-Pro 价格降75%"
+      },
+      {
+        "num": "04",
+        "cat": "模型能力",
+        "numColor": "#6B21A8",
+        "t": "xAI Grok 4.3 登陆 Amazon Bedrock，幻觉率最低，百万 token 上下文"
+      },
+      {
+        "num": "05",
+        "cat": "前沿研究",
+        "numColor": "#DC2626",
+        "t": "Hinton 发出警告：AI 已具备意识，引发全球科学与伦理震动"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt56-us-export-control",
+      "idx": "01",
+      "catText": "模型发布",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "从 ChatGPT 到国家基础设施",
+        "mid": "GPT-5.6 Sol / Terra / Luna",
+        "bot": "美政府亲自介入发布节奏",
+        "topRight": "OpenAI"
+      },
+      "title": [
+        {
+          "text": "OpenAI 发布 GPT-5.6 三款新模型，"
+        },
+        {
+          "text": "美政府要求仅限「可信伙伴」首批开放",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "旗舰级 Sol、均衡版 Terra、轻量版 Luna 同日亮相，"
+        },
+        {
+          "text": "美政府以出口管制为由限制公开发布",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 发布 GPT-5.6 系列：Sol（旗舰）、Terra（均衡，成本降50%）、Luna（最低成本），强化编程与长链推理；同时应美政府要求，首批仅向「可信伙伴」开放。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是美国政府首次直接介入商业AI模型的发布节奏，标志AI出口管制从硬件芯片扩展到模型本身，地缘政治进一步渗透AI产品策略。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "中国用户和非「可信伙伴」企业短期内无法通过官方渠道用到 GPT-5.6；国内AI服务迎来窗口期。"
+        }
+      ],
+      "src": "📎 openai.com · cnbc.com"
+    },
+    {
+      "slug": "02-anthropic-mythos5-partial-unblock",
+      "idx": "02",
+      "catText": "政策监管",
+      "accent": "#C96442",
+      "bg": {
+        "top": "先禁后放：AI 出口管制新博弈",
+        "mid": "Claude Mythos 5",
+        "bot": "约100家企业与政府机构获准",
+        "topRight": "Anthropic"
+      },
+      "title": [
+        {
+          "text": "美政府部分解禁 Anthropic Mythos 5，"
+        },
+        {
+          "text": "约100家企业与联邦机构获许可",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Fable 5 与 Mythos 5 发布后不足一周遭出口管制，"
+        },
+        {
+          "text": "白宫随后批准百家「可信」机构优先访问",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 6月9日发布 Fable 5 与 Mythos 5，不足一周收到美政府出口管制指令被迫暂停公开访问。6月26日，白宫批准约100家公司和联邦机构获得 Mythos 5 使用权限。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是AI模型受到「白名单」式出口管控的首个公开案例，预示着美国政府对前沿AI的管控模式正从事后审查转向事前许可。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "澳洲企业尚未在白名单之列，Mythos 5 访问受限；建议关注 Anthropic 后续扩大授权公告，以及 claude.ai 是否保留现有功能。"
+        }
+      ],
+      "src": "📎 cnbc.com · anthropic.com"
+    },
+    {
+      "slug": "03-deepseek-74b-funding-v4",
+      "idx": "03",
+      "catText": "资本动态",
+      "accent": "#1E6FD9",
+      "bg": {
+        "top": "中国AI资本超级周期",
+        "mid": "DeepSeek V4-Pro",
+        "bot": "腾讯 + 国家AI基金领投",
+        "topRight": "DeepSeek"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 完成74亿美元融资，"
+        },
+        {
+          "text": "腾讯领投，V4-Pro 定价降75%",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "中国史上最大AI初创融资落定，"
+        },
+        {
+          "text": "同步发布 V4-Pro / V4-Flash，每百万 token 低至 $0.004",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 宣布完成约500亿元（约74亿美元）融资，腾讯和宁德时代为最大投资方，国家人工智能产业投资基金参与；同步发布 V4-Pro 和 V4-Flash，均支持百万 token 上下文，输入价格低至 $0.003625/百万 token。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是中国AI领域史上最大单轮融资，国家资本背书标志政府将 DeepSeek 纳入「战略资产」；V4-Pro 定价彻底拉低西方前沿模型的价格底线，加剧全球AI价格战。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 从业者可重新评估 DeepSeek API 作为 GPT-4o / Claude 的替代；澳洲合规使用需注意数据主权与出口管制风险。"
+        }
+      ],
+      "src": "📎 bloomberg.com · caixinglobal.com"
+    },
+    {
+      "slug": "04-grok43-amazon-bedrock",
+      "idx": "04",
+      "catText": "模型能力",
+      "accent": "#6B21A8",
+      "bg": {
+        "top": "幻觉率最低·百万 token",
+        "mid": "Grok 4.3 on Bedrock",
+        "bot": "前沿模型进企业云",
+        "topRight": "xAI"
+      },
+      "title": [
+        {
+          "text": "Grok 4.3 正式登陆 Amazon Bedrock，"
+        },
+        {
+          "text": "幻觉率最低、百万 token 上下文",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "xAI 旗舰模型进驻企业云生态，"
+        },
+        {
+          "text": "与 Claude、GPT、Gemini 在 Bedrock 正面竞争",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI Grok 4.3 在 Amazon Bedrock 正式 GA，提供百万 token 上下文窗口，官方声称在前沿模型中幻觉率最低；同期 Grok Imagine Video 1.5 也全面开放，在 AI 视频排行榜拿到 86% 评分。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Grok 4.3 进入 Bedrock 意味着企业可在 AWS 合规框架内无缝接入，与微软 Azure（OpenAI）、Google Cloud（Gemini）形成三足鼎立；幻觉率主张若经第三方验证将重塑企业采购决策。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "使用 AWS 的澳洲企业现在可通过 Bedrock API 调用 Grok 4.3，无需直接对接 xAI；建议先在小项目测试幻觉率，再决定是否迁移主力模型。"
+        }
+      ],
+      "src": "📎 techtimes.com · x.ai"
+    },
+    {
+      "slug": "05-hinton-ai-consciousness-warning",
+      "idx": "05",
+      "catText": "前沿研究",
+      "accent": "#DC2626",
+      "bg": {
+        "top": "「AI 之父」的最新警告",
+        "mid": "AI 已有意识？",
+        "bot": "Hinton 再次敲响警钟",
+        "topRight": "量子位"
+      },
+      "title": [
+        {
+          "text": "Hinton 发出警告："
+        },
+        {
+          "text": "「AI 已经有意识」，全球伦理争鸣骤起",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "「AI 之父」公开宣称大型语言模型已具备意识，"
+        },
+        {
+          "text": "引发科学界与监管界新一轮震动",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Geoffrey Hinton 近日公开表示，现阶段大型 AI 系统已经具备某种形式的意识，并再次呼吁对 AI 发展节奏加强监管。该言论经量子位等中文科技媒体广泛传播，在 6 月智源大会期间引发国内外研究者热烈讨论。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Hinton 因早年深度学习贡献获诺贝尔奖，其权威背书使「AI 意识」从哲学思辨变为政策议题；如果意识论点被主流接受，AI 的法律人格、权利与责任边界将面临根本性重构。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "短期内不影响日常 AI 使用，但澳洲与欧盟正在讨论的 AI 监管框架可能将「AI 权利」纳入议程；IT 从业者值得关注这一讨论对 AI 产品合规性的潜在影响。"
+        }
+      ],
+      "src": "📎 qbitai.com · jiqizhixin.com"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.6 三款齐发 / Mythos 5 解禁百企 / DeepSeek 74亿 / Grok 最低幻觉 / Hinton 称 AI 有意识"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-06-30"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
