@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-06-30",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "Adelaide",
+    "hookSub": "QS全球祹1 + 22专业百强 + 13院士入驻",
+    "hookSubHighlight": "QS全球祹1",
+    "subLines": [
+      "QS 2027 全球 79 · 澳洲第 8 · 国际研究网络第 2",
+      "22 学科全球前 100 · 新校首年建制",
+      "国际院士奖首届 · 13 位 · 7 国顶尖学者"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "QS 全球第 79", "data": "澳洲第 8" },
+      { "num": "02", "title": "22 专业百强", "data": "QS 学科排名" },
+      { "num": "03", "title": "13 位国际院士", "data": "7 国入驻" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "大学排名",
+      "h2Main": "Adelaide University QS 2027 全球第 79 澳洲第 8",
+      "h2Sub": "国际研究网络澳洲第 2 · 合并新校第二次参评 · 6 月 18 日发布",
+      "h2Highlight": "澳洲第 8",
+      "lead": "Adelaide University 在 QS 2027 世界大学排名中位列<b>全球第 79 位（上升 3 位）、澳洲第 8</b>，国际研究网络维度排名澳洲第 2，这是该校作为 2026 年 1 月合并成立的新校参与的第二次全球排名。",
+      "bullets": [
+        { "k": "核心数据", "v": "全球 <b>第 79 位</b>（上升 3 位）；36 所澳洲参评院校中排名 <b>第 8</b>；国际研究网络维度 <b>澳洲第 2</b>" },
+        { "k": "合并背景", "v": "<b>Adelaide University</b> 由南澳大学（UniSA）与阿德莱德大学（University of Adelaide）于 <b>2026 年 1 月</b> 正式合并成立，这是第二次参与全球排名" },
+        { "k": "VC 原话", "v": "校长 Prof Nicola Phillips：「<b>The rise in our QS World University Rankings confirms the strengths of Adelaide University across research, education, global engagement and impact.</b>」" },
+        { "k": "国际研究", "v": "国际研究网络澳洲第 2 是一所<b>仅运营半年的合并新校</b>的显著成绩，体现了两所前校累积的国际合作基础" },
+        { "k": "对你的影响", "v": "Adelaide University 规模合并后学科宽度增加，如果你在看 <b>南澳州升学 + 移民</b> 路径，新校排名和学科布局正处于建立阶段，现在入学属于较早期窗口" }
+      ],
+      "source": "Adelaide University Newsroom · 2026-06-18",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/adelaide-university-continues-to-rise-in-the-rankings/",
+      "sourceQuote": "The rise in our QS World University Rankings confirms the strengths of Adelaide University across research, education, global engagement and impact and is a testament to the hard work of our staff, students and the broader university community"
+    },
+    {
+      "idx": "02",
+      "category": "学科排名",
+      "h2Main": "Adelaide University 22 专业进 QS 全球前 100",
+      "h2Sub": "新校首年建制 · 覆盖工程 / 农业 / 健康 / 社会科学",
+      "h2Highlight": "22 专业百强",
+      "lead": "Adelaide University 在 QS 世界大学学科排名中共有 <b>22 个学科进入全球前 100</b>，这是该校成立首年即确立的学科排名基础，覆盖工程、自然科学、农业与食品、健康科学、社会科学等多个核心方向。",
+      "bullets": [
+        { "k": "入榜规模", "v": "<b>22 个学科</b>进入全球前 100——新校首年参评即取得的成绩，建立在两所前校长期学科积累上" },
+        { "k": "覆盖方向", "v": "工程与技术、自然科学、<b>农业与食品</b>（南澳传统优势）、健康科学、社会科学——横跨理工医文社多条线" },
+        { "k": "南澳优势", "v": "Adelaide 在<b>葡萄酒学、农业科学、矿业工程</b>方向有南澳独特产业支撑，学科排名在这些细分赛道上有竞争力" },
+        { "k": "国际生视角", "v": "22 个学科全球前 100 提供了一个很直接的参考点——申请前可以把自己的目标专业和这份学科排名直接对照" },
+        { "k": "对你的影响", "v": "Adelaide University 作为新校正在整合两所前校的学科资源，对走 <b>工程 / 农业 / 医学 / 商科</b> 方向的同学，学科排名比综合排名更直接说明问题" }
+      ],
+      "source": "Adelaide University Newsroom · 2026-06",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/adelaide-university-scores-global-subject-recognition-/"
+    },
+    {
+      "idx": "03",
+      "category": "国际学术交流",
+      "h2Main": "Adelaide University 国际院士奖首届 13 位学者入驻",
+      "h2Sub": "7 国顶尖学者 · 癌症代谢 / 医学统计 / 教育 AI · 全年到访",
+      "h2Highlight": "13 位学者入驻",
+      "lead": "Adelaide University 国际院士奖（International Fellows Award）2026 年首届共有 <b>13 位顶尖学者入选</b>，来自比利时、中国、香港、新西兰、新加坡、英国、美国 7 个国家和地区，将于 2026 年全年赴阿德莱德开展学术互动与联合研究。",
+      "bullets": [
+        { "k": "首届规模", "v": "13 位学者入选，来自 <b>7 个国家和地区</b>（比利时、中国、香港、新西兰、新加坡、英国、美国），涵盖多所全球顶尖研究机构" },
+        { "k": "代表学者", "v": "Prof Sarah-Maria Fendt（比利时，癌症代谢/单细胞空间多组学）；Prof Rafael Perera Salazar（牛津大学，医学统计/慢病数据科学）；Prof Timothy Teo（香港中文大学，教育 AI/技术接受度）" },
+        { "k": "院士活动", "v": "每位院士将<b>赴阿德莱德参与学生互动、公开讲座、联合研究</b>，课题围绕学校重点研究主题（Signature Research Themes）展开" },
+        { "k": "项目意义", "v": "这是 <b>Adelaide University 作为新校设立的首届国际院士奖</b>，标志着两所前校的国际学术网络在合并后得到延续并向更广范围拓展" },
+        { "k": "对你的影响", "v": "13 位跨学科顶尖学者全年在校意味着<b>公开讲座和跨学科交流</b>机会增加；走 Research Master / PhD 的同学关注学校研究主题，可能与这些院士的来访课题直接相关" }
+      ],
+      "source": "Adelaide University · 2026 International Fellows Award",
+      "sourceUrl": "https://adelaide.edu.au/partners-and-community/global-partnerships/how-to-partner-with-us/international-fellows-award/2026-international-fellows-award-recipients/",
+      "sourceQuote": "Thirteen applications were successful in this round, with Fellows from Belgium, China, Hong Kong Special Administrative Region, New Zealand, Singapore, the United Kingdom and the United States"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 3 条",
+    "titleHighlight": "一眼看完",
+    "sub": "QS 全球 79 澳洲第 8、22 专业百强、国际院士首届 13 位——Adelaide University 6 月三条覆盖综合排名、学科排名、国际合作三条线。",
+    "items": [
+      { "n": "01", "title": "QS 2027 全球第 79", "body": "澳洲第 8；国际研究网络澳洲第 2；合并新校第二次参评上升 3 位；VC Phillips 称排名证实了学校在研究、教育和全球参与上的实力" },
+      { "n": "02", "title": "22 专业全球前 100", "body": "QS 学科排名新校首年即 22 专业入榜；覆盖工程、农业食品、健康科学、社会科学；南澳在葡萄酒学、农业、矿业工程有产业优势" },
+      { "n": "03", "title": "国际院士首届 13 位", "body": "7 国顶尖学者 2026 全年到访；癌症代谢、牛津医学统计、港中大教育 AI 等领域；公开讲座 + 学生互动 + 联合研究" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "6 所澳洲核心大学 · 每天 2 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "06 / 30"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿大QS全球祹1澳洲第8了🎓",
+      "body": "在 Adelaide 读书 / 正在申请阿德莱德大学的同学，6 月这三条一起看。\n\n01 / QS 2027 全球第 79——6 月 18 日排名出炉，Adelaide University 全球 79（上升 3 位），36 所澳洲参评院校里排第 8，国际研究网络维度澳洲第 2。这是 2026 年 1 月南澳大学和阿德莱德大学合并成新校后第二次参加全球排名。\n\n02 / 22 专业全球百强——QS 学科排名里 22 个专业进全球前 100，工程、农业食品、健康科学、社会科学都覆盖到了，新校首年就有这个基础。\n\n03 / 国际院士首届 13 位——国际院士奖首届 13 位学者入选，来自 7 个国家，今年全年降续到阿德莱德来做讲座、联合研究、和学生互动。\n\n三条哪个最想深挖？评论区扣序号🙌",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #QS排名 #大学新闻 #留学干货 #留学生活"
+    },
+    "p2": {
+      "title": "阿德莱德大学QS澳洲第8📊",
+      "body": "在考虑南澳升学路径的姐妹，这条 QS 排名很有参考价值。\n\n6 月 18 日 QS 2027 世界大学排名出炉，Adelaide University 全球第 79（上升 3 位），在 36 所参评澳洲院校里排第 8，国际研究网络这个维度全澳第 2。\n\n要理解这个成绩，背景很重要：Adelaide University 是 2026 年 1 月才正式成立的，由南澳大学（UniSA）和阿德莱德大学（University of Adelaide）合并来的。这是新校第二次参加全球排名，上升 3 位。\n\n校长 Prof Nicola Phillips 说：「The rise in our QS World University Rankings confirms the strengths of Adelaide University across research, education, global engagement and impact.」\n\n国际研究网络澳洲第 2 这个数字对我来说比综合排名更有意思——说明新校成立后两所前校的国际合作资源基本都保留下来了，甚至还在扩展。\n\n对在看南澳升学的同学：Adelaide University 2026 年才成立，还在建制阶段。排名在上升通道里，国际研究网络扎实。现在进来算比较早的一批——学校的学术生态和资源结构还在调整中，也意味着灵活性更高。\n\n有在对比 Adelaide 和其他澳洲院校的，评论区聊。",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #QS排名 #留学干货 #南澳留学 #留学选校"
+    },
+    "p3": {
+      "title": "阿大22专业全球百强存一下📚",
+      "body": "申请阿德莱德大学的姐妹，看学科排名比综合排名更实用。\n\nAdelaide University 在 QS 世界大学学科排名里有 22 个专业进全球前 100。这是新校成立首年建立的学科排名基础，横跨好几条线：工程与技术、自然科学、农业与食品、健康科学、社会科学。\n\n我觉得南澳在几个方向有独特优势：葡萄酒学（Wine Science）、农业科学、矿业工程——这几个和南澳的产业生态直接挂钉，学校排名在这些细分赛道上是有底气的。不是光靠综合排名撑着。\n\n22 个专业百强其实提供了一个很直接的参考：你申什么方向，就查这个方向有没有进全球前 100。比综合排名更具体。\n\n在申理工科、农业、医学、商科方向的同学，可以把自己的目标专业和这份学科排名对照一下。不在前 100 里不一定不好，但在的话底气更足。\n\n有在看具体专业的姐妹，评论区扣 1，我帮你查对应排名。",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #QS学科排名 #留学干货 #南澳留学 #理工科"
+    },
+    "p4": {
+      "title": "13位世界顶尖学者来澳阿🌍",
+      "body": "在 Adelaide 读 Research Master 或 PhD 的同学，这条值得存。\n\nAdelaide University 国际院士奖（International Fellows Award）今年是第一届，13 位来自 7 个国家的顶尖学者入选，今年全年会降续来阿德莱德。这 13 位来自比利时、中国、香港、新西兰、新加坡、英国、美国的顶尖研究机构。\n\n具体研究方向很多元：癌症代谢与空间多组学（比利时的 Prof Sarah-Maria Fendt 在研究肿瘤细胞如何在疾病进展中改变代谢需求）；医学统计和慢性病数据科学（牛津的 Prof Rafael Perera Salazar）；教育 AI 和技术接受度（港中大的 Prof Timothy Teo 在研究 AI 在教育里的应用）。\n\n每位院士来了会参与：公开讲座（学生可以去）、学生互动活动、和校内研究团队的联合研究。\n\n我觉得这种访问院士项目对研究生的影响是比较实际的——你有机会在讲座后和这些学者直接聊，他们来访期间也可能在你导师的实验室工作。如果你的方向和某位院士的研究相关，这就是一个很难得的接触机会。\n\n在 Adelaide 读研 / 博的姐妹，可以关注学校网站上这些院士的到访安排。有问题评论区聊。",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #PhD申请 #研究生 #科研 #留学干货"
+    },
+    "p5": {
+      "title": "阿德莱德大学6月三条整理🗂️",
+      "body": "Adelaide University 这个月三条新闻方向不同，放一起看：\n\n01 / QS 2027 全球第 79——上升 3 位，澳洲第 8，国际研究网络澳洲第 2；2026 年 1 月合并新校第二次参评；VC Phillips 称排名证实了学校在研究、教育、全球参与上的实力。\n\n02 / 22 专业全球前 100——QS 学科排名覆盖工程、农业食品、健康科学、社会科学；南澳在葡萄酒学、农业科学、矿业工程有产业优势；直接对照目标专业比综合排名实用。\n\n03 / 国际院士奖首届 13 位——7 国顶尖学者 2026 年全年降续入驻；覆盖癌症代谢（比利时 Prof Fendt）、医学统计（牛津 Prof Perera Salazar）、教育 AI（港中大 Prof Teo）等多方向；公开讲座 + 学生互动。\n\n三条放在一起：Adelaide University 作为 2026 年新校，排名在上升通道里，学科基础是 22 个全球百强，学者交流也在建立新生态——对在看南澳升学的同学，这是一个全貌参考。\n\n有问题评论区扣 1，我整理具体申请信息🙌",
+      "tags": "#Adelaide #阿德莱德大学 #澳洲留学 #QS排名 #大学新闻 #留学干货 #留学生活"
+    }
+  },
+  "mp": {
+    "title": "Adelaide University 6 月三条：QS 2027 全球第 79 澳洲第 8 + 22 专业百强 + 国际院士首届 13 位学者入驻",
+    "lead": "Adelaide University 6 月三条集中呈现这所 2026 年新校建立的研究与国际形象。QS 2027 世界大学排名中，Adelaide University 全球第 79（上升 3 位）、澳洲第 8，国际研究网络维度澳洲第 2——这是 2026 年 1 月由南澳大学和阿德莱德大学合并成立的新校第二次参与全球排名，校长 Prof Nicola Phillips 表示排名印证了学校在研究、教育和全球参与上的实力。QS 学科排名方面，22 个学科进入全球前 100，覆盖工程、农业食品、健康科学、社会科学多个方向，南澳州的葡萄酒学、农业科学、矿业工程优势在学科层面得以体现。同期，国际院士奖（International Fellows Award）首届 13 位学者入选，来自 7 个国家和地区的顶尖研究机构，将于 2026 年全年赴阿德莱德开展公开讲座、学生互动和联合研究。",
+    "meta": { "readTime": "6 分钟" },
+    "cta": {
+      "big": "想每天收到澳洲大学硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「大学日报」 · 官网 jiangren.com.au/blog 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "阿德莱德大学 QS 全球 79｜新校第二年排名有什么含金量",
+        "body": "6 月 18 日 QS 2027 世界大学排名出来了，Adelaide University 全球第 79（上升 3 位），在 36 所澳洲参评院校里排第 8，国际研究网络全澳第 2。\n\n要理解这个成绩，背景很关键：Adelaide University 是 2026 年 1 月才正式成立的，由南澳大学（UniSA）和阿德莱德大学（University of Adelaide）合并来的。这是新校第二次参加全球排名。\n\n国际研究网络澳洲第 2 对我来说是最有意思的数字。这说明两所前校长期积累的国际合作资源在合并后基本都保留下来了——研究合作不是靠一两年建起来的，背后是几十年的学术关系网。新校能在第二年就排到这个位置，说明合并没有损耗掉原有的国际研究连接。\n\n校长 Prof Nicola Phillips 说这个排名「证实了学校在研究、教育和全球参与上的实力」。我觉得说得挪直接的，没有夾大。\n\n对在看南澳升学路径的同学：Adelaide University 2026 年才成立，还在整合建制阶段。排名在上升通道里，国际研究网络扎实。现在进来算比较早的一批——学校的学术生态和资源结构还在调整中，也意味着灵活性更高。\n\n有在对比阿德莱德和其他澳洲院校的姐妹，评论区聊具体。",
+        "tags": ["#Adelaide", "#阿德莱德大学", "#澳洲留学", "#QS排名", "#留学干货", "#南澳留学", "#留学选校", "#大学新闻"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "「国际研究网络澳洲第 2」「22 专业全球前 100」均为 QS 排名客观数据，保留；无绝对化承诺" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出（仅出现「评论区扣序号」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 与 drafts 全部扫描）" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股", "result": "未检出" }
+    ]
+  }
+}
