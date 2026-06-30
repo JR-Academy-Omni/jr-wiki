@@ -1,0 +1,307 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-07-01（Canvas 版）</title>
+<meta name="description" content="2026-07-01 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-07-01.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-07-01",
+  "summary": {
+    "hook": [
+      "今日 AI 头条:",
+      "5 条精选"
+    ],
+    "sub": "GPT-5.6 限发·DeepSeek 七月·Fable 5 管制·DeepMind 人才·Grok 私测",
+    "items": [
+      {
+        "num": "01",
+        "cat": "OpenAI",
+        "numColor": "#10a37f",
+        "t": "GPT-5.6 Sol 开启预览，美政府要求限发「可信合作伙伴」"
+      },
+      {
+        "num": "02",
+        "cat": "DeepSeek",
+        "numColor": "#4c6ef5",
+        "t": "DeepSeek V4 七月中旬正式版发布，峰时 API 定价翻倍"
+      },
+      {
+        "num": "03",
+        "cat": "Anthropic",
+        "numColor": "#d97706",
+        "t": "Claude Fable 5 遭美国出口管制，访问被迫暂停"
+      },
+      {
+        "num": "04",
+        "cat": "Google",
+        "numColor": "#ea4335",
+        "t": "Shazeer 投奔 OpenAI、Jumper 转投 Anthropic，DeepMind 人才出走潮"
+      },
+      {
+        "num": "05",
+        "cat": "xAI",
+        "numColor": "#6c63ff",
+        "t": "Grok 4.5 进入 Tesla/SpaceX 私测，流量同期暴跌 22%"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt56-sol-trusted-partners",
+      "idx": "01",
+      "catText": "OpenAI 模型",
+      "accent": "#10a37f",
+      "bg": {
+        "top": "#0d1117",
+        "mid": "#0f2d26",
+        "bot": "#0a1a10",
+        "topRight": "#10a37f"
+      },
+      "title": [
+        {
+          "text": "GPT-5.6 Sol 开启预览"
+        },
+        {
+          "text": "美政府限发可信合作伙伴",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenAI 推出 GPT-5.6 三件套，"
+        },
+        {
+          "text": "但美国政府要求仅向「可信合作伙伴」开放",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 预览 GPT-5.6 系列：Sol（旗舰）、Terra（均衡，性价比是 GPT-5.5 两倍）、Luna（低成本快速），同日 GPT-4.5 下线。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "美国政府首次以国家安全为由，要求 OpenAI 对最新前沿模型实施「可信合作伙伴」限发，标志 AI 出口管制范围向模型访问权扩展。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "API 开发者短期无法使用 Sol，可先用 Terra 替代；关注自身是否列入合作伙伴白名单，否则正式发布后仍可能受限。"
+        }
+      ],
+      "src": "📎 openai.com · cnbc.com"
+    },
+    {
+      "slug": "02-deepseek-v4-july-peak-pricing",
+      "idx": "02",
+      "catText": "DeepSeek 动态",
+      "accent": "#4c6ef5",
+      "bg": {
+        "top": "#0d1117",
+        "mid": "#1a1f3a",
+        "bot": "#0d1117",
+        "topRight": "#4c6ef5"
+      },
+      "title": [
+        {
+          "text": "DeepSeek V4 七月中旬正式发布"
+        },
+        {
+          "text": "峰时 API 定价翻倍+融资 74 亿美元",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "DeepSeek V4 官方版将于七月中旬上线，"
+        },
+        {
+          "text": "峰时段 API 价格翻倍，同步融资 74 亿美元",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 宣布 V4 正式版七月中旬发布，引入 DSA 稀疏注意力机制，长上下文性能全球领先；峰时（9-12 点、14-18 点）API 定价翻倍。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "DeepSeek 完成约 500 亿元融资，腾讯、宁德时代、国家 AI 产业投资基金参投，成中国最大 AI 融资案之一，与 OpenAI/Anthropic 规模对标。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "调用 DeepSeek API 的应用需提前评估峰时成本增幅，非紧急任务可调至非峰时段；开发者需关注 V4 新特性能否替代更贵的 GPT/Claude 接口。"
+        }
+      ],
+      "src": "📎 pandaily.com · bloomberg.com · the-decoder.com"
+    },
+    {
+      "slug": "03-claude-fable5-export-control",
+      "idx": "03",
+      "catText": "Anthropic 管制",
+      "accent": "#d97706",
+      "bg": {
+        "top": "#1a0d00",
+        "mid": "#2d1a0a",
+        "bot": "#1a0d00",
+        "topRight": "#d97706"
+      },
+      "title": [
+        {
+          "text": "Claude Fable 5 发布即遭"
+        },
+        {
+          "text": "美国出口管制令暂停访问",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Anthropic 最强模型 Fable 5 上线后，"
+        },
+        {
+          "text": "美政府出口管制令强制暂停全球访问",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 发布 Claude Fable 5（Mythos 级，百万 token 上下文、128K 输出），几乎全基准第一；随即收到美国政府出口管制指令，Fable 5 与 Mythos 5 访问被暂停。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "继 OpenAI GPT-5.6 限发后，Anthropic 也遭同一波管制浪潮冲击，暗示美国正系统性限制最前沿模型向境外或非可信方开放，AI 主权博弈升级。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "依赖 Claude 最高性能接口的澳洲/亚太开发者需确认账户是否在白名单内，备选方案切换至 Opus 4.8 或 Azure 企业部署可绕过部分限制。"
+        }
+      ],
+      "src": "📎 anthropic.com · releasebot.io"
+    },
+    {
+      "slug": "04-deepmind-talent-exodus",
+      "idx": "04",
+      "catText": "Google 人才动向",
+      "accent": "#ea4335",
+      "bg": {
+        "top": "#0d0000",
+        "mid": "#1f0a0a",
+        "bot": "#0d0000",
+        "topRight": "#ea4335"
+      },
+      "title": [
+        {
+          "text": "Shazeer 奔 OpenAI · Jumper 投 Anthropic"
+        },
+        {
+          "text": "DeepMind 人才出走潮加剧",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "诺贝尔奖得主 Jumper 与顶级研究员 Shazeer 双双离开 DeepMind，"
+        },
+        {
+          "text": "但 Hassabis 称 Google 仍主导 AI 人才战争",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Noam Shazeer 宣布离开 Google DeepMind 加入 OpenAI；AlphaFold 联合作者、2024 年诺贝尔化学奖得主 John Jumper 离职后转投 Anthropic。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "两人均是 AI 领域顶级符号，相继出走意味着 AI 军备竞赛在人才争夺上白热化；Hassabis 公开回应称 DeepMind 仍赢得人才战争，但市场信号相反。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Shazeer 专长 Transformer 推理优化，其加入可能加速 OpenAI 推理成本下降；Jumper 的蛋白质折叠能力可能拓展 Anthropic 在生命科学 AI 方向的布局。"
+        }
+      ],
+      "src": "📎 axios.com · deepmind.google · startuphub.ai"
+    },
+    {
+      "slug": "05-grok45-private-beta-traffic-drop",
+      "idx": "05",
+      "catText": "xAI 新进展",
+      "accent": "#6c63ff",
+      "bg": {
+        "top": "#0a0a1a",
+        "mid": "#1a1a2e",
+        "bot": "#0a0a1a",
+        "topRight": "#6c63ff"
+      },
+      "title": [
+        {
+          "text": "Grok 4.5 在 Tesla/SpaceX 私测"
+        },
+        {
+          "text": "但 Grok 流量今年暴跌 22%",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Grok 4.5 进入 Tesla/SpaceX 私测、逼近 Claude Opus，"
+        },
+        {
+          "text": "与此同时 Grok 今年网络流量跌幅高居 AI 产品第一",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "马斯克宣布 Grok 4.5 进入 Tesla/SpaceX 内部私测，内测成绩宣称接近 Claude Opus 系列，这也是 xAI 一贯的「先在自家企业内部验证，再向外部发布」策略的延续。与此同时，报告显示 Grok 今年 1-5 月 Web 流量下跌 22%，位居 AI 产品跌幅第一。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Grok 成人内容驱动的流量占比过大被 Forbes 披露，技术竞争力与品牌形象存在明显落差；用私有企业内测替代公开发布，是典型的「先自用验证再对外」策略。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "对于看好 xAI API 的开发者，Grok 4.5 性能若属实值得等待正式发布；但 Grok 流量下滑说明商业落地能力需要持续审视，不宜过早 All-in。"
+        }
+      ],
+      "src": "📎 timesofai.com · forbes.com · releasebot.io"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.6 限发 / DeepSeek 七月上 / Fable 5 管制 / DeepMind 人才出走 / Grok 4.5 私测"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-07-01"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
