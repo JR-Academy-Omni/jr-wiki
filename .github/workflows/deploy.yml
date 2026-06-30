@@ -24,6 +24,9 @@ jobs:
       - name: Install dependencies
         run: bun install
 
+      - name: Rebuild AI poster hub index
+        run: node scripts/rebuild-ai-poster-index.mjs
+
       - name: Build
         run: bun run build.ts
 
