@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-06-30T23:37:27.361Z",
+  "lockedAt": "2026-07-01T02:11:36.119Z",
   "version": 1,
   "slugs": [
     {
@@ -285,6 +285,10 @@
     {
       "type": "article",
       "slug": "anthropic-965b-claude-code-surpasses-openai-2026"
+    },
+    {
+      "type": "article",
+      "slug": "anthropic-fable-export-ban-2026"
     },
     {
       "type": "article",
