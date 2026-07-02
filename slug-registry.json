@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-07-01T23:48:25.423Z",
+  "lockedAt": "2026-07-02T03:07:47.255Z",
   "version": 1,
   "slugs": [
     {
@@ -713,6 +713,10 @@
     {
       "type": "article",
       "slug": "uni-news-monash-2026-06-15"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-monash-2026-07-02"
     },
     {
       "type": "article",
