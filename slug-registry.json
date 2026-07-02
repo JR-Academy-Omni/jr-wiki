@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-07-01T23:48:25.423Z",
+  "lockedAt": "2026-07-02T01:07:39.096Z",
   "version": 1,
   "slugs": [
     {
@@ -1645,6 +1645,16 @@
       "type": "chapter",
       "book": "kiro-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "06-custom-agents-agent-focus"
+    },
+    {
+      "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "07-pitfalls-and-antipatterns"
     },
     {
       "type": "chapter",
