@@ -1,0 +1,310 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-07-03（Canvas 版）</title>
+<meta name="description" content="2026-07-03 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-07-03.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-07-03",
+  "summary": {
+    "hook": [
+      "Claude Fable 5 解禁",
+      "GPT-5.6 Sol",
+      "美政府拟入股 OpenAI",
+      "DeepSeek 740亿融资",
+      "Meta 卖算力"
+    ],
+    "sub": "解禁、新模型、政府入股、巨额融资——AI 权力格局一夜剧变",
+    "items": [
+      {
+        "num": "01",
+        "cat": "Anthropic",
+        "numColor": "#8B5CF6",
+        "t": "Fable 5 / Mythos 5 全球解禁，Claude Science 科研工作台同步上线"
+      },
+      {
+        "num": "02",
+        "cat": "OpenAI",
+        "numColor": "#10B981",
+        "t": "GPT-5.6 三件套 Sol / Terra / Luna 向 20 家伙伴限量开放"
+      },
+      {
+        "num": "03",
+        "cat": "OpenAI",
+        "numColor": "#F59E0B",
+        "t": "OpenAI 提议向美国政府开放 5% 股权，寻求国家背书"
+      },
+      {
+        "num": "04",
+        "cat": "DeepSeek",
+        "numColor": "#3B82F6",
+        "t": "DeepSeek 接近完成 740 亿人民币 A 轮，腾讯 / CATL 等参投"
+      },
+      {
+        "num": "05",
+        "cat": "Meta",
+        "numColor": "#6366F1",
+        "t": "Meta Compute 计划曝光，拟对外出售算力与模型访问权"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-claude-fable5-unblocked",
+      "idx": "01",
+      "catText": "Anthropic 解禁",
+      "accent": "#8B5CF6",
+      "bg": {
+        "top": "Claude Fable 5",
+        "mid": "全球重新开放",
+        "bot": "Claude Science 同步上线",
+        "topRight": "🚀"
+      },
+      "title": [
+        {
+          "text": "美国出口禁令解除，"
+        },
+        {
+          "text": "Fable 5 / Mythos 5 重返全球",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "停摆 19 天后，Anthropic 旗舰模型重新向全球用户开放，"
+        },
+        {
+          "text": "Claude Science 科研工作台同日亮相",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "美政府于 6 月 30 日解除对 Anthropic Fable 5 和 Mythos 5 的出口管制，两款模型自 7 月 1 日起通过 Claude.ai、API 及 Claude Code 恢复全球访问"
+        },
+        {
+          "k": "为什么重要",
+          "v": "长达 19 天的中断暴露了将 AI 视为关键基础设施的系统性风险；与此同时，Anthropic 同步发布面向科学家的 Claude Science 工作台，提供最高 3 万美元算力资助"
+        },
+        {
+          "k": "对你的影响",
+          "v": "依赖 Fable 5 的企业和开发者可立即恢复业务；科研人员可申请 Claude Science 早期访问，用 AI 加速实验设计和文献综述"
+        }
+      ],
+      "src": "📎 marktechpost.com · aljazeera.com · anthropic.com"
+    },
+    {
+      "slug": "02-openai-gpt56-preview",
+      "idx": "02",
+      "catText": "OpenAI 新模型",
+      "accent": "#10B981",
+      "bg": {
+        "top": "GPT-5.6",
+        "mid": "Sol / Terra / Luna",
+        "bot": "750 tokens/s on Cerebras",
+        "topRight": "⚡"
+      },
+      "title": [
+        {
+          "text": "OpenAI 推出 GPT-5.6 三件套，"
+        },
+        {
+          "text": "Sol 旗舰跑出 750 tokens/s",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Sol（旗舰）/ Terra（性价比）/ Luna（极速）三档分层，"
+        },
+        {
+          "text": "首批 20 家合作伙伴限量内测",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 向 20 家受信任合作伙伴开放 GPT-5.6 系列：Sol 是旗舰，Terra 主打低成本，Luna 速度最快；Sol 将率先在 Cerebras 芯片上以高达 750 tokens/s 运行"
+        },
+        {
+          "k": "为什么重要",
+          "v": "三档分层定价策略覆盖不同场景，推理速度突破标志着 AI 推理侧竞争进入新阶段；内测期间与美国政府协调管控，显示监管介入态势加深"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 从业者需关注 GPT-5.6 API 定价和升级路径；企业级用户可申请合作伙伴早期访问资格，抢占竞争窗口"
+        }
+      ],
+      "src": "📎 cryptobriefing.com · openai.com"
+    },
+    {
+      "slug": "03-openai-gov-stake",
+      "idx": "03",
+      "catText": "AI 政治博弈",
+      "accent": "#F59E0B",
+      "bg": {
+        "top": "OpenAI",
+        "mid": "政府 5% 股权",
+        "bot": "华盛顿 AI 新秩序",
+        "topRight": "🏛️"
+      },
+      "title": [
+        {
+          "text": "OpenAI 提议向美国政府开放 "
+        },
+        {
+          "text": "5% 股权",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "彭博报道：OpenAI 提出让白宫持股各大 AI 厂商，"
+        },
+        {
+          "text": "换取国家层面背书与监管配合",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "据彭博引述 FT 报道，OpenAI CEO 奥特曼向美国政府提议持有 OpenAI 5% 股权，同类安排或推广至其他主要 AI 公司，以换取华盛顿的战略支持"
+        },
+        {
+          "k": "为什么重要",
+          "v": "此举若落地，将是科技史上政府首次持有顶级 AI 公司股权；既能为 AI 公司争取监管缓冲，也意味着 AI 发展与地缘政治深度绑定，行业竞争格局或根本改变"
+        },
+        {
+          "k": "对你的影响",
+          "v": "从业者需密切关注此议题走向：政府持股或带来更多合规要求，但也可能释放国防、政务等大型政府合同机会"
+        }
+      ],
+      "src": "📎 bloomberg.com · fortune.com"
+    },
+    {
+      "slug": "04-deepseek-74b-funding",
+      "idx": "04",
+      "catText": "DeepSeek 融资",
+      "accent": "#3B82F6",
+      "bg": {
+        "top": "DeepSeek",
+        "mid": "740 亿人民币 A 轮",
+        "bot": "腾讯 / CATL 参投",
+        "topRight": "💰"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 接近完成 "
+        },
+        {
+          "text": "740 亿人民币 A 轮融资",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "腾讯、CATL、网易、京东组团押注，"
+        },
+        {
+          "text": "估值直指 4000 亿人民币",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "路透社报道，DeepSeek 接近完成约 500 亿元（约 74 亿美元）首轮融资，潜在投资方包括腾讯、CATL、网易、京东及国家 AI 基金，估值区间约 3500-4000 亿元"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这将是中国 AI 领域迄今最大单笔私募融资；央企背景投资方的加入意味着国家战略资本全面支撑 DeepSeek，进一步加剧中美 AI 竞争态势"
+        },
+        {
+          "k": "对你的影响",
+          "v": "DeepSeek V4 API 将于 7 月 24 日迁移，使用旧版接口的开发者需尽快更新；资金注入后 DeepSeek 研发和算力投入或大幅提速，开源模型质量有望持续提升"
+        }
+      ],
+      "src": "📎 memeburn.com · techcrunch.com · sitepoint.com"
+    },
+    {
+      "slug": "05-meta-compute-cloud",
+      "idx": "05",
+      "catText": "Meta 算力变现",
+      "accent": "#6366F1",
+      "bg": {
+        "top": "Meta Compute",
+        "mid": "对外售卖算力",
+        "bot": "Muse Spark 模型上架",
+        "topRight": "🖥️"
+      },
+      "title": [
+        {
+          "text": "Meta 效仿 SpaceX，"
+        },
+        {
+          "text": "拟向外部出售 AI 算力与模型",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Meta Compute 项目曝光：算力 + 闭源模型 Muse Spark 捆绑销售，"
+        },
+        {
+          "text": "开辟全新商业化路径",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "TechCrunch 报道，Meta 正在规划 Meta Compute 业务，拟出售 AI 计算资源及旗下闭源模型（包括 Muse Spark）的访问权，由基础设施负责人、Daniel Gross 及 Dina Powell McCormick 联合推进"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Meta 此前以「开源 + 广告」为双轮驱动，算力商业化是重大战略转向；若成功，Meta 将同时参与三大 AI 市场：开源生态、企业模型订阅、云算力租赁"
+        },
+        {
+          "k": "对你的影响",
+          "v": "IT 从业者可关注 Meta Compute 的企业定价，有望提供比 AWS / GCP 更具竞争力的 AI 算力选项；Muse Spark 闭源模型或提供差异化能力，值得测试对比"
+        }
+      ],
+      "src": "📎 techcrunch.com"
+    }
+  ],
+  "mp": {
+    "title": "Claude Fable 5 解禁 / GPT-5.6 三模型亮相 / OpenAI 拟开放美政府股权 / DeepSeek 740亿融资 / Meta 卖算力"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-07-03"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
