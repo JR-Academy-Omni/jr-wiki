@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-04",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "USyd",
+    "hookSub": "褪黑素镇痛研究 + 大堡礁 3 万年揭秘",
+    "hookSubHighlight": "大堡礁",
+    "subLines": [
+      "褪黑素缓解慢性肌骨骼痛 · 2028 人 23 RCT · 效果与 NSAIDs 相当",
+      "IODP 325 综合报告：大堡礁 3 万年反复崩塌重建 · Marine Geology 2026"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "褪黑素镇痛研究", "data": "PAIN 2026 发表" },
+      { "num": "02", "title": "大堡礁深时研究", "data": "3 万年气候档案" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "USyd 研究：褪黑素缓解慢性痛 · 效果媲美常见止痛药",
+      "h2Sub": "2028 人 / 23 RCT · PAIN 期刊发表 · 短期安全 · Kangchao Wu 领衔",
+      "h2Highlight": "效果媲美",
+      "lead": "University of Sydney Charles Perkins Centre 的 Kangchao Wu（博士候选人）领衔，7 月 1 日在《PAIN》期刊发表系统综述与 meta 分析：纳入 23 个 RCT 的 2028 名成人数据，发现<b>褪黑素使慢性肌骨骼疼痛评分下降约 9-10/100 分</b>，效果与阿片类药物、NSAIDs 及扑热息痛处于同一量级，且短期使用安全性良好。",
+      "bullets": [
+        { "k": "研究规模", "v": "23 个随机对照试验（RCT），2028 名成人参与者，覆盖伊朗、美国、俄罗斯、巴西、埃及、中国、伊拉克、土耳其和印度等国" },
+        { "k": "核心发现", "v": "褪黑素补充使慢性肌骨骼疼痛评分下降约 <b>9-10/100 分</b>，效果与阿片类药物、非甾体抗炎药（NSAIDs）及扑热息痛处于同一量级；同时改善睡眠质量" },
+        { "k": "安全性", "v": "短期使用（不超过 3 个月）低剂量（不超过 5mg）情况下安全性良好；研究覆盖腰背痛、骨关节炎、纤维肌痛等慢性病患者及术后恢复患者" },
+        { "k": "研究者原话", "v": "「Melatonin is already in people's homes, it's inexpensive, and we know it's safe. What's exciting is that melatonin may also help manage chronic pain, opening the door to reducing reliance on medications that come with more risks.」——Kangchao Wu" }
+      ],
+      "source": "USyd News · 2026-07-01",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/07/01/study-finds-melatonin-may-ease-chronic-pain.html",
+      "sourceQuote": "Melatonin is already in people's homes, it's inexpensive, and we know it's safe. What's exciting is that melatonin may also help manage chronic pain, opening the door to reducing reliance on medications that come with more risks."
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "大堡礁 3 万年生存档案 · IODP 325 综合报告发表",
+      "h2Sub": "Marine Geology 2026 · 34 个岩心 / 17 站点 / 12 国 40 机构 · 多重气候压力下反复崩塌重建",
+      "h2Highlight": "3 万年",
+      "lead": "USyd 参与的研究团队 6 月 30 日在《Marine Geology》发表 IODP 探险 325 综合报告（DOI: 10.1016/j.margeo.2026.107824），系统梳理大堡礁近 3 万年在海平面上升、水温升高、大陆架淹没等多重气候压力下<b>反复崩塌、重建与迁移</b>的历史，为预测当代变暖对大堡礁的影响提供深时基准。",
+      "bullets": [
+        { "k": "数据来源", "v": "2010 年 IODP 探险 325 从大堡礁外侧 17 个站点采集 34 个化石珊瑚礁与沉积物岩心，水深覆盖 46-170 米" },
+        { "k": "研究规模", "v": "整合 40 家机构、12 个国家近 20 年研究成果，已产出 50 余篇学术论文，发表在《Marine Geology》（DOI: 10.1016/j.margeo.2026.107824）" },
+        { "k": "主要发现", "v": "大堡礁礁盘-礁缘系统高度动态：从末次冰盛期至今经历<b>海平面上升、水温升高、大陆架淹没和水质变化</b>等多重压力，呈现反复崩塌、重建与迁移规律" },
+        { "k": "气候意义", "v": "为当代气候变化对大堡礁未来命运的预测提供<b>深时（deep-time）基准参照</b>；走环境科学 / 海洋科学 / 气候科学方向的学生可关注 USyd 在这条研究线上的持续积累" }
+      ],
+      "source": "USyd News · 2026-06-30",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/06/30/landmark-study-iodp-325-expedition-great-barrier-reef.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "褪黑素镇痛新发现 + 大堡礁 3 万年档案——USyd 7 月 4 日两条，一条健康科学，一条气候生态，两条都是高影响力研究。",
+    "items": [
+      { "n": "01", "title": "褪黑素缓解慢性痛", "body": "23 RCT / 2028 人 / 多国数据；疼痛评分下降约 9-10/100 分；效果与 NSAIDs 相当；Kangchao Wu 团队；《PAIN》2026" },
+      { "n": "02", "title": "大堡礁 3 万年研究", "body": "IODP 325 综合报告；34 岩心 / 17 站点 / 水深 46-170m；40 机构 12 国；50+ 论文；《Marine Geology》2026" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "6 所澳洲大学 · 每天 2 校 · 科研 + 奖学金 + 校园动态一手同步",
+      "badge": "07 / 04"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "悉大两条研究新闻📊",
+      "body": "悉尼大学这周出了两条研究新闻，方向完全不同但都挺有意思。\n\n第一条是 Charles Perkins Centre 的 Kangchao Wu（博士候选人）发在《PAIN》期刊上的 meta 分析：对 23 个 RCT、共 2028 名参与者的数据进行综合分析，发现褪黑素（melatonin）可以缓解慢性肌骨骼疼痛，效果和常见止痛药（NSAIDs、阿片类、扑热息痛）处于同一量级。安全性方面，短期使用低剂量情况下是安全的。\n\n第二条是 IODP 探险 325 综合报告，发表在《Marine Geology》。这个项目整合了 40 家机构、12 个国家近 20 年的研究，分析了 2010 年在大堡礁外侧采集的 34 个岩心，还原了大堡礁近 3 万年在气候压力下反复崩塌、重建和迁移的历史。\n\n一条健康科学，一条气候/海洋生态——两条放一起，能看出悉大在跨学科研究上的覆盖广度。有在读悉大或者在看科研方向的姐妹评论区聊聊🙋",
+      "tags": "#USyd #悉尼大学 #澳洲留学 #科研 #大堡礁 #留学干货"
+    },
+    "p2": {
+      "title": "褪黑素 = 止痛药？研究说",
+      "body": "学医 / 药学 / 公共卫生方向的姐妹可以看这条：悉尼大学 Charles Perkins Centre 和 School of Health Sciences 的博士候选人 Kangchao Wu 领衔，7 月 1 日在《PAIN》期刊发表了一篇系统综述 + meta 分析。\n\n纳入了 23 个随机对照试验（RCT）、来自伊朗、美国、俄罗斯、巴西、埃及、中国、伊拉克、土耳其和印度共 2028 名成人的数据，分析褪黑素对慢性肌骨骼疼痛的效果。\n\n结论：褪黑素使疼痛评分下降约 9-10/100 分，效果和 NSAIDs（非甾体抗炎药）、阿片类药物、扑热息痛处于同一量级，同时还能改善睡眠质量。安全性方面：短期使用（不超过 3 个月）低剂量（不超过 5mg）情况下良好。\n\nKangchao Wu 的原话我觉得挺直接的：「Melatonin is already in people's homes, it's inexpensive, and we know it's safe. What's exciting is that melatonin may also help manage chronic pain, opening the door to reducing reliance on medications that come with more risks.」\n\n这个发现在临床上的意义是：对于有慢性腰背痛、骨关节炎、纤维肌痛的患者，褪黑素可能是一个成本低、风险小的辅助选项。有在读健康科学、药学、医学方向的姐妹，这种 meta 分析的研究设计和结论呈现方式也挺值得学习。",
+      "tags": "#USyd #悉尼大学 #澳洲留学 #医学科研 #健康科学 #留学干货 #公共卫生"
+    },
+    "p3": {
+      "title": "USyd 大堡礁 3 万年揭秘🌊",
+      "body": "走环境科学 / 海洋科学 / 气候科学方向的姐妹可以收藏这条：悉尼大学参与的研究团队 6 月 30 日在《Marine Geology》发表了 IODP 探险 325（Integrated Ocean Drilling Program Expedition 325）的综合报告。\n\n这个项目 2010 年在大堡礁外侧 17 个站点采集了 34 个化石珊瑚礁和沉积物岩心，水深 46-170 米。这次综合报告整合了 40 家机构、12 个国家近 20 年的研究成果，已产出 50 余篇学术论文。\n\n核心发现：大堡礁在过去约 3 万年里（从末次冰盛期到现代珊瑚礁形成），经历了海平面上升、水温升高、大陆架淹没和水质变化等多重环境压力，呈现出反复崩塌、重建和迁移的规律——不是线性的「一路好好的」，而是动态适应的。\n\n这条研究的价值在于：它给当代气候变化对大堡礁影响的预测，提供了一个深时（deep-time）的基准。换句话说，想预测大堡礁未来怎么样，先看它过去 3 万年怎么撑过来的。\n\n有在研究环境科学 / 气候 / 海洋方向的姐妹，悉大在这条线上的研究积累相当深，评论区聊聊你在看哪个方向。",
+      "tags": "#USyd #悉尼大学 #澳洲留学 #大堡礁 #环境科学 #气候研究 #留学干货"
+    },
+    "p4": {
+      "title": "悉大研究怎么影响日常生活",
+      "body": "悉尼大学这周发了两条研究，想聊聊它们和普通人的实际距离。\n\n第一条是褪黑素镇痛的 meta 分析（Kangchao Wu 团队，发在《PAIN》期刊）。结论是：褪黑素可以缓解慢性肌骨骼疼痛，效果和常见止痛药处于同一量级，安全性短期内良好。对有长期腰背痛或者骨关节炎的人来说，这可能是一个成本很低的辅助方案——褪黑素药房就能买到，比起长期用 NSAIDs 或者阿片类药物，副作用风险要小很多。\n\n第二条是大堡礁 IODP 研究，范围看起来很「学术」，但意义很现实：大堡礁是全球最重要的海洋生态系统之一，知道它过去 3 万年怎么在气候压力下崩塌又重建，才能真正预测它在当前变暖速度下的未来。这不只是学术问题，是澳洲旅游业、渔业、海洋保护政策的现实依据。\n\n我有时候在想，顶尖研究型大学的价值，不只是排名，而是这些研究真的能落到人们的生活里。悉大在健康科学和气候生态这两条线上，都在推进有实际影响力的工作。\n\n有在考虑科研型方向（PhD / Honours / research master's）的姐妹，评论区聊聊你在看哪个赛道。",
+      "tags": "#USyd #悉尼大学 #澳洲留学 #科研 #PhD申请 #留学干货 #健康科学"
+    },
+    "p5": {
+      "title": "USyd 7-4 两条一眼过",
+      "body": "USyd 这周两条研究新闻，方向不同但都是高水准输出：\n\n01 / 褪黑素镇痛——Charles Perkins Centre 博士候选人 Kangchao Wu 领衔，《PAIN》2026 发表。23 个 RCT / 2028 人 / 多国数据；疼痛评分下降约 9-10/100 分，效果与 NSAIDs 同量级；短期低剂量安全。研究说明褪黑素「开门」减少对副作用更大的止痛药的依赖。\n\n02 / IODP 大堡礁 3 万年档案——6 月 30 日在《Marine Geology》发表（DOI: 10.1016/j.margeo.2026.107824）。34 岩心 / 17 站点 / 40 机构 / 12 国 / 50+ 论文，系统还原大堡礁近 3 万年反复崩塌与重建的历史，为当代气候变化影响预测提供深时基准。\n\n两条放一起看：USyd 在健康科学和气候/海洋生态两条研究线上都在持续产出高影响力成果。在看悉大或者在研究这两个方向的姐妹评论区扣 1🙌",
+      "tags": "#USyd #悉尼大学 #澳洲留学 #大学新闻 #科研 #留学干货 #大堡礁"
+    }
+  },
+  "mp": {
+    "title": "悉尼大学 7 月 4 日 褪黑素缓解慢性痛媲美止痛药 + 大堡礁 3 万年反复崩塌重生",
+    "lead": "USyd 这周两条研究新闻方向完全不同但都值得关注。一是 Charles Perkins Centre 博士候选人 Kangchao Wu 领衔，7 月 1 日在《PAIN》期刊发表系统综述与 meta 分析，纳入 23 个 RCT 共 2028 名参与者数据，发现褪黑素使慢性肌骨骼疼痛评分下降约 9-10/100 分，效果与 NSAIDs、阿片类药物及扑热息痛处于同一量级，短期低剂量情况下安全性良好。二是 6 月 30 日发表在《Marine Geology》的 IODP 探险 325 综合报告，整合 40 机构、12 国近 20 年研究，基于 34 个大堡礁外侧岩心，系统还原大堡礁近 3 万年在多重气候压力下反复崩塌、重建与迁移的历史，为预测当代全球变暖对大堡礁命运的影响提供深时基准。",
+    "meta": { "readTime": "7 分钟" },
+    "newsBodies": [
+      {
+        "h2": "褪黑素缓解慢性肌骨骼疼痛：USyd 研究发现效果与 NSAIDs 同量级，短期安全",
+        "paragraphs": [
+          "University of Sydney Charles Perkins Centre 和 School of Health Sciences 的博士候选人 Kangchao Wu 领衔的研究团队，7 月 1 日在国际疼痛医学期刊《PAIN》发表系统综述与 meta 分析：「Efficacy and effectiveness of melatonin for the management of musculoskeletal pain: a systematic review and meta-analysis of placebo and active controlled trials」。研究纳入来自 23 个随机对照试验（RCT）、涵盖伊朗、美国、俄罗斯、巴西、埃及、中国、伊拉克、土耳其和印度等国共 2028 名成人参与者的数据，系统评估褪黑素在慢性肌骨骼疼痛管理中的效果与安全性。",
+          "结果显示：褪黑素补充使慢性肌骨骼疼痛评分下降约 9-10/100 分，效果处于与阿片类药物、非甾体抗炎药（NSAIDs）及扑热息痛相当的量级，同时还能改善睡眠质量。研究覆盖的疼痛类型包括腰背痛、骨关节炎、纤维肌痛等慢性病患者，以及术后恢复患者。安全性方面，短期使用（不超过 3 个月）低剂量（不超过 5mg）情况下良好。Kangchao Wu 在接受采访时表示：「Melatonin is already in people's homes, it's inexpensive, and we know it's safe. What's exciting is that melatonin may also help manage chronic pain, opening the door to reducing reliance on medications that come with more risks.」",
+          "这项研究的临床意义在于：褪黑素是一种获取门槛极低（普通药房即可购买）、成本极低、副作用风险远低于长期使用 NSAIDs 或阿片类药物的选项，如果其镇痛效果确实处于同一量级，则有可能成为慢性肌骨骼疼痛患者的辅助管理工具。对走医学、药学、公共卫生、健康科学方向的学生而言，这类系统综述 + meta 分析的研究设计本身也值得关注——23 个 RCT 的数据整合，覆盖 9 个国家，是临床研究方法论的一个标准示例。USyd Charles Perkins Centre 是澳洲最重要的慢性病研究机构之一，有志于健康科学研究方向的学生可以将其作为科研方向考量的维度之一。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.sydney.edu.au/news-opinion/news/2026/07/01/study-finds-melatonin-may-ease-chronic-pain.html\">USyd News · Study finds melatonin may ease chronic pain</a>"
+      },
+      {
+        "h2": "IODP 探险 325 综合报告：大堡礁 3 万年气候剧变，反复崩塌重建重新迁移",
+        "paragraphs": [
+          "USyd 参与的研究团队于 6 月 30 日在《Marine Geology》发表 IODP 探险 325（Integrated Ocean Drilling Program Expedition 325）综合报告（DOI: 10.1016/j.margeo.2026.107824）。这篇综合报告系统梳理了 2010 年 IODP 325 探险从大堡礁外侧采集的 34 个化石珊瑚礁与沉积物岩心——来自 17 个钻探站点，水深覆盖 46-170 米——以及随后近 20 年的研究积累。报告整合了来自 40 家机构、12 个国家的专家贡献，此前这批数据已产出 50 余篇学术论文。",
+          "核心发现是：从末次冰盛期（Last Glacial Maximum, 约 20,000 年前）到现代珊瑚礁的形成过程中，大堡礁礁盘-礁缘系统（shelf-edge system）高度动态，同时面临多种环境压力——海平面上升、水温升高、大陆架淹没（shelf flooding）以及水质变化。研究揭示，大堡礁在这一过程中经历了反复的崩塌（collapse）、重建（regrowth）与迁移（migration），并非简单线性演进的生态系统，而是在多重压力下持续适应和重组的动态结构。这一发现彻底打破了「珊瑚礁是静态生态系统」的直觉认知。",
+          "这项研究的实际意义超出纯学术范畴。大堡礁是全球最重要的海洋生态系统之一，对澳洲旅游业、渔业和海洋保护政策都有直接影响。通过还原其 3 万年的历史轨迹，科学家获得了预测当代气候变化对大堡礁影响的「深时基准」——即了解这个系统在历史上以什么速率崩塌和恢复，才能评估当前以更快速度推进的全球变暖会带来什么后果。对走环境科学、海洋科学、气候科学或地质科学方向的学生，USyd 在这条研究线上的积累相当深——School of Geosciences 与 Sydney Environment Institute 都有持续的相关研究项目，博士和荣誉学位的入口是清晰的。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.sydney.edu.au/news-opinion/news/2026/06/30/landmark-study-iodp-325-expedition-great-barrier-reef.html\">USyd News · How a landmark study revealed the Great Barrier Reef's survival over 30,000 years</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · 褪黑素镇痛研究</strong>：23 RCT / 2028 人 / 多国数据；疼痛评分下降 9-10/100 分，效果与 NSAIDs 同量级；短期低剂量安全；Kangchao Wu 团队；《PAIN》2026",
+        "<strong>02 · 大堡礁 3 万年档案</strong>：IODP 325 综合报告；34 岩心 / 17 站点 / 水深 46-170m；40 机构 12 国；50+ 论文；大堡礁反复崩塌重建；《Marine Geology》2026"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学最新动态？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 历史日报全在 jiangren.com.au/blog"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "USyd 褪黑素研究｜止痛药的平替选项？",
+        "body": "走医学 / 药学 / 健康科学方向的姐妹可以存这条：悉尼大学 Charles Perkins Centre 博士候选人 Kangchao Wu 领衔，7 月 1 日在《PAIN》期刊发表 meta 分析。纳入 23 个 RCT、2028 名参与者，覆盖 9 个国家。\n\n结论：褪黑素缓解慢性肌骨骼疼痛效果下降约 9-10/100 分，和 NSAIDs、阿片类、扑热息痛处于同一量级，同时还能改善睡眠。短期低剂量安全性良好。\n\n研究者的原话很直接：褪黑素已经在家里了，便宜，安全，现在发现它可能还能帮助管理慢性痛，可以减少对副作用更大的药物的依赖。\n\n临床意义：对有腰背痛、骨关节炎、纤维肌痛的慢性病患者来说，这可能是个成本极低的辅助选项。悉大 Charles Perkins Centre 在慢性病研究上的积累很深，有在看健康科学 / 医学研究方向的姐妹可以多关注。评论区扣 1 我分享 USyd 健康科学方向的选课思路。",
+        "tags": ["#USyd", "#悉尼大学", "#澳洲留学", "#健康科学", "#医学科研", "#留学干货", "#公共卫生"]
+      },
+      {
+        "heading": "USyd 大堡礁研究｜3 万年气候档案",
+        "body": "走环境 / 海洋 / 气候方向的姐妹可以看这条：悉大参与的团队 6 月 30 日在《Marine Geology》发表了 IODP 探险 325 综合报告。\n\n背景：2010 年 IODP 325 探险在大堡礁外侧采集了 34 个岩心，来自 17 个站点，水深 46-170 米。这次综合报告整合了 40 家机构、12 个国家近 20 年的研究，已产出 50 余篇论文。\n\n核心发现：大堡礁过去约 3 万年里在海平面上升、水温升高、大陆架淹没等多重气候压力下，经历了反复崩塌、重建和迁移——不是一个静态生态系统，是在压力下持续动态适应的结构。\n\n这给当代气候变化对大堡礁影响的预测提供了一个深时基准：历史上它以什么速率崩塌和恢复，和现在变暖速度之间的对比，是很现实的政策依据。\n\n悉大在这条线上有 School of Geosciences 和 Sydney Environment Institute 两个研究平台，博士和荣誉学位入口清晰。有在研究这个方向的姐妹评论区聊。",
+        "tags": ["#USyd", "#悉尼大学", "#澳洲留学", "#大堡礁", "#环境科学", "#气候研究", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "「最重要的」修饰大堡礁，属通用描述性修饰语，非营销承诺；未检出其他绝对化表述" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出（xhsCopy 与 drafts 仅用「评论区扣 1 / 评论区聊」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 和 drafts.sections 全部扫描；JR Academy 仅出现在 mp.cta 合规区域）" },
+      { "category": "AI 味", "rule": "首先其次最后 / 值得注意的是 / 综上所述 / 此外", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出（「缓解」为研究结论中的学术词汇，非疗效承诺）" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
