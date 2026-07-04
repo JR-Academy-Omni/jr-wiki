@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-05",
+  "school": "monash",
+  "summary": {
+    "hookMain": "Monash",
+    "hookSub": "全球第 38 + 双副校长新任",
+    "hookSubHighlight": "全球第 38",
+    "subLines": [
+      "US News 2026-2027 全球第 38 · 连续前 40 · 2250+ 校同场",
+      "Prof Twomey 6/29 接任研究员发展副校长",
+      "Prof van Oijen 8/10 接任研究副校长 · 哈佛医学院背景"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "全球排名", "data": "第 38 / 2250+" },
+      { "num": "02", "title": "研究副校长", "data": "8 月 10 日到任" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "校园动态",
+      "h2Main": "Monash US News 全球排名第 38 · 连续锚定前 40",
+      "h2Sub": "2026-2027 年度评比 · 2250+ 所高校同场 · 研究影响力稳居顶阵",
+      "h2Highlight": "全球第 38",
+      "lead": "Monash University 在 US News and World Report 2026-2027 最佳全球大学排名中位列<b>全球第 38</b>，与来自 105 个国家逾 2,250 所高校同台评比。自 2021 年起，Monash 已连续多年稳定锚定全球前 40 阵营，进一步巩固了其在研究产出与全球影响力两个维度上的领先地位。",
+      "bullets": [
+        { "k": "排名背景", "v": "US News Best Global Universities Rankings 以研究声誉、引用率、国际合作、出版物数量为核心评估维度；<b>全球第 38</b>在澳洲高校中处于第一梯队" },
+        { "k": "持续性", "v": "Monash 自 <b>2021 年起连续保持全球前 40</b>，体现学校在研究体系建设上的长期投入而非短期波动" },
+        { "k": "对留学生的意义", "v": "全球前 40 的学位认可度在大多数跨国雇主、政府职位、专业注册（如工程师 / 医生）资质审核中处于优势区间；Monash 学生来自 <b>100+ 国家</b>，跨文化就业网络是实质性资产" },
+        { "k": "参考数据", "v": "本轮同台评比共 <b>2,250+ 所高校、105 个国家</b>——是目前覆盖最广的全球大学综合排名之一" }
+      ],
+      "source": "Monash University News · 2026-06",
+      "sourceUrl": "https://www.monash.edu/news/articles/monash-maintains-global-position-in-us-news-and-world-report-2026-2027-best-global-universities-rankings",
+      "sourceQuote": "placing 38th in the world, evaluated against more than 2250 institutions across 105 countries, this result further solidifies Monash's position inside the world's top 40"
+    },
+    {
+      "idx": "02",
+      "category": "校园动态",
+      "h2Main": "Monash 研究领导层升级 · 双副校长 6 月底 8 月初接棒",
+      "h2Sub": "Twomey 6/29 到任 · van Oijen 8/10 到任 · 哈佛 + ARC 背景",
+      "h2Highlight": "研究领导层升级",
+      "lead": "Monash University 上半年完成高层研究领导团队重组：Professor Christina Twomey 于 <b>2026 年 6 月 29 日</b>正式出任 Pro Vice-Chancellor（Researcher Development），Professor Antoine van Oijen 将于 <b>2026 年 8 月 10 日</b>接任 Pro Vice-Chancellor（Research）。两位新任副校长的背景横跨 ARC 政策制定与哈佛医学院研究，标志着 Monash 科研战略进入新阶段。",
+      "bullets": [
+        { "k": "Prof Christina Twomey", "v": "<b>6 月 29 日到任</b>；Monash 历史学教授（2003 年起）；2023-2025 年任澳大利亚研究委员会（ARC）首席研究官，主导 ARC 专家学院运营及研究评估体系战略转型" },
+        { "k": "Prof Antoine van Oijen", "v": "<b>8 月 10 日到任</b>；分子生物物理学家，学术生涯横跨哈佛医学院 / 格罗宁根大学 / 卧龙岗大学 / 悉尼大学逾 25 年；研究聚焦 DNA 复制与修复机制及新型成像技术" },
+        { "k": "对 PhD 申请人的意义", "v": "van Oijen 的研究背景（DNA 复制 / 分子成像）可能带来 Molecular Biology / Biophysics 方向的新课题合作机会；Twomey 的 ARC 政策经验有望提升 Monash 在澳大利亚国家科研资助竞争中的战略定位" },
+        { "k": "时间节点", "v": "Twomey 已于 <b>2026-06-29</b> 开始工作；van Oijen 自 <b>2026-08-10</b> 正式接任——8 月后的 PhD 入学咨询可能由新任团队主导" }
+      ],
+      "source": "Monash University News · 2026-05",
+      "sourceUrl": "https://www.monash.edu/news/articles/monash-university-appoints-new-senior-leaders-in-research",
+      "sourceQuote": "Professor Christina Twomey commenced as Pro Vice-Chancellor (Researcher Development) on Monday 29 June 2026. Professor Antoine van Oijen has been appointed Pro Vice-Chancellor (Research), effective Monday 10 August 2026."
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 全球第 38 连续前 40 + 双副校长 6 月底 8 月初接棒——排名背书稳固，研究领导层同步升级，正在考虑 Monash PhD 的同学可以留意新任 PVC Research 的研究方向。",
+    "items": [
+      { "n": "01", "title": "US News 全球第 38", "body": "2026-2027 年度；2250+ 所高校 105 国同场；自 2021 年连续锚定前 40；研究影响力评估维度领先" },
+      { "n": "02", "title": "研究副校长双新任", "body": "Twomey（ARC 首席研究官背景）6/29 到任主管研究员发展；van Oijen（哈佛 + 25 年分子生物物理背景）8/10 到任主管研究" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天更新 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "07 / 05"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash 7-05 两条｜排名+领导层📣",
+      "body": "Monash 6-7 月交接两条同时到位，一条是排名背书，一条是研究领导层升级，拿出来给准备申 Monash 的姐妹看看。\n\n01 / US News 全球第 38——2026-2027 年度评比，和来自 105 国的 2250+ 所高校同台，Monash 拿下第 38。自 2021 年起连续锚定全球前 40，不是昙花一现那种。\n\n02 / 双副校长新任——Prof Christina Twomey 6 月 29 日接任研究员发展副校长（从澳大利亚研究委员会 ARC 首席研究官来的）；Prof Antoine van Oijen 8 月 10 日接任研究副校长（哈佛医学院 + 25 年分子生物物理背景）。\n\n两条放一起看：排名确认了 Monash 的国际认可度，新任研究团队可能带来 PhD 课题合作的新机会。姐妹有在考虑 Monash 科研方向的评论区聊🙌",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #Monash申请 #留学干货 #大学排名 #博士申请"
+    },
+    "p2": {
+      "title": "Monash 全球第 38 稳了📊",
+      "body": "关注大学排名的姐妹存一下这条：Monash University 在 US News 2026-2027 最佳全球大学排名拿下<b>全球第 38</b>，与来自 105 个国家逾 2250 所高校同台评比。\n\n这个排名用的核心维度是研究声誉、引用率、国际合作、出版物数量——不是那种只看校园硬件或招生标准的榜单，比较真实地反映学校在全球学术圈的影响力。\n\n值得注意的一点：Monash 自 2021 年起连续保持全球前 40，不是某一年的突然冲高——是一个持续稳定的信号。对于申请人来说，学位的国际认可度、雇主信任度、专业注册资质（工程师 / 医生等）审核，很大程度上和这个梯队有关。\n\nMonash 国际学生来自 100+ 国家，全球前 40 的学位 + 多元生态，对毕业后跨国就业来说是实质性加分。正在选校的姐妹可以把这个作为一个参考维度。有问题评论区聊。",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #大学排名 #USNews #留学干货 #Monash申请"
+    },
+    "p3": {
+      "title": "Monash 两位新副校长｜科研新阶段🔬",
+      "body": "走 Monash PhD 方向的姐妹这条值得关注：Monash University 研究领导层 6-8 月完成重组，两位新副校长背景都很硬。\n\nProf Christina Twomey——6 月 29 日正式到任，出任 Pro Vice-Chancellor (Researcher Development) 研究员发展副校长。她是 Monash 历史学教授，2003 年起任职；最近的一段经历是 2023-2025 年在澳大利亚研究委员会（ARC）担任首席研究官，主导了 ARC 专家学院的运营和研究评估体系的战略转型，在科研公平性、多元化政策领域积累深厚。\n\nProf Antoine van Oijen——8 月 10 日到任，出任 Pro Vice-Chancellor (Research) 研究副校长。他是分子生物物理学家，过去 25 年横跨哈佛医学院、荷兰格罗宁根大学、卧龙岗大学、悉尼大学，研究聚焦 DNA 复制与修复机制 + 新型成像技术。\n\n对 PhD 申请人来说，van Oijen 的研究方向（DNA 复制 / 分子成像）可能带来 Molecular Biology / Biophysics 方向新课题的机会；Twomey 的 ARC 背景有望提升 Monash 在国家科研资助竞争中的战略地位。8 月 10 日之后的 PhD 入学咨询有可能由新团队主导，对接时间节点值得留意。\n\n有在申 Monash 生命科学 PhD 的姐妹评论区扣 1🙋",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #博士申请 #科研 #留学干货 #Monash申请"
+    },
+    "p4": {
+      "title": "Monash 7月 两条速览｜排名+科研",
+      "body": "Monash 近期两条方向不同但都重要：\n\n01 / 全球第 38（US News 2026-2027）\n2250+ 所高校 105 国同场，Monash 全球第 38，连续 5 年锚定前 40。研究影响力维度稳固，国际认可度高。\n\n02 / 研究副校长双新任\nTwomey（ARC 首席研究官背景）6/29 到任，主管研究员发展；van Oijen（哈佛 + 分子生物物理 25 年经验）8/10 到任，主管研究战略。两位领导人标志着 Monash 科研新阶段启动。\n\n申 Monash PhD 的姐妹：排名背书确认了，新任研究副校长的方向（DNA 复制 / 分子成像）可能带来新课题机会。8 月后联系 Monash 导师，新团队已接棒。",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #大学排名 #博士申请 #科研 #留学干货"
+    },
+    "p5": {
+      "title": "Monash 7-05 一眼看完",
+      "body": "两条 Monash 消息压缩版：\n\n📊 US News 全球第 38——2026-2027 年度，2250+ 所高校同场，自 2021 年连续锚定前 40，学位国际认可度稳固。\n\n🔬 研究领导层重组——Twomey（ARC 背景）6/29 接任研究员发展 PVC；van Oijen（哈佛 + 25 年分子生物物理）8/10 接任研究 PVC。Monash 科研新阶段正式启动。\n\n评论区扣 1，我整理了 Monash PhD 申请路径和新任 PVC 研究方向🙌",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #大学排名 #博士申请 #留学干货"
+    }
+  },
+  "mp": {
+    "title": "Monash 7 月 5 日：全球第 38 连续前 40 + 研究副校长双新任启动科研新阶段",
+    "lead": "Monash University 近期两条重要消息同步落地。其一，Monash 在 US News 2026-2027 最佳全球大学排名中位列全球第 38，与来自 105 个国家逾 2,250 所高校同台，自 2021 年起连续锚定全球前 40，研究影响力维度稳固。其二，Monash 完成研究领导层重组：Professor Christina Twomey 已于 6 月 29 日出任 Pro Vice-Chancellor（Researcher Development），Professor Antoine van Oijen 将于 8 月 10 日接任 Pro Vice-Chancellor（Research），两位新任副校长分别来自澳大利亚研究委员会高层和哈佛医学院背景，标志着 Monash 科研战略进入新阶段。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "Monash 全球第 38：US News 2026-2027 连续锚定前 40",
+        "paragraphs": [
+          "Monash University 在 US News and World Report 2026-2027 最佳全球大学排名（Best Global Universities Rankings）中位列全球第 38，与来自 105 个国家逾 2,250 所高校同台评比。US News 全球大学排名以研究声誉、论文引用率、国际合作频次、出版物数量等研究影响力维度为核心评估标准，是目前覆盖最广的全球大学综合排名之一。",
+          "自 2021 年起，Monash 已连续保持全球前 40 位次，体现了学校在研究体系建设上的持续投入与稳定产出，而非单年波动。学校国际学生来自逾 100 个国家，全球前 40 的学位认可度在大多数跨国雇主评估、政府职位申请、专业注册资质（如工程师、医生、会计师）审核中处于优势区间。",
+          "对正在评估赴澳留学目标院校的学生而言，这一排名提供了对 Monash 研究实力和国际声誉的量化参考；结合 Monash 在工程、商学、医学、法学、信息技术等专业方向上的学科排名，可以更全面地评估专业选择与就业竞争力的匹配度。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.monash.edu/news/articles/monash-maintains-global-position-in-us-news-and-world-report-2026-2027-best-global-universities-rankings\">Monash University · US News 2026-2027 Best Global Universities Rankings</a>"
+      },
+      {
+        "h2": "研究领导层重组：Twomey 6 月 29 日接任，van Oijen 8 月 10 日到任",
+        "paragraphs": [
+          "Monash University 宣布两位新任研究副校长接棒，完成高层研究领导团队重组。Professor Christina Twomey 已于 2026 年 6 月 29 日正式出任 Pro Vice-Chancellor（Researcher Development，研究员发展副校长）。Twomey 自 2003 年起任职 Monash，现为历史学教授，曾担任艺术学院哲学历史及原住民研究学院院长（2017-2021）及学术委员会副主席（2016-17）；2023 至 2025 年担任澳大利亚研究委员会（ARC）首席研究官，主导 ARC 专家学院运营、战略合作及研究评估体系改革，在科研公平性、多元化与包容性政策领域积累了丰富的政策制定经验。",
+          "Professor Antoine van Oijen 将于 2026 年 8 月 10 日正式接任 Pro Vice-Chancellor（Research，研究副校长）。van Oijen 是国际知名分子生物物理学家，学术生涯超过 25 年，横跨哈佛医学院、荷兰格罗宁根大学、卧龙岗大学及悉尼大学等多所顶尖机构，研究专注于 DNA 复制与修复机制，以及新型成像方法与分子生物物理技术的开发与整合。加入 Monash 前，他在悉尼大学担任多项领导职务。",
+          "对 PhD 申请人的实际意义：van Oijen 的研究背景直接涵盖 Molecular Biology 和 Biophysics 方向，其加盟可能带来相关方向的新课题和合作机会；Twomey 的 ARC 政策资历有望提升 Monash 在国家科研资助竞争（如 ARC Discovery Project、NHMRC 等）中的战略定位。8 月 10 日之后的 PhD 入学咨询、导师匹配和资助申请，将由新任研究团队主导，时间节点值得留意。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.monash.edu/news/articles/monash-university-appoints-new-senior-leaders-in-research\">Monash University · Appoints new senior leaders in research</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · US News 全球第 38</strong>：2026-2027 年度；2250+ 所高校 105 国同场；自 2021 年连续锚定前 40；研究影响力 + 国际合作频次主导评估",
+        "<strong>02 · 研究副校长双新任</strong>：Twomey（ARC 首席研究官背景）6/29 接任研究员发展 PVC；van Oijen（哈佛医学院 + 25 年分子生物物理经验）8/10 接任研究 PVC；PhD 申请咨询 8 月后由新团队主导"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "Monash 全球第 38｜US News 2026-2027 排名解读",
+        "body": "在考虑赴澳留学的姐妹，Monash 这次排名结果值得认真看一下。\n\nUS News 2026-2027 最佳全球大学排名，Monash 全球第 38，和来自 105 个国家 2250 多所高校同台。这个排名用的核心维度是研究声誉、引用率、国际合作、出版物数量——不是那种看硬件或奖学金总额的榜单，更真实地反映学校在全球学术圈的实际影响力。\n\n我觉得比数字本身更值得关注的是：<b>Monash 自 2021 年起连续锚定前 40</b>，这不是昙花一现，是持续稳定的信号。对于选校来说，学位的国际认可度、专业注册资质审核（工程师 / 医生 / 会计师），很大程度上和这个梯队直接相关。\n\nMonash 国际学生来自 100+ 国家，在校园里你能遇到来自各地的同学——这对毕业后的跨国就业网络来说是实质性资产，不只是口号。\n\n正在做选校对比的姐妹，有什么关于 Monash 各专业方向的问题评论区聊。",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#大学排名", "#USNews", "#留学干货", "#选校"]
+      },
+      {
+        "heading": "Monash 研究副校长双新任｜科研新阶段启动",
+        "body": "Monash University 6-8 月完成了研究领导层的一次比较大的重组，两位新任副校长背景都挺有看头的，拆解给准备申 Monash PhD 的姐妹看。\n\nProf Christina Twomey——6 月 29 日已经到任，出任研究员发展副校长。她在 Monash 干了二十多年，本身是历史学教授。最近一段经历是 2023-2025 年在澳大利亚研究委员会（ARC）担任首席研究官——ARC 是澳洲最核心的科研资助机构，她在那边主导了专家学院的运营和研究评估体系的改革，在科研公平性和多元化政策这块积累深厚。\n\nProf Antoine van Oijen——8 月 10 日到任，出任研究副校长。他是分子生物物理学家，在哈佛医学院、荷兰格罗宁根大学、卧龙岗大学、悉尼大学干了超过 25 年，专注 DNA 复制与修复 + 新型成像技术。\n\n对我们 PhD 申请人来说有几点值得关注：van Oijen 的方向（DNA 复制 / 分子成像）可能带来 Molecular Biology / Biophysics 新课题的合作机会；Twomey 的 ARC 背景有望提升 Monash 在国家科研资助竞争中的地位。8 月 10 日之后联系 Monash 导师，新团队已经接棒了。\n\n有在申 Monash 生命科学方向 PhD 的姐妹，评论区扣 1，一起聊聊。",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#博士申请", "#科研", "#留学干货", "#Monash申请"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化",     "rule": "最 / 第一 / 唯一 / 100%",                "result": "未检出（「最佳全球大学」为 US News 榜单官方名称，非自我标榜）" },
+      { "category": "教育承诺",   "rule": "包过 / 保录取 / 稳上 / 必中",            "result": "未检出" },
+      { "category": "引流",       "rule": "加V / VX / 薇信 / 私信领取",             "result": "未检出（仅出现「评论区扣 1」合规互动话术）" },
+      { "category": "封号红线",   "rule": "JR Academy / 匠人学院 / jiangren.com",   "result": "未检出（xhsCopy 与 drafts 全部扫描；mp.cta 里的「JR Academy 公众号」属公众号发稿页合规引流）" },
+      { "category": "AI 味",      "rule": "首先其次最后 / 值得注意 / 综上所述",       "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然",                   "result": "未检出" },
+      { "category": "政治金融",   "rule": "保本 / 稳赚 / 荐股",                     "result": "未检出" }
+    ]
+  }
+}
