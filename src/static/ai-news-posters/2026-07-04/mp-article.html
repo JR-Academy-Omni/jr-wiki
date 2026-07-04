@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 日报 2026-07-04 · 公众号文章（内部）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --mp-primary: #ff5757;
+  --mp-highlight: #ffce44;
+  --mp-dark: #10162f;
+}
+</style>
+<link rel="stylesheet" href="../../_lib/mp-page.v1.css">
+</head>
+<body>
+<div class="page">
+  <div class="topbar">
+    <div>
+      <h1>📰 AI 日报 · <span>公众号文章</span> · 2026-07-04</h1>
+      <div class="sub">左侧 375px 手机预览 · 右侧进度 + 操作。点「📋 复制富文本」后粘到公众号编辑器，图片自动抓取 re-host。</div>
+    </div>
+    <div class="acts">
+      <a class="btn" href="./">← 回海报库</a>
+      <button class="btn" id="btn-copy-html">📋 复制富文本</button>
+      <button class="btn primary" id="btn-download-all" disabled>⬇ 下载 6 张 PNG</button>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-bar">
+          <span><span class="dot"></span>mp.weixin.qq.com</span>
+          <span>375px · 预览</span>
+        </div>
+        <article class="mp" id="mp-article">
+<div class="mp-title">Claude Sonnet 5 普及 / Together AI 8 亿融资 / 特斯拉限 AI 支出 / 联合国 AI 委员会 / Azure AZ-204 退役</div>
+<div class="mp-meta">
+  <span class="author">JR Academy AI 日报</span>
+  <span>·</span><span>2026-07-04</span>
+  <span>·</span><span>阅读约 8 分钟</span>
+</div>
+<div class="mp-lead">2026-07-04 AI 日报，今日 5 条：Claude Sonnet 5 上线即默认，1M 上下文 + 接近旗舰性能；Together AI 完成 8 亿美元 C 轮，估值 83 亿美元；特斯拉每周 200 美元 AI 限额，7 月 6 日起执行；联合国 AI for Good 全球委员会成立，7 月 8 日日内瓦首次开会；Azure AZ-204 开发者证书 7 月 31 日退役，AI-901 接棒 AI-900。</div>
+<img class="mp-img" src="./poster-0.png" alt="图 1 · 合集海报" data-poster="poster-0" data-file="mp-01-summary.png">
+<div class="mp-caption">图 1 · 合集海报</div>
+<hr class="mp-divider">
+<div class="mp-hook">01 · Anthropic 模型</div>
+<div class="mp-h2">Claude Sonnet 5 上线，1M token 上下文 成免费默认</div>
+<img class="mp-img" src="./poster-1.png" alt="图 2 · 海报 01" data-poster="poster-1" data-file="mp-02-01-claude-sonnet5-default.png">
+<div class="mp-caption">图 2 · 海报 01</div>
+<div class="mp-oneline"><strong>一句话</strong>：6 月 30 日发布，7 月 1 日起为 Free/Pro 默认，入门价 <strong>$2/$10 每百万 token</strong> 至 8 月底</div>
+<p>Claude Sonnet 5 是 Anthropic 推出以来性价比最高的里程碑。官方文档明确：Sonnet 5 在 coding、reasoning、tool use、knowledge work 等关键 agentic 指标上都有实质跳升，性能「接近旗舰 Opus 4.8」，但价格远低于旗舰档。更关键的是，1M token 的上下文窗口同时是默认值和上限——这意味着不再需要特别的 API 参数才能开启长上下文，普通用户调用就直接拥有。</p>
+<p>有两个技术细节值得工程师重点关注。第一，adaptive thinking 默认开启，而手动指定 extended thinking 的参数调用现在会返回 400 错误（该参数在 Sonnet 4.6 时已被标注为废弃）。第二，Sonnet 5 采用了新版 tokenizer，相同文本会比 Sonnet 4.6 多产出约 30% 的 token——入门价虽然看起来更低（$2 vs Sonnet 4.6 的 $3），但实际每次请求的 token 消耗量更高，真实成本需要重新基准测试才能给出准确对比。</p>
+<p>对于以 Claude Code 为核心工作流的工程师，这次更新是正向的：agent loop 的推理深度和工具调用准确率会提升，尤其是在多步骤、长上下文的 coding task 上。实操建议：上线前用自己的主力 prompt 集对比 Sonnet 4.6 和 Sonnet 5 的实际 token 数和响应质量；开启 prompt caching（5 分钟 TTL）来摊薄长上下文的反复传递开销；streaming 模式能有效降低首 token 等待时间感知。</p>
+<div class="mp-source">来源：<a href="https://anthropic.com">anthropic.com</a> · <a href="https://techcrunch.com">techcrunch.com</a> · <a href="https://platform.claude.com">platform.claude.com</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">02 · AI 融资</div>
+<div class="mp-h2">Together AI 完成 8 亿美元 C 轮，开源推理成香饽饽</div>
+<img class="mp-img" src="./poster-2.png" alt="图 3 · 海报 02" data-poster="poster-2" data-file="mp-03-02-together-ai-800m-series-c.png">
+<div class="mp-caption">图 3 · 海报 02</div>
+<div class="mp-oneline"><strong>一句话</strong>：Aramco 领投、NVIDIA/Salesforce 跟投，估值 $8.3B，Q2 年化预订 <strong>破 11.5 亿美元</strong></div>
+<p>Together AI 是目前最大的开源模型推理云之一，专门为 Llama 3、Mistral、DeepSeek、Qwen 等开源模型提供高性能 API 推理服务，是 Hugging Face Serverless Inference 和 Replicate 的重要竞争对手。这轮 8 亿美元把公司总融资额推到了 13 亿美元，而 Q2 年化预订额突破 11.5 亿美元意味着它已经进入「商业正循环」——不再只是烧投资人的钱，而是有真实企业客户付费撑起规模。</p>
+<p>Aramco Ventures 领投，NVIDIA 跟投，这个组合背后的含义值得细读。Aramco 是沙特阿美旗下的风险投资部门，近两年在全球 AI 基础设施领域大量布局，押注的是「AI 算力需求会像石油一样成为工业级基础资源」。NVIDIA 投 Together AI，则是为自己的 GPU 芯片找到了一个专注于开源生态的高质量推理分销商——双方利益高度一致。Together AI 在这轮融资中还锁定了超过 500MW 的算力承诺，由新投资方独立资本化，这意味着其推理集群规模即将出现数量级的扩张。</p>
+<p>对于开发者，这条新闻给出了一个明确的信号：开源推理 API 正在走向企业级成熟，不再是「将就用用」的选项。如果你的工作负载需要跑 Llama 3.3、DeepSeek V3、Qwen 2.5 或 Mixtral，Together AI API 在延迟、吞吐和定价上都值得认真评估。500MW 算力落地后，历史上偶发的限流问题有望大幅改善。此外，Together AI 持续投入的 Flash attention、speculative decoding 等推理优化技术，也让它在批量推理场景下具有独特的成本优势。</p>
+<div class="mp-source">来源：<a href="https://together.ai">together.ai</a> · <a href="https://techcrunch.com">techcrunch.com</a> · <a href="https://siliconangle.com">siliconangle.com</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">03 · 企业 AI</div>
+<div class="mp-h2">特斯拉 AI 支出封顶 $200/周，7 月 6 日起执行</div>
+<img class="mp-img" src="./poster-3.png" alt="图 4 · 海报 03" data-poster="poster-3" data-file="mp-04-03-tesla-ai-spending-cap.png">
+<div class="mp-caption">图 4 · 海报 03</div>
+<div class="mp-oneline"><strong>一句话</strong>：工程师此前单周消耗「数千美元 token」，xAI 产品豁免 <strong>&quot;Bottle Rocket&quot; 门户</strong> 纳管</div>
+<p>「Bottle Rocket」是特斯拉内部的 AI 工具聚合平台，员工通过它可以访问 OpenAI、Anthropic、Cursor、xAI 等多家模型的 API，类似企业版的 AI 工具订阅管理系统。问题在于，这种「按用量计费」的模式在工程师群体中非常容易失控：一个复杂的 coding agent 任务，一次跑下来就可能消耗数十美元；如果每个工程师每天跑几次这样的任务，月度 AI 支出会在完全无感知的情况下膨胀到让 CFO 头疼的数量级。</p>
+<p>值得注意的是，限额豁免了 xAI 的 beta 产品（即 Grok 系列）。表面上看是因为 xAI 产品还在 beta 阶段定价不稳定，但实际效果是：一旦工程师 200 美元额度用完，想继续用 AI 工具的自然选择就是切到 Grok——这条流量正好导向马斯克本人参股的 AI 公司。这不是什么阴谋论，而是一个设计得非常聪明的商业激励结构。</p>
+<p>特斯拉的案例并不孤立。Uber 在今年 4 月就已经耗完了 2026 年全年的 AI 预算，被迫临时踩刹车；Meta、Amazon、Walmart 也都相继推出了 AI 工具用量限制或强制降档措施（把工程师从 GPT-4o 踢回 GPT-4o-mini）。这背后有一个深层逻辑：企业「按 token 计费」的 AI 支出模式，是第一次让软件工程师的智力活动直接产生可量化的实时财务成本，而大多数企业的预算管控体系根本没有为这种颗粒度的支出管理做好准备。实操建议：如果你所在的团队正在规划 AI 工具预算，现在是设计「tier routing」的最好时机——把低复杂度任务路由到 Haiku/GPT-4o-mini，复杂分析才调旗舰模型，这一个改动就能把 token 支出压到原来的 20-40%。</p>
+<div class="mp-source">来源：<a href="https://electrek.co">electrek.co</a> · <a href="https://theinformation.com">theinformation.com</a> · <a href="https://cryptobriefing.com">cryptobriefing.com</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">04 · AI 治理</div>
+<div class="mp-h2">联合国 &quot;AI for Good&quot; 全球委员会成立，Jensen Huang 等科技领袖入列</div>
+<img class="mp-img" src="./poster-4.png" alt="图 5 · 海报 04" data-poster="poster-4" data-file="mp-05-04-un-ai-commission-geneva.png">
+<div class="mp-caption">图 5 · 海报 04</div>
+<div class="mp-oneline"><strong>一句话</strong>：Salesforce Benioff + 卢旺达总统 Kagame 联合主席，<strong>7 月 8 日日内瓦召开首次会议</strong></div>
+<p>这个委员会的设计原则非常清晰：「更小、更快、能拍板」。传统联合国治理机制最被诟病的就是外交共识程序繁琐、行动缓慢，而 AI 技术演进的速度根本等不了那么久。把 Marc Benioff、Jensen Huang、Andy Jassy 这种级别的 CEO 直接放进来，加上卢旺达总统 Kagame 代表新兴经济体的视角，设计目标是：一个能快速发布可执行建议、召集工作组、撮合自愿承诺的「精英小组」，而不是又一个缓慢输出报告的委员会。</p>
+<p>时间节点上，这件事发生得正是时候。7 月 6-7 日，UNESCO 在日内瓦同步举行「全球 AI 治理对话」，之后 7 月 8 日 ITU 的 AI for Good 全球峰会开幕，新委员会在峰会期间召开首次会议——这三个事件叠加，使 2026 年 7 月第一周成为 AI 全球治理史上最密集的多边外交周。值得关注的是，中国、印度、巴西等大国是否会在委员会中占有正式席位，直接决定这个治理框架的实际覆盖范围和约束力。</p>
+<p>对于在澳大利亚、东南亚做企业 AI 产品或 B2B SaaS 的团队，这条新闻的实操含义是：AI 合规要求的全球化浪潮正在提速，现在开始梳理自己产品的 AI 透明度、数据治理、算法审计等合规要求，比等到监管落地后临时追赶要轻松得多。具体参考路径：EU AI Act 的透明度条款（8 月生效）、澳大利亚 OAIC 的 AI 隐私指引、以及 UNESCO 的 AI 伦理建议书（2021 年版，正在更新）。</p>
+<div class="mp-source">来源：<a href="https://axios.com">axios.com</a> · <a href="https://easternherald.com">easternherald.com</a> · <a href="https://unesco.org">unesco.org</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">05 · IT 认证</div>
+<div class="mp-h2">Azure 开发者证书 AZ-204 7 月 31 日退役，AI-901 接棒 AI-900</div>
+<img class="mp-img" src="./poster-5.png" alt="图 6 · 海报 05" data-poster="poster-5" data-file="mp-06-05-azure-az204-retirement.png">
+<div class="mp-caption">图 6 · 海报 05</div>
+<div class="mp-oneline"><strong>一句话</strong>：月底前须完成续期或考取，AI-901「Azure AI 基础」3 月起替换 AI-900，<strong>新证书覆盖面更广</strong></div>
+<p>AZ-204 是 Azure 生态里历史最久、持有量最大的开发者认证之一，涵盖 Azure Functions、Cosmos DB、App Service、容器化部署等核心开发场景。退役并不意味着这些技能过时，而是 Microsoft 在重新划定「Azure 开发者」的能力边界——新一代 Azure 开发者认证路径会更深度整合 AI 服务（Azure OpenAI、Cognitive Services、Semantic Kernel），而不只是传统的 PaaS 开发组件。AZ-204 持有者须在 7 月 31 日前完成续期（renew），否则认证失效；正在备考但尚未考取的人，月底前完成考试才算数，预约考场要今天就锁定。</p>
+<p>AI-900 到 AI-901 的替换同样值得关注，但信息量更大。AI-900「Azure AI Fundamentals」原本是 AI 方向的入门认证，覆盖范围较广但深度有限。AI-901「Azure AI Fundamentals」3 月上线后，课程结构和题库都做了重大调整：增加了大量 Azure OpenAI Service 的实际操作场景（prompt engineering、RAG 架构、API 调用）、Responsible AI 原则在实际产品中的落地方式，以及 Azure AI Foundry 等新平台工具的使用。这反映了一个明确的产品战略：Microsoft 要把 Azure OpenAI 做成所有 Azure AI 产品的标准入口，而不只是一个可选的附加服务。</p>
+<p>对于目前的学习规划，建议分三类人分别处理。一是正在备考 AZ-204 的人：7 月 31 日是硬截止，今天就把考场预约锁定，不要拖到最后一周抢不到考位。二是已经在学 AI-900 备考材料的人：现行认证已经是 AI-901，部分题库和 Microsoft Learn 学习路径已更新，建议从官方页面重新对齐学习内容，原有的概念性知识（机器学习基础、CV/NLP 任务分类等）仍然有效，但实操部分需要补 Azure OpenAI 相关内容。三是打算入门 Azure AI 工程的人：AI-901 之后的自然路径是 AI-102（Azure AI Engineer Associate），覆盖 Azure Cognitive Services 整合和 Azure OpenAI 企业应用开发，是目前 Azure AI 证书体系里含金量最高的中级认证。</p>
+<div class="mp-source">来源：<a href="https://certificationcamps.com">certificationcamps.com</a> · <a href="https://flashgenius.net">flashgenius.net</a> · <a href="https://studytech.ai">studytech.ai</a></div>
+<hr class="mp-divider">
+<div class="mp-quickview">
+  <h3>📌 今日速览</h3>
+  <ul>
+    <li><strong>Anthropic 模型</strong>：Claude Sonnet 5 上线即默认，1M 上下文 + 接近旗舰性能</li>
+    <li><strong>AI 融资</strong>：Together AI 完成 8 亿美元 C 轮，估值 83 亿美元</li>
+    <li><strong>企业 AI</strong>：特斯拉每周 200 美元 AI 限额，7 月 6 日起执行</li>
+    <li><strong>AI 治理</strong>：联合国 AI for Good 全球委员会成立，7 月 8 日日内瓦首次开会</li>
+    <li><strong>IT 认证</strong>：Azure AZ-204 开发者证书 7 月 31 日退役，AI-901 接棒 AI-900</li>
+  </ul>
+</div>
+<div class="mp-cta">
+  <div class="big">🎯 想每天 9 点收到 AI 日报？</div>
+  <div class="sub">关注 JR Academy 公众号 · 回复「AI 日报」自动订阅<br>官网 jiangren.com.au/blog · 历史日报全开放</div>
+</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="card">
+        <h2>🎯 发稿就绪 <span class="tag">READY</span></h2>
+        <div class="render-status done" id="render-status">✅ 文章已就绪，点「📋 复制富文本」粘到公众号</div>
+        <p style="margin-top:10px">海报走同目录 <code>./poster-0.png</code> ~ <code>./poster-5.png</code>（CI 部署时 puppeteer 产出，WeChat 粘贴时自动抓取 re-host）。本地 <code>bun run render:posters</code> 手动生成。</p>
+      </div>
+
+      <div class="card">
+        <h2>📊 稿件信息 <span class="tag">META</span></h2>
+        <div class="stat-grid">
+          <div class="stat-item"><div class="v">4800</div><div class="k">字数</div></div>
+          <div class="stat-item"><div class="v">6</div><div class="k">海报</div></div>
+          <div class="stat-item"><div class="v">5</div><div class="k">新闻</div></div>
+          <div class="stat-item"><div class="v">12</div><div class="k">分钟读</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>🚀 发稿 2 步 <span class="tag">FLOW</span></h2>
+        <ol>
+          <li><strong>点「📋 复制富文本」</strong>：图片 URL 自动转成 <code>https://jr-academy-ai.github.io/...</code> 绝对地址。</li>
+          <li><strong>粘到公众号编辑器</strong>：<code>mp.weixin.qq.com</code> → <code>⌘/Ctrl+V</code> → 图文自动 re-host → 预览 → 发布。</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h2>⚙️ 日志 <span class="tag">LOG</span></h2>
+        <div id="log"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="../../_lib/mp-inline.v1.js"></script>
+<script>
+MpInline.init({
+  articleSel: '#mp-article',
+  copyBtnSel: '#btn-copy-html',
+  brand: {"primary":"#ff5757","highlight":"#ffce44","dark":"#10162f","onDark":"#ffffff"},
+  onStatus: (msg, kind) => {
+    const el = document.getElementById('render-status');
+    if (el) { el.textContent = msg; el.className = 'render-status ' + (kind || ''); }
+  },
+  onLog: (msg) => {
+    const log = document.getElementById('log');
+    if (log) log.textContent += msg + '\n';
+  },
+});
+</script>
+</body>
+</html>
