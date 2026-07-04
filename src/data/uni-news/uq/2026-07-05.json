@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-05",
+  "school": "uq",
+  "summary": {
+    "hookMain": "UQ",
+    "hookSub": "MND 新突破 + 奖学金窗口开启",
+    "hookSubHighlight": "MND 新突破",
+    "subLines": [
+      "四国联合攻克 C5aR2 受体 · 论文入 Molecular Cell",
+      "UQGRSS 奖学金 7 月 1 日开放 · 年薪 AUD $37,500 免税",
+      "国际生专场 8 月 20 日起 · 截止 10 月 19 日"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "MND 研究突破", "data": "Molecular Cell 期刊" },
+      { "num": "02", "title": "UQGRSS 奖学金", "data": "AUD $37,500 / 年" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研合作",
+      "h2Main": "UQ 联手日印韩高校 攻克 MND 关键免疫受体",
+      "h2Sub": "C5aR2 分子结构首次解析 · 发表 Molecular Cell · 5 年内或进临床",
+      "h2Highlight": "攻克 MND",
+      "lead": "UQ 研究团队 7 月初在《Molecular Cell》期刊发表重磅成果：与印度理工学院（Indian Institute of Technology）、东京大学（University of Tokyo）及韩国成均馆大学（Sungkyunkwan University）联合攻克免疫受体 C5aR2 的分子结构，首次为运动神经元疾病（Motor Neurone Disease, MND）等神经退行性疾病的抗炎治疗开辟新路径。",
+      "bullets": [
+        { "k": "核心发现", "v": "C5aR2 是广泛存在于免疫细胞表面的受体，此前因结构复杂被视为「难以靶向」的靶点；UQ 团队联合国际合作者完成其分子构成解析，并开发出可激活该受体的先导药物" },
+        { "k": "临床预期", "v": "研究团队表示，用于 MND 患者测试的药物有望在 <b>5 年内</b>进入临床阶段；目前团队已启动更优效抗炎药物的后续研发" },
+        { "k": "合作高校", "v": "<b>Indian Institute of Technology（印度）/ University of Tokyo（日本）/ Sungkyunkwan University（韩国）</b>——典型跨亚太科研协作" },
+        { "k": "对你的影响", "v": "走 <b>Biomedical Science / Pharmacy / Molecular Biology</b> 方向的同学，UQ IMB 在 MND + 免疫受体研究线上有完整 PhD + Honours 招生通道；跨四国合作顶刊课题是博士申请的强竞争力点" }
+      ],
+      "source": "UQ News · 2026-07",
+      "sourceUrl": "https://news.uq.edu.au/2026-07-breakthrough-search-motor-neurone-disease-treatment"
+    },
+    {
+      "idx": "02",
+      "category": "奖学金",
+      "h2Main": "UQGRSS 奖学金 7 月 1 日开窗 · 年薪 3.75 万免税",
+      "h2Sub": "国际生专场 8 月 20 日起 · 含 OSHC · 截止 10 月 19 日",
+      "h2Highlight": "年薪 3.75 万免税",
+      "lead": "UQ 研究生院奖学金（UQGRSS，含 Research Training Program / RTP）7 月 1 日正式开始接受 2026 年度申请。奖学金覆盖博士（PhD）、文学硕士（MPhil）及研究型专业博士，提供 <b>AUD $37,500 免税年薪（2026 费率，每年上调）</b>及单人 OSHC（海外学生医疗保险）。",
+      "bullets": [
+        { "k": "关键时间节点", "v": "<b>7 月 1 日</b>：综合轮次（在岸国际生 + 国内生）开始递交 EOI；<b>8 月 31 日</b>：综合轮次截止；<b>8 月 20 日</b>：国际生专场开放；<b>10 月 19 日</b>：国际生专场截止" },
+        { "k": "奖学金构成", "v": "<b>AUD $37,500 免税年薪</b>（2026 费率，每年上调）+ 单人 OSHC；学费减免（RTP 部分）另行计算" },
+        { "k": "国际生注意", "v": "综合轮次接受在岸国际生，但<b>发 offer 时申请人必须在澳大利亚境内</b>；离岸申请人需等 8 月 20 日国际生专场" },
+        { "k": "怎么准备", "v": "先确认 UQ 研究项目入学 offer，再提交 EOI（意向书）。建议 7 月内锁定导师 + 完成草稿，8 月中旬前整包提交；截止日前系统常拥堵" }
+      ],
+      "source": "UQ Scholarships",
+      "sourceUrl": "https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp",
+      "sourceQuote": "Living stipend of $37,500 per annum tax free (2026 rate), indexed annually, and Single Overseas Student Health Cover (OSHC)"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "MND 免疫受体突破 + UQGRSS 奖学金开窗——UQ 7 月初在科研产出和研究生资助两条线同时发力，PhD 申请人这周就可以开始行动了。",
+    "items": [
+      { "n": "01", "title": "MND 研究 | 四国联合突破", "body": "UQ × IIT × 东京大 × 成均馆大：C5aR2 受体分子结构首次解析，论文入 Molecular Cell；5 年内有望进临床试验" },
+      { "n": "02", "title": "UQGRSS | 7 月 1 日开窗", "body": "AUD $37,500 免税年薪（2026 费率）+ OSHC；综合轮 8/31 截止；国际生专场 8/20 ~ 10/19；先锁导师再提 EOI" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天更新 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "07 / 05"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 7-05 两条硬料｜科研+奖学金📣",
+      "body": "UQ 7 月初两条方向完全不同的消息，任意一条都值得单独拿出来聊。\n\n01 / MND 研究突破——UQ 团队联合印度理工、东京大学、韩国成均馆大学，在《Molecular Cell》期刊发表成果：首次解析免疫受体 C5aR2 的分子结构，为运动神经元疾病（MND）的抗炎治疗开辟新路径。5 年内有望进入临床试验。\n\n02 / UQGRSS 奖学金 7 月 1 日正式开窗——AUD $37,500 免税年薪（2026 费率，每年上调）+ 单人 OSHC。国际生专场 8 月 20 日起接受申请，截止 10 月 19 日。\n\n两条放一起看：一条是 UQ 科研输出的能见度，一条是马上要行动的申请窗口。正在考虑 UQ PhD 的姐妹，这周就可以开始找导师了🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #UQGRSS #UQ奖学金 #博士申请 #留学干货"
+    },
+    "p2": {
+      "title": "UQ MND 研究 四国联合突破🔬",
+      "body": "走 Biomedical / Pharmacy / Molecular Biology 方向的姐妹这条一定要存一下。\n\nUQ 研究团队 7 月初在《Molecular Cell》发表新成果，联合印度理工学院（IIT）、东京大学、韩国成均馆大学，首次解析了免疫受体 C5aR2 的分子构成。\n\nC5aR2 是广泛存在于免疫细胞表面的受体，以前因为结构太复杂一直是「难以靶向」的问题靶点。这次国际团队把分子结构搞清楚了，顺带开发了可以激活它的先导药物，为 MND（运动神经元疾病）等神经退行性疾病的抗炎治疗打开了一个新方向。\n\n研究团队说，用于 MND 患者的药物测试有望<b>5 年内进入临床</b>。目前团队已经在做下一代更优效抗炎药物的研发。\n\n对博士申请的同学来说，UQ IMB（Institute for Molecular Bioscience）在这条研究线上有完整的 PhD + Honours 招募通道。这种跨亚太四国合作课题，在申请材料里是很实在的竞争力。有在申请 UQ 生命科学博士的姐妹评论区扣 1🙋",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #生物医学 #MND #博士申请 #科研合作 #留学干货"
+    },
+    "p3": {
+      "title": "UQGRSS 奖学金 7月1日开了📅",
+      "body": "关注 UQ PhD 申请的姐妹注意：UQGRSS 奖学金（含 RTP）2026 年度综合轮次 7 月 1 日已经正式开始接受 EOI 了。\n\n先说奖学金内容：覆盖 PhD / MPhil / 研究型专业博士，<b>AUD $37,500 免税年薪（2026 费率，每年上调）</b>+ 单人 OSHC。学费减免是 RTP 部分另行覆盖。\n\n几个关键时间：\n综合轮次（在岸国际生 + 国内生）：7 月 1 日 ~ 8 月 31 日\n国际生专场（离岸申请人）：8 月 20 日 ~ 10 月 19 日\n\n注意：综合轮次接受在岸国际生，但发 offer 时你必须在澳大利亚境内；还没来澳的同学需要等 8 月 20 日国际生专场。\n\n我的节奏建议：7 月内搞定导师联系 + EOI 草稿，不要等到 8 月底截止日——系统在截止前几天几乎必堵。正在考虑 UQ PhD 的姐妹，评论区聊。",
+      "tags": "#UQ #昆士兰大学 #UQGRSS #UQ奖学金 #博士申请 #澳洲留学 #RTP #留学干货"
+    },
+    "p4": {
+      "title": "UQ 7月 两条｜科研+奖学金速览",
+      "body": "UQ 7 月初两条硬料方向不同但都要存：\n\n01 / MND 研究突破\n国际团队（UQ + 印度 IIT + 东京大学 + 韩国成均馆大学）联合发表 Molecular Cell 论文，首次解析免疫受体 C5aR2 分子结构。走 Biomedical / Molecular Bio / Pharmacy PhD 方向的同学，UQ IMB 这条研究线是实打实的竞争力加分项。\n\n02 / UQGRSS 奖学金开窗\nAUD $37,500 免税年薪（2026 费率）+ OSHC。综合轮 7/1 ~ 8/31，国际生专场 8/20 ~ 10/19。发 offer 时需在澳大利亚境内（综合轮次）。\n\n博士路上两条事情同时来：科研实力加持 + 资助窗口开放。在申请 UQ PhD 的姐妹，这周开始动就刚好。",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #UQGRSS #博士申请 #留学干货 #科研合作"
+    },
+    "p5": {
+      "title": "UQ 7-05 一眼看完",
+      "body": "两条 UQ 消息压缩版：\n\n🔬 MND 研究——UQ × IIT × 东京大 × 成均馆大在《Molecular Cell》发成果；C5aR2 受体结构首次搞清，5 年内有望进临床试验。Biomedical PhD 方向关注 UQ IMB。\n\n🎓 UQGRSS 奖学金——7 月 1 日综合轮次开窗。AUD $37,500 免税年薪 + OSHC（2026 费率）。国际生专场 8/20 ~ 10/19。截止日前系统必堵，早动手。\n\n评论区扣 1，我整理了 UQ PhD 申请时间线🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #UQGRSS #UQ奖学金 #MND #博士申请 #留学干货"
+    }
+  },
+  "mp": {
+    "title": "UQ 7 月 5 日：MND 四国协作新突破 + UQGRSS 奖学金 7 月 1 日开窗",
+    "lead": "UQ 7 月初两条重要消息同时落地。其一，UQ 研究团队与印度理工学院、东京大学、韩国成均馆大学联合在《Molecular Cell》发表成果，首次解析免疫受体 C5aR2 分子结构，为 MND 等神经退行性疾病抗炎治疗打开新路径，5 年内有望进入临床试验。其二，UQ 研究生院奖学金（UQGRSS，含 RTP）2026 年度综合轮次 7 月 1 日正式开窗，提供 AUD $37,500 免税年薪（2026 费率）及单人 OSHC；国际生专场 8 月 20 日至 10 月 19 日接受申请。两条消息对关注 UQ 科研和 PhD 资助的中国留学生都有直接参考价值。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "UQ 联手日印韩高校：首次解析 MND 相关免疫受体 C5aR2 分子结构",
+        "paragraphs": [
+          "UQ 研究团队 7 月初在《Molecular Cell》期刊发表重要成果：与印度理工学院（Indian Institute of Technology）、东京大学（University of Tokyo）及韩国成均馆大学（Sungkyunkwan University）联合攻克了免疫受体 C5aR2 的分子结构解析难题。C5aR2 广泛存在于免疫细胞表面，此前因其结构高度复杂而长期被视为「难以靶向」的潜力靶点——这次国际协作团队首次完成其分子构成解析，并成功开发出可激活该受体的先导药物。",
+          "这一突破对运动神经元疾病（Motor Neurone Disease, MND）及其他神经退行性疾病的抗炎治疗研究意义重大。MND 是一类进行性神经退行性疾病，目前在全球范围内仍缺乏有效的根治手段。UQ 研究团队表示，基于此次结果开发的针对 MND 患者的药物，有望在 5 年内进入临床试验阶段；团队同时已启动更优效抗炎药物的后续研发计划。",
+          "对走 Biomedical Science / Pharmacy / Molecular Biology 方向的学生，UQ Institute for Molecular Bioscience（IMB）在 MND 研究和免疫受体靶向药物这条研究线上有完整的 PhD 和 Honours 招生通道。这类四国联合发表在顶刊的合作课题，是 PhD 申请材料中的实质性加分项，也能直接体现申请人对目标导师研究方向的理解深度。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://news.uq.edu.au/2026-07-breakthrough-search-motor-neurone-disease-treatment\">UQ News · Breakthrough in search for Motor Neurone Disease treatment</a>"
+      },
+      {
+        "h2": "UQGRSS 奖学金 7 月 1 日开窗：年薪 AUD $37,500 免税，国际生专场 10 月截止",
+        "paragraphs": [
+          "UQ 研究生院奖学金（UQGRSS，Graduate Research School Scholarships，含 Research Training Program / RTP）2026 年度综合轮次于 7 月 1 日正式开放申请。奖学金覆盖博士（PhD）、文学硕士（MPhil）及研究型专业博士项目，提供 AUD $37,500 免税年薪（2026 费率，每年上调）及单人海外学生医疗保险（OSHC）；学费部分通过 RTP 分支另行覆盖。",
+          "本轮申请时间节点：综合轮次（覆盖在岸国际生及国内生）7 月 1 日开始提交意向书（EOI），截止日期为 8 月 31 日；国际生专场（面向离岸申请人）8 月 20 日开放，截止 10 月 19 日。需注意：综合轮次虽接受在岸国际生，但发放 offer 时申请人必须在澳大利亚境内；尚未来澳的申请人应选择国际生专场。",
+          "申请建议：首先确认已持有 UQ 对应研究项目的入学 offer，再提交 EOI。7 月内完成导师确认和 EOI 草稿是理想节奏；8 月中旬前完整提交可有效规避截止日系统拥堵。UQGRSS 每轮发放数量有限，早提交在内部审核排序中具有实际优势。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://scholarships.uq.edu.au/scholarship/graduate-school-scholarships-uqgss-%E2%80%93-includes-rtp\">UQ Scholarships · Graduate Research School Scholarships (UQGRSS)</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · MND 科研突破</strong>：UQ + IIT + 东京大学 + 成均馆大联合攻克 C5aR2 受体；论文发 Molecular Cell；5 年内有望进 MND 临床试验；Biomedical PhD 方向关注 UQ IMB",
+        "<strong>02 · UQGRSS 奖学金</strong>：7 月 1 日开窗；AUD $37,500 免税年薪（2026 费率）+ OSHC；综合轮 8/31 截止；国际生专场 8/20 ~ 10/19；先锁导师再提 EOI"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "UQ MND 研究突破｜四国科研联合成果",
+        "body": "UQ 读研究生的同学最近看到一条让我眼前一亮的消息——7 月初 UQ 团队在《Molecular Cell》发了一篇四国联合成果。\n\n背景：运动神经元疾病（MND）是一类很难治的神经退行性疾病，目前缺乏有效根治手段。免疫受体 C5aR2 存在于很多免疫细胞表面，一直因为结构复杂被视为「难以靶向」的靶点——换句话说，大家都知道它可能有用，但没人能搞清楚怎么做药。\n\nUQ 团队联合印度理工学院（IIT）、东京大学、韩国成均馆大学把这个分子结构解析清楚了，还开发了可激活该受体的先导药物。研究团队表示，<b>用于 MND 患者测试的药物有望在 5 年内进入临床</b>。目前他们已经在做下一代更优效抗炎药物的研发。\n\n这条消息对走 Biomedical / Molecular Biology / Pharmacy 博士方向的同学意义比较直接：UQ IMB（Institute for Molecular Bioscience）在这条研究线上有完整的 PhD 招生通道，这种跨四国的顶刊成果也是你在申请材料里找切入点的好依据。\n\n想了解 UQ 生命科学 PhD 申请路径的姐妹，评论区扣 1🙋",
+        "tags": ["#UQ", "#昆士兰大学", "#澳洲留学", "#生物医学", "#MND", "#博士申请", "#科研合作", "#Molecular Cell"]
+      },
+      {
+        "heading": "UQGRSS 奖学金｜7 月 1 日开窗",
+        "body": "在申 UQ PhD 的姐妹，这条事关钱的消息很重要：UQGRSS（UQ 研究生院奖学金，含 RTP）2026 年度已于 7 月 1 日开始接受申请了。\n\n奖学金内容：<b>AUD $37,500 免税年薪（2026 费率，每年上调）</b>+ 单人 OSHC。学费减免部分通过 RTP 覆盖，和年薪是分开的，不要混淆。\n\n关键时间节点：\n综合轮次（在岸学生）：7/1 ~ 8/31\n国际生专场（离岸申请人）：8/20 ~ 10/19\n\n注意：综合轮次虽然接受在岸国际生，但<b>发 offer 时你必须在澳大利亚境内</b>；还没来澳的同学要等 8 月 20 日国际生专场。\n\n我的建议是这样的：7 月内先把导师确认好 + EOI 草稿搞定；8 月中旬前完整提交，不要等到截止日——每次截止前几天系统都会拥堵，提早提交也对内部审核排序有帮助。\n\n有关于 UQGRSS 申请流程或导师匹配问题的，评论区聊。",
+        "tags": ["#UQ", "#昆士兰大学", "#UQGRSS", "#UQ奖学金", "#博士申请", "#澳洲留学", "#RTP", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化",     "rule": "最 / 第一 / 唯一 / 100%",                "result": "未检出" },
+      { "category": "教育承诺",   "rule": "包过 / 保录取 / 稳上 / 必中",            "result": "未检出" },
+      { "category": "引流",       "rule": "加V / VX / 薇信 / 私信领取",             "result": "未检出（仅出现「评论区扣 1」合规互动话术）" },
+      { "category": "封号红线",   "rule": "JR Academy / 匠人学院 / jiangren.com",   "result": "未检出（xhsCopy 与 drafts 全部扫描；mp.cta 里的「JR Academy 公众号」属公众号发稿页合规引流）" },
+      { "category": "AI 味",      "rule": "首先其次最后 / 值得注意 / 综上所述",       "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然",                   "result": "未检出（「治疗」仅作为神经疾病学术语境，无任何疗效承诺）" },
+      { "category": "政治金融",   "rule": "保本 / 稳赚 / 荐股",                     "result": "未检出" }
+    ]
+  }
+}
