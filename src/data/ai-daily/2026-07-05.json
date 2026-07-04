@@ -2,13 +2,70 @@
   "date": "2026-07-05",
   "summary": {
     "hook": [
-      {"num": "01", "cat": "模型安全", "numColor": "#7C3AED", "t": "Claude Fable 5 带新护栏回归，出口管制解除"},
-      {"num": "02", "cat": "模型发布", "numColor": "#EA580C", "t": "Claude Sonnet 5 全量上线，1M 上下文默认开放"},
-      {"num": "03", "cat": "模型发布", "numColor": "#16A34A", "t": "GPT-5.6 三档模型 Sol/Terra/Luna 面向 20 家预览"},
-      {"num": "04", "cat": "产品生态", "numColor": "#2563EB", "t": "Gemini Spark 登陆 Mac，跨 App 真实世界操控"},
-      {"num": "05", "cat": "中国AI", "numColor": "#0D9488", "t": "DeepSeek V4 官版 7 月中旬上线，510 亿元融资落地"}
+      {
+        "num": "01",
+        "cat": "模型安全",
+        "numColor": "#7C3AED",
+        "t": "Claude Fable 5 带新护栏回归，出口管制解除"
+      },
+      {
+        "num": "02",
+        "cat": "模型发布",
+        "numColor": "#EA580C",
+        "t": "Claude Sonnet 5 全量上线，1M 上下文默认开放"
+      },
+      {
+        "num": "03",
+        "cat": "模型发布",
+        "numColor": "#16A34A",
+        "t": "GPT-5.6 三档模型 Sol/Terra/Luna 面向 20 家预览"
+      },
+      {
+        "num": "04",
+        "cat": "产品生态",
+        "numColor": "#2563EB",
+        "t": "Gemini Spark 登陆 Mac，跨 App 真实世界操控"
+      },
+      {
+        "num": "05",
+        "cat": "中国AI",
+        "numColor": "#0D9488",
+        "t": "DeepSeek V4 官版 7 月中旬上线，510 亿元融资落地"
+      }
     ],
-    "sub": "Anthropic 双拳出击：Fable 5 解禁+Sonnet 5 全量；OpenAI 三模型分层；Google 代理扩Mac；DeepSeek 巨额融资"
+    "sub": "Anthropic 双拳出击：Fable 5 解禁+Sonnet 5 全量；OpenAI 三模型分层；Google 代理扩Mac；DeepSeek 巨额融资",
+    "items": [
+      {
+        "num": "01",
+        "cat": "模型安全",
+        "numColor": "#7C3AED",
+        "t": "Claude Fable 5 带新护栏回归，出口管制解除"
+      },
+      {
+        "num": "02",
+        "cat": "模型发布",
+        "numColor": "#EA580C",
+        "t": "Claude Sonnet 5 全量上线，1M 上下文默认开放"
+      },
+      {
+        "num": "03",
+        "cat": "模型发布",
+        "numColor": "#16A34A",
+        "t": "GPT-5.6 三档模型 Sol/Terra/Luna 面向 20 家预览"
+      },
+      {
+        "num": "04",
+        "cat": "产品生态",
+        "numColor": "#2563EB",
+        "t": "Gemini Spark 登陆 Mac，跨 App 真实世界操控"
+      },
+      {
+        "num": "05",
+        "cat": "中国AI",
+        "numColor": "#0D9488",
+        "t": "DeepSeek V4 官版 7 月中旬上线，510 亿元融资落地"
+      }
+    ]
   },
   "news": [
     {
@@ -23,17 +80,36 @@
         "topRight": "7月1日"
       },
       "title": [
-        {"text": "Claude Fable 5 带新护栏"},
-        {"text": "重新向全球开放", "hl": true}
+        {
+          "text": "Claude Fable 5 带新护栏"
+        },
+        {
+          "text": "重新向全球开放",
+          "hl": true
+        }
       ],
       "oneline": [
-        {"text": "Anthropic 与美国政府协商后解除出口限制，Fable 5 重新部署并新增"},
-        {"text": "网络安全专项拦截分类器", "bold": true}
+        {
+          "text": "Anthropic 与美国政府协商后解除出口限制，Fable 5 重新部署并新增"
+        },
+        {
+          "text": "网络安全专项拦截分类器",
+          "bold": true
+        }
       ],
       "bullets": [
-        {"k": "发生了什么", "v": "Anthropic 宣布 Claude Fable 5 和 Mythos 5 出口管制解除，自 7 月 1 日起全球用户均可访问，同时新增专项分类器屏蔽高风险网络安全任务"},
-        {"k": "为什么重要", "v": "Fable 5 此前因出口管制被限制在特定地区，此次回归意味着 Anthropic 在安全治理与能力开放之间找到了新的平衡路径"},
-        {"k": "对你的影响", "v": "开发者和企业用户可再次调用 Fable 5 级别能力；但网络安全类 prompt 的拦截力度同步加强，相关场景需重新测试"}
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 宣布 Claude Fable 5 和 Mythos 5 出口管制解除，自 7 月 1 日起全球用户均可访问，同时新增专项分类器屏蔽高风险网络安全任务"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Fable 5 此前因出口管制被限制在特定地区，此次回归意味着 Anthropic 在安全治理与能力开放之间找到了新的平衡路径"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者和企业用户可再次调用 Fable 5 级别能力；但网络安全类 prompt 的拦截力度同步加强，相关场景需重新测试"
+        }
       ],
       "src": "📎 anthropic.com · 9to5google.com"
     },
@@ -49,17 +125,36 @@
         "topRight": "7月1日"
       },
       "title": [
-        {"text": "Claude Sonnet 5 全量上线"},
-        {"text": "1M 上下文免费开放", "hl": true}
+        {
+          "text": "Claude Sonnet 5 全量上线"
+        },
+        {
+          "text": "1M 上下文免费开放",
+          "hl": true
+        }
       ],
       "oneline": [
-        {"text": "Anthropic 最强 Sonnet 版本成为 Free 和 Pro 用户默认模型，"},
-        {"text": "Agent 能力与工具调用全面升级", "bold": true}
+        {
+          "text": "Anthropic 最强 Sonnet 版本成为 Free 和 Pro 用户默认模型，"
+        },
+        {
+          "text": "Agent 能力与工具调用全面升级",
+          "bold": true
+        }
       ],
       "bullets": [
-        {"k": "发生了什么", "v": "Claude Sonnet 5 于 7 月 1 日起成为所有 Free 和 Pro 用户的默认模型，原生支持 100 万 Token 上下文，在推理、编码和工具使用上显著超越 Sonnet 4.6"},
-        {"k": "为什么重要", "v": "1M 上下文覆盖超长文档和复杂 Agent 工作流；促销价 $2/$10 per Mtok 使企业级能力的调用成本大幅降低"},
-        {"k": "对你的影响", "v": "现有 Claude 集成无需改代码即可获得更强推理；8 月底前锁定促销价是控制 API 成本的最佳窗口"}
+        {
+          "k": "发生了什么",
+          "v": "Claude Sonnet 5 于 7 月 1 日起成为所有 Free 和 Pro 用户的默认模型，原生支持 100 万 Token 上下文，在推理、编码和工具使用上显著超越 Sonnet 4.6"
+        },
+        {
+          "k": "为什么重要",
+          "v": "1M 上下文覆盖超长文档和复杂 Agent 工作流；促销价 $2/$10 per Mtok 使企业级能力的调用成本大幅降低"
+        },
+        {
+          "k": "对你的影响",
+          "v": "现有 Claude 集成无需改代码即可获得更强推理；8 月底前锁定促销价是控制 API 成本的最佳窗口"
+        }
       ],
       "src": "📎 anthropic.com · releasebot.io"
     },
@@ -75,17 +170,36 @@
         "topRight": "7月初"
       },
       "title": [
-        {"text": "GPT-5.6 Sol/Terra/Luna"},
-        {"text": "三档分层，旗舰冲速度极限", "hl": true}
+        {
+          "text": "GPT-5.6 Sol/Terra/Luna"
+        },
+        {
+          "text": "三档分层，旗舰冲速度极限",
+          "hl": true
+        }
       ],
       "oneline": [
-        {"text": "OpenAI 推出旗舰 Sol、性价比 Terra、极速 Luna，"},
-        {"text": "Sol 在 Cerebras 上达 750 tokens/s", "bold": true}
+        {
+          "text": "OpenAI 推出旗舰 Sol、性价比 Terra、极速 Luna，"
+        },
+        {
+          "text": "Sol 在 Cerebras 上达 750 tokens/s",
+          "bold": true
+        }
       ],
       "bullets": [
-        {"k": "发生了什么", "v": "OpenAI 发布 GPT-5.6 系列：Sol（旗舰，$5/$30 per Mtok）、Terra（低成本，$2.50/$15）、Luna（最快，$1/$6），目前限约 20 家政府审批机构预览"},
-        {"k": "为什么重要", "v": "三档策略覆盖从实时场景到高精度推理的全谱需求；Cerebras 硬件加速让旗舰模型首次实现 750 tokens/s 的推理速率"},
-        {"k": "对你的影响", "v": "公测时间未定，但定价已锁定；高吞吐场景可期待 Luna，复杂推理优先 Sol；当前 GPT-4o 用户过渡方案仍待官方公告"}
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 发布 GPT-5.6 系列：Sol（旗舰，$5/$30 per Mtok）、Terra（低成本，$2.50/$15）、Luna（最快，$1/$6），目前限约 20 家政府审批机构预览"
+        },
+        {
+          "k": "为什么重要",
+          "v": "三档策略覆盖从实时场景到高精度推理的全谱需求；Cerebras 硬件加速让旗舰模型首次实现 750 tokens/s 的推理速率"
+        },
+        {
+          "k": "对你的影响",
+          "v": "公测时间未定，但定价已锁定；高吞吐场景可期待 Luna，复杂推理优先 Sol；当前 GPT-4o 用户过渡方案仍待官方公告"
+        }
       ],
       "src": "📎 cryptobriefing.com · llm-stats.com"
     },
@@ -101,17 +215,36 @@
         "topRight": "7月1日"
       },
       "title": [
-        {"text": "Gemini Spark 登陆 Mac"},
-        {"text": "操控真实 App 的 AI 代理来了", "hl": true}
+        {
+          "text": "Gemini Spark 登陆 Mac"
+        },
+        {
+          "text": "操控真实 App 的 AI 代理来了",
+          "hl": true
+        }
       ],
       "oneline": [
-        {"text": "Google 将 Gemini Spark 扩展至 Mac，可直接在第三方 App 内"},
-        {"text": "预订餐厅、订杂货、设计海报", "bold": true}
+        {
+          "text": "Google 将 Gemini Spark 扩展至 Mac，可直接在第三方 App 内"
+        },
+        {
+          "text": "预订餐厅、订杂货、设计海报",
+          "bold": true
+        }
       ],
       "bullets": [
-        {"k": "发生了什么", "v": "Gemini Spark 新增 Mac 支持，集成 Canva、Dropbox、Instacart、OpenTable、Zillow 等第三方应用，可代用户完成现实世界任务；同期 Gemini 月活跨越 9 亿，覆盖 230 国 70 种语言"},
-        {"k": "为什么重要", "v": "跨 App 真实操作能力是 AI 代理落地的关键一步，Spark 的生态扩张速度直接影响用户粘性和 Google 的 Agent 战略布局"},
-        {"k": "对你的影响", "v": "Mac 用户现在可在 Gemini 桌面 App 内发起跨平台任务；开发者可通过 Gemini Spark API 将自己的 App 接入这一生态链"}
+        {
+          "k": "发生了什么",
+          "v": "Gemini Spark 新增 Mac 支持，集成 Canva、Dropbox、Instacart、OpenTable、Zillow 等第三方应用，可代用户完成现实世界任务；同期 Gemini 月活跨越 9 亿，覆盖 230 国 70 种语言"
+        },
+        {
+          "k": "为什么重要",
+          "v": "跨 App 真实操作能力是 AI 代理落地的关键一步，Spark 的生态扩张速度直接影响用户粘性和 Google 的 Agent 战略布局"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Mac 用户现在可在 Gemini 桌面 App 内发起跨平台任务；开发者可通过 Gemini Spark API 将自己的 App 接入这一生态链"
+        }
       ],
       "src": "📎 techcrunch.com · blog.google"
     },
@@ -127,17 +260,36 @@
         "topRight": "7月初"
       },
       "title": [
-        {"text": "DeepSeek V4 官版倒计时"},
-        {"text": "510 亿元融资落地，API 峰谷计费来了", "hl": true}
+        {
+          "text": "DeepSeek V4 官版倒计时"
+        },
+        {
+          "text": "510 亿元融资落地，API 峰谷计费来了",
+          "hl": true
+        }
       ],
       "oneline": [
-        {"text": "DeepSeek 宣布 V4 官版 7 月中旬上线，同步完成"},
-        {"text": "510 亿元首轮融资，估值约 4000 亿元", "bold": true}
+        {
+          "text": "DeepSeek 宣布 V4 官版 7 月中旬上线，同步完成"
+        },
+        {
+          "text": "510 亿元首轮融资，估值约 4000 亿元",
+          "bold": true
+        }
       ],
       "bullets": [
-        {"k": "发生了什么", "v": "DeepSeek 宣布 V4 正式版将于 7 月中旬上线，并引入峰谷计费机制；旧接口 deepseek-chat / deepseek-reasoner 将于 7 月 24 日废弃，同期完成 510 亿元首轮外部融资"},
-        {"k": "为什么重要", "v": "V4 官版上线+峰谷计费意味着 DeepSeek 正式进入商业化新阶段；510 亿元融资估值约 4000 亿元，成为中国 AI 领域标志性融资事件"},
-        {"k": "对你的影响", "v": "正在使用 DeepSeek API 的开发者需在 7 月 24 日前迁移至新接口名称；峰谷计费若设计合理可降低低峰时段调用成本"}
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 宣布 V4 正式版将于 7 月中旬上线，并引入峰谷计费机制；旧接口 deepseek-chat / deepseek-reasoner 将于 7 月 24 日废弃，同期完成 510 亿元首轮外部融资"
+        },
+        {
+          "k": "为什么重要",
+          "v": "V4 官版上线+峰谷计费意味着 DeepSeek 正式进入商业化新阶段；510 亿元融资估值约 4000 亿元，成为中国 AI 领域标志性融资事件"
+        },
+        {
+          "k": "对你的影响",
+          "v": "正在使用 DeepSeek API 的开发者需在 7 月 24 日前迁移至新接口名称；峰谷计费若设计合理可降低低峰时段调用成本"
+        }
       ],
       "src": "📎 sitepoint.com · memeburn.com · aljazeera.com"
     }
