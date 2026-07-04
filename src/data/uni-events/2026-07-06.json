@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-06",
+  "intro": "7/6-12 | 五校期中假 · UNSW Term 2 第六周 · 各校 O-Week 与 WinterFest 7/20 起相继开幕",
+  "schools": [
+    {
+      "code": "umelb",
+      "events": [],
+      "xhsDraft": {
+        "title": "墨大期中假｜七月下旬再见",
+        "body": "这周是墨大的期中假，Semester 2 正式开学要到 7 月 27 日，Orientation 在 7 月 20-24 日先跑一周。UMSU 的 WinterFest 安排在七月下旬，主会场在 Market Hall，有 live music、社团展、Speed Friending 等，具体时间可以关注 UMSU 官网。\n\n假期在墨尔本的同学，Lygon Street 这条 Carlton 的意大利区离校区步行 10 分钟，一堆 café 和独立书店，冬天下午猫在里面喝咖啡读书节奏很对。Melbourne Museum 就在 Royal Exhibition Building 旁边，工作日下午人不多，逛一圈能打发两个小时。\n\n你们这周在墨尔本打算去哪里？评论区聊聊～",
+        "tags": ["#墨尔本大学", "#UMelb", "#澳洲留学", "#墨尔本", "#WinterFest", "#校园活动", "#留学日常"]
+      }
+    },
+    {
+      "code": "unsw",
+      "events": [
+        {
+          "title": "Arc Savers 周三免费午餐",
+          "time": "周三 7/8（Term 2 每周三固定）",
+          "location": "Alumni East · Kensington 主校区",
+          "price": "免费",
+          "category": "免费食物",
+          "url": "https://www.arc.unsw.edu.au/events"
+        }
+      ],
+      "xhsDraft": {
+        "title": "UNSW T2 第六周｜周三免费午餐",
+        "body": "UNSW 用三学期制，这周是 Term 2 Week 6，正常上课。Arc Savers 每周三在 Alumni East 区域有免费食物（BBQ / boba / baklava 轮换），这是 UNSW 官方学生支援项目的一部分，不需要额外付费。\n\n去年我每周必去，排队 10 分钟能领一份午餐，顺便认识几个不同学院的同学。天气好时那片草地会有人打牌聊天，比食堂的氛围轻松很多。\n\n这周也是 mid-term 前后，Quad 那个室外区和 Main Library Level 2 周三下午相对人少，找个角落专注几个小时很顺。\n\nUNSW 在读的同学，这周有啥安排？评论区聊聊～",
+        "tags": ["#UNSW", "#新南威尔士大学", "#澳洲留学", "#悉尼", "#校园活动", "#免费午餐", "#留学日常"]
+      }
+    },
+    {
+      "code": "uq",
+      "events": [],
+      "xhsDraft": {
+        "title": "UQ 期中假｜O-Week 7/20 开幕",
+        "body": "UQ 这周是期中假，Semester 2 的 O-Week 定在 7 月 20-24 日，正式上课在 O-Week 结束之后。\n\n假期在 St Lucia 周边的同学，沿 Hawken Drive 走到 UQ Lakes 那条路很适合晒太阳，Great Court 旁的 Duhig Library 假期也开放，人少位多，适合把 Sem 2 的 pre-reading 先推进一段。\n\nBrisbane 冬天气候好，South Bank Parklands 七月有冬日市集，从 St Lucia 坐 Ferry 大约 20 分钟，周末出去逛一圈是不错的选择。\n\n还在布里斯班过假期的同学，你们这周怎么安排的？",
+        "tags": ["#UQ", "#昆士兰大学", "#澳洲留学", "#布里斯班", "#期中假", "#留学日常", "#校园生活"]
+      }
+    },
+    {
+      "code": "usyd",
+      "events": [],
+      "xhsDraft": {
+        "title": "USYD 期中假｜Welcome Week 7/20",
+        "body": "USYD 这周是期中假，Welcome Week 从 7 月 20 日开始，Semester 2 正式上课在七月底。\n\n假期留在悉尼的同学，Glebe Markets 每周六上午在 Glebe Public School 举行，离 Camperdown 校区步行可达，有本地手工、农产品和二手书，冬天早上去逛节奏很 chill。Fisher Library 假期也开放，适合提前做 Sem 2 的 reading 准备。\n\nNewtown 到 King Street 这条线有很多独立 café 和唱片店，冬天下午窝在里面喝咖啡读书是假期里我最喜欢的节奏。\n\nUSYD 的同学这周在悉尼还是回国了？评论区聊聊假期安排～",
+        "tags": ["#USYD", "#悉尼大学", "#澳洲留学", "#悉尼", "#期中假", "#留学日常", "#校园生活"]
+      }
+    },
+    {
+      "code": "adelaide",
+      "events": [],
+      "xhsDraft": {
+        "title": "阿大期中假｜七月底活动预告",
+        "body": "阿德莱德大学这周是期中假，Semester 2 开学在七月下旬。假期在阿德的同学，Adelaide Central Market 周二到周六开放，本地 produce、cheese 和熟食档口很多，适合补一波厨房物资，也是见人的好地方。\n\nElder Park 沿 Torrens 河走氛围很好，阿德冬天白天温度还行，带杯咖啡在河边逛一圈挺放松。City East 校区周边七月下旬有一些公开活动和参观机会，具体可以关注学校官方渠道的通知。\n\n对 Adelaide 感兴趣的同学，七月下旬有面向未来学生的开放活动，可以提前到官网查询报名信息。\n\n阿德的留学生这周有什么打算？来聊聊～",
+        "tags": ["#AdelaideUni", "#阿德莱德大学", "#澳洲留学", "#阿德莱德", "#期中假", "#留学日常", "#校园生活"]
+      }
+    },
+    {
+      "code": "monash",
+      "events": [],
+      "xhsDraft": {
+        "title": "Monash 期中假｜MSA 活动 7/17 起",
+        "body": "Monash 这周是期中假，Clayton 校区安静了很多。MSA 安排了一波开学配套活动：7 月 17 日（周五）Amazing Race 在 LTB G03 室，11am-2:30pm；7 月 20 日（周一）Sports Day 在 Monash Sport，10am-12pm；7 月 22 日（周三）Moonlight Cinema 在 Campus Centre Cinema，6-9pm。这几个都是免费或低价的，可以在 Eventbrite 搜「MSA」提前报名。\n\n假期这周还在 Clayton 的同学，Chadstone 公交 20 分钟，冬天逛逛暖和。Sir Louis Matheson Library 假期也开放，一楼角落人少位多。\n\n有在 Monash 读书、这周还在墨尔本的同学吗？来聊聊约伴出行～",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#墨尔本", "#期中假", "#MSA", "#留学日常"]
+      }
+    }
+  ]
+}
