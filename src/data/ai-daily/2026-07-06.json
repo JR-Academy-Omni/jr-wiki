@@ -1,0 +1,204 @@
+{
+  "date": "2026-07-06",
+  "summary": {
+    "hook": [
+      {"num":"01","cat":"监管·政治","numColor":"#DC2626","t":"OpenAI 拟出让 5% 股权给美国政府"},
+      {"num":"02","cat":"竞争格局","numColor":"#7C3AED","t":"Anthropic 年化营收首超 OpenAI"},
+      {"num":"03","cat":"全球治理","numColor":"#1D4ED8","t":"联合国 AI 治理全球对话今日日内瓦开幕"},
+      {"num":"04","cat":"产品发布","numColor":"#059669","t":"xAI 语音 API 全面正式发布"},
+      {"num":"05","cat":"政策动向","numColor":"#D97706","t":"白宫推动自愿 AI 发布标准三方谈判中"}
+    ],
+    "sub": "OpenAI 拟割 5% 股权换缓压；Anthropic 营收超 OpenAI；联合国今开幕 AI 治理对话；xAI 语音 API GA；白宫推自愿发布标准",
+    "items": [
+      {"num":"01","cat":"监管·政治","numColor":"#DC2626","t":"OpenAI 拟出让 5% 股权给美国政府"},
+      {"num":"02","cat":"竞争格局","numColor":"#7C3AED","t":"Anthropic 年化营收首超 OpenAI"},
+      {"num":"03","cat":"全球治理","numColor":"#1D4ED8","t":"联合国 AI 治理全球对话今日日内瓦开幕"},
+      {"num":"04","cat":"产品发布","numColor":"#059669","t":"xAI 语音 API 全面正式发布"},
+      {"num":"05","cat":"政策动向","numColor":"#D97706","t":"白宫推动自愿 AI 发布标准三方谈判中"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-government-stake",
+      "idx": "01",
+      "catText": "监管·政治",
+      "accent": "#DC2626",
+      "bg": {
+        "top": "OpenAI 向美国政府提议出让 5% 股权",
+        "mid": "市值 $852B，5% 约合 $426 亿",
+        "bot": "Sam Altman：让公众分享 AI 上行收益",
+        "topRight": "7月2日"
+      },
+      "title": [
+        {"text": "OpenAI 拟出让"},
+        {"text": "5% 股权给美国政府","hl": true}
+      ],
+      "oneline": [
+        {"text": "Altman 主动提议政府持股 5%，"},
+        {"text": "约合 426 亿美元","bold": true},
+        {"text": "，换取华盛顿政治压力缓和"}
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI CEO Altman 向美国政府提议出让 5% 股权（约 $426 亿），称让公众分享 AI 红利是最佳路径"
+        },
+        {
+          "k": "为什么重要",
+          "v": "AI 独角兽史上首次主动提议政府持股，或开创科技公司以股权换监管缓和的新范式"
+        },
+        {
+          "k": "对你的影响",
+          "v": "若成真，美国政府将成 OpenAI 最大机构股东之一，AI 监管政策将与 OpenAI 商业利益深度绑定"
+        }
+      ],
+      "src": "📎 cnbc.com · fortune.com"
+    },
+    {
+      "slug": "02-anthropic-overtakes-openai-revenue",
+      "idx": "02",
+      "catText": "竞争格局",
+      "accent": "#7C3AED",
+      "bg": {
+        "top": "Anthropic 年化营收超过 OpenAI",
+        "mid": "年化 $300 亿+，企业客户破 1000 家",
+        "bot": "Claude Sonnet 5 助推，预计 2029 年盈利",
+        "topRight": "7月初"
+      },
+      "title": [
+        {"text": "Anthropic 营收"},
+        {"text": "首超 OpenAI","hl": true}
+      ],
+      "oneline": [
+        {"text": "年化收入突破"},
+        {"text": "$300 亿","bold": true},
+        {"text": "，百万美元级企业客户超 1000 家"}
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 年化营收超过 OpenAI，$1M+ 企业客户超 1000 家；Claude Sonnet 5 成全球默认模型"
+        },
+        {
+          "k": "为什么重要",
+          "v": "仅三年前还是 OpenAI 离职员工创立的小公司，如今商业指标完成反超，AI 头部格局发生根本性变化"
+        },
+        {
+          "k": "对你的影响",
+          "v": "企业选型时 Anthropic 竞争力显著提升；OpenAI 将加速 GPT-5.6 商业化来维持行业地位"
+        }
+      ],
+      "src": "📎 fortune.com · anthropic.com"
+    },
+    {
+      "slug": "03-un-ai-governance-dialogue",
+      "idx": "03",
+      "catText": "全球治理",
+      "accent": "#1D4ED8",
+      "bg": {
+        "top": "联合国 AI 全球治理对话日内瓦开幕",
+        "mid": "193 个成员国代表参与磋商",
+        "bot": "讨论国际 AI 管理框架与监管标准",
+        "topRight": "7月6日今天"
+      },
+      "title": [
+        {"text": "联合国 AI 治理对话"},
+        {"text": "今日日内瓦开幕","hl": true}
+      ],
+      "oneline": [
+        {"text": "193 国代表聚首日内瓦，"},
+        {"text": "共议全球 AI 监管框架","bold": true}
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "联合国 AI 全球治理对话 7 月 6 日在日内瓦开幕，193 个成员国就国际 AI 管理办法展开磋商"
+        },
+        {
+          "k": "为什么重要",
+          "v": "迄今规模最大的政府间 AI 治理讨论，结果将直接影响全球 AI 监管标准、出口规则与技术边界"
+        },
+        {
+          "k": "对你的影响",
+          "v": "谈判成果或形成约束性框架，影响 AI 工具的跨境访问和合规要求，关注后续决议公告"
+        }
+      ],
+      "src": "📎 news.un.org"
+    },
+    {
+      "slug": "04-xai-voice-api-ga",
+      "idx": "04",
+      "catText": "产品发布",
+      "accent": "#059669",
+      "bg": {
+        "top": "xAI 语音转文字与文字转语音 API 正式发布",
+        "mid": "支持 25 种语言，批量与流式双模式",
+        "bot": "Grok 月活 1.17 亿，生态持续扩张",
+        "topRight": "7月3日"
+      },
+      "title": [
+        {"text": "xAI 语音 API"},
+        {"text": "全面正式发布","hl": true}
+      ],
+      "oneline": [
+        {"text": "STT+TTS 双 API 正式 GA，"},
+        {"text": "25 种语言","bold": true},
+        {"text": "，支持批量和流式转录"}
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 语音转文字和文字转语音 API 于 7 月 3 日正式 GA，支持 25 种语言，提供批量与流式两种模式"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Grok 5 仍未发布之际，xAI 以基础设施层扩张维持生态活力，语音 API 填补了其平台能力重要空白"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者现在可用 xAI API 构建语音交互应用；与 Grok 月活 1.17 亿用户群体整合，触达潜力较大"
+        }
+      ],
+      "src": "📎 x.ai · docs.x.ai"
+    },
+    {
+      "slug": "05-whitehouse-voluntary-ai-standards",
+      "idx": "05",
+      "catText": "政策动向",
+      "accent": "#D97706",
+      "bg": {
+        "top": "白宫起草自愿性 AI 发布标准",
+        "mid": "OpenAI / Google / Anthropic 三方谈判进行中",
+        "bot": "涵盖基准测试、发布节奏、国内外访问规则",
+        "topRight": "7月3日"
+      },
+      "title": [
+        {"text": "白宫推动"},
+        {"text": "自愿 AI 发布标准","hl": true}
+      ],
+      "oneline": [
+        {"text": "白宫与"},
+        {"text": "OpenAI / Google / Anthropic","bold": true},
+        {"text": " 三方协议或近期公布"}
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "白宫与 OpenAI、Google、Anthropic 就自愿 AI 发布标准进行深度谈判，公告最快本周出炉"
+        },
+        {
+          "k": "为什么重要",
+          "v": "标准涵盖安全基准、发布时间线、国内外差异化访问规则，将成美国 AI 监管框架的重要参考基线"
+        },
+        {
+          "k": "对你的影响",
+          "v": "国内开发者需关注框架对模型出口和 API 访问限制的潜在影响，建议持续跟踪白宫官方公告"
+        }
+      ],
+      "src": "📎 aitoolsrecap.com · axios.com"
+    }
+  ],
+  "mp": {
+    "title": "OpenAI 割股政府 / Anthropic 超 OpenAI / 联合国 AI 治理 / xAI 语音 API / 白宫自愿标准"
+  }
+}
