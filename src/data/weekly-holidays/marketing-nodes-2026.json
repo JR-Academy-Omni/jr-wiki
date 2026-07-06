@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "year": 2026,
-  "note": "JR Academy 营销节点日历（人工维护的 SoT）。这里是『对教育/AI 学习品牌真正重要的营销日子』，不是公共假日表 —— 很多节点（六一/520/618/双11/开学季/毕业季）根本不是法定假日。每个节点带一张『营销打法卡』(playbook)，给运营直接照着做。/weekly-holidays skill 每周把落在 30 天窗口内的节点合并进 latest.json，admin /weekly-holidays 页面读取展示。",
+  "note": "JR Academy 营销节点日历（人工维护的 SoT）。这里是『对教育/AI 学习品牌真正重要的营销日子』，不是公共假日表 —— 很多节点（六一/520/618/双11/开学季/毕业季）根本不是法定假日。每个节点带一张『营销打法卡』(playbook)，给运营直接照着做。/weekly-holidays skill 每周把落在 90 天窗口内的节点合并进 latest.json，admin /weekly-holidays 页面读取展示。",
   "schema": {
     "date": "YYYY-MM-DD（固定日或当年浮动日已算好；seasonal=true 时是该时段的锚点日）",
     "name": "中文节点名",
