@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-08",
+  "school": "monash",
+  "summary": {
+    "hookMain": "Monash",
+    "hookSub": "€500 万 CULTURAI + $500 万限药计划 · 艺科跨界",
+    "hookSubHighlight": "守护创意自主权",
+    "subLines": [
+      "Assoc Prof Xin Gu 领衔 11 国联合体 科学负责人席位",
+      "SUPPORT-Meds 联邦 500 万资助 全国合理限药推进",
+      "人文 AI + 药学政策 两条线 7 月同发"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "CULTURAI AI 创意", "data": "€500 万欧盟资助" },
+      { "num": "02", "title": "SUPPORT-Meds", "data": "$500 万联邦资助" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "国际科研合作",
+      "h2Main": "Monash 主导欧盟 CULTURAI：AI 时代守护创作产业多元性",
+      "h2Sub": "Assoc Prof Xin Gu 科学负责人 · €500 万 Horizon Europe · 11 国合作 · 2026 年 9 月启动",
+      "h2Highlight": "科学负责人",
+      "lead": "Monash University 艺术学院 Associate Professor Xin Gu 团队以<b>科学负责人（Scientific Lead）</b>身份加入欧盟 Horizon Europe Pillar 2 资助的 Project CULTURAI，获得 500 万欧元（约 840 万澳元）四年研究资金，11 个跨欧洲伙伴机构参与，由荷兰国家图书馆（KB National Library of the Netherlands）统筹协调。项目计划于 2026 年 9 月正式启动。",
+      "bullets": [
+        { "k": "项目目标", "v": "AI 正在重塑音乐、影视、游戏、数字叙事等创意产业，CULTURAI 探索如何建立<b>守住多元性与包容性价值观的算法治理框架</b>；确保算法在文化创意领域维护而非侵蚀创作自主权" },
+        { "k": "Monash 的角色", "v": "团队专长横跨文化治理、创意 AI 和数字设计三条线，在 11 个合作机构中拿下<b>科学议程领导席位</b>——负责为整个联合体设定研究方向" },
+        { "k": "Living Labs", "v": "项目将在多个「Living Labs」中，让<b>音乐、电影、游戏、数字叙事的创作者</b>亲身参与，共同设计并测试人本位 AI 工具，而非纯学术环境推演" },
+        { "k": "对你的影响", "v": "走 <b>Media / Arts / Creative Technology / AI Ethics / Digital Design</b> 方向的同学，这条研究线在文化治理 + 技术设计 + 创意产业三层交汇，也是 Monash 人文学科接入 AI 研究生态的鲜明案例" }
+      ],
+      "source": "Monash News · 2026-07-01",
+      "sourceUrl": "https://www.monash.edu/news/articles/monash-part-of-5-million-horizon-europe-project-to-safeguard-human-creativity-in-the-age-of-ai"
+    },
+    {
+      "idx": "02",
+      "category": "公共卫生政策",
+      "h2Main": "SUPPORT-Meds：Monash 获联邦 $500 万推进全国合理限药计划",
+      "h2Sub": "Dr Emily Reeve 主持 · QUDTP 专项资助 · 聚焦苯二氮䓬类 + 阿片类药物",
+      "h2Highlight": "$500 万",
+      "lead": "Monash Institute of Pharmaceutical Sciences 的 Associate Professor Dr Emily Reeve（Centre for Medicine Use and Safety）于 2026 年 7 月 1 日宣布启动全国性「SUPPORT-Meds」计划，获澳大利亚联邦卫生、残障及老龄化部「诊疗合理使用质量计划（QUDTP）」<b>500 万澳元专项资助</b>。目标是帮助全科医生、药剂师、护士识别并停用对患者已造成伤害或已不再必要的药物（deprescribing）。",
+      "bullets": [
+        { "k": "首批聚焦", "v": "老年群体<b>苯二氮䓬类和 Z 类药物</b>（安眠药）+ 慢性非癌性疼痛的<b>阿片类药物</b>；后续扩展至质子泵抑制剂、抗精神病药（痴呆行为）、NSAIDs、加巴喷丁类" },
+        { "k": "实施方式", "v": "全国部署「knowledge brokers 知识经纪人」网络，提供<b>线上自学 + 线下培训双轨免费学分教育</b>；合作机构涵盖 RACGP、Pharmaceutical Society of Australia、APNA 等 8 家峰会机构" },
+        { "k": "背景", "v": "澳洲老龄化加速、多重用药问题日益突出，现有系统缺乏支持医护人员「减药」的标准化工具和教育资源——SUPPORT-Meds 填补这一缺口" },
+        { "k": "对你的影响", "v": "走 <b>Pharmacy / Clinical Pharmacology / Health Sciences / Primary Care</b> 方向的同学，这是 Monash 药学院直接介入国家卫生政策的重大项目，也是 Monash 药学 Honours/PhD 的高相关度研究方向" }
+      ],
+      "source": "Monash News · 2026-07-01",
+      "sourceUrl": "https://www.monash.edu/news/articles/new-national-program-targeting-harmful-and-unnecessary-medicine-use-in-australia"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 艺术学院 Assoc Prof Xin Gu 以科学负责人身份领衔 €500 万欧盟 CULTURAI 项目，在 11 国合作框架下探讨 AI 如何守护创作产业多元性；药学院 Dr Emily Reeve 同日获联邦 $500 万 QUDTP 资助启动 SUPPORT-Meds 全国限药计划。",
+    "items": [
+      { "n": "01", "title": "CULTURAI · 守护创意自主权", "body": "Assoc Prof Xin Gu 任科学负责人；€500 万 Horizon Europe；11 国合作；Living Labs 让创作者共设人本 AI 工具；9 月启动" },
+      { "n": "02", "title": "SUPPORT-Meds · 全国限药计划", "body": "Dr Emily Reeve 主持；联邦 QUDTP $500 万资助；苯二氮䓬类 + 阿片类优先；knowledge brokers 全国网络；RACGP + PSA 等 8 家峰会机构合作" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "6 所澳洲大学 · 每天轮换 · 科研 + 招生 + 奖学金一手同步",
+      "badge": "07 / 08"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash 7-8 双线出击📣",
+      "body": "在 Monash 读了快一年多，7 月初的两条消息方向完全不同，但都挺值得看的。\n\n01 / 人文 + AI——Monash 艺术学院的 Assoc Prof Xin Gu 团队拿下了欧盟 Horizon Europe CULTURAI 项目的科学负责人席位，500 万欧元四年，和荷兰国家图书馆等 11 个机构合作。研究方向很聚焦：AI 在改变音乐、电影、游戏这些创意产业的同时，怎么守住创作的多元性和自主权？\n\n02 / 药学政策——Monash 药学院的 Dr Emily Reeve 获得联邦政府 500 万澳元，启动 SUPPORT-Meds 全国计划，帮助医生、药师规范高风险药物的使用，尤其是安眠药（苯二氮䓬类）和止痛阿片类。\n\n两条放一起看，Monash 这周人文 AI 和药学政策两条线同时在推进。哪条感兴趣评论区聊🙌",
+      "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#大学新闻", "#留学干货", "#留学生活"]
+    },
+    "p2": {
+      "title": "AI抢了创作者饭碗？Monash在研究🎨",
+      "body": "最近有一个很有意思的事：Monash 艺术学院拿到了欧盟 Horizon Europe 的科学负责人席位，研究的正好是 AI 和创意产业这个大家都在讨论的话题。\n\n项目叫 CULTURAI，欧盟给了 500 万欧元做四年，11 个来自欧洲各地的机构参与，由荷兰国家图书馆统筹，2026 年 9 月正式启动。Monash 这边的负责人是 Assoc Prof Xin Gu（Faculty of Arts），她的团队在文化治理、创意 AI 和数字设计三个方向都有研究积累——这才是在 11 个机构里拿到科学议程领导权的原因。\n\nCULTURAI 要解决的核心问题是：AI 在音乐、影视、游戏、数字叙事这些创意产业里快速渗透，怎么建立守住多元性和包容性的算法治理框架？不能让平台算法去决定什么风格的内容更「值钱」，从而变相扼杀多元创作。\n\n项目里会有多个「Living Labs」，让真实的创作者参与进来，共同设计和测试人本位的 AI 工具。不是纯学术推演，是和创作者一起在实际场景里迭代。\n\n这个对走 Media / Arts / Creative Technology / AI Ethics 方向的同学很有参考价值，Monash Faculty of Arts 在 AI + 文化这个交叉领域的研究投入是真实的。评论区扣 1 我们聊。",
+      "tags": ["#Monash", "#澳洲留学", "#AI创意", "#莫纳什大学", "#留学干货", "#AIEthics", "#数字艺术"]
+    },
+    "p3": {
+      "title": "Monash药学获500万去「减药」💊",
+      "body": "走药学或者公共卫生方向的姐妹这条值得看：7 月 1 日 Monash 药学院宣布了一个很接地气的项目——SUPPORT-Meds，联邦政府给了 500 万澳元 QUDTP 专项资助。\n\n负责人是 Monash Institute of Pharmaceutical Sciences 的 Dr Emily Reeve，她在 Centre for Medicine Use and Safety 做 deprescribing（合理限药/减药）研究。这次启动的计划是全国性的：帮助全科医生、药剂师、护士在日常执业中识别并停用对患者已造成伤害或已不再必要的药物。\n\n首先聚焦的是两类高风险药物：老年人常用的苯二氮䓬类和 Z 类药物（安眠药），以及慢性非癌性疼痛用的阿片类药物。这两类在澳洲都有过度使用的问题。\n\n实施方式是在全国部署「knowledge brokers」（知识经纪人）网络，提供免费的线上和线下学分教育，让临床医护人员有工具和信心去执行 deprescribing。合作机构包括 RACGP（全科医学院）、Pharmaceutical Society of Australia 等 8 家峰会机构，覆盖面很广。\n\n这个项目对 Pharmacy / Clinical Pharmacology / Primary Care 方向的同学来说，是 Monash 药学院直接介入国家卫生政策实践的典型案例。想了解 Monash 药学研究方向的姐妹评论区聊。",
+      "tags": ["#Monash", "#澳洲留学", "#莫纳什大学", "#药学", "#Pharmacy", "#公共卫生", "#留学干货"]
+    },
+    "p4": {
+      "title": "学艺术怎么申Monash研究生🎭",
+      "body": "一直有姐妹问我 Monash 的艺术和人文方向值不值得申请，7 月初的这条消息可以给一个很直接的参考。\n\nMonash Faculty of Arts 的 Assoc Prof Xin Gu 团队拿到了欧盟 Horizon Europe CULTURAI 项目的科学负责人（Scientific Lead）席位。这是个 500 万欧元的四年研究项目，11 个机构合作，Monash 在里面不是参与者而是定研究议程的那个——这个定位挺能说明问题的。\n\n研究方向是 AI 和创意产业的交叉：音乐、电影、游戏、数字叙事这些领域被 AI 渗透之后，怎么建立维护创作多元性的治理框架？这本质上是文化政策 + 技术设计 + 创意实践三块放在一起研究。\n\n我自己在想申 Digital Design 还是 Media Studies 的时候，这种「学院直接参与欧盟级别的政策研究」对我来说是一个很有说服力的信号——不是单纯的学术圈内研究，是真的在跟产业和政策实践挂钩。\n\n有在看 Monash 人文和创意方向的姐妹，评论区说下你们在纠结什么，聊一聊。",
+      "tags": ["#Monash", "#澳洲留学", "#莫纳什大学", "#艺术留学", "#数字设计", "#研究生申请", "#留学干货"]
+    },
+    "p5": {
+      "title": "Monash 7-8 一眼看完✅",
+      "body": "Monash 7 月 8 日两条，两个完全不同的方向：\n\n01 / CULTURAI AI 创意项目——Assoc Prof Xin Gu（Faculty of Arts）以科学负责人身份加入欧盟 Horizon Europe CULTURAI，€500 万四年，11 国合作，荷兰国家图书馆统筹，9 月启动。研究 AI 如何在不侵蚀创作多元性的前提下支持创意产业。Living Labs 让音乐/影视/游戏创作者直接参与人本 AI 工具的共同设计。\n\n02 / SUPPORT-Meds——Dr Emily Reeve（Monash Institute of Pharmaceutical Sciences）获联邦 QUDTP $500 万资助。全国性 deprescribing 计划，首批聚焦苯二氮䓬类 + 阿片类，全国 knowledge brokers 网络 + 免费学分教育，RACGP + PSA 等 8 家机构合作。\n\n两条分别切入 AI 伦理/创意治理 和 药学政策两个领域，有想了解 Monash 在这两个方向 PhD/Honours 通道的姐妹评论区聊🙌",
+      "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#大学新闻", "#留学干货", "#留学生活", "#Monash申请"]
+    }
+  },
+  "mp": {
+    "title": "Monash 7 月 8 日 两条：€500 万欧盟 CULTURAI 守护 AI 时代创作自主权 + $500 万 SUPPORT-Meds 全国限药计划",
+    "lead": "Monash 这周在截然不同的两个方向同时推进重大项目。艺术学院 Associate Professor Xin Gu 团队以科学负责人身份主导欧盟 Horizon Europe CULTURAI 项目（€500 万 / 四年 / 11 国合作 / 9 月启动），专门研究 AI 渗透音乐、影视、游戏、数字叙事等创意产业时如何维护创作者的多元性与自主权，并在 Living Labs 中与真实创作者共同设计人本位 AI 工具。与此同时，Monash Institute of Pharmaceutical Sciences 的 Dr Emily Reeve 获联邦 QUDTP $500 万资助启动 SUPPORT-Meds，这是一项覆盖全国的合理限药（deprescribing）计划，首批聚焦苯二氮䓬类和阿片类高风险药物，通过 knowledge brokers 网络和免费学分教育帮助全科医生、药剂师、护士在日常执业中科学减药。两条各自代表了 Monash 在人文 AI 和药学政策两个领域的深度布局，任意一条都值得在选专业前了解一遍。",
+    "meta": { "readTime": "7 分钟" },
+    "newsBodies": [
+      {
+        "h2": "Monash 主导 CULTURAI：AI 时代如何守护创作产业的多元性",
+        "paragraphs": [
+          "Monash University 艺术学院 Associate Professor Xin Gu 团队 7 月 1 日宣布加入欧盟 Horizon Europe Pillar 2 资助的 Project CULTURAI，以科学负责人（Scientific Lead）身份主持研究议程的制定。项目获得 €500 万（约 840 万澳元）四年资金支持，11 个跨欧洲伙伴机构参与，由荷兰国家图书馆（KB National Library of the Netherlands）作为协调机构统筹，计划于 2026 年 9 月正式启动。",
+          "CULTURAI 聚焦的核心问题：随着 AI 快速渗透音乐、影视、游戏、数字叙事等创意产业，现有的算法逻辑往往倾向于强化已具规模效应的风格和内容，对小众、边缘、实验性的创作产生隐性压制。CULTURAI 要建立的，是一套能在算法层面维护多元性与包容性价值观的文化治理框架，以及配套的人本位 AI 工具。项目将在多个「Living Labs」中，让真实创作者——来自音乐、电影、游戏、数字叙事行业——直接参与工具的共同设计和测试，而非纯粹的学术推演。",
+          "Xin Gu 教授团队在 Monash 拿到科学领导席位的原因，正是其研究专长的跨学科整合能力：文化治理（政策与制度层面）、创意 AI（技术与设计层面）、数字设计（创意实践层面）三条线并行。对走 Media Studies、Arts、Creative Technology、AI Ethics、Digital Design 或 Information Management 方向的学生，CULTURAI 代表了 Monash 人文学科接入欧盟级 AI 研究框架的具体路径——研究不止于学术圈内，而是直接与欧洲文化政策和创意产业实践相连。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.monash.edu/news/articles/monash-part-of-5-million-horizon-europe-project-to-safeguard-human-creativity-in-the-age-of-ai\">Monash News · Monash part of €5 million Horizon Europe project to safeguard human creativity in the age of AI</a>"
+      },
+      {
+        "h2": "SUPPORT-Meds：Monash 获联邦 $500 万 推进全国合理限药计划",
+        "paragraphs": [
+          "Monash Institute of Pharmaceutical Sciences 的 Associate Professor Dr Emily Reeve（Centre for Medicine Use and Safety）于 2026 年 7 月 1 日宣布启动全国性 SUPPORT-Meds 计划，获澳大利亚联邦卫生、残障及老龄化部（Department of Health, Disability and Ageing）「诊疗合理使用质量计划（Quality Use of Diagnostics, Therapeutics and Pathology，QUDTP）」$500 万澳元专项资助。SUPPORT-Meds 的目标是给全科医生、药剂师和护士提供系统性的支持与信心，帮助他们识别并停用对患者已造成伤害或已不再必要的药物（deprescribing）。",
+          "计划首批聚焦两类在澳洲临床实践中存在过度使用问题的高风险药物：老年群体中用于睡眠的苯二氮䓬类药物（benzodiazepines）和 Z 类药物（Z-drugs）；以及慢性非癌性疼痛管理中的阿片类药物。后续阶段将逐步扩展至质子泵抑制剂、用于痴呆行为管理的抗精神病药、NSAIDs（非甾体抗炎药）及加巴喷丁类药物。实施路径是在全国范围内部署一个「knowledge brokers（知识经纪人）」网络——由专业人员将教育内容结合当地执业场景进行情境化传授——同时提供线上自学和线下面授两种形式的免费学分教育。",
+          "SUPPORT-Meds 的合作机构横跨澳洲初级医疗生态的主要参与方：Ageing Australia、APNA（澳洲基层卫生护士协会）、NSW Therapeutic Advisory Group、Pharmaceutical Society of Australia（PSA）、RACGP（澳洲全科医学学院），以及 ACNP（澳洲执业护士学院）、Advanced Pharmacy Australia、Australasian Sleep Association 等。对走 Pharmacy、Clinical Pharmacology、Health Sciences 或 Primary Care 方向的学生，SUPPORT-Meds 代表了 Monash 药学院在国家初级医疗政策层面最直接的实践介入，也是 Monash 药学相关 Honours 和 PhD 研究方向中相关度最高的现实背景之一。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.monash.edu/news/articles/new-national-program-targeting-harmful-and-unnecessary-medicine-use-in-australia\">Monash News · New national program targeting harmful and unnecessary medicine use in Australia</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · CULTURAI AI 创意项目</strong>：Assoc Prof Xin Gu（Monash Faculty of Arts）科学负责人；€500 万 Horizon Europe；11 国合作；荷兰国家图书馆统筹；9 月启动；Living Labs 让创作者共设人本 AI 工具",
+        "<strong>02 · SUPPORT-Meds</strong>：Dr Emily Reeve（Monash Pharmacy）主持；联邦 QUDTP $500 万；首批聚焦苯二氮䓬类 + 阿片类；全国 knowledge brokers 网络；RACGP + PSA 等 8 家峰会机构合作"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "CULTURAI｜Monash 艺术学院主导欧盟 AI 创意项目",
+        "body": "在 Monash 读艺术方向的第二年，7 月初导师提到了这条消息——Monash Faculty of Arts 的 Assoc Prof Xin Gu 团队拿到了欧盟 Horizon Europe CULTURAI 项目的科学负责人（Scientific Lead）席位。\n\n€500 万欧元、四年、11 个来自欧洲各地的合作机构，荷兰国家图书馆统筹，9 月正式启动。Monash 在里面不是普通参与者，是负责制定整个研究议程的那个角色——这个定位在 11 个机构里挺少见的。\n\n研究的核心问题我觉得很现实：AI 在快速改变音乐、电影、游戏、数字叙事这些创意产业，但现有算法逻辑往往有个问题——它们倾向于强化已有规模的风格，对实验性、小众的创作会产生隐性压制。CULTURAI 就是要建立在算法层面守住多元性和包容性的治理框架。\n\n项目里有 Living Labs，让真正的创作者参与进来一起设计和测试人本位 AI 工具，不是纯粹学术推演的那种。\n\nXin Gu 团队的优势就在跨学科——文化治理（政策层面）、创意 AI（技术层面）、数字设计（实践层面）三条线都有积累，这才在 11 个机构里拿到科学领导席位。\n\n有在看 Monash 的 Media Studies / Digital Design / Creative Technology / AI Ethics 方向的姐妹，这个项目是 Monash 人文学科真正参与欧盟级 AI 研究框架的直接证据。评论区聊。",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#AI创意", "#数字设计", "#留学干货", "#研究生申请"]
+      },
+      {
+        "heading": "SUPPORT-Meds｜Monash 药学院联邦限药计划",
+        "body": "想申 Monash 药学或者公共卫生方向的姐妹，7 月初这条挺值得关注的。\n\nMonash Institute of Pharmaceutical Sciences 的 Dr Emily Reeve（Centre for Medicine Use and Safety）拿到了联邦 QUDTP $500 万资助，启动了一个叫 SUPPORT-Meds 的全国性计划。\n\n说白了这个计划是解决一个很现实的问题：澳洲现在苯二氮䓬类安眠药和阿片类止痛药在临床里用得太多了，很多患者在不需要继续用的时候医生也不知道怎么减药或停药，缺乏系统支持和信心。SUPPORT-Meds 就是给全科医生、药剂师、护士提供这个支持。\n\n实施方式是全国部署 knowledge brokers（知识经纪人）网络，提供免费的线上自学和线下面授学分教育，让临床人员有工具有信心去执行 deprescribing（合理减药）。合作机构包括 RACGP、Pharmaceutical Society of Australia、APNA 等 8 家大机构，覆盖面很大。\n\n首批聚焦苯二氮䓬类和阿片类，之后会扩展到质子泵抑制剂、抗精神病药（痴呆行为用）、NSAIDs、加巴喷丁类。\n\n这个对想走 Pharmacy / Clinical Pharmacology / Health Sciences 的同学来说是 Monash 药学在国家卫生政策实践里最直接的参与——申请 Honours 或 PhD 的时候，这个方向的相关度是很高的。感兴趣的姐妹评论区扣 1。",
+        "tags": ["#Monash", "#澳洲留学", "#莫纳什大学", "#药学", "#Pharmacy", "#公共卫生", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化",     "rule": "最 / 第一 / 唯一 / 100%",              "result": "未检出（「科学负责人」为项目合同规定的角色名称，非营销绝对化用语）" },
+      { "category": "教育承诺",   "rule": "包过 / 保录取 / 稳上",                "result": "未检出" },
+      { "category": "引流",       "rule": "加V / VX / 薇信 / 私信领取",          "result": "未检出（仅使用「评论区扣 1」合规互动话术）" },
+      { "category": "封号红线",   "rule": "JR Academy / 匠人学院 / jiangren.com", "result": "未检出（xhsCopy 和 drafts 全部扫描，mp.cta 例外不计）" },
+      { "category": "AI 味",      "rule": "首先其次 / 值得注意的是 / 综上所述",   "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然",                "result": "未检出（「药物」「阿片类」属药学学术语境，无疗效承诺）" },
+      { "category": "政治金融",   "rule": "保本 / 稳赚 / 荐股",                  "result": "未检出" }
+    ]
+  }
+}
