@@ -32,7 +32,7 @@ University of Sydney 联合 University of Queensland 和巴西北帕拉纳大学
 
 ## 02. USyd × IBM 量子误差突破：逻辑量子比特存活率从 90% 以下提升至 96% 以上
 
-**一句话**：University of Sydney 量子科学实验室与 IBM Quantum 合作，**首次量化了量子纠错电路中「中途测量」（MCMs）引入的误差**，通过重新设计纠错电路，将逻辑量子比特的每周期存活率从 <90% 提升至 >96%，成果发表于《Nature Communications》。
+**一句话**：University of Sydney 量子科学实验室与 IBM Quantum 合作，**首次量化了量子纠错电路中「中途测量」（MCMs）引入的误差**，通过重新设计纠错电路，将逻辑量子比特的每周期存活率从 96%，成果发表于《Nature Communications》。
 
 University of Sydney 量子科学实验室（Quantum Science Laboratory）与 IBM Quantum 联合开展的研究，首次对量子纠错电路中「中途测量」（mid-circuit measurements, MCMs）所引入的误差机制进行了系统性量化，成果发表于《Nature Communications》期刊，首席作者为 Dr Robin Harper，项目负责人为 Professor Stephen Bartlett。
 
