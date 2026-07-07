@@ -1,0 +1,350 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-07-07（Canvas 版）</title>
+<meta name="description" content="2026-07-07 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-07-07.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-07-07",
+  "summary": {
+    "hook": [
+      {
+        "num": "01",
+        "cat": "模型发布",
+        "numColor": "#10A37F",
+        "t": "OpenAI GPT-5.6 三档 Sol/Terra/Luna，Cerebras 跑出 750 tokens/s"
+      },
+      {
+        "num": "02",
+        "cat": "产品里程碑",
+        "numColor": "#1A1A1A",
+        "t": "Musk 宣布 Grok Imagine 完工，Grok 4.5 进入 Tesla/SpaceX 私测"
+      },
+      {
+        "num": "03",
+        "cat": "战略转向",
+        "numColor": "#0668E1",
+        "t": "Meta Llama 继任者 Avocado 转闭源，开源大模型路线宣告终结"
+      },
+      {
+        "num": "04",
+        "cat": "模型更新",
+        "numColor": "#7B5EA7",
+        "t": "Claude Fable 5 出口管制解除，全球回归 Pro/Max 用户"
+      },
+      {
+        "num": "05",
+        "cat": "企业动态",
+        "numColor": "#CC0000",
+        "t": "Tesla 起征员工 AI 代币每周 $200 限额，企业成本管控新信号"
+      }
+    ],
+    "sub": "GPT-5.6 三档 Sol/Terra/Luna 发布；Grok Imagine 完工 + Grok 4.5 私测；Meta Avocado 转闭源；Fable 5 全球回归；Tesla AI $200/周限额",
+    "items": [
+      {
+        "num": "01",
+        "cat": "模型发布",
+        "numColor": "#10A37F",
+        "t": "OpenAI GPT-5.6 三档 Sol/Terra/Luna，Cerebras 跑出 750 tokens/s"
+      },
+      {
+        "num": "02",
+        "cat": "产品里程碑",
+        "numColor": "#1A1A1A",
+        "t": "Musk 宣布 Grok Imagine 完工，Grok 4.5 进入 Tesla/SpaceX 私测"
+      },
+      {
+        "num": "03",
+        "cat": "战略转向",
+        "numColor": "#0668E1",
+        "t": "Meta Llama 继任者 Avocado 转闭源，开源大模型路线宣告终结"
+      },
+      {
+        "num": "04",
+        "cat": "模型更新",
+        "numColor": "#7B5EA7",
+        "t": "Claude Fable 5 出口管制解除，全球回归 Pro/Max 用户"
+      },
+      {
+        "num": "05",
+        "cat": "企业动态",
+        "numColor": "#CC0000",
+        "t": "Tesla 起征员工 AI 代币每周 $200 限额，企业成本管控新信号"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-gpt56-sol-terra-luna",
+      "idx": "01",
+      "catText": "模型发布",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "GPT-5.6 三档：Sol / Terra / Luna",
+        "mid": "Sol 在 Cerebras 达 750 tokens/s 极速推理",
+        "bot": "定价 $5/$30 → $2.50/$15 → $1/$6 per Mtok",
+        "topRight": "7月初"
+      },
+      "title": [
+        {
+          "text": "OpenAI GPT-5.6"
+        },
+        {
+          "text": "三档 Sol/Terra/Luna 正式亮相",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "旗舰 Sol 在 Cerebras 推理速度达"
+        },
+        {
+          "text": "750 tokens/s",
+          "bold": true
+        },
+        {
+          "text": "，三档定价覆盖从低延迟到高性价比全场景"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 发布 GPT-5.6 家族：Sol（旗舰 $5/$30）、Terra（中档 $2.50/$15）、Luna（轻量 $1/$6），Sol 在 Cerebras 芯片上实现 750 tokens/s 超高速推理"
+        },
+        {
+          "k": "为什么重要",
+          "v": "三档策略打破 OpenAI 单一旗舰的惯例，以 Terra 性价比版正面狙击 Claude Sonnet 5；Cerebras 合作则是首次以非 Nvidia 路线实现前沿模型极速推理"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者现在有 3 个价格锚点选择，Luna 的 $1/$6 将成大规模批量任务的首选；Sol 750 tokens/s 适合对延迟极度敏感的实时产品"
+        }
+      ],
+      "src": "📎 openai.com · releasebot.io"
+    },
+    {
+      "slug": "02-grok-imagine-done-grok45-private",
+      "idx": "02",
+      "catText": "产品里程碑",
+      "accent": "#1A1A1A",
+      "bg": {
+        "top": "Musk：「Done with Grok Imagine」",
+        "mid": "Grok 4.5 基于 1.5T V9 模型在 SpaceX/Tesla 私测",
+        "bot": "xAI 月活 1.17 亿，全面进入多模态时代",
+        "topRight": "7月5日"
+      },
+      "title": [
+        {
+          "text": "Grok Imagine 宣告完工"
+        },
+        {
+          "text": "Grok 4.5 私测进行时",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Musk 确认图像生成功能完成，"
+        },
+        {
+          "text": "Grok 4.5 1.5T V9",
+          "bold": true
+        },
+        {
+          "text": " 已在特斯拉和 SpaceX 内部测试"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "7 月 5 日 Elon Musk 发帖「Done with Grok Imagine」，宣告 xAI 图像与视频生成能力开发完成；同期 Grok 4.5 在 1.5T V9 基础模型上加入 Cursor 训练数据，正在 SpaceX 和 Tesla 内部私测"
+        },
+        {
+          "k": "为什么重要",
+          "v": "至此 xAI 完成了文本 + 语音 + 图像 + 视频完整多模态闭环；Grok 4.5 集成 Cursor 数据意味着其编码能力将大幅跃升，对 Claude 和 GPT 形成直接冲击"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Grok 的编码 Agent 能力若经 Cursor 数据强化后开放 API，将成开发者工具链的新选项；月活 1.17 亿用户的生态规模也意味着更快的反馈迭代速度"
+        }
+      ],
+      "src": "📎 x.ai · blog.mean.ceo"
+    },
+    {
+      "slug": "03-meta-avocado-closed-source",
+      "idx": "03",
+      "catText": "战略转向",
+      "accent": "#0668E1",
+      "bg": {
+        "top": "Meta Llama 继任者 Avocado 转闭源",
+        "mid": "DeepSeek 模型以极低成本追平 Llama 性能",
+        "bot": "Meta Superintelligence Labs (MSL) 主导研发",
+        "topRight": "Q1 2026"
+      },
+      "title": [
+        {
+          "text": "Meta Avocado"
+        },
+        {
+          "text": "彻底转闭源，Llama 开源路线终结",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "受 DeepSeek 冲击，Meta AI 主导权移交"
+        },
+        {
+          "text": "Meta Superintelligence Labs",
+          "bold": true
+        },
+        {
+          "text": "，下一代模型不再开源"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Meta 2026 年 Q1 宣布终止 Llama 系列开源策略，继任者代号 Avocado 将以闭源商业化路线运营，由 Alexandr Wang 领衔的 Meta Superintelligence Labs 研发"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Llama 系列曾是开源 LLM 生态的基石，Meta 的转向标志着「开源 vs 闭源」格局根本性改变；DeepSeek 以极低成本追平甚至超越 Llama 性能，被认为是导火索"
+        },
+        {
+          "k": "对你的影响",
+          "v": "依赖 Llama 权重做本地部署的开发者需及时评估替代方案（Mistral、Qwen、Gemma 系列）；Avocado API 若商业化，定价策略将成下半年重要观察点"
+        }
+      ],
+      "src": "📎 digitimes.com · llm-stats.com"
+    },
+    {
+      "slug": "04-claude-fable5-global-return",
+      "idx": "04",
+      "catText": "模型更新",
+      "accent": "#7B5EA7",
+      "bg": {
+        "top": "出口管制 6 月 30 日解除，Fable 5 全球回归",
+        "mid": "Pro/Max/Team 用户本周内 50% 用量限额",
+        "bot": "Claude.ai / Platform / Code / Cowork 均已上线",
+        "topRight": "7月1日"
+      },
+      "title": [
+        {
+          "text": "Claude Fable 5"
+        },
+        {
+          "text": "出口管制解除，全球用户回归",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "美商务部 6 月 30 日解除出口限制，"
+        },
+        {
+          "text": "Fable 5 全平台全球复开",
+          "bold": true
+        },
+        {
+          "text": "，本周 Pro/Max 用量限额 50%"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "美国商务部 6 月 30 日解除对 Anthropic Fable 5 的出口管制指令，Anthropic 同日宣布 Fable 5 全球重新上线，覆盖 Claude.ai、Claude Platform、Claude Code 及 Claude Cowork，Pro/Max/Team 用户本周内享有 50% 每周用量限额"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Fable 5 是 Anthropic 旗下最顶级推理模型，此前出口管制影响了大量国际用户和企业；回归信号也意味着 Anthropic 与美国政府关系趋于缓和，出口风险降低"
+        },
+        {
+          "k": "对你的影响",
+          "v": "澳洲和亚太区用户现在可以合规访问 Fable 5；50% 用量限额预计在正式全量开放后取消，现阶段建议将最复杂的推理任务优先排进本周配额"
+        }
+      ],
+      "src": "📎 9to5google.com · anthropic.com"
+    },
+    {
+      "slug": "05-tesla-ai-token-200-weekly-cap",
+      "idx": "05",
+      "catText": "企业动态",
+      "accent": "#CC0000",
+      "bg": {
+        "top": "Tesla 员工 AI 代币每周 $200 上限",
+        "mid": "超出需经理审批，7 月 6 日起执行",
+        "bot": "反映科技企业 AI 算力成本管控新趋势",
+        "topRight": "7月6日"
+      },
+      "title": [
+        {
+          "text": "Tesla 员工 AI 代币"
+        },
+        {
+          "text": "每周 $200 限额起执行",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "特斯拉 7 月 6 日起对全员 AI 使用实施"
+        },
+        {
+          "text": "$200/周",
+          "bold": true
+        },
+        {
+          "text": " 代币上限，超额需经理逐笔审批"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "特斯拉 7 月 6 日起对全体员工的 AI 工具 token 消耗实施每周 $200 上限，需要更多用量的员工必须向直属经理申请审批，否则访问自动暂停"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是头部科技企业首次明确以财务限额约束内部 AI 使用，传递出一个信号：AI 算力成本已成企业级运营开支的重要管控项，「无限用」时代正在终结"
+        },
+        {
+          "k": "对你的影响",
+          "v": "企业 AI 工具的采购和审批流程将变得更加正式化；澳洲 IT 从业者应关注自家公司的类似政策动向，并提前建立 AI 使用的成本核算和汇报机制"
+        }
+      ],
+      "src": "📎 buildfastwithai.com · unrot.co"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.6 三档 Sol / Grok Imagine 完工 / Meta Avocado 闭源 / Fable 5 全球回归 / Tesla AI 限额"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-07-07"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
