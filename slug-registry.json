@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-07-06T23:47:12.974Z",
+  "lockedAt": "2026-07-07T02:22:43.411Z",
   "version": 1,
   "slugs": [
     {
@@ -605,6 +605,10 @@
     {
       "type": "article",
       "slug": "sierra-enterprise-ai-agent-950m-2026"
+    },
+    {
+      "type": "article",
+      "slug": "spacex-cursor-60b-xai-collapse-2026"
     },
     {
       "type": "article",
