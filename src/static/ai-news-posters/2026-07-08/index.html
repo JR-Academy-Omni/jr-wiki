@@ -1,0 +1,323 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-07-08（Canvas 版）</title>
+<meta name="description" content="2026-07-08 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-07-08.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-07-08",
+  "summary": {
+    "hook": [
+      "DeepSeek 要造自己的芯片了",
+      "Grok 飙到 1.5 万亿参数",
+      "Gemini 3.5 Pro 再推迟"
+    ],
+    "sub": "五条今日 AI 热点，从芯片自主到模型定价混战",
+    "items": [
+      {
+        "num": "01",
+        "cat": "芯片自主",
+        "numColor": "#FF6B35",
+        "t": "DeepSeek 秘密研发推理芯片，欲摆脱英伟达与华为依赖"
+      },
+      {
+        "num": "02",
+        "cat": "模型竞速",
+        "numColor": "#7B2FFF",
+        "t": "xAI Grok 4.5 上线，参数量 1.5 万亿，Grok Imagine 宣告完成"
+      },
+      {
+        "num": "03",
+        "cat": "战略延迟",
+        "numColor": "#1A73E8",
+        "t": "Google Gemini 3.5 Pro 全面重构，正式发布推迟至 7 月 17 日"
+      },
+      {
+        "num": "04",
+        "cat": "政策松绑",
+        "numColor": "#E8471A",
+        "t": "Anthropic Fable 5 出口管制解除，全球用户 7 月 1 日起重新上线"
+      },
+      {
+        "num": "05",
+        "cat": "商业定价",
+        "numColor": "#22A060",
+        "t": "OpenAI GPT-5.6 三档矩阵定价公开：Sol 旗舰 / Terra 均衡 / Luna 极速"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-deepseek-ai-chip",
+      "idx": "01",
+      "catText": "芯片自主",
+      "accent": "#FF6B35",
+      "bg": {
+        "top": "从杭州到全球，DeepSeek 正在悄悄造芯片",
+        "mid": "路透独家：推理芯片项目已启动，工程师已在招募",
+        "bot": "目标：摆脱英伟达与华为，掌握算力命运",
+        "topRight": "🔬"
+      },
+      "title": [
+        {
+          "text": "DeepSeek "
+        },
+        {
+          "text": "秘密研发推理芯片",
+          "hl": true
+        },
+        {
+          "text": "，欲斩断对英伟达与华为的依赖"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "路透独家：DeepSeek 已启动自研 AI 推理芯片项目"
+        },
+        {
+          "text": "，悄然招募芯片工程师并与制造商接洽",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "路透社 7 月 7 日独家报道，DeepSeek 正秘密研发面向推理场景的自研 AI 芯片，已招募工程师并与芯片制造商展开谈判，目标是降低对英伟达 H100 和华为昇腾的依赖"
+        },
+        {
+          "k": "为什么重要",
+          "v": "中国头部 AI 公司向全栈自研迈进，若推理芯片落地将打破美国出口管制的核心逻辑；同期字节、百度等中国 AI 大厂也在推进自研芯片，算力自主成为行业战略标配"
+        },
+        {
+          "k": "对你的影响",
+          "v": "DeepSeek API 价格若因自研芯片降本而进一步下探，将再次压低全球大模型定价基线；关注中国 AI 供应链的投资者和开发者需密切追踪后续进展"
+        }
+      ],
+      "src": "📎 engadget.com · usnews.com · reuters.com"
+    },
+    {
+      "slug": "02-xai-grok-45",
+      "idx": "02",
+      "catText": "模型竞速",
+      "accent": "#7B2FFF",
+      "bg": {
+        "top": "一个月内参数从 1 万亿扩到 1.5 万亿",
+        "mid": "Grok 4.5 上线，Grok Imagine 图像生成宣告完工",
+        "bot": "SpaceX 收购 Cursor 的算力与数据正在喂养这头怪兽",
+        "topRight": "🚀"
+      },
+      "title": [
+        {
+          "text": "xAI Grok 4.5 发布："
+        },
+        {
+          "text": "1.5 万亿参数",
+          "hl": true
+        },
+        {
+          "text": "，Grok Imagine 图像生成同步完成"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Grok 4.5 携 1.5 万亿参数上线，较一个月前的 4.4 版本扩大 50%"
+        },
+        {
+          "text": "；Musk 7 月 5 日宣告 Grok Imagine 图像生成开发完成",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 发布 Grok 4.5，参数量约 1.5 万亿，较 5 月底 Grok 4.4 的约 1 万亿增长 50%；同期 SpaceX 收购 Cursor 母公司 Anysphere（600 亿美元），Cursor IDE 数据已纳入 Grok 4.5 训练强化编程推理"
+        },
+        {
+          "k": "为什么重要",
+          "v": "单月 50% 参数扩张的迭代速度在业内罕见；Grok Imagine 完成使 xAI 全面进入文生图/图生视频赛道，Grok 平台从文字问答升级为全能多模态工具"
+        },
+        {
+          "k": "对你的影响",
+          "v": "AI 编程工具赛道格局再洗牌，Cursor 背后算力已归 SpaceX；开发者可通过 xAI API 测试 Grok 4.5 的代码推理能力，图像生成 API 也即将开放"
+        }
+      ],
+      "src": "📎 siliconreport.com · releasebot.io · x.ai"
+    },
+    {
+      "slug": "03-gemini-35-pro-delay",
+      "idx": "03",
+      "catText": "战略延迟",
+      "accent": "#1A73E8",
+      "bg": {
+        "top": "推倒重来：Google 放弃 Gemini 2.5 Pro 现有架构",
+        "mid": "全面重构瞄准 GPT-5.6 与 Fable 5，推迟至 7 月 17 日",
+        "bot": "200 万 token 上下文 + 深度推理层，这次真的不一样？",
+        "topRight": "🔄"
+      },
+      "title": [
+        {
+          "text": "Google Gemini 3.5 Pro "
+        },
+        {
+          "text": "全架构重构",
+          "hl": true
+        },
+        {
+          "text": "，发布推迟至 7 月 17 日"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Google DeepMind 放弃 Gemini 2.5 Pro 现有架构从零重建"
+        },
+        {
+          "text": "，新增 200 万 token 上下文与深度推理层，正式发布推迟至 7 月 17 日",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google DeepMind 宣布 Gemini 3.5 Pro 将从底层重新设计，引入 200 万 token 上下文窗口和「深度推理层」，并支持自主工作流能力；延期原因是早期测试发现长链代理任务中 token 消耗过高，需要优化后再发布"
+        },
+        {
+          "k": "为什么重要",
+          "v": "架构级重构而非小版本迭代，目标直接对标 OpenAI GPT-5.6 Sol 和 Anthropic Fable 5；延期反映 Google 宁可晚发也不愿带着明显缺陷上市，与以往快速迭代的策略有所不同"
+        },
+        {
+          "k": "对你的影响",
+          "v": "7 月 17 日将是重要时间节点；若 200 万 token 窗口和深度推理落地，超长文档分析、法律合同审查、大型代码库理解等场景的 API 成本将大幅下降，值得提前规划迁移测试"
+        }
+      ],
+      "src": "📎 finance.biggo.com · buildfastwithai.com · thesiliconreview.com"
+    },
+    {
+      "slug": "04-fable5-export-control-lifted",
+      "idx": "04",
+      "catText": "政策松绑",
+      "accent": "#E8471A",
+      "bg": {
+        "top": "管制 17 天，Fable 5 重返全球",
+        "mid": "美国政府 6 月 30 日解除出口限制，全球用户 7 月 1 日起恢复访问",
+        "bot": "同期 Claude Sonnet 5 成为免费/Pro 默认模型，定价仅 $2/$10",
+        "topRight": "🌏"
+      },
+      "title": [
+        {
+          "text": "Anthropic Fable 5 "
+        },
+        {
+          "text": "出口管制解除",
+          "hl": true
+        },
+        {
+          "text": "，全球用户 7 月 1 日重新上线"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "美国政府 6 月 30 日解除 Fable 5 和 Mythos 5 出口限制"
+        },
+        {
+          "text": "；同期 Claude Sonnet 5 发布，成为所有 Claude 免费和 Pro 用户默认模型",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "美国商务部于 6 月 30 日撤销对 Claude Fable 5 和 Mythos 5 的出口管制，Anthropic 即日起恢复向全球用户（含非美国籍）提供访问；管制期间 Anthropic 因无法实时验证国籍而暂停了对所有用户的访问"
+        },
+        {
+          "k": "为什么重要",
+          "v": "同步发布的 Claude Sonnet 5 被定为 Free 和 Pro 账户默认模型，介绍价 $2/$10 per M tokens 且有效期至 8 月 31 日；分析师预测 Anthropic 年化收入即将超越 OpenAI，两强格局明显"
+        },
+        {
+          "k": "对你的影响",
+          "v": "澳洲及亚太地区用户可重新使用 Fable 5；Sonnet 5 已在 Claude Code 中可用，性能接近 Opus 4.8 而价格更低，近期 API 开发项目值得切换测试"
+        }
+      ],
+      "src": "📎 anthropic.com · releasebot.io · fortune.com"
+    },
+    {
+      "slug": "05-openai-gpt56-pricing",
+      "idx": "05",
+      "catText": "商业定价",
+      "accent": "#22A060",
+      "bg": {
+        "top": "三档矩阵对标 Anthropic，OpenAI 的价格战打响",
+        "mid": "Sol / Terra / Luna：旗舰、均衡、极速，各有价位",
+        "bot": "与此同时，Anthropic 收入已悄悄超过 OpenAI",
+        "topRight": "💰"
+      },
+      "title": [
+        {
+          "text": "OpenAI GPT-5.6 "
+        },
+        {
+          "text": "三档矩阵定价公开",
+          "hl": true
+        },
+        {
+          "text": "：Sol 旗舰 / Terra 均衡 / Luna 极速"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "GPT-5.6 家族三款模型正式定价"
+        },
+        {
+          "text": "：Sol $5/$30、Terra $2.5/$15、Luna $1/$6（per M tokens）",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 发布 GPT-5.6 模型家族，包含旗舰版 Sol（$5/$30 per M tokens）、均衡版 Terra（$2.5/$15）和极速版 Luna（$1/$6）；初期面向信任合作伙伴限量预览，后续将向公众开放"
+        },
+        {
+          "k": "为什么重要",
+          "v": "三档矩阵明显对标 Anthropic 的 Opus/Sonnet/Haiku 体系；同期数据显示 Anthropic 年化收入已超越 OpenAI，且有望在 2029 年比 OpenAI 早一年实现盈利，市场竞争进入白热化"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者现有三档性价比选择，Terra 定价与 Claude Sonnet 5 几乎持平；建议在具体任务（编程/推理/长文本）上做基准测试再决定迁移，避免因品牌偏好而错过性价比更优的选项"
+        }
+      ],
+      "src": "📎 releasebot.io · fortune.com · opendatascience.com"
+    }
+  ],
+  "mp": {
+    "title": "DeepSeek 自研推理芯片 / Grok 4.5 千五百亿参数 / Gemini 3.5 Pro 延期 / Fable 5 全球解禁 / GPT-5.6 三档定价"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-07-08"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
