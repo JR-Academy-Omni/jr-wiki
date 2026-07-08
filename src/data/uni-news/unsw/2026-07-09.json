@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-09",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "新南威尔士大学",
+    "hookSub": "今日两大 研究突破",
+    "hookSubHighlight": "研究突破",
+    "subLines": [
+      "视觉化弱？结构化教学让成绩提升 20%",
+      "靠装空调挡不住气候变化",
+      "被动冷却技术必须成城市基础设施"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "教育心理研究", "data": "1,451 名学生实证" },
+      { "num": "02", "title": "气候工程综述", "data": "Nature Reviews Clean Technology" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "教育研究",
+      "h2Main": "视觉化弱不代表学不好",
+      "h2Sub": "结构化教学让成绩提升约 20%",
+      "h2Highlight": "成绩提升约 20%",
+      "lead": "UNSW Scientia Professor Andrew Martin 团队研究 1,451 名悉尼私立学校 7–10 年级学生，发现约 10% 学生几乎无法在脑中构建图像，LRI 结构化教学可显著弥补这一认知差距。",
+      "bullets": [
+        { "k": "样本规模", "v": "1,451 名学生 · 7 所私立学校 · 7–10 年级" },
+        { "k": "核心发现", "v": "约 10% 学生心理图像能力极弱，约 30% 「有些模糊」" },
+        { "k": "LRI 效果", "v": "心理图像能力弱的学生采用 LRI 后成绩平均提升约 <b>20%</b>" },
+        { "k": "LRI 要素", "v": "步骤拆解清晰 · 初期低难度 · 充足练习 · 及时反馈" },
+        { "k": "发表期刊", "v": "Learning and Individual Differences · 2026" }
+      ],
+      "source": "UNSW Newsroom · 2026-07-09",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/07/we-assume-students-see-pictures-in-their-minds-as-they-learn-but-not-everyone-can"
+    },
+    {
+      "idx": "02",
+      "category": "气候科学研究",
+      "h2Main": "空调救不了气候危机",
+      "h2Sub": "被动冷却必须成城市基础设施",
+      "h2Highlight": "被动冷却",
+      "lead": "UNSW Professor Mat Santamouris AM 在 Nature Reviews Clean Technology 发表全球综述，明确指出：空调在极端高温中不可或缺，但依赖空调来应对气候变化是死路，被动冷却技术必须升格为城市标准基础设施。",
+      "bullets": [
+        { "k": "核心论断", "v": "「不能靠装空调解决气候变化」——空调依赖制造正反馈死循环" },
+        { "k": "辐射冷却", "v": "建筑以红外线向大气层外散热，无需电力" },
+        { "k": "蒸发冷却", "v": "利用水分蒸发降温，干燥气候区尤其有效" },
+        { "k": "智能通风", "v": "个性化实时调节气流，将冷量集中于有人的位置" },
+        { "k": "发表期刊", "v": "Nature Reviews Clean Technology · 2026-07" }
+      ],
+      "source": "UNSW Newsroom · 2026-07-09",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/07/we-cant-air-condition-our-way-out-of-a-hotter-future-says-unsw-expert"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 今日两大研究亮点",
+    "items": [
+      {
+        "n": "01",
+        "title": "LRI 结构化教学 · 成绩提升 20%",
+        "body": "1,451 名学生实证：对于心理图像能力弱的学生，步骤拆解 + 及时反馈可将成绩差距缩小约 20%"
+      },
+      {
+        "n": "02",
+        "title": "被动冷却 · 城市必备基础设施",
+        "body": "UNSW 教授在 Nature Reviews Clean Technology 呼吁：辐射冷却、蒸发冷却、智能通风三类技术须纳入城市规划标准"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 科研 + 招生一手同步",
+      "badge": "07 / 09"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 今日研究亮点",
+      "body": "新南威尔士大学 · 7月9日\n\n📚 视觉化弱不代表学不好\nLRI 结构化教学让成绩提升约 20%\n1,451 名学生真实验证\n\n🏙️ 空调救不了气候危机\n被动冷却技术必须成为城市基础设施\nNature Reviews Clean Technology 综述",
+      "tags": "#UNSW #新南威尔士大学 #澳洲大学 #教育研究 #气候科技"
+    },
+    "p2": {
+      "title": "视觉化弱照样学好理科",
+      "body": "你有没有遇到过「脑子里没法想象图像」的困扰？\n\nUNSW 研究发现约 10% 学生几乎没有心理图像能力——这类学生在理科课上特别容易落后。\n\n但关键不是「视觉化能力」本身，而是教学方式：\n✅ 把学习步骤拆解清晰\n✅ 初期降低难度\n✅ 给足练习机会\n✅ 及时反馈\n\n采用 LRI 教学法后，这类学生成绩平均提升约 20%。\n\n样本：1,451 名学生 · 7 所学校 · 7–10 年级\n来源：Learning and Individual Differences · 2026",
+      "tags": "#UNSW #教育研究 #学习方法 #理科学习 #澳洲留学"
+    },
+    "p3": {
+      "title": "空调解决不了气候变化",
+      "body": "天越来越热 → 装更多空调 → 碳排放增加 → 城市更热 → 再装更多空调……\n\nUNSW Professor Mat Santamouris AM 在 Nature Reviews Clean Technology 点出这个死循环：\n\n「空调在极端高温中不可或缺，但我们不能靠装空调来应对气候变化。」\n\n他呼吁三类被动冷却技术必须成为城市标准基础设施：\n🌡️ 辐射冷却材料（无需电力散热）\n💧 蒸发冷却（干旱地区尤其有效）\n🌬️ 个性化智能通风（按位置精准送风）",
+      "tags": "#UNSW #气候变化 #被动冷却 #可持续建筑 #澳洲大学科研"
+    },
+    "p4": {
+      "title": "UNSW 科研方向选哪个",
+      "body": "如果你在考虑 UNSW 的研究方向：\n\n📖 教育心理 / 认知科学方向\n→ Andrew Martin 团队在学习支架、认知负荷领域持续深耕\n→ Science / Engineering 方向同学可主动寻求 LRI 风格学习支持\n\n🌿 气候工程 / 可持续建筑方向\n→ Mat Santamouris 团队在热缓解、城市气候工程有完整研究链条\n→ 从 Civil Engineering 到 PhD 均有对接机会\n\n两个方向都有从本科延伸至研究生的完整路径。",
+      "tags": "#UNSW #澳洲读研 #气候工程 #教育心理 #科研方向"
+    },
+    "p5": {
+      "title": "UNSW 今日速览",
+      "body": "新南威尔士大学 · 2026年7月9日\n\n01 视觉化弱？结构化教学成绩提升 20%\n1,451 名学生 · LRI 教学法实证\n\n02 被动冷却必须成城市基础设施\nNature Reviews Clean Technology 全球综述",
+      "tags": "#UNSW #新南威尔士大学 #澳洲大学新闻 #今日速览"
+    }
+  },
+  "mp": {
+    "title": "视觉化弱照样学好理科 + 空调解决不了气候危机——UNSW 两项研究",
+    "lead": "UNSW Scientia Professor Andrew Martin 团队用 1,451 名学生的数据证明：心理图像能力弱不是定局，结构化教学可让成绩提升约 20%。另一位 UNSW 教授则在 Nature Reviews Clean Technology 发出警告：靠不断增加空调来应对气候变化，只会制造更深的碳排放死循环。",
+    "meta": { "readTime": "3 分钟" },
+    "newsBodies": [
+      {
+        "h2": "视觉化弱不代表学不好：LRI 教学让成绩提升约 20%",
+        "paragraphs": [
+          "UNSW Scientia Professor Andrew Martin 领导的教育心理学团队在《Learning and Individual Differences》发表研究，覆盖悉尼 7 所私立学校 1,451 名 7–10 年级学生。研究聚焦「心理图像能力（mental imagery）」——即在脑中构建和操作图像的能力，这是理科学习的核心认知工具之一。",
+          "研究发现约 10% 学生几乎没有此类能力，约 30% 的学生图像模糊或不稳定。这类学生在科学课上尤其容易落后，因为磁场方向、三维分子结构等内容天然高度依赖视觉化。关键发现是：当老师采用「负荷减少教学法（LRI）」——包括拆解步骤、降低初期难度、充足练习机会与及时反馈——心理图像能力弱的学生成绩平均提升约 20%。",
+          "这项研究对 UNSW 在校生和申请者的实际启示在于：认知差异不是障碍，教学结构才是关键。UNSW Learning Centre 提供结构化学习支持，Science 和 Engineering 方向的学生可以主动寻求 LRI 风格的辅导，而不是仅靠堆砌记忆量来应对高难度课程。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unsw.edu.au/newsroom/news/2026/07/we-assume-students-see-pictures-in-their-minds-as-they-learn-but-not-everyone-can\">UNSW Newsroom</a> · Learning and Individual Differences · 2026"
+      },
+      {
+        "h2": "靠装空调挡不住气候变化：UNSW 教授呼吁被动冷却成城市标配",
+        "paragraphs": [
+          "UNSW Professor Mat Santamouris AM 在《Nature Reviews Clean Technology》发表全球综述，系统梳理应对城市热化的技术路径。核心论断直接而有力：「Air conditioning saves lives and will remain essential during extreme heat. But we cannot air-condition our way out of climate change.」",
+          "综述指出，全球空调依赖度提升正在制造正反馈循环：更多空调 → 更多能耗与碳排放 → 城市热岛效应加剧 → 更高温 → 更多空调需求。三类被动冷却技术被提出作为结构性替代方案：辐射冷却材料（无需电力，将建筑热量以红外线向大气层外辐射）、蒸发冷却（利用水分蒸发降温，在干旱气候区尤为有效）、个性化智能通风（实时调节气流方向与强度，将冷量集中于有人处）。",
+          "对 Civil Engineering、Sustainable Architecture 和 Environmental Engineering 方向的学生而言，这篇综述既是重要的文献入口，也标志着 UNSW 在城市热缓解与气候工程领域的前沿地位。UNSW 在该方向拥有从本科到 PhD 的完整研究链条，对有意从事气候适应基础设施研究的学生来说是重要参考。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unsw.edu.au/newsroom/news/2026/07/we-cant-air-condition-our-way-out-of-a-hotter-future-says-unsw-expert\">UNSW Newsroom</a> · Nature Reviews Clean Technology · 2026"
+      }
+    ],
+    "quickview": {
+      "title": "今日速览",
+      "items": [
+        "LRI 结构化教学：1,451 名学生实证，心理图像能力弱的学生成绩提升约 20%",
+        "被动冷却综述：辐射冷却 + 蒸发冷却 + 智能通风，必须成为城市气候适应标准基础设施"
+      ]
+    },
+    "cta": {
+      "big": "关注 UNSW 每日大学日报",
+      "sub": "10 所澳洲大学 · 科研 + 招生 + 奖学金一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "小红书草稿 · 视觉化弱的理科生自救指南",
+        "body": "「脑子里没法想象图像」？你可能是那 10%\n\nUNSW 研究发现，约 10% 的学生在脑中几乎没法构建图像——理科课上的磁场方向、3D 分子结构对他们来说是真的「看不见」。\n\n但这不代表学不好。\n\n研究用 1,451 名真实学生验证了：只要老师（或你自己）做到这 4 件事——\n① 把步骤拆到足够细\n② 初期降低难度\n③ 给足练习机会\n④ 及时拿到反馈\n\n成绩差距就能缩小约 20%。\n\n如果你在 UNSW 学理工，LRI 风格的学习支架真的值得主动去找。\n\n来源：Learning and Individual Differences · 2026 · 新南威尔士大学",
+        "tags": ["UNSW", "澳洲留学", "理科学习", "学习方法", "教育研究", "新南威尔士大学", "留学生活"]
+      },
+      {
+        "heading": "小红书草稿 · 装空调解决不了气候变化",
+        "body": "「天热 → 装更多空调 → 更热 → 装更多空调」\n\n这个死循环，UNSW 教授在 Nature Reviews Clean Technology 里算清楚了。\n\nProfessor Mat Santamouris AM 的结论是：空调在极端高温下不可或缺，但不能靠它应对气候变化。\n\n他说的三个替代方向：\n🌡️ 辐射冷却材料——无需电力，把建筑热量向太空散出去\n💧 蒸发冷却——干旱地区特别有效\n🌬️ 个性化智能通风——冷量只送到有人的地方\n\n这些技术必须变成城市的「标准基础设施」，而不是小众建筑实验。\n\n如果你在考虑 Civil Engineering / 可持续建筑方向，UNSW 这个研究团队值得关注。",
+        "tags": ["UNSW", "气候变化", "可持续建筑", "澳洲大学", "城市热岛", "环境工程", "澳洲留学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一", "result": "未检出" },
+      { "category": "教育承诺", "rule": "保证 / 包过 / 保录取", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信", "result": "未检出" },
+      { "category": "品牌词", "rule": "JR Academy / 匠人学院 / jiangren.com", "result": "未检出" },
+      { "category": "夸大效果", "rule": "100% / 必过 / 零基础包会", "result": "未检出" }
+    ]
+  }
+}
