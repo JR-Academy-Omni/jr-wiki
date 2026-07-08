@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-09",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "阿德莱德大学",
+    "hookSub": "今日两大 研究发现",
+    "hookSubHighlight": "研究发现",
+    "subLines": [
+      "31 亿年前水已进入地球深部",
+      "改写地球演化史认知",
+      "超九成消费者不知澳洲黑三角药品标识"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "地质科学研究", "data": "Nature Communications" },
+      { "num": "02", "title": "药品安全研究", "data": "90% 消费者不知晓" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "地质科学研究",
+      "h2Main": "31 亿年前水已渗入地球深部",
+      "h2Sub": "Pilbara 古岩石重写地球演化史",
+      "h2Highlight": "31 亿年前",
+      "lead": "阿德莱德大学 Dr Eric Vandenburg 领导国际团队，分析西澳 Pilbara 克拉通 31 亿年前古老岩石，证明水比此前认知更早进入地球深部内部，对理解早期板块构造与地球水循环史具有重要意义。",
+      "bullets": [
+        { "k": "研究对象", "v": "澳大利亚西澳 Pilbara 克拉通岩石 · 约 31 亿年前" },
+        { "k": "核心发现", "v": "水在 <b>31 亿年前</b>便已到达地球内部深处，早于主流认知" },
+        { "k": "研究意义", "v": "挑战早期地球「温度过高、板块行为不同导致水无法下潜」的传统假设" },
+        { "k": "发表期刊", "v": "Nature Communications · 2026-07" },
+        { "k": "研究团队", "v": "Dr Eric Vandenburg · 阿德莱德大学 · 国际合作团队" }
+      ],
+      "source": "phys.org · 2026-07-08",
+      "sourceUrl": "https://phys.org/news/2026-07-ancient-reveal-reshaped-earth-interior.html"
+    },
+    {
+      "idx": "02",
+      "category": "医学健康研究",
+      "h2Main": "超九成消费者不识黑三角药品标识",
+      "h2Sub": "澳洲用药安全监测存在重大知识盲区",
+      "h2Highlight": "九成消费者",
+      "lead": "阿德莱德大学 Dr Eyob Gebreyohannes 团队研究澳洲 Black Triangle Scheme 知晓率，发现超 90% 消费者与约 50% 医疗专业人员均不了解该标识，严重影响上市后药品不良事件的上报效能。",
+      "bullets": [
+        { "k": "知晓率", "v": "消费者 <b>>90%</b> 不知晓 · 医疗专业人员约 50% 不了解" },
+        { "k": "标识含义", "v": "Black Triangle ▼ 标记较新药品，需主动上报不良事件" },
+        { "k": "引入时间", "v": "澳洲 Black Triangle Scheme 于 2018 年引入" },
+        { "k": "影响", "v": "知识盲区导致大量不良事件未被上报，削弱上市后药品安全监测效能" },
+        { "k": "发表期刊", "v": "British Journal of Clinical Pharmacology · 2026-07" }
+      ],
+      "source": "British Journal of Clinical Pharmacology · 2026-07",
+      "sourceUrl": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1002/bcp.70633"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿德莱德大学今日两大研究亮点",
+    "items": [
+      {
+        "n": "01",
+        "title": "地球深部水循环史 · 31 亿年前",
+        "body": "Pilbara 古岩石证明水在 31 亿年前已渗入地球深部，改写早期地球演化认知，发表于 Nature Communications"
+      },
+      {
+        "n": "02",
+        "title": "黑三角药品标识 · 90% 不知晓",
+        "body": "澳洲 Black Triangle Scheme 知晓率极低，超 90% 消费者不识该标识，严重影响药品不良事件上报"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 科研 + 招生一手同步",
+      "badge": "07 / 09"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿德莱德大学今日亮点",
+      "body": "阿德莱德大学 · 7月9日\n\n🌍 31 亿年前的水如何进入地球深部？\n澳洲 Pilbara 古岩石给出了答案\nNature Communications 重磅发表\n\n💊 你知道澳洲黑三角药品标识吗？\n超 90% 消费者表示：不知道\n药品安全盲区研究引发关注",
+      "tags": "#阿德莱德大学 #澳洲大学 #地质科学 #药品安全 #科研进展"
+    },
+    "p2": {
+      "title": "31亿年前水去了哪里",
+      "body": "你知道地球里的水是从哪来的吗？\n\n阿德莱德大学研究团队分析了澳洲西澳 Pilbara 的古老岩石——这些岩石已有 31 亿年历史。\n\n他们发现：水在 31 亿年前就已经渗入地球深部了。\n\n这有多不寻常？过去学界认为早期地球太热，板块行为和今天完全不同，地表水根本没法在那个年代「沉入」地球内部。\n\n这项研究改写了我们对地球早期水循环史的认知。\n发表于 Nature Communications · 2026\n\n学 Geology / Earth Sciences 的同学，这是值得收藏的文献。",
+      "tags": "#阿德莱德大学 #地质研究 #地球科学 #澳洲留学 #科研发现"
+    },
+    "p3": {
+      "title": "你认识这个药品符号吗",
+      "body": "▼ 黑色倒三角\n\n这是澳洲 Black Triangle Scheme 的标识，出现在较新药品的说明书和包装上，提示需要主动上报不良反应。\n\n但阿德莱德大学的研究发现：超过 90% 的消费者根本不知道这个符号。\n\n更令人意外的是，约 50% 的医疗专业人员也不了解。\n\n该标识 2018 年引入澳洲，至今知晓率依然极低——这意味着大量潜在的药品不良事件没有被上报，药品安全监测出现了真正的盲区。\n\n来源：British Journal of Clinical Pharmacology · 2026",
+      "tags": "#阿德莱德大学 #药品安全 #澳洲医疗 #公共卫生 #医学研究"
+    },
+    "p4": {
+      "title": "阿德莱德大学科研方向",
+      "body": "如果你在考虑阿德莱德大学的研究方向：\n\n🌍 地球科学 / 地球化学方向\n→ Dr Eric Vandenburg 团队在前寒武纪地质 / 地球化学领域有国际合作项目\n→ Geology、Earth Sciences 有扎实的 Honours 和 PhD 培养路径\n\n💊 药学 / 公共卫生 / 医学方向\n→ Quality Use of Medicine Research Centre 聚焦药物安全与用药行为研究\n→ Pharmacy、Medicine、Public Health 方向均可对接\n\n两个方向都与国际团队有深度合作。",
+      "tags": "#阿德莱德大学 #澳洲读研 #地球科学 #药学 #科研方向"
+    },
+    "p5": {
+      "title": "阿德莱德大学今日速览",
+      "body": "阿德莱德大学 · 2026年7月9日\n\n01 地球深部水循环史被改写\n31 亿年前 · Pilbara 古岩石 · Nature Communications\n\n02 黑三角药品标识 · 90% 消费者不知晓\nBlack Triangle Scheme · 药品安全监测盲区",
+      "tags": "#阿德莱德大学 #澳洲大学新闻 #今日速览 #地质科学 #药品安全"
+    }
+  },
+  "mp": {
+    "title": "31 亿年前水已渗入地球深部 + 九成澳洲人不识黑三角药品标识——阿德莱德大学两项研究",
+    "lead": "阿德莱德大学今日两项研究：一是地球化学团队通过分析 31 亿年前的澳洲古岩石，证明地表水远比学界认知更早进入地球内部深处；二是药学团队揭示超 90% 澳洲消费者对 Black Triangle 药品安全标识毫不知情，用药安全存在重大知识盲区。",
+    "meta": { "readTime": "3 分钟" },
+    "newsBodies": [
+      {
+        "h2": "31 亿年前水已进入地球深部：Pilbara 古岩石改写地球演化史",
+        "paragraphs": [
+          "阿德莱德大学地球化学家 Dr Eric Vandenburg 领导国际合作团队，对澳大利亚西澳 Pilbara 克拉通的古老岩石进行了详细分析。这批岩石形成于约 31 亿年前，属于地球上现存最古老的地质记录之一，为研究早期地球内部演化提供了珍贵的「时间窗口」。",
+          "研究团队的核心发现是：水在 31 亿年前便已到达地球内部的深处。这一结论与此前学界的主流认知存在重大差异——传统观点认为，早期地球温度极高，板块构造行为与今日截然不同，地表水难以在如此早期就「沉入」地球深部。Dr Vandenburg 在接受采访时表示：「早期地球温度过高，板块行为与现在不同。此前学界不清楚地表水能否在三十亿年前就完成这段深部之旅。」这项研究发表于《Nature Communications》。",
+          "对 Geology、Earth Sciences 和 Geochemistry 方向的学生来说，这项研究不仅是重要的学术进展，也说明澳洲本土地质遗产（如 Pilbara 克拉通）在全球地球科学研究中的不可替代价值。阿德莱德大学在地球科学领域拥有扎实的国际合作研究基础，是该方向申请者值得重点关注的院校。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://phys.org/news/2026-07-ancient-reveal-reshaped-earth-interior.html\">phys.org</a> · <a href=\"https://doi.org/10.1038/s41467-026-74653-1\">Nature Communications</a> · 2026"
+      },
+      {
+        "h2": "超九成消费者不识黑三角药品标识：澳洲用药安全监测存在重大盲区",
+        "paragraphs": [
+          "阿德莱德大学 Quality Use of Medicine Research Centre 的 Dr Eyob Gebreyohannes 团队在《British Journal of Clinical Pharmacology》发表研究，揭示了澳洲 Black Triangle Scheme（黑三角标识体系）的知晓率现状。Black Triangle Scheme 于 2018 年引入澳洲，黑色倒三角符号 ▼ 出现在较新药品的说明书与包装上，提示该药品需要医患双方积极上报不良事件，以补充上市后安全数据。",
+          "研究结果令人担忧：超过 90% 的消费者表示不知道这个标识，约 50% 的医疗专业人员同样不了解其含义。Dr Gebreyohannes 总结道：「我们的研究结果显示，大多数人不知道该标识或其含义。」这一知识盲区的直接后果是：大量潜在的药品不良事件未被上报，上市后药品安全监测的数据基础严重不足，最终影响了整个药品安全体系的效能。",
+          "对 Pharmacy、Medicine 和 Public Health 方向的学生来说，这项研究揭示了用药安全问题的一个容易被忽视的维度——不仅是药物本身的安全性，更包括患者和医疗人员对安全监测机制的理解与参与。阿德莱德大学的药学与公共卫生研究在澳洲具有较高学术声誉，是相关方向申请者的重要选择之一。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://bpspubs.onlinelibrary.wiley.com/doi/10.1002/bcp.70633\">British Journal of Clinical Pharmacology</a> · 2026"
+      }
+    ],
+    "quickview": {
+      "title": "今日速览",
+      "items": [
+        "地质科学：Pilbara 古岩石证明水在 31 亿年前已渗入地球深部，发表于 Nature Communications",
+        "药品安全：超 90% 澳洲消费者不识 Black Triangle 标识，用药安全监测存在重大知识盲区"
+      ]
+    },
+    "cta": {
+      "big": "关注阿德莱德大学每日动态",
+      "sub": "10 所澳洲大学 · 科研 + 招生 + 奖学金一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "小红书草稿 · 31 亿年前的水去了哪里",
+        "body": "「地球里的水，31 亿年前是怎么进去的？」\n\n阿德莱德大学团队刚刚在 Nature Communications 发表了答案。\n\n他们分析了澳洲西澳 Pilbara 克拉通的古老岩石——31 亿年前形成的——发现了水在那个年代就已经渗入地球深部的证据。\n\n这打破了一个传统假设：早期地球温度太高，板块行为和现在完全不同，地表水根本没法在那时沉入地球内部。\n\n现在证明：可以。而且早在 31 亿年前就发生了。\n\n这对理解地球水循环史、早期板块构造都有重要意义。\n\n学 Geology / Earth Sciences 的同学，这篇值得好好读一读。",
+        "tags": ["阿德莱德大学", "地质科学", "地球科学", "澳洲留学", "科研发现", "Nature", "地球演化"]
+      },
+      {
+        "heading": "小红书草稿 · 你认识这个药品标识吗 ▼",
+        "body": "▼ 你见过药品说明书上这个黑色倒三角吗？\n\n这是澳洲 Black Triangle Scheme 的标识，专门用于标记较新的药品——意思是：这个药还需要更多安全数据，如果你有任何不良反应，请务必上报。\n\n但阿德莱德大学刚刚发表的研究告诉我们：超过 90% 的消费者根本不知道这个标识是什么意思。\n\n甚至约 50% 的医疗专业人员也不了解。\n\n这个标识 2018 年就引入澳洲了，快 8 年了，知晓率还是这么低。\n\n不良事件没被上报 → 药品安全数据不完整 → 监管机构信息不足 → 患者持续暴露于未知风险。\n\n这不只是信息传播的问题，是真实的用药安全盲区。",
+        "tags": ["阿德莱德大学", "药品安全", "澳洲医疗", "公共卫生", "医学研究", "澳洲留学", "药学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一", "result": "未检出" },
+      { "category": "教育承诺", "rule": "保证 / 包过 / 保录取", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信", "result": "未检出" },
+      { "category": "品牌词", "rule": "JR Academy / 匠人学院 / jiangren.com", "result": "未检出" },
+      { "category": "夸大效果", "rule": "100% / 必过 / 零基础包会", "result": "未检出" }
+    ]
+  }
+}
