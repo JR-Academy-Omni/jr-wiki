@@ -1,0 +1,308 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-07-09（Canvas 版）</title>
+<meta name="description" content="2026-07-09 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-07-09.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-07-09",
+  "summary": {
+    "hook": [
+      "GPT-5.6",
+      "正式",
+      "全球开闸"
+    ],
+    "sub": "白宫解限、谷歌重建、Claude 出海、Grok 发声、科研工作台同日登场",
+    "items": [
+      {
+        "num": "01",
+        "cat": "模型发布",
+        "numColor": "#10A37F",
+        "t": "OpenAI GPT-5.6 Sol/Terra/Luna 全球开放"
+      },
+      {
+        "num": "02",
+        "cat": "算法突破",
+        "numColor": "#4285F4",
+        "t": "谷歌 Gemini 3.5 Pro 推迟至 7.17，从头重建"
+      },
+      {
+        "num": "03",
+        "cat": "产品更新",
+        "numColor": "#CF7B56",
+        "t": "Anthropic Claude Cowork 上线网页版并登陆 Azure"
+      },
+      {
+        "num": "04",
+        "cat": "语音 AI",
+        "numColor": "#1A1A2E",
+        "t": "xAI Grok Voice Agent Builder Beta 公测开放"
+      },
+      {
+        "num": "05",
+        "cat": "科研工具",
+        "numColor": "#7B5EA7",
+        "t": "Claude Science 科学家工作台开放 $30K 资助申请"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt56-global",
+      "idx": "01",
+      "catText": "模型发布",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "GPT-5.6 Sol",
+        "mid": "Terra · Luna",
+        "bot": "全球开放",
+        "topRight": "OpenAI"
+      },
+      "title": [
+        {
+          "text": "OpenAI GPT-5.6 "
+        },
+        {
+          "text": "全球解禁开放",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "白宫解除封锁，Sol/Terra/Luna 三档模型"
+        },
+        {
+          "text": "同日全球上线",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 宣布 GPT-5.6 Sol、Terra、Luna 全球正式开放，此前白宫要求仅向部分合作伙伴开放预览，本次限制正式解除并向全体用户推出。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "GPT-5.6 Sol 定位比 GPT-5.5 有「阶跃式提升」的前沿智能体模型，Terra 和 Luna 提供成本优化层，三档覆盖开发者全场景需求。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者可通过 API 接入更强的 agentic 能力，成本更低的 Luna 适合高并发场景，多数业务无需等下一代即可完成能力升级。"
+        }
+      ],
+      "src": "📎 bloomberg.com · cnbc.com · digit.in"
+    },
+    {
+      "slug": "02-gemini35-rebuild",
+      "idx": "02",
+      "catText": "算法突破",
+      "accent": "#4285F4",
+      "bg": {
+        "top": "Gemini 3.5 Pro",
+        "mid": "推倒重建",
+        "bot": "7 月 17 日",
+        "topRight": "Google"
+      },
+      "title": [
+        {
+          "text": "谷歌 Gemini 3.5 Pro "
+        },
+        {
+          "text": "推翻基座从头重建",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "2M token 窗口 + Deep Think 推理层，"
+        },
+        {
+          "text": "7.17 为目标上线日",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "谷歌废弃 2.5 Pro 现有基座并启动全新预训练，发布目标调整至 7 月 17 日，此次重建涉及数亿美元算力成本和数月开发周期。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "重新预训练的核心诉求是攻克多步数学推理与 SVG 场景生成瓶颈，新模型将引入 200 万 token 上下文窗口和 Deep Think 深度推理层以对标 Fable 5。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者可关注 7.17 前后的发布动态，重点测试长上下文和复杂推理场景，Gemini 3.5 Pro 是否真正追上 OpenAI/Anthropic 最新旗舰届时见分晓。"
+        }
+      ],
+      "src": "📎 techtimes.com · hackernoon.com · geeky-gadgets.com"
+    },
+    {
+      "slug": "03-claude-cowork-azure",
+      "idx": "03",
+      "catText": "产品更新",
+      "accent": "#CF7B56",
+      "bg": {
+        "top": "Claude Cowork",
+        "mid": "Web · Mobile",
+        "bot": "Azure 正式发布",
+        "topRight": "Anthropic"
+      },
+      "title": [
+        {
+          "text": "Claude Cowork 扩展 Web/Mobile，"
+        },
+        {
+          "text": "同日登陆 Azure Foundry",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "M365 写作工具 + 跨设备同步，"
+        },
+        {
+          "text": "企业侧 Azure 原生上线",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 宣布 Claude Cowork 正式覆盖 Web 和移动端，新增 Microsoft 365 写作工具支持远程会话和文件同步；Claude Opus 4.8 与 Haiku 4.5 同日在 Azure Foundry 正式 GA。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Cowork 接入 M365 意味着 Claude 可直接收发邮件、管理日历、编辑 OneDrive 和 SharePoint 文件，Azure 企业客户可用现有身份验证和账单体系无缝接入。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Max 计划用户优先进入 Cowork Beta，Azure 企业客户无需重新签约即可调用 Claude 做编码、智能体和复杂推理任务，并享受 US 数据区合规选项。"
+        }
+      ],
+      "src": "📎 anthropic.com · releasebot.io · aiweekly.co"
+    },
+    {
+      "slug": "04-xai-grok-voice-agent",
+      "idx": "04",
+      "catText": "语音 AI",
+      "accent": "#1A1A2E",
+      "bg": {
+        "top": "Grok Voice",
+        "mid": "Agent Builder",
+        "bot": "无代码发布",
+        "topRight": "xAI"
+      },
+      "title": [
+        {
+          "text": "xAI 上线 "
+        },
+        {
+          "text": "Grok Voice Agent Builder Beta",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "无代码平台打包电话、检索、工具与护栏，"
+        },
+        {
+          "text": "Grok 4.1 同步全量放开",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "xAI 发布 Voice Agent Builder Beta，开发者可在 Grok Voice 上构建生产级语音代理，内置电话网络、知识检索、工具调用、安全护栏和可观测性模块；Grok 4.1 同期向所有用户全量开放。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "语音 AI 代理部署门槛大幅降低，SpaceX 收购 xAI 后资源整合加速，xAI 同时宣布将以月为单位持续从头训练并发布全新基座模型。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "有客服或语音交互需求的企业可低门槛试水 Grok Voice，Grok 4.1 免费全量意味着个人用户也可即刻使用目前 xAI 最新旗舰模型。"
+        }
+      ],
+      "src": "📎 x.ai · llm-stats.com · blog.mean.ceo"
+    },
+    {
+      "slug": "05-claude-science-workbench",
+      "idx": "05",
+      "catText": "科研工具",
+      "accent": "#7B5EA7",
+      "bg": {
+        "top": "Claude Science",
+        "mid": "基因组 · 蛋白质",
+        "bot": "7.15 截止申请",
+        "topRight": "Anthropic"
+      },
+      "title": [
+        {
+          "text": "Claude Science 科学工作台开放，"
+        },
+        {
+          "text": "$30K 资助申请截至 7.15",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "多智能体可复现管道，"
+        },
+        {
+          "text": "覆盖基因组/蛋白质/化学信息学",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 推出 Claude Science Beta，集成基因组学、蛋白质组学和化学信息学常用工具，支持可审计的多步骤研究管道；Anthropic 将向最多 50 个项目各提供最高 $30,000 算力积分，申请截止 7 月 15 日。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "科研是 AI 尚未大规模渗透的专业领域，Claude Science 将实验设计、文献分析、数据处理、图表和手稿打磨整合进单一环境，显著压缩科研迭代周期。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "生命科学、化学、神经科学方向的研究人员可在 7 月 15 日前提交申请，有机会获得免费算力资助；7 月 31 日前通知结果，Beta 目前支持 macOS 和 Linux。"
+        }
+      ],
+      "src": "📎 anthropic.com · techcrunch.com · marktechpost.com"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.6 全球解锁 / Gemini 3.5 重建 / Claude Cowork 出海 / Grok 语音 / Science 工作台"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-07-09"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
