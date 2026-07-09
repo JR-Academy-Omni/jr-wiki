@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-07-07T02:22:43.411Z",
+  "lockedAt": "2026-07-09T23:43:05.188Z",
   "version": 1,
   "slugs": [
     {
@@ -285,6 +285,18 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-07-07"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-07-08"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-07-09"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-07-10"
     },
     {
       "type": "article",
@@ -584,6 +596,18 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-07-08"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-07-09"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-07-10"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -692,6 +716,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-07-09"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -780,6 +808,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-monash-2026-07-08"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-umelb-2026-04-24"
     },
     {
@@ -865,6 +897,10 @@
     {
       "type": "article",
       "slug": "uni-news-umelb-2026-07-07"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-07-10"
     },
     {
       "type": "article",
@@ -957,6 +993,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-07-06"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-07-09"
     },
     {
       "type": "article",
@@ -1056,6 +1096,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-uq-2026-07-08"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-usyd-2026-04-22"
     },
     {
@@ -1137,6 +1181,10 @@
     {
       "type": "article",
       "slug": "uni-news-usyd-2026-07-07"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-07-10"
     },
     {
       "type": "article",
