@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-10",
+  "school": "umelb",
+  "summary": {
+    "hookMain": "UMelb",
+    "hookSub": "量子合作 + 亚洲新主席 两条硬料",
+    "hookSubHighlight": "两条硬料",
+    "subLines": [
+      "与印度 TIDCO 签 MoU · 量子计算 + 农业科技中心落地泰米尔纳德知识城",
+      "Asialink 咨询委员会迎新主席 Bruce Gosper AM · 贸易外交老将接棒"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "UMelb × TIDCO MoU", "data": "量子 + 农业科技" },
+      { "num": "02", "title": "Asialink 新主席", "data": "Bruce Gosper AM" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "国际科研合作",
+      "h2Main": "UMelb × 印度 TIDCO：量子计算中心落地泰米尔纳德",
+      "h2Sub": "7 月 5 日签 MoU · 泰米尔纳德知识城 · 量子 + 农业科技双线",
+      "h2Highlight": "量子计算中心",
+      "lead": "7 月 5 日，墨尔本大学与印度 TIDCO 签署 MoU，将在泰米尔纳德知识城（Tiruvallur）<b>共建「新兴技术中心」</b>，聚焦量子计算与农业科技的研究、课程开发与产业协作，约 20,000 平方英尺专属空间。",
+      "bullets": [
+        { "k": "中心规模", "v": "约 <b>20,000 平方英尺</b>专属研究与教学空间，设在知识城即插即用知识塔内" },
+        { "k": "四大方向", "v": "<b>基础 / 应用 / 转化研究 + 联合 R&D + 原型测试 + 课程开发与劳动力培训</b>，按框架协议分阶段落实" },
+        { "k": "合作背景", "v": "本次 MoU 在双方早前意向书基础上升级；合作结构已确定，资金与时间线仍在磋商" },
+        { "k": "对你的影响", "v": "走 <b>量子计算 / 数据科学 / 农业科技</b> 方向的同学：墨大正在南亚方向开拓跨国产学研通道，PhD 申请时关注此课题组和联合导师动向" }
+      ],
+      "source": "UMelb Newsroom · 2026-07-05",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/july/university-of-melbourne-and-tamil-nadu-forge-partnership-on-emerging-technologies"
+    },
+    {
+      "idx": "02",
+      "category": "大学动态",
+      "h2Main": "Asialink 新主席上任：贸易外交老将接棒",
+      "h2Sub": "Bruce Gosper AM · 前 Austrade CEO + 亚开行副总裁",
+      "h2Highlight": "贸易外交老将",
+      "lead": "墨大主办的澳洲亚洲事务国家中心 Asialink 宣布，<b>Bruce Gosper AM</b>（前 Austrade CEO、前驻新加坡高级专员、亚开行副总裁）出任 Asialink 咨询委员会新主席，接替 Peter Varghese AO 自 2021 年以来的职位。",
+      "bullets": [
+        { "k": "Gosper 履历", "v": "前 <b>Austrade CEO + 前澳大利亚驻新加坡高级专员 + 亚洲开发银行行政与企业管理副总裁</b>；贸易、外交、亚太区域政策三条线经验并重" },
+        { "k": "Asialink 是什么", "v": "墨大主办的<b>澳洲对亚事务全国中心</b>，覆盖商业外交培训、企业对亚咨询、文化研究三大方向，同时运营 Australia-Asia Leadership Fellowship 人才培养项目" },
+        { "k": "前任交棒", "v": "Peter Varghese AO（前 DFAT 秘书长、前昆士兰大学校长）任期结束，2021 年以来一直担任主席" },
+        { "k": "对你的影响", "v": "走 <b>国际关系 / 亚太商务 / 外交政策</b> 方向的同学：Asialink 的 Business Diplomacy 项目和 Australia-Asia Leadership Fellowship 是进入对亚政策圈的核心通道，新主席偏商业外交背景对澳-亚商务合作类课题友好" }
+      ],
+      "source": "UMelb Newsroom · 2026-07",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/july/bruce-gosper-am-appointed-new-chair-of-asialink-council"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "墨大这周两条新闻方向不同但都很实：TIDCO MoU 开启量子 × 南亚合作通道，Asialink 换帅为澳-亚外交圈注入新动力。",
+    "items": [
+      { "n": "01", "title": "UMelb × TIDCO 量子计算 MoU", "body": "7 月 5 日签署；泰米尔纳德知识城 20,000 sq ft 研究与教学中心；量子计算 + 农业科技双线；基础 / 应用 / 转化研究 + 课程开发 + 产业协作四大方向" },
+      { "n": "02", "title": "Asialink 新主席 Bruce Gosper AM", "body": "前 Austrade CEO + 前驻新加坡高专 + 亚开行副总裁；接棒 Peter Varghese AO（在任 2021 起）；墨大 Asialink 是澳洲对亚政策圈核心平台" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 科研 + 招生 + 校园动态一手同步",
+      "badge": "07 / 10"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "墨大 7-10 两条硬料📣",
+      "body": "在墨大附近的姐妹，7 月两条不同方向的新闻都挺有料的。\n\n01 / 量子计算 × 南亚——7 月 5 日墨大与印度 TIDCO 签 MoU，将在泰米尔纳德知识城共建新兴技术中心，量子计算 + 农业科技并行，约 20,000 平方英尺研究与教学空间。\n\n02 / Asialink 换帅——前 Austrade CEO Bruce Gosper AM 正式出任 Asialink 咨询委员会新主席，接棒 Peter Varghese AO。Asialink 是墨大主办的澳洲对亚事务全国中心，贸易外交圈核心平台。\n\n两条合在一起，墨大在「澳洲 × 亚洲」科技合作与对亚外交上这周能见度都很高。在申或在读 UMelb 的姐妹可以结合自己研究方向参考🙌",
+      "tags": "#墨尔本大学 #UMelb #澳洲留学 #量子计算 #Asialink #留学干货 #科研合作"
+    },
+    "p2": {
+      "title": "墨大×印度量子中心来了🔬",
+      "body": "走量子计算 / 数据科学方向的同学这条收藏：7 月 5 日，墨尔本大学与印度泰米尔纳德邦工业开发公司（TIDCO）正式签署 MoU，将在泰米尔纳德知识城（Tiruvallur）共建「新兴技术中心」。\n\n中心落在知识城即插即用知识塔内，约 20,000 平方英尺。双线方向：量子计算 + 农业科技。四大工作内容：基础 / 应用 / 转化研究，联合 R&D，原型测试与试点，课程开发与劳动力培训认证。\n\n本次是框架 MoU，在双方早前意向书基础上升级，资金和时间线还在磋商，但方向和结构已定。\n\n对申 UMelb PhD 的同学：这类跨国产学研合作框架通常会催生联合导师机制和产业合作项目，值得提前关注课题组动向。有在申量子方向的姐妹评论区聊🙋",
+      "tags": "#墨尔本大学 #UMelb #量子计算 #科研合作 #留学干货 #澳洲留学 #PhD申请"
+    },
+    "p3": {
+      "title": "Asialink新主席🌏外交圈看过来",
+      "body": "走国际关系 / 亚太商务 / 外交政策方向的同学这条一定要看：墨大主办的 Asialink 咨询委员会换帅了。\n\n新主席 Bruce Gosper AM，背景很硬：前澳大利亚贸易投资委员会（Austrade）CEO + 前澳大利亚驻新加坡高级专员 + 亚洲开发银行行政与企业管理副总裁——贸易、外交、亚太区域政策三条线经验并重。\n\n他接替的是 Peter Varghese AO（前外交贸易部秘书长、前昆士兰大学校长），对方从 2021 年起担任主席。\n\nAsialink 是干嘛的：墨大主办的澳洲对亚事务全国中心，业务覆盖 Business Diplomacy、商业咨询、文化研究三大方向，还运营 Australia-Asia Leadership Fellowship，是进入澳洲对亚政策圈的重要通道。\n\n新主席偏商业外交和多边机构治理背景，对走澳-亚商务合作 / 贸易政策课题的同学来说是友好信号。评论区聊聊你的方向🌟",
+      "tags": "#墨尔本大学 #UMelb #Asialink #国际关系 #亚太商务 #澳洲留学 #留学干货"
+    },
+    "p4": {
+      "title": "UMelb 7月｜量子+外交两手抓",
+      "body": "这周墨大两条新闻方向截然不同，但都往「开放型合作」走：一条是向南亚开放的量子科技研究，一条是对亚外交人才平台的更新迭代。\n\n量子这条：墨大 × TIDCO MoU 7 月 5 日签署，泰米尔纳德知识城落地约 2 万平方英尺新兴技术中心，量子计算 + 农业科技并行。对申 CS / 数据 / 农业科技 PhD 的同学，关注后续课题组和联合导师信息。\n\n外交这条：Asialink 换帅，Bruce Gosper AM 接棒，贸易 + 外交 + 多边机构三线经验。Asialink 的 Business Diplomacy 项目和 Australia-Asia Leadership Fellowship 对走对亚政策方向的学生一直是入圈通道。\n\n两条合在一起看：墨大在「澳洲 × 亚洲」方向的合作深度这周都有实质性推进。在申 UMelb 的姐妹评论区扣 1 来聊🙋",
+      "tags": "#墨尔本大学 #UMelb #澳洲留学 #量子计算 #国际关系 #Asialink #留学干货"
+    },
+    "p5": {
+      "title": "UMelb 7-10 一眼看完",
+      "body": "墨大这周两条：\n\n01 / UMelb × TIDCO MoU（7 月 5 日）——泰米尔纳德知识城新兴技术中心，约 2 万平方英尺；量子计算 + 农业科技双线；基础 / 应用 / 转化研究 + 联合 R&D + 原型测试 + 课程开发四大方向。\n\n02 / Asialink 新主席——Bruce Gosper AM（前 Austrade CEO / 前驻新加坡高专 / 亚开行副总裁）接任；接棒 Peter Varghese AO（在任 2021 起）；Business Diplomacy + Australia-Asia Leadership Fellowship 是核心项目。\n\n两条同时看，墨大在澳洲 × 亚洲科技与外交方向的布局这周能见度都很高。想深入了解任意一条的姐妹评论区聊🙌",
+      "tags": "#墨尔本大学 #UMelb #澳洲留学 #大学新闻 #留学干货 #量子计算 #Asialink"
+    }
+  },
+  "mp": {
+    "title": "墨大 7 月：量子计算 × 南亚新据点 + Asialink 迎新领舵人",
+    "lead": "墨尔本大学这周两条新闻方向截然不同，但都在讲「合作与开放」。一条是 7 月 5 日与印度泰米尔纳德邦 TIDCO 签署 MoU，将在泰米尔纳德知识城共建新兴技术中心，聚焦量子计算与农业科技；另一条是墨大主办的 Asialink 宣布换帅，贸易外交老将 Bruce Gosper AM 接任咨询委员会主席。两条合在一起，墨大在「澳洲 × 亚洲」科技合作与外交人才方向上的布局这周都迈出了实质性的一步。",
+    "meta": { "readTime": "5 分钟" },
+    "newsBodies": [
+      {
+        "h2": "UMelb × TIDCO：量子计算 + 农业科技中心落地泰米尔纳德知识城",
+        "paragraphs": [
+          "7 月 5 日，墨尔本大学与泰米尔纳德邦工业开发公司（TIDCO）正式签署合作备忘录（MoU），双方将在泰米尔纳德知识城（Tamil Nadu Knowledge City，位于 Tiruvallur）共建「新兴技术中心」（Centre for Emerging Technologies），专注量子计算与农业科技两大方向。本次签署是在早前双方已达成意向书的基础上升级，标志着双方合作进入框架落实阶段。",
+          "根据 MoU，新兴技术中心将在知识城的即插即用知识塔内设立约 20,000 平方英尺的专属研究与教学空间。合作内容涵盖四大方向：基础研究、应用研究与转化研究，联合 R&D 项目，原型测试与试点，以及面向产业的课程开发和劳动力技能培训认证。MoU 作为框架协议已确定合作结构，资金细节和时间线仍在进一步磋商中。",
+          "对走量子计算、数据科学或农业科技方向的同学，这条 MoU 意味着墨大在澳洲 × 南亚跨国产学研合作上正在积极开拓新通道。跨国合作框架通常会带来联合导师机制和产业合作项目，对申请 UMelb PhD 或 Masters by Research 的同学，关注后续课题组动向和合作导师列表是值得提前做的功课。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unimelb.edu.au/newsroom/news/2026/july/university-of-melbourne-and-tamil-nadu-forge-partnership-on-emerging-technologies\">UMelb Newsroom · University of Melbourne and Tamil Nadu forge partnership on emerging technologies</a>"
+      },
+      {
+        "h2": "Asialink 迎新主席：Bruce Gosper AM 接棒，对亚外交圈看过来",
+        "paragraphs": [
+          "墨尔本大学主办的澳洲亚洲事务国家中心 Asialink 宣布，Bruce Gosper AM 正式出任 Asialink 咨询委员会新主席。Gosper 的履历横跨商业与外交：他最近一任是亚洲开发银行行政与企业管理副总裁，此前曾出任澳大利亚贸易投资委员会（Austrade）CEO 和澳大利亚驻新加坡高级专员，在贸易政策、亚太区域合作与对亚外交三条线有丰富的一线经验。",
+          "他接替的是 Peter Varghese AO——前澳大利亚外交贸易部秘书长、前昆士兰大学校长，自 2021 年以来一直担任 Asialink 主席。Asialink 是澳洲最有影响力的对亚事务平台之一，业务覆盖商业外交培训（Business Diplomacy）、企业对亚咨询、文化与教育合作研究三大方向，同时运营「Australia-Asia Leadership Fellowship」高潜力人才培养项目，是进入澳洲对亚政策圈的重要通道。",
+          "对走国际关系、亚太商务、外交政策方向的同学，新主席背景偏向商业外交和多边机构治理，这对关注澳中商务关系、澳-东南亚贸易政策等课题的研究者是个友好信号。墨大 Asia Institute、Melbourne Law School 和 Faculty of Business and Economics 里都有与 Asialink 合作的研究课题，申请相关方向时可以把 Asialink 的网络当作额外的资源接口来评估。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unimelb.edu.au/newsroom/news/2026/july/bruce-gosper-am-appointed-new-chair-of-asialink-council\">UMelb Newsroom · Bruce Gosper AM appointed new Chair of Asialink Council</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · UMelb × TIDCO MoU</strong>：7 月 5 日签署；泰米尔纳德知识城 20,000 sq ft 新兴技术中心；量子计算 + 农业科技双线；基础 / 应用 / 转化研究 + 联合 R&D + 原型测试 + 课程开发四大方向",
+        "<strong>02 · Asialink 新主席</strong>：Bruce Gosper AM（前 Austrade CEO / 前驻新加坡高专 / 亚开行副总裁）接任咨询委员会主席；接棒 Peter Varghese AO（在任 2021 起）；Australia-Asia Leadership Fellowship 是入圈通道"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "墨大 × 印度 TIDCO｜量子计算中心落地",
+        "body": "走量子计算方向的同学这条收藏：7 月 5 日，墨尔本大学与印度泰米尔纳德邦工业开发公司（TIDCO）正式签署 MoU，将在泰米尔纳德知识城（Tiruvallur）共建「新兴技术中心」。\n\n中心落在知识城即插即用知识塔内，约 20,000 平方英尺。双线方向：量子计算 + 农业科技。四大工作内容：基础 / 应用 / 转化研究，联合 R&D，原型测试与试点，课程开发与劳动力培训认证。\n\n本次 MoU 是框架协议，在早前双方意向书基础上升级，资金和时间线还在磋商，但结构和方向已定。\n\n对申 UMelb PhD 的同学：这类框架往往催生联合导师机制和产业合作课题，值得关注课题组动向。有在申量子方向的姐妹评论区扣 1🔬",
+        "tags": ["#墨尔本大学", "#UMelb", "#量子计算", "#科研合作", "#澳洲留学", "#PhD申请", "#留学干货", "#澳印合作"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化",     "rule": "最 / 第一 / 唯一 / 100%",            "result": "未检出" },
+      { "category": "教育承诺",   "rule": "包过 / 保录取 / 稳上 / 必中",        "result": "未检出" },
+      { "category": "引流",       "rule": "加V / VX / 公众号 / 二维码",         "result": "未检出（评论区扣 1 合规互动话术）" },
+      { "category": "封号红线",   "rule": "JR Academy / 匠人学院 / jiangren.com", "result": "未检出（xhsCopy 与 drafts 全部扫描）" },
+      { "category": "AI 味",      "rule": "首先其次 / 值得注意 / 综上所述",      "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然",               "result": "未检出" },
+      { "category": "政治金融",   "rule": "保本 / 稳赚 / 荐股",                 "result": "未检出" }
+    ]
+  }
+}
