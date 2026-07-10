@@ -1,0 +1,256 @@
+{
+  "country": "AU",
+  "year": 2027,
+  "source": "https://date.nager.at/api/v3/PublicHolidays/2027/AU",
+  "note": "AU public holidays fetched from Nager.Date API on 2026-07-10 (cloud routine sandbox has direct egress to date.nager.at blocked as of 2026-07-03 — see .claude/skills/weekly-holidays.md for the fallback design). Re-verify / re-fetch each year before use.",
+  "holidays": [
+    {
+      "date": "2027-01-01",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "type": "Public"
+    },
+    {
+      "date": "2027-01-26",
+      "name": "Australia Day",
+      "localName": "Australia Day",
+      "type": "Public"
+    },
+    {
+      "date": "2027-03-01",
+      "name": "Labour Day",
+      "localName": "Labour Day",
+      "type": "Public",
+      "counties": [
+        "AU-WA"
+      ]
+    },
+    {
+      "date": "2027-03-08",
+      "name": "Canberra Day",
+      "localName": "Canberra Day",
+      "type": "Public",
+      "counties": [
+        "AU-ACT"
+      ]
+    },
+    {
+      "date": "2027-03-08",
+      "name": "Adelaide Cup Day",
+      "localName": "Adelaide Cup Day",
+      "type": "Public",
+      "counties": [
+        "AU-SA"
+      ]
+    },
+    {
+      "date": "2027-03-08",
+      "name": "Eight Hours Day",
+      "localName": "Eight Hours Day",
+      "type": "Public",
+      "counties": [
+        "AU-TAS"
+      ]
+    },
+    {
+      "date": "2027-03-08",
+      "name": "Labour Day",
+      "localName": "Labour Day",
+      "type": "Public",
+      "counties": [
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2027-03-26",
+      "name": "Good Friday",
+      "localName": "Good Friday",
+      "type": "Public"
+    },
+    {
+      "date": "2027-03-27",
+      "name": "Holy Saturday",
+      "localName": "Easter Eve",
+      "type": "Public",
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-QLD",
+        "AU-SA",
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2027-03-28",
+      "name": "Easter Sunday",
+      "localName": "Easter Sunday",
+      "type": "Public",
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-QLD",
+        "AU-SA",
+        "AU-VIC",
+        "AU-WA"
+      ]
+    },
+    {
+      "date": "2027-03-29",
+      "name": "Easter Monday",
+      "localName": "Easter Monday",
+      "type": "Public"
+    },
+    {
+      "date": "2027-04-25",
+      "name": "Anzac Day",
+      "localName": "Anzac Day",
+      "type": "Public",
+      "counties": [
+        "AU-SA",
+        "AU-TAS",
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2027-04-26",
+      "name": "Anzac Day",
+      "localName": "Anzac Day",
+      "type": "Public",
+      "counties": [
+        "AU-NSW",
+        "AU-ACT",
+        "AU-WA"
+      ]
+    },
+    {
+      "date": "2027-04-26",
+      "name": "Anzac Day",
+      "localName": "Anzac Day",
+      "type": "Public",
+      "counties": [
+        "AU-NT",
+        "AU-QLD"
+      ]
+    },
+    {
+      "date": "2027-05-03",
+      "name": "May Day",
+      "localName": "May Day",
+      "type": "Public",
+      "counties": [
+        "AU-NT"
+      ]
+    },
+    {
+      "date": "2027-05-03",
+      "name": "Labour Day",
+      "localName": "Labour Day",
+      "type": "Public",
+      "counties": [
+        "AU-QLD"
+      ]
+    },
+    {
+      "date": "2027-05-31",
+      "name": "Reconciliation Day",
+      "localName": "Reconciliation Day",
+      "type": "Public",
+      "counties": [
+        "AU-ACT"
+      ]
+    },
+    {
+      "date": "2027-06-07",
+      "name": "Western Australia Day",
+      "localName": "Western Australia Day",
+      "type": "Public",
+      "counties": [
+        "AU-WA"
+      ]
+    },
+    {
+      "date": "2027-06-14",
+      "name": "King's Birthday",
+      "localName": "King's Birthday",
+      "type": "Public",
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-SA",
+        "AU-TAS",
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2027-08-02",
+      "name": "Picnic Day",
+      "localName": "Picnic Day",
+      "type": "Public",
+      "counties": [
+        "AU-NT"
+      ]
+    },
+    {
+      "date": "2027-09-24",
+      "name": "Friday before AFL Grand Final (Tentative Date)",
+      "localName": "Friday before AFL Grand Final (Tentative Date)",
+      "type": "Public",
+      "counties": [
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2027-09-27",
+      "name": "King's Birthday",
+      "localName": "King's Birthday",
+      "type": "Public",
+      "counties": [
+        "AU-WA"
+      ]
+    },
+    {
+      "date": "2027-10-04",
+      "name": "Labour Day",
+      "localName": "Labour Day",
+      "type": "Public",
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-SA"
+      ]
+    },
+    {
+      "date": "2027-10-04",
+      "name": "King's Birthday",
+      "localName": "King's Birthday",
+      "type": "Public",
+      "counties": [
+        "AU-QLD"
+      ]
+    },
+    {
+      "date": "2027-11-02",
+      "name": "Melbourne Cup",
+      "localName": "Melbourne Cup",
+      "type": "Public",
+      "counties": [
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2027-12-27",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "type": "Public"
+    },
+    {
+      "date": "2027-12-28",
+      "name": "St. Stephen's Day",
+      "localName": "Boxing Day",
+      "type": "Public"
+    }
+  ]
+}

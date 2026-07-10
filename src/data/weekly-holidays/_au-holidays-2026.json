@@ -1,0 +1,256 @@
+{
+  "country": "AU",
+  "year": 2026,
+  "source": "https://date.nager.at/api/v3/PublicHolidays/2026/AU",
+  "note": "AU public holidays fetched from Nager.Date API on 2026-07-10 (cloud routine sandbox has direct egress to date.nager.at blocked as of 2026-07-03 — see .claude/skills/weekly-holidays.md for the fallback design). Re-verify / re-fetch each year before use.",
+  "holidays": [
+    {
+      "date": "2026-01-01",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "type": "Public"
+    },
+    {
+      "date": "2026-01-26",
+      "name": "Australia Day",
+      "localName": "Australia Day",
+      "type": "Public"
+    },
+    {
+      "date": "2026-03-02",
+      "name": "Labour Day",
+      "localName": "Labour Day",
+      "type": "Public",
+      "counties": [
+        "AU-WA"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "name": "Canberra Day",
+      "localName": "Canberra Day",
+      "type": "Public",
+      "counties": [
+        "AU-ACT"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "name": "Adelaide Cup Day",
+      "localName": "Adelaide Cup Day",
+      "type": "Public",
+      "counties": [
+        "AU-SA"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "name": "Eight Hours Day",
+      "localName": "Eight Hours Day",
+      "type": "Public",
+      "counties": [
+        "AU-TAS"
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "name": "Labour Day",
+      "localName": "Labour Day",
+      "type": "Public",
+      "counties": [
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "name": "Good Friday",
+      "localName": "Good Friday",
+      "type": "Public"
+    },
+    {
+      "date": "2026-04-04",
+      "name": "Holy Saturday",
+      "localName": "Easter Eve",
+      "type": "Public",
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-QLD",
+        "AU-SA",
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "name": "Easter Sunday",
+      "localName": "Easter Sunday",
+      "type": "Public",
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-QLD",
+        "AU-SA",
+        "AU-VIC",
+        "AU-WA"
+      ]
+    },
+    {
+      "date": "2026-04-06",
+      "name": "Easter Monday",
+      "localName": "Easter Monday",
+      "type": "Public"
+    },
+    {
+      "date": "2026-04-25",
+      "name": "Anzac Day",
+      "localName": "Anzac Day",
+      "type": "Public",
+      "counties": [
+        "AU-SA",
+        "AU-TAS",
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2026-04-27",
+      "name": "Anzac Day",
+      "localName": "Anzac Day",
+      "type": "Public",
+      "counties": [
+        "AU-NSW",
+        "AU-ACT",
+        "AU-WA"
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "name": "Anzac Day",
+      "localName": "Anzac Day",
+      "type": "Public",
+      "counties": [
+        "AU-NT",
+        "AU-QLD"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "name": "May Day",
+      "localName": "May Day",
+      "type": "Public",
+      "counties": [
+        "AU-NT"
+      ]
+    },
+    {
+      "date": "2026-05-04",
+      "name": "Labour Day",
+      "localName": "Labour Day",
+      "type": "Public",
+      "counties": [
+        "AU-QLD"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "name": "Reconciliation Day",
+      "localName": "Reconciliation Day",
+      "type": "Public",
+      "counties": [
+        "AU-ACT"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "name": "Western Australia Day",
+      "localName": "Western Australia Day",
+      "type": "Public",
+      "counties": [
+        "AU-WA"
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "name": "King's Birthday",
+      "localName": "King's Birthday",
+      "type": "Public",
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-SA",
+        "AU-TAS",
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "name": "Picnic Day",
+      "localName": "Picnic Day",
+      "type": "Public",
+      "counties": [
+        "AU-NT"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "name": "Friday before AFL Grand Final",
+      "localName": "Friday before AFL Grand Final",
+      "type": "Public",
+      "counties": [
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "name": "King's Birthday",
+      "localName": "King's Birthday",
+      "type": "Public",
+      "counties": [
+        "AU-WA"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "name": "Labour Day",
+      "localName": "Labour Day",
+      "type": "Public",
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-SA"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "name": "King's Birthday",
+      "localName": "King's Birthday",
+      "type": "Public",
+      "counties": [
+        "AU-QLD"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "name": "Melbourne Cup",
+      "localName": "Melbourne Cup",
+      "type": "Public",
+      "counties": [
+        "AU-VIC"
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "type": "Public"
+    },
+    {
+      "date": "2026-12-28",
+      "name": "St. Stephen's Day",
+      "localName": "Boxing Day",
+      "type": "Public"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "country": "GB",
+  "year": 2027,
+  "source": "https://date.nager.at/api/v3/PublicHolidays/2027/GB",
+  "note": "GB public holidays fetched from Nager.Date API on 2026-07-10 (cloud routine sandbox has direct egress to date.nager.at blocked as of 2026-07-03 — see .claude/skills/weekly-holidays.md for the fallback design). Re-verify / re-fetch each year before use.",
+  "holidays": [
+    {
+      "date": "2027-01-01",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "type": "Public",
+      "counties": [
+        "GB-ENG",
+        "GB-NIR",
+        "GB-SCT",
+        "GB-WLS"
+      ]
+    },
+    {
+      "date": "2027-01-02",
+      "name": "2 January",
+      "localName": "2 January",
+      "type": "Public",
+      "counties": [
+        "GB-SCT"
+      ]
+    },
+    {
+      "date": "2027-03-17",
+      "name": "Saint Patrick's Day",
+      "localName": "Saint Patrick's Day",
+      "type": "Public",
+      "counties": [
+        "GB-NIR"
+      ]
+    },
+    {
+      "date": "2027-03-26",
+      "name": "Good Friday",
+      "localName": "Good Friday",
+      "type": "Public"
+    },
+    {
+      "date": "2027-03-29",
+      "name": "Easter Monday",
+      "localName": "Easter Monday",
+      "type": "Public",
+      "counties": [
+        "GB-ENG",
+        "GB-WLS",
+        "GB-NIR"
+      ]
+    },
+    {
+      "date": "2027-05-03",
+      "name": "Early May Bank Holiday",
+      "localName": "Early May Bank Holiday",
+      "type": "Public"
+    },
+    {
+      "date": "2027-05-31",
+      "name": "Spring Bank Holiday",
+      "localName": "Spring Bank Holiday",
+      "type": "Public"
+    },
+    {
+      "date": "2027-07-12",
+      "name": "Battle of the Boyne",
+      "localName": "Battle of the Boyne",
+      "type": "Public",
+      "counties": [
+        "GB-NIR"
+      ]
+    },
+    {
+      "date": "2027-08-02",
+      "name": "Summer Bank Holiday",
+      "localName": "Summer Bank Holiday",
+      "type": "Public",
+      "counties": [
+        "GB-SCT"
+      ]
+    },
+    {
+      "date": "2027-08-30",
+      "name": "Summer Bank Holiday",
+      "localName": "Summer Bank Holiday",
+      "type": "Public",
+      "counties": [
+        "GB-ENG",
+        "GB-WLS",
+        "GB-NIR"
+      ]
+    },
+    {
+      "date": "2027-11-30",
+      "name": "Saint Andrew's Day",
+      "localName": "Saint Andrew's Day",
+      "type": "Public",
+      "counties": [
+        "GB-SCT"
+      ]
+    },
+    {
+      "date": "2027-12-27",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "type": "Public"
+    },
+    {
+      "date": "2027-12-28",
+      "name": "St. Stephen's Day",
+      "localName": "Boxing Day",
+      "type": "Public"
+    }
+  ]
+}

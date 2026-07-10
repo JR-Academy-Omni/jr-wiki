@@ -1,0 +1,74 @@
+{
+  "country": "SG",
+  "year": 2027,
+  "source": "https://date.nager.at/api/v3/PublicHolidays/2027/SG",
+  "note": "SG public holidays fetched from Nager.Date API on 2026-07-10 (cloud routine sandbox has direct egress to date.nager.at blocked as of 2026-07-03 — see .claude/skills/weekly-holidays.md for the fallback design). Re-verify / re-fetch each year before use.",
+  "holidays": [
+    {
+      "date": "2027-01-01",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "type": "Public"
+    },
+    {
+      "date": "2027-02-06",
+      "name": "Chinese New Year",
+      "localName": "Chinese New Year",
+      "type": "Public"
+    },
+    {
+      "date": "2027-02-08",
+      "name": "Chinese New Year",
+      "localName": "Chinese New Year",
+      "type": "Public"
+    },
+    {
+      "date": "2027-03-10",
+      "name": "Hari Raya Puasa",
+      "localName": "Hari Raya Puasa",
+      "type": "Public"
+    },
+    {
+      "date": "2027-03-26",
+      "name": "Good Friday",
+      "localName": "Good Friday",
+      "type": "Public"
+    },
+    {
+      "date": "2027-05-01",
+      "name": "Labour Day",
+      "localName": "Labour Day",
+      "type": "Public"
+    },
+    {
+      "date": "2027-05-17",
+      "name": "Hari Raya Haji",
+      "localName": "Hari Raya Haji",
+      "type": "Public"
+    },
+    {
+      "date": "2027-05-20",
+      "name": "Vesak Day",
+      "localName": "Vesak Day",
+      "type": "Public"
+    },
+    {
+      "date": "2027-08-09",
+      "name": "National Day",
+      "localName": "National Day",
+      "type": "Public"
+    },
+    {
+      "date": "2027-10-28",
+      "name": "Deepavali",
+      "localName": "Deepavali",
+      "type": "Public"
+    },
+    {
+      "date": "2027-12-25",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "type": "Public"
+    }
+  ]
+}
