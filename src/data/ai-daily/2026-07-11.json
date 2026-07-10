@@ -1,0 +1,94 @@
+{
+  "date": "2026-07-11",
+  "summary": {
+    "hook": ["Anthropic营收超OpenAI", "DeepSeek自研推理芯片", "OpenAI拟让渡政府5%股权", "Meta Muse Spark 1.1", "伊利诺伊AI安全法"],
+    "sub": "Anthropic年化营收首次超越OpenAI达$47B、DeepSeek秘密研发自有推理芯片、Sam Altman向特朗普政府提议赠送5%股权、Meta Muse Spark 1.1以$1.25/$4.25定价挑战编程赛道、伊利诺伊成全美最严AI安全立法州",
+    "items": [
+      {"num": "01", "cat": "行业格局", "numColor": "#cc785c", "t": "Anthropic年化营收$47B首超OpenAI，企业客户贡献80%"},
+      {"num": "02", "cat": "芯片战略", "numColor": "#4e6ef2", "t": "DeepSeek秘密自研推理芯片，摆脱Nvidia/华为依赖"},
+      {"num": "03", "cat": "政商博弈", "numColor": "#10a37f", "t": "Sam Altman拟向美政府赠5%OpenAI股权，价值约$426亿"},
+      {"num": "04", "cat": "模型发布", "numColor": "#1877f2", "t": "Meta Muse Spark 1.1发布：$1.25入门，1M上下文，电脑使用"},
+      {"num": "05", "cat": "AI监管", "numColor": "#7c3aed", "t": "伊利诺伊签署全美最严AI安全法，2027年元旦起强制第三方审计"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-revenue-surpass",
+      "idx": "01",
+      "catText": "行业格局",
+      "accent": "#cc785c",
+      "bg": {"top": "Anthropic", "mid": "$47B 营收", "bot": "超越 OpenAI", "topRight": "行业地震"},
+      "title": [{"text": "Anthropic年化营收$47B首次超越OpenAI，"}, {"text": "企业客户 1000+ 大客每年付逾百万", "hl": true}],
+      "oneline": [{"text": "15个月营收增30倍，"}, {"text": "80%来自企业客户，比OpenAI消费路线更能赚钱", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "Anthropic年化营收于2026年5月达$47B运行率，超越OpenAI的$25-33B预测值，成为首次在营收规模上超过OpenAI的AI公司"},
+        {"k": "为什么重要", "v": "这是ChatGPT 2022年底发布以来行业格局最大反转；Anthropic专注B2B、1000+家企业客户年付逾$100万，规模两个月内翻倍，商业模式验证效果远优于消费端路线"},
+        {"k": "对你的影响", "v": "评估AI平台预算的企业应重新审视Claude的性价比；Anthropic估值逼近$965B，开发者押注其API长期稳定性比押注OpenAI更有依据"}
+      ],
+      "src": "📎 memeburn.com · trendingtopics.eu · byteiota.com"
+    },
+    {
+      "slug": "02-deepseek-ai-chip",
+      "idx": "02",
+      "catText": "芯片战略",
+      "accent": "#4e6ef2",
+      "bg": {"top": "DeepSeek", "mid": "自研推理芯片", "bot": "摆脱Nvidia", "topRight": "Reuters独家"},
+      "title": [{"text": "DeepSeek秘密研发自有AI芯片，"}, {"text": "专攻推理环节减少对Nvidia/华为依赖", "hl": true}],
+      "oneline": [{"text": "处于早期阶段但已接触代工和存储厂商，"}, {"text": "同步筹资$70亿推动算力自主", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "路透社独家：DeepSeek正秘密研发自有AI推理芯片，已接触芯片设计、晶圆代工和存储企业，近几月私下招募芯片工程师，不在公开平台发帖"},
+        {"k": "为什么重要", "v": "若成功，DeepSeek将从「模型公司」升级为「算力+模型垂直整合者」，重塑中国AI格局；此举可能对华为Ascend芯片形成竞争，并推动美国进一步讨论对华算力出口管制升级"},
+        {"k": "对你的影响", "v": "使用DeepSeek API的开发者短期受益不变；长期看自研芯片降低其对进口算力的脆弱性，有助于服务稳定性；AI从业者应关注中国算力生态的加速闭环"}
+      ],
+      "src": "📎 bloomberg.com · engadget.com · japantimes.co.jp"
+    },
+    {
+      "slug": "03-openai-govt-stake",
+      "idx": "03",
+      "catText": "政商博弈",
+      "accent": "#10a37f",
+      "bg": {"top": "OpenAI", "mid": "政府5%股权", "bot": "阿拉斯加模型", "topRight": "CNBC独家"},
+      "title": [{"text": "Sam Altman向特朗普政府提议赠送5%OpenAI股权，"}, {"text": "价值约$426亿对等美国主权AI基金", "hl": true}],
+      "oneline": [{"text": "按OpenAI $852B估值计，5%约$42.6B，"}, {"text": "Altman同时提议其他美国头部AI公司跟进", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "CNBC披露：Sam Altman已向特朗普政府提议赠予5%OpenAI股权，以缓解华盛顿政治压力，参考阿拉斯加永久基金设立主权AI收益模式，已与商务部长Lutnick和财政部长Bessent展开「概念性讨论」"},
+        {"k": "为什么重要", "v": "这是美国政府正式入股AI头部公司的首次实质性讨论，若落地将深刻影响AI监管走向——政府既是股东又是监管者的双重身份产生利益冲突；OpenAI也借此换取政策空间"},
+        {"k": "对你的影响", "v": "在美经营AI业务的开发者和企业须关注政商博弈对合规要求、数据政策的潜在影响；若方案延伸至要求其他AI公司同样让渡股权，行业整体估值逻辑将重构"}
+      ],
+      "src": "📎 cnbc.com · forbes.com · time.com"
+    },
+    {
+      "slug": "04-meta-muse-spark-11",
+      "idx": "04",
+      "catText": "模型发布",
+      "accent": "#1877f2",
+      "bg": {"top": "Meta", "mid": "Muse Spark 1.1", "bot": "$1.25/$4.25", "topRight": "1M上下文"},
+      "title": [{"text": "Meta Muse Spark 1.1正式发布，"}, {"text": "电脑使用+1M上下文，$1.25入门挑战编程赛道", "hl": true}],
+      "oneline": [{"text": "Zuckerberg三年后重返X宣布，"}, {"text": "定价低于Claude Opus和GPT-5.5，瞄准智能体开发者", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "Meta于7月9日发布Muse Spark 1.1，一个100万token上下文多模态推理模型，具备电脑使用（computer use）和多步工具调用能力，API定价$1.25/$4.25每百万token，向美国开发者开放公测"},
+        {"k": "为什么重要", "v": "Meta以远低于竞品的定价切入智能体编程赛道，1M上下文覆盖完整代码库分析场景，Zuckerberg重返X发文是一次刻意的舆论造势，表明Meta把Muse Spark视为与Claude Fable 5、GPT-5.6 Sol的正面决战"},
+        {"k": "对你的影响", "v": "正在选型AI编程助手API的开发者可将Muse Spark 1.1纳入对比测试，尤其关注agent稳定性和computer use准确率；其免费Thinking模式可在meta.ai直接体验，无需等待API配额"}
+      ],
+      "src": "📎 techcrunch.com · ai.meta.com · dataconomy.com"
+    },
+    {
+      "slug": "05-illinois-ai-safety-act",
+      "idx": "05",
+      "catText": "AI监管",
+      "accent": "#7c3aed",
+      "bg": {"top": "伊利诺伊", "mid": "AI安全法", "bot": "SB 315", "topRight": "全美最严"},
+      "title": [{"text": "伊利诺伊签署全美最严AI安全法，"}, {"text": "2027年起强制第三方年度审计+吹哨人保护", "hl": true}],
+      "oneline": [{"text": "与加州纽约合计覆盖40%美国AI市场，"}, {"text": "三州联手事实上确立联邦级AI治理标准", "bold": true}],
+      "bullets": [
+        {"k": "发生了什么", "v": "伊利诺伊州长Pritzker于7月6日签署《人工智能安全措施法》(SB 315)，要求大型AI系统开发者公开安全实践、报告重大事故、接受独立第三方年审，法律设立机密举报渠道和吹哨人保护，2027年1月1日生效"},
+        {"k": "为什么重要", "v": "该法是美国各州立法实践中要求最为严格的AI问责框架；加州、纽约、伊利诺伊三州合计约占美国AI市场40%，三州协调等价建立事实上的联邦监管最低标准，填补国会AI立法空白"},
+        {"k": "对你的影响", "v": "在伊利诺伊经营AI服务的企业（或向其提供模型的服务商）须在2026年内建立合规审计路径；澳洲及跨境AI团队应追踪该法对国际合作伙伴合规义务的传导效应"}
+      ],
+      "src": "📎 capitolnewsillinois.com · transparencycoalition.ai · route-fifty.com"
+    }
+  ],
+  "mp": {
+    "title": "Anthropic营收超OpenAI / DeepSeek自研芯片 / OpenAI拟让渡政府5%股权 / Meta Muse Spark 1.1 / 伊州AI安全法"
+  }
+}
