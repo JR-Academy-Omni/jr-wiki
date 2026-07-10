@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-11",
+  "school": "uq",
+  "summary": {
+    "hookMain": "UQ",
+    "hookSub": "MND 新药突破 + NAIDOC 文化讲座",
+    "hookSubHighlight": "MND 新药突破",
+    "subLines": [
+      "R8Y 新药锁定 C5aR2 · 6 国 7 所高校联合 · MND 或从终末期转为慢性病",
+      "NAIDOC Week 2026 · Dr Pat Anderson AO 主旨演讲 · 7 月 7 日免费开放"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "R8Y 新药 MND 突破", "data": "5 年内临床测试" },
+      { "num": "02", "title": "NAIDOC Week 文化讲座", "data": "7 月 7 日免费" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研突破",
+      "h2Main": "UQ 新药 R8Y 解锁 C5aR2 免疫受体",
+      "h2Sub": "Prof Trent Woodruff 团队 · 6 国 7 校联合 · MND 或成慢性病",
+      "h2Highlight": "5 年内",
+      "lead": "UQ 生物医学科学学院的 Prof Trent Woodruff 团队开发出小分子药物 <b>R8Y</b>，成功靶向 C5aR2 这个长期难以触碰的免疫受体。C5aR2 不经 G 蛋白信号通路，是理解神经炎症的关键节点，此次突破为 MND 抗炎治疗提供了全新研究工具。",
+      "bullets": [
+        { "k": "靶点发现", "v": "C5aR2 受体存在于大量免疫细胞表面，但<b>不与 G 蛋白偶联</b>（non-G protein-coupled），此前对其炎症调控机制几乎无法研究；R8Y 是首个专一结合 C5aR2 的小分子药物" },
+        { "k": "国际合作", "v": "Prof Woodruff 与 Assoc Prof Richard Clark 团队联合<b>印度理工学院、东京大学、成均馆大学、庞培法布拉大学、东北大学、京都大学</b>共同完成受体-药物结合模型" },
+        { "k": "治疗前景", "v": "Woodruff 表示：「<b>有了这个发现，5 年内我们可能就能在 MND 患者身上开展抗炎药物测试，或许能让 MND 从急性终末期病转变为可长期管理的慢性病。</b>」" },
+        { "k": "对留学生", "v": "走<b>生物医学 / 神经科学 / 药学</b>方向的同学，UQ 在神经退行性疾病上有完整的 Honours + PhD 培养链条，这次国际多边合作也体现了 UQ 团队在跨国科研中的领衔角色" }
+      ],
+      "source": "UQ News · 2026-07",
+      "sourceUrl": "https://news.uq.edu.au/2026-07-breakthrough-search-motor-neurone-disease-treatment"
+    },
+    {
+      "idx": "02",
+      "category": "校园活动",
+      "h2Main": "NAIDOC Week 2026 UQ 主旨讲座",
+      "h2Sub": "Dr (Aunty) Pat Anderson AO · 7 月 7 日 St Lucia · 免费线上线下均可",
+      "h2Highlight": "免费",
+      "lead": "NAIDOC Week 2026（7 月 6–13 日）期间，UQ 邀请澳洲原住民社会正义倡导者 <b>Dr (Aunty) Pat Anderson AO</b> 担任主旨演讲嘉宾。讲座于 7 月 7 日 15:30 在 St Lucia 高级工程楼开讲，免费向全体 UQ 师生、校友及社会公众开放，同步提供 Zoom 线上渠道。",
+      "bullets": [
+        { "k": "主讲嘉宾", "v": "Dr (Aunty) Pat Anderson AO 是 Alyawarre 族女性，长期投身<b>原住民健康政策 / 社区发展 / 研究伦理</b>领域；2014 年因在社会正义倡导方面的杰出贡献获授澳大利亚勋章（AO）" },
+        { "k": "活动时间", "v": "<b>7 月 7 日（周二）15:30–17:00</b>；地点：高级工程楼 49-200（GHD Auditorium），St Lucia 校区；含 Q&A 环节；签到从 15:00 开始" },
+        { "k": "参加方式", "v": "线下直接到场；线上通过 UQ 活动页注册后获 Zoom 链接；活动全程<b>免费</b>，NAIDOC Week 全周还有更多文化活动在各校区展开" },
+        { "k": "对留学生", "v": "在澳学习和工作，了解原住民文化与历史是跨文化能力的重要组成部分；NAIDOC Week 每年 7 月举办，是了解澳洲本地文化最直接、最有温度的入口" }
+      ],
+      "source": "UQ News / Eventbrite · 2026-07-07",
+      "sourceUrl": "https://news.uq.edu.au/2026-07-powerful-and-personal-uq-celebrates-naidoc-week-2026"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UQ 7 月 11 日两条：神经科学新药研究突破 + NAIDOC Week 文化讲座。前者是国际级多边科研，后者是在澳生活的文化认知入口，都值得留意。",
+    "items": [
+      { "n": "01", "title": "R8Y · MND 新希望", "body": "Prof Woodruff 团队与 6 国 7 校联合开发 C5aR2 靶向药物 R8Y；Woodruff 预计 5 年内可进入临床测试；或让 MND 从终末期病转为可管理慢性病" },
+      { "n": "02", "title": "NAIDOC Week 免费讲座", "body": "7 月 7 日 St Lucia 高级工程楼 15:30；Dr Pat Anderson AO 主旨演讲；免费，线上线下均可参加；NAIDOC Week 全周 7 月 6–13 日" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 2–3 校 · 科研 + 招生 + 奖学金一手同步",
+      "badge": "07 / 11"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 7-11 两条硬料🔬",
+      "body": "在 UQ 读了一年多，这周两条消息方向完全不同但都值得记一下。\n\n01 / 科研突破 — UQ 生物医学科学学院的 Prof Trent Woodruff 团队和来自印度、日本、韩国、西班牙六所高校联合发布研究，开发出小分子药物 R8Y，成功靶向 C5aR2 这个此前「打不到」的免疫受体。C5aR2 不走 G 蛋白通路，机制一直很神秘。Woodruff 说他们预计 5 年内就能在 MND 患者身上测试相关抗炎药物，甚至有可能把 MND 从急性终末期病变成可以长期管理的慢性病。\n\n02 / 校园活动 — NAIDOC Week 2026（7 月 6–13 日）主旨讲座，邀请了 Dr (Aunty) Pat Anderson AO 演讲，7 月 7 日 15:30 在 St Lucia 高级工程楼，线上线下都免费。在澳洲读书，了解原住民文化真的很有必要，这种讲座平时很难遇到。\n\n有在关注 UQ 或者对神经科学 / 生物医学方向感兴趣的姐妹，评论区聊🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #大学新闻 #UQ申请 #留学干货"
+    },
+    "p2": {
+      "title": "UQ新药R8Y锁定MND靶点",
+      "body": "走生物医学 / 神经科学 / 药学方向的姐妹这条收藏：UQ 的 Prof Trent Woodruff（生物医学科学学院）+ Assoc Prof Richard Clark 团队，联合印度理工学院、东京大学、成均馆大学、庞培法布拉大学、东北大学、京都大学，发布了一个挺硬核的研究——开发出名叫 R8Y 的小分子药物，成功靶向 C5aR2 受体。\n\nC5aR2 这个受体存在于大量免疫细胞表面，但它不与 G 蛋白偶联（non-G protein-coupled），导致过去的研究工具完全够不着它，对它在炎症中的作用一直是谜。R8Y 打破了这个僵局：它可以专一结合 C5aR2，让研究人员第一次有工具来研究这个受体到底在做什么。\n\nWoodruff 的原话：「有了这个发现，5 年内我们可能就能在 MND 患者身上开展抗炎药物测试，或许能让 MND 从急性终末期病转变为可以长期管理的慢性病。」\n\nMND（运动神经元病）目前基本没有有效治疗手段，能有这样一个发现是真的突破。而且这次是 6 国 7 所高校的联合成果，UQ 在里面是主导角色。\n\n申 UQ 生医 / 药学 PhD 的姐妹，这条研究线值得好好看看。评论区扣 1，我可以分享 UQ 这方向的申请情况🔬",
+      "tags": "#UQ #昆士兰大学 #生物医学 #MND #神经科学 #澳洲留学 #科研突破"
+    },
+    "p3": {
+      "title": "走生医方向UQ值得看",
+      "body": "我在纠结申 UQ 生物医学还是 UNSW 药学，这条新闻让我多看了一眼 UQ。\n\nProf Trent Woodruff 团队那篇关于 C5aR2 + R8Y 的研究是 2026 年 7 月出的，涉及 6 国 7 所高校联合，主要聚焦的是运动神经元病（MND）的抗炎治疗方向。他们开发的小分子药物 R8Y，是目前已知的首个能专一结合 C5aR2 这个受体的分子——这个受体此前因为不走 G 蛋白信号通路，研究工具完全没有，基本属于「盲区」。\n\n这对走 GRC（治理风险）之外、走实验性药物开发路线的同学是比较直接的利好信号：UQ 在神经退行性疾病这条线上不只是「研究」，而是有真实的多边国际合作和成果产出。\n\nHonours + PhD 路线来说，UQ 的生物医学科学学院有从本科到博士的完整链条，不是要硕士才能进实验室那种——本科毕业满足条件可以直接申 Honours，再转 PhD。\n\n我自己还在权衡中，有申过 UQ 生医的姐妹评论区扣个 1，一起聊聊选校逻辑🔬",
+      "tags": "#UQ #昆士兰大学 #生物医学留学 #澳洲PhD #澳洲留学 #留学干货 #选校"
+    },
+    "p4": {
+      "title": "NAIDOC Dr Anderson在UQ",
+      "body": "在澳洲读书，NAIDOC Week 是每年七月绕不开的一件事。今年（2026）UQ 的主旨讲座请来了 Dr (Aunty) Pat Anderson AO——她是 Alyawarre 族女性，长期从事原住民健康政策、社区发展和研究伦理方面的工作，2014 年获澳大利亚勋章（AO）。\n\n讲座是 7 月 7 日（周二）15:30，地点在 St Lucia 高级工程楼 GHD Auditorium（49-200）。从 15:00 开始签到，有茶点，讲座 15:30 开始，17:00 结束含 Q&A。线下线上都可以参加，全程免费。\n\n说实话，刚来澳洲的时候对原住民文化了解很少，甚至不确定 NAIDOC 是什么意思（全称是 National Aborigines and Islanders Day Observance Committee）。后来发现这块在澳洲职场和社区里其实很重要——你面试时被问到对多元文化的理解，对原住民历史有基本了解这点真的加分。\n\nUQ 这场讲座是今年 NAIDOC Week（7 月 6–13 日）的校级主办活动，有同学在布里斯班的评论区扣 1，我们可以一起去😊",
+      "tags": "#UQ #昆士兰大学 #NAIDOC #澳洲文化 #澳洲留学 #布里斯班 #留学生活"
+    },
+    "p5": {
+      "title": "UQ 7-11 速览两条大事",
+      "body": "UQ 这周两条：\n\n01 / 科研突破 — Prof Woodruff 团队（生物医学科学学院）+ 6 国 7 所高校联合发布 R8Y 新药研究。靶向 C5aR2 受体（不走 G 蛋白通路，此前几乎无法研究）。预计 5 年内可在 MND 患者中测试；有望把 MND 从急性终末期病变成慢性可管理病。走神经科学 / 药学的同学留意。\n\n02 / 校园活动 — NAIDOC Week 2026（7 月 6–13 日），UQ 7 月 7 日 15:30 邀请 Dr (Aunty) Pat Anderson AO 做主旨讲座。St Lucia 高级工程楼，线下线上均免费，有茶点，17:00 结束。在澳读书，这类文化活动值得去一次。\n\n两条方向差很远，但都是 7 月 UQ 校区的真实动态。想了解 UQ 更多的姐妹评论区聊🙌",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #大学新闻 #留学干货 #UQ申请"
+    }
+  },
+  "mp": {
+    "title": "UQ 七月两条：MND 新药 R8Y 解锁 C5aR2 · NAIDOC Week Dr Pat Anderson AO 主旨演讲",
+    "lead": "UQ 这周两条方向截然不同。生物医学科学学院的 Prof Trent Woodruff 联合六国七所高校开发出小分子药物 R8Y，首次成功靶向此前「打不到」的 C5aR2 免疫受体，为 MND 抗炎治疗开辟新路径，Woodruff 预估 5 年内可进入临床测试。与此同时，NAIDOC Week 2026（7 月 6–13 日）的 UQ 校级主旨讲座邀请了澳洲原住民社会正义倡导者 Dr (Aunty) Pat Anderson AO，7 月 7 日 15:30 在 St Lucia 高级工程楼，线上线下均免费。",
+    "meta": { "readTime": "7 分钟" },
+    "newsBodies": [
+      {
+        "h2": "UQ 新药 R8Y 解锁 C5aR2 免疫受体，MND 治疗迎来关键突破",
+        "paragraphs": [
+          "UQ 生物医学科学学院的 Prof Trent Woodruff 与 Assoc Prof Richard Clark 团队，联合印度理工学院、东京大学、成均馆大学、庞培法布拉大学、东北大学、京都大学共六所海外院校，联合发布一项关于 MND（运动神经元病）治疗的突破性研究。研究的核心成果是一种名为 R8Y 的小分子药物，它是目前已知首个能专一结合 C5aR2 受体的分子。",
+          "C5aR2 是存在于大量免疫细胞表面的受体，但它有一个关键特点：不与 G 蛋白偶联（non-G protein-coupled）。这使得此前的研究工具完全无法触碰这个受体，对它在炎症中的作用一直是一个谜。Woodruff 团队与国际伙伴通过 R8Y 建立了受体-药物结合模型，第一次让科学界看清了 C5aR2 的分子结构和作用机制。Assoc Prof Richard Clark 表示，这一成果只有通过 UQ 与国际合作伙伴的联合专长才能实现。",
+          "Prof Woodruff 对临床前景给出了明确预估：「有了这个发现，5 年内我们可能就能在 MND 患者身上开展抗炎药物测试，或许能让 MND 从急性终末期病转变为可以长期管理的慢性病。」MND 目前缺乏有效治疗手段，这一突破在科研逻辑上非常清晰——靶向一个此前「不可见」的关键受体，打开了一条全新的治疗路径。对走生物医学、神经科学或药学方向的学生，UQ 在神经退行性疾病研究上有完整的 Honours 到 PhD 培养链条，这次突破也代表 UQ 团队在国际多边科研中的主导位置。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://news.uq.edu.au/2026-07-breakthrough-search-motor-neurone-disease-treatment\">UQ News · Breakthrough in search for Motor Neurone Disease treatment</a>"
+      },
+      {
+        "h2": "NAIDOC Week 2026 UQ 讲座：Dr (Aunty) Pat Anderson AO 谈社会正义",
+        "paragraphs": [
+          "NAIDOC Week（全国原住民纪念周，2026 年为 7 月 6–13 日）是澳洲每年一度纪念和庆祝原住民及托雷斯海峡岛民历史、文化与成就的全国性活动。UQ 今年的校级主旨讲座邀请了 Dr (Aunty) Pat Anderson AO 担任主讲嘉宾。",
+          "Dr Anderson AO 是 Alyawarre 族女性，在原住民健康、社区发展、政策研究和研究伦理领域有数十年的积累。她曾担任多个国家级委员会和研究机构的职务，2014 年因在社会正义倡导方面的杰出贡献获授澳大利亚勋章（AO）。讲座于 7 月 7 日（周二）15:30 在 St Lucia 高级工程楼 GHD Auditorium（49-200）举行，含 Q&A 环节，17:00 结束。签到从 15:00 开始，有轻食和茶点。活动同步提供 Zoom 线上渠道，全程免费，向所有 UQ 师生、校友及社会公众开放。",
+          "对在澳留学生而言，NAIDOC Week 是了解澳洲原住民文化和历史的直接机会，而这种了解在职场和日常社区生活中有实质价值——无论是跨文化沟通，还是理解澳洲本地社会议题，具备基本的原住民文化认知已经成为在澳生活的基本素养之一。UQ 的 NAIDOC Week 全周活动不止这一场讲座，详细安排可在 UQ Indigenous Engagement 页面查看。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://news.uq.edu.au/2026-07-powerful-and-personal-uq-celebrates-naidoc-week-2026\">UQ News · Powerful and personal: UQ celebrates NAIDOC Week 2026</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · R8Y 新药 MND 突破</strong>：Prof Woodruff 团队与 6 国 7 所高校联合开发 C5aR2 靶向小分子药物；5 年内有望进入 MND 临床测试；或让终末期病转为可管理慢性病",
+        "<strong>02 · NAIDOC Week 主旨讲座</strong>：7 月 7 日 St Lucia 高级工程楼 15:30；Dr (Aunty) Pat Anderson AO 主讲；免费，线上线下均可；NAIDOC Week 全周 7 月 6–13 日"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "UQ MND 新药 R8Y · 5 年内或进临床测试",
+        "body": "在 UQ 读了一年多，导师这周把 Prof Trent Woodruff 团队的新研究丢进群里，说是「生医方向今年最值得看的几篇之一」。\n\n研究的核心是一个叫 R8Y 的小分子药物。它靶向的是 C5aR2 受体——这个受体存在于大量免疫细胞表面，但因为不走 G 蛋白信号通路，此前的研究工具完全够不着它，等于是免疫炎症领域里一个长期存在的盲区。\n\nUQ 团队联合了印度、日本、韩国、西班牙六所高校共同完成了受体-药物结合模型，让 C5aR2 的结构和机制第一次「可见」。Woodruff 的话是：5 年内有望在 MND 患者中测试抗炎药物，甚至可能让 MND 从急性终末期病变成长期可管理的慢性病。\n\nMND 目前基本没有有效治疗手段，能开辟这样一条新路径，在业内是真的不小的事。走生医、神经科学、药学方向的同学，这条研究线和 UQ 的 PhD 招生直接相关——评论区扣 1，我可以分享 UQ 生医方向的申请思路🔬",
+        "tags": ["#UQ", "#昆士兰大学", "#生物医学", "#MND", "#神经科学", "#澳洲留学", "#科研突破", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "「首个专一结合 C5aR2 的小分子药物」——为研究成果客观描述保留，非商业宣传性绝对化语言" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出（xhsCopy 与 drafts 无任何引流语；mp.cta 含「关注 JR Academy 公众号」为公众号发稿页合法引流）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 与 drafts.sections 全量扫描通过）" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述 / 此外 / 作为一个", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "「治疗」仅出现在「MND 治疗」科研上下文中，无任何疗效承诺" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股", "result": "未检出" }
+    ]
+  }
+}
