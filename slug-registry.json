@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-07-10T01:23:18.944Z",
+  "lockedAt": "2026-07-10T23:44:02.352Z",
   "version": 1,
   "slugs": [
     {
@@ -297,6 +297,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-07-10"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-07-11"
     },
     {
       "type": "article",
@@ -612,6 +616,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-07-11"
+    },
+    {
+      "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
     },
     {
@@ -633,6 +641,10 @@
     {
       "type": "article",
       "slug": "sierra-enterprise-ai-agent-950m-2026"
+    },
+    {
+      "type": "article",
+      "slug": "spacex-cursor-60b-coding-data-flywheel-2026"
     },
     {
       "type": "article",
@@ -813,6 +825,10 @@
     {
       "type": "article",
       "slug": "uni-news-monash-2026-07-08"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-monash-2026-07-11"
     },
     {
       "type": "article",
@@ -1101,6 +1117,10 @@
     {
       "type": "article",
       "slug": "uni-news-uq-2026-07-08"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-uq-2026-07-11"
     },
     {
       "type": "article",
