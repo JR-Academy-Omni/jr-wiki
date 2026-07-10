@@ -1,0 +1,310 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-07-10（Canvas 版）</title>
+<meta name="description" content="2026-07-10 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-07-10.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-07-10",
+  "summary": {
+    "hook": [
+      "GPT-5.6 全球开放",
+      "Grok 4.5 登场",
+      "Claude Cowork 全平台",
+      "DeepSeek V4 官发在即",
+      "Gemini 3.5 再跳票"
+    ],
+    "sub": "OpenAI 解除美政府封锁全球放行、SpaceXAI Grok 4.5 联手 Cursor 亮相、Anthropic Cowork 覆盖 Web+Mobile、DeepSeek 官版将引入峰时定价、Google Gemini 3.5 Pro 第二次爽约",
+    "items": [
+      {
+        "num": "01",
+        "cat": "模型发布",
+        "numColor": "#10a37f",
+        "t": "OpenAI GPT-5.6 全球公开，Sol/Terra/Luna 三档齐发"
+      },
+      {
+        "num": "02",
+        "cat": "模型发布",
+        "numColor": "#1a1a2e",
+        "t": "SpaceXAI Grok 4.5 首发：Cursor 联合研发，「Opus 级」速度更快"
+      },
+      {
+        "num": "03",
+        "cat": "产品扩张",
+        "numColor": "#cc785c",
+        "t": "Anthropic Claude Cowork 全平台：Web+Mobile 上线，远程 session 跨设备"
+      },
+      {
+        "num": "04",
+        "cat": "开源动态",
+        "numColor": "#4e6ef2",
+        "t": "DeepSeek V4 官版 7 月中发布：峰时 2× 定价，旧模型 7/24 下线"
+      },
+      {
+        "num": "05",
+        "cat": "大厂博弈",
+        "numColor": "#DB4437",
+        "t": "Google Gemini 3.5 Pro 再度跳票：两次 deadline 落空，token 超耗成致命伤"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt56-global",
+      "idx": "01",
+      "catText": "模型发布",
+      "accent": "#10a37f",
+      "bg": {
+        "top": "OpenAI",
+        "mid": "GPT-5.6",
+        "bot": "Sol / Terra / Luna",
+        "topRight": "全球开放"
+      },
+      "title": [
+        {
+          "text": "OpenAI GPT-5.6 解除政府封锁，"
+        },
+        {
+          "text": "三档模型全球同步放行",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "美政府解禁后，"
+        },
+        {
+          "text": "Sol / Terra / Luna 同步向全球用户开放",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI GPT-5.6 系列（旗舰 Sol、均衡 Terra、极速 Luna）于 7 月 8 日完成全球放行，此前两周仅对「受信任合作伙伴」限量供应"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是 OpenAI 迄今最强的消费端阵容，三档定价覆盖旗舰到低成本场景，美政府「分阶段发布」协议正式画句号"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者现可通过 API 接入全部三款模型；ChatGPT 订阅用户也将陆续看到 Sol 作为默认选项替换旧旗舰"
+        }
+      ],
+      "src": "📎 cnbc.com · bloomberg.com"
+    },
+    {
+      "slug": "02-grok45-cursor",
+      "idx": "02",
+      "catText": "模型发布",
+      "accent": "#f5a623",
+      "bg": {
+        "top": "SpaceXAI",
+        "mid": "Grok 4.5",
+        "bot": "Cursor 联研",
+        "topRight": "「Opus 级」"
+      },
+      "title": [
+        {
+          "text": "SpaceXAI 发布 Grok 4.5，"
+        },
+        {
+          "text": "收购 Cursor 后首款联合模型",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Grok 4.5 定价 $2/$6 per M tokens，"
+        },
+        {
+          "text": "马斯克称「速度更快的 Opus 级」",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "SpaceXAI（前 xAI）于 7 月 8 日推出 Grok 4.5，这是完成对 Cursor 600 亿美元收购后首款联合研发模型，专注编程、智能体和知识工作"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Cursor 收购将代码编辑 IDE 与前沿模型直连，Grok 4.5 以低于 Anthropic Opus 的价格挑战编程赛道头部位置"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Cursor 用户将率先体验 Grok 4.5 的编程能力；开发者可通过 xAI API 以 $2/$6 per M tokens 接入，低于同档竞品"
+        }
+      ],
+      "src": "📎 axios.com · techcrunch.com · bloomberg.com"
+    },
+    {
+      "slug": "03-claude-cowork-web",
+      "idx": "03",
+      "catText": "产品扩张",
+      "accent": "#cc785c",
+      "bg": {
+        "top": "Anthropic",
+        "mid": "Claude Cowork",
+        "bot": "Web + Mobile",
+        "topRight": "远程 session"
+      },
+      "title": [
+        {
+          "text": "Claude Cowork 扩展至 Web 和手机端，"
+        },
+        {
+          "text": "跨设备远程 session 上线",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "关上笔记本任务继续跑，"
+        },
+        {
+          "text": "Max 订阅用户率先获取，更多套餐跟进",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 将 Claude Cowork 从桌面端扩展至 Web 和 Mobile，远程 session 在云端持续运行，文件和对话跨设备同步，Max 套餐用户率先开放"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这标志着 AI 助手从「本地工具」升级为「云端智能体工作区」，与 Google Workspace Agent 和 Microsoft 365 Copilot 在企业协作场景正面交锋"
+        },
+        {
+          "k": "对你的影响",
+          "v": "订阅 Max 的用户可即刻体验；定时任务和长流程智能体即使设备离线也能继续执行，适合跨时区异步协作场景"
+        }
+      ],
+      "src": "📎 techcrunch.com · nbcnews.com"
+    },
+    {
+      "slug": "04-deepseek-v4-official",
+      "idx": "04",
+      "catText": "开源动态",
+      "accent": "#4e6ef2",
+      "bg": {
+        "top": "DeepSeek",
+        "mid": "V4 官版",
+        "bot": "7 月中发布",
+        "topRight": "峰时 2× 定价"
+      },
+      "title": [
+        {
+          "text": "DeepSeek V4 官版 7 月中旬发布，"
+        },
+        {
+          "text": "引入峰时 2× 溢价，旧模型 7/24 退市",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Pro（1.6T/49B 激活）+ Flash（284B/13B），"
+        },
+        {
+          "text": "预览版用户须在 7/24 前完成迁移",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek V4 将于 7 月中旬完成正式版发布，从预览版「毕业」，同步上线北京工作时段 2× 峰时定价；deepseek-chat 和 deepseek-reasoner 标注 7 月 24 日弃用"
+        },
+        {
+          "k": "为什么重要",
+          "v": "V4-Pro 以 1.6 万亿总参数 / 49B 激活参数，宣称性能媲美全球顶级闭源模型，且仍保持开放权重；峰时定价是国产大模型首次引入浮动商业定价体系"
+        },
+        {
+          "k": "对你的影响",
+          "v": "依赖 deepseek-chat/reasoner 的开发者须在 7/24 前切换到 V4-Flash；有大批量夜间任务的团队可利用非峰时低价窗口节省成本"
+        }
+      ],
+      "src": "📎 api-docs.deepseek.com · explainx.ai · sitepoint.com"
+    },
+    {
+      "slug": "05-gemini35-delay",
+      "idx": "05",
+      "catText": "大厂博弈",
+      "accent": "#DB4437",
+      "bg": {
+        "top": "Google",
+        "mid": "Gemini 3.5 Pro",
+        "bot": "再度跳票",
+        "topRight": "两次 deadline"
+      },
+      "title": [
+        {
+          "text": "Gemini 3.5 Pro 第二次错过 GA 目标，"
+        },
+        {
+          "text": "token 超耗与编程短板成双重绊脚石",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "已超 I/O 承诺和 6/30 节点，"
+        },
+        {
+          "text": "企业测试发现扩展任务 token 耗量远超预期",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "截至 7 月第二周，Gemini 3.5 Pro 仍停留在 Vertex AI 企业限量预览，未公布 GA 日期，无公开 benchmark，无已确认定价，已先后错过 Google I/O「下月发布」和 6 月 30 日两个节点"
+        },
+        {
+          "k": "为什么重要",
+          "v": "企业测试者反馈两大问题：长链智能体任务中 token 消耗显著高于预期（成本失控）；多步骤编程表现未达 I/O 设定的内部目标，令市场对 Gemini 追赶 OpenAI 的时间表产生质疑"
+        },
+        {
+          "k": "对你的影响",
+          "v": "计划 H2 切换到 Gemini 3.5 Pro 的工程团队建议暂缓迁移规划；已在评估 AI 编程助手的企业可将 Grok 4.5 和 GPT-5.6 Terra 纳入对比测试"
+        }
+      ],
+      "src": "📎 thursdai.news · llm-stats.com"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.6 全球开放 / Grok 4.5 来袭 / Claude Cowork 全平台 / DeepSeek V4 官发 / Gemini 3.5 再跳票"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-07-10"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
