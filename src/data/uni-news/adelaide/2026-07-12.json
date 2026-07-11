@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-12",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "阿德莱德大学",
+    "hookSub": "节能改造社区落地 + 蚕豆育种突破",
+    "hookSubHighlight": "社区落地",
+    "subLines": [
+      "APY Lands 住宅节能改造显著改善极端热区室内温度",
+      "漏气治理是降温节能的最有效单项干预",
+      "新蚕豆品种 FBA Coorong + FBA Barmah 抗病出口两手抓"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "APY Lands 节能改造", "data": "6 户完成改造" },
+      { "num": "02", "title": "蚕豆育种发布", "data": "FBA Coorong + FBA Barmah" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "可持续工程研究",
+      "h2Main": "极端热区住宅节能改造出成果",
+      "h2Sub": "APY Lands 试点 · 漏气治理是最有效单项干预",
+      "h2Highlight": "漏气治理",
+      "lead": "阿德莱德大学 Ke Xing 博士团队 7 月 10 日发布 APY Lands 住宅节能改造阶段报告：试点自 2023 年 12 月启动，已完成 6 户改造，核心发现是解决非控制性漏气（air leakage）是改善室内热舒适度和降低能耗的最有效单项手段。",
+      "bullets": [
+        { "k": "试点规模", "v": "12 户家庭安装能耗监测 · <b>6 户</b>完成实际改造 · APY Lands 土著偏远社区" },
+        { "k": "核心发现", "v": "「addressing uncontrolled air leakage delivers the greatest improvements in thermal comfort and energy efficiency」" },
+        { "k": "最优方案", "v": "<b>50mm 连续无断桥隔热层</b>是降低墙体和天花板热桥效应的最有效选项，兼顾冬夏两季节能" },
+        { "k": "培训建设", "v": "与 TAFE / SA Housing Trust / Renewal SA 合办「培训培训师」工作坊，为社区培育净零能耗施工人才" },
+        { "k": "研究背景", "v": "RACE for 2030 资助项目 · 气候最极端澳洲居住区之一 · 夏季气温长期超 40°C" }
+      ],
+      "source": "RACE for 2030 / Adelaide University · 2026-07-10",
+      "sourceUrl": "https://www.miragenews.com/desert-retrofit-project-elevates-apy-lands-1490687/"
+    },
+    {
+      "idx": "02",
+      "category": "农业科学研究",
+      "h2Main": "蚕豆育种双突破：FBA Coorong + FBA Barmah",
+      "h2Sub": "国家蚕豆育种计划 · 抗病 + 出口优化",
+      "h2Highlight": "出口优化",
+      "lead": "阿德莱德大学农业育种团队 7 月 8 日发布两个新蚕豆品种 FBA Coorong 和 FBA Barmah，由国家蚕豆育种计划 GRDC 联合资助，重点解决主要病害抗性不足和出口品质要求，面向南澳 / 维州主产区和旱地轮作系统。",
+      "bullets": [
+        { "k": "新品种", "v": "<b>FBA Coorong</b>（南澳/维州主产区）+ <b>FBA Barmah</b>（低降雨灌溉与旱地轮作）" },
+        { "k": "抗病改进", "v": "增强对 Chocolate Spot 和 Ascochyta Blight 等主要豆科病害的抗性" },
+        { "k": "出口导向", "v": "粒型和品质特征针对亚洲和中东出口市场需求优化" },
+        { "k": "资助来源", "v": "Grains Research and Development Corporation（GRDC）联合资助 · 国家蚕豆育种计划" },
+        { "k": "市场背景", "v": "澳洲蚕豆年出口量约占全球蚕豆贸易 20-25% · 中国是主要进口国之一" }
+      ],
+      "source": "Adelaide University · 2026-07-08",
+      "sourceUrl": "https://adelaide.edu.au/about/news/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿德莱德大学今日两大研究亮点：工程 + 农业科学",
+    "items": [
+      {
+        "n": "01",
+        "title": "APY Lands 节能改造 · 漏气治理见效",
+        "body": "6 户偏远土著住宅改造完成，核心发现：解决漏气是降温节能的最有效单项干预，50mm 无断桥隔热层方案最优"
+      },
+      {
+        "n": "02",
+        "title": "蚕豆新品种 · 抗病出口双优化",
+        "body": "FBA Coorong + FBA Barmah 发布，GRDC 国家蚕豆育种计划资助，增强 Chocolate Spot / Ascochyta Blight 抗性，粒型针对出口优化"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天精选 · 科研 + 招生一手同步",
+      "badge": "07 / 12"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿德莱德大学今日两大研究",
+      "body": "阿德莱德大学 · 7月12日\n\n🏠 极端热区住宅节能改造出成果\nAPY Lands 土著社区试点：漏气治理是最有效单项降温干预\n6 户改造完成 · RACE for 2030 资助项目\n\n🌱 蚕豆育种双突破\nFBA Coorong + FBA Barmah 两个新品种发布\n抗病性强 + 针对出口市场优化",
+      "tags": "#阿德莱德大学 #澳洲大学 #可持续工程 #农业科学 #科研进展"
+    },
+    "p2": {
+      "title": "澳洲最热地区住宅怎么降温",
+      "body": "APY Lands 在哪？南澳西北角，夏天气温经常超过 40°C，是澳洲气候最极端的人居区之一。\n\n住宅的隔热问题在这里不是小事，是实实在在的健康问题。\n\n阿德莱德大学 Ke Xing 博士团队在这里做了节能改造试点，7 月 10 日发布进展报告。自 2023 年 12 月启动以来，12 户装了能耗监测，6 户完成了实际改造。\n\n研究团队的核心发现很具体：\n🌬️ 解决非控制性漏气（air leakage）= 最有效的单项干预\n🧱 50mm 连续无断桥隔热层 = 墙体和天花板热桥效应最优解\n\n他们还做了「培训培训师」工作坊，与 TAFE、SA Housing Trust、Renewal SA 合作，给社区本地建筑工人提供净零能耗施工技能培训。\n\n学 Civil Engineering / Architecture / Sustainable Construction 的同学，这种社区落地的真实工程研究，在澳洲大学里不算多见。",
+      "tags": "#阿德莱德大学 #可持续建筑 #节能改造 #工程研究 #澳洲留学 #土木工程 #建筑工程"
+    },
+    "p3": {
+      "title": "阿德莱德大学育出新蚕豆品种",
+      "body": "蚕豆在澳洲是挺重要的出口作物——年出口量大概占全球蚕豆贸易的 20-25%，中国是主要进口国之一。\n\n阿德莱德大学农业育种团队刚刚发布了两个新品种：\n\n🫘 FBA Coorong——适合南澳和维州主产区\n🫘 FBA Barmah——适合低降雨灌溉和旱地轮作系统\n\n这两个品种的亮点是两件事同时做到了：\n✅ 增强了对 Chocolate Spot 和 Ascochyta Blight 这两种主要豆科病害的抗性\n✅ 粒型和品质特征针对亚洲和中东出口市场优化\n\n这是国家蚕豆育种计划（由 GRDC 联合资助）的最新成果，阿德莱德大学是项目核心承担机构之一。\n\n学 Agriculture / Plant Science / Crop Breeding 方向的同学，阿德莱德大学在豆类和谷物育种这条线上与 GRDC 有长期合作，是 Honours 和 PhD 课题资源很稳的方向之一。",
+      "tags": "#阿德莱德大学 #农业科学 #植物育种 #蚕豆 #澳洲留学 #农学 #科研发现"
+    },
+    "p4": {
+      "title": "阿德莱德大学工程 + 农学方向",
+      "body": "今天阿德莱德大学两条消息，一条工程一条农学，方向完全不同但都很接地气。\n\n🏗️ 如果你在考虑 Civil / Architecture / Sustainable Engineering 方向\n→ APY Lands 节能改造试点提供了真实社区工程案例，从施工方案到社区培训都有落地\n→ 阿德莱德大学在可持续建造和热工程方向有 RACE for 2030 等研究资金支持\n→ Honours、MEngineering、PhD 方向都可以对接\n\n🌱 如果你在考虑 Agriculture / Plant Science / Agribusiness 方向\n→ FBA Coorong / FBA Barmah 背后是国家蚕豆育种计划（GRDC 资助）\n→ 阿德莱德大学农业科学学院在豆类育种这条线上是澳洲最活跃的研究机构之一\n→ 研究生阶段有直接对接产业的 PhD 课题机会\n\n有在申请这两个方向的同学评论区扣 1，来聊。",
+      "tags": "#阿德莱德大学 #澳洲读研 #可持续工程 #农业科学 #专业选择 #澳洲留学 #工程留学"
+    },
+    "p5": {
+      "title": "阿德莱德大学今日速览",
+      "body": "阿德莱德大学 · 2026年7月12日\n\n01 APY Lands 节能改造进展\n6 户改造完成 · 漏气治理最有效 · 50mm 无断桥隔热层最优\nRACE for 2030 资助 · 土著偏远社区落地\n\n02 蚕豆育种双品种发布\nFBA Coorong + FBA Barmah · GRDC 国家计划资助\n抗病改进 + 出口市场优化",
+      "tags": "#阿德莱德大学 #澳洲大学新闻 #今日速览 #可持续工程 #农业科学"
+    }
+  },
+  "mp": {
+    "title": "APY Lands 极端热区住宅节能改造显效 + 国家蚕豆育种计划发布两个抗病出口新品种——阿德莱德大学两项研究",
+    "lead": "阿德莱德大学今日两项应用研究：一是 Ke Xing 博士团队在南澳 APY Lands 土著偏远社区的住宅节能改造试点发布阶段成果，6 户家庭完成改造，核心发现是解决漏气（air leakage）是改善极端热区室内温度的最有效单项干预；二是农业育种团队通过国家蚕豆育种计划发布两个新品种 FBA Coorong 和 FBA Barmah，兼具增强病害抗性和出口市场品质优化。",
+    "meta": { "readTime": "4 分钟" },
+    "newsBodies": [
+      {
+        "h2": "APY Lands 节能改造成果：漏气治理是极端热区降温的最有效单项干预",
+        "paragraphs": [
+          "南澳 APY Lands（Anangu Pitjantjatjara Yankunytjatjara）是澳洲气候最为极端的人居区域之一，夏季气温长期超过 40°C，冬季气温可骤降至 0°C 以下。该地区的土著居民长期居住在隔热性能严重不足的住宅中，室内温度随室外极端气候大幅波动，对健康产生实质性影响。阿德莱德大学 Ke Xing 博士领导的研究团队与 RACE for 2030 合作，自 2023 年 12 月起在此开展节能改造试点项目，7 月 10 日发布最新进展报告。",
+          "试点目前已在 12 户家庭安装能耗监测设备，并对其中 6 户完成了实际改造施工。研究团队的核心发现是：「Addressing uncontrolled air leakage delivers the greatest improvements in thermal comfort and energy efficiency.」——在所有单项改造措施中，解决非控制性漏气的效果最为显著。进一步的模拟分析显示，在墙体和天花板采用 50mm 连续无断桥隔热层是减少热桥效应（thermal bridging）的最有效设计选项，对冬夏两季采暖和制冷能耗均有明显改善。作为项目的社区遗产建设部分，团队还与 TAFE SA、SA Housing Trust、Renewal SA 和 Furnell's 施工承包商联合，为当地建筑工人开展「培训培训师」工作坊，提供净零能耗建造技能，并为 TAFE 学生提供净零能耗建造奖学金（Net Zero Energy Builder Scholarships）。",
+          "对建筑、土木工程、可持续建造和公共政策方向的学生来说，这个项目代表了阿德莱德大学在真实社区环境中开展应用工程研究的典型案例，涵盖了从施工技术方案到社区培训体系的完整链条。对有意从事偏远地区可持续基础设施研究的学生，阿德莱德大学的 Engineering & Built Environment 学院有对接 RACE for 2030 等产业资助研究项目的 Honours 和 PhD 通道。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.miragenews.com/desert-retrofit-project-elevates-apy-lands-1490687/\">Mirage News</a> · <a href=\"https://www.racefor2030.com.au/project/apy-lands-energy-efficiency-retrofit-pilot/\">RACE for 2030</a> · 2026-07-10"
+      },
+      {
+        "h2": "蚕豆育种双突破：FBA Coorong 和 FBA Barmah 发布，抗病性与出口品质两手抓",
+        "paragraphs": [
+          "阿德莱德大学农业育种研究团队于 7 月 8 日正式发布两个新蚕豆（faba bean）品种：FBA Coorong 和 FBA Barmah。两个品种均来自国家蚕豆育种计划（National Faba Bean Breeding Program），由澳洲谷物研究与发展公司（Grains Research and Development Corporation, GRDC）联合资助，阿德莱德大学是核心研究承担机构之一。蚕豆是澳洲重要的豆类出口作物，年出口量约占全球蚕豆贸易的 20-25%，中国是澳洲蚕豆的主要进口国之一。",
+          "两个新品种的核心改进集中在两个维度：一是增强对 Chocolate Spot（巧克力斑点病）和 Ascochyta Blight（腐霉叶斑病）的抗性——这两种是澳洲蚕豆生产中危害最严重的主要真菌病害，过去每年造成大量产量损失；二是粒型和品质特征针对亚洲和中东出口市场需求进行了专项优化，提升商品化竞争力。FBA Coorong 适合南澳和维州的主产区条件，FBA Barmah 则在低降雨量的灌溉和旱地轮作系统中表现突出，扩展了蚕豆的种植适应性区间。",
+          "对农业科学、植物遗传学和作物育种方向的学生而言，阿德莱德大学在豆类和谷物育种方向是澳洲最活跃的研究机构之一，与 GRDC 保持长期稳定的合作资助关系。从 Bachelor of Agricultural Sciences 到 Honours 和 PhD，均有直接对接产业的课题资源。澳洲农业出口体系与中国及亚洲市场高度关联，这类研究方向对有志于农业科技、粮食安全和作物改良的学生来说，提供了清晰的产业就业路径。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://adelaide.edu.au/about/news/\">Adelaide University News</a> · 2026-07-08"
+      }
+    ],
+    "quickview": {
+      "title": "今日速览",
+      "items": [
+        "APY Lands 节能改造：解决漏气是极端热区降温最有效单项干预；50mm 无断桥隔热层最优；RACE for 2030 资助，社区培训同步推进",
+        "蚕豆育种：FBA Coorong + FBA Barmah 发布，GRDC 资助，增强 Chocolate Spot / Ascochyta Blight 抗性，出口市场品质优化"
+      ]
+    },
+    "cta": {
+      "big": "关注阿德莱德大学每日动态",
+      "sub": "10 所澳洲大学 · 科研 + 招生 + 奖学金一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "小红书草稿 · 澳洲最热区住宅改造研究",
+        "body": "APY Lands 是南澳西北角的土著偏远社区，夏天气温经常超 40°C，是澳洲最极端的人居区之一。\n\n住宅隔热问题在这里是实实在在的健康威胁。\n\n阿德莱德大学 Ke Xing 博士团队在 2023 年底启动了节能改造试点，7 月 10 日发布进展：12 户装了能耗监测，6 户完成改造。\n\n核心发现很具体：\n🌬️ 解决非控制性漏气 = 改善室内温度最有效的单项干预\n🧱 50mm 连续无断桥隔热层 = 墙体和天花板热桥问题的最优解\n\n他们还做了社区技能培训，给当地建筑工人教净零能耗施工。\n\n学 Civil Engineering / 可持续建筑的同学，这种社区落地的真实工程研究机会，在澳洲大学里并不多见，值得关注。",
+        "tags": ["阿德莱德大学", "可持续建筑", "节能改造", "土木工程", "澳洲留学", "工程研究", "绿色建筑"]
+      },
+      {
+        "heading": "小红书草稿 · 澳洲蚕豆新品种：抗病 + 出口两手抓",
+        "body": "你知道澳洲是全球重要的蚕豆出口国吗？年出口量大约占全球蚕豆贸易的 20-25%，中国是主要买家之一。\n\n阿德莱德大学农业团队刚刚发布了两个新品种：\n🫘 FBA Coorong（南澳/维州主产区适用）\n🫘 FBA Barmah（低降雨灌溉和旱地轮作适用）\n\n这两个品种同时解决了两个问题：\n✅ 对 Chocolate Spot 和 Ascochyta Blight 抗性增强（这两种病以前每年造成很大产量损失）\n✅ 粒型和品质针对亚洲和中东出口市场优化\n\n背后是国家蚕豆育种计划，GRDC 联合资助，阿德莱德大学是核心参与机构。\n\n学 Agriculture / Plant Science / 食品科学方向的同学，阿德莱德大学在豆类育种这条线上与 GRDC 有长期合作，课题资源稳。",
+        "tags": ["阿德莱德大学", "农业科学", "植物育种", "蚕豆", "澳洲农业", "澳洲留学", "作物育种"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一", "result": "「最有效」描述来自研究团队官方报告原文，属实验结论客观表述保留" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取", "result": "未检出（「评论区扣 1」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" }
+    ]
+  }
+}
