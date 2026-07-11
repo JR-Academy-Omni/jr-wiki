@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-12",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "新南威尔士大学",
+    "hookSub": "法学大奖 + 美国资助 医工突破",
+    "hookSubHighlight": "美国资助",
+    "subLines": [
+      "McAdam 教授斩获 €10 万 Gerda Henkel Prize",
+      "难民法与气候迁移研究享誉全球",
+      "唯一非美国团队入选 US$9070 万 ARPA-H 项目"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "Gerda Henkel Prize", "data": "€100,000 人文大奖" },
+      { "num": "02", "title": "ARPA-H 胎儿监测", "data": "240 万澳元资助" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术荣誉",
+      "h2Main": "UNSW 法学教授斩获欧洲 €10 万人文大奖",
+      "h2Sub": "Gerda Henkel Prize · 难民法 + 气候迁移研究",
+      "h2Highlight": "Gerda Henkel Prize",
+      "lead": "UNSW Scientia Professor Jane McAdam AO 荣获 2026 年 Gerda Henkel Prize（€100,000），该奖项是人文与社会科学领域全球最具声望的奖项之一，每两年颁发一次，表彰其在国际难民法和气候相关人口迁移领域的开创性研究。",
+      "bullets": [
+        { "k": "奖项规格", "v": "Gerda Henkel Prize · 德国 Gerda Henkel 基金会 · <b>€100,000</b> · 每两年颁发" },
+        { "k": "获奖原因", "v": "国际难民法 + 气候变化背景下的人口迁移法律研究，覆盖政策影响与国际实践" },
+        { "k": "教授原话", "v": "「This award...are a testament to the importance of history in illuminating thorny issues of contemporary research, policy and practice.」" },
+        { "k": "颁奖典礼", "v": "2026 年 11 月 23 日 · 德国杜塞尔多夫" },
+        { "k": "研究中心", "v": "Andrew & Renata Kaldor Centre for International Refugee Law · 全球最大专注难民法研究中心" }
+      ],
+      "source": "UNSW Newsroom · 2026-07",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/07/unsw-legal-expert-awarded-prestigious-gerda-henkel-prize"
+    },
+    {
+      "idx": "02",
+      "category": "科研资助",
+      "h2Main": "UNSW 唯一非美国团队入选 ARPA-H 胎儿监测项目",
+      "h2Sub": "240 万澳元资助 · AI 无创监测 · 四年期 US$9070 万计划",
+      "h2Highlight": "唯一非美国团队",
+      "lead": "UNSW 两位教授 Prof Alec Welsh（临床医学）和 Prof Tracie Barber（机械工程）入选美国 ARPA-H 的 MOCS 项目，成为唯一一支来自美国以外的团队，获资助最高达 240 万澳元，用于开发 AI 驱动的无创胎儿监测系统。",
+      "bullets": [
+        { "k": "资助规模", "v": "UNSW 获资助高达 <b>$A240 万</b> · MOCS 项目总规模 <b>US$9070 万</b> · 四年期" },
+        { "k": "资助机构", "v": "美国卫生和公共服务部 Advanced Research Projects Agency for Health（ARPA-H）" },
+        { "k": "技术目标", "v": "AI 驱动无创无线胎儿监测仪（实时血氧 + 护理建议）+ 产前胎盘健康快速检测" },
+        { "k": "UNSW 贡献", "v": "子宫灌注定量超声技术研发，延续十年 Wellcome Leap In Utero 研究积累" },
+        { "k": "团队背景", "v": "Prof Welsh · UNSW 临床医学 · Prof Barber · UNSW 机械制造工程" }
+      ],
+      "source": "UNSW Newsroom · 2026-07-10",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/07/unsw-teams-secure-funding-to-advance-fetal-monitoring"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 今日两大亮点：人文社科国际大奖 + 美国政府医工资助",
+    "items": [
+      {
+        "n": "01",
+        "title": "Gerda Henkel Prize · €10 万人文大奖",
+        "body": "Jane McAdam 教授以难民法 + 气候迁移研究斩获德国 Gerda Henkel Prize，全球人文社科最高荣誉之一，颁奖礼 11 月杜塞尔多夫"
+      },
+      {
+        "n": "02",
+        "title": "ARPA-H 胎儿监测 · 全球唯一非美团队",
+        "body": "UNSW 获美国 ARPA-H 资助 240 万澳元，入选 US$9070 万 MOCS 项目，开发 AI 无创胎儿监测，是全球唯一非美国团队"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天精选 · 科研 + 招生一手同步",
+      "badge": "07 / 12"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 今日两大硬料",
+      "body": "新南威尔士大学 · 7月12日\n\n⚖️ Jane McAdam 教授斩获 Gerda Henkel Prize\n€10 万欧元 · 人文社科全球最高荣誉之一\n难民法 + 气候迁移研究让她走到了这一步\n\n🏥 唯一非美国团队入选 US$9070 万项目\nARPA-H MOCS 资助高达 240 万澳元\n两位 UNSW 教授开发 AI 无创胎儿监测",
+      "tags": "#UNSW #新南威尔士大学 #澳洲留学 #法学 #医工研究"
+    },
+    "p2": {
+      "title": "难民法权威拿下€10万欧洲大奖",
+      "body": "在 UNSW 读法学的同学，这条消息值得记一下。\n\nUNSW Scientia Professor Jane McAdam AO 刚刚拿到 2026 年 Gerda Henkel Prize——德国 Gerda Henkel 基金会每两年颁一次，奖金 €100,000，是人文与社会科学领域全球公认最有分量的奖项之一。\n\nMcAdam 教授的研究方向是国际难民法和气候相关人口迁移，说白了就是：当气候变化逼迫人们迁离家园，现有国际法能不能保护他们，该怎么保护。这是这个时代越来越紧迫的真实法律问题。\n\n她在颁奖声明里说：「这个奖项见证了历史学对当代研究、政策和实践中棘手问题的重要意义。」\n\n颁奖典礼 11 月 23 日在德国杜塞尔多夫举行。\n\nUNSW 的 Andrew & Renata Kaldor Centre for International Refugee Law 是全球最大的专注难民法的研究中心。学国际法、人权法的姐妹，评论区扣 1，可以聊聊 UNSW Law 的申请方向。",
+      "tags": "#UNSW #法学留学 #难民法 #气候迁移 #澳洲留学 #新南威尔士大学 #留学干货"
+    },
+    "p3": {
+      "title": "UNSW唯一非美团队入选9千万美元项目",
+      "body": "这条消息放在全球医工交叉圈里都算是大新闻。\n\nUNSW 两位教授——Prof Alec Welsh（产科 + 母胎医学专科）和 Prof Tracie Barber（机械制造工程）——成为美国 ARPA-H「Making Obstetrics Care Smart」项目里<b>唯一一支来自美国以外的团队</b>，获资助高达 $A240 万。\n\nARPA-H 是美国卫生部的高级研究机构，MOCS 项目总规模 US$9070 万 · 四年期，目标是替代已沿用了 50 年的胎儿监测技术。\n\nUNSW 的贡献方向是子宫灌注定量超声技术，这不是从零开始——两位教授在此前的 Wellcome Leap In Utero 项目里已经积累了十年的胎儿和胎盘血流测量研究基础。\n\n最终成果预期是两样东西：\n📱 AI 驱动的无线无创胎儿监测仪（实时血氧 + 护理建议）\n🔬 产前胎盘健康快速检测工具\n\nBiomedical Engineering、Mechanical Engineering、Clinical Medicine 三个方向的同学，UNSW 在围产期医学工程这条线上是真有实力的。",
+      "tags": "#UNSW #医工交叉 #ARPA-H #生物医学工程 #澳洲大学科研 #澳洲留学 #新南威尔士大学"
+    },
+    "p4": {
+      "title": "UNSW 法学 + 医工方向选哪个",
+      "body": "今天 UNSW 两条消息方向完全不同，但都和「选专业」有关。\n\n⚖️ 如果你在考虑 Law / 国际关系方向\n→ Jane McAdam 拿到 Gerda Henkel Prize，Kaldor Centre 是全球最大的难民法研究中心\n→ 气候变化 × 国际法是这个时代增长速度最快的细分赛道之一\n→ LLM 和 JD 都有对应研究方向，UNSW Law 在这条线上有真实的国际影响力\n\n🏥 如果你在考虑 Medical Engineering / Biomedical 方向\n→ Welsh + Barber 团队已经是 ARPA-H 里唯一一支非美国团队，国际认可度在这里\n→ 从 Wellcome Leap 到 MOCS，研究链条已经十年以上，PhD 课题资源非常稳\n→ Mechanical Engineering × Clinical Medicine 的交叉路径非常清晰\n\n两个方向有同学在申请的评论区扣 1，我来聊。",
+      "tags": "#UNSW #法学留学 #生物医学工程 #澳洲读研 #专业选择 #澳洲留学 #新南威尔士大学"
+    },
+    "p5": {
+      "title": "UNSW 今日速览",
+      "body": "新南威尔士大学 · 2026年7月12日\n\n01 法学国际大奖\nJane McAdam 教授斩获 Gerda Henkel Prize · €100,000\n难民法 + 气候迁移研究 · 11月杜塞尔多夫颁奖\n\n02 美国资助医工突破\nARPA-H MOCS 项目资助 $A240 万\n唯一非美团队 · AI 无创胎儿监测 · 四年 US$9070 万计划",
+      "tags": "#UNSW #新南威尔士大学 #澳洲大学新闻 #今日速览 #法学 #医工研究"
+    }
+  },
+  "mp": {
+    "title": "UNSW 法学权威斩获 €10 万欧洲人文大奖 + 全球唯一非美团队入选 US$9070 万 ARPA-H 胎儿监测项目",
+    "lead": "UNSW Scientia Professor Jane McAdam AO 荣获 2026 年 Gerda Henkel Prize（奖金 €100,000），该奖项是德国 Gerda Henkel 基金会每两年颁发一次的人文社科领域全球顶级荣誉，表彰 McAdam 教授在国际难民法和气候相关人口迁移领域的开创性研究与政策影响。与此同时，UNSW 两位教授 Prof Alec Welsh（临床医学）和 Prof Tracie Barber（机械工程）成功入选美国 ARPA-H 的 Making Obstetrics Care Smart（MOCS）项目，成为全球唯一一支来自美国以外的团队，获资助高达 240 万澳元，用于开发 AI 驱动的无创胎儿监测系统。",
+    "meta": { "readTime": "4 分钟" },
+    "newsBodies": [
+      {
+        "h2": "UNSW 法学权威斩获 €10 万 Gerda Henkel Prize：难民法与气候迁移研究享誉全球",
+        "paragraphs": [
+          "UNSW Sydney 的 Scientia Professor Jane McAdam AO 荣获 2026 年 Gerda Henkel Prize，奖金为 €100,000（约合澳元 17 万）。该奖由德国 Gerda Henkel 基金会每两年颁发一次，是人文与社会科学领域全球公认最有声望的奖项之一，历届获奖者均为在各自领域做出重大学术与政策贡献的国际顶尖学者。",
+          "McAdam 教授是国际难民法和气候变化背景下人口迁移领域的全球领军学者。她的研究核心议题是：当气候变化和自然灾害迫使大规模人口离开家园时，现有的国际难民法框架能否提供有效保护，以及如何发展新的法律机制来回应这一现实挑战。她在获奖声明中表示：「This award – and the wider work of the Gerda Henkel Foundation – are a testament to the importance of history in illuminating thorny issues of contemporary research, policy and practice.」颁奖典礼定于 2026 年 11 月 23 日在德国杜塞尔多夫举行，McAdam 教授届时将发表获奖演讲。",
+          "对法学方向的学生而言，McAdam 教授领导的 Andrew & Renata Kaldor Centre for International Refugee Law 是 UNSW 的旗舰研究中心，也是全球规模最大的专注于国际难民法研究的机构之一。该中心在气候迁移法律框架、无国籍问题、跨境保护机制等细分方向拥有深厚研究积累，对申请 UNSW JD、LLM（尤其是 International Law 方向）、以及 PhD 研究生来说，都是重要的研究资源入口。气候变化 × 国际法的交叉赛道在全球范围内人才需求持续增长。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unsw.edu.au/newsroom/news/2026/07/unsw-legal-expert-awarded-prestigious-gerda-henkel-prize\">UNSW Newsroom</a> · <a href=\"https://www.gerda-henkel-stiftung.de/gerda_henkel_preis_2026_jane_mcadam\">Gerda Henkel Foundation</a>"
+      },
+      {
+        "h2": "全球唯一非美团队：UNSW 入选 ARPA-H MOCS 项目获资助 240 万澳元开发 AI 胎儿监测",
+        "paragraphs": [
+          "UNSW Sydney 宣布，该校两位教授——Prof Alec Welsh（UNSW 临床医学学院，执业产科及母胎医学专科医生，就职于皇家妇女医院）和 Prof Tracie Barber（UNSW 机械与制造工程学院）——成功加入美国 ARPA-H（Advanced Research Projects Agency for Health，美国卫生和公共服务部高级研究项目机构）发起的 Making Obstetrics Care Smart（MOCS）项目，获资助最高达 240 万澳元。该项目总规模达 US$9070 万，为期四年，是美国政府为推动产科护理现代化而启动的最大规模单项专项投资之一。",
+          "UNSW 团队是 MOCS 项目中唯一一支来自美国以外的参与团队。MOCS 的核心目标是彻底替代已沿用 50 年的胎儿监测技术，开发两样产品：一套 AI 驱动的无线无创胎儿监测仪（能在分娩过程中实时提供胎儿血氧水平和护理建议），以及一项产前胎盘健康快速检测工具（用于在分娩前识别高风险孕妇）。UNSW 团队具体负责子宫灌注定量超声技术的研发，该方向直接延续了此前价值 540 万澳元的 Wellcome Leap In Utero 项目——Welsh 和 Barber 团队已在胎儿与胎盘血流测量领域积累了超过十年的研究基础。",
+          "对 Biomedical Engineering、Mechanical Engineering 和 Clinical Medicine 方向的学生而言，这一资助标志着 UNSW 在围产期医学工程领域已具备与美国顶尖机构平行的研究能力，且与美国联邦卫生研究体系建立了正式合作通道。如果 MOCS 项目最终成功落地，ARPA-H 估计该系统每年将为美国医疗体系减少高达 US$10 亿的不必要手术费用。从 PhD 课题方向角度看，UNSW 在该领域有从 Wellcome Leap 到 ARPA-H 的完整资金链条，是医工交叉研究的重要入口。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unsw.edu.au/newsroom/news/2026/07/unsw-teams-secure-funding-to-advance-fetal-monitoring\">UNSW Newsroom</a> · <a href=\"https://arpa-h.gov/explore-funding/programs/mocs\">ARPA-H MOCS Program</a>"
+      }
+    ],
+    "quickview": {
+      "title": "今日速览",
+      "items": [
+        "法学国际大奖：Jane McAdam 教授斩获 Gerda Henkel Prize（€100,000），难民法 + 气候迁移研究获全球人文社科最高荣誉，11 月杜塞尔多夫颁奖",
+        "ARPA-H 医工资助：UNSW 全球唯一非美团队入选 MOCS 项目，获资助 $A240 万，开发 AI 无创胎儿监测系统，项目总规模 US$9070 万"
+      ]
+    },
+    "cta": {
+      "big": "关注 UNSW 每日大学日报",
+      "sub": "10 所澳洲大学 · 科研 + 招生 + 奖学金一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "小红书草稿 · UNSW 法学权威斩获欧洲 €10 万人文大奖",
+        "body": "UNSW 法学教授拿了一个我觉得很多人不知道有多重分量的奖。\n\nUNSW Scientia Professor Jane McAdam AO 获得 2026 年 Gerda Henkel Prize，奖金 €100,000。这个奖由德国 Gerda Henkel 基金会每两年颁一次，是人文与社会科学领域全球公认最有分量的独立奖项之一。\n\n她的方向是国际难民法 + 气候相关人口迁移。说简单一点：当气候变化迫使人们迁离家园，现有国际法该怎么保护他们？这个问题在今后 20 年会越来越重要，全球对这个方向的法律专家需求在持续增长。\n\n她说：「这个奖见证了历史研究对当代政策和法律实践中棘手问题的重要意义。」\n\nUNSW 的 Kaldor Centre for International Refugee Law 是全球最大的专注难民法研究中心，JD、LLM、PhD 都有对应方向。\n\n在考虑 UNSW Law 或者国际法方向的姐妹，评论区扣 1，我来聊聊申请准备。",
+        "tags": ["UNSW", "法学留学", "难民法", "国际法", "气候迁移", "澳洲留学", "新南威尔士大学", "留学干货"]
+      },
+      {
+        "heading": "小红书草稿 · UNSW 成全球唯一非美团队入选 US$9070 万项目",
+        "body": "这条放在全球医工交叉圈里都算是大消息。\n\nUNSW 两位教授入选美国 ARPA-H 的 MOCS 项目——全球唯一一支来自美国以外的团队，获资助高达 $240 万澳元。\n\nARPA-H 是美国卫生部的高级研究机构，MOCS 总规模 US$9070 万，目标是替代 50 年前的胎儿监测技术。\n\nUNSW 两位教授：\n🩺 Prof Alec Welsh（产科 + 母胎医学专科）\n⚙️ Prof Tracie Barber（机械制造工程）\n\n他们要做的是：子宫灌注定量超声技术，这是他们做了十年的研究方向，从 Wellcome Leap 一路积累到现在。\n\n最终产品预期：AI 无线无创胎儿监测仪 + 产前胎盘快速检测。\n\n对在考虑 Biomedical Engineering 或者 Clinical Medicine 的同学——UNSW 在围产期医学工程这条线上是有真实国际地位的，不只是排名说说而已。",
+        "tags": ["UNSW", "医工交叉", "生物医学工程", "ARPA-H", "澳洲大学科研", "澳洲留学", "新南威尔士大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一", "result": "「全球最大」用于描述 Kaldor Centre 专注于难民法研究中心，属客观描述保留；「唯一非美国团队」为官方事实保留" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取", "result": "未检出（「评论区扣 1」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" }
+    ]
+  }
+}
