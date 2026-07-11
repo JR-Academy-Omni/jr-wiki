@@ -1,0 +1,307 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-07-12（Canvas 版）</title>
+<meta name="description" content="2026-07-12 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-07-12.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-07-12",
+  "summary": {
+    "hook": [
+      "本周 AI 大事",
+      "五条不能错过"
+    ],
+    "sub": "GPT-5.6 Sol 开发者旗舰亮相，DeepSeek 破纪录融资 51 亿元并启动自研芯片，Grok 4.5 联手 Cursor 上线，Claude Sonnet 5 上下文拉满 100 万 token，WAIC 2026 七月上海倒计时",
+    "items": [
+      {
+        "num": "01",
+        "cat": "OpenAI",
+        "numColor": "#10A37F",
+        "t": "GPT-5.6 Sol 开发者旗舰发布，ChatGPT Work 全面上线"
+      },
+      {
+        "num": "02",
+        "cat": "DeepSeek",
+        "numColor": "#4B79F5",
+        "t": "DeepSeek 破纪录融资 51 亿元，同步启动自研推理芯片"
+      },
+      {
+        "num": "03",
+        "cat": "xAI",
+        "numColor": "#1A1A2E",
+        "t": "Grok 4.5 联手 Cursor 正式上线，$2/M token 低价定价"
+      },
+      {
+        "num": "04",
+        "cat": "Anthropic",
+        "numColor": "#D4A017",
+        "t": "Claude Sonnet 5 上下文 100 万 token，Claude Science 开放测试"
+      },
+      {
+        "num": "05",
+        "cat": "WAIC",
+        "numColor": "#E63946",
+        "t": "WAIC 2026 七月上海开幕，300+ 产品全球首发"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt56-sol-chatgpt-work",
+      "idx": "01",
+      "catText": "OpenAI 旗舰",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "OpenAI",
+        "mid": "GPT-5.6 Sol",
+        "bot": "ChatGPT Work",
+        "topRight": "开发者版"
+      },
+      "title": [
+        {
+          "text": "GPT-5.6 Sol 亮相，"
+        },
+        {
+          "text": "ChatGPT Work 全面上线",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenAI 发布面向开发者和企业的"
+        },
+        {
+          "text": "旗舰推理模型 GPT-5.6 Sol",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI 于 7 月 9 日发布 GPT-5.6 Sol，面向开发者和企业，支持最大推理努力（ultra mode）与长程 Agent 任务；同期上线 ChatGPT Work，整合团队工具上下文。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "GPT-5.6 Sol 是 OpenAI 同期最强推理模型，ultra 模式专为复杂 Agent 场景设计，开发者可借此构建更长链路的自动化工作流。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "企业用户可借 ChatGPT Work 把散乱草稿和工具数据直接转化为成稿，开发者可通过 API 调用 GPT-5.6 Sol 的深度推理能力。"
+        }
+      ],
+      "src": "📎 openai.com · releasebot.io"
+    },
+    {
+      "slug": "02-deepseek-funding-chip",
+      "idx": "02",
+      "catText": "中国 AI",
+      "accent": "#4B79F5",
+      "bg": {
+        "top": "DeepSeek",
+        "mid": "51亿元融资",
+        "bot": "自研芯片",
+        "topRight": "推理芯片"
+      },
+      "title": [
+        {
+          "text": "DeepSeek 破纪录融资，"
+        },
+        {
+          "text": "同步启动自研推理芯片",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "中国最大单笔 AI 融资，"
+        },
+        {
+          "text": "DeepSeek 估值近 4000 亿元",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "DeepSeek 完成首轮外部融资 51 亿元（约 70 亿美元），估值接近 4000 亿元，创中国 AI 史上最大单笔融资纪录；同期证实正自研推理专用芯片，已开始招聘芯片工程师并与制造商洽谈。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "此前 DeepSeek 坚守「不融资、不 IPO、不商业化」原则，此次破例融资主要为应对人才留存压力；自研芯片则意在降低对英伟达和华为芯片的依赖。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "DeepSeek V4 正式版预计 7 月中旬上线，附带峰谷定价 API，开发者可关注低峰时段调用成本优化。"
+        }
+      ],
+      "src": "📎 bloomberg.com · pandaily.com · technode.com"
+    },
+    {
+      "slug": "03-grok-45-cursor",
+      "idx": "03",
+      "catText": "xAI 模型",
+      "accent": "#1A1A2E",
+      "bg": {
+        "top": "xAI",
+        "mid": "Grok 4.5",
+        "bot": "Cursor 联名",
+        "topRight": "编程旗舰"
+      },
+      "title": [
+        {
+          "text": "Grok 4.5 正式上线，"
+        },
+        {
+          "text": "联手 Cursor 主攻编程",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "SpaceXAI 收购 Cursor 后首款模型，"
+        },
+        {
+          "text": "$2/$6 每百万 token 定价",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "SpaceXAI 于 7 月 8 日发布 Grok 4.5，这是其收购 AI 编程工具 Cursor 后推出的首款联合模型，主打编程和 Agent 任务，同步在 Grok Build 和 Cursor 全平台上线。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Grok 4.5 训练时融入了 Cursor 的编程数据，据称在工程和知识工作基准上优于同级竞品；定价 $2/$6 每百万 token，低于 GPT-5.6 Sol 的旗舰定价。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "Cursor 用户可直接在编辑器内切换 Grok 4.5；欧盟用户暂不可用，需等待后续区域扩展。"
+        }
+      ],
+      "src": "📎 x.ai · axios.com · siliconreport.com"
+    },
+    {
+      "slug": "04-claude-sonnet5-science",
+      "idx": "04",
+      "catText": "Anthropic",
+      "accent": "#D4A017",
+      "bg": {
+        "top": "Anthropic",
+        "mid": "Claude Sonnet 5",
+        "bot": "Claude Science",
+        "topRight": "100万上下文"
+      },
+      "title": [
+        {
+          "text": "Claude Sonnet 5 上线，"
+        },
+        {
+          "text": "Claude Science 专攻科研",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Sonnet 级模型原生 100 万 token，"
+        },
+        {
+          "text": "促销期 $2/$10 每百万 token",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic 发布 Claude Sonnet 5，原生支持 100 万 token 上下文窗口，定价 $2/$10 每百万 token（促销至 8 月 31 日）；同步推出科研工作台 Claude Science，集成研究常用工具包和可审计产物，向 Pro/Max/Team/Enterprise 开放测试。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "100 万 token 原生上下文让 Sonnet 5 能一次性处理超大代码库或长文档；Claude Science 则是 Anthropic 首次深入科研垂直场景，内置计算资源调度。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "开发者可在促销期内以 Sonnet 价格获得接近 Opus 的智能水平；科研用户可申请 Claude Science 测试，直接在工作台内运行和审计实验产物。"
+        }
+      ],
+      "src": "📎 anthropic.com · releasebot.io"
+    },
+    {
+      "slug": "05-waic-2026-shanghai",
+      "idx": "05",
+      "catText": "行业峰会",
+      "accent": "#E63946",
+      "bg": {
+        "top": "WAIC 2026",
+        "mid": "上海",
+        "bot": "7月17-20日",
+        "topRight": "300+ 首发"
+      },
+      "title": [
+        {
+          "text": "WAIC 2026 上海开幕在即，"
+        },
+        {
+          "text": "300+ 产品全球首发",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "史上最大世界人工智能大会，"
+        },
+        {
+          "text": "超 10 万平米展区、1000+ 参展商",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "第六届世界人工智能大会（WAIC 2026）将于 7 月 17—20 日在上海举办，主题「智能伙伴 共创未来」，展区首次突破 10 万平方米，超过 1000 家参展商携 3000+ 前沿技术亮相，300+ 产品将在此全球首发。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "WAIC 2026 首设学术专场 WAIC Academic，由图灵奖得主和国际院士主导；同时设创投对接专区，邀请 200+ AI 投资人，有望成为今年中国 AI 产业最重要的商业对接节点。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "关注 AI 产品动态的从业者和留学生可追踪大会期间发布的新工具和模型；IT 从业者可留意具身智能和 AGI 治理相关论坛的最新研究方向。"
+        }
+      ],
+      "src": "📎 worldaic.com.cn · people.cn · qbitai.com"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.6 Sol 亮相 / DeepSeek 51亿融资自研芯片 / Grok 4.5 / Claude Sonnet 5 / WAIC 2026"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-07-12"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
