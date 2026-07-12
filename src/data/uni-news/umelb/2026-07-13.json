@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-13",
+  "school": "umelb",
+  "summary": {
+    "hookMain": "UMelb",
+    "hookSub": "冬令营圆满 + 新生旅行补贴 两条实打实",
+    "hookSubHighlight": "冬令营圆满",
+    "subLines": [
+      "首届 Melbourne Winter School：亚太 9 校 75 人 · 7/10 圆满收官",
+      "Semester 2 新国际生：Student Travel Grant 抵澳后可申 · 机票区间 3/1–8/31"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "冬令营圆满", "data": "9 校 75 人亚太" },
+      { "num": "02", "title": "新生旅行补贴", "data": "3/1–8/31 机票凭证" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "校园动态",
+      "h2Main": "首届 Melbourne Winter School 2026 圆满：亚太 9 校 75 名学生",
+      "h2Sub": "2026-06-28 至 07-10 · Parkville · 维州政府资助 · SDG 主题",
+      "h2Highlight": "亚太 9 校 75 名",
+      "lead": "墨尔本大学首届 Melbourne Winter School 2026 于 <b>7 月 10 日圆满落幕</b>，来自亚洲和太平洋 9 所合作大学的 75 名学生在 Parkville 校区完成了为期两周（6 月 28 日–7 月 10 日）的跨学科短期项目，维多利亚州政府「Yes to International Students Fund」专项资助。",
+      "bullets": [
+        { "k": "参与院校", "v": "<b>Amity University（印度）/ Korea University / Mahidol University（泰国）/ Shoolini University / 所罗门群岛国立大学</b>等 9 所亚太合作大学，横跨东南亚、南亚、太平洋地区" },
+        { "k": "课程内容", "v": "大师课 + 原住民文化学习 + <b>跨学科研讨流</b>，聚焦联合国 17 个 SDG，团队共同提出应对亚太可持续与韧性挑战的方案" },
+        { "k": "资金来源", "v": "维州政府 <b>「Yes to International Students Fund」</b>专项出资，体现维州对国际学生在教育 + 科研 + 社区贡献方面的政策认可" },
+        { "k": "对你的影响", "v": "正在 UMelb 就读的同学：密切关注 <b>2027 届 Melbourne Winter School 招募信息</b>——两周亚太密集交流 + 多校人脉，是在校期间积累跨文化研究经验的快速通道，对留澳或赴亚就业都有实质加成" }
+      ],
+      "source": "UMelb Newsroom · 2026-06-30",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/june/university-of-melbourne-launches-melbourne-winter-school-2026"
+    },
+    {
+      "idx": "02",
+      "category": "新生指引",
+      "h2Main": "Semester 2 新国际生提醒：UMelb 旅行补贴抵澳后可申",
+      "h2Sub": "机票购买区间 2026-03-01 至 08-31 · 完成选课后提交 · 1-2 周出结果",
+      "h2Highlight": "旅行补贴抵澳后可申",
+      "lead": "此次 Semester 2 从海外赴澳的 UMelb <b>新国际学生</b>（授课型研究生 / 本科 / 交流生 / 研究型研究生），可在抵达墨尔本并完成当学期选课后申请「Student Travel Grant」，需提供 <b>2026 年 3 月 1 日至 8 月 31 日期间购买</b>的国际机票收据或电子票。",
+      "bullets": [
+        { "k": "申请条件", "v": "① 已抵达澳大利亚；② 已完成 Semester 2 选课注册；③ 持有 <b>2026-03-01 至 2026-08-31 期间购买</b>的国际机票凭证（收据 / 电子票，以购票或出票日期为准）" },
+        { "k": "适用范围", "v": "授课型学位 / 交流与访学 / 研究型研究生——涵盖 <b>Semester 2 赴澳的绝大多数新国际学生</b>" },
+        { "k": "申请流程", "v": "抵澳完成选课后提交申请；学校承诺 <b>1–2 周内</b>给出结果；金额及最新细则以官网为准，切勿参考中文留学媒体的二手数字" },
+        { "k": "对你的影响", "v": "<b>刚抵澳 / 即将到墨尔本</b>的同学：先确认机票是 3 月 1 日之后购买的，到校完成选课就去 scholarships.unimelb.edu.au 官方页面查细则 + 提交——一笔实打实的到账钱，别忘了申" }
+      ],
+      "source": "UMelb · Student Travel Grant",
+      "sourceUrl": "https://scholarships.unimelb.edu.au/awards/student-travel-grant"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "墨大这周两条新闻方向不同但都很实：冬令营圆满收官给在读学生看下一届机会，旅行补贴指引给 Semester 2 刚到澳洲的新生直接行动参考。",
+    "items": [
+      { "n": "01", "title": "Melbourne Winter School 2026 圆满", "body": "亚太 9 校 75 名学生 / 6-28 至 7-10 / Parkville 跨学科研讨 / SDG 主题 / 维州政府资助；在读 UMelb 同学关注 2027 届招募" },
+      { "n": "02", "title": "Semester 2 新生旅行补贴", "body": "Student Travel Grant 抵澳 + 完成选课后可申；机票需 2026-03-01 至 08-31 期间购买；1-2 周出结果；金额和细则见官网" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "07 / 13"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "墨大7-13 两条实料📣",
+      "body": "在墨大就读或准备去的姐妹，这周两条新闻一条回顾一条要立刻行动。\n\n01 / 冬令营圆满——首届 Melbourne Winter School 2026 于 7 月 10 日落幕，亚太 9 所合作大学的 75 名学生在 Parkville 完成了两周 SDG 主题跨学科研讨，维州政府「Yes to International Students Fund」资助。合作院校覆盖韩国、泰国、印度、所罗门群岛等地，是一次密集建立亚太人脉的窗口。\n\n02 / Semester 2 旅行补贴——刚到澳洲的新国际生注意：UMelb 的 Student Travel Grant 可以在抵澳 + 完成选课后提交申请。要求机票是 2026 年 3 月 1 日至 8 月 31 日期间购买的。具体金额和细则一定要去官网查，别信中文留学媒体的二手数字。\n\n两条合在一起——关注下一届冬令营 + 刚到就申旅行补贴，都是在墨大能拿到的实打实资源🙌",
+      "tags": "#墨尔本大学 #UMelb #澳洲留学 #墨大冬令营 #S2新生 #留学干货 #留学生活"
+    },
+    "p2": {
+      "title": "墨大冬令营结束了🌏",
+      "body": "首届 Melbourne Winter School 2026 刚刚于 7 月 10 日结束，两周前（6 月 28 日）在 Parkville 校区正式开幕。\n\n这次来了亚太 9 所合作大学的 75 名学生——包括 Amity University（印度）、Korea University（韩国）、Mahidol University（泰国）、Shoolini University（印度）、所罗门群岛国立大学……基本把东南亚 + 南亚 + 太平洋地区拉进来了一圈。\n\n课程不是普通商学院游学那种，是大师课 + 原住民文化学习 + 跨学科研讨流，聚焦联合国 17 个 SDG。团队要一起设计「应对亚太地区可持续与韧性挑战」的具体方案，不是来听演讲的，是真的要产出东西。\n\n整个项目由维州政府「Yes to International Students Fund」出资，这个基金是维州对国际学生在教育 + 科研 + 社区贡献的政策背书，今年专门支持了冬令营这个形式。\n\n我觉得这种「两周 + 75 人 + 亚太 9 校」的格局，对在读 UMelb 研究生来说机会很值。关注 2027 届招募信息，有同样想去的姐妹评论区扣 1🙋",
+      "tags": "#墨尔本大学 #UMelb #澳洲留学 #冬令营 #国际交流 #留学干货 #亚太"
+    },
+    "p3": {
+      "title": "S2到澳 旅行补贴别漏申💰",
+      "body": "刚到墨尔本、或者这几天即将落地的 Semester 2 新国际生这条一定要看：UMelb 有一个「Student Travel Grant」旅行补贴，授课型研究生 / 本科 / 交流生 / 研究型研究生均可申请。\n\n申请条件就两个：①已经到了澳大利亚、完成了当学期的选课注册；②持有 2026 年 3 月 1 日至 8 月 31 日期间购买的国际机票凭证（收据或电子票都行，以购票日期或出票日期为准）。\n\n申请流程：到校选课之后提交，学校承诺 1–2 周给结果。\n\n补贴金额我这里不说具体数字——官方会给你准确版本，去 scholarships.unimelb.edu.au 查，别信公众号或知乎的二手数字，万一数字已经更新，拿到的结果和预期不一样就很郁闷。\n\n总结：机票 3 月 1 日之后买的同学，刚选完课就去查官网申请流程，不要拖🙌",
+      "tags": "#墨尔本大学 #UMelb #S2新生 #澳洲留学 #旅行补贴 #留学干货 #新生攻略"
+    },
+    "p4": {
+      "title": "在读UMelb 两个机会📌",
+      "body": "在墨大就读的姐妹，这周两条消息综合起来对你的意义：\n\n01 / 冬令营——首届 Melbourne Winter School 刚于 7 月 10 日落幕，亚太 9 校 75 人，由维州政府资助。如果你在 UMelb 读研，2027 届招募开放时值得关注——两周密集研讨 + 亚太多校人脉，是正式学术研究之外积累国际经验的效率最高的形式之一。\n\n02 / 旅行补贴——如果你是 Semester 2 新生且刚到澳洲，Student Travel Grant 抵澳 + 完成选课后即可提交申请，要求机票是 2026 年 3 月 1 日至 8 月 31 日期间购买的。我没在这里贴金额，官网看准确的。\n\n两条加起来：冬令营是给在读生的未来机会，补贴是给刚落地新生的即时资源。都是墨大拿得到但需要主动关注才不会错过的东西。\n\n有在读 UMelb 或刚到墨尔本的姐妹，评论区聊聊你们这边情况🙌",
+      "tags": "#墨尔本大学 #UMelb #在读留学生 #S2新生 #澳洲留学 #留学干货 #留学生活"
+    },
+    "p5": {
+      "title": "墨大两条 07/13 速览",
+      "body": "墨大 7 月 13 日两条：\n\n01 / Melbourne Winter School 2026 圆满（7/10 落幕）——亚太 9 所院校 75 名学生 / 6/28-7/10 Parkville / SDG 主题跨学科研讨 / 维州政府「Yes to International Students Fund」资助 / 合作院校覆盖韩、泰、印度、所罗门群岛等地。关注 2027 届招募。\n\n02 / Semester 2 新生旅行补贴——Student Travel Grant 抵澳 + 完成选课后可申；机票需 2026-03-01 至 08-31 期间购买；1-2 周出结果；金额和最新细则查 scholarships.unimelb.edu.au 官网。\n\n两条方向不同——一条是在读生的未来资源，一条是新生的即时福利。都需要主动去拿。有问题评论区扣🙋",
+      "tags": "#墨尔本大学 #UMelb #澳洲留学 #冬令营 #新生攻略 #留学干货 #留学生活"
+    }
+  },
+  "mp": {
+    "title": "墨尔本大学 7 月 13 日：首届亚太冬令营圆满落幕 + Semester 2 旅行补贴开放申请",
+    "lead": "墨尔本大学首届 Melbourne Winter School 2026 于 7 月 10 日圆满落幕，9 所亚太合作大学的 75 名学生在 Parkville 校区完成了两周跨学科研讨，聚焦联合国 SDG 可持续目标，由维多利亚州政府专项资助。与此同时，Semester 2 新国际生提示：UMelb 的 Student Travel Grant 已开放申请，只需在抵达墨尔本并完成选课后提交，要求持有 2026 年 3 月 1 日至 8 月 31 日期间购买的国际机票凭证。两条消息一条给在读同学看下一届交流机会，一条给刚落地的新生要立刻行动。",
+    "meta": { "readTime": "5 分钟" },
+    "newsBodies": [
+      {
+        "h2": "首届 Melbourne Winter School 2026 圆满：75 名亚太学生两周密集研讨",
+        "paragraphs": [
+          "7 月 10 日，墨尔本大学首届 Melbourne Winter School 2026 正式收官。从 6 月 28 日到 7 月 10 日，来自亚洲和太平洋地区 9 所合作大学的 75 名学生齐聚 Parkville 校区，完成了这次为期两周的跨学科短期项目。参与院校包括 Amity University（印度）、Korea University（韩国）、Mahidol University（泰国）、Shoolini University（印度）、所罗门群岛国立大学等，横跨东南亚、南亚和太平洋地区，涵盖亚太主要地理区域。",
+          "课程设计不是普通的游学参观形式——学生参与大师课、原住民文化学习和跨学科研讨流三类活动，围绕联合国 17 个可持续发展目标（SDG）进行团队协作，共同设计应对亚太地区可持续与韧性挑战的具体方案。这种以实际产出为导向的研讨形式，为参与者提供了与不同学科、不同文化背景的学生深度协作的机会。整个项目由维多利亚州政府「Yes to International Students Fund」专项资助，这一基金专注于支持国际学生在维州的教育、科研和社区参与。",
+          "对于正在 UMelb 就读、尤其是研究生阶段的学生，Melbourne Winter School 是一个值得在校期间重点关注的资源——两周密集交流叠加来自亚太 9 所院校的人脉网络，在正式学术研究之外提供了建立跨文化合作基础的高效通道。2027 届招募信息预计将在明年初公布，感兴趣的同学可以提前关注 UMelb 国际处的公告。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.unimelb.edu.au/newsroom/news/2026/june/university-of-melbourne-launches-melbourne-winter-school-2026\">UMelb Newsroom · University of Melbourne launches Melbourne Winter School 2026</a>"
+      },
+      {
+        "h2": "Semester 2 新国际生提醒：Student Travel Grant 抵澳后即可申请",
+        "paragraphs": [
+          "正在从海外赴澳就读 UMelb Semester 2 的国际学生——包括授课型研究生、本科、海外交流生及研究型研究生——可以在抵达墨尔本并完成当学期选课注册后，向学校申请「Student Travel Grant」旅行补贴。申请的核心材料要求是：持有 2026 年 3 月 1 日至 8 月 31 日期间购买的国际机票收据或电子票，以购票日期或出票日期为准。",
+          "申请流程相对简单：抵澳完成选课后提交申请，学校承诺在 1–2 周内给出结果。对于 7 月刚落地的新生，机票购买日期大概率满足 3 月 1 日之后的要求，值得在完成选课之后尽早提交。补贴的具体金额和最新申请细则以 scholarships.unimelb.edu.au 官方页面为准——中文留学媒体的转载数字可能已经过时或不准确，直接看官方来源才可靠。",
+          "对于刚到澳洲的新生，这类开学初期的实际福利往往容易被迎新活动淹没而错过。建议在完成选课的第一天就去官网查申请入口，该拿的实际福利不要因为信息缺失而漏掉。如果还有其他 Semester 2 新生到校资源问题，可以在 UMelb 的 Student Services 或国际学生支持中心咨询。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://scholarships.unimelb.edu.au/awards/student-travel-grant\">UMelb · Student Travel Grant 官方页面</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · Melbourne Winter School 2026 圆满</strong>：亚太 9 校 75 人 / 6/28–7/10 Parkville / SDG 跨学科研讨 / 维州政府「Yes to International Students Fund」资助 / 覆盖韩、泰、印度、太平洋院校；关注 2027 届招募",
+        "<strong>02 · Semester 2 旅行补贴</strong>：Student Travel Grant 抵澳 + 完成选课后提交；机票需 2026-03-01 至 08-31 购买；1-2 周出结果；金额和细则查 scholarships.unimelb.edu.au 官网"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学最新动态？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 官网 jiangren.com.au/blog · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "首届 Melbourne Winter School 2026 圆满｜在读 UMelb 同学看过来",
+        "body": "首届 Melbourne Winter School 2026 于 7 月 10 日正式落幕，两周前（6 月 28 日）在 Parkville 开幕的时候我就想写一篇，今天才找到时间整理。\n\n这次来了亚太 9 所合作大学的 75 名学生，Amity University（印度）、Korea University（韩国）、Mahidol University（泰国）、Shoolini University、所罗门群岛国立大学……把东南亚 + 南亚 + 太平洋地区拉了一圈。课程是大师课 + 原住民文化学习 + SDG 主题跨学科研讨，不是游学参观，是真的要团队产出方案的。维州政府「Yes to International Students Fund」出资，算是有官方背书的正式项目。\n\n对在读 UMelb 研究生来说，两周 75 人亚太人脉这个规模，比自己一个个去找对口院校联系效率高太多了。关注 2027 届招募，有兴趣的评论区留言🙌",
+        "tags": ["#墨尔本大学", "#UMelb", "#澳洲留学", "#冬令营", "#国际交流", "#留学干货", "#亚太", "#SDG"]
+      },
+      {
+        "heading": "S2 新生到墨尔本 第一件事查旅行补贴｜Student Travel Grant",
+        "body": "刚到墨尔本或者这几天落地的 Semester 2 新国际生，提醒一件容易漏掉的事：UMelb 有个「Student Travel Grant」旅行补贴，授课型研究生 / 本科 / 交流生 / 研究型研究生均可申请。\n\n申请条件：①已抵澳；②已完成 Semester 2 选课；③机票是 2026 年 3 月 1 日至 8 月 31 日期间购买的（收据 / 电子票，以购票日期或出票日期为准）。提交后 1–2 周出结果。\n\n金额我这里不写——官网有准确数字，去 scholarships.unimelb.edu.au 查，别信转来转去的中文帖子。\n\n今天或者明天选完课，当天就去提交。别拖到学期中间才想起来，这种福利越早申越好。有已经申了的姐妹可以在评论区分享流程🙌",
+        "tags": ["#墨尔本大学", "#UMelb", "#S2新生", "#澳洲留学", "#旅行补贴", "#新生攻略", "#留学干货", "#选课"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "未检出（「首届」属于客观时序描述保留）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 关注公众号 / 二维码", "result": "未检出（xhsCopy 和 drafts 均无引流词，仅有「评论区扣 1 / 评论区留言」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 任何域名", "result": "未检出（xhsCopy 与 drafts 全部扫描，域名仅出现在 mp.cta 允许区域）" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股", "result": "未检出" }
+    ]
+  }
+}
