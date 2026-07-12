@@ -1,0 +1,155 @@
+{
+  "date": "2026-07-13",
+  "summary": {
+    "hook": [
+      {"text": "GPT-5.6三版本齐发"},
+      {"text": "DeepSeek募资70亿破戒"},
+      {"text": "Grok 4.5主打代码"},
+      {"text": "Gemini 3.5 Pro重建延期"},
+      {"text": "Claude Sonnet 5全量默认"}
+    ],
+    "sub": "AI 大厂密集出牌：OpenAI 三档旗舰同台、DeepSeek 打破「不融资」铁律、xAI 收购 Cursor 后交出首份答卷",
+    "items": [
+      {"num": "01", "cat": "OpenAI 旗舰", "numColor": "#10a37f", "t": "GPT-5.6三版本：Sol 旗舰 / Luna 极速 / Terra 均衡，代码任务效率提升54%"},
+      {"num": "02", "cat": "DeepSeek 融资", "numColor": "#4466dd", "t": "DeepSeek 完成首轮外部融资，510亿元创中国AI单轮纪录，同步曝光自研芯片计划"},
+      {"num": "03", "cat": "xAI 新模型", "numColor": "#1da1f2", "t": "Grok 4.5发布，收购Cursor后首作，主打编码与Agent任务"},
+      {"num": "04", "cat": "Google 延期", "numColor": "#4285f4", "t": "Gemini 3.5 Pro推迟至7月17日，架构全面重建，200万token上下文窗口"},
+      {"num": "05", "cat": "Anthropic 更新", "numColor": "#d4a76a", "t": "Claude Sonnet 5成全用户默认模型，Cowork扩至移动端与网页端"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt56-three-flavors",
+      "idx": "01",
+      "catText": "OpenAI 旗舰发布",
+      "accent": "#10a37f",
+      "bg": {
+        "top": "OpenAI GPT-5.6",
+        "mid": "Sol / Luna / Terra",
+        "bot": "三档旗舰同台",
+        "topRight": "🚀"
+      },
+      "title": [
+        {"text": "GPT-5.6 三版本齐发："},
+        {"text": "Sol旗舰、Luna极速、Terra均衡", "hl": true}
+      ],
+      "oneline": [
+        {"text": "OpenAI 发布 GPT-5.6 系列，"},
+        {"text": "代码任务 token 效率提升 54%", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "OpenAI 发布 GPT-5.6，分三档：Sol 最强且带「ultra」模式可将任务拆分给子模型；Luna 主打速度；Terra 综合均衡。同步上线 ChatGPT Work 工具整合团队上下文。"},
+        {"k": "为什么重要", "v": "Sol ultra 模式首次允许模型自主调度子模型完成复杂任务，标志 OpenAI 将 Agent 编排能力直接内置于主模型，而非外挂框架。"},
+        {"k": "对你的影响", "v": "开发者调用代码相关任务可节省约一半 token；Terra 适合日常，Sol ultra 适合长任务自动化，按需选档可控成本。"}
+      ],
+      "src": "📎 axios.com · openai.com"
+    },
+    {
+      "slug": "02-deepseek-7b-fundraise-chip",
+      "idx": "02",
+      "catText": "DeepSeek 破戒融资",
+      "accent": "#4466dd",
+      "bg": {
+        "top": "DeepSeek",
+        "mid": "510亿元首轮",
+        "bot": "自研推理芯片",
+        "topRight": "💰"
+      },
+      "title": [
+        {"text": "DeepSeek 首轮外部融资 510 亿元，"},
+        {"text": "同步曝光自研 AI 芯片计划", "hl": true}
+      ],
+      "oneline": [
+        {"text": "创中国 AI 单轮融资纪录，"},
+        {"text": "同时接触芯片设计与晶圆厂伙伴", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "DeepSeek 完成成立以来首次外部融资，募集 510 亿元人民币（约 70 亿美元），估值逼近 4000 亿元，打破此前「不融资、不上市、不商业化」铁律。同期路透独家报道其正与芯片设计、晶圆厂及存储厂商洽谈自研推理芯片。"},
+        {"k": "为什么重要", "v": "融资规模创中国 AI 单轮纪录，表明 DeepSeek 正从「低调效率派」转向重基础设施投入。自研芯片若落地，将进一步降低对英伟达的依赖，强化算力自主性。"},
+        {"k": "对你的影响", "v": "DeepSeek API 中价格机制（峰谷定价）或随 V4 正式版中旬上线调整，开发者可关注新价格档位与上下文窗口变化。"}
+      ],
+      "src": "📎 bloomberg.com · pandaily.com · usnews.com"
+    },
+    {
+      "slug": "03-grok-45-coding-agent",
+      "idx": "03",
+      "catText": "xAI 代码旗舰",
+      "accent": "#1da1f2",
+      "bg": {
+        "top": "xAI Grok 4.5",
+        "mid": "收购 Cursor 后首作",
+        "bot": "编码 + Agent",
+        "topRight": "⌨️"
+      },
+      "title": [
+        {"text": "Grok 4.5 发布："},
+        {"text": "收购 Cursor 后第一款代码专属模型", "hl": true}
+      ],
+      "oneline": [
+        {"text": "主打工程与知识工作，"},
+        {"text": "输入 $2 / 百万 token，输出 $6", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "xAI 7 月 8 日发布 Grok 4.5，定位为首款专为编码与 Agent 工作设计的模型，与 Cursor 联合训练，在工程类和知识工作基准上宣称超越同级竞品。"},
+        {"k": "为什么重要", "v": "这是 xAI 收购 Cursor 后交出的首份产品答卷，验证了「收购 + 联合训练」路径。Grok 4.5 定价低于 GPT-5.6 Sol，在代码工作流上形成竞争压力。"},
+        {"k": "对你的影响", "v": "开发者可通过 API 以 $2/$6 每百万 token 测试代码生成与 Agent 调用；Grok Build CLI 同期新增 /goal 命令和 sessions 流程，可本地集成。"}
+      ],
+      "src": "📎 axios.com · felloai.com"
+    },
+    {
+      "slug": "04-gemini-35-pro-delayed-rebuild",
+      "idx": "04",
+      "catText": "Google 旗舰延期",
+      "accent": "#4285f4",
+      "bg": {
+        "top": "Gemini 3.5 Pro",
+        "mid": "架构全面重建",
+        "bot": "7月17日重新发布",
+        "topRight": "🔧"
+      },
+      "title": [
+        {"text": "Gemini 3.5 Pro 推迟至 7 月 17 日，"},
+        {"text": "放弃旧架构从零重建、200万 token 上下文", "hl": true}
+      ],
+      "oneline": [
+        {"text": "对标 GPT-5.6 与 Fable 5，"},
+        {"text": "主打「性价比旗舰」定位", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Google DeepMind 将 Gemini 3.5 Pro 发布日期推迟至 7 月 17 日，原因是放弃 Gemini 2.5 Pro 原有架构，进行全面重设计，目标改善数学推理、SVG 生成和图像质量。"},
+        {"k": "为什么重要", "v": "两位核心研究员在 48 小时内相继离职，外界对 Google DeepMind 的人才竞争力表示担忧；此次架构重建被视为正面回应，但延期也表明压力之大。200 万 token 上下文窗口将是发布时的核心卖点。"},
+        {"k": "对你的影响", "v": "如果你正在评估 Gemini 2.5 Pro 的升级时机，建议等待 17 日发布再决策；定价将主打企业侧性价比，适合大上下文场景的长文档分析。"}
+      ],
+      "src": "📎 finance.biggo.com · thursdai.news · fortune.com"
+    },
+    {
+      "slug": "05-claude-sonnet5-default-cowork-mobile",
+      "idx": "05",
+      "catText": "Anthropic 全量更新",
+      "accent": "#d4a76a",
+      "bg": {
+        "top": "Claude Sonnet 5",
+        "mid": "全用户默认模型",
+        "bot": "Cowork 移动端上线",
+        "topRight": "✨"
+      },
+      "title": [
+        {"text": "Claude Sonnet 5 成全用户默认，"},
+        {"text": "Cowork 移动+网页端同步开放", "hl": true}
+      ],
+      "oneline": [
+        {"text": "性能接近 Opus 4.8，"},
+        {"text": "8 月 31 日前维持优惠定价", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Anthropic 于 7 月 1 日将 Claude Sonnet 5 设为所有 Free 和 Pro 用户的默认模型，同期将 Cowork 协作工具扩展至移动端和网页端，Max 用户优先内测，使用限额翻倍至 8 月 5 日。"},
+        {"k": "为什么重要", "v": "Sonnet 5 是「史上最强 Sonnet」，Agent 能力接近旗舰 Opus 4.8，优惠期结束前比 Sonnet 4.6 更便宜。Cowork 跨端意味着后台任务、计划调度、共享对话可在手机端审批，降低 AI 工作流的使用门槛。"},
+        {"k": "对你的影响", "v": "8 月 31 日前是 API 接入 Sonnet 5 的窗口期，适合替换已有 Sonnet 4.6 调用；移动端 Cowork 可作为团队协作轻量 AI 助手，无需桌面即可审批和跟进任务。"}
+      ],
+      "src": "📎 releasebot.io · nbcnews.com · anthropic.com"
+    }
+  ],
+  "mp": {
+    "title": "GPT-5.6三版 / DeepSeek破戒融资70亿 / Grok 4.5 / Gemini延期 / Sonnet 5默认上线"
+  }
+}
