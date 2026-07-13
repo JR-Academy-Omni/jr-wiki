@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-07-12T23:44:56.095Z",
+  "lockedAt": "2026-07-13T02:19:25.600Z",
   "version": 1,
   "slugs": [
     {
@@ -373,6 +373,10 @@
     {
       "type": "article",
       "slug": "anthropic-two-tier-strategy-opus-mythos-2026"
+    },
+    {
+      "type": "article",
+      "slug": "apple-sues-openai-hardware-trade-secret-2026"
     },
     {
       "type": "article",
