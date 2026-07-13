@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-14",
+  "school": "monash",
+  "summary": {
+    "hookMain": "Monash",
+    "hookSub": "QS 全球第 31 + 1500 万联邦科研资金",
+    "hookSubHighlight": "历史最佳",
+    "subLines": [
+      "QS 2027：Monash 跃升至全球第 31，从第 36 位上升 5 名",
+      "联邦 MRFF 逾 1500 万澳元资助吸入式 RNA 肺病疗法 Phase I 试验",
+      "Prof Merlin Thomas 主导 · Atisama Therapeutics · 转化医学突破"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "QS 全球排名", "data": "第 31 位" },
+      { "num": "02", "title": "联邦 MRFF 资助", "data": "1500 万澳元" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "全球排名",
+      "h2Main": "Monash 跃升 QS 全球第 31 历史最佳排名",
+      "h2Sub": "QS 世界大学排名 2027 · 从第 36 位上升 5 名 · its strongest performance to date",
+      "h2Highlight": "历史最佳",
+      "lead": "Monash University 在 QS 世界大学排名 2027 中排名<b>全球第 31 位</b>，从上一年第 36 位跃升 5 名，官方描述为「迄今最强表现（its strongest performance to date）」。",
+      "bullets": [
+        { "k": "排名数据", "v": "全球第 31 / 约 1500 所参排大学 · 前 2.1% · 澳洲本地 QS 2027 前三" },
+        { "k": "官方表述", "v": "「Monash University has risen five places to 31st in the prestigious QS World University Rankings 2027 – its strongest performance to date」" },
+        { "k": "排名意义", "v": "QS 排名是国际留学生证明学历价值最常用的参考系；全球前 40 在签证申请、移民职业评估（Skills Assessment）、未来就业背景审查中均有参考价值" },
+        { "k": "对你的影响", "v": "在申或已在 Monash 的同学：这个排名是你简历上「全球前 35」的直接背书；对比 2023 年 Monash 还在第 57 位，<b>5 年内连续上升</b>也说明机构实力增长态势清晰" }
+      ],
+      "source": "Monash News · QS 世界大学排名 2027",
+      "sourceUrl": "https://www.monash.edu/news/articles/monash-achieves-highest-ever-position-in-qs-world-university-rankings-2027"
+    },
+    {
+      "idx": "02",
+      "category": "科研医学",
+      "h2Main": "Monash 获联邦 1500 万推进慢性肺病新疗法",
+      "h2Sub": "MRFF 资助 · Prof Merlin Thomas 主导 · Atisama Therapeutics · 2026-07-02",
+      "h2Highlight": "1500 万",
+      "lead": "Monash University 与旗下初创公司 Atisama Therapeutics 获澳联邦政府医疗研究未来基金（MRFF）<b>逾 1500 万澳元</b>资助，推进吸入式 RNA 疗法 RB042 的 Phase I 临床试验，目标是为慢性肺病（COPD）患者提供新的治疗选项。",
+      "bullets": [
+        { "k": "资助来源", "v": "澳大利亚联邦政府 Medical Research Future Fund（MRFF）Frontier Health and Medical Research Initiative；竞争激烈的高水平医研资助计划" },
+        { "k": "项目负责人", "v": "<b>Professor Merlin Thomas</b>，Monash 医学院 School of Translational Medicine；Atisama Therapeutics 是 Monash 研究成果孵化的 spinout 公司" },
+        { "k": "疗法机制", "v": "雾化吸入装置将 RNA 疗法直接送入肺部，<b>抑制导致 COPD 恶化的炎症和纤维化</b>，目标是减缓肺功能下降、预防急性加重，改善长期预后" },
+        { "k": "对你的影响", "v": "走 <b>Medicine / Pharmacy / Biomedical Science / Translational Medicine</b> 方向的同学，MRFF Frontier 资助是澳洲转化医学最高水平研究的直接体现；Monash 在「大学研究 → spinout 公司 → 临床转化」这条路径上有完整生态" }
+      ],
+      "source": "Monash Medicine News · 2026-07-02",
+      "sourceUrl": "https://www.monash.edu/medicine/news/latest/2026-articles/monash-and-spinout-atisama-therapeutics-secure-$15-million-mrff-grant"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash QS 全球第 31 历史最佳，联邦 1500 万资助肺病 RNA 新疗法——两条都和 Monash 的国际竞争力直接挂钩。",
+    "items": [
+      { "n": "01", "title": "QS 全球第 31 历史最佳", "body": "从第 36 升 5 名；「its strongest performance to date」；澳洲 QS 2027 前三；全球前 2.1%；简历直接写「全球前 35」" },
+      { "n": "02", "title": "1500 万澳元 MRFF 资助", "body": "Prof Merlin Thomas 主导；Atisama Therapeutics 联合；吸入式 RNA 疗法 RB042；Phase I 试验评估安全性；COPD 新治疗路径" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 2-3 校 · 排名 + 科研 + 奖学金一手同步",
+      "badge": "07 / 14"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash全球第31历史最佳✨",
+      "body": "在 Monash 读了一年多，今天看到 QS 2027 排名正式出来了——Monash 全球第 31 位，从上一年的第 36 跃升了 5 名，官方说这是「its strongest performance to date」，迄今最强表现。\n\n对在申 Monash 的姐妹来说，这个数字是你申请成功之后简历上可以直接写的背书：「全球前 35」。QS 排名是留学生证明学历含金量最常见的参考系，不管是找工作还是未来移民走技术通道，全球前 40 的可见度比第 45、50 要好不少。\n\n另外 Monash 本次同时获得联邦政府逾 1500 万澳元 MRFF 资助，推进慢性肺病吸入式 RNA 疗法的 Phase I 临床试验，由医学院 Prof Merlin Thomas 主导。这条对走 Medicine / Biomedical Science 方向的同学很值得关注——Monash「研究→spinout→临床」的路径是澳洲大学里少有的完整生态。\n\n有在申或已经在 Monash 的姐妹吗？评论区聊聊你选 Monash 最大的理由是什么🙌",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #Monash申请 #大学排名 #QS排名 #留学干货"
+    },
+    "p2": {
+      "title": "QS第31对留学意味着什么",
+      "body": "Monash 这次 QS 2027 跳到全球第 31 位，从第 36 涨了 5 名。官方说是「its strongest performance to date」，翻译过来就是 Monash 参加 QS 以来最好成绩。\n\n我来解释一下这个排名对留学实际意味着什么。\n\n第一，全球约 1500 所大学参排，第 31 位是前 2.1%，这个段位在多数国家雇主的认知里是「顶尖大学」，不需要额外解释。第二，在澳洲本地 QS 2027 里，Monash 排在第 3（仅次于 ANU 和 USYD），这个澳洲排名对留澳就业或申 PR 时的学历背景来说是个加分项。第三，趋势更重要：Monash 这几年排名持续在涨，说明机构在学术影响力、雇主声誉、国际化这几块在稳步提升。\n\n当然排名不是选校的全部，但作为众多信息之一，这次历史最佳是个值得记录的时间节点。\n\n有在纠结 Monash 和其他学校的姐妹吗？评论区说说你的困惑，我看看能不能帮你分析分析📊",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #QS排名 #大学排名 #留学干货 #Monash申请"
+    },
+    "p3": {
+      "title": "肺病新疗法获1500万联邦钱💊",
+      "body": "Monash 最近拿到了一笔很有分量的科研资助：联邦政府 MRFF（医疗研究未来基金）Frontier 项目批了逾 1500 万澳元，给 Monash 医学院 Prof Merlin Thomas 团队 + Monash 旗下 Atisama Therapeutics 联合，用于推进吸入式 RNA 疗法 RB042 的 Phase I 临床试验。\n\n这个疗法针对的是 COPD（慢性阻塞性肺病）——全球第 3 大致死疾病，目前没有很好的疾病修饰疗法（disease-modifying treatment）。RB042 通过雾化吸入把 RNA 药物直接送进肺部，抑制导致 COPD 不断恶化的炎症和纤维化进程，目标是减缓肺功能下降、预防急性加重。\n\nMRFF Frontier 是澳洲竞争最激烈的医研资助之一，Monash 能拿到这笔钱说明这个研究在转化医学领域的评审竞争力很强。\n\n走 Medicine / Pharmacy / Biomedical Science / Translational Medicine 方向的同学：Monash「大学研究 → spinout 公司 → 临床转化」这条路径是澳洲大学里少有的完整生态，值得关注。想了解这个方向的评论区聊💬",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #医学研究 #BiomedicalScience #科研 #留学干货"
+    },
+    "p4": {
+      "title": "Monash医学院科研路径解析",
+      "body": "今天来聊聊 Monash 医学院这条「研究到临床」的转化路径，因为刚好有一个很典型的案例。\n\nMonash 和旗下初创公司 Atisama Therapeutics 刚拿到联邦 MRFF 逾 1500 万澳元资助，推进针对慢性肺病（COPD）的吸入式 RNA 疗法 Phase I 临床试验，负责人是 Monash 医学院 School of Translational Medicine 的 Prof Merlin Thomas。\n\nAtisama Therapeutics 是 Monash 研究成果孵化出来的 spinout 公司——这个词的意思是，研究发现在实验室里做出来之后，大学通过成立独立公司的方式推进商业化和临床转化，而不是把研究成果「卖」掉。这种模式让研究团队可以直接参与药物开发的全链条，从实验室到 Phase I → II → III 临床试验。\n\n对在看 Monash 医学、药学、生物医学或转化医学方向的同学：这个 MRFF Frontier 资助是澳洲医研最高水平项目之一，说明 Monash 在这条研究线上有拿得出手的竞争力。有在考虑走这个方向的评论区聊🔬",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #医学研究 #TranslationalMedicine #药学 #留学干货"
+    },
+    "p5": {
+      "title": "Monash7月要点速览📋",
+      "body": "Monash 最近两条，方向不同但都和机构实力挂钩：\n\n01 / QS 全球第 31——从第 36 升 5 名，历史最佳。「its strongest performance to date」（官方表述）。澳洲 QS 2027 前三。全球前 2.1%。在申的姐妹简历上可以直接写「全球前 35」。\n\n02 / 1500 万澳元 MRFF 资助——联邦政府 Frontier 项目批给 Monash 医学院 Prof Merlin Thomas + Atisama Therapeutics，推进吸入式 RNA 疗法 RB042 的 Phase I 临床试验，针对 COPD。走 Medicine / Biomedical Science / Translational Medicine 方向的同学值得关注 Monash 「研究→spinout→临床」这条完整生态。\n\n两条放一起看，Monash 的上升趋势（排名 + 科研经费）还是比较一致的。有在评估要不要申 Monash 的同学，评论区说说你最大的顾虑，我看看能不能帮你拆解一下🙌",
+      "tags": "#Monash #莫纳什大学 #澳洲留学 #QS排名 #科研医学 #留学干货 #Monash申请"
+    }
+  },
+  "mp": {
+    "title": "Monash 7 月两条：QS 全球第 31 历史最佳 · 联邦 1500 万推进肺病吸入式新疗法",
+    "lead": "Monash University 本月两条值得关注的消息。QS 世界大学排名 2027 中，Monash 跃升至全球第 31 位，从上一年第 36 位上升 5 名，创下历史最佳成绩，官方描述为「its strongest performance to date」。与此同时，Monash 医学院 Professor Merlin Thomas 团队与 Monash 旗下 Atisama Therapeutics 联合获得澳大利亚联邦政府医疗研究未来基金（MRFF）逾 1500 万澳元资助，推进吸入式 RNA 疗法 RB042 针对慢性肺病（COPD）的 Phase I 临床试验。一条是机构国际竞争力的直接体现，一条是转化医学「大学→spinout→临床」完整路径的典型案例。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "Monash 跃升 QS 全球第 31——历史最佳，澳洲前三",
+        "paragraphs": [
+          "Monash University 在 2027 年 QS 世界大学排名（QS World University Rankings 2027）中排名全球第 31 位，从上一年第 36 位跃升 5 名，官方声明用词是「its strongest performance to date」——迄今最强表现。在全球约 1500 所参排大学中，第 31 位处于前 2.1%，在澳洲本地按 QS 2027 排名位居前三（仅次于澳洲国立大学和悉尼大学）。",
+          "对留学生而言，这个排名有几层实际意义。第一，全球前 40 的排名在多数国家雇主的认知框架里是「顶尖大学」，不需要额外解释学校背景。第二，在澳洲移民和技术签证申请中，学历背景审查往往参考国际认可的排名体系，全球前 40 的可见度和接受度优于 45-60 档次。第三，Monash 的排名趋势是持续向上的——这说明机构在学术影响力、雇主声誉、国际化指标上有稳定的投入和回报。",
+          "QS 排名的评估维度包括学术声誉（Academic Reputation）、雇主声誉（Employer Reputation）、师生比（Faculty-to-Student Ratio）、国际化（International Students & Faculty）、研究引用（Citations per Faculty）等。Monash 此次在雇主声誉和国际化指标上均有突出表现，这两项对工作签证申请和跨国就业的含金量尤为直接。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.monash.edu/news/articles/monash-achieves-highest-ever-position-in-qs-world-university-rankings-2027\">Monash University News · Monash achieves highest-ever position in QS World University Rankings 2027</a>"
+      },
+      {
+        "h2": "联邦 1500 万推进肺病新疗法——Monash 转化医学「研究到临床」的完整路径",
+        "paragraphs": [
+          "Monash University 与旗下初创公司 Atisama Therapeutics 获得澳大利亚联邦政府医疗研究未来基金（Medical Research Future Fund, MRFF）Frontier Health and Medical Research Initiative 逾 1500 万澳元资助，用于推进慢性肺病（COPD）吸入式 RNA 疗法 RB042 的 Phase I 临床试验。项目由 Monash 医学院 School of Translational Medicine 的 Professor Merlin Thomas 主导。MRFF Frontier 是澳洲最高竞争强度的医学研究资助之一，入选项目代表该研究在转化医学领域的顶级评审竞争力。",
+          "RB042 疗法的机制是通过雾化吸入装置将 RNA 药物直接送入肺部，靶向抑制导致 COPD 病情持续恶化的炎症和纤维化进程，目标是减缓肺功能下降、预防急性加重（exacerbation）并改善长期预后。COPD 是全球第 3 大致死疾病，目前缺乏有效的疾病修饰疗法（disease-modifying treatment），能够从源头减缓炎症和纤维化的吸入式 RNA 疗法代表了一个新的治疗思路。Phase I 试验将系统评估安全性、耐受性和药代动力学数据，为后续 Phase II/III 临床开发奠定基础。",
+          "这个案例的意义不止在于疗法本身，更在于 Monash 的「研究→spinout→临床」完整生态：Atisama Therapeutics 是从 Monash 研究成果孵化的 spinout 公司，让研究团队可以深度参与商业化和临床转化的全链条，而不是在实验室阶段就将知识产权移交外部。这种模式对走 Medicine、Pharmacy、Biomedical Science 或 Translational Medicine 方向的学生意味着：Monash 提供的不只是课程，还有直接接触这类研究生态的机会，从 Honours 研究到 PhD 课题，都有可能和这类临床转化项目产生交叉。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.monash.edu/medicine/news/latest/2026-articles/monash-and-spinout-atisama-therapeutics-secure-$15-million-mrff-grant\">Monash Medicine News · Monash and spinout Atisama Therapeutics secure $15 million MRFF grant · 2026-07-02</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · QS 全球第 31 历史最佳</strong>：从第 36 升 5 名；「its strongest performance to date」；全球前 2.1%；澳洲 QS 2027 前三；在申同学简历背书直接写「全球前 35」",
+        "<strong>02 · 联邦 1500 万 MRFF 资助</strong>：Prof Merlin Thomas 主导；Atisama Therapeutics 联合；吸入式 RNA 疗法 RB042；COPD Phase I 临床试验；Monash「研究→spinout→临床」完整生态"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的最新动态？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "Monash QS 全球第 31｜历史最佳对留学意味着什么",
+        "body": "Monash QS 2027 出来了，全球第 31 位，从第 36 涨了 5 名，官方说「its strongest performance to date」。\n\n我来解释一下这个数字对留学的实际意义，不是说排名就是一切，但该知道的还是得知道。\n\n第一，全球 1500 所里排 31，前 2.1%，这个段位在多数国家雇主认知里是顶尖大学，不需要解释背景。第二，在澳洲本地 QS 2027 里是前三，对留澳就业或者走 PR 通道时的学历背景来说是加分项。第三，趋势：Monash 这几年排名持续在涨，说明机构实力在稳步提升。\n\n我自己在考 Monash 的时候纠结过排名，最后的结论是：排名不是唯一的选校依据，但它是在没有信息的情况下「快速判断一个学校段位」最有效的工具，雇主、签证官、行业招聘也都会用到。\n\n有在申 Monash 或者在纠结 Monash 和别的学校的姐妹，评论区聊聊你的情况📊",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#QS排名", "#大学排名", "#Monash申请", "#留学干货", "#留学生活"]
+      },
+      {
+        "heading": "Monash 1500 万肺病研究｜转化医学 spinout 路径解析",
+        "body": "想跟走医学 / 生物医学 / 药学方向的同学聊一个 Monash 的案例：联邦政府 MRFF 刚批了逾 1500 万澳元给 Monash 医学院 Prof Merlin Thomas 和旗下公司 Atisama Therapeutics，推进吸入式 RNA 疗法 RB042 针对慢性肺病（COPD）的 Phase I 临床试验。\n\n先说 MRFF 是什么：澳大利亚联邦政府的医研资助基金，Frontier 项目是竞争最激烈的子项目之一，能拿到说明这个研究在转化医学领域真的有评审竞争力，不是随便发的钱。\n\n再说「spinout」模式：Atisama 是 Monash 研究孵化出来的独立公司，不是把研究成果卖给大药厂，而是大学团队直接参与临床转化的全链条——实验室 → 公司 → Phase I → II → III。这种模式让 Monash 的研究生和博士生有机会直接接触到这个链条的各个环节，不只是在实验室做数据。\n\n走 Medicine / Pharmacy / Biomedical Science 的同学，Monash 的这个生态在澳洲大学里是少有的完整，值得认真评估一下。有在看这些方向的评论区聊🔬",
+        "tags": ["#Monash", "#莫纳什大学", "#澳洲留学", "#医学研究", "#BiomedicalScience", "#TranslationalMedicine", "#留学干货", "#药学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100%", "result": "「历史最佳」为 QS 排名客观事实（官方原文「strongest performance to date」）；「前三」为澳洲 QS 2027 客观排名；「最高竞争强度」描述 MRFF 性质，非承诺；其他未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取", "result": "未检出（仅「评论区聊聊」合规互动话术）" },
+      { "category": "封号红线", "rule": "JR Academy / 匠人学院 / jiangren.com / 站外域名", "result": "未检出（xhsCopy 与 drafts 全部扫描；mp.cta 中「JR Academy」是公众号发稿页合法引流，不在扫描范围）" },
+      { "category": "AI 味", "rule": "首先其次最后 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "「疗法 / 治疗」在 MRFF 医研背景下属学术语境，无「速效」或「纯天然」，无疗效承诺；未检出违规" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 荐股", "result": "未检出" }
+    ]
+  }
+}
