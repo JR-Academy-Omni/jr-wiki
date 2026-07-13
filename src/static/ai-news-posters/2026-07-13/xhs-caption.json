@@ -1,0 +1,13 @@
+{
+  "date": "2026-07-13",
+  "shortTitle": "今日AI 5条｜GPT-5.6三版齐发",
+  "shortBody": "今天AI圈太热闹了！\n\n🔥 OpenAI一次发了GPT-5.6三个版本——Sol旗舰（ultra模式自动拆任务）、Luna极速、Terra均衡，代码效率提升54%，真的香\n\n💰 DeepSeek打破「不融资」铁律，510亿元首轮融资创中国AI纪录，还在自研推理芯片，独立性越来越强了\n\n⌨️ Grok 4.5悄悄上线，是xAI收购Cursor后第一个联合训练模型，$2/$6每百万token，比GPT-5.6 Sol便宜不少\n\n🔧 Gemini 3.5 Pro又延期了，推到7月17日，不过这次是为了从头重建架构，200万token上下文窗口期待一下\n\n✨ Claude Sonnet 5成了所有人的默认模型，性能接近Opus 4.8，8月31日前还有优惠价，还不换？\n\n关注JR Academy，每天9点AI日报准时送达～",
+  "tags": ["AI每日新闻", "AIGC", "AI资讯", "GPT5", "DeepSeek"],
+  "headlines": [
+    {"index": 1, "category": "OpenAI 旗舰", "title": "GPT-5.6三版本齐发：Sol旗舰代码效率提升54%"},
+    {"index": 2, "category": "DeepSeek 融资", "title": "DeepSeek首轮融资510亿元，自研芯片计划曝光"},
+    {"index": 3, "category": "xAI 新模型", "title": "Grok 4.5发布，Cursor联合训练，$2/$6定价"},
+    {"index": 4, "category": "Google 延期", "title": "Gemini 3.5 Pro推迟至7月17日，全面重建架构"},
+    {"index": 5, "category": "Anthropic 更新", "title": "Claude Sonnet 5成全用户默认，Cowork全端开放"}
+  ]
+}
