@@ -1,0 +1,155 @@
+{
+  "date": "2026-07-14",
+  "summary": {
+    "hook": [
+      {"text": "中国AI伴侣新规明日生效"},
+      {"text": "DeepSeek V4中旬正式版"},
+      {"text": "WAIC 2026上海开幕"},
+      {"text": "Meta Muse Image首发"},
+      {"text": "Cursor iOS移动编程"}
+    ],
+    "sub": "中国首部AI拟人化监管法规明日落地，DeepSeek V4峰谷定价倒计时，WAIC 300+新品上海亮相",
+    "items": [
+      {"num": "01", "cat": "监管落地", "numColor": "#c0392b", "t": "中国AI伴侣新规7月15日生效，Doubao/Qwen已关闭伴侣Agent功能并删除用户数据"},
+      {"num": "02", "cat": "DeepSeek V4", "numColor": "#4466dd", "t": "DeepSeek V4正式版中旬发布，1M token上下文，旧模型7月24日强制停用"},
+      {"num": "03", "cat": "WAIC 2026", "numColor": "#e67e22", "t": "世界人工智能大会7月17-20日上海开幕，1100+企业参展，300+全球首发"},
+      {"num": "04", "cat": "Meta图像AI", "numColor": "#1877f2", "t": "Meta Muse Image上线，Agent架构自我修正生成，免费集成Meta AI/Instagram/WhatsApp"},
+      {"num": "05", "cat": "开发者工具", "numColor": "#1da1f2", "t": "Cursor iOS公测发布，移动端控制云端AI编程Agent，支持审查diff/merge PR/语音对话"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-china-ai-companion-rules-july15",
+      "idx": "01",
+      "catText": "中国AI监管落地",
+      "accent": "#c0392b",
+      "bg": {
+        "top": "中国网信办新规",
+        "mid": "AI伴侣服务",
+        "bot": "7月15日生效",
+        "topRight": "🔒"
+      },
+      "title": [
+        {"text": "中国AI拟人化伴侣新规明日落地，"},
+        {"text": "Doubao与Qwen已关闭Agent并删数据", "hl": true}
+      ],
+      "oneline": [
+        {"text": "全球首部专项管控AI情感陪伴法规，"},
+        {"text": "划定工具型与伴侣型Agent红线", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "网信办等五部门联合颁布《AI拟人化互动服务管理暂行办法》7月15日起施行。ByteDance Doubao于15日关闭Agent功能，Alibaba Qwen已于7月10日关闭并将7月15日后永久删除用户Agent数据。"},
+        {"k": "为什么重要", "v": "这是全球首部专项针对AI情感伴侣和拟人化陪伴服务的国家级监管文件，将「工具型Agent」与「情感陪伴型Agent」划为不同监管类别，禁止向未成年人提供伴侣服务并要求大用户群产品做安全评估。"},
+        {"k": "对你的影响", "v": "在华开发者需自查产品是否涉及「模拟人格/情感关系/持续情感互动」。大用户基数产品须完成安全评估，含未成年人访问场景需额外审批，违规可下架。"}
+      ],
+      "src": "📎 techtimes.com · bloomberg.com · qz.com"
+    },
+    {
+      "slug": "02-deepseek-v4-official-peak-pricing",
+      "idx": "02",
+      "catText": "DeepSeek V4发布",
+      "accent": "#4466dd",
+      "bg": {
+        "top": "DeepSeek V4",
+        "mid": "1M token全线覆盖",
+        "bot": "峰谷API定价",
+        "topRight": "⚡"
+      },
+      "title": [
+        {"text": "DeepSeek V4正式版中旬发布："},
+        {"text": "峰谷定价 + 旧模型7月24日强制停用", "hl": true}
+      ],
+      "oneline": [
+        {"text": "V4-Pro 1.6T参数、49B激活，"},
+        {"text": "deepseek-chat/reasoner名称7月24日失效", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "DeepSeek V4正式版计划7月中旬上线，两档模型：V4-Pro（1.6T总参数/49B激活）和V4-Flash（284B/13B），全线支持100万token上下文。同步引入峰谷API定价，工作日9-12点、14-18点为高峰，收费翻倍。"},
+        {"k": "为什么重要", "v": "这是DeepSeek首次引入差异化时段定价，标志其从纯成本竞争转向流量管理。更关键的是：旧模型名称deepseek-chat和deepseek-reasoner将于7月24日15:59(UTC)彻底停用，所有调用该名称的应用届时报错。"},
+        {"k": "对你的影响", "v": "7月24日前必须将API调用迁移至新名称：deepseek-chat → deepseek-v4-flash，deepseek-reasoner → deepseek-v4-pro。高频调用建议安排在非高峰时段(18:00-次日9:00)降低成本。"}
+      ],
+      "src": "📎 technode.com · api-docs.deepseek.com · explainx.ai"
+    },
+    {
+      "slug": "03-waic-2026-shanghai-300-debuts",
+      "idx": "03",
+      "catText": "WAIC 2026上海",
+      "accent": "#e67e22",
+      "bg": {
+        "top": "WAIC 2026",
+        "mid": "上海 7/17-7/20",
+        "bot": "300+全球首发",
+        "topRight": "🌏"
+      },
+      "title": [
+        {"text": "WAIC 2026上海7月17日开幕，"},
+        {"text": "1100家企业参展、300+新品全球首发", "hl": true}
+      ],
+      "oneline": [
+        {"text": "华为Atlas 950/MiniMax M3/阶跃Agent OS"},
+        {"text": "全球首款AI智能体手机同场亮相", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "世界人工智能大会暨全球AI治理高级别会议（WAIC 2026）7月17-20日在上海举办，主题「智能伙伴 共创未来」，超1100家企业参展、3000+展品、300+全球首发，展区首次突破10万平方米。"},
+        {"k": "为什么重要", "v": "华为Atlas 950超节点算力、MiniMax M3多模态大模型、阶跃Agent智能体操作系统、全球首款AI智能体手机将同台亮相，WAIC Academic学术论坛由图灵奖得主领衔，是中国AI产业年度最大出口。"},
+        {"k": "对你的影响", "v": "关注7月17日起 WAIC 直播可追踪国产AI算力（华为替代英伟达路线）、Agent OS和人形机器人最新进展。Gemini 3.5 Pro和WAIC同日发布，届时国际/国内AI最新动态密集落地。"}
+      ],
+      "src": "📎 yicaiglobal.com · globaltimes.cn · digital.gmw.cn"
+    },
+    {
+      "slug": "04-meta-muse-image-agent-generation",
+      "idx": "04",
+      "catText": "Meta图像AI",
+      "accent": "#1877f2",
+      "bg": {
+        "top": "Meta Muse Image",
+        "mid": "超级智能实验室首作",
+        "bot": "Agent架构自我修正",
+        "topRight": "🎨"
+      },
+      "title": [
+        {"text": "Meta Muse Image上线："},
+        {"text": "Agent架构图像生成，免费集成Instagram/WhatsApp", "hl": true}
+      ],
+      "oneline": [
+        {"text": "调工具+自我修正+测试时算力扩展，"},
+        {"text": "非传统prompt直映模式", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Meta超级智能实验室（MSL）7月7日发布Muse Image，是Meta第一款自研图像生成模型，已集成进Meta AI App、Instagram Stories和WhatsApp，免费可用，广告主可通过Meta Advantage+创意工具调用。"},
+        {"k": "为什么重要", "v": "Muse Image以Agent架构运行：它不是直接prompt→图像映射，而是先调用搜索和代码工具提升准确性，再自我修正生成结果，还支持测试时算力扩展（更多计算→更高质量）。这代表新一代图像生成的技术方向——从扩散模型转向Agent式推理生成。"},
+        {"k": "对你的影响", "v": "Instagram用户可在Stories中直接使用。跨平台广告主可通过Advantage+无缝接入创意生成工作流。开发者注意：Meta尚未开放Muse Image API，当前仅限产品内嵌使用。"}
+      ],
+      "src": "📎 about.fb.com · techcrunch.com · axios.com"
+    },
+    {
+      "slug": "05-cursor-ios-mobile-agent-control",
+      "idx": "05",
+      "catText": "开发者工具",
+      "accent": "#1da1f2",
+      "bg": {
+        "top": "Cursor iOS",
+        "mid": "移动端Agent控制台",
+        "bot": "SpaceXAI旗下",
+        "topRight": "📱"
+      },
+      "title": [
+        {"text": "Cursor发布iOS公测版："},
+        {"text": "手机控制云端AI编程Agent、随时merge PR", "hl": true}
+      ],
+      "oneline": [
+        {"text": "审查diff/语音对话/接收通知，"},
+        {"text": "AI编程工具从写代码转向监督代码", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Cursor（已被SpaceXAI收购）6月29日发布iOS公测版，付费计划用户可下载。支持启动云端或本地AI Agent、查看代码变更截图/视频、标注图片、审查diff、合并PR、与Agent语音对话，并接收Agent完成时的推送通知。"},
+        {"k": "为什么重要", "v": "这标志AI编程工具从「IDE中写代码」演变为「移动端监督AI写代码」。开发者可以在通勤途中启动一个长时间运行的Agent任务，到办公室时审查结果并合并PR，整个工作流无需坐在电脑前。SpaceXAI收购Cursor后的这步移动端延伸，强化了Agent控制台定位。"},
+        {"k": "对你的影响", "v": "Cursor付费用户可立即在App Store下载公测版测试。云端Agent功能允许Agent在手机关屏时继续运行，适合耗时较长的重构/迁移任务。注意：Composer 2.5 75%折扣（截至7月5日）已过期。"}
+      ],
+      "src": "📎 techcrunch.com · cursor.com · 9to5mac.com"
+    }
+  ],
+  "mp": {
+    "title": "中国AI伴侣新规明日落地 / DeepSeek V4峰谷定价 / WAIC 300新品 / Meta Muse Image / Cursor iOS"
+  }
+}
