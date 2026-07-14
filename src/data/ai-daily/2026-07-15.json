@@ -1,0 +1,155 @@
+{
+  "date": "2026-07-15",
+  "summary": {
+    "hook": [
+      {"text": "DeepSeek估值$71B新一轮融资"},
+      {"text": "OpenAI拟送美政府5%股权"},
+      {"text": "Gemini 3.5 Pro推迟7.17"},
+      {"text": "Claude Science科研工作台"},
+      {"text": "Grok 4.5整合Cursor押注编程"}
+    ],
+    "sub": "DeepSeek六周内估值涨42%、OpenAI以股权换政策支持、Gemini推倒重建——七月中旬AI巨头同步密集动作",
+    "items": [
+      {"num": "01", "cat": "资本市场", "numColor": "#ef4444", "t": "DeepSeek筹谋$71B估值新融资，自研推理芯片曝光，六周内估值涨42%"},
+      {"num": "02", "cat": "政策监管", "numColor": "#8b5cf6", "t": "OpenAI拟向美国政府出让5%股权约$426亿，Altman亲赴白宫游说特朗普"},
+      {"num": "03", "cat": "竞争动态", "numColor": "#10b981", "t": "Google Gemini 3.5 Pro推迟至7月17日，推倒重建2M token上下文"},
+      {"num": "04", "cat": "科研AI", "numColor": "#6366f1", "t": "Anthropic发布Claude Science科研工作台，同步启动印度本地化定价"},
+      {"num": "05", "cat": "开发者工具", "numColor": "#f59e0b", "t": "xAI Grok 4.5上线Cursor全订阅，$2/$6每M定价挑战编程AI格局"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-deepseek-71b-valuation-chip",
+      "idx": "01",
+      "catText": "资本市场",
+      "accent": "#ef4444",
+      "bg": {
+        "top": "DeepSeek新融资",
+        "mid": "$71B估值目标",
+        "bot": "自研推理芯片",
+        "topRight": "🚀"
+      },
+      "title": [
+        {"text": "DeepSeek六周后再融资，"},
+        {"text": "估值目标$71B + 自研AI芯片曝光", "hl": true}
+      ],
+      "oneline": [
+        {"text": "完成$74亿融资六周即启动新一轮，"},
+        {"text": "估值较六周前$50B涨约42%", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "据FT报道，DeepSeek正与潜在投资者接触新一轮融资，预融前估值目标$71B，较六周前$50B后估值涨约42%；同期路透曝光DeepSeek在自研专用于推理阶段的AI芯片，以降低对英伟达和华为芯片的依赖。"},
+        {"k": "为什么重要", "v": "DeepSeek估值从今年4月$20B飙至当前$71B目标，是中国AI史上最快重估记录。自研芯片若成功，将彻底绕开美国出口管制，实现算力自主；其推理成本优势也有望进一步扩大。"},
+        {"k": "对你的影响", "v": "国产模型API定价竞争将进一步加剧，开发者迁移成本持续下降。若新一轮融资完成，DeepSeek将加速数据中心建设，推理速度和稳定性有望改善。"}
+      ],
+      "src": "📎 bloomberg.com · reuters.com · ft.com"
+    },
+    {
+      "slug": "02-openai-us-gov-5-percent-stake",
+      "idx": "02",
+      "catText": "政策监管",
+      "accent": "#8b5cf6",
+      "bg": {
+        "top": "OpenAI提议",
+        "mid": "5%股权送美政府",
+        "bot": "约$426亿估值",
+        "topRight": "🏛️"
+      },
+      "title": [
+        {"text": "OpenAI拟向美国政府出让5%股权，"},
+        {"text": "Altman亲赴白宫游说，估值$852B", "hl": true}
+      ],
+      "oneline": [
+        {"text": "以价值$426亿股权换取政策支持，"},
+        {"text": "将政府变股东是AI监管新博弈策略", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "OpenAI提议向美国政府出让5%股权，以当前$852B估值计约值$426亿，Sam Altman亲自向特朗普总统及内阁成员游说，作为换取政策支持和数据中心建设许可的筹码。"},
+        {"k": "为什么重要", "v": "AI公司主动把政府变成股东，实质是用「利益绑定」换监管优惠。一旦成立，OpenAI在政府采购、军事AI合同和数据合规上的优势将大幅强化，这一先例可能倒逼Anthropic和Google效仿。"},
+        {"k": "对你的影响", "v": "若成功，OpenAI的美国政府渠道将无可撼动，竞争格局向大玩家集中。对澳洲开发者影响相对间接，但可关注AI监管「利益绑定」模式是否在其他国家蔓延。"}
+      ],
+      "src": "📎 buildfastwithai.com · axios.com"
+    },
+    {
+      "slug": "03-gemini-35-pro-delay-july17",
+      "idx": "03",
+      "catText": "竞争动态",
+      "accent": "#10b981",
+      "bg": {
+        "top": "Gemini 3.5 Pro",
+        "mid": "推倒重建架构",
+        "bot": "7月17日正式上线",
+        "topRight": "🔄"
+      },
+      "title": [
+        {"text": "Gemini 3.5 Pro推迟至7月17日，"},
+        {"text": "Google推倒重建架构冲刺2M token上下文", "hl": true}
+      ],
+      "oneline": [
+        {"text": "放弃2.5 Pro架构彻底重建，"},
+        {"text": "主攻数学推理和SVG生成超越GPT-5.6", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Google DeepMind宣布Gemini 3.5 Pro推迟至7月17日发布，原因是放弃现有2.5 Pro架构彻底重建，新版支持200万token上下文和Deep Think推理层，目标在数学推理和SVG图像生成上超越GPT-5.6。"},
+        {"k": "为什么重要", "v": "这是Google首次公开承认某模型「架构级重建」，说明AI三巨头之间的性能差距已足以迫使Google宁愿推迟也不凑合上线。7月17日将出现GPT-5.6 vs Gemini 3.5 Pro vs Grok 4.5的三方集中大战。"},
+        {"k": "对你的影响", "v": "7月17日将是本月AI工具选型关键节点，建议届时查看独立评测再决定API/工具迁移。2M token上下文若属实，将是长文档和超长代码处理的标杆级突破。"}
+      ],
+      "src": "📎 finance.biggo.com · deepmind.google"
+    },
+    {
+      "slug": "04-claude-science-india-pricing",
+      "idx": "04",
+      "catText": "科研AI",
+      "accent": "#6366f1",
+      "bg": {
+        "top": "Claude Science",
+        "mid": "科研专属工作台",
+        "bot": "印度本地化定价",
+        "topRight": "🔬"
+      },
+      "title": [
+        {"text": "Anthropic发布Claude Science科研工作台，"},
+        {"text": "同步启动印度本地化定价", "hl": true}
+      ],
+      "oneline": [
+        {"text": "集成科研工具包、可审计Artifact、弹性算力，"},
+        {"text": "印度成OpenAI之外最大海外市场", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Anthropic推出Claude Science，一款为科研人员设计的AI工作台，集成研究常用工具和Python包，产出可审计的Artifact，并提供弹性计算资源接入。同期，Anthropic启动面向印度用户的本地化定价，印度已成其美国之外最大市场。"},
+        {"k": "为什么重要", "v": "Claude Science将AI助手从通用对话升级为可复现研究成果的工作台，可审计性直接回应学术界对AI可信度的诉求。印度本地化定价则标志Anthropic正式切入全球最大新兴市场，与OpenAI争夺非英语市场份额。"},
+        {"k": "对你的影响", "v": "科研方向的JR学员可关注Claude Science的数据分析和实验设计功能。印度市场进入意味着南亚地区Claude API成本可能进一步下降，也为跨境AI创业提供了新机会窗口。"}
+      ],
+      "src": "📎 anthropic.com · techcrunch.com"
+    },
+    {
+      "slug": "05-grok-45-cursor-coding",
+      "idx": "05",
+      "catText": "开发者工具",
+      "accent": "#f59e0b",
+      "bg": {
+        "top": "Grok 4.5",
+        "mid": "Cursor全订阅整合",
+        "bot": "$2/$6每M定价",
+        "topRight": "💻"
+      },
+      "title": [
+        {"text": "xAI Grok 4.5发布并整合Cursor，"},
+        {"text": "$2/$6每M定价主攻编程与Agent场景", "hl": true}
+      ],
+      "oneline": [
+        {"text": "收购Cursor后首款编程旗舰，"},
+        {"text": "声称更快更省，直接挑战GitHub Copilot", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "SpaceXAI发布Grok 4.5，上线Grok Build及Cursor全订阅计划，输入$2/M输出$6/M，定位Opus级别但更快更省。同步为Grok Voice新增21种多语言声线，Grok Imagine图像生成功能宣告完成。"},
+        {"k": "为什么重要", "v": "这是xAI收购Cursor后将编程能力与模型深度整合的首步，标志Musk正式以AI编程赛道与Copilot、Cursor原生AI、Codex竞争。定价低于GPT-5.6 Sol（$5/$30），对开发者有直接吸引力。"},
+        {"k": "对你的影响", "v": "Cursor付费用户可立即在Grok Build测试Grok 4.5；注意当前EU地区暂不可用。三大编程AI（Claude Code / GPT-5.6 / Grok 4.5）集中同期竞争，建议比测后再决定订阅策略。"}
+      ],
+      "src": "📎 axios.com · x.ai"
+    }
+  ],
+  "mp": {
+    "title": "DeepSeek估值$71B / OpenAI送美政府5%股权 / Gemini 3.5延期7.17 / Claude Science上线 / Grok 4.5押注编程"
+  }
+}
