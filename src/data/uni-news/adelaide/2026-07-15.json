@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-15",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "阿德莱德大学",
+    "hookSub": "艺术合作开新局 + 农村心理健康破圈",
+    "hookSubHighlight": "艺术合作开新局",
+    "subLines": [
+      "与州立剧院公司建立战略合作 · 学生工坊+实习+联合创作",
+      "ifarmwell 五集视频系列上线 · 打破农村求助污名",
+      "农民故事直击产后抑郁 / 悲伤 / 孤独 / 累积压力"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "STCSA 战略合作", "data": "2028 委约作品联合呈现" },
+      { "num": "02", "title": "ifarmwell 视频", "data": "5 集 · CMV 集团基金会资助" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "校园动态",
+      "h2Main": "阿德莱德大学与州立剧院公司建立战略合作",
+      "h2Sub": "学生工坊 + 实习 + 2028 联合委约作品 · 艺术与医学跨界",
+      "h2Highlight": "2028 联合委约作品",
+      "lead": "阿德莱德大学 7 月 13 日宣布与 State Theatre Company South Australia（STCSA）签署战略合作协议，<b>学生和教职人员将直接参与南澳戏剧创作的工坊、实习及新作开发</b>，大学同时成为 2028 年一部委约新作的呈现合作伙伴。",
+      "bullets": [
+        { "k": "学生机会", "v": "开放工坊（workshops）、实习（internships）及参与新创作品开发——包括<b>幕后洞察、剧本读取和创作流程全程介入</b>" },
+        { "k": "2028 委约", "v": "大学将作为 Presenting Partner，联合呈现计划 2028 年公演的一部<b>全新委约戏剧作品</b>，学生和教职人员可全程参与创作" },
+        { "k": "医学跨界", "v": "STCSA 演员将作为<b>模拟患者（simulated patients）</b>参与医护培训——帮助培养下一代护士、联合健康专业人员和医生的临床沟通能力" },
+        { "k": "南澳背景", "v": "合作强化了阿德莱德大学创意课程与南澳演艺产业之间的专业发展和实践学习通道" },
+        { "k": "对你的影响", "v": "走 <b>Creative Arts / Drama / Health Sciences</b> 方向的同学，这条合作线提供了从课堂到行业的直接通道，同时让医学生获得高质量的临床沟通训练机会" }
+      ],
+      "source": "Adelaide University Newsroom · 2026-07-13",
+      "sourceUrl": "https://www.adelaide.edu.au/newsroom/news/term/state-theatre-company-south-australia"
+    },
+    {
+      "idx": "02",
+      "category": "心理健康研究",
+      "h2Main": "阿德莱德大学 ifarmwell 上线五集心理视频：农村求助不是软弱",
+      "h2Sub": "Associate Prof. Kate Gunn 主导 · CMV 集团基金会资助 · 「Weather it together」运动",
+      "h2Highlight": "求助不是软弱",
+      "lead": "阿德莱德大学 ifarmwell 团队 7 月 14 日推出五集视频系列「Weather it Together」，<b>通过真实农民的故事破除农村社区对求助心理支持的污名</b>，内容涵盖产后抑郁、悲伤、关系破裂、孤独感及农场经营累积压力，由 CMV 集团基金会资助。",
+      "bullets": [
+        { "k": "项目领导", "v": "Associate Professor Kate Gunn（ifarmwell 创始人及主任），阿德莱德大学农村心理健康研究领军人物" },
+        { "k": "视频内容", "v": "<b>五集</b>系列：来自农民第一人称的真实故事（产后抑郁 / 悲伤 / 关系破裂 / 孤独感 / 农场累积压力）+ 农村全科医生（rural GP）实用建议" },
+        { "k": "核心信息", "v": "「主动寻求帮助是力量的体现，而不是软弱的标志」——视频明确针对农村社区对心理求助的污名和障碍" },
+        { "k": "背景运动", "v": "「Weather it Together」运动：鼓励农民通过<b>保持联结 / 专注可控之事 / 保持活跃 / 适时开口</b>四个维度维护身心健康" },
+        { "k": "对你的影响", "v": "走 <b>Psychology / Rural Health / Social Work / Allied Health</b> 方向的同学，ifarmwell 是阿德莱德大学在农村心理健康领域的代表性研究平台，有完整的 HDR 研究入口" }
+      ],
+      "source": "Adelaide University / phys.org · 2026-07-14",
+      "sourceUrl": "https://phys.org/news/2026-07-weather-farmers-mental-health.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日 2 条",
+    "titleHighlight": "一眼看完",
+    "sub": "STCSA 战略合作开放学生工坊与 2028 委约、ifarmwell 五集视频打破农村求助污名——阿德莱德大学本周艺术合作+心理健康研究双发力。",
+    "items": [
+      { "n": "01", "title": "STCSA 战略合作", "body": "学生工坊+实习+创作介入 · 2028 委约呈现合作 · 演员作模拟患者训练医护 · 艺术与医学跨界" },
+      { "n": "02", "title": "ifarmwell 五集视频", "body": "农民真实故事+GP 建议 · 产后抑郁/悲伤/孤独/压力 · CMV 基金资助 · 破除求助污名" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 科研 + 招生 + 校园动态一手同步",
+      "badge": "07 / 15"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿德莱德大学 7-15 两条🎭",
+      "body": "阿德莱德大学（University of Adelaide + UniSA 合并后的新校）这周放了两条方向完全不同但都很有意思的新闻。\n\n01 / 与南澳州立剧院公司（STCSA）签战略合作——学生和教职人员直接参与工坊、实习，还有机会全程介入 2028 年一部全新委约作品的创作；STCSA 的演员还会来给医学生做模拟患者培训。\n\n02 / ifarmwell 五集心理健康视频上线——Associate Prof. Kate Gunn 团队「Weather it Together」系列，农民亲口讲述产后抑郁、悲伤、孤独、累积压力，rural GP 给实用建议。核心信息：<b>求助是力量，不是软弱</b>。\n\n艺术方向和医学/心理方向的姐妹评论区聊🙌",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #大学新闻 #留学干货 #南澳 #心理健康"
+    },
+    "p2": {
+      "title": "阿大 × 州立剧院 艺术合作🎭",
+      "body": "学创意艺术 / 戏剧方向的姐妹，这条很值得看。\n\n阿德莱德大学 7 月 13 日宣布和 State Theatre Company South Australia（STCSA）——南澳规模最大的职业剧团——签战略合作协议。\n\n学生能拿到什么？工坊、实习、参与新作品的创作开发，包括幕后洞察、剧本读取和创作流程的全程介入。大学还会作为 Presenting Partner，联合呈现 2028 年一部全新委约作品——学生从创作期就能参与进去。\n\n还有个很特别的方向：STCSA 的演员会作为「模拟患者」给阿大的护士、医生、联合健康专业学生做临床沟通培训。这个跨界用法在澳洲高校不多见。\n\n在阿德莱德读 Creative Arts / Drama / Theatre Studies 的同学，这条合作意味着你毕业前就能和南澳最主要的职业剧团建立真实的工作关系。对走医学 / Allied Health 的同学也有直接利好。评论区聊。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #创意艺术 #戏剧 #南澳留学 #留学干货"
+    },
+    "p3": {
+      "title": "农村心理健康 · 求助是力量🌾",
+      "body": "走 Psychology / Rural Health / Social Work 方向的姐妹，这条值得关注。\n\n阿德莱德大学 ifarmwell 团队 7 月 14 日推出了「Weather it Together」五集视频系列，由 Associate Professor Kate Gunn（ifarmwell 创始人）主导，CMV 集团基金会资助。\n\n视频的内容形式我觉得很打动人：不是专家讲课，而是农民自己来讲故事——产后抑郁、失去亲人的悲伤、关系破裂、农场生活的孤独感，以及日积月累的经营压力。配合农村全科医生（rural GP）给出的实用建议。\n\n核心信息很明确：主动寻求帮助是力量的体现，不是软弱的标志。这条是专门针对农村社区对心理求助的污名和障碍设计的。\n\nifarmwell 是阿德莱德大学在农村心理健康领域的代表性研究平台，有完整的 HDR（Honours/PhD）研究入口。想在澳洲做农村心理健康研究的姐妹，这个团队值得看。评论区聊。",
+      "tags": "#阿德莱德大学 #澳洲留学 #心理健康 #农村医疗 #SocialWork #留学干货 #南澳"
+    },
+    "p4": {
+      "title": "阿大 × 医学 × 戏剧演员🩺",
+      "body": "这个合作角度我第一次见——阿德莱德大学和南澳州立剧院公司（STCSA）的战略合作里，有一条专门为医学生设计的跨界内容。\n\nSTCSA 的职业演员会作为「模拟患者（simulated patients）」，参与阿大护士、医生、Allied Health 专业学生的临床沟通培训。\n\n「模拟患者」这个训练方式在澳洲医学教育里不陌生，但通常是专职人员，用专业演员来做——情感表达层次、应对不同医患沟通场景的能力——肯定是不一样的体验。\n\n走 Medicine / Nursing / Allied Health 方向的同学，在阿德莱德大学就读的话，这条合作意味着你的临床沟通训练会有更丰富的资源。\n\n另一方面，走戏剧或表演方向的同学，这说明 STCSA 和阿大的合作不只是文艺层面的，还有实际的跨学科应用价值。\n\n在考虑阿德莱德大学的姐妹评论区聊🙌",
+      "tags": "#阿德莱德大学 #澳洲留学 #医学留学 #临床培训 #戏剧 #Allied Health #南澳"
+    },
+    "p5": {
+      "title": "阿大 7-15｜两条一眼看完",
+      "body": "阿德莱德大学（University of Adelaide + UniSA 新合并校）本周两条：\n\n01 / STCSA 战略合作——与南澳州立剧院公司签协议，学生和教职人员进工坊、实习、参与新作创作，大学作为 Presenting Partner 联合呈现 2028 委约新作；STCSA 演员同时给医学生做模拟患者临床培训。\n\n02 / ifarmwell 五集视频上线——「Weather it Together」系列，农民自述故事+rural GP 建议，涵盖产后抑郁/悲伤/孤独/累积压力，由 Associate Prof. Kate Gunn 团队主导，CMV 集团基金会资助。\n\n走 Creative Arts / Medicine / Psychology / Rural Health 方向在考虑阿德莱德大学的姐妹可以对照看。\n\n评论区扣 1，分享阿大专业整理🙌",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #UNSW申请 #大学新闻 #留学干货 #南澳留学"
+    }
+  },
+  "mp": {
+    "title": "阿德莱德大学 7 月 15 日：州立剧院合作开放学生工坊与 2028 委约、ifarmwell 五集视频打破农村求助污名",
+    "lead": "阿德莱德大学本周两条新闻横跨艺术合作与心理健康研究两条线。7 月 13 日，大学宣布与 State Theatre Company South Australia（STCSA）签署战略合作协议，学生和教职人员将直接参与工坊、实习及新作品创作开发，大学同时作为 Presenting Partner 联合呈现 2028 年一部全新委约戏剧作品；STCSA 演员还将作为模拟患者参与医护临床沟通培训。7 月 14 日，ifarmwell 团队推出五集「Weather it Together」视频系列，由 Associate Professor Kate Gunn 主导，CMV 集团基金会资助，通过农民真实故事和 rural GP 建议破除农村社区对心理求助的污名。",
+    "meta": { "readTime": "6 分钟" },
+    "newsBodies": [
+      {
+        "h2": "阿德莱德大学 × 州立剧院：学生工坊实习+2028 委约+演员做医学模拟患者",
+        "paragraphs": [
+          "2026 年 7 月 13 日，阿德莱德大学宣布与 State Theatre Company South Australia（STCSA）签署战略合作协议。STCSA 是南澳规模最大的职业剧团，此次合作将学生和教职人员直接纳入南澳戏剧生态——包括参与工坊、获取实习机会、介入新创作品的开发（幕后洞察、剧本读取和创作流程）。大学还将作为 Presenting Partner，联合呈现一部计划 2028 年公演的全新委约戏剧作品，学生从创作期起即可全程参与。",
+          "这次合作有一个很具特色的跨学科维度：STCSA 的职业演员将作为「模拟患者（simulated patients）」参与阿德莱德大学护士、医生、联合健康专业学生的临床沟通培训。这种跨界用法——让专业演员取代传统模拟患者——理论上能为医学生提供更有层次感的临床沟通训练体验，尤其在应对情感复杂场景时。阿德莱德大学在大学与专业艺术机构跨界融合的培训模式上已有长期探索，这次合作将这一方向系统化。",
+          "对走 Creative Arts、Drama 或 Theatre Studies 方向的学生，这条合作意味着在读期间就能与南澳最主要的职业剧团建立真实工作关系，并参与 2028 年委约新作的全过程创作——这是课堂外极为难得的行业实战机会。对走 Medicine、Nursing 或 Allied Health 方向的学生，STCSA 演员作为模拟患者也是临床沟通技能训练资源的直接提升。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.adelaide.edu.au/newsroom/news/term/state-theatre-company-south-australia\">Adelaide University Newsroom · State Theatre Company South Australia</a>"
+      },
+      {
+        "h2": "ifarmwell 推出「Weather it Together」五集视频：农民故事打破农村求助污名",
+        "paragraphs": [
+          "2026 年 7 月 14 日，阿德莱德大学 ifarmwell 团队发布「Weather it Together」五集视频系列，由 Associate Professor Kate Gunn（ifarmwell 创始人及主任）主导，CMV 集团基金会资助。这套视频系列的核心目标是：通过真实农民的第一人称叙述，减少农村社区对心理求助的污名，传递「主动寻求帮助是力量的体现，而不是软弱的标志」这一核心信息。",
+          "五集内容涵盖农场生活中不同类型的心理压力情境：产后抑郁（postnatal depression）、失去亲人的悲伤（grief）、关系破裂（relationship breakdown）、生活在偏远地区带来的孤独感（isolation），以及农场经营日积月累的综合压力。每集在农民叙述之外，配合农村全科医生（rural GP）给出的实用建议。这种真实故事+专业建议的结合方式，避免了传统心理健康宣传材料的说教感。",
+          "ifarmwell 是阿德莱德大学在农村心理健康领域的代表性研究和传播平台，「Weather it Together」运动鼓励农民通过「保持联结 / 专注可控之事 / 保持活跃 / 适时开口」四个维度维护身心健康。对走 Psychology、Rural Health、Social Work 或 Allied Health 方向的学生，ifarmwell 有完整的 Honours 和 PhD 研究入口，是在澳洲农村心理健康研究领域建立学术背景的重要平台。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://phys.org/news/2026-07-weather-farmers-mental-health.html\">phys.org · Weather it together: Farmers speaking up about mental health</a>"
+      }
+    ],
+    "quickview": {
+      "title": "📌 今日速览",
+      "items": [
+        "<strong>01 · STCSA 战略合作</strong>：学生工坊+实习+创作介入 · 大学为 2028 委约新作 Presenting Partner · 演员作模拟患者训练医护 · 艺术与医学跨界",
+        "<strong>02 · ifarmwell 五集视频</strong>：农民真实故事+rural GP 建议 · 产后抑郁/悲伤/孤独/累积压力 · CMV 基金资助 · Associate Prof. Gunn 主导"
+      ]
+    },
+    "cta": {
+      "big": "🎓 想每天收到澳洲大学的硬料？",
+      "sub": "关注 JR Academy 公众号 · 回复「澳洲大学日报」订阅 · 历史日报全开放"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "阿德莱德大学 × 州立剧院｜演员来给医学生做模拟患者",
+        "body": "这个合作角度我没想到——阿德莱德大学刚宣布和南澳州立剧院公司（STCSA）签战略合作，其中有一条我觉得挺聪明的：STCSA 的职业演员来给护士、医生、Allied Health 学生做「模拟患者（simulated patients）」临床沟通培训。\n\n不是一次性活动，是战略合作框架——意味着这个跨界培训会持续下去。\n\n另一块是对创意艺术学生的开放：工坊、实习、参与新作品创作（包括幕后和剧本读取），还有 2028 年一部全新委约作品的创作全程介入——大学是这个作品的 Presenting Partner。\n\n在阿德莱德大学读 Creative Arts 或医学相关专业的同学，这条合作是真实资源的增加。南澳的戏剧圈本来就小，和 STCSA 建立这种正式连接，对创意方向学生的行业网络建设是直接加分。\n\n在考虑阿德莱德大学的姐妹评论区聊🎭",
+        "tags": ["#阿德莱德大学", "#澳洲留学", "#创意艺术", "#戏剧", "#医学培训", "#南澳", "#留学干货"]
+      },
+      {
+        "heading": "农村心理健康｜ifarmwell 五集视频 · 求助不是软弱",
+        "body": "走 Psychology / Rural Health / Social Work 方向的姐妹，这个阿德莱德大学的项目可以了解一下。\n\n7 月 14 日 ifarmwell 团队上线了「Weather it Together」五集视频系列，Associate Professor Kate Gunn 主导，CMV 集团基金会资助。\n\n不是专家说教，是农民自己讲故事——产后抑郁、悲伤、关系破裂、孤独感、农场经营的累积压力。每集配农村全科医生的实用建议。核心要传递的是：求助是力量的体现，不是软弱。这是专门针对农村社区对心理求助的污名问题设计的。\n\nifarmwell 是阿德莱德大学在农村心理健康领域的长期研究平台，有 Honours 和 PhD 研究入口。如果你想在澳洲做农村心理健康方向的研究，Kate Gunn 团队是一个可以认真看的选择。\n\n评论区聊。",
+        "tags": ["#阿德莱德大学", "#澳洲留学", "#心理健康", "#农村医疗", "#Rural Health", "#留学干货", "#南澳"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化",     "rule": "最 / 第一 / 唯一 / 100%",          "result": "未检出（「规模最大的职业剧团」属事实性描述保留）" },
+      { "category": "教育承诺",   "rule": "包过 / 保录取 / 稳上",             "result": "未检出" },
+      { "category": "引流",       "rule": "加V / VX / 私信领取 / 关注公众号",  "result": "未检出（xhsCopy 和 drafts 内未出现）" },
+      { "category": "AI 味",      "rule": "首先其次最后 / 值得注意 / 综上所述", "result": "未检出" },
+      { "category": "封号红线",   "rule": "JR Academy / 匠人学院 / jiangren.com / 站外域名", "result": "未检出（xhsCopy 与 drafts 全部扫描）" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然",             "result": "未检出" },
+      { "category": "政治金融",   "rule": "保本 / 稳赚 / 荐股",               "result": "未检出" }
+    ]
+  }
+}
