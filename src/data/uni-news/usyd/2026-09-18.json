@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-09-18",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "USYD 悉尼大学",
+    "hookSub": "本周三条 第一条最实在",
+    "hookSubHighlight": "第一条最实在",
+    "subLines": [
+      "全校学生和教职工免费拿 ChatGPT Edu 分阶段开放",
+      "口服胰岛素进入人体试验 12 人剂量研究已启动",
+      "ARC Future Fellowships 拿下 39 个项目 全澳第一梯队"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "ChatGPT Edu", "data": "全校免费 分阶段" },
+      { "num": "02", "title": "口服胰岛素", "data": "Phase 1a · 12 人" },
+      { "num": "03", "title": "ARC 未来学者", "data": "39 项 · 逾 4500 万澳元" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "教学科技",
+      "h2Main": "悉大全校学生免费用 ChatGPT Edu",
+      "h2Sub": "2026-09-14 官宣 · 分阶段开放 · 另投 100 万澳元设 AI 可持续研究基金",
+      "h2Highlight": "全校学生免费用",
+      "lead": "9 月 14 日悉尼大学官宣：<b>全校学生和教职工都将获得免费且有支持的 ChatGPT Edu 使用权</b>。官方同时说明功能会<b>分阶段开放</b>，并设立一笔 100 万澳元的种子投资用于 AI 可持续研究与创新基金。",
+      "bullets": [
+        { "k": "谁能用", "v": "官方原文：<b>All University of Sydney students and staff will soon gain free and supported access to OpenAI's ChatGPT Edu</b>，覆盖全体学生与教职工" },
+        { "k": "怎么开放", "v": "官方写的是 <b>introduced in stages, with additional capabilities being progressively enabled throughout the rollout</b>——分阶段上线，能力逐步开放，不是一次性全给" },
+        { "k": "配套投入", "v": "另设 <b>AI Sustainability Research and Innovation Fund</b>，官方描述为 <b>strategic seeding investment of $1 million</b>，方向是研究并降低 AI 的环境影响" },
+        { "k": "学术诚信", "v": "官方明确会支持学生在<b>维护学术诚信、保护知识产权、负责任使用与隐私</b>的前提下建立 AI 能力——不是给了工具就不管用法" },
+        { "k": "对你的影响", "v": "在读同学留意学校邮件和 <b>sydney.edu.au/students/chatgpt-edu</b> 页面的开通通知；具体哪一批功能什么时候到你账号，以学校通知为准，官网没给逐项时间表" }
+      ],
+      "sourceQuote": "All University of Sydney students and staff will soon gain free and supported access to OpenAI's ChatGPT Edu, the enterprise AI tool of choice for a number of leading universities worldwide. ChatGPT Edu features will be introduced in stages, with additional capabilities being progressively enabled throughout the rollout.",
+      "source": "The University of Sydney · 2026-09-14",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/09/14/students-staff-to-receive-free-chatgpt-edu-access.html"
+    },
+    {
+      "idx": "02",
+      "category": "科研转化",
+      "h2Main": "口服胰岛素进入人体试验 悉大衍生公司迈过关键一步",
+      "h2Sub": "Endo Axiom · Phase 1a · 12 人首次人体给药",
+      "h2Highlight": "进入人体试验",
+      "lead": "9 月 10 日悉尼大学官网：由学校衍生的生物科技公司 <b>Endo Axiom</b> 启动口服胰岛素的 <b>Phase 1a 临床研究</b>，在健康志愿者身上评估不同剂量的安全性与耐受性，公司由此进入临床阶段。",
+      "bullets": [
+        { "k": "试验规模", "v": "官方原文提到 <b>first-in-human dosing of 12 participants</b>，形式是<b>随机、双盲、安慰剂对照</b>研究，在阿德莱德的 CMAX Clinical Research 开展" },
+        { "k": "下一步", "v": "官方说明：<b>A phase 1b trial in people with type 1 diabetes will follow</b>——1b 期将在 1 型糖尿病患者中进行" },
+        { "k": "研究团队", "v": "副教授 <b>Nicholas Hunt</b>、教授 <b>Victoria Cogger</b>、教授 <b>David Le Couteur</b>，均来自医学与健康学部；公司 2023 年成立，做多肽、蛋白、抗原与 RNA 的纳米递送平台" },
+        { "k": "对你的影响", "v": "想走 <b>Pharmacy / Biomedical Engineering / Nanomedicine</b> 的同学，这是悉大把实验室成果推到临床阶段的一条完整链路，面试或 PS 里讲 translation research 时是个很具体的例子" }
+      ],
+      "sourceQuote": "This Phase 1a clinical study marks Endo Axiom, a spinout from the University, as a clinical-stage company. A phase 1b trial in people with type 1 diabetes will follow.",
+      "source": "The University of Sydney · 2026-09-10",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/09/10/oral-insulin-drug-achieves-a-critical-milestone--.html"
+    },
+    {
+      "idx": "03",
+      "category": "科研经费",
+      "h2Main": "ARC Future Fellowships 悉大拿下 39 个项目",
+      "h2Sub": "逾 4500 万澳元 · 全澳共 290 个项目 3.44 亿澳元",
+      "h2Highlight": "39 个项目",
+      "lead": "9 月 9 日悉尼大学官网：在本轮 <b>ARC Future Fellowships</b> 中，悉大研究者拿到 <b>39 个以影响力为导向的项目</b>，获得<b>超过 4500 万澳元</b>，用于未来四年的研究。全澳本轮共向 290 位中期研究者投入 3.44 亿澳元。",
+      "bullets": [
+        { "k": "拿了多少", "v": "官方原文：<b>University of Sydney Fellows received more than $45 million to lead these ambitious projects over the next four years</b>，共 39 个项目" },
+        { "k": "全澳盘子", "v": "官方写的是本轮 <b>$344 million awarded to 290 outstanding mid-career researchers across the country</b>" },
+        { "k": "覆盖学科", "v": "官方列出的领域包括 <b>science, engineering, health, humanities, social sciences, architecture and law</b>，不是只有理工科" },
+        { "k": "项目例子", "v": "Dr Conrad Wasko 的项目是<b>改进洪水风险的理解与预测方法</b>，帮助澳洲社区更好应对未来洪水" },
+        { "k": "对你的影响", "v": "Future Fellowships 是中期研究者的四年期资助，直接决定未来几年哪些组有<b>稳定经费招 PhD</b>。找导师时可以优先看今年拿到这笔钱的老师" }
+      ],
+      "sourceQuote": "University of Sydney Fellows received more than $45 million to lead these ambitious projects over the next four years. This round saw $344 million awarded to 290 outstanding mid-career researchers across the country.",
+      "source": "The University of Sydney · 2026-09-09",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/09/09/university-of-sydney-leads-australia-in-arc-future-fellowships.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "USYD 本周三条 · 数据均取自 sydney.edu.au 官方原文",
+    "items": [
+      { "n": "01", "title": "ChatGPT Edu 全校免费", "body": "9 月 14 日官宣，全体学生和教职工获得免费且有支持的使用权，功能分阶段开放；另设 100 万澳元 AI 可持续研究与创新基金。" },
+      { "n": "02", "title": "口服胰岛素进人体试验", "body": "衍生公司 Endo Axiom 启动 Phase 1a，12 人首次人体给药，随机双盲安慰剂对照；后续将在 1 型糖尿病患者中做 1b 期。" },
+      { "n": "03", "title": "ARC 未来学者 39 项", "body": "悉大拿下 39 个 Future Fellowships 项目、逾 4500 万澳元；全澳本轮 290 个项目共 3.44 亿澳元，覆盖理工、健康、人文与法律。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "09 / 18"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "悉大这周三条 第一条最实在",
+      "body": "这周悉大的消息里，有一条是真能立刻影响到日常的。\n\n9 月 14 日官宣：全校学生和教职工都会拿到免费的 ChatGPT Edu，官方说是分阶段开放。\n\n另外两条偏研究：口服胰岛素进了人体试验，ARC Future Fellowships 拿了 39 个项目。\n\n三条我都对着 sydney.edu.au 原文核过，下面几张图逐条说。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #悉尼留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "悉大全校免费用 ChatGPT Edu",
+      "body": "9 月 14 日官网发的，原话是 All University of Sydney students and staff will soon gain free and supported access to OpenAI's ChatGPT Edu。\n\n注意两个细节，别看漏。\n\n一是 supported，官方强调不只是给账号，还有培训和支持。二是分阶段——原文写 introduced in stages, with additional capabilities being progressively enabled throughout the rollout。所以不是今天官宣明天全功能到账。\n\n学校同时设了一笔 AI 可持续研究与创新基金，官方描述是 100 万澳元的种子投资，方向是研究怎么衡量和降低 AI 的环境影响。\n\n还有一句我觉得挺重要：学校明确会在维护学术诚信、保护知识产权和隐私的前提下支持大家用。给了工具不等于随便用，这条自己心里有数。\n\n具体你的账号什么时候开通，以学校邮件和学生页面的通知为准，官网没给逐项时间表。",
+      "tags": "#悉尼大学 #USYD #ChatGPT #AI工具 #澳洲留学 #留学干货"
+    },
+    "p3": {
+      "title": "口服胰岛素进人体试验了",
+      "body": "第二条给医药和生物方向的同学。\n\n9 月 10 日悉大官网：学校衍生公司 Endo Axiom 启动口服胰岛素的 Phase 1a 临床研究，在健康志愿者身上看不同剂量的安全性和耐受性。\n\n规模不大但意义清楚——官方写的是 12 人首次人体给药，随机双盲安慰剂对照，在阿德莱德的 CMAX Clinical Research 做。官方还说后面会做 1b 期，对象是 1 型糖尿病患者。\n\n团队是医学与健康学部的 Nicholas Hunt 副教授、Victoria Cogger 教授和 David Le Couteur 教授。公司 2023 年成立，做纳米递送平台。\n\n我一直觉得 translation research 这个词很空，直到看见实验室到临床公司这条线被走完。写 PS 想举例子的话，这个比泛泛说热爱科研管用多了。",
+      "tags": "#悉尼大学 #USYD #生物医药 #留学申请 #科研 #澳洲留学"
+    },
+    "p4": {
+      "title": "找导师前先看这条经费名单",
+      "body": "第三条是给准备申 PhD 或者 research master 的人看的。\n\n9 月 9 日官网：本轮 ARC Future Fellowships，悉大拿到 39 个项目，官方说获得超过 4500 万澳元，用于未来四年。全澳这一轮是 290 个项目、3.44 亿澳元。\n\n覆盖领域官方列得很全：science, engineering, health, humanities, social sciences, architecture and law。文科也在里面。\n\n举个例子，Dr Conrad Wasko 的项目是改进洪水风险的理解和预测方法。\n\n为什么值得看？Future Fellowships 是四年期的，拿到的组未来几年经费是稳的，招 PhD 的意愿和给 stipend 的底气都不一样。\n\n我自己在纠结先海投还是先锁定几个组，目前倾向后者。有同样在准备的姐妹吗，扣 1 交流下。",
+      "tags": "#悉尼大学 #USYD #PhD申请 #研究生申请 #澳洲留学 #科研"
+    },
+    "p5": {
+      "title": "悉大本周速览 存着慢慢看",
+      "body": "三条放一起：\n\n01 ChatGPT Edu——9 月 14 日官宣，全校学生和教职工免费且有支持地使用，功能分阶段开放，另有 100 万澳元 AI 可持续研究与创新基金。\n\n02 口服胰岛素——衍生公司 Endo Axiom 进入 Phase 1a，12 人首次人体给药，随机双盲安慰剂对照，后续做 1b 期。\n\n03 ARC Future Fellowships——悉大 39 个项目、逾 4500 万澳元；全澳 290 个项目、3.44 亿澳元。\n\n所有数字我都回到 sydney.edu.au 原文核过，想看细节直接去官网搜标题。\n\n下周继续。想让我盯哪个方向的评论区扣个 1。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学干货 #悉尼 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "悉尼大学本周三条：全校免费 ChatGPT Edu、口服胰岛素进人体试验、ARC 拿下 39 项",
+    "lead": "9 月 9 日到 14 日，悉尼大学官网连着发了三条值得留学生知道的消息。第一条直接影响日常：全校学生和教职工将获得免费且有支持的 ChatGPT Edu 使用权。另外两条关于科研转化与经费。下面逐条拆，数据全部回到官网原文核过。",
+    "meta": { "readTime": "约 4 分钟" },
+    "newsBodies": [
+      {
+        "h2": "01 全校学生和教职工免费用 ChatGPT Edu",
+        "paragraphs": [
+          "9 月 14 日，悉尼大学官网发布消息。官方原文是：All University of Sydney students and staff will soon gain free and supported access to OpenAI's ChatGPT Edu, the enterprise AI tool of choice for a number of leading universities worldwide——全体学生和教职工都将获得免费且有支持的 ChatGPT Edu 使用权。",
+          "两个细节值得注意。一是 supported 这个词，官方强调不只是发账号，还包括培训与支持。二是开放节奏，官方写的是 ChatGPT Edu features will be introduced in stages, with additional capabilities being progressively enabled throughout the rollout——功能分阶段上线，能力逐步开放。所以官宣不等于全功能立刻到账，具体以学校通知为准。",
+          "配套还有一笔 AI Sustainability Research and Innovation Fund，官方描述为 strategic seeding investment of $1 million，用于研究如何理解、衡量并降低 AI 的环境影响。同时学校明确表示，会支持学生和教职工在维护学术诚信、保护知识产权以及负责任使用与隐私的前提下建立 AI 能力。"
+        ],
+        "sourceHtml": "The University of Sydney · 2026-09-14 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/09/14/students-staff-to-receive-free-chatgpt-edu-access.html\">sydney.edu.au</a>"
+      },
+      {
+        "h2": "02 口服胰岛素进入人体试验",
+        "paragraphs": [
+          "9 月 10 日，悉尼大学官网报道：由学校衍生的生物科技公司 Endo Axiom 启动口服胰岛素的 Phase 1a 临床研究，在健康志愿者身上评估不同剂量的安全性与耐受性。官方原文写的是 This Phase 1a clinical study marks Endo Axiom, a spinout from the University, as a clinical-stage company。",
+          "试验细节方面，官方提到 first-in-human dosing of 12 participants，采用随机、双盲、安慰剂对照设计，在阿德莱德的 CMAX Clinical Research 开展。下一步官方说明为 A phase 1b trial in people with type 1 diabetes will follow，即 1b 期将在 1 型糖尿病患者中进行。",
+          "研究团队来自医学与健康学部，包括副教授 Nicholas Hunt、教授 Victoria Cogger 与教授 David Le Couteur。公司成立于 2023 年，聚焦多肽、蛋白、抗原与 RNA 的纳米递送平台。对 Pharmacy、Biomedical Engineering 与 Nanomedicine 方向的申请者来说，这是一条从实验室走到临床阶段的完整链路。"
+        ],
+        "sourceHtml": "The University of Sydney · 2026-09-10 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/09/10/oral-insulin-drug-achieves-a-critical-milestone--.html\">sydney.edu.au</a>"
+      },
+      {
+        "h2": "03 ARC Future Fellowships 拿下 39 个项目",
+        "paragraphs": [
+          "9 月 9 日，悉尼大学官网公布本轮 ARC Future Fellowships 结果。官方原文是：University of Sydney Fellows received more than $45 million to lead these ambitious projects over the next four years——39 个以影响力为导向的项目，超过 4500 万澳元，为期四年。",
+          "全澳层面，官方写的是这一轮 $344 million awarded to 290 outstanding mid-career researchers across the country。覆盖学科官方列出 science, engineering, health, humanities, social sciences, architecture and law，文科与法学同样在列。项目例子之一是 Dr Conrad Wasko 改进洪水风险理解与预测方法的研究。",
+          "对准备申请 PhD 或研究型硕士的同学，这类名单有很实际的用处：Future Fellowships 是四年期资助，拿到的课题组在未来几年经费相对稳定，招收研究生的意愿与提供 stipend 的空间通常也更大。找导师时可以把今年的获资助名单作为第一层筛选。"
+        ],
+        "sourceHtml": "The University of Sydney · 2026-09-09 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/09/09/university-of-sydney-leads-australia-in-arc-future-fellowships.html\">sydney.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "ChatGPT Edu：全校学生与教职工免费且有支持地使用，功能分阶段开放；另设 100 万澳元 AI 可持续研究与创新基金。",
+        "口服胰岛素：衍生公司 Endo Axiom 启动 Phase 1a，12 人首次人体给药，随机双盲安慰剂对照，后续做 1b 期。",
+        "ARC Future Fellowships：悉大 39 个项目、逾 4500 万澳元；全澳 290 个项目、3.44 亿澳元。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "这周悉大的消息里，有一条是真能立刻影响日常的。\n\n9 月 14 日官网发的：全校学生和教职工都将获得免费且有支持的 ChatGPT Edu 使用权。官方原文用了 free and supported 这个说法，也写清楚功能会分阶段开放——introduced in stages。所以别急，账号什么时候开通以学校通知为准。学校同时设了一笔 100 万澳元的种子投资，做 AI 可持续研究与创新基金。\n\n第二条是 9 月 10 日的：学校衍生公司 Endo Axiom 的口服胰岛素进入 Phase 1a，12 人首次人体给药，随机双盲安慰剂对照，在阿德莱德的 CMAX 做。官方说 1b 期会在 1 型糖尿病患者中进行。\n\n第三条 9 月 9 日：ARC Future Fellowships，悉大拿到 39 个项目、超过 4500 万澳元；全澳这一轮 290 个项目、3.44 亿澳元。覆盖从理工到人文、建筑和法律。\n\n三条我都回到 sydney.edu.au 原文核过。准备申 PhD 的同学，第三条那份名单建议存下来当找导师的第一层筛选。想看细节直接去官网搜标题。",
+        "tags": ["#悉尼大学", "#USYD", "#澳洲留学", "#悉尼留学", "#留学日常", "#留学干货", "#澳洲大学"]
+      },
+      {
+        "heading": "草稿 B · 单条深挖（ChatGPT Edu）",
+        "body": "先说结论：悉大全校学生和教职工要免费用上 ChatGPT Edu 了。\n\n9 月 14 日官网发的，原话是 All University of Sydney students and staff will soon gain free and supported access to OpenAI's ChatGPT Edu, the enterprise AI tool of choice for a number of leading universities worldwide。\n\n我盯了三个点。\n\n第一个是 supported。官方没有只说 free，而是 free and supported，配套有培训和支持。这句话的分量比看起来大。\n\n第二个是节奏。原文写 ChatGPT Edu features will be introduced in stages, with additional capabilities being progressively enabled throughout the rollout。功能分阶段开放，逐步启用。官网没给逐项时间表，所以谁先拿到哪些能力，只能等学校通知。\n\n第三个是边界。学校明确说会支持大家在维护学术诚信、保护知识产权、负责任使用与隐私的前提下建立 AI 能力。工具给了，规则也摆在那儿。\n\n另外配套那笔基金，官方描述是 strategic seeding investment of $1 million，方向是理解、衡量并降低 AI 的环境影响。\n\n我自己还在琢磨怎么把它用在文献综述上又不越线。有已经开通的同学吗，说说你们先用它干了什么，我挺好奇的。",
+        "tags": ["#悉尼大学", "#USYD", "#ChatGPT", "#AI工具", "#澳洲留学", "#留学干货", "#学习方法"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

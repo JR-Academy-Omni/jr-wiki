@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-09-19",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "Adelaide 阿德莱德大学",
+    "hookSub": "本周两件 值得你知道",
+    "hookSubHighlight": "两件",
+    "subLines": [
+      "AI 工具 EndoFusion 一次扫描辅助诊断子宫内膜异位症",
+      "年轻人肠癌快速上升 $5.8M 研究中心找原因"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "AI 辅助诊断", "data": "准确率 83%" },
+      { "num": "02", "title": "年轻人肠癌", "data": "1/8 患者不到 50 岁" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术研究",
+      "h2Main": "一次扫描 18 毫秒 AI 辅助诊断子宫内膜异位症",
+      "h2Sub": "Robinson Research Institute · 发表于 Artificial Intelligence in Medicine",
+      "h2Highlight": "18 毫秒",
+      "lead": "9 月 16 日 Adelaide University News：AI 工具 <b>EndoFusion</b> 可以通过<b>一次简单扫描</b>检测子宫内膜异位症迹象，用时约 <b>18 毫秒</b>，正确诊断率 <b>83%</b>。",
+      "bullets": [
+        { "k": "工具来源", "v": "EndoFusion 是 <b>IMAGENDO</b> 项目的最新成果，官方原文：detect signs of endometriosis through one simple scan" },
+        { "k": "速度与准确率", "v": "用时 <b>less than a second</b>（官方写的是 just 18 milliseconds），<b>83%</b> 的情况下给出正确诊断，官方称高于所有对比模型" },
+        { "k": "研究团队", "v": "Robinson Research Institute 的 <b>A/Prof Jodie Avery</b>（研究共同负责人）与第一作者 <b>Dr Yuan Zhang</b>" },
+        { "k": "发表期刊", "v": "成果发表于 <b>Artificial Intelligence in Medicine</b>" },
+        { "k": "对你的影响", "v": "做 <b>AI / Computer Science / 医学影像</b>方向的同学，这是 AI 落到临床诊断的具体案例，可作为课程项目或研究计划的参考方向" }
+      ],
+      "sourceQuote": "EndoFusion is a recent development from IMAGENDO … detect signs of endometriosis through one simple scan … it was able to provide a correct diagnosis 83% of the time, which is more accurate than all competing models",
+      "source": "Adelaide University News · 2026-09-16",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/promising-ai-tool-to-speed-up-endometriosis-diagnosis/"
+    },
+    {
+      "idx": "02",
+      "category": "学术研究",
+      "h2Main": "年轻人肠癌快速上升 研究中心开始找原因",
+      "h2Sub": "CRE ARTEMIS · $5.8 million · 聚焦肠道菌群",
+      "h2Highlight": "快速上升",
+      "lead": "9 月 14 日 Adelaide University News：研究中心 <b>CRE ARTEMIS</b> 获得 <b>$5.8 million</b>，研究肠道菌群与早发性肠癌的关系。官方数据：澳洲确诊肠癌的人里，<b>每 8 人有 1 人不到 50 岁</b>。",
+      "bullets": [
+        { "k": "年轻患者", "v": "官方原文：<b>1-in-8 Australians diagnosed with bowel cancer are aged under 50</b>；每年约 <b>1,900</b> 名澳洲年轻人确诊" },
+        { "k": "上升趋势", "v": "40 岁前确诊的风险<b>自 2000 年以来翻了一倍多</b>；官方称澳洲早发性肠癌发病率为全球最高" },
+        { "k": "经费构成", "v": "合计 <b>$5.8 million</b>：Bowel Cancer Australia 经 NHMRC 提供 $3 million，参与机构（含 Adelaide University）提供 $2.8 million" },
+        { "k": "研究团队", "v": "中心负责人 <b>A/Prof Dan Buchanan</b>；Adelaide University 的 <b>A/Prof Susan Woods</b> 任副主任" },
+        { "k": "对你的影响", "v": "对 <b>Biomedical Science / Public Health</b> 方向的同学，这是一个多校合作、周期较长的研究中心，可以留意其 HDR 招生信息" }
+      ],
+      "sourceQuote": "1-in-8 Australians diagnosed with bowel cancer are aged under 50 … the risk of being diagnosed before age 40 has more than doubled since the year 2000 … Around 1,900 young Australian are diagnosed with bowel cancer each year",
+      "source": "Adelaide University News · 2026-09-14",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/search-for-causes-of-rapid-rise-in-bowel-cancer-in-young-people/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿大本周两条 · 数据都来自 adelaide.edu.au 官方原文",
+    "items": [
+      { "n": "01", "title": "AI 辅助诊断内异症", "body": "EndoFusion 一次扫描约 18 毫秒，正确诊断率 83%，Robinson Research Institute 出品，发表于 Artificial Intelligence in Medicine。" },
+      { "n": "02", "title": "年轻人肠癌研究中心", "body": "CRE ARTEMIS 获 $5.8 million 研究肠道菌群；澳洲确诊肠癌者每 8 人有 1 人不到 50 岁。" }
+    ],
+    "cta": { "big": "关注每日大学日报", "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步", "badge": "09 / 19" }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿大这周两条 都跟健康有关",
+      "body": "这周阿大官网两条研究新闻，我都认真看完了。\n\n一条是 AI 辅助诊断子宫内膜异位症，一条是年轻人肠癌为什么越来越多。\n\n第二条的数字说实话有点吓到我。后面两张图分开说，数字都是对着官网原文抄的。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #阿德莱德留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "AI 18 毫秒辅助诊断内异症",
+      "body": "9 月 16 日官网发的。\n\nRobinson Research Institute 做的 AI 工具叫 EndoFusion，官网说可以通过一次简单扫描检测子宫内膜异位症迹象，用时 18 毫秒。\n\n正确诊断率是 83%，官方说高于所有对比模型。论文发在 Artificial Intelligence in Medicine。\n\n研究共同负责人是 A/Prof Jodie Avery，第一作者是 Dr Yuan Zhang。\n\n我是学 CS 的，一直在找 AI 落到医疗的具体例子，这条会存下来当课程项目的参考。",
+      "tags": "#阿德莱德大学 #Adelaide #人工智能 #澳洲留学 #医学影像 #女性健康"
+    },
+    "p3": {
+      "title": "年轻人肠癌 8 人里有 1 个",
+      "body": "第二条是 9 月 14 日的。\n\n官网原文：澳洲确诊肠癌的人里，每 8 个有 1 个不到 50 岁。40 岁前确诊的风险自 2000 年以来翻了一倍多。每年大约 1,900 名澳洲年轻人确诊。\n\n研究中心叫 CRE ARTEMIS，拿到 $5.8 million，重点研究肠道菌群。阿大的 A/Prof Susan Woods 是副主任。\n\n看完我决定下次体检认真一点，不再觉得肠胃问题都是熬夜的锅。",
+      "tags": "#阿德莱德大学 #Adelaide #健康科普 #澳洲留学 #医学研究 #留学生活"
+    },
+    "p4": {
+      "title": "两条研究对选方向的启发",
+      "body": "两条放一起看，一个偏 AI，一个偏生物医学。\n\n想读 AI 的同学，EndoFusion 是一个很具体的临床场景；想读 Biomedical Science 或 Public Health 的，ARTEMIS 是多校合作的研究中心。\n\n我自己的做法是：先把感兴趣的研究所官网翻一遍，再看近两年的论文，最后才决定要不要联系老师。\n\n只是我的习惯，仅供参考。",
+      "tags": "#阿德莱德大学 #Adelaide #研究生申请 #澳洲留学 #选专业 #套磁"
+    },
+    "p5": {
+      "title": "阿大本周速览 存着看",
+      "body": "两条放这儿：\n\n01 EndoFusion：一次扫描约 18 毫秒，正确诊断率 83%，发在 Artificial Intelligence in Medicine。\n\n02 CRE ARTEMIS 获 $5.8 million 研究年轻人肠癌；澳洲确诊者每 8 人有 1 人不到 50 岁。\n\n数字我都对着 adelaide.edu.au 原文核过，细节去官网搜标题就行。\n\n想让我下周重点盯哪个方向，评论区扣 1。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学干货 #阿德莱德 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "阿大本周两条：AI 辅助诊断子宫内膜异位症、年轻人肠癌研究中心",
+    "lead": "9 月 14 日到 16 日，Adelaide University News 发了两条健康研究新闻：一个 18 毫秒给出结果的 AI 诊断工具，以及一个专门研究年轻人肠癌上升原因的研究中心。下面逐条拆，数字全部对着官网原文核过。",
+    "meta": { "readTime": "约 3 分钟" },
+    "newsBodies": [
+      {
+        "h2": "01 AI 工具 EndoFusion：一次扫描辅助诊断子宫内膜异位症",
+        "paragraphs": [
+          "9 月 16 日，Adelaide University News 介绍了 AI 工具 EndoFusion。它是 IMAGENDO 项目的最新成果，官方原文：detect signs of endometriosis through one simple scan——通过一次简单扫描检测子宫内膜异位症迹象，用时约 18 毫秒。",
+          "在测试中，官方写道 it was able to provide a correct diagnosis 83% of the time, which is more accurate than all competing models——83% 的情况下给出正确诊断，高于所有对比模型。成果发表于 Artificial Intelligence in Medicine。",
+          "研究由 Robinson Research Institute 的 A/Prof Jodie Avery（研究共同负责人）和 Dr Yuan Zhang（第一作者）完成。文章提到目前患者面临约七年的手术等待。对 AI、计算机和医学影像方向的同学，这是一个 AI 进入临床诊断的具体案例。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-09-16 · <a href=\"https://adelaide.edu.au/about/news/2026/promising-ai-tool-to-speed-up-endometriosis-diagnosis/\">adelaide.edu.au</a>"
+      },
+      {
+        "h2": "02 年轻人肠癌快速上升，CRE ARTEMIS 开始找原因",
+        "paragraphs": [
+          "9 月 14 日，Adelaide University News 介绍了研究中心 CRE ARTEMIS，重点研究肠道菌群对早发性肠癌的影响。官方数据：1-in-8 Australians diagnosed with bowel cancer are aged under 50——澳洲确诊肠癌的人里，每 8 人有 1 人不到 50 岁。",
+          "官方还提到，40 岁前确诊的风险自 2000 年以来翻了一倍多，每年约有 1,900 名澳洲年轻人确诊，澳洲的早发性肠癌发病率为全球最高。中心经费合计 $5.8 million，其中 $3 million 由 Bowel Cancer Australia 经 NHMRC 提供，$2.8 million 来自包括 Adelaide University 在内的参与机构。",
+          "中心负责人为 A/Prof Dan Buchanan，Adelaide University 的 A/Prof Susan Woods 任副主任。对 Biomedical Science、Public Health 方向的同学，可以关注这个中心后续的研究生招生信息。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-09-14 · <a href=\"https://adelaide.edu.au/about/news/2026/search-for-causes-of-rapid-rise-in-bowel-cancer-in-young-people/\">adelaide.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "EndoFusion：一次扫描约 18 毫秒，正确诊断率 83%，发表于 Artificial Intelligence in Medicine。",
+        "CRE ARTEMIS 获 $5.8 million 研究早发性肠癌；澳洲确诊肠癌者每 8 人有 1 人不到 50 岁。"
+      ]
+    },
+    "cta": { "big": "每日澳洲大学资讯", "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步" }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "这周阿大官网两条研究新闻，都跟健康有关。\n\n9 月 16 日：Robinson Research Institute 的 AI 工具 EndoFusion，一次扫描约 18 毫秒就能检测子宫内膜异位症迹象，正确诊断率 83%，发在 Artificial Intelligence in Medicine。\n\n9 月 14 日：研究中心 CRE ARTEMIS 拿到 $5.8 million，研究年轻人肠癌。官网数据是澳洲确诊肠癌的人里每 8 个有 1 个不到 50 岁，40 岁前确诊的风险自 2000 年以来翻了一倍多。\n\n学 AI 和学生物医学的同学，这两条都可以存下来当选方向的参考。\n\n想让我下周重点盯哪个方向，评论区扣 1。",
+        "tags": ["#阿德莱德大学", "#Adelaide", "#澳洲留学", "#阿德莱德留学", "#人工智能", "#留学日常"]
+      },
+      {
+        "heading": "草稿 B · 单条深挖（年轻人肠癌）",
+        "body": "阿大这条研究新闻，我看完默默预约了体检。\n\n9 月 14 日官网发的。原文数据：澳洲确诊肠癌的人里，每 8 个有 1 个不到 50 岁。40 岁前确诊的风险自 2000 年以来翻了一倍多。每年大约 1,900 名澳洲年轻人确诊。\n\n研究中心叫 CRE ARTEMIS，拿到 $5.8 million，重点看肠道菌群。阿大的 A/Prof Susan Woods 是副主任。\n\n我不是学医的，没资格讲原因，研究本身也还在找答案。只是觉得留学生作息乱、外卖多，身体信号别总拖着。\n\n最近有去做过体检的姐妹吗，扣 1 交流下流程。",
+        "tags": ["#阿德莱德大学", "#Adelaide", "#健康", "#澳洲留学", "#留学生活", "#医学研究"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "「全球最高」为官方原文事实复述（the highest incidence of early-onset bowel cancer worldwide），出现在新闻要点与 mp 正文；小红书文案未使用；其余未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

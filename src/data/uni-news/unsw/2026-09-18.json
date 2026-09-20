@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-09-18",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "UNSW 新南威尔士大学",
+    "hookSub": "本周主线 全是钱",
+    "hookSubHighlight": "全是钱",
+    "subLines": [
+      "新州 1.5 亿澳元科创基金 先和公立大学共投",
+      "ARC Future Fellowships 28 位学者拿 3280 万澳元",
+      "三个卓越研究中心各 300 万 聚焦痴呆与自免疫"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "新州科创基金", "data": "1.5 亿澳元" },
+      { "num": "02", "title": "ARC 未来学者", "data": "28 人 · 3280 万" },
+      { "num": "03", "title": "三个卓越中心", "data": "各 300 万澳元" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研经费",
+      "h2Main": "新州 1.5 亿澳元科创基金 UNSW 表态欢迎",
+      "h2Sub": "2026-09-11 · 先与新州公立大学共同投资 再扩到更多机构",
+      "h2Highlight": "1.5 亿澳元",
+      "lead": "9 月 11 日 UNSW Newsroom：新州财长 <b>Daniel Mookhey</b> 在 Sydney Investment Summit 上宣布设立 <b>1.5 亿澳元</b>的科学与创新基金，<b>先与新州公立大学共同投资</b>，之后再扩展到创新生态中的其他机构。",
+      "bullets": [
+        { "k": "谁宣布的", "v": "官方原文：<b>Announced by NSW Treasurer Daniel Mookhey at the Sydney Investment Summit this week</b>，基金将先与新州公立大学共投，再扩展到其他机构" },
+        { "k": "投向哪里", "v": "官方说明基金属于一套新框架，用于<b>改善从研究到商业化的路径</b>，支持的领域包括<b>技术、生物医学与环境科学</b>" },
+        { "k": "学校表态", "v": "UNSW 校监 <b>Warwick Negus AM</b> 表示欢迎这笔战略投资，认为它会为研究商业化和全州新企业创造机会" },
+        { "k": "对你的影响", "v": "关注 <b>创业、科技转化、Engineering / Biomedical</b> 方向的同学可以留意：这类州级基金落地后，通常会带出新的实习、孵化器名额和产学合作项目，具体名额以后续官方公告为准" }
+      ],
+      "sourceQuote": "Announced by NSW Treasurer Daniel Mookhey at the Sydney Investment Summit this week, the fund will co-invest with NSW public universities before expanding to other organisations across the innovation ecosystem. The fund forms part of a new framework designed to improve the pathway from research to commercialisation and support investment in areas including technology, biomedical science and environmental science.",
+      "source": "UNSW Newsroom · 2026-09-11",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/09/new-150-million-fund-to-boost-research-and-innovation-in-nsw"
+    },
+    {
+      "idx": "02",
+      "category": "科研经费",
+      "h2Main": "ARC Future Fellowships 28 位 UNSW 学者拿 3280 万",
+      "h2Sub": "全澳同轮超过 290 个项目 · 3.44 亿澳元",
+      "h2Highlight": "28 位",
+      "lead": "UNSW Newsroom 公布：本轮 <b>ARC 2026 Future Fellowships</b> 有 <b>28 位 UNSW 学者</b>获资助，合计 <b>3280 万澳元</b>。官方同时给出全澳盘子：这一轮为全澳 290 多个研究项目提供超过 3.44 亿澳元。",
+      "bullets": [
+        { "k": "拿了多少", "v": "<b>28 位 UNSW 学者</b>、合计 <b>$32.8 million</b>，来自 ARC 的 2026 Future Fellowships 计划" },
+        { "k": "全澳盘子", "v": "官方原文：<b>The Future Fellowships scheme provides more than $344 million in funding for over 290 research projects across Australia</b>" },
+        { "k": "项目例子", "v": "<b>Dr Hamid Alinejad Rokny</b> 获得 <b>$1,167,038</b>，用于开发 OmniSB——一个分析基因与细胞数据、绘制组织结构并预测生物反应的 AI 平台" },
+        { "k": "对你的影响", "v": "Future Fellowships 是中期研究者的多年期资助。准备申 <b>PhD / MPhil</b> 的同学，把今年获资助的名单当成找导师的第一层筛选，比盲发邮件效率高得多" }
+      ],
+      "sourceQuote": "The Future Fellowships scheme provides more than $344 million in funding for over 290 research projects across Australia. Dr Hamid Alinejad Rokny received $1,167,038 to develop OmniSB, an artificial intelligence platform that analyses genetic and cellular data to map tissue structures, identify cell interactions and predict biological responses.",
+      "source": "UNSW Newsroom · 2026-09",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/09/unsw-experts-awarded--32-million-to-drive-ambitious-research"
+    },
+    {
+      "idx": "03",
+      "category": "科研经费",
+      "h2Main": "三个卓越研究中心落地 各拿 300 万澳元",
+      "h2Sub": "2026-09-07 · 血管性痴呆 / 养老院疫情防控 / 自身免疫病",
+      "h2Highlight": "各拿 300 万澳元",
+      "lead": "9 月 7 日 UNSW Newsroom：UNSW 研究者在最新一轮 NHMRC <b>Centres of Research Excellence</b> 中获得 <b>900 万澳元</b>，用于<b>痴呆、自身免疫病与养老机构疫情防控</b>三个方向，每个中心 300 万澳元。",
+      "bullets": [
+        { "k": "三个中心", "v": "<b>血管性痴呆卓越研究中心</b>（Prof. Perminder Sachdev，医学与健康学部）、<b>PEACCCC 养老机构疫情防控中心</b>（Prof. Raina MacIntyre，Kirby Institute）、<b>自身免疫病体细胞突变与治疗中心</b>（Prof. Christopher Goodnow，Garvan Institute 与医学健康学部）" },
+        { "k": "钱怎么分", "v": "官方说明每个中心获 <b>300 万澳元</b>，属于联邦本轮向全澳 <b>22 个新中心</b>投入的 <b>6600 万澳元</b>的一部分" },
+        { "k": "研究方向", "v": "分别聚焦<b>血管性认知障碍与痴呆的诊断、治疗与预防</b>；养老机构中<b>呼吸道与肠胃道疫情的感染防控</b>；以及通过靶向携带 DNA 突变的细胞来理解和治疗<b>自身免疫病</b>" },
+        { "k": "对你的影响", "v": "读 <b>Public Health / Medicine / Immunology</b> 的同学，新设中心通常会在成立后一两年集中招 PhD 和 research assistant，值得把这三个组加进 watch list" }
+      ],
+      "sourceQuote": "UNSW researchers have been awarded $9 million in government funding for research into dementia, autoimmune disease and the prevention of epidemics in aged care.",
+      "source": "UNSW Newsroom · 2026-09-07",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/09/unsw-awarded-9-million-for-three-new-centres-of-research-excellence"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 本周三条 · 数据均取自 unsw.edu.au 官方原文",
+    "items": [
+      { "n": "01", "title": "新州 1.5 亿科创基金", "body": "9 月 11 日，新州财长在 Sydney Investment Summit 宣布，基金先与新州公立大学共投再扩展，方向是技术、生物医学与环境科学的研究商业化。" },
+      { "n": "02", "title": "ARC 未来学者 28 人", "body": "UNSW 28 位学者获 3280 万澳元；全澳本轮超过 290 个项目、逾 3.44 亿澳元。Dr Hamid Alinejad Rokny 获 116 万余澳元开发 AI 平台 OmniSB。" },
+      { "n": "03", "title": "三个卓越研究中心", "body": "9 月 7 日，UNSW 获 900 万澳元设立三个 NHMRC 卓越研究中心，各 300 万，方向为血管性痴呆、养老机构疫情防控与自身免疫病。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "09 / 18"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 这周的主线 全是钱",
+      "body": "翻完这周 UNSW 官网，我发现三条消息有个共同点——都在说钱从哪来。\n\n一条是新州政府 1.5 亿澳元的科创基金，一条是 ARC Future Fellowships 28 位学者拿 3280 万，还有一条是三个卓越研究中心各 300 万。\n\n听起来像跟学生没关系？其实关系挺大，尤其你在准备申 PhD 或者找 research 机会。\n\n下面几张图逐条说，数据都对着 unsw.edu.au 原文核过。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #悉尼留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "新州掏 1.5 亿澳元做科创基金",
+      "body": "9 月 11 日 UNSW 官网发的。\n\n新州财长 Daniel Mookhey 在 Sydney Investment Summit 上宣布设立这笔基金。官方原文写的是 the fund will co-invest with NSW public universities before expanding to other organisations across the innovation ecosystem——先和新州公立大学共同投资，之后再扩展到创新生态里的其他机构。\n\n投向哪里也写了：属于一套新框架，用来改善从研究到商业化的路径，支持技术、生物医学和环境科学。\n\nUNSW 校监 Warwick Negus AM 表态欢迎。\n\n为什么值得留学生看一眼？这类州级基金落地之后，通常会带出新的实习岗、孵化器名额和产学合作项目。不过具体名额和申请方式官网还没公布，等后续公告，别现在就去问。",
+      "tags": "#UNSW #新南威尔士大学 #澳洲留学 #科技创业 #悉尼 #留学干货"
+    },
+    "p3": {
+      "title": "找导师前先看这份经费名单",
+      "body": "第二条是给准备申 PhD 的人看的。\n\nUNSW 官网公布：本轮 ARC 2026 Future Fellowships 有 28 位 UNSW 学者获资助，合计 3280 万澳元。全澳这一轮，官方原文是 more than $344 million in funding for over 290 research projects across Australia。\n\n举个具体的例子，Dr Hamid Alinejad Rokny 拿到 $1,167,038，做一个叫 OmniSB 的 AI 平台，用来分析基因和细胞数据、绘制组织结构、预测生物反应。\n\n我为什么盯这个名单？因为 Future Fellowships 是多年期资助，拿到的组接下来几年经费是稳的，招学生的意愿和给 stipend 的空间通常也更大。\n\n比起海投 50 封套磁邮件，先从这份名单里挑 5 个方向对口的老师，效率完全不是一个量级。\n\n有在准备 26/27 入学的姐妹吗，扣 1 我们交流下进度。",
+      "tags": "#UNSW #PhD申请 #研究生申请 #澳洲留学 #科研 #套磁"
+    },
+    "p4": {
+      "title": "UNSW 三个新研究中心 各 300 万",
+      "body": "第三条 9 月 7 日发的。\n\nUNSW 研究者在最新一轮 NHMRC Centres of Research Excellence 里拿到 900 万澳元。官方原文：awarded $9 million in government funding for research into dementia, autoimmune disease and the prevention of epidemics in aged care。\n\n三个中心分别是——\n\n血管性痴呆卓越研究中心，Prof. Perminder Sachdev 牵头，做血管性认知障碍与痴呆的诊断、治疗和预防。\n\nPEACCCC 养老机构疫情防控中心，Prof. Raina MacIntyre 牵头，来自 Kirby Institute，做呼吸道和肠胃道疫情的感染防控。\n\n自身免疫病体细胞突变与治疗中心，Prof. Christopher Goodnow 牵头，通过靶向带 DNA 突变的细胞来理解和治疗自身免疫病。\n\n每个中心 300 万，属于联邦这一轮向全澳 22 个新中心投入的 6600 万的一部分。\n\n读 Public Health、Medicine 或 Immunology 的同学，新中心成立后一两年往往集中招人，建议加进 watch list。",
+      "tags": "#UNSW #公共卫生 #医学留学 #澳洲留学 #研究生 #免疫学"
+    },
+    "p5": {
+      "title": "UNSW 本周速览 存着慢慢看",
+      "body": "三条一起放：\n\n01 新州 1.5 亿澳元科学与创新基金——9 月 11 日财长在 Sydney Investment Summit 宣布，先与新州公立大学共投再扩展，方向是技术、生物医学、环境科学的研究商业化。\n\n02 ARC Future Fellowships——UNSW 28 位学者、3280 万澳元；全澳超过 290 个项目、逾 3.44 亿澳元。\n\n03 三个 NHMRC 卓越研究中心——9 月 7 日，共 900 万澳元，各 300 万，方向是血管性痴呆、养老机构疫情防控、自身免疫病。\n\n三条我都回到 unsw.edu.au 原文核过，想看细节直接去官网搜标题。\n\n准备申研的姐妹，第二条那份名单真的建议存下来。下周继续。",
+      "tags": "#UNSW #新南威尔士大学 #澳洲留学 #留学干货 #悉尼 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW 本周三条：新州 1.5 亿科创基金、ARC 拿下 3280 万、三个卓越研究中心落地",
+    "lead": "9 月 7 日到 11 日，UNSW Newsroom 连着发了三条经费类消息：新州政府 1.5 亿澳元科学与创新基金、ARC Future Fellowships 的 3280 万澳元、以及三个各获 300 万澳元的 NHMRC 卓越研究中心。看起来都是机构层面的钱，但对准备申研究型学位的同学，这三份名单的信息价值很高。",
+    "meta": { "readTime": "约 4 分钟" },
+    "newsBodies": [
+      {
+        "h2": "01 新州设立 1.5 亿澳元科学与创新基金",
+        "paragraphs": [
+          "9 月 11 日，UNSW Newsroom 报道：新州财长 Daniel Mookhey 在 Sydney Investment Summit 上宣布设立一笔 1.5 亿澳元的科学与创新基金。官方原文写的是 Announced by NSW Treasurer Daniel Mookhey at the Sydney Investment Summit this week, the fund will co-invest with NSW public universities before expanding to other organisations across the innovation ecosystem。",
+          "基金的定位官方也说明了：The fund forms part of a new framework designed to improve the pathway from research to commercialisation and support investment in areas including technology, biomedical science and environmental science——属于一套改善研究到商业化路径的新框架，支持技术、生物医学与环境科学领域的投资。",
+          "UNSW 校监 Warwick Negus AM 表示欢迎这笔战略投资，认为它会为研究商业化和全州新企业创造机会。对关注科技转化与创业方向的同学，这类州级基金落地后通常会衍生出新的实习、孵化与产学合作机会，但具体名额与申请方式需以后续官方公告为准，目前官网尚未公布。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-09-11 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/09/new-150-million-fund-to-boost-research-and-innovation-in-nsw\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 ARC Future Fellowships：28 位学者、3280 万澳元",
+        "paragraphs": [
+          "UNSW Newsroom 公布，本轮 ARC 2026 Future Fellowships 有 28 位 UNSW 学者获得资助，合计 3280 万澳元。全澳层面，官方原文为 The Future Fellowships scheme provides more than $344 million in funding for over 290 research projects across Australia。",
+          "具体项目方面，官方举的例子是 Dr Hamid Alinejad Rokny 获得 $1,167,038，用于开发 OmniSB——官方描述为 an artificial intelligence platform that analyses genetic and cellular data to map tissue structures, identify cell interactions and predict biological responses，一个分析基因与细胞数据、绘制组织结构并预测生物反应的人工智能平台。",
+          "对准备申请 PhD 或 MPhil 的同学，这份名单的用法很直接：Future Fellowships 属于多年期资助，获资助的课题组在接下来几年经费相对稳定，招收研究生与提供 stipend 的空间通常也更大。与其广撒网发套磁信，不如先从名单里筛出方向对口的五到十位老师，再逐一读他们近两年的论文。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-09 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/09/unsw-experts-awarded--32-million-to-drive-ambitious-research\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "03 三个 NHMRC 卓越研究中心落地",
+        "paragraphs": [
+          "9 月 7 日，UNSW Newsroom 报道：UNSW 研究者在最新一轮 NHMRC Centres of Research Excellence 中获得 900 万澳元。官方原文是 UNSW researchers have been awarded $9 million in government funding for research into dementia, autoimmune disease and the prevention of epidemics in aged care。",
+          "三个中心分别为：血管性痴呆卓越研究中心，由医学与健康学部的 Prof. Perminder Sachdev 牵头，聚焦血管性认知障碍与痴呆的诊断、治疗与预防；PEACCCC 养老机构疫情防控中心，由 Kirby Institute 的 Prof. Raina MacIntyre 牵头，聚焦养老机构中呼吸道与肠胃道疫情的感染防控；自身免疫病体细胞突变与治疗中心，由 Garvan Institute 与医学健康学部的 Prof. Christopher Goodnow 牵头，通过靶向携带 DNA 突变的细胞来理解和治疗自身免疫病。",
+          "每个中心获得 300 万澳元，属于联邦本轮向全澳 22 个新中心投入的 6600 万澳元的一部分。读 Public Health、Medicine 或 Immunology 方向的同学值得留意：新设立的研究中心通常会在成立后的一到两年集中招收 PhD 与 research assistant。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-09-07 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/09/unsw-awarded-9-million-for-three-new-centres-of-research-excellence\">unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "新州 1.5 亿澳元科学与创新基金：先与新州公立大学共投再扩展，聚焦技术、生物医学与环境科学的研究商业化。",
+        "ARC Future Fellowships：UNSW 28 位学者获 3280 万澳元；全澳超过 290 个项目、逾 3.44 亿澳元。",
+        "三个 NHMRC 卓越研究中心：共 900 万澳元，各 300 万，方向为血管性痴呆、养老机构疫情防控与自身免疫病。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "翻完这周 UNSW 官网，三条消息有个共同点——都在讲钱从哪来。\n\n第一条 9 月 11 日：新州财长 Daniel Mookhey 在 Sydney Investment Summit 宣布设立 1.5 亿澳元科学与创新基金。官方说会先与新州公立大学共同投资，再扩展到创新生态中的其他机构，方向是技术、生物医学与环境科学的研究商业化。UNSW 校监 Warwick Negus AM 表态欢迎。\n\n第二条：ARC 2026 Future Fellowships，28 位 UNSW 学者拿到 3280 万澳元。全澳这一轮官方写的是超过 290 个项目、逾 3.44 亿澳元。有个具体例子，Dr Hamid Alinejad Rokny 拿到 $1,167,038 开发 AI 平台 OmniSB。\n\n第三条 9 月 7 日：三个 NHMRC 卓越研究中心落地，共 900 万澳元，各 300 万。方向分别是血管性痴呆（Prof. Perminder Sachdev）、养老机构疫情防控（Prof. Raina MacIntyre）、自身免疫病（Prof. Christopher Goodnow）。\n\n对留学生的实际用法：准备申 PhD 的，第二条那份名单当第一层筛选；对医学和公共卫生方向感兴趣的，第三条三个新中心加进 watch list。经费稳的组，招人意愿通常更强。\n\n数据我都回到 unsw.edu.au 原文核过。",
+        "tags": ["#新南威尔士大学", "#UNSW", "#澳洲留学", "#悉尼留学", "#PhD申请", "#留学干货", "#澳洲大学"]
+      },
+      {
+        "heading": "草稿 B · 单条深挖（经费名单怎么用）",
+        "body": "说个我觉得被严重低估的找导师方法：看经费名单。\n\n这周 UNSW 官网公布，ARC 2026 Future Fellowships 有 28 位 UNSW 学者获资助，合计 3280 万澳元。全澳这一轮，官方原文是 more than $344 million in funding for over 290 research projects across Australia。\n\n为什么这份名单比学院网站的教师列表有用？\n\nFuture Fellowships 是多年期资助。一个组刚拿到多年期经费，意味着接下来几年它的研究方向是确定的、有钱的，招 PhD 的意愿和给 stipend 的空间通常也更大。反过来，一个多年没拿到项目的组，就算方向再对口，也可能暂时招不了人。\n\n名单里有个例子，Dr Hamid Alinejad Rokny 拿到 $1,167,038，做一个叫 OmniSB 的 AI 平台，分析基因和细胞数据、绘制组织结构、预测生物反应。做生信或者计算生物的看到这条应该会有反应。\n\n同一周 UNSW 还拿了 900 万澳元设三个 NHMRC 卓越研究中心，血管性痴呆、养老机构疫情防控、自身免疫病各一个，每个 300 万。新中心往往在成立后一两年集中招人。\n\n我自己现在的做法是：先从这两份名单里挑方向对口的老师，读完他们近两年的论文再写邮件。发出去的数量少了，回复率反而高了。\n\n有在准备套磁的姐妹吗，说说你们现在筛到第几轮了。",
+        "tags": ["#UNSW", "#PhD申请", "#套磁", "#研究生申请", "#澳洲留学", "#科研", "#留学干货"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

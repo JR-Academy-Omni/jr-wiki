@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-08-24T23:42:55.876Z",
+  "lockedAt": "2026-09-20T12:48:38.695Z",
   "version": 1,
   "slugs": [
     {
@@ -321,6 +321,14 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-07-15"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-09-18"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-09-19"
     },
     {
       "type": "article",
@@ -956,6 +964,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-09-19"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -1056,6 +1068,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-monash-2026-09-19"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-umelb-2026-04-24"
     },
     {
@@ -1149,6 +1165,10 @@
     {
       "type": "article",
       "slug": "uni-news-umelb-2026-07-13"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-09-19"
     },
     {
       "type": "article",
@@ -1253,6 +1273,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-07-15"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-09-18"
     },
     {
       "type": "article",
@@ -1364,6 +1388,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-uq-2026-09-18"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-usyd-2026-04-22"
     },
     {
@@ -1453,6 +1481,10 @@
     {
       "type": "article",
       "slug": "uni-news-usyd-2026-07-13"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-09-18"
     },
     {
       "type": "article",

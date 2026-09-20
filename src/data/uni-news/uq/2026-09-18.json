@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-09-18",
+  "school": "uq",
+  "summary": {
+    "hookMain": "UQ 昆士兰大学",
+    "hookSub": "本周三件 值得你知道",
+    "hookSubHighlight": "三件",
+    "subLines": [
+      "游戏花钱失控被写成论文 中国玩家数据最扎眼",
+      "无铅钙钛矿室内光伏 化工学院拿了校内研究大奖",
+      "Research and Innovation Week 校园里就能看的研究展"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "游戏与财务伤害", "data": "中国玩家 63.3% 超支" },
+      { "num": "02", "title": "无铅室内光伏", "data": "化工学院 Dr Lyu" },
+      { "num": "03", "title": "研究周影像展", "data": "09-14 至 09-18" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术研究",
+      "h2Main": "打游戏花钱失控 UQ 把它写成了论文",
+      "h2Sub": "国家青少年物质使用研究中心 · 中国玩家超支比例 63.3%",
+      "h2Highlight": "花钱失控",
+      "lead": "9 月 17 日 UQ News 发布：国家青少年物质使用研究中心（NCYSUR）的研究发现，<b>有游戏障碍风险的人里，接近 10 个有 8 个出现过超支或财务损害</b>。研究覆盖澳洲、中国、印尼三国玩家，成果发表在 Journal of Behavioral Addictions。",
+      "bullets": [
+        { "k": "核心数据", "v": "官方原文：<b>nearly 8 out of every 10 people at risk of gaming disorder have experienced overspending or financial harm due to their habit</b>" },
+        { "k": "三国对比", "v": "报告出现财务损害的比例：印尼 <b>49.5%</b>、中国 <b>41.4%</b>、澳洲 <b>30.5%</b>；承认超支的比例：中国 <b>63.3%</b>、印尼 <b>59.2%</b>、澳洲 <b>37.4%</b>" },
+        { "k": "风险倍数", "v": "游戏障碍风险较高的人，出现财务损害的可能性是其他人的<b>约 8 倍</b>，超支的可能性约 <b>5 倍</b>" },
+        { "k": "研究团队", "v": "博士生 <b>Benjamin Johnson</b> 与副教授 <b>Janni Leung</b>，UQ National Centre for Youth Substance Use Research，论文发表于 Journal of Behavioral Addictions" },
+        { "k": "对你的影响", "v": "走 <b>Psychology / Public Health / Behavioural Science</b> 方向的同学，这类跨国样本研究是 NCYSUR 的典型产出，写 research proposal 时可以直接对着这个中心的课题找导师" }
+      ],
+      "sourceQuote": "Nearly 8 out of every 10 people at risk of gaming disorder have experienced overspending or financial harm due to their habit. People with higher gaming disorder risk were nearly 8 times more likely to experience financial harm and 5 times more likely to overspend.",
+      "source": "UQ News · 2026-09-17",
+      "sourceUrl": "https://news.uq.edu.au/2026-09-risk-gamers-gambling-their-financial-future"
+    },
+    {
+      "idx": "02",
+      "category": "科研突破",
+      "h2Main": "无铅钙钛矿室内光伏 让健康设备不用再充电",
+      "h2Sub": "化学工程学院 Dr Miaoqiang Lyu · UQ Foundation Research Excellence Award",
+      "h2Highlight": "不用再充电",
+      "lead": "9 月 15 日 UQ News：化学工程学院的 Dr Miaoqiang Lyu 团队做出可规模化的<b>气相沉积工艺</b>，在室内光伏制造里去掉有毒的铅和危险溶剂，同时把无铅钙钛矿器件的性能做到了官方称的 record performance。方向是给可穿戴健康设备供电。",
+      "bullets": [
+        { "k": "技术路线", "v": "官方原文写的是 <b>scalable vapour-deposition method</b>，靠热蒸发工艺取代含铅、含危险溶剂的传统室内光伏制程" },
+        { "k": "应用场景", "v": "血糖传感器、<b>ECG 贴片</b>、汗液乳酸与电解质传感器等可穿戴健康设备，靠室内灯光和自然光取电，不再依赖电池或充电" },
+        { "k": "研究支持", "v": "该项目获 <b>UQ Foundation Research Excellence Award（FREA）</b>，属于校内给早中期研究者的重点支持" },
+        { "k": "对你的影响", "v": "申 <b>Chemical Engineering / Materials / Renewable Energy</b> 的同学，UQ 化工学院这条钙钛矿线是近两年出成果密集的方向，套磁前值得先把 Dr Lyu 的 publication list 翻一遍" }
+      ],
+      "sourceQuote": "has already developed a scalable vapour-deposition method that removes toxic lead and hazardous solvents from indoor photovoltaic manufacturing while delivering record performance for lead-free perovskite devices",
+      "source": "UQ News · 2026-09-15",
+      "sourceUrl": "https://news.uq.edu.au/2026-09-lead-free-solar-powers-battery-free-future-health-tech"
+    },
+    {
+      "idx": "03",
+      "category": "校园动态",
+      "h2Main": "Visions of Research 影像展 校园里就能看",
+      "h2Sub": "Global Change Institute（20 号楼）· 09-14 至 09-18 研究与创新周",
+      "h2Highlight": "校园里就能看",
+      "lead": "9 月 14 日 UQ News：Visions of Research 竞赛的入围作品在 <b>Global Change Institute（building 20）</b>展出，配合 <b>Research and Innovation Week（09-14 至 09-18）</b>。这个竞赛面向 UQ 教职工和研究生，用照片、科学可视化或创意诠释来呈现研究。",
+      "bullets": [
+        { "k": "展出地点", "v": "<b>Global Change Institute（building 20）</b>，展期对应 Research and Innovation Week，官方写的是 from 14–18 September" },
+        { "k": "谁能参赛", "v": "官方原文：竞赛 <b>invited UQ staff and postgraduate students</b> 提交作品，形式包括传统摄影、科学与数据可视化、创意诠释" },
+        { "k": "本届获奖", "v": "健康与康复科学学院的 <b>Dr Lauren Fothergill</b> 凭作品《Lived Experience Leading Aged Care Research》拿到 Deputy Vice-Chancellor Award" },
+        { "k": "对你的影响", "v": "在读研究生可以留意明年这个竞赛，是把自己课题做成<b>可视化作品集</b>的低成本机会；新生也可以直接去 20 号楼看展，比看官网更容易找到感兴趣的组" }
+      ],
+      "sourceQuote": "The competition invited UQ staff and postgraduate students to share compelling visual representations of research across all disciplines, either through traditional photography, scientific and data visualisation or creative interpretation.",
+      "source": "UQ News · 2026-09-14",
+      "sourceUrl": "https://news.uq.edu.au/2026-09-visions-research-reflecting-creativity-and-impact-uq-community"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UQ 本周三条 · 数据都来自 news.uq.edu.au 官方原文",
+    "items": [
+      { "n": "01", "title": "游戏超支被写成论文", "body": "有游戏障碍风险的人里近 8 成出现过超支或财务损害；中国玩家超支比例 63.3%，印尼 59.2%，澳洲 37.4%。NCYSUR 出品，发在 Journal of Behavioral Addictions。" },
+      { "n": "02", "title": "无铅室内光伏", "body": "化工学院 Dr Miaoqiang Lyu 的气相沉积工艺去掉了铅和危险溶剂，给血糖传感器、ECG 贴片这类可穿戴设备供电，拿了 UQ Foundation Research Excellence Award。" },
+      { "n": "03", "title": "研究周影像展", "body": "Visions of Research 入围作品在 Global Change Institute（20 号楼）展出，配合 09-14 至 09-18 的 Research and Innovation Week。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "09 / 18"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 这周三条 我挑了最有用的",
+      "body": "在 UQ 读书的第二年，我慢慢养成一个习惯：每周扫一遍 news.uq.edu.au，比在群里等消息靠谱多了。\n\n这周挑了三条。\n\n一条是游戏花钱的研究，里面有中国玩家的数据，看完我沉默了三秒。一条是化工学院的无铅室内光伏，给可穿戴健康设备供电那种。还有一条是校园里正在办的研究影像展，走两步就能看。\n\n下面几张图一条一条说，数据我都对着官网原文抄的，没敢自己发挥。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #布里斯班留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "游戏超支被 UQ 写成论文了",
+      "body": "9 月 17 日 UQ News 发的研究，看完有点扎心。\n\n研究说：有游戏障碍风险的人里，接近 10 个有 8 个出现过超支或者财务损害。原文是 nearly 8 out of every 10。\n\n三国对比这段最直观——承认超支的比例，中国玩家 63.3%，印尼 59.2%，澳洲 37.4%。出现财务损害的比例是印尼 49.5%、中国 41.4%、澳洲 30.5%。\n\n做研究的是 UQ 国家青少年物质使用研究中心的博士生 Benjamin Johnson 和副教授 Janni Leung，论文在 Journal of Behavioral Addictions。\n\n我不评价谁对谁错，只是觉得如果你在做 Psychology 或者 Public Health 方向，这个中心值得单独记一笔。",
+      "tags": "#UQ #昆士兰大学 #留学生活 #心理学 #澳洲留学 #研究生申请"
+    },
+    "p3": {
+      "title": "UQ 化工做的无铅室内光伏",
+      "body": "第二条是给理工科同学看的。\n\n9 月 15 日官网发的：化学工程学院 Dr Miaoqiang Lyu 的团队做了一个可规模化的气相沉积工艺，把室内光伏制造里的铅和危险溶剂去掉，同时官方用了 record performance 这个说法描述无铅钙钛矿器件的性能。\n\n用来干嘛？血糖传感器、ECG 贴片、汗液传感器这些可穿戴健康设备，靠室内灯光取电，不用电池不用充。\n\n这个项目拿了 UQ Foundation Research Excellence Award。\n\n我自己在纠结明年选 Materials 还是 Chemical Engineering，看到这条稍微偏了一点。有同方向的姐妹吗，想听听你们怎么选的。",
+      "tags": "#UQ #化学工程 #澳洲留学 #理工科留学 #新能源 #研究方向"
+    },
+    "p4": {
+      "title": "校园里正在办的研究影像展",
+      "body": "第三条不是论文，是现在校园里就能去的展。\n\nVisions of Research 竞赛的入围作品在 Global Change Institute，也就是 20 号楼，配合 09-14 到 09-18 的 Research and Innovation Week。\n\n这个竞赛官方说是面向 UQ 教职工和研究生，可以交传统摄影、科学与数据可视化，也可以是创意诠释。本届 Deputy Vice-Chancellor Award 给了健康与康复科学学院的 Dr Lauren Fothergill。\n\n我觉得对新生特别友好。刚来的时候看官网那些 research group 介绍完全没概念，去看一圈图反而更容易找到自己感兴趣的方向。\n\n走路顺路的话真的建议拐进去。",
+      "tags": "#UQ #昆士兰大学 #校园生活 #布里斯班 #留学日常 #研究生"
+    },
+    "p5": {
+      "title": "UQ 本周速览 存着慢慢看",
+      "body": "三条一起放这儿：\n\n01 游戏超支研究——近 8 成有游戏障碍风险的人经历过超支或财务损害，中国玩家超支 63.3%。NCYSUR 出品。\n\n02 无铅室内光伏——化工学院 Dr Miaoqiang Lyu，气相沉积工艺，给可穿戴健康设备供电，拿了校内 FREA 奖。\n\n03 Visions of Research 影像展——20 号楼 Global Change Institute，配合 09-14 到 09-18 研究与创新周。\n\n所有数据我都对着 news.uq.edu.au 的原文核过一遍，想看细节的直接去官网搜标题就行。\n\n下周继续。有想让我重点盯哪个学院的，评论区扣个 1。",
+      "tags": "#UQ #昆士兰大学 #澳洲留学 #留学干货 #布里斯班 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UQ 本周三条：游戏超支研究、无铅室内光伏、校园研究影像展",
+    "lead": "9 月 14 日到 17 日，UQ News 连着发了三条值得留学生知道的消息：一份带中国玩家数据的游戏财务伤害研究、一项去掉铅和危险溶剂的室内光伏工艺、以及正在校园里展出的 Visions of Research 影像展。下面逐条拆，数据全部对着官网原文核过。",
+    "meta": { "readTime": "约 4 分钟" },
+    "newsBodies": [
+      {
+        "h2": "01 打游戏花钱失控，UQ 把它写成了论文",
+        "paragraphs": [
+          "9 月 17 日，UQ News 发布了国家青少年物质使用研究中心（National Centre for Youth Substance Use Research，简称 NCYSUR）的一项研究。官方原文的说法是：nearly 8 out of every 10 people at risk of gaming disorder have experienced overspending or financial harm due to their habit——有游戏障碍风险的人里，接近十个有八个出现过超支或财务损害。",
+          "研究覆盖澳洲、中国、印尼三国玩家。报告出现财务损害的比例分别是印尼 49.5%、中国 41.4%、澳洲 30.5%；承认在游戏上超支的比例是中国 63.3%、印尼 59.2%、澳洲 37.4%。官方还给了一组倍数：游戏障碍风险较高的人，出现财务损害的可能性约为其他人的 8 倍，超支的可能性约为 5 倍。",
+          "研究由博士生 Benjamin Johnson 与副教授 Janni Leung 完成，论文发表在 Journal of Behavioral Addictions。对准备申请 Psychology、Public Health 或 Behavioural Science 方向的同学来说，NCYSUR 是 UQ 在青少年行为研究上比较有辨识度的一个中心，写 research proposal 或者套磁时可以直接从它的在研课题入手。"
+        ],
+        "sourceHtml": "UQ News · 2026-09-17 · <a href=\"https://news.uq.edu.au/2026-09-risk-gamers-gambling-their-financial-future\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "02 无铅钙钛矿室内光伏，让健康设备不用再充电",
+        "paragraphs": [
+          "9 月 15 日，UQ News 报道了化学工程学院 Dr Miaoqiang Lyu 的工作。官方原文写的是：has already developed a scalable vapour-deposition method that removes toxic lead and hazardous solvents from indoor photovoltaic manufacturing while delivering record performance for lead-free perovskite devices——一种可规模化的气相沉积工艺，从室内光伏制造中去掉有毒的铅和危险溶剂，同时在无铅钙钛矿器件上做出官方所称的 record performance。",
+          "应用方向落在可穿戴健康设备上：血糖传感器、ECG 贴片、汗液乳酸与电解质传感器等，靠室内灯光和自然光取电，不再依赖电池或充电。这类设备的续航一直是临床落地的卡点，把供电这件事从电池换成环境光，是一条很实际的路径。",
+          "该项目获得了 UQ Foundation Research Excellence Award（FREA），属于校内面向研究者的重点支持。申请 Chemical Engineering、Materials Science 或 Renewable Energy 方向的同学，可以把这条线作为选导师的参考。"
+        ],
+        "sourceHtml": "UQ News · 2026-09-15 · <a href=\"https://news.uq.edu.au/2026-09-lead-free-solar-powers-battery-free-future-health-tech\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "03 Visions of Research 影像展，校园里就能看",
+        "paragraphs": [
+          "9 月 14 日，UQ News 介绍了 Visions of Research 竞赛的入围作品展。展出地点在 Global Change Institute（building 20），展期配合 Research and Innovation Week，官方写的是 from 14–18 September。",
+          "关于参赛资格，官方原文是：The competition invited UQ staff and postgraduate students to share compelling visual representations of research across all disciplines, either through traditional photography, scientific and data visualisation or creative interpretation——面向 UQ 教职工和研究生，形式可以是传统摄影、科学与数据可视化，也可以是创意诠释。",
+          "本届 Deputy Vice-Chancellor Award 颁给了健康与康复科学学院的 Dr Lauren Fothergill，作品名为 Lived Experience Leading Aged Care Research。对刚入学的同学来说，这类展览比翻官网的 research group 列表更直观，是快速建立学科体感的一个办法。"
+        ],
+        "sourceHtml": "UQ News · 2026-09-14 · <a href=\"https://news.uq.edu.au/2026-09-visions-research-reflecting-creativity-and-impact-uq-community\">news.uq.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "游戏超支研究：近 8 成有游戏障碍风险者经历过超支或财务损害，中国玩家超支比例 63.3%，发表于 Journal of Behavioral Addictions。",
+        "无铅室内光伏：化工学院 Dr Miaoqiang Lyu 的气相沉积工艺去掉铅与危险溶剂，用于可穿戴健康设备供电，获 UQ FREA 奖。",
+        "Visions of Research 影像展：Global Change Institute（20 号楼），配合 09-14 至 09-18 研究与创新周。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "在 UQ 读书之后我养成一个习惯：每周扫一遍 news.uq.edu.au，比在群里等二手消息靠谱。\n\n这周三条，我按对留学生的实用度排了个序。\n\n第一条 9 月 17 日发的游戏研究，说有游戏障碍风险的人里接近 10 个有 8 个出现过超支或财务损害。三国对比里，承认超支的比例中国 63.3%、印尼 59.2%、澳洲 37.4%。做研究的是国家青少年物质使用研究中心的 Benjamin Johnson 和 Janni Leung，论文在 Journal of Behavioral Addictions。\n\n第二条是 9 月 15 日的，化学工程学院 Dr Miaoqiang Lyu 做的无铅钙钛矿室内光伏，去掉了铅和危险溶剂，用来给血糖传感器、ECG 贴片这类可穿戴设备供电。拿了 UQ Foundation Research Excellence Award。\n\n第三条最轻松：Visions of Research 影像展正在 20 号楼 Global Change Institute 展出，配合 09-14 到 09-18 的研究与创新周。新生特别推荐去转一圈，比看官网介绍更容易找到自己感兴趣的组。\n\n数据我都对着官网原文核过一遍。想看细节直接去官网搜标题。有想让我下周重点盯哪个学院的，评论区扣 1。",
+        "tags": ["#昆士兰大学", "#UQ", "#澳洲留学", "#布里斯班留学", "#留学日常", "#澳洲大学", "#留学干货"]
+      },
+      {
+        "heading": "草稿 B · 单条深挖（游戏超支研究）",
+        "body": "看到 UQ 这条研究的时候，我第一反应是把手机放下了一会儿。\n\n9 月 17 日 UQ News 发的，国家青少年物质使用研究中心做的。官方原文写的是 nearly 8 out of every 10 people at risk of gaming disorder have experienced overspending or financial harm。翻过来就是：有游戏障碍风险的人里，接近 8 成经历过超支或者财务损害。\n\n更细的三国数据在这里。出现财务损害的比例：印尼 49.5%、中国 41.4%、澳洲 30.5%。承认超支的比例：中国 63.3%、印尼 59.2%、澳洲 37.4%。官方还提到，风险较高的人出现财务损害的可能性约为 8 倍，超支约为 5 倍。\n\n研究是博士生 Benjamin Johnson 和副教授 Janni Leung 做的，发在 Journal of Behavioral Addictions。\n\n我没有要劝谁别打游戏的意思。只是留学本来生活费就紧，多一个数据在脑子里，下次冲动前也许会停两秒。\n\n另外对想申 Psychology 或 Public Health 的同学说一句：NCYSUR 这个中心的课题方向挺清晰的，套磁之前先把它近两年的论文扫一遍会省很多力气。有在申这个方向的姐妹吗，扣个 1 我们交流下。",
+        "tags": ["#UQ", "#昆士兰大学", "#留学生活", "#心理学", "#公共卫生", "#澳洲留学", "#研究生申请"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

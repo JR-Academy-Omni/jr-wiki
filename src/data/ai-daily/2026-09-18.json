@@ -1,0 +1,155 @@
+{
+  "date": "2026-09-18",
+  "summary": {
+    "hook": [
+      {"text": "Anthropic澳洲A$320亿数据中心"},
+      {"text": "众议院417-3票让数据中心自付电网"},
+      {"text": "首例AI agent端到端攻击"},
+      {"text": "三巨头筹建FINRA式标准机构"},
+      {"text": "AWS动手微认证转全免费"}
+    ],
+    "sub": "算力扩张、电价政治和自主攻击撞在同一周——9月中旬澳洲被推到了AI基建的第一线",
+    "items": [
+      {"num": "01", "cat": "算力基建", "numColor": "#ef4444", "t": "Anthropic签下澳洲最大数据中心：A$320亿、2.16GW、只跑推理"},
+      {"num": "02", "cat": "政策监管", "numColor": "#8b5cf6", "t": "美众议院417-3通过法案，100MW以上数据中心自付电网升级"},
+      {"num": "03", "cat": "安全事件", "numColor": "#f59e0b", "t": "西班牙AEPD登记首例由AI agent端到端完成的数据泄露"},
+      {"num": "04", "cat": "行业治理", "numColor": "#10b981", "t": "OpenAI、Anthropic、DeepMind筹建FINRA式AI标准机构"},
+      {"num": "05", "cat": "职业认证", "numColor": "#6366f1", "t": "AWS生成式AI专业级认证开放报名，4个动手微认证免费"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-australia-32b-datacentre",
+      "idx": "01",
+      "catText": "算力基建",
+      "accent": "#ef4444",
+      "bg": {
+        "top": "Anthropic澳洲首站",
+        "mid": "A$320亿数据中心",
+        "bot": "2.16GW · 只跑推理",
+        "topRight": "🇦🇺"
+      },
+      "title": [
+        {"text": "Anthropic签下澳洲首个数据中心，"},
+        {"text": "A$320亿、2.16GW、只跑推理不做训练", "hl": true}
+      ],
+      "oneline": [
+        {"text": "昆州西部丘陵725公顷，2027年启用，"},
+        {"text": "耗电约等于150万户澳洲家庭", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "Anthropic与新加坡开发商Zerra DC签约，租用昆州Dalby附近西部丘陵数字园区的数据中心：占地725公顷、规划用电2.16GW、总投资A$320亿。该站点只处理Claude的用户请求，不做模型训练，Anthropic计划2027年开始使用。"},
+        {"k": "为什么重要", "v": "这将是澳洲最大的数据中心，用电量约等于150万户澳洲家庭。Anthropic承诺承担并网的全部成本，包括所需的电网升级——这句话正好踩在全球数据中心电费争议最敏感的位置上。"},
+        {"k": "对你的影响", "v": "西部丘陵市长Andrew Smith估计带来约1000个长期岗位，建设期4到6年。但项目仍需外国投资审查委员会（FIRB）和地方议会规划审批，开发申请8月才递交，现在还不是既成事实。"}
+      ],
+      "src": "📎 abc.net.au · convergedigest.com"
+    },
+    {
+      "slug": "02-house-ratepayer-protection-act",
+      "idx": "02",
+      "catText": "政策监管",
+      "accent": "#8b5cf6",
+      "bg": {
+        "top": "美国众议院",
+        "mid": "417比3通过",
+        "bot": "数据中心自付电网",
+        "topRight": "⚡"
+      },
+      "title": [
+        {"text": "美众议院417比3通过Ratepayer Protection Act，"},
+        {"text": "100MW以上数据中心自付电网成本", "hl": true}
+      ],
+      "oneline": [
+        {"text": "本届国会通过的第一部数据中心法案，"},
+        {"text": "3张反对票全部来自民主党", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "9月16日美国众议院以417票赞成、3票反对通过Ratepayer Protection Act，要求单个站点或园区用电达到100MW以上的大负荷数据中心，承担为其服务所需的全部新增电网基础设施成本。法案已送参议院，前景不明。"},
+        {"k": "为什么重要", "v": "这是本届国会通过的第一部数据中心相关法案，417比3的票型说明电价已经变成两党都不敢站错边的民生议题。三张反对票来自Tlaib、Ramirez和Lee，全是民主党人。"},
+        {"k": "对你的影响", "v": "算力的成本结构要变：新建大型数据中心的并网开支不再摊给普通用户，只能进厂商自己的账本。这会抬高推理侧的长期固定成本，也解释了Anthropic为什么在澳洲那笔交易里主动承诺自付并网费。"}
+      ],
+      "src": "📎 cbsnews.com · gabeevans.house.gov"
+    },
+    {
+      "slug": "03-spain-aepd-ai-agent-breach",
+      "idx": "03",
+      "catText": "安全事件",
+      "accent": "#f59e0b",
+      "bg": {
+        "top": "西班牙AEPD",
+        "mid": "首例AI agent攻击",
+        "bot": "改个人数据 + 取发票",
+        "topRight": "🕵"
+      },
+      "title": [
+        {"text": "西班牙AEPD登记首例数据泄露，"},
+        {"text": "整条攻击链由AI agent自主跑完", "hl": true}
+      ],
+      "oneline": [
+        {"text": "扫文件、找漏洞、登系统、改个人数据、取发票，"},
+        {"text": "全程没有人工介入", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "西班牙数据保护局（AEPD）记录了首例归因于AI agent自主执行的个人数据泄露：攻击者部署了一个基于某已知大模型的agent，先扫通用文件，再跑漏洞扫描拿到文件读写权限，最后修改个人数据并取走发票类财务文档。"},
+        {"k": "为什么重要", "v": "以前AI是攻击者手里的辅助工具，这次是把侦察、提权、横向、取数几个阶段串成一条链自己跑完。它同时是GDPR体系下第一个必须回答「责任归谁」的agent事故样本。"},
+        {"k": "对你的影响", "v": "AEPD副主任Francisco Pérez Bes提醒，现有信息全部来自受害组织自己的通报，仍需进一步分析；用了某个模型不等于该模型或其供应商基础设施被攻破。别急着把锅扣到某家厂商头上。"}
+      ],
+      "src": "📎 securityweek.com · helpnetsecurity.com"
+    },
+    {
+      "slug": "04-frontier-labs-finra-standards-body",
+      "idx": "04",
+      "catText": "行业治理",
+      "accent": "#10b981",
+      "bg": {
+        "top": "三家前沿实验室",
+        "mid": "FINRA式标准机构",
+        "bot": "发布前先过测试",
+        "topRight": "🏛"
+      },
+      "title": [
+        {"text": "OpenAI、Anthropic、DeepMind筹建AI标准机构，"},
+        {"text": "对标金融业FINRA的行业自律", "hl": true}
+      ],
+      "oneline": [
+        {"text": "强模型公开发布前先做第三方测试，"},
+        {"text": "钱主要由产业自己出", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "9月15日OpenAI确认，正与Anthropic和Google DeepMind商谈组建一个行业自律标准机构，在强模型公开发布前先做测试，架构对标美国金融业自律组织FINRA。这个想法从7月起就在工作组会议里讨论。"},
+        {"k": "为什么重要", "v": "Hassabis提出框架时说，资金需求会很大且多半得由产业承担，才请得动世界级技术人才；Altman的表态是行业愿意坐下来协调、留出足够时间把事做安全。9月17日多位AI公司负责人公开为自我监管背书。"},
+        {"k": "对你的影响", "v": "自律先行通常意味着立法节奏被拖慢。这机构有没有牙齿只看两件事：测试标准谁定、评估结论能不能真的拦住一次发布。这两条不落地，它就只是个新闻稿。"}
+      ],
+      "src": "📎 techxplore.com · nbcnews.com"
+    },
+    {
+      "slug": "05-aws-genai-cert-free-microcredentials",
+      "idx": "05",
+      "catText": "职业认证",
+      "accent": "#6366f1",
+      "bg": {
+        "top": "AWS认证扩容",
+        "mid": "生成式AI专业级",
+        "bot": "4个微认证免费",
+        "topRight": "🎓"
+      },
+      "title": [
+        {"text": "AWS新增生成式AI开发者专业级认证，"},
+        {"text": "4个动手微认证从4月23日起全部免费", "hl": true}
+      ],
+      "oneline": [
+        {"text": "机器学习Specialty已在3月31日停考，"},
+        {"text": "微认证不再需要Skill Builder订阅", "bold": true}
+      ],
+      "bullets": [
+        {"k": "发生了什么", "v": "AWS开放AWS Certified Generative AI Developer – Professional报名，Security – Specialty升级到SCS-C03并新增生成式AI与机器学习安全专项；老的Machine Learning – Specialty最后考试日是2026年3月31日。"},
+        {"k": "为什么重要", "v": "微认证是在真实AWS环境里做的动手评测，没有选择题，直接把人扔进模拟业务场景改东西。其中AWS Agentic AI Demonstrated考的是Bedrock AgentCore的Runtime、Gateway和Memory排障与集成。"},
+        {"k": "对你的影响", "v": "从4月23日起，Serverless、Agentic AI、Application Networking、Incident Response四个微认证对所有人免费，不需要Skill Builder订阅。想证明自己真的会搭agent而不是只会背题，这是当前成本最低的路径。"}
+      ],
+      "src": "📎 aws.amazon.com · credly.com"
+    }
+  ],
+  "mp": {
+    "title": "Anthropic澳洲A$320亿数据中心 / 众议院417-3让数据中心自付电网 / 首例AI agent自主攻击 / 三巨头筹建FINRA式标准机构 / AWS微认证转免费"
+  }
+}

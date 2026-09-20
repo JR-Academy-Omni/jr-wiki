@@ -1,0 +1,320 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-09-19（Canvas 版）</title>
+<meta name="description" content="2026-09-19 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-09-19.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-09-19",
+  "summary": {
+    "hook": [
+      {
+        "text": "加州行政令推AI kill switch"
+      },
+      {
+        "text": "OpenAI推Astra for Law"
+      },
+      {
+        "text": "Claude Code Projects改成多agent协调"
+      },
+      {
+        "text": "Pew：37国里34国担心AI减岗"
+      },
+      {
+        "text": "AWS MLA-C01英文考试9月28日截止"
+      }
+    ],
+    "sub": "监管、行业模型和agent编排同一天落地——两个月后加州要拿出AI安全立法指南",
+    "items": [
+      {
+        "num": "01",
+        "cat": "政策监管",
+        "numColor": "#8b5cf6",
+        "t": "纽森签行政令：两个月内出AI安全指南，kill switch列入考虑"
+      },
+      {
+        "num": "02",
+        "cat": "行业模型",
+        "numColor": "#ef4444",
+        "t": "OpenAI推Astra for Law，法律检索正确率54.0%对38.7%"
+      },
+      {
+        "num": "03",
+        "cat": "开发工具",
+        "numColor": "#10b981",
+        "t": "Claude Code Projects重做：一个对话调度多条并行云端线程"
+      },
+      {
+        "num": "04",
+        "cat": "就业趋势",
+        "numColor": "#f59e0b",
+        "t": "Pew调查37国：34国民众认为AI会让岗位变少"
+      },
+      {
+        "num": "05",
+        "cat": "职业认证",
+        "numColor": "#6366f1",
+        "t": "AWS MLA-C01英文版9月28日最后一考，C02 beta 29日开考"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-newsom-ai-kill-switch-executive-order",
+      "idx": "01",
+      "catText": "政策监管",
+      "accent": "#8b5cf6",
+      "bg": {
+        "top": "加州州长行政令",
+        "mid": "AI kill switch",
+        "bot": "两个月内交指南",
+        "topRight": "⚖️"
+      },
+      "title": [
+        {
+          "text": "纽森签AI行政令，"
+        },
+        {
+          "text": "两个月内出安全立法指南，kill switch列入考虑",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "召集顶尖专家给加州AI法规加码，"
+        },
+        {
+          "text": "SB 813和AB 1405实施提速",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "9月18日加州州长纽森签署行政令，召集专家在两个月内给出强化加州AI安全法规的指南，并要求政府运营署加快SB 813和AB 1405的实施时间表。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "考虑中的措施包括要求公司为前沿模型开发紧急关停机制（kill switch），以及由独立第三方编写AI公司安全计划。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "加州是OpenAI、Anthropic、Google总部所在地，这里的规则等于前沿模型的事实标准。做AI合规、治理岗位的人，两个月后要盯紧这份指南。"
+        }
+      ],
+      "src": "📎 gov.ca.gov · cnn.com"
+    },
+    {
+      "slug": "02-openai-astra-for-law",
+      "idx": "02",
+      "catText": "行业模型",
+      "accent": "#ef4444",
+      "bg": {
+        "top": "OpenAI进军法律",
+        "mid": "Astra for Law",
+        "bot": "2.3亿URL法律索引",
+        "topRight": "📚"
+      },
+      "title": [
+        {
+          "text": "OpenAI推出Astra for Law，"
+        },
+        {
+          "text": "法律检索正确率比纯联网搜索高40%",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "GPT-6 Astra加美国判例法索引，"
+        },
+        {
+          "text": "Harvey、Legora都能在上面做产品",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI发布Astra for Law：GPT-6 Astra配合覆盖美国判例、法规、法院规则的法律检索索引，规模超过2.3亿个URL，每天更新。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "200道美国法律研究题上整体正确率54.0%，GPT-6 Astra只用联网搜索是38.7%。OpenAI从卖模型走到直接做垂直行业底座，Harvey这类公司既是客户也是潜在对手。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "首批只通过Trusted Access给选定律所，API随后开放，目前只覆盖美国法律。垂直行业RAG的门槛在往上走：通用检索不够，要有专属索引和评测集。"
+        }
+      ],
+      "src": "📎 artificiallawyer.com · openai.com"
+    },
+    {
+      "slug": "03-claude-code-projects-redesigned",
+      "idx": "03",
+      "catText": "开发工具",
+      "accent": "#10b981",
+      "bg": {
+        "top": "Claude Code",
+        "mid": "Projects重做",
+        "bot": "并行线程 · 共享记忆",
+        "topRight": "🧵"
+      },
+      "title": [
+        {
+          "text": "Claude Code Projects重做，"
+        },
+        {
+          "text": "一个对话调度多条并行云端线程",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "每条线程是一个独立分支的云端会话，"
+        },
+        {
+          "text": "合上电脑还在跑",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Anthropic把Projects从文件夹改成对话：你描述要做的事，协调者拆任务、开线程、审产出，每条线程是Claude Code云端会话，跑在各自分支上。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "线程共享项目记忆和产物库，并行改代码的冲突按普通merge conflict处理。多agent编排从自己搭框架，变成了订阅里自带的功能。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "目前是beta，只给用云端会话、且没有旧Projects的部分Pro和Max用户，Team和Enterprise之后跟进，本地执行还在计划中。"
+        }
+      ],
+      "src": "📎 claude.com · code.claude.com"
+    },
+    {
+      "slug": "04-pew-37-country-ai-jobs-survey",
+      "idx": "04",
+      "catText": "就业趋势",
+      "accent": "#f59e0b",
+      "bg": {
+        "top": "Pew全球调查",
+        "mid": "37国34国看衰",
+        "bot": "澳洲约七成担心",
+        "topRight": "📉"
+      },
+      "title": [
+        {
+          "text": "Pew调查37国：34国民众认为"
+        },
+        {
+          "text": "AI带来的岗位会更少而不是更多",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "澳洲、韩国、美国约七成或以上预期减岗，"
+        },
+        {
+          "text": "没有一个国家超过四分之一人认为AI会缩小贫富差距",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Pew在2026年2月8日到5月13日访问36国42,151人，加上美国单独调查，共37国。34国民众更倾向于认为AI会让未来20年岗位变少。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "澳洲、韩国、美国约七成或以上成年人预期AI导致失业，美国两年内上升7个百分点。人们也更倾向认为AI会拉大贫富差距。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "在澳洲找工作，雇主和同事的焦虑是真实存在的。能说清自己怎么用AI提效、而不是被AI替代，是面试里越来越关键的一句话。"
+        }
+      ],
+      "src": "📎 pewresearch.org"
+    },
+    {
+      "slug": "05-aws-mla-c01-last-day",
+      "idx": "05",
+      "catText": "职业认证",
+      "accent": "#6366f1",
+      "bg": {
+        "top": "AWS认证换版",
+        "mid": "MLA-C01倒计时",
+        "bot": "9月28日英文最后一考",
+        "topRight": "🎓"
+      },
+      "title": [
+        {
+          "text": "AWS机器学习工程师助理级换版，"
+        },
+        {
+          "text": "MLA-C01英文版9月28日最后一考",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "MLA-C02 beta 9月29日开考，"
+        },
+        {
+          "text": "beta报名费75美元",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "AWS更新三门考试：MLA-C02 beta 9月29日开考、2027年1月14日正式版；SAP-C03于11月17日、DVA-C03于12月1日正式开考，10月27日开放报名。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "MLA-C01英文版最后考试日是9月28日，只剩9天。旧版备考资料到期后不再对口，C02 beta只有英文。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "已经在备C01且接近考试状态的，尽快约9月28日前的场次；刚开始准备的，直接按C02考纲走。SAP-C02最后一考11月16日，DVA-C02是11月30日。"
+        }
+      ],
+      "src": "📎 aws.amazon.com"
+    }
+  ],
+  "mp": {
+    "title": "加州行政令推AI kill switch / OpenAI推Astra for Law / Claude Code Projects多agent / Pew：34国担心AI减岗 / AWS MLA-C01倒计时"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-09-19"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>

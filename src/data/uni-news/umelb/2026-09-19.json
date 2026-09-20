@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-09-19",
+  "school": "umelb",
+  "summary": {
+    "hookMain": "UMelb 墨尔本大学",
+    "hookSub": "本周两件 值得你知道",
+    "hookSubHighlight": "两件",
+    "subLines": [
+      "仿生耳之父 Graeme Clark 拿下 2026 本田奖",
+      "623 名大学生的智能手表数据 心率藏着长周期"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "2026 本田奖", "data": "全球 65 万人受益" },
+      { "num": "02", "title": "心率长周期", "data": "70% 参与者有规律" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "荣誉奖项",
+      "h2Main": "仿生耳发明人 Graeme Clark 获 2026 本田奖",
+      "h2Sub": "与 MED-EL 联合创始人 Dr Ingeborg Hochmair 共同获奖",
+      "h2Highlight": "2026 本田奖",
+      "lead": "9 月 15 日墨大 Newsroom：荣誉教授 <b>Graeme Clark AC</b> 获得 <b>2026 Honda Prize</b>。官方原文说他的突破让全球<b>超过 650,000 人</b>重获听力。",
+      "bullets": [
+        { "k": "获奖人", "v": "墨大荣誉教授 <b>Graeme Clark AC</b> 与奥地利电气工程师 <b>Dr Ingeborg Hochmair</b> 联合获奖，两人各自独立推动了多通道人工耳蜗的研发与推广" },
+        { "k": "核心贡献", "v": "Clark 团队发明了<b>世界上第一个多通道人工耳蜗</b>（俗称 bionic ear），并与澳洲医疗器械公司 <b>Cochlear Limited</b> 合作商业化" },
+        { "k": "工作原理", "v": "官方描述：把声音转成电信号，<b>直接刺激听觉神经</b>，帮助戴助听器仍听不清言语的重度到极重度听损人群" },
+        { "k": "对你的影响", "v": "对 <b>Biomedical Engineering / Audiology</b> 感兴趣的同学，墨大的 Graeme Clark Institute 就是以他命名的生物医学工程研究所，选导师时可以从这里入手" }
+      ],
+      "sourceQuote": "University of Melbourne Emeritus Professor Graeme Clark AC – whose breakthroughs have brought the gift of hearing to over 650,000 people globally – has been awarded the 2026 Honda Prize.",
+      "source": "University of Melbourne Newsroom · 2026-09-15",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/september/professor-graeme-clark-awarded-japans-honda-prize"
+    },
+    {
+      "idx": "02",
+      "category": "学术研究",
+      "h2Main": "你的心率可能有周、季度甚至年周期",
+      "h2Sub": "Rhythms in Physiology Lab · 623 名健康大学生 · 发表于 EBioMedicine",
+      "h2Highlight": "年周期",
+      "lead": "9 月 14 日墨大 Newsroom：一项基于智能手表数据的研究发现，<b>70% 的人</b>心率遵循每周、每季度甚至每年的周期。研究分析了 <b>623 名健康大学生</b>超过 <b>900 年</b>的累计手表数据。",
+      "bullets": [
+        { "k": "核心发现", "v": "官方原文：<b>the heart rates of 70 per cent of people follow weekly, quarterly or even yearly cycles</b>" },
+        { "k": "数据规模", "v": "分析了 <b>623 名健康大学生</b>累计 <b>900 多年</b>的智能手表数据" },
+        { "k": "研究团队", "v": "副教授 <b>Pip Karoly</b> 领衔，她是 Graeme Clark Institute for Biomedical Engineering 下 <b>Rhythms in Physiology Lab（RiPL）</b>的项目负责人；论文发表于 <b>EBioMedicine</b>" },
+        { "k": "对你的影响", "v": "做 <b>Data Science / Biomedical Engineering / 可穿戴设备</b>方向的同学，这是一个把消费级设备数据做成医学研究的完整案例，适合当研究计划或作品集的参考选题" }
+      ],
+      "sourceQuote": "University of Melbourne researchers working on a large study of smartwatch data have found that the heart rates of 70 per cent of people follow weekly, quarterly or even yearly cycles. … the study analysed over 900 years of smartwatch data from 623 healthy university students.",
+      "source": "University of Melbourne Newsroom · 2026-09-14",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/september/beating-to-a-different-drum-the-hidden-rhythms-shaping-heart-rate"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "墨大本周两条 · 数据都来自 unimelb.edu.au 官方原文",
+    "items": [
+      { "n": "01", "title": "Graeme Clark 获本田奖", "body": "多通道人工耳蜗发明人 Graeme Clark AC 与 Dr Ingeborg Hochmair 共获 2026 Honda Prize，官方称全球超过 65 万人因此重获听力。" },
+      { "n": "02", "title": "心率藏着长周期", "body": "Pip Karoly 团队分析 623 名健康大学生 900 多年的智能手表数据，发现 70% 的人心率有周、季度或年周期，发表于 EBioMedicine。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "09 / 19"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "墨大这周两条 都挺有意思",
+      "body": "每周翻一遍墨大 Newsroom 是我来墨尔本之后的习惯。\n\n这周挑了两条。\n\n一条是仿生耳发明人 Graeme Clark 拿了日本本田奖，另一条是拿大学生的智能手表数据做的心率研究，研究对象跟我们差不多就是同一群人 😂\n\n后面两张图一条一条说，数字都是对着官网原文抄的。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #墨尔本留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "仿生耳之父拿了本田奖",
+      "body": "9 月 15 日墨大官网发的。\n\n荣誉教授 Graeme Clark AC 获得 2026 Honda Prize，和奥地利工程师 Dr Ingeborg Hochmair 一起拿的。两个人当年各自独立做多通道人工耳蜗。\n\n官网原文说，他的突破让全球超过 650,000 人重获听力。Clark 团队做出了世界上第一个多通道人工耳蜗，后来和 Cochlear Limited 一起商业化。\n\n我之前一直不知道学校里那个 Graeme Clark Institute 就是以他命名的。做生物医学工程的同学可以去看看这个所在做什么。",
+      "tags": "#墨尔本大学 #UniMelb #生物医学工程 #澳洲留学 #科研 #人工耳蜗"
+    },
+    "p3": {
+      "title": "你的心率可能有年周期",
+      "body": "第二条是 9 月 14 日的研究。\n\n墨大副教授 Pip Karoly 的团队分析了 623 名健康大学生的智能手表数据，累计 900 多年。结论是 70% 的人心率遵循每周、每季度甚至每年的周期。论文发在 EBioMedicine。\n\n我看完第一反应是去翻了自己手表的心率曲线，当然什么也没看出来。\n\n不过这个研究挺适合学 Data Science 的同学参考：消费级设备的数据，也能做成正经的医学研究。我在纠结下学期要不要选一门健康数据相关的课，有选过的姐妹说说体验吗。",
+      "tags": "#墨尔本大学 #UniMelb #数据科学 #澳洲留学 #智能手表 #研究方向"
+    },
+    "p4": {
+      "title": "两条新闻我自己的收获",
+      "body": "两条放一起看，其实都跟 Graeme Clark Institute for Biomedical Engineering 有关。\n\n一条是这个所的名字来源，一条是这个所下面的 Rhythms in Physiology Lab 做出来的研究。\n\n对想申生物医学工程、健康数据方向的同学，我自己的做法是先去所的主页看 lab 列表，再挑一两个 lab 看近两年的论文。比直接搜导师名字效率高一点。\n\n这是我自己的方法，不一定适合每个人。",
+      "tags": "#墨尔本大学 #UniMelb #研究生申请 #澳洲留学 #生物医学工程 #套磁"
+    },
+    "p5": {
+      "title": "墨大本周速览 存着慢慢看",
+      "body": "两条一起放这儿：\n\n01 Graeme Clark AC 与 Dr Ingeborg Hochmair 共获 2026 本田奖，官网说全球超过 65 万人因人工耳蜗重获听力。\n\n02 Pip Karoly 团队分析 623 名大学生 900 多年的手表数据，70% 的人心率有周、季度或年周期，发在 EBioMedicine。\n\n数据我都对着 unimelb.edu.au 原文核过，想看细节直接去官网搜标题。\n\n想让我下周重点盯哪个学院，评论区扣 1。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学干货 #墨尔本 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "墨大本周两条：Graeme Clark 获本田奖、智能手表揭示心率长周期",
+    "lead": "9 月 14 日到 15 日，墨尔本大学 Newsroom 发了两条跟生物医学工程有关的消息：多通道人工耳蜗发明人 Graeme Clark 获得 2026 本田奖，以及一项用 623 名大学生智能手表数据做的心率周期研究。下面逐条拆，数字全部对着官网原文核过。",
+    "meta": { "readTime": "约 3 分钟" },
+    "newsBodies": [
+      {
+        "h2": "01 仿生耳发明人 Graeme Clark 获 2026 本田奖",
+        "paragraphs": [
+          "9 月 15 日，墨尔本大学 Newsroom 宣布荣誉教授 Graeme Clark AC 获得 2026 Honda Prize。官方原文写道：whose breakthroughs have brought the gift of hearing to over 650,000 people globally——他的突破让全球超过 65 万人重获听力。",
+          "本届奖项由 Clark 与奥地利电气工程师 Dr Ingeborg Hochmair 共同获得。两人各自独立推动了多通道人工耳蜗（俗称 bionic ear）的研发、临床应用和全球推广。Clark 团队发明了世界上第一个多通道人工耳蜗，并与澳洲医疗器械公司 Cochlear Limited 合作商业化；Hochmair 则是奥地利听力植入设备公司 MED-EL 的联合创始人。",
+          "人工耳蜗服务的是重度到极重度听力损失、戴助听器仍难以听清言语的人群，原理是把声音转成电信号直接刺激听觉神经。墨大的 Graeme Clark Institute for Biomedical Engineering 以他命名，对生物医学工程、听力学方向的同学来说是值得先了解的研究所。"
+        ],
+        "sourceHtml": "University of Melbourne Newsroom · 2026-09-15 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/september/professor-graeme-clark-awarded-japans-honda-prize\">unimelb.edu.au</a>"
+      },
+      {
+        "h2": "02 智能手表数据显示：70% 的人心率有长周期",
+        "paragraphs": [
+          "9 月 14 日，墨尔本大学 Newsroom 报道了一项大规模智能手表数据研究。官方原文：the heart rates of 70 per cent of people follow weekly, quarterly or even yearly cycles——70% 的人心率遵循每周、每季度甚至每年的周期。",
+          "研究由副教授 Pip Karoly 领衔，她是 Graeme Clark Institute for Biomedical Engineering 下 Rhythms in Physiology Lab（RiPL）的项目负责人。团队分析了 623 名健康大学生累计超过 900 年的智能手表数据，论文发表于 EBioMedicine。",
+          "官方提到，这项研究可能影响我们如何理解身体机能，以及如何管理神经、精神及更广泛的健康问题。对 Data Science、Biomedical Engineering 和可穿戴设备方向的同学，这是一个把消费级设备数据转化为医学研究的完整案例。"
+        ],
+        "sourceHtml": "University of Melbourne Newsroom · 2026-09-14 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/september/beating-to-a-different-drum-the-hidden-rhythms-shaping-heart-rate\">unimelb.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "Graeme Clark AC 与 Dr Ingeborg Hochmair 共获 2026 Honda Prize，多通道人工耳蜗让全球超过 65 万人重获听力。",
+        "Pip Karoly 团队分析 623 名健康大学生 900 多年智能手表数据，70% 的人心率有周、季度或年周期，发表于 EBioMedicine。"
+      ]
+    },
+    "cta": { "big": "每日澳洲大学资讯", "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步" }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "每周翻一遍墨大 Newsroom 是我来墨尔本之后的习惯，比群里转的二手消息靠谱。\n\n这周两条，刚好都跟生物医学工程有关。\n\n第一条是 9 月 15 日发的：荣誉教授 Graeme Clark AC 获得 2026 本田奖，和 MED-EL 联合创始人 Dr Ingeborg Hochmair 一起拿的。官网原文说，他的突破让全球超过 650,000 人重获听力。\n\n第二条是 9 月 14 日的研究：副教授 Pip Karoly 团队分析了 623 名健康大学生 900 多年的智能手表数据，发现 70% 的人心率有周、季度甚至年周期，发在 EBioMedicine。\n\n两条新闻背后都是 Graeme Clark Institute for Biomedical Engineering。想申这个方向的，可以先去看看它下面的 lab 列表。\n\n想让我下周重点盯哪个学院，评论区扣 1。",
+        "tags": ["#墨尔本大学", "#UniMelb", "#澳洲留学", "#墨尔本留学", "#生物医学工程", "#留学日常"]
+      },
+      {
+        "heading": "草稿 B · 单条深挖（心率周期研究）",
+        "body": "看到墨大这条研究，我第一反应是去翻自己手表的心率记录 😂\n\n9 月 14 日墨大官网发的。副教授 Pip Karoly 的团队分析了 623 名健康大学生的智能手表数据，累计超过 900 年。结论是：70% 的人心率遵循每周、每季度甚至每年的周期。原文是 weekly, quarterly or even yearly cycles。\n\n研究来自 Rhythms in Physiology Lab，论文发在 EBioMedicine。\n\n我觉得这条对学 Data Science 的同学挺有启发：数据不一定要从医院来，大家手腕上的设备就能做出正经研究。\n\n我自己还在纠结下学期要不要选健康数据相关的课。有选过的姐妹扣 1，想听听你们的体验。",
+        "tags": ["#墨尔本大学", "#UniMelb", "#数据科学", "#澳洲留学", "#智能手表", "#研究生申请"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "「世界上第一个多通道人工耳蜗」为官方原文事实复述（world's first），非营销用语；其余未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
