@@ -215,6 +215,26 @@
             }
           }
         },
+        "sourceEvidence": {
+          "type": "array",
+          "minItems": 2,
+          "description": "Claim-level evidence retained for editorial review. New editions require at least one primary-source quote and one independent report per story.",
+          "items": {
+            "type": "object",
+            "required": ["type", "publisher", "url", "claim", "quote"],
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["primary", "independent"]
+              },
+              "publisher": { "type": "string", "minLength": 1 },
+              "url": { "type": "string", "format": "uri" },
+              "claim": { "type": "string", "minLength": 1 },
+              "quote": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
         "mp": {
           "type": "object",
           "description": "Optional per-news mp-article content. If absent, h2 = title tokens plain-joined, paragraphs derived from bullets, sourceHtml from sources.",

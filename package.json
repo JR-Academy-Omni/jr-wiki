@@ -9,7 +9,7 @@
     "lock-slugs": "bun run scripts/slug-stability.ts lock",
     "build": "bun run check-slugs && bun run check-generated && bun run build.ts",
     "build:data": "bun run build/pipelines/ai-daily.pipeline.ts && bun run build/pipelines/uni-news.pipeline.ts && bun run build/pipelines/uni-events.pipeline.ts && bun run check-generated",
-    "build:ai-daily": "bun run build/pipelines/ai-daily.pipeline.ts && bun run check-generated",
+    "build:ai-daily": "bash scripts/build-ai-daily.sh",
     "build:uni-news": "bun run build/pipelines/uni-news.pipeline.ts && bun run check-generated",
     "build:uni-events": "bun run build/pipelines/uni-events.pipeline.ts && bun run check-generated",
     "render:posters": "bun run scripts/render-ai-news-posters.mjs",

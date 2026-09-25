@@ -22,7 +22,7 @@ argument-hint: "[YYYY-MM-DD 可选，默认今天 AEST]"
 ### Step 0. 日期（AEST 强制）
 
 ```bash
-DATE=${1:-$(TZ='Australia/Sydney' date +%Y-%m-%d)}
+DATE=${1:-$(TZ='Australia/Brisbane' date +%Y-%m-%d)}
 # 去重
 if [ -f "src/data/ai-daily/${DATE}.json" ]; then
   echo "✅ ${DATE} JSON 已产，跳过（--force 覆盖）"
@@ -30,9 +30,13 @@ if [ -f "src/data/ai-daily/${DATE}.json" ]; then
 fi
 ```
 
-⚠️ 调度器跑在 UTC，**必须** TZ='Australia/Sydney'。
+⚠️ 调度器跑在 UTC，**必须** TZ='Australia/Brisbane'。
 
-### Step 1. 搜当天 AI 新闻（8 轮 parallel WebSearch）
+### Step 1. 复用当天早间 AI 选题；仅在没有结果时搜索
+
+先读取 `/Users/lightman/Documents/sites/jr-academy-ai/output/ai-news/{DATE}/` 和 automation memory。当天已有候选排名、入选事件或 `NO_STORY_CANDIDATE` 时，直接复用同一批候选，不得为了文章另开一轮搜索或评分。只有当天早间没有任何选题结果，且当前仍是 Australia/Brisbane 12:00 前，才执行下面的搜索。
+
+搜索模式（8 轮 parallel WebSearch）：
 
 ```
 1. "AI news today {date}"
@@ -47,9 +51,9 @@ fi
 
 优先源：TechCrunch / The Verge / Bloomberg / Reuters / 36氪 / 机器之心 / Hacker News / OpenAI Blog / Anthropic Blog。
 
-### Step 2. 筛 Top 5（4-5 条 AI 主线 + 1-2 条 IT 认证/课程）
+### Step 2. 筛 3-5 条真正有变化的 AI 新闻
 
-组合原则：影响力 + 新鲜度（当天或前一天）+ 实用性。去重（同一件事不同媒体算一条）。
+组合原则：影响力 + 新鲜度（当天或前一天）+ 实用性。去重（同一件事不同媒体算一条）。不为凑数加入课程促销、普通产品营销、传闻或只有公司自述而没有独立报道的内容。网站文章不要求视频素材通过，但必须有一手原文和独立可信报道。
 
 ### Step 3. 写 `src/data/ai-daily/{DATE}.json`（主产出 · 精简版）
 
@@ -70,11 +74,14 @@ fi
   - `oneline`: textToken[]
   - `bullets`: 3 项 `{k,v}` (k 推荐"发生了什么/为什么重要/对你的影响"但不强制 enum，v 短一点 ≤80 字 — 海报字号舒服)
   - `src`: 字符串 例 "📎 a.com · b.com"
+  - `sourceEvidence`: 至少 2 项，必须同时包含：
+    - 一项 `type: "primary"`，保存 `publisher`、原始 `url`、这段证据支撑的 `claim`、逐字 `quote`
+    - 一项 `type: "independent"`，保存独立媒体的 `publisher`、`url`、`claim`、逐字 `quote`
 - `mp.title`: 公众号标题（不带日期，不带 "AI 日报" 前缀）
 
 **禁写（pipeline 自动派生 / .md 抓）**：
 - ❌ `news[].mp.*`（paragraphs/h2/sourceHtml 全部 pipeline 从 .md 抓 / 从 title/src 派生）
-- ❌ `news[].sources`（pipeline 不用）
+- ❌ `news[].sources`（由 `sourceEvidence` 取代）
 - ❌ `news[].tags` / `news[].frameLabel`（装饰字段不用）
 - ❌ `mp.lead`（auto-derive）
 - ❌ `mp.newsBodies`（pipeline 从 .md 抓）
@@ -88,15 +95,16 @@ fi
 
 ### Step 4. 写 `src/content/articles/ai-daily-{DATE}.md`（/blog/ 长文）
 
-frontmatter + 5 条新闻各 350-600 字正文。格式参考 `src/content/articles/ai-daily-2026-04-23.md`。
+frontmatter + 3-5 条新闻各 350-600 字正文。只写 `sourceEvidence` 能支撑的事实；数字、日期、型号、价格、可用地区和排名缺逐字证据就删。每条末尾列一手来源与独立报道，并明确尚未确定的边界。格式参考 `src/content/articles/ai-daily-2026-04-23.md`。
 
 ### Step 5. 跑 pipeline + 自检
 
 ```bash
-# 1. JSON schema 验证
+# 1. JSON 与证据验证
 jq empty src/data/ai-daily/${DATE}.json || exit 1
-[ "$(jq '.news | length' src/data/ai-daily/${DATE}.json)" = "5" ] || exit 1
-[ "$(jq '.summary.items | length' src/data/ai-daily/${DATE}.json)" = "5" ] || exit 1
+[ "$(jq '.news | length' src/data/ai-daily/${DATE}.json)" -ge "3" ] || exit 1
+jq -e '(.summary.items | length) == (.news | length)' src/data/ai-daily/${DATE}.json >/dev/null || exit 1
+jq -e 'all(.news[]; ([.sourceEvidence[]? | select(.type == "primary" and (.quote | length > 0))] | length) >= 1 and ([.sourceEvidence[]? | select(.type == "independent" and (.quote | length > 0))] | length) >= 1)' src/data/ai-daily/${DATE}.json >/dev/null || exit 1
 
 # 2. pipeline 渲染 HTML
 bun run build:ai-daily ${DATE} || exit 1

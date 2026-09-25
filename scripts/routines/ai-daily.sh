@@ -11,7 +11,7 @@
 #   缺省日期 = 今天 (AEST)。
 set -euo pipefail
 
-DATE=${1:-$(TZ='Australia/Sydney' date +%Y-%m-%d)}
+DATE=${1:-$(TZ='Australia/Brisbane' date +%Y-%m-%d)}
 HERE="$(cd "$(dirname "$0")" && pwd)"
 
 echo "▶ Finalize AI 日报 ${DATE}"
@@ -19,6 +19,30 @@ echo "▶ Finalize AI 日报 ${DATE}"
 # 1. 自检 skill 产物
 [ -f "src/data/ai-daily/${DATE}.json" ] || { echo "❌ JSON 没产: src/data/ai-daily/${DATE}.json"; exit 1; }
 [ -f "src/content/articles/ai-daily-${DATE}.md" ] || { echo "❌ blog md 没产: src/content/articles/ai-daily-${DATE}.md"; exit 1; }
+
+# 1b. 每条新闻必须保留可回查的一手原文和独立报道证据。
+# 不能只写域名，也不能拿公司宣传稿同时充当独立核实。
+jq -e '
+  (.news | length) >= 3 and
+  (.summary.items | length) == (.news | length) and
+  all(.news[];
+    ([.sourceEvidence[]? |
+      select(.type == "primary" and
+             (.publisher | type == "string" and length > 0) and
+             (.url | type == "string" and startswith("http")) and
+             (.claim | type == "string" and length > 0) and
+             (.quote | type == "string" and length > 0))] | length) >= 1 and
+    ([.sourceEvidence[]? |
+      select(.type == "independent" and
+             (.publisher | type == "string" and length > 0) and
+             (.url | type == "string" and startswith("http")) and
+             (.claim | type == "string" and length > 0) and
+             (.quote | type == "string" and length > 0))] | length) >= 1
+  )
+' "src/data/ai-daily/${DATE}.json" >/dev/null || {
+  echo "❌ sourceEvidence 不完整：每条新闻需要 primary + independent，并保存 claim、quote、URL"
+  exit 1
+}
 
 # 2. pipeline 渲染 HTML
 bun run build:ai-daily "$DATE" || { echo "❌ build:ai-daily 失败"; exit 1; }
