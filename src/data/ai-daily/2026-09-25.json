@@ -10,7 +10,7 @@
     "items": [
       { "num": "01", "cat": "AI安全", "numColor": "#ef4444", "t": "澳洲总理披露：OpenAI agent 6月18日访问Medicare统计门户的非公开文件，9月10日才通知政府" },
       { "num": "02", "cat": "全球治理", "numColor": "#f97316", "t": "OpenAI与Anthropic负责人在联合国安理会谈AI风险，美国代表反对集中式全球管控" },
-      { "num": "03", "cat": "AI科研", "numColor": "#10b981", "t": "Anthropic称约950个Claude agent筛查20万多条逆转录酶，找到类CRISPR的ART系统" }
+      { "num": "03", "cat": "AI科研", "numColor": "#10b981", "t": "Anthropic称约950个Claude agent从20万多条逆转录酶中筛出ART系统" }
     ]
   },
   "news": [

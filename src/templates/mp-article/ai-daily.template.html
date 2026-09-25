@@ -27,7 +27,7 @@
     <div class="acts">
       <a class="btn" href="./">← 回海报库</a>
       <button class="btn" id="btn-copy-html">📋 复制富文本</button>
-      <button class="btn primary" id="btn-download-all" disabled>⬇ 下载 6 张 PNG</button>
+      <button class="btn primary" id="btn-download-all" disabled>⬇ 下载 {{POSTER_COUNT}} 张 PNG</button>
     </div>
   </div>
 
@@ -49,14 +49,14 @@
       <div class="card">
         <h2>🎯 发稿就绪 <span class="tag">READY</span></h2>
         <div class="render-status done" id="render-status">✅ 文章已就绪，点「📋 复制富文本」粘到公众号</div>
-        <p style="margin-top:10px">海报走同目录 <code>./poster-0.png</code> ~ <code>./poster-5.png</code>（CI 部署时 puppeteer 产出，WeChat 粘贴时自动抓取 re-host）。本地 <code>bun run render:posters</code> 手动生成。</p>
+        <p style="margin-top:10px">海报走同目录 <code>./poster-0.png</code> ~ <code>./poster-{{POSTER_LAST_INDEX}}.png</code>（CI 部署时 puppeteer 产出，WeChat 粘贴时自动抓取 re-host）。本地 <code>bun run render:posters</code> 手动生成。</p>
       </div>
 
       <div class="card">
         <h2>📊 稿件信息 <span class="tag">META</span></h2>
         <div class="stat-grid">
           <div class="stat-item"><div class="v">{{STAT_CHARS}}</div><div class="k">字数</div></div>
-          <div class="stat-item"><div class="v">6</div><div class="k">海报</div></div>
+          <div class="stat-item"><div class="v">{{POSTER_COUNT}}</div><div class="k">海报</div></div>
           <div class="stat-item"><div class="v">{{STAT_NEWS}}</div><div class="k">新闻</div></div>
           <div class="stat-item"><div class="v">{{STAT_READ_MIN}}</div><div class="k">分钟读</div></div>
         </div>

@@ -181,7 +181,7 @@ function renderArticleContent(data: AiDailyData): { html: string; charCount: num
 	// 从 .md 文件 parse 每条 news 的深度段落（agent 可以省 mp.newsBodies）
 	const mdParagraphs = parseArticleParagraphs(data.date);
 	// lead fallback: 用 .md 第一句话作为 lead 起头会更自然
-	const lead = mp.lead || `${data.date} AI 日报，今日 5 条：${data.summary.items.map(i => i.t).join('；')}。`;
+	const lead = mp.lead || `${data.date} AI 日报，今日 ${data.news.length} 条：${data.summary.items.map(i => i.t).join('；')}。`;
 	const author = mp.meta?.author || 'JR Academy AI 日报';
 	const readTime = mp.meta?.readTime || '8 分钟';
 	const quickview = mp.quickview || {};
@@ -300,6 +300,8 @@ function buildOne(dataFile: string, force: boolean): BuildResult {
 		ARTICLE_CONTENT: articleContent,
 		STAT_CHARS: String(charCount),
 		STAT_NEWS: String(data.news.length),
+		POSTER_COUNT: String(data.news.length + 1),
+		POSTER_LAST_INDEX: String(data.news.length),
 		STAT_READ_MIN: String(readMin),
 	});
 	const mpPath = join(outDir, 'mp-article.html');

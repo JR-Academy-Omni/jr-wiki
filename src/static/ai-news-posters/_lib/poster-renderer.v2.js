@@ -626,7 +626,7 @@
     // 顶部 boxes（黄色 HIGHLIGHT + 右侧 NEWS LIST），固定 118 高 + 间距
     y += 184;
 
-    // Hero "X月X日\nAI 新闻榜，\n5 条必看。" — 永远 3 行 86px (lineH 1.08)
+    // Hero "X月X日\nAI 新闻榜，\nN 条必看。" — 永远 3 行 86px (lineH 1.08)
     y += Math.ceil(3 * 86 * 1.08) + 28;
 
     // italic 'what changed today, why it matters, and what to watch next.'
@@ -644,8 +644,9 @@
     );
     y += firstLaid.lines.length * firstLaid.lineH + 16 + 32;
 
-    // 5 个 item 行，每行固定 118 高 + 14 间距
-    y += 5 * (118 + 14);
+    // 3-7 个 item 行，每行 148 高 + 14 间距；给两行中文标题留足空间。
+    const itemCount = Array.isArray(s.items) ? s.items.length : 0;
+    y += itemCount * (148 + 14);
 
     // 底部分割线 (在 H-82) + 品牌行 (在 H-34) + 安全留白
     y += 110;
@@ -656,7 +657,8 @@
   function drawSummaryPoster(ctx, s, DATE, articleUrl, H) {
     ctx.clearRect(0, 0, W, H);
     drawShell(ctx, {}, H);
-    drawMarsHeader(ctx, DATE, 'TOP 5');
+    const itemCount = Array.isArray(s.items) ? s.items.length : 0;
+    drawMarsHeader(ctx, DATE, `TOP ${itemCount}`);
 
     const CX = 72;
     const CW = W - 144;
@@ -668,7 +670,7 @@
     ctx.fillStyle = '#10131f';
     ctx.fillText('今日 AI 日历 · HIGHLIGHT', CX + 28, y + 44);
     ctx.font = `900 40px ${FF_CN}`;
-    ctx.fillText('5 条新闻，按影响力排序。', CX + 28, y + 92);
+    ctx.fillText(`${itemCount} 条新闻，按影响力排序。`, CX + 28, y + 92);
 
     drawSharpBox(ctx, W - 470, y, 398, 118, '#f7f3ea', '#10131f', 0);
     ctx.font = `900 24px ${FF_CN}`;
@@ -676,7 +678,7 @@
     ctx.fillText('JR Academy / AI Daily', W - 442, y + 40);
     ctx.font = `700 22px ${FF_MONO}`;
     ctx.fillStyle = '#e5261f';
-    ctx.fillText('NEWS LIST · TOP 5', W - 442, y + 76);
+    ctx.fillText(`NEWS LIST · TOP ${itemCount}`, W - 442, y + 76);
     ctx.fillStyle = '#565967';
     ctx.fillText('MODEL · PRODUCT · MARKET', W - 442, y + 104);
 
@@ -686,7 +688,7 @@
     const dateTitle = m ? `${Number(m[2])}月${Number(m[3])}日` : DATE;
     const heroTokens = [
       { text: `${dateTitle}\nAI 新闻榜，\n` },
-      { text: '5 条必看', hl: true },
+      { text: `${itemCount} 条必看`, hl: true },
       { text: '。' },
     ];
     const heroLaid = layoutTokens(ctx, heroTokens, titleSpec, 86, 1.08, CW);
@@ -719,9 +721,9 @@
     });
     y += firstLaid.lines.length * firstLaid.lineH + 16;
     y += 32;
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < itemCount; i++) {
       const it = s.items[i] || {};
-      const rowH = 118;
+      const rowH = 148;
       const fill = i === 0 ? '#ffd225' : '#f7f3ea';
       drawSharpBox(ctx, CX, y, CW, rowH, fill, '#10131f', i === 0 ? 8 : 0);
       ctx.font = `900 54px ${FF_MONO}`;
@@ -748,7 +750,7 @@
     ctx.font = `700 20px ${FF_MONO}`;
     ctx.fillStyle = '#565967';
     ctx.fillText('JR ACADEMY · AI DAILY', CX, H - 34);
-    const issue = '#AI-CALENDAR · TOP 5';
+    const issue = `#AI-CALENDAR · TOP ${itemCount}`;
     const iw = ctx.measureText(issue).width;
     ctx.fillText(issue, CX + CW - iw, H - 34);
   }

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 为每个 dist/ai-news-posters/{date}/index.html 产一套真实 PNG（6 张）。
+ * 为每个 dist/ai-news-posters/{date}/index.html 产一套真实 PNG（摘要 + 3-7 条新闻）。
  *
  * 为什么要这一步：
  *   mp-article.html 的图片如果用 base64 data URI，粘到公众号编辑器时会被丢弃。
@@ -17,7 +17,7 @@
  *   bun run scripts/render-ai-news-posters.mjs           # 处理 dist/ 下所有日期
  *   bun run scripts/render-ai-news-posters.mjs 2026-04-18 # 只处理这一天
  *
- * 输出：dist/ai-news-posters/{date}/poster-0.png ... poster-5.png
+ * 输出：dist/ai-news-posters/{date}/poster-0.png ... poster-N.png
  */
 
 import puppeteer from 'puppeteer-core';
@@ -204,20 +204,26 @@ try {
 			};
 		});
 
-		// Canvas 2D 版（2026-04-21 起）：canvas[data-id] 直接 toDataURL 导出
-		// 老 DOM 版（2026-04-20 之前）：id="poster-0" ~ "poster-5"，走 screenshot + frame 包装
+		// Canvas 2D 版（2026-04-21 起）：canvas[data-id] 直接 toDataURL 导出。
+		// 新版日报允许 3-7 条新闻，因此不能再把 6 张写死。
+		// 老 DOM 版（2026-04-20 之前）：动态读取 poster-N，走 screenshot + frame 包装。
 		const posterMode = await page.evaluate(() => {
 			const canvases = document.querySelectorAll('canvas[data-id]');
-			if (canvases.length === 6) {
+			if (canvases.length > 0) {
 				return { kind: 'canvas', slugs: Array.from(canvases).map((c) => c.dataset.id) };
 			}
-			return { kind: 'dom', ids: ['poster-0', 'poster-1', 'poster-2', 'poster-3', 'poster-4', 'poster-5'] };
+			const ids = Array.from(document.querySelectorAll('[id^="poster-"]'))
+				.map((node) => node.id)
+				.filter((id) => /^poster-\d+$/.test(id))
+				.sort((a, b) => Number(a.slice(7)) - Number(b.slice(7)));
+			return { kind: 'dom', ids };
 		});
 
 		const OUT_DIR = resolve(HUB, date);
 		const startDay = Date.now();
 
 		if (posterMode.kind === 'canvas') {
+			const posterCount = posterMode.slugs.length;
 			// 让 PosterRenderer.renderAll() 跑完 + 字体就绪 + canvas 实际画完
 			// renderAll 是 async 的，上面的 fonts.ready + 800ms 延迟加起来基本够了，保险再给 400ms
 			await new Promise((r) => setTimeout(r, 400));
@@ -228,7 +234,7 @@ try {
 				const outFile = resolve(OUT_DIR, `poster-${i}.png`);
 				const t0 = Date.now();
 				const label = `poster-${i}`;
-				process.stdout.write(`  ${String(i + 1).padStart(2, '0')}/6  ${label.padEnd(12)} … `);
+				process.stdout.write(`  ${String(i + 1).padStart(2, '0')}/${posterCount}  ${label.padEnd(12)} … `);
 				try {
 					const buf = Buffer.from(dataUrls[i].split(',')[1], 'base64');
 					writeFileSync(outFile, buf);
@@ -243,10 +249,15 @@ try {
 			}
 		} else {
 			// 老路径
+			const posterCount = posterMode.ids.length;
+			if (posterCount === 0) {
+				console.log('  ❌ 页面内没有可渲染的 poster-N 元素');
+				totalFail++;
+			}
 			for (const [i, posterId] of posterMode.ids.entries()) {
 				const outFile = resolve(OUT_DIR, `${posterId}.png`);
 				const t0 = Date.now();
-				process.stdout.write(`  ${String(i + 1).padStart(2, '0')}/6  ${posterId.padEnd(12)} … `);
+				process.stdout.write(`  ${String(i + 1).padStart(2, '0')}/${posterCount}  ${posterId.padEnd(12)} … `);
 				try {
 					const dims = await page.evaluate((id) => window.__setupForCapture(id), posterId);
 					const png = await page.screenshot({
