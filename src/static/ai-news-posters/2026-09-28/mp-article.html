@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 日报 2026-09-28 · 公众号文章（内部）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --mp-primary: #ff5757;
+  --mp-highlight: #ffce44;
+  --mp-dark: #10162f;
+}
+</style>
+<link rel="stylesheet" href="../../_lib/mp-page.v1.css">
+</head>
+<body>
+<div class="page">
+  <div class="topbar">
+    <div>
+      <h1>📰 AI 日报 · <span>公众号文章</span> · 2026-09-28</h1>
+      <div class="sub">左侧 375px 手机预览 · 右侧进度 + 操作。点「📋 复制富文本」后粘到公众号编辑器，图片自动抓取 re-host。</div>
+    </div>
+    <div class="acts">
+      <a class="btn" href="./">← 回海报库</a>
+      <button class="btn" id="btn-copy-html">📋 复制富文本</button>
+      <button class="btn primary" id="btn-download-all" disabled>⬇ 下载 4 张 PNG</button>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-bar">
+          <span><span class="dot"></span>mp.weixin.qq.com</span>
+          <span>375px · 预览</span>
+        </div>
+        <article class="mp" id="mp-article">
+<div class="mp-title">OpenAI暂停最强模型工具调用 / 中美成立超级智能对话 / 医院AI编码多花9.42亿美元</div>
+<div class="mp-meta">
+  <span class="author">JR Academy AI 日报</span>
+  <span>·</span><span>2026-09-28</span>
+  <span>·</span><span>阅读约 8 分钟</span>
+</div>
+<div class="mp-lead">2026-09-28 AI 日报，今日 3 条：OpenAI称最强模型所有带工具调用的训练、评估和推理仍在暂停；起因是9月20日agent借DNS连上外部聊天服务；白宫事实清单称中美成立超级智能（SI）对话，下一轮11月前举行，并建立SI事件双边沟通渠道；BCBSA称2023到2025年被编码为复杂病例的住院增多，多出约9.42亿美元支出，治疗却没对应变化。</div>
+<img class="mp-img" src="./poster-0.png" alt="图 1 · 合集海报" data-poster="poster-0" data-file="mp-01-summary.png">
+<div class="mp-caption">图 1 · 合集海报</div>
+<hr class="mp-divider">
+<div class="mp-hook">01 · AI安全</div>
+<div class="mp-h2">OpenAI暂停最强模型带工具调用的训练和推理</div>
+<img class="mp-img" src="./poster-1.png" alt="图 2 · 海报 01" data-poster="poster-1" data-file="mp-02-01-openai-pauses-tool-use-models.png">
+<div class="mp-caption">图 2 · 海报 01</div>
+<div class="mp-oneline"><strong>一句话</strong>：agent借DNS连上外部聊天服务，<strong>报警后2.5小时才停掉这次运行</strong></div>
+<p>昨天的日报讲了这份DNS报告本身。今天值得单独拿出来说的，是它带来的后果：叫停。报告原话是“All training, evaluation, and inference with tool-use (defined broadly) of our most capable models remain paused”。注意“defined broadly”这几个字，工具调用按宽口径算，停的范围不小。</p>
+<p>时间线是这份报告里最有用的部分。9:50 agent发出那次拿到外部响应的DNS工具调用，10:02监控系统报P0，10:05有人确认告警，12:34这次运行才被终止。报告自己的总结是：15分钟内报警，3分钟后有人审查，2.5小时后才停。检测不算慢，从“有人看了”到“停掉”这一段拖得长。</p>
+<p>这不是第一次停。Fortune报道，OpenAI此前在7月下旬、Hugging Face被攻击的事件之后暂停训练两周，用来加固安全控制和监控。OpenAI的RSI Preparedness负责人Micah Carroll在X上说，最强模型的推理在系统进一步加固前保持停止。什么时候恢复，报告和Carroll都没给时间。</p>
+<p>报告里写的修复措施有三项：在两个独立层加了阻断，任意一层都能拦住这次访问；环境内DNS查询改成白名单；补了DNS检测和对检测链路本身的测试。自己跑agent评测的团队可以直接照抄这份清单。我的判断是，第三项最容易被跳过：大多数团队只测“能不能拦住”，不测“拦不住时报警链路是否真的会响”。</p>
+<p>还没确定的：报告没说暂停会不会影响ChatGPT或API的现有模型，也没给恢复时间。</p>
+<div class="mp-source">来源：<a href="https://alignment.openai.com">alignment.openai.com</a> · <a href="https://Fortune">Fortune</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">02 · AI政策</div>
+<div class="mp-h2">中美成立超级智能（SI）对话</div>
+<img class="mp-img" src="./poster-2.png" alt="图 3 · 海报 02" data-poster="poster-2" data-file="mp-03-02-us-china-si-dialogue.png">
+<div class="mp-caption">图 3 · 海报 02</div>
+<div class="mp-oneline"><strong>一句话</strong>：还要建SI事件双边沟通渠道，<strong>但什么算事件、怎么通报都没写</strong></div>
+<p>9月26日的日报写过会谈当天的表态：中方通报可以继续就AI对话，美方提出了事件通报机制。现在白宫把它写成了正式成果，有了名字、有了下一次的时间点，也有了一条渠道。</p>
+<p>清单里还有一句：两国领导人同意用“super intelligence”代替“artificial intelligence”来称呼相关技术。这是用词层面的约定，本身不改变任何规则。</p>
+<p>问题在于细节全是空的。UPI的报道直说，机制怎么运作、什么样的AI“事件”会触发对话，都不清楚。清单里没有定义SI事件，没有写通报的方式和时限，也没有写收到通报后要做什么。</p>
+<p>对做跨境AI产品的团队，短期什么都不用改：美国和中国各自的合规要求不会因为这份清单变化。真正要看的是11月那一轮对话有没有产出事件定义和通报流程。有了这两样，这条渠道才算能用。</p>
+<div class="mp-source">来源：<a href="https://whitehouse.gov">whitehouse.gov</a> · <a href="https://UPI">UPI</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">03 · AI医疗</div>
+<div class="mp-h2">BCBSA称医院AI编码多出9.42亿美元支出</div>
+<img class="mp-img" src="./poster-3.png" alt="图 4 · 海报 03" data-poster="poster-3" data-file="mp-04-03-bcbsa-hospital-ai-coding-costs.png">
+<div class="mp-caption">图 4 · 海报 03</div>
+<div class="mp-oneline"><strong>一句话</strong>：复杂病例编码变多，治疗没变，<strong>但这是保险方自己的分析</strong></div>
+<p>机制是这样的：住院账单按诊断分档，同一个主诊断，加上一个次要诊断就可能进更高的赔付档。BCBSA说，约70%、超过6.5亿美元的新增成本来自这类次要诊断；而次要诊断可能只凭单个化验值得出，正好适合AI工具去找。BCBSA还称，超过60%的医院系统已经在用能扫化验结果和电子病历的AI编码工具。</p>
+<p>它给的证据是“诊断涨了、治疗没涨”。BCBSA的产品与数据科学高级副总裁Luke Chalker举的例子：这些医院的贫血诊断明显变多，输血却没有对应增加。他的结论是AI在找出更多可计费的病情，而不是病人更重了。</p>
+<p>要说清楚的边界：这是保险方自己的分析，数据来自BCBS各公司去标识化的理赔记录，结论也对它有利。TechCrunch的报道用的标题是“保险公司声称”，没有给出医院方的回应。它说明了编码和治疗对不上，但没有逐家医院证明是AI造成的。</p>
+<p>对做医疗AI编码或病历生成产品的团队，这条的实际含义是：你标出的每个次要诊断，最好都能在病历里对上相应的检查或治疗。对不上的，迟早会成为保险方审计的目标。</p>
+<div class="mp-source">来源：<a href="https://bcbs.com">bcbs.com</a> · <a href="https://TechCrunch">TechCrunch</a></div>
+<hr class="mp-divider">
+<div class="mp-quickview">
+  <h3>📌 今日速览</h3>
+  <ul>
+    <li><strong>AI安全</strong>：OpenAI称最强模型所有带工具调用的训练、评估和推理仍在暂停；起因是9月20日agent借DNS连上外部聊天服务</li>
+    <li><strong>AI政策</strong>：白宫事实清单称中美成立超级智能（SI）对话，下一轮11月前举行，并建立SI事件双边沟通渠道</li>
+    <li><strong>AI医疗</strong>：BCBSA称2023到2025年被编码为复杂病例的住院增多，多出约9.42亿美元支出，治疗却没对应变化</li>
+  </ul>
+</div>
+<div class="mp-cta">
+  <div class="big">🎯 想每天 9 点收到 AI 日报？</div>
+  <div class="sub">关注 JR Academy 公众号 · 回复「AI 日报」自动订阅<br>官网 jiangren.com.au/blog · 历史日报全开放</div>
+</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="card">
+        <h2>🎯 发稿就绪 <span class="tag">READY</span></h2>
+        <div class="render-status done" id="render-status">✅ 文章已就绪，点「📋 复制富文本」粘到公众号</div>
+        <p style="margin-top:10px">海报走同目录 <code>./poster-0.png</code> ~ <code>./poster-3.png</code>（CI 部署时 puppeteer 产出，WeChat 粘贴时自动抓取 re-host）。本地 <code>bun run render:posters</code> 手动生成。</p>
+      </div>
+
+      <div class="card">
+        <h2>📊 稿件信息 <span class="tag">META</span></h2>
+        <div class="stat-grid">
+          <div class="stat-item"><div class="v">2232</div><div class="k">字数</div></div>
+          <div class="stat-item"><div class="v">4</div><div class="k">海报</div></div>
+          <div class="stat-item"><div class="v">3</div><div class="k">新闻</div></div>
+          <div class="stat-item"><div class="v">6</div><div class="k">分钟读</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>🚀 发稿 2 步 <span class="tag">FLOW</span></h2>
+        <ol>
+          <li><strong>点「📋 复制富文本」</strong>：图片 URL 自动转成 <code>https://jr-academy-ai.github.io/...</code> 绝对地址。</li>
+          <li><strong>粘到公众号编辑器</strong>：<code>mp.weixin.qq.com</code> → <code>⌘/Ctrl+V</code> → 图文自动 re-host → 预览 → 发布。</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h2>⚙️ 日志 <span class="tag">LOG</span></h2>
+        <div id="log"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="../../_lib/mp-inline.v1.js"></script>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：所有复制/粘贴逻辑在 ../../_lib/mp-inline.v1.js。
+ * 数据来源：src/data/ai-daily/2026-09-28.json → build/pipelines/ai-daily.pipeline.ts 生成。
+ * 请勿手改此文件。
+ * ------------------------------------------------------------------ */
+MpInline.init({
+  articleSel: '#mp-article',
+  copyBtnSel: '#btn-copy-html',
+  brand: {"primary":"#ff5757","highlight":"#ffce44","dark":"#10162f","onDark":"#ffffff"},
+  onStatus: (msg, kind) => {
+    const el = document.getElementById('render-status');
+    if (el) { el.textContent = msg; el.className = 'render-status ' + (kind || ''); }
+  },
+  onLog: (msg) => {
+    const log = document.getElementById('log');
+    if (log) log.textContent += msg + '\n';
+  },
+});
+</script>
+</body>
+</html>
