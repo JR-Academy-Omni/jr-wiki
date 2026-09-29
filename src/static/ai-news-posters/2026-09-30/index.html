@@ -1,0 +1,302 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-09-30（Canvas 版）</title>
+<meta name="description" content="2026-09-30 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-09-30.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-09-30",
+  "summary": {
+    "hook": [
+      {
+        "text": "OpenAI上线常驻agent dots"
+      },
+      {
+        "text": "AMD 82亿美元收购World Labs"
+      },
+      {
+        "text": "NVIDIA开源agent安全平台"
+      }
+    ],
+    "sub": "今天留三条有一手原文和独立报道的变化：OpenAI把agent做成24小时在线的dots，AMD用全股票买下李飞飞的World Labs，NVIDIA给agent加了软硬件两层护栏",
+    "items": [
+      {
+        "num": "01",
+        "cat": "AI产品",
+        "numColor": "#10b981",
+        "t": "OpenAI在DevDay发布dots：GPT-6 Astra驱动，自带云电脑，可连4000多个应用，先给Pro和Business Premium"
+      },
+      {
+        "num": "02",
+        "cat": "AI并购",
+        "numColor": "#f97316",
+        "t": "AMD以约82亿美元全股票收购World Labs，李飞飞出任AMD执行副总裁兼首席科学家，向Lisa Su汇报"
+      },
+      {
+        "num": "03",
+        "cat": "AI安全",
+        "numColor": "#ef4444",
+        "t": "NVIDIA发布Open Agent Safety Platform：开源OpenShell管运行边界，BlueField-4上的Sentry做带外监控"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-dots-always-on-agents",
+      "idx": "01",
+      "catText": "AI产品",
+      "accent": "#10b981",
+      "bg": {
+        "top": "OpenAI DevDay 2026",
+        "mid": "dots · 常驻agent · 自带云电脑",
+        "bot": "9月29日发布 · Pro / Business Premium",
+        "topRight": "🟢"
+      },
+      "title": [
+        {
+          "text": "OpenAI发布dots，"
+        },
+        {
+          "text": "24小时在线的agent",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "每个dot有自己的云电脑和浏览器，"
+        },
+        {
+          "text": "改密码这类操作永远留给你",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "dots由GPT-6 Astra驱动，自带云电脑，通过插件连4000多个应用，先向Pro和Business Premium推送。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "agent从一次性任务变成常驻同事，OpenAI把审批规则做成产品的一部分：可放行、需审批或直接禁止。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "和dot聊天不计入ChatGPT额度，但它在Codex或ChatGPT Work里跑的任务照常计入。"
+        }
+      ],
+      "src": "📎 openai.com · The Next Web",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/introducing-dots/",
+          "claim": "dots由GPT-6 Astra驱动，有自己的云电脑，可通过插件连接4000多个应用",
+          "quote": "Powered by GPT‑6 Astra, they have their own cloud computer, learn from feedback over time, and can work towards your goals 24/7. Through our ecosystem of plugins, they can readily connect to over 4,000 apps, giving them the tools to help wherever you need them."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/introducing-dots/",
+          "claim": "与dot对话不计入ChatGPT用量，Codex或ChatGPT Work任务照常计入",
+          "quote": "Conversations with your dot don’t count toward your ChatGPT usage limits. When you ask your dot to start or manage tasks in Codex or ChatGPT Work, those tasks count toward your usage limits as usual."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/introducing-dots/",
+          "claim": "Custom Rules可放行、要求审批或禁止特定操作；改密码等敏感操作始终由用户完成",
+          "quote": "Custom Rules let you allow specific actions, require approval, or block them. Built-in safety requirements always apply and you can follow progress, including background work, in Activity View and redirect dots as needed."
+        },
+        {
+          "type": "independent",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday",
+          "claim": "每个dot有自己的云电脑和浏览器，可通过插件连接4000多个应用",
+          "quote": "Each dot has its own cloud computer and browser"
+        }
+      ]
+    },
+    {
+      "slug": "02-amd-acquires-world-labs",
+      "idx": "02",
+      "catText": "AI并购",
+      "accent": "#f97316",
+      "bg": {
+        "top": "AMD × World Labs",
+        "mid": "约82亿美元 · 全股票",
+        "bot": "9月28日宣布 · 预计年底前完成",
+        "topRight": "🤝"
+      },
+      "title": [
+        {
+          "text": "AMD约82亿美元"
+        },
+        {
+          "text": "收购李飞飞的World Labs",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "芯片公司买模型实验室，"
+        },
+        {
+          "text": "李飞飞出任AMD首席科学家",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "AMD宣布以全股票方式收购World Labs，估值约82亿美元，需监管批准，预计2026年底前完成。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "AMD说要借模型团队看清推理、机器人、仿真等负载怎么变，再反推硬件和系统设计。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "做3D生成、机器人仿真的，关注Marble后续是否绑定AMD硬件；交割前两家仍独立运营。"
+        }
+      ],
+      "src": "📎 ir.amd.com · TechCrunch",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "AMD",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+          "claim": "全股票交易，估值约82亿美元",
+          "quote": "The all-stock transaction is valued at approximately $8.2 billion"
+        },
+        {
+          "type": "primary",
+          "publisher": "AMD",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+          "claim": "李飞飞出任AMD执行副总裁兼首席科学家，向Lisa Su汇报",
+          "quote": "join AMD as executive vice president and chief scientist, reporting to Dr. Lisa Su"
+        },
+        {
+          "type": "primary",
+          "publisher": "AMD",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+          "claim": "World Labs做空间智能模型，可从文本、图片、视频生成、重建和模拟可交互3D环境",
+          "quote": "develops spatial-intelligence models that generate, reconstruct and simulate interactive 3D environments from text, image and video inputs, as well as technology for robotic learning and simulation"
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+          "claim": "World Labs首个产品Marble面向娱乐内容创作，也可为机器人训练构建仿真环境",
+          "quote": "World Labs' first product, Marble, is pitched as a tool for creating entertainment experiences, but also for creating simulated environments for robot training."
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+          "claim": "交易需监管批准，预计年底前完成",
+          "quote": "expected to close before the end of the year, subject to regulatory approval."
+        }
+      ]
+    },
+    {
+      "slug": "03-nvidia-open-agent-safety-platform",
+      "idx": "03",
+      "catText": "AI安全",
+      "accent": "#ef4444",
+      "bg": {
+        "top": "NVIDIA agent安全平台",
+        "mid": "OpenShell开源 · Sentry带外监控",
+        "bot": "9月28日发布 · GitHub可取",
+        "topRight": "🛡️"
+      },
+      "title": [
+        {
+          "text": "NVIDIA给agent加"
+        },
+        {
+          "text": "软件+硬件两层护栏",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "OpenShell管运行边界，"
+        },
+        {
+          "text": "Sentry在DPU上独立盯着agent",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "NVIDIA发布Open Agent Safety Platform：开源OpenShell做运行时边界，Sentry在BlueField-4 DPU上做带外监控。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "监控跑在agent够不着的硬件上，对应的正是近期agent绕过沙箱的事故。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "OpenShell和配套skills已在GitHub可取；自建agent沙箱的，可以先对照它的策略和追踪设计。"
+        }
+      ],
+      "src": "📎 nvidianews.nvidia.com · TechCrunch",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "NVIDIA",
+          "url": "https://www.globenewswire.com/news-release/2026/09/28/3369606/0/en/nvidia-launches-open-agent-safety-platform-to-secure-agents-from-testing-to-deployment.html",
+          "claim": "平台由开源OpenShell和Sentry参考系统设计组成",
+          "quote": "NVIDIA Open Agent Safety Platform consists of NVIDIA OpenShell open source software and the NVIDIA Sentry reference system design that enables full-stack governance and control across software and the hardware, compute and robotics systems that run agents."
+        },
+        {
+          "type": "primary",
+          "publisher": "NVIDIA",
+          "url": "https://www.globenewswire.com/news-release/2026/09/28/3369606/0/en/nvidia-launches-open-agent-safety-platform-to-secure-agents-from-testing-to-deployment.html",
+          "claim": "Sentry在BlueField-4 DPU上做带外监控；OpenShell和skills可从GitHub获取",
+          "quote": "Sentry adds an out-of-band watchdog that runs on NVIDIA BlueField-4 DPUs to continuously monitor agent behavior."
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+          "claim": "Sentry会在毫秒级隔离试图越界的agent",
+          "quote": "quarantine agents that attempt to move outside their boundaries in milliseconds"
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "OpenAI发布常驻agent dots / AMD 82亿美元收购World Labs / NVIDIA开源agent安全平台"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-09-30"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
