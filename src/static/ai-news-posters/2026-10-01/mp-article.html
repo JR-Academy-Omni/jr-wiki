@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 日报 2026-10-01 · 公众号文章（内部）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --mp-primary: #ff5757;
+  --mp-highlight: #ffce44;
+  --mp-dark: #10162f;
+}
+</style>
+<link rel="stylesheet" href="../../_lib/mp-page.v1.css">
+</head>
+<body>
+<div class="page">
+  <div class="topbar">
+    <div>
+      <h1>📰 AI 日报 · <span>公众号文章</span> · 2026-10-01</h1>
+      <div class="sub">左侧 375px 手机预览 · 右侧进度 + 操作。点「📋 复制富文本」后粘到公众号编辑器，图片自动抓取 re-host。</div>
+    </div>
+    <div class="acts">
+      <a class="btn" href="./">← 回海报库</a>
+      <button class="btn" id="btn-copy-html">📋 复制富文本</button>
+      <button class="btn primary" id="btn-download-all" disabled>⬇ 下载 4 张 PNG</button>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-bar">
+          <span><span class="dot"></span>mp.weixin.qq.com</span>
+          <span>375px · 预览</span>
+        </div>
+        <article class="mp" id="mp-article">
+<div class="mp-title">GPT-6.1 Sol价格砍到Astra五分之一 / Agents API公测 / OpenAI agent进驻AWS Bedrock</div>
+<div class="mp-meta">
+  <span class="author">JR Academy AI 日报</span>
+  <span>·</span><span>2026-10-01</span>
+  <span>·</span><span>阅读约 8 分钟</span>
+</div>
+<div class="mp-lead">2026-10-01 AI 日报，今日 3 条：GPT-6.1 Sol上线API：每百万token输入2美元、输出10美元，105万上下文，主打agent编程和电脑操作；Agents API公测：OpenAI托管会话、编排、上下文压缩和恢复，你只管工具和运行环境；AWS上线Bedrock Managed Agents预览：基于定制版Agents API，推理全在Bedrock，预览期不另收BMA费。</div>
+<img class="mp-img" src="./poster-0.png" alt="图 1 · 合集海报" data-poster="poster-0" data-file="mp-01-summary.png">
+<div class="mp-caption">图 1 · 合集海报</div>
+<hr class="mp-divider">
+<div class="mp-hook">01 · AI模型</div>
+<div class="mp-h2">GPT-6.1 Sol上线，价格是Astra的五分之一</div>
+<img class="mp-img" src="./poster-1.png" alt="图 2 · 海报 01" data-poster="poster-1" data-file="mp-02-01-gpt-6-1-sol-api.png">
+<div class="mp-caption">图 2 · 海报 01</div>
+<div class="mp-oneline"><strong>一句话</strong>：官方定位接近Astra的能力，<strong>每百万输出token 10美元</strong></div>
+<p>昨天的日报讲了dots，那是面向ChatGPT用户的产品。对开发者来说，DevDay上更实际的是这个模型。OpenAI对它的定位写在模型页第一句：以更低成本，在复杂编程、电脑操作和专业工作上做到“near-Astra performance”。开发者社区的官方汇总帖说得更直接：标准token价格是Astra的五分之一。BGR的独立报道也写的是“20% of Astra's token price”。</p>
+<p>我的看法：五分之一的价差足够让很多团队重新算账。现在跑GPT-6 Astra的代码审查、文档抽取这类批处理任务，成本大头在输出token。换到Sol后单价降下来，但“接近Astra”是OpenAI自己的基准结论，在你的任务上差多少，只能自己测。</p>
+<p>几个参数值得记一下：知识截止日期是2026年4月30日；reasoning effort有low、medium（默认）、high、xhigh、max五档。评测时建议固定同一档，只换模型，不然对比没意义。</p>
+<p>**实操建议**：从生产日志里抽50到100个真实请求，分别用Astra和6.1 Sol各跑一遍，同时记下通过率和单任务成本。通过率掉得不多，就先把批处理任务切过去；对延迟敏感、出错代价高的链路暂时别动。</p>
+<p>还没确定的：OpenAI在博客里列出的DeepSWE、GDP.pdf等基准成绩，我们这次没能直接打开原文逐条核对（openai.com返回403），所以本文不引用具体分数。</p>
+<div class="mp-source">来源：<a href="https://developers.openai.com">developers.openai.com</a> · <a href="https://BGR">BGR</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">02 · 开发者</div>
+<div class="mp-h2">Agents API公测，把Codex的agent底座开放出来</div>
+<img class="mp-img" src="./poster-2.png" alt="图 3 · 海报 02" data-poster="poster-2" data-file="mp-03-02-openai-agents-api-beta.png">
+<div class="mp-caption">图 3 · 海报 02</div>
+<div class="mp-oneline"><strong>一句话</strong>：会话、编排、压缩、恢复归OpenAI，<strong>工具和运行环境归你</strong></div>
+<p>做过长任务agent的人都知道，难点通常不在调模型。难的是跑到第40步时上下文爆了怎么压缩，进程挂了怎么从断点接着跑，多轮之间的状态存在哪。过去这些都得自己写，或者靠开源框架拼。Agents API把这层做成托管服务，用的是OpenAI自己在Codex里跑过的那套。</p>
+<p>执行环境有两种选择：OpenAI托管的沙箱，或者接你自己基础设施里的沙箱。agent在沙箱里可以执行代码、改文件、连MCP服务器、产出文件。The Next Web报道说，Agents API现在也支持电脑操作，agent可以在OpenAI托管的浏览器里操作软件，还带来了Codex里用的多agent工具、工具搜索和上下文压缩。</p>
+<p>计费没有单独的平台费。文档原文：模型按所选模型的API费率，OpenAI工具按标准费率，托管沙箱按标准容器费率。这意味着长会话的成本主要看token，自动压缩上下文能省多少，得实测。</p>
+<p>**实操建议**：请求头要带`OpenAI-Beta: agents=v1`，说明接口还在beta，字段可能会变。生产环境先用在内部工具上，别直接接给客户；同时把工具权限收窄，尤其是能写数据库、发外部消息的那几个。</p>
+<p>还没确定的：公测期的速率限制、正式版时间和SLA，文档里没有写明。</p>
+<div class="mp-source">来源：<a href="https://developers.openai.com">developers.openai.com</a> · <a href="https://The Next Web">The Next Web</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">03 · 云平台</div>
+<div class="mp-h2">OpenAI agent进驻AWS，推理全在Bedrock</div>
+<img class="mp-img" src="./poster-3.png" alt="图 4 · 海报 03" data-poster="poster-3" data-file="mp-04-03-bedrock-managed-agents-openai.png">
+<div class="mp-caption">图 4 · 海报 03</div>
+<div class="mp-oneline"><strong>一句话</strong>：基于定制版Agents API，<strong>预览期不另收BMA费用</strong></div>
+<p>这条和第2条是同一套底座的两个出口：想要最省事的，直接用OpenAI的Agents API；数据合规要求必须留在自己云账号里的，走Bedrock。</p>
+<p>对企业来说，关键是治理能力。AWS公告写明：每个agent有自己的IAM角色，关键操作前可以要求人工审批，支持的API活动会记进CloudTrail。审计团队最常问的“这个agent以谁的身份、做了什么”，这套设计能直接回答。</p>
+<p>价格方面，预览期除了agent消耗的底层AWS资源，不额外收BMA费用。区域目前是美国东部（弗吉尼亚北部、俄亥俄）和美国西部（俄勒冈）三个区域。</p>
+<p>**对澳洲读者**：悉尼区域不在预览名单里。数据必须留在澳洲境内的项目，现阶段还用不上。备考AWS认证、做云架构的同学，可以先读文档，了解IAM角色加CloudTrail这套agent治理思路。以后面试被问到“怎么审计AI agent”，这是一个现成的参考架构。</p>
+<p>还没确定的：正式版价格、上线时间和更多区域，公告都没有给出。</p>
+<div class="mp-source">来源：<a href="https://aws.amazon.com">aws.amazon.com</a> · <a href="https://The Next Web">The Next Web</a></div>
+<hr class="mp-divider">
+<div class="mp-quickview">
+  <h3>📌 今日速览</h3>
+  <ul>
+    <li><strong>AI模型</strong>：GPT-6.1 Sol上线API：每百万token输入2美元、输出10美元，105万上下文，主打agent编程和电脑操作</li>
+    <li><strong>开发者</strong>：Agents API公测：OpenAI托管会话、编排、上下文压缩和恢复，你只管工具和运行环境</li>
+    <li><strong>云平台</strong>：AWS上线Bedrock Managed Agents预览：基于定制版Agents API，推理全在Bedrock，预览期不另收BMA费</li>
+  </ul>
+</div>
+<div class="mp-cta">
+  <div class="big">🎯 想每天 9 点收到 AI 日报？</div>
+  <div class="sub">关注 JR Academy 公众号 · 回复「AI 日报」自动订阅<br>官网 jiangren.com.au/blog · 历史日报全开放</div>
+</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="card">
+        <h2>🎯 发稿就绪 <span class="tag">READY</span></h2>
+        <div class="render-status done" id="render-status">✅ 文章已就绪，点「📋 复制富文本」粘到公众号</div>
+        <p style="margin-top:10px">海报走同目录 <code>./poster-0.png</code> ~ <code>./poster-3.png</code>（CI 部署时 puppeteer 产出，WeChat 粘贴时自动抓取 re-host）。本地 <code>bun run render:posters</code> 手动生成。</p>
+      </div>
+
+      <div class="card">
+        <h2>📊 稿件信息 <span class="tag">META</span></h2>
+        <div class="stat-grid">
+          <div class="stat-item"><div class="v">2402</div><div class="k">字数</div></div>
+          <div class="stat-item"><div class="v">4</div><div class="k">海报</div></div>
+          <div class="stat-item"><div class="v">3</div><div class="k">新闻</div></div>
+          <div class="stat-item"><div class="v">6</div><div class="k">分钟读</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>🚀 发稿 2 步 <span class="tag">FLOW</span></h2>
+        <ol>
+          <li><strong>点「📋 复制富文本」</strong>：图片 URL 自动转成 <code>https://jr-academy-ai.github.io/...</code> 绝对地址。</li>
+          <li><strong>粘到公众号编辑器</strong>：<code>mp.weixin.qq.com</code> → <code>⌘/Ctrl+V</code> → 图文自动 re-host → 预览 → 发布。</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h2>⚙️ 日志 <span class="tag">LOG</span></h2>
+        <div id="log"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="../../_lib/mp-inline.v1.js"></script>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：所有复制/粘贴逻辑在 ../../_lib/mp-inline.v1.js。
+ * 数据来源：src/data/ai-daily/2026-10-01.json → build/pipelines/ai-daily.pipeline.ts 生成。
+ * 请勿手改此文件。
+ * ------------------------------------------------------------------ */
+MpInline.init({
+  articleSel: '#mp-article',
+  copyBtnSel: '#btn-copy-html',
+  brand: {"primary":"#ff5757","highlight":"#ffce44","dark":"#10162f","onDark":"#ffffff"},
+  onStatus: (msg, kind) => {
+    const el = document.getElementById('render-status');
+    if (el) { el.textContent = msg; el.className = 'render-status ' + (kind || ''); }
+  },
+  onLog: (msg) => {
+    const log = document.getElementById('log');
+    if (log) log.textContent += msg + '\n';
+  },
+});
+</script>
+</body>
+</html>

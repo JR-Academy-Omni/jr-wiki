@@ -1,0 +1,288 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-10-01（Canvas 版）</title>
+<meta name="description" content="2026-10-01 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-10-01.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-10-01",
+  "summary": {
+    "hook": [
+      {
+        "text": "GPT-6.1 Sol价格只有Astra五分之一"
+      },
+      {
+        "text": "Agents API开放公测"
+      },
+      {
+        "text": "OpenAI agent进驻AWS Bedrock"
+      }
+    ],
+    "sub": "今天三条都来自OpenAI DevDay，全部核对过官方文档和独立报道：更便宜的主力模型、托管式agent接口，以及让数据留在AWS里的Bedrock Managed Agents",
+    "items": [
+      {
+        "num": "01",
+        "cat": "AI模型",
+        "numColor": "#10b981",
+        "t": "GPT-6.1 Sol上线API：每百万token输入2美元、输出10美元，105万上下文，主打agent编程和电脑操作"
+      },
+      {
+        "num": "02",
+        "cat": "开发者",
+        "numColor": "#3b82f6",
+        "t": "Agents API公测：OpenAI托管会话、编排、上下文压缩和恢复，你只管工具和运行环境"
+      },
+      {
+        "num": "03",
+        "cat": "云平台",
+        "numColor": "#f97316",
+        "t": "AWS上线Bedrock Managed Agents预览：基于定制版Agents API，推理全在Bedrock，预览期不另收BMA费"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt-6-1-sol-api",
+      "idx": "01",
+      "catText": "AI模型",
+      "accent": "#10b981",
+      "bg": {
+        "top": "OpenAI DevDay 2026",
+        "mid": "GPT-6.1 Sol · $2 / $10",
+        "bot": "9月29日发布 · API可用",
+        "topRight": "☀️"
+      },
+      "title": [
+        {
+          "text": "GPT-6.1 Sol上线，"
+        },
+        {
+          "text": "价格是Astra的五分之一",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "官方定位接近Astra的能力，"
+        },
+        {
+          "text": "每百万输出token 10美元",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "GPT-6.1 Sol进入API：输入2美元、缓存输入0.1美元、输出10美元（每百万token），上下文105万token。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "OpenAI说它在agent编程、电脑操作和专业文档上接近GPT-6 Astra，而标准价格只有Astra的五分之一。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "在跑Astra的编程或文档流水线，值得拿自己的任务集对比一轮，官方基准不能替你的数据说话。"
+        }
+      ],
+      "src": "📎 developers.openai.com · BGR",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "OpenAI API Docs",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+          "claim": "GPT-6.1 Sol以更低成本提供接近Astra的表现，面向复杂编程、电脑操作和专业工作",
+          "quote": "GPT-6.1 Sol delivers near-Astra performance at a lower cost for complex coding, computer use, and professional work."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI Developer Community",
+          "url": "https://community.openai.com/t/devday-2026-announcements-and-developer-resources/1402006",
+          "claim": "标准token价格为Astra的五分之一",
+          "quote": "improves coding and computer use, with standard token prices at one-fifth of Astra's"
+        },
+        {
+          "type": "independent",
+          "publisher": "BGR",
+          "url": "https://www.bgr.com/2272332/openai-devday-2026-announcements/",
+          "claim": "GPT-6.1 Sol接近Astra水平，token价格为Astra的20%",
+          "quote": "gets close to Astra-level intelligence while only using 20% of Astra's token price."
+        }
+      ]
+    },
+    {
+      "slug": "02-openai-agents-api-beta",
+      "idx": "02",
+      "catText": "开发者",
+      "accent": "#3b82f6",
+      "bg": {
+        "top": "OpenAI Agents API",
+        "mid": "Codex harness · 托管会话",
+        "bot": "9月29日公测 · 按模型费率计费",
+        "topRight": "🧩"
+      },
+      "title": [
+        {
+          "text": "Agents API公测，"
+        },
+        {
+          "text": "把Codex的agent底座开放出来",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "会话、编排、压缩、恢复归OpenAI，"
+        },
+        {
+          "text": "工具和运行环境归你",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Agents API进入公测，应用通过OpenAI托管的API调用Codex harness，可在OpenAI沙箱或自己的环境里跑。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "长任务agent最难的是会话持久化、上下文压缩和断点恢复，这些现在由OpenAI托管。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "没有单独的平台费：模型按所选模型API价，托管沙箱按标准容器价，先估算长会话的token成本。"
+        }
+      ],
+      "src": "📎 developers.openai.com · The Next Web",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "OpenAI API Docs",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "claim": "Agents API通过OpenAI托管API提供Codex harness",
+          "quote": "The Agents API gives your application access to the Codex harness through an OpenAI-managed API."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI API Docs",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "claim": "OpenAI管理会话、编排、上下文压缩和恢复，应用负责工具和执行环境",
+          "quote": "OpenAI manages sessions, orchestration, context compaction, and recovery while your application provides tools and chooses its execution environment."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI API Docs",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "claim": "模型按所选模型API费率计费，托管沙箱按标准容器费率",
+          "quote": "Model usage is billed at the selected model's API rates. OpenAI tools use their standard rates, and OpenAI-hosted sandboxes use standard container rates."
+        },
+        {
+          "type": "independent",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-bedrock-managed-agents-aws-devday",
+          "claim": "Agents API现支持电脑操作，可在OpenAI托管的浏览器里操作软件",
+          "quote": "The Agents API that Bedrock Managed Agents builds on now supports computer use"
+        }
+      ]
+    },
+    {
+      "slug": "03-bedrock-managed-agents-openai",
+      "idx": "03",
+      "catText": "云平台",
+      "accent": "#f97316",
+      "bg": {
+        "top": "AWS × OpenAI",
+        "mid": "Bedrock Managed Agents 预览",
+        "bot": "9月29日发布 · 美国3个区域",
+        "topRight": "☁️"
+      },
+      "title": [
+        {
+          "text": "OpenAI agent进驻AWS，"
+        },
+        {
+          "text": "推理全在Bedrock",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "基于定制版Agents API，"
+        },
+        {
+          "text": "预览期不另收BMA费用",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "AWS发布Bedrock Managed Agents预览，由AWS和OpenAI基于定制版Agents API共同打造，AWS原生运行。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "对数据不能出AWS的企业，这是在自己云账号里跑OpenAI agent的官方路径，每个agent有独立IAM角色。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "目前只在美东和美西区域，澳洲悉尼区域未列出；做AWS认证或云架构的同学可以先看文档。"
+        }
+      ],
+      "src": "📎 aws.amazon.com · The Next Web",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
+          "claim": "BMA基于为AWS原生定制的OpenAI Agents API",
+          "quote": "Bedrock Managed Agents (BMA) is built on a customized version of OpenAI's Agents API engineered to be AWS-native"
+        },
+        {
+          "type": "primary",
+          "publisher": "AWS What's New",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/",
+          "claim": "预览期除agent消耗的AWS资源外不另收BMA费用",
+          "quote": "During preview, there is no additional charge for BMA beyond the underlying AWS resources your agents consume."
+        },
+        {
+          "type": "independent",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-bedrock-managed-agents-aws-devday",
+          "claim": "所有推理在Amazon Bedrock上运行，客户数据不离开AWS",
+          "quote": "All inference runs on Amazon Bedrock, and customer data never leaves AWS."
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "GPT-6.1 Sol价格砍到Astra五分之一 / Agents API公测 / OpenAI agent进驻AWS Bedrock"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-10-01"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
