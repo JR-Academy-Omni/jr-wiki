@@ -1,0 +1,330 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-10-02（Canvas 版）</title>
+<meta name="description" content="2026-10-02 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-10-02.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-10-02",
+  "summary": {
+    "hook": [
+      {
+        "text": "加州禁止AI单独决定解雇"
+      },
+      {
+        "text": "Gemini 4 Argon首批只给网络防御者"
+      },
+      {
+        "text": "加州检察长传唤OpenAI"
+      },
+      {
+        "text": "出版商起诉Google AI摘要遇挫"
+      }
+    ],
+    "sub": "今天四条都发生了可核实的变化：AI进入雇佣决定的法律边界、Google新模型的受限发布、监管机构对OpenAI安全事件的正式调查，以及出版商挑战AI搜索的一条诉讼路径被法院驳回",
+    "items": [
+      {
+        "num": "01",
+        "cat": "职场政策",
+        "numColor": "#f97316",
+        "t": "加州签署AI职场保护法：纪律处分和解雇不能只靠自动化系统，AI导致大规模裁员时要书面披露"
+      },
+      {
+        "num": "02",
+        "cat": "AI模型",
+        "numColor": "#3b82f6",
+        "t": "Google发布Gemini 4 Argon：输出上限从64K升至100万token，首批仅向可信网络防御者开放"
+      },
+      {
+        "num": "03",
+        "cat": "AI安全",
+        "numColor": "#ef4444",
+        "t": "加州检察长向OpenAI发出调查传票，追问模型与网络安全事件及风险"
+      },
+      {
+        "num": "04",
+        "cat": "搜索与媒体",
+        "numColor": "#8b5cf6",
+        "t": "美国联邦法院驳回Chegg和Penske针对Google AI搜索的部分反垄断诉求，争议并未被全面终结"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-california-ai-worker-protections",
+      "idx": "01",
+      "catText": "职场政策",
+      "accent": "#f97316",
+      "bg": {
+        "top": "California AI workplace laws",
+        "mid": "Human review required",
+        "bot": "9月30日签署",
+        "topRight": "👥"
+      },
+      "title": [
+        {
+          "text": "加州禁止AI，"
+        },
+        {
+          "text": "单独决定解雇员工",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "自动化系统可以辅助，"
+        },
+        {
+          "text": "最终处分必须有人审",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "加州签署一组AI职场保护法：雇主不能只依赖AI作出纪律处分或解雇决定，AI导致大规模裁员时要向员工发书面通知。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "法律把‘human in the loop’从产品口号变成具体雇佣义务，也限制用生物识别数据推断员工情绪。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "澳洲法律没有因此改变，但在采购招聘、绩效和排班系统时，应要求供应商说明人工复核、申诉和审计记录。"
+        }
+      ],
+      "src": "📎 California Governor · AP",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Office of Governor Gavin Newsom",
+          "url": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/",
+          "claim": "新法禁止雇主只依赖AI作出纪律处分或解雇决定",
+          "quote": "prohibiting employers from only relying on AI when making a disciplinary action or termination decision"
+        },
+        {
+          "type": "independent",
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/newsom-california-trump-ai-journalism-bills-1aa4935e3ee79519ae8b2458b2b9ebc1",
+          "claim": "法律同时涉及情绪推断、AI导致的大规模裁员通知和解雇决定",
+          "quote": "ban employers from relying on AI to decide to fire someone"
+        }
+      ]
+    },
+    {
+      "slug": "02-gemini-4-argon-restricted-rollout",
+      "idx": "02",
+      "catText": "AI模型",
+      "accent": "#3b82f6",
+      "bg": {
+        "top": "Google Gemini 4 Argon",
+        "mid": "1M output tokens",
+        "bot": "首批受限发布",
+        "topRight": "🛡️"
+      },
+      "title": [
+        {
+          "text": "Gemini 4 Argon发布，"
+        },
+        {
+          "text": "普通开发者暂时用不到",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "输出上限升到100万token，"
+        },
+        {
+          "text": "先给可信网络防御者",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google公布Gemini 4 Argon，把输出token上限从64K提高到100万；首批通过Fairwind Program向可信网络防御者开放。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Google把更长的agent执行能力和更强的网络安全能力一起发布，也同时收紧了首轮访问范围。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "不要按发布会参数安排近期上线。先记录目标任务和评测集，等公开访问、价格和配额明确后再做迁移决定。"
+        }
+      ],
+      "src": "📎 Google · Axios",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "claim": "Gemini 4 Argon的输出token上限从64K扩大到100万",
+          "quote": "expanding the model's output token limit to an industry-leading 1M tokens, up from the previous 64K tokens"
+        },
+        {
+          "type": "independent",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/09/30/google-gemini-4",
+          "claim": "首轮仅向可信网络安全防御者开放，并参加美国政府的自愿预发布流程",
+          "quote": "rolling the model out only to a group of trusted cybersecurity defenders"
+        }
+      ]
+    },
+    {
+      "slug": "03-california-openai-subpoena",
+      "idx": "03",
+      "catText": "AI安全",
+      "accent": "#ef4444",
+      "bg": {
+        "top": "California DOJ",
+        "mid": "Investigative subpoena",
+        "bot": "10月1日公布",
+        "topRight": "⚖️"
+      },
+      "title": [
+        {
+          "text": "加州检察长传唤OpenAI，"
+        },
+        {
+          "text": "调查模型网络安全风险",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "从公开质询升级为，"
+        },
+        {
+          "text": "正式调查取证",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "加州司法部向OpenAI发出调查传票，要求进一步回答与公司、模型相关的网络安全事件和风险。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "调查传票可以要求企业交出信息，但它不是违法认定；目前能确认的是调查升级，不能把它写成定罪。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "企业部署agent时要保留工具调用、权限变更、异常输出和人工接管日志，否则发生事故后很难回答监管和客户追问。"
+        }
+      ],
+      "src": "📎 California DOJ · Reuters",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "California Department of Justice",
+          "url": "https://www.oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena",
+          "claim": "加州检察长要求OpenAI回答更多有关网络安全事件与风险的问题",
+          "quote": "asking OpenAI additional questions regarding cybersecurity incidents and risks involving the company and its AI models"
+        },
+        {
+          "type": "independent",
+          "publisher": "Reuters via The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/oct/01/california-opens-investigation-openai-hack",
+          "claim": "调查传票属于对AI模型潜在网络安全漏洞与事件的更广泛调查",
+          "quote": "starting an investigation into the startup as part of a broader inquiry into potential cybersecurity vulnerabilities"
+        }
+      ]
+    },
+    {
+      "slug": "04-google-ai-overviews-antitrust-dismissal",
+      "idx": "04",
+      "catText": "搜索与媒体",
+      "accent": "#8b5cf6",
+      "bg": {
+        "top": "US District Court",
+        "mid": "AI Overviews lawsuits",
+        "bot": "部分诉求被驳回",
+        "topRight": "📰"
+      },
+      "title": [
+        {
+          "text": "出版商挑战Google AI摘要，"
+        },
+        {
+          "text": "一条反垄断路径遇挫",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "法院认为原告没有充分证明，"
+        },
+        {
+          "text": "搜索市场的反垄断损害",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "美国联邦法官驳回Chegg和Penske诉讼中的相关反垄断请求，理由是原告没有充分陈述一般搜索服务市场的反垄断诉讼资格。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这不是法院认定AI摘要没有伤害媒体，而是认为现有起诉理由没有满足这条反垄断路径的门槛。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "依赖搜索流量的媒体和内容团队不能把恢复流量押在单一诉讼上；需要继续区分索引、AI引用、品牌直接访问和订阅转化。"
+        }
+      ],
+      "src": "📎 U.S. District Court · Ars Technica",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "U.S. District Court for the District of Columbia",
+          "url": "https://law.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1%3A2025cv03192/284823/32/",
+          "claim": "法院因原告未充分陈述一般搜索服务市场的反垄断诉讼资格而驳回相关请求",
+          "quote": "Plaintiffs have not pleaded sufficient facts to establish antitrust standing in the general search services market"
+        },
+        {
+          "type": "independent",
+          "publisher": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+          "claim": "Chegg和Penske针对Google AI搜索的诉讼被联邦法官驳回",
+          "quote": "a US federal judge has dismissed lawsuits filed by Chegg and Penske Media against Google"
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "加州禁止AI单独解雇 / Gemini 4 Argon受限发布 / OpenAI遭调查传票 / 出版商挑战AI搜索遇挫"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-10-02"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
