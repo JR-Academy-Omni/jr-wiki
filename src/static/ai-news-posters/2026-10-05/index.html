@@ -1,0 +1,260 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-10-05（Canvas 版）</title>
+<meta name="description" content="2026-10-05 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-10-05.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-10-05",
+  "summary": {
+    "hook": [
+      {
+        "text": "OpenAI安全报告负责人辞职"
+      },
+      {
+        "text": "Meta用普通聊天版Muse Spark解出5道数学开放问题"
+      },
+      {
+        "text": "Mythos挖出的HFS漏洞一天内被利用"
+      }
+    ],
+    "sub": "三条都在问同一个问题：模型能力涨得这么快，安全流程、研究方法和补丁节奏跟得上吗",
+    "items": [
+      {
+        "num": "01",
+        "cat": "AI安全",
+        "numColor": "#ef4444",
+        "t": "David Robinson离开OpenAI，在The Atlantic发文称公司文化已坏，试错式发布该结束了"
+      },
+      {
+        "num": "02",
+        "cat": "AI科研",
+        "numColor": "#8b5cf6",
+        "t": "Meta公开6篇与数学家合写的论文，5篇回答此前未解问题，用的是普通meta.ai聊天界面"
+      },
+      {
+        "num": "03",
+        "cat": "网络安全",
+        "numColor": "#3b82f6",
+        "t": "Horizon3用Mythos发现Rejetto HFS认证绕过漏洞，公开次日VulnCheck就监测到在野利用"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-david-robinson-resigns",
+      "idx": "01",
+      "catText": "AI安全",
+      "accent": "#ef4444",
+      "bg": {
+        "top": "OpenAI Safety",
+        "mid": "12 frontier-model launches",
+        "bot": "10月3日 The Atlantic",
+        "topRight": "⚠️"
+      },
+      "title": [
+        {
+          "text": "OpenAI安全报告负责人辞职："
+        },
+        {
+          "text": "试错的时代该结束了",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "写过12次前沿模型安全报告的人，"
+        },
+        {
+          "text": "公开说公司不够谨慎",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "David Robinson在OpenAI工作三年半，参与起草preparedness framework，离职后在The Atlantic发文批评公司文化。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "他批评的是OpenAI的iterative deployment：先发布、出问题再补防护。他认为模型越强，这种做法代价越大。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "企业采购大模型时，别只看benchmark，也要看厂商的安全报告、暂停机制和事故披露记录。"
+        }
+      ],
+      "src": "📎 The Atlantic · Calcalist",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "David Robinson, The Atlantic",
+          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+          "claim": "Robinson认为OpenAI在连续发布中没有做到足够谨慎",
+          "quote": "As the company sprints from one launch to the next, it is failing to achieve the level of care that I believe is needed."
+        },
+        {
+          "type": "independent",
+          "publisher": "Calcalist",
+          "url": "https://www.calcalistech.com/ctechnews/article/zienaylz5",
+          "claim": "OpenAI回应称会在必要时暂停训练或推迟模型",
+          "quote": "We're making sure our models don't become more capable than we can safely manage and secure, and we pause training or hold back models when we need to slow down."
+        }
+      ]
+    },
+    {
+      "slug": "02-meta-muse-spark-math-papers",
+      "idx": "02",
+      "catText": "AI科研",
+      "accent": "#8b5cf6",
+      "bg": {
+        "top": "Meta Muse Spark",
+        "mid": "6 papers · 5 open problems",
+        "bot": "10月2日公布",
+        "topRight": "∑"
+      },
+      "title": [
+        {
+          "text": "Meta用聊天版Muse Spark，"
+        },
+        {
+          "text": "解出5道数学开放问题",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "没有定制科研框架，"
+        },
+        {
+          "text": "就是普通meta.ai聊天界面",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Meta公开6篇数学家与Muse Spark 1.1和1.2合作的论文，其中5篇回答此前未解的研究问题。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "数学家选题、引导和修正，另一组数学家复核；每篇论文标出哪些段落主要由AI起草。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "做研究或写技术方案时，可以学它的分工：人定问题和验收，AI负责探索路径、写搜索代码。"
+        }
+      ],
+      "src": "📎 Meta AI Research · RuntimeWire",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Meta AI Research",
+          "url": "https://research.meta.ai/blog/solving-open-research-problems-together",
+          "claim": "6篇论文中5篇回答此前未解的问题，使用普通meta.ai聊天界面",
+          "quote": "They used both Muse Spark 1.1 and 1.2 in Thinking Mode through the regular meta.ai chat interface, with no custom research scaffold."
+        },
+        {
+          "type": "independent",
+          "publisher": "RuntimeWire",
+          "url": "https://runtimewire.com/article/meta-muse-spark-six-mathematics-research-papers",
+          "claim": "其他团队独立宣布解决了其中部分问题",
+          "quote": "Other teams independently announced solutions to some of the same problems, using different approaches"
+        }
+      ]
+    },
+    {
+      "slug": "03-mythos-rejetto-hfs-exploited",
+      "idx": "03",
+      "catText": "网络安全",
+      "accent": "#3b82f6",
+      "bg": {
+        "top": "CVE-2026-61500",
+        "mid": "Rejetto HFS · Math.random()",
+        "bot": "公开次日在野利用",
+        "topRight": "🛡️"
+      },
+      "title": [
+        {
+          "text": "Mythos挖出的HFS漏洞，"
+        },
+        {
+          "text": "公开第二天就被利用",
+          "hl": true
+        }
+      ],
+      "oneline": [
+        {
+          "text": "AI找漏洞变快了，"
+        },
+        {
+          "text": "攻击者跟进也变快了",
+          "bold": true
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Horizon3用Anthropic的Mythos发现Rejetto HFS会话签名漏洞，可伪造管理员会话；周三公开，周四晚就被检测到攻击。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Mythos把不安全的Math.random()和另一处随机数泄露串成了完整攻击链，这是单点扫描工具很难做到的。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "在用HFS的立即升级到3.2.1或更高版本；团队的补丁窗口要按天算，不能再按周排期。"
+        }
+      ],
+      "src": "📎 Horizon3.ai · The Register",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Horizon3.ai",
+          "url": "https://horizon3.ai/attack-research/disclosures/anthropic-mythos-rejetto-hfs-rce/",
+          "claim": "Mythos驱动的密码分析agent发现了认证cookie生成方式的漏洞链",
+          "quote": "identified a chain of issues related to how authentication cookies are generated"
+        },
+        {
+          "type": "independent",
+          "publisher": "The Register",
+          "url": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+          "claim": "VulnCheck在漏洞公开后检测到在野利用",
+          "quote": "We started detecting exploitation of CVE-2026-61500 in Rejetto HFS this evening."
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "OpenAI安全报告负责人辞职 / Meta聊天版Muse Spark解出5道数学开放问题 / Mythos挖出的HFS漏洞一天内被利用"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-10-05"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
