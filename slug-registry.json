@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-09-25T00:45:28.000Z",
+  "lockedAt": "2026-10-07T00:05:44.611Z",
   "version": 1,
   "slugs": [
     {
@@ -336,6 +336,34 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-09-28"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-09-30"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-01"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-02"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-05"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-06"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-07"
+    },
+    {
+      "type": "article",
       "slug": "ai-engineer-resume-projects"
     },
     {
@@ -433,6 +461,10 @@
     {
       "type": "article",
       "slug": "claude-opus-4-7-upgrade-guide"
+    },
+    {
+      "type": "article",
+      "slug": "coalition-migration-plan-graduate-visas-2026"
     },
     {
       "type": "article",
