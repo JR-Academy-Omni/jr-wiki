@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-07T00:05:44.611Z",
+  "lockedAt": "2026-10-08T00:03:28.982Z",
   "version": 1,
   "slugs": [
     {
@@ -909,6 +909,10 @@
     {
       "type": "article",
       "slug": "test-sync-pipeline-2026-04-18"
+    },
+    {
+      "type": "article",
+      "slug": "twelve-apostles-booking-visitor-centre-2026"
     },
     {
       "type": "article",
