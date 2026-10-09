@@ -1,0 +1,377 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-10-09（Canvas 版）</title>
+<meta name="description" content="2026-10-09 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-10-09.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-10-09",
+  "summary": {
+    "hook": [
+      {
+        "text": "Google推出Gemini agent，企业员工多了个AI同事账号"
+      },
+      {
+        "text": "Anthropic改使用政策，11月12日生效"
+      },
+      {
+        "text": "OpenAI公开719份数学稿件，验证仍未补齐"
+      }
+    ],
+    "sub": "代理拿到独立身份；政策把选举、武器软件和监控写得更细；数学成果要看形式化进度。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "企业代理",
+        "numColor": "#3b82f6",
+        "t": "Google推出Gemini agent，企业员工多了个AI同事账号"
+      },
+      {
+        "num": "02",
+        "cat": "使用政策",
+        "numColor": "#8b5cf6",
+        "t": "Anthropic改使用政策，11月12日生效"
+      },
+      {
+        "num": "03",
+        "cat": "AI数学",
+        "numColor": "#ef4444",
+        "t": "OpenAI公开719份数学稿件，验证仍未补齐"
+      }
+    ],
+    "slug": "2026-10-09-summary",
+    "rankingLabel": "3 条已核实变化。",
+    "heroTokens": [
+      {
+        "text": "10月9日\nAI 产品与政策\n"
+      },
+      {
+        "text": "3 条变化",
+        "hl": true
+      },
+      {
+        "text": "。"
+      }
+    ],
+    "subtitle": "AGENT · POLICY · VERIFICATION",
+    "leadLabel": "企业代理：独立身份与审计"
+  },
+  "news": [
+    {
+      "slug": "01-gemini-agent-work",
+      "idx": "01",
+      "catText": "企业代理",
+      "accent": "#3b82f6",
+      "bg": {
+        "top": "企业代理",
+        "mid": "Gemini agent",
+        "bot": "2026.10.09",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Google推出Gemini agent，企业员工多了个AI同事账号"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "代理有自己的Workspace账号和邮箱，可接MCP服务器。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Google宣布面向工作的通用Gemini agent。"
+        },
+        {
+          "k": "身份设计",
+          "v": "代理拿到独立Workspace账号、邮箱、日历和Drive。"
+        },
+        {
+          "k": "成本控制",
+          "v": "可在Cloud Billing设硬性花费上限，触发后代理暂停。"
+        }
+      ],
+      "src": "Google Cloud · TechCrunch",
+      "sourceQuote": "The agent receives its own Workspace account, including an email address, calendar, Drive, and presence in your company directory.",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "claim": "Google发布面向工作的通用Gemini agent。",
+          "quote": "today we are excited to announce the Gemini agent: your new single, universal agent for work."
+        },
+        {
+          "type": "primary",
+          "publisher": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "claim": "代理拥有独立Workspace账号。",
+          "quote": "The agent receives its own Workspace account, including an email address, calendar, Drive, and presence in your company directory."
+        },
+        {
+          "type": "primary",
+          "publisher": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "claim": "可设置项目级硬性花费上限。",
+          "quote": "Real-time spend caps: You can set a hard limit on a project's AI spend in the Cloud Billing Console, and Gemini enforces it."
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+          "claim": "先面向企业，之后再推向个人用户。",
+          "quote": "Google will initially focus on bringing the agent to businesses before later rolling it out to consumers."
+        },
+        {
+          "type": "primary",
+          "publisher": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "claim": "操作归于代理名下",
+          "quote": "In addition, every action Gemini takes is written to an audit trail and attributed to the agent rather than to a person."
+        },
+        {
+          "type": "primary",
+          "publisher": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "claim": "同事代理只见分享内容",
+          "quote": "A coworker agent acts under its own identity rather than yours, and it sees only what you share with it."
+        },
+        {
+          "type": "primary",
+          "publisher": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "claim": "花费上限触发暂停",
+          "quote": "Gemini monitors token usage and sandbox costs, and if a spend cap is triggered, that project's agent pauses, and you can choose to resume work with a single click in the console."
+        }
+      ],
+      "mp": {
+        "sourceHtml": "来源：<a href=\"https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026\">Google Cloud</a> · <a href=\"https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/\">TechCrunch</a>"
+      }
+    },
+    {
+      "slug": "02-anthropic-usage-policy",
+      "idx": "02",
+      "catText": "使用政策",
+      "accent": "#8b5cf6",
+      "bg": {
+        "top": "使用政策",
+        "mid": "Usage Policy",
+        "bot": "2026.10.09",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Anthropic改使用政策，11月12日生效"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "选举、虚假账号、武器软件和监控条款都写得更具体。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "选举条款改名为Do Not Undermine Democratic Processes。"
+        },
+        {
+          "k": "规则澄清",
+          "v": "武器软件、未经同意追踪和监控条款写得更明确，相关限制此前已执行。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "做营销自动化或数据抓取的团队，11月12日前对照条款自查。"
+        }
+      ],
+      "src": "Anthropic · TechCrunch",
+      "sourceQuote": "The updated policy takes effect on November 12.",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "claim": "新政策11月12日生效。",
+          "quote": "The updated policy takes effect on November 12."
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "claim": "禁止用虚假账号隐藏发布者或放大内容。",
+          "quote": "efforts to obscure who is behind a message or amplify content through fake accounts or posts"
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "claim": "禁止开发或改进监控工具。",
+          "quote": "We also prohibit Claude from being used to build or improve tools designed for surveillance."
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "claim": "新增禁止对模型持续、无必要的辱骂。",
+          "quote": "We’ve added a prohibition on sustained and needless abusive or cruel behavior toward our models."
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+          "claim": "独立报道确认辱骂条款不覆盖普通抱怨、反驳、黑暗题材和模型测试。",
+          "quote": "It does not apply to common versions of user frustration, pushback, dark creative themes, or model testing and research."
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "claim": "武器软件范围",
+          "quote": "the software and components that make weapons work"
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+          "claim": "辱骂条款的测试例外",
+          "quote": "It does not apply to common versions of user frustration, pushback, dark creative themes, or model testing and research."
+        }
+      ],
+      "mp": {
+        "sourceHtml": "来源：<a href=\"https://www.anthropic.com/news/2026-usage-policy-update\">Anthropic</a> · <a href=\"https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/\">TechCrunch</a>"
+      }
+    },
+    {
+      "slug": "03-openai-math-manuscripts",
+      "idx": "03",
+      "catText": "AI数学",
+      "accent": "#ef4444",
+      "bg": {
+        "top": "AI数学",
+        "mid": "719 Manuscripts",
+        "bot": "2026.10.09",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "OpenAI公开719份数学稿件，验证仍未补齐"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "约42%的主要结果有Lean形式化，其余仍待核对。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "GitHub公开719份由内部模型产出的数学稿件。"
+        },
+        {
+          "k": "验证缺口",
+          "v": "OpenAI自己写明约42%主要结果已形式化，部分可能有问题。"
+        },
+        {
+          "k": "争议",
+          "v": "数学界准则要求公开思维链和元数据，TechCrunch称仅10份附了思维链。"
+        }
+      ],
+      "src": "OpenAI GitHub · AGMAI · TechCrunch",
+      "sourceQuote": "The current catalogue contains 719 manuscripts organized into 372 families.",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "OpenAI (GitHub)",
+          "url": "https://github.com/openai/math",
+          "claim": "共719份稿件，分372组。",
+          "quote": "The current catalogue contains 719 manuscripts organized into 372 families."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI (GitHub)",
+          "url": "https://github.com/openai/math",
+          "claim": "约42%主要结果已形式化，未形式化部分可能有问题。",
+          "quote": "The repository has ~42% top-line results formalized."
+        },
+        {
+          "type": "primary",
+          "publisher": "AGMAI",
+          "url": "https://agmai.org/general-sep29/",
+          "claim": "准则要求公开模型名、提示词和思维链摘要。",
+          "quote": "the AI lab should make public the name of the model, the prompts used, a (summarized) chain of thought"
+        },
+        {
+          "type": "primary",
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/2610.08144",
+          "claim": "有论文指出Navier-Stokes结果的Lean证明与自然语言证明不对应。",
+          "quote": "the formalised Lean proof does not correspond to the NL proof"
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+          "claim": "仅10份稿件附带思维链。",
+          "quote": "Just 10 of the 719 manuscripts included releases of the model’s chain of thought."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI (GitHub)",
+          "url": "https://github.com/openai/math",
+          "claim": "未形式化结果可能有问题",
+          "quote": "Some of the unformalized results could have issues."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI (GitHub)",
+          "url": "https://github.com/openai/math",
+          "claim": "约4000问题",
+          "quote": "Over the course of the evaluation, the model was posed approximately 4,000 problems."
+        }
+      ],
+      "mp": {
+        "sourceHtml": "来源：<a href=\"https://github.com/openai/math\">OpenAI (GitHub)</a> · <a href=\"https://agmai.org/general-sep29/\">AGMAI</a> · <a href=\"https://arxiv.org/abs/2610.08144\">arXiv</a> · <a href=\"https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/\">TechCrunch</a>"
+      }
+    }
+  ],
+  "mp": {
+    "title": "Gemini agent拿到同事账号 / Anthropic使用政策11月生效 / OpenAI数学稿件待验证",
+    "cta": {
+      "big": "查看原始记录",
+      "sub": "本文各节末尾保留一手资料与独立报道链接；产品可用性和政策要求以对应原文为准。"
+    },
+    "meta": {
+      "author": "JR Academy",
+      "readTime": "7 分钟"
+    }
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-10-09"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>

@@ -670,7 +670,7 @@
     ctx.fillStyle = '#10131f';
     ctx.fillText('今日 AI 日历 · HIGHLIGHT', CX + 28, y + 44);
     ctx.font = `900 40px ${FF_CN}`;
-    ctx.fillText(`${itemCount} 条新闻，按影响力排序。`, CX + 28, y + 92);
+    ctx.fillText(s.rankingLabel || `${itemCount} 条新闻，按影响力排序。`, CX + 28, y + 92);
 
     drawSharpBox(ctx, W - 470, y, 398, 118, '#f7f3ea', '#10131f', 0);
     ctx.font = `900 24px ${FF_CN}`;
@@ -686,7 +686,7 @@
     const titleSpec = (s, w) => `${w || 900} ${s}px ${FF_CN}`;
     const m = DATE.match(/^(\d{4})-(\d{2})-(\d{2})$/);
     const dateTitle = m ? `${Number(m[2])}月${Number(m[3])}日` : DATE;
-    const heroTokens = [
+    const heroTokens = s.heroTokens || [
       { text: `${dateTitle}\nAI 新闻榜，\n` },
       { text: `${itemCount} 条必看`, hl: true },
       { text: '。' },
@@ -703,12 +703,12 @@
 
     ctx.font = `italic 34px Georgia, serif`;
     ctx.fillStyle = '#777a84';
-    ctx.fillText('what changed today, why it matters, and what to watch next.', CX, y + 34);
+    ctx.fillText(s.subtitle || 'what changed today, why it matters, and what to watch next.', CX, y + 34);
     y += 92;
 
     ctx.font = `900 34px ${FF_CN}`;
     ctx.fillStyle = '#10131f';
-    ctx.fillText(`头条：${firstItem.cat || 'AI'} 这条线最值得先看。`, CX, y);
+    ctx.fillText(s.leadLabel || `头条：${firstItem.cat || 'AI'} 这条线最值得先看。`, CX, y);
     y += 50;
     ctx.fillStyle = '#ffd225';
     ctx.fillRect(CX, y - 34, Math.min(CW - 170, 760), 46);
@@ -980,7 +980,7 @@ body {
       <header class="pr-header">
         <h1>${opts.title || 'AI 每日头条海报'} · ${DATE} <em>Canvas v2</em></h1>
         <p>
-          6 张海报由 <code>Canvas 2D</code> 原生绘制 · 自动选高度（flex-height）<br>
+          ${opts.posterCount} 张海报由 <code>Canvas 2D</code> 原生绘制 · 自动选高度（flex-height）<br>
           扫码直达 <code>${articleUrl.replace(/^https?:\/\//, '')}</code>
         </p>
       </header>
@@ -992,7 +992,7 @@ body {
         <div class="pr-grid" id="pr-grid"></div>
       </main>
       <footer class="pr-footer">
-        ${opts.title || 'AI 每日头条'} · ${DATE} · 6 张海报 · 1242×flex · <a href="../">← AI 海报 hub</a><br>
+        ${opts.title || 'AI 每日头条'} · ${DATE} · ${opts.posterCount} 张海报 · 1242×flex · <a href="../">← AI 海报 hub</a><br>
         Canvas 2D · v2 flex-height · 二维码 → <code>${articleUrl.replace(/^https?:\/\//, '')}</code>
       </footer>
     `;
@@ -1119,7 +1119,7 @@ body {
 
     injectFonts();
     injectStyles();
-    renderPageShell(DATE, articleUrl, { title });
+    renderPageShell(DATE, articleUrl, { title, posterCount: NEWS.length + 1 });
 
     // 先把字体 ready，再 measure（否则字号会错）
     try { await document.fonts.ready; } catch {}
