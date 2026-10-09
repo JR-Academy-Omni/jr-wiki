@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-08T00:03:28.982Z",
+  "lockedAt": "2026-10-09T00:04:14.657Z",
   "version": 1,
   "slugs": [
     {
@@ -364,6 +364,10 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-10-08"
+    },
+    {
+      "type": "article",
       "slug": "ai-engineer-resume-projects"
     },
     {
@@ -441,6 +445,10 @@
     {
       "type": "article",
       "slug": "apple-wwdc-2026-gemini-siri-openai-divorce-2026"
+    },
+    {
+      "type": "article",
+      "slug": "australia-frontier-ai-safety-standards-2026"
     },
     {
       "type": "article",
