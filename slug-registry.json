@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-09T00:04:14.657Z",
+  "lockedAt": "2026-10-10T00:02:51.433Z",
   "version": 1,
   "slugs": [
     {
@@ -365,6 +365,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-10-08"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-09"
     },
     {
       "type": "article",
@@ -873,6 +877,10 @@
     {
       "type": "article",
       "slug": "it-daily-2026-08-25"
+    },
+    {
+      "type": "article",
+      "slug": "leongatha-earthquake-aftershocks-victoria-2026"
     },
     {
       "type": "article",
