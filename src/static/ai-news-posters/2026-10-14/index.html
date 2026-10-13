@@ -26,6 +26,9 @@ const POSTER_DATA = {
   "summary": {
     "hook": [
       {
+        "text": "澳洲国会委员会建议AI事件及时报告、引入独立评估员"
+      },
+      {
         "text": "Apple发布HomeView，澳洲列入首批上市地区"
       },
       {
@@ -35,34 +38,102 @@ const POSTER_DATA = {
         "text": "新加坡升级国家网络防御，AI将辅助事件研判"
       }
     ],
-    "sub": "10月12日至13日：Apple公布家庭AI屏幕，Character.AI启动法院监督出售，新加坡将AI接入网络事件研判。",
+    "sub": "10月12日至13日：澳洲国会委员会提出AI安全建议，Apple公布家庭AI屏幕，Character.AI寻求出售，新加坡升级网络防御。",
     "items": [
       {
         "num": "01",
-        "cat": "家庭AI",
+        "cat": "澳洲AI政策",
         "numColor": "#FF3B6F",
-        "t": "Apple发布HomeView，澳洲列入首批上市地区"
+        "t": "澳洲国会委员会建议AI事件及时报告、引入独立评估员"
       },
       {
         "num": "02",
-        "cat": "AI服务",
+        "cat": "家庭AI",
         "numColor": "#FF7E3B",
-        "t": "Character.AI进入法院监督出售，平台暂时继续运行"
+        "t": "Apple发布HomeView，澳洲列入首批上市地区"
       },
       {
         "num": "03",
-        "cat": "AI安全",
+        "cat": "AI服务",
         "numColor": "#7861FF",
+        "t": "Character.AI进入法院监督出售，平台暂时继续运行"
+      },
+      {
+        "num": "04",
+        "cat": "AI安全",
+        "numColor": "#119B74",
         "t": "新加坡升级国家网络防御，AI将辅助事件研判"
       }
     ]
   },
   "news": [
     {
-      "slug": "01-apple-homeview",
+      "slug": "01-au-ai-committee-letter",
       "idx": "01",
-      "catText": "家庭AI",
+      "country": "AU",
+      "eventDate": "2026-10-12",
+      "catText": "澳洲AI政策",
       "accent": "#FF3B6F",
+      "bg": {
+        "top": "澳洲AI政策",
+        "mid": "AI SAFEGUARDS",
+        "bot": "2026.10.14",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "澳洲国会委员会建议AI事件及时报告、引入独立评估员"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "10月12日致总理信提出提前建议；这些要求还不是已生效的新法律。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "建议",
+          "v": "建议要求前沿AI实验室及时向政府报告事件，并引入独立评估员。"
+        },
+        {
+          "k": "本地关联",
+          "v": "建议覆盖在澳洲部署模型和代理的前沿AI开发者，涉及本地数据安全。"
+        },
+        {
+          "k": "边界",
+          "v": "这是委员会提前建议；完整报告将在11月30日或之前提交。"
+        }
+      ],
+      "src": "📎 Parliament of Australia · SBS News",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Joint Select Committee on Artificial Intelligence",
+          "url": "https://static.aph.gov.au/-/media/Committees/ai_ctte/JSC_AI_letter_20261012_Final.pdf",
+          "claim": "建议及时报告AI事件",
+          "quote": "monitor and report incidents to the Australian Government in a timely manner"
+        },
+        {
+          "type": "primary",
+          "publisher": "Joint Select Committee on Artificial Intelligence",
+          "url": "https://static.aph.gov.au/-/media/Committees/ai_ctte/JSC_AI_letter_20261012_Final.pdf",
+          "claim": "建议对在澳洲运营的前沿AI实验室设置独立评估员",
+          "quote": "independent evaluators for frontier labs that operate in Australia."
+        },
+        {
+          "type": "independent",
+          "publisher": "SBS News",
+          "url": "https://www.sbs.com.au/news/video/crossbench-cries-foul-over-pmos-ai-letter-edits/nxptv4c3p",
+          "claim": "独立报道确认联合委员会已向总理提出AI行动建议",
+          "quote": "A joint parliamentary committee on AI has urged the PM to move quickly on the technology in a rare bipartisan move."
+        }
+      ]
+    },
+    {
+      "slug": "01-apple-homeview",
+      "idx": "02",
+      "catText": "家庭AI",
+      "accent": "#FF7E3B",
       "country": "US",
       "eventDate": "2026-10-13",
       "bg": {
@@ -122,9 +193,9 @@ const POSTER_DATA = {
     },
     {
       "slug": "02-character-ai-chapter11",
-      "idx": "02",
+      "idx": "03",
       "catText": "AI服务",
-      "accent": "#FF7E3B",
+      "accent": "#7861FF",
       "country": "US",
       "eventDate": "2026-10-12",
       "bg": {
@@ -177,9 +248,9 @@ const POSTER_DATA = {
     },
     {
       "slug": "03-sg-cyber-defence",
-      "idx": "03",
+      "idx": "04",
       "catText": "AI安全",
-      "accent": "#7861FF",
+      "accent": "#119B74",
       "country": "SG",
       "eventDate": "2026-10-13",
       "bg": {
@@ -232,7 +303,7 @@ const POSTER_DATA = {
     }
   ],
   "mp": {
-    "title": "Apple家庭AI屏幕纳入澳洲首批供货 / Character.AI寻求出售 / 新加坡升级AI网络防御"
+    "title": "澳洲AI安全建议 / Apple家庭AI屏幕 / Character.AI寻求出售 / 新加坡网络防御"
   },
   "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-10-14"
 };
