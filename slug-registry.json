@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-12T23:43:51.046Z",
+  "lockedAt": "2026-10-13T00:05:01.194Z",
   "version": 1,
   "slugs": [
     {
@@ -1561,6 +1561,10 @@
     {
       "type": "article",
       "slug": "uni-news-uwa-2026-04-24"
+    },
+    {
+      "type": "article",
+      "slug": "victoria-rent-app-membership-fees-2026"
     },
     {
       "type": "article",
