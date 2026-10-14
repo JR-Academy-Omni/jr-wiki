@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-13T23:43:54.334Z",
+  "lockedAt": "2026-10-14T00:04:55.535Z",
   "version": 1,
   "slugs": [
     {
@@ -505,6 +505,10 @@
     {
       "type": "article",
       "slug": "deepseek-v4-open-source-frontier-2026"
+    },
+    {
+      "type": "article",
+      "slug": "edge-early-learning-centre-closures-october-2026"
     },
     {
       "type": "article",
