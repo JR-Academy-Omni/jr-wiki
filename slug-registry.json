@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-14T23:47:00.222Z",
+  "lockedAt": "2026-10-15T00:06:39.554Z",
   "version": 1,
   "slugs": [
     {
@@ -1585,6 +1585,10 @@
     {
       "type": "article",
       "slug": "uni-news-uwa-2026-04-24"
+    },
+    {
+      "type": "article",
+      "slug": "victoria-fire-truck-fleet-audit-2026"
     },
     {
       "type": "article",
