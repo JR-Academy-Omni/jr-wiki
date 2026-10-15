@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-15T00:06:39.554Z",
+  "lockedAt": "2026-10-15T01:06:43.472Z",
   "version": 1,
   "slugs": [
     {
@@ -2185,6 +2185,16 @@
       "type": "chapter",
       "book": "kiro-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "06-github-team-collab"
+    },
+    {
+      "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "07-cicd-headless"
     },
     {
       "type": "chapter",
