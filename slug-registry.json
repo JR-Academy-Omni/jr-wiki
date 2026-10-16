@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-16T23:47:42.770Z",
+  "lockedAt": "2026-10-16T23:49:00.038Z",
   "version": 1,
   "slugs": [
     {
@@ -376,6 +376,22 @@
     },
     {
       "type": "article",
+      "slug": "ai-daily-2026-10-13"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-14"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-15"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-16"
+    },
+    {
+      "type": "article",
       "slug": "ai-engineer-resume-projects"
     },
     {
@@ -497,6 +513,10 @@
     {
       "type": "article",
       "slug": "deepseek-v4-open-source-frontier-2026"
+    },
+    {
+      "type": "article",
+      "slug": "edge-early-learning-centre-closures-october-2026"
     },
     {
       "type": "article",
@@ -888,7 +908,27 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-10-13"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-10-14"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-10-15"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-10-16"
+    },
+    {
+      "type": "article",
       "slug": "it-daily-2026-10-17"
+    },
+    {
+      "type": "article",
+      "slug": "kmart-nail-glue-button-battery-accc-case-2026"
     },
     {
       "type": "article",
@@ -1561,6 +1601,14 @@
     {
       "type": "article",
       "slug": "uni-news-uwa-2026-04-24"
+    },
+    {
+      "type": "article",
+      "slug": "victoria-fire-truck-fleet-audit-2026"
+    },
+    {
+      "type": "article",
+      "slug": "victoria-rent-app-membership-fees-2026"
     },
     {
       "type": "article",

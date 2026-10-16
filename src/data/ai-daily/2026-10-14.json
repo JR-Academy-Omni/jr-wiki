@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-14",
+  "selectionScorecardSha256": "45ede91fa526dae4b414ebf88eb2938710f16f023e9340e2921d585ccd720bf2",
+  "summary": {
+    "hook": [
+      {
+        "text": "澳洲国会委员会建议AI事件及时报告、引入独立评估员"
+      },
+      {
+        "text": "Apple发布HomeView，澳洲列入首批上市地区"
+      },
+      {
+        "text": "Character.AI进入法院监督出售，平台暂时继续运行"
+      },
+      {
+        "text": "新加坡升级国家网络防御，AI将辅助事件研判"
+      }
+    ],
+    "sub": "10月12日至13日：澳洲国会委员会提出AI安全建议，Apple公布家庭AI屏幕，Character.AI寻求出售，新加坡升级网络防御。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "澳洲AI政策",
+        "numColor": "#FF3B6F",
+        "t": "澳洲国会委员会建议AI事件及时报告、引入独立评估员"
+      },
+      {
+        "num": "02",
+        "cat": "家庭AI",
+        "numColor": "#FF7E3B",
+        "t": "Apple发布HomeView，澳洲列入首批上市地区"
+      },
+      {
+        "num": "03",
+        "cat": "AI服务",
+        "numColor": "#7861FF",
+        "t": "Character.AI进入法院监督出售，平台暂时继续运行"
+      },
+      {
+        "num": "04",
+        "cat": "AI安全",
+        "numColor": "#119B74",
+        "t": "新加坡升级国家网络防御，AI将辅助事件研判"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-au-ai-committee-letter",
+      "idx": "01",
+      "country": "AU",
+      "eventDate": "2026-10-12",
+      "catText": "澳洲AI政策",
+      "accent": "#FF3B6F",
+      "bg": {
+        "top": "澳洲AI政策",
+        "mid": "AI SAFEGUARDS",
+        "bot": "2026.10.14",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "澳洲国会委员会建议AI事件及时报告、引入独立评估员"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "10月12日致总理信提出提前建议；这些要求还不是已生效的新法律。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "建议",
+          "v": "建议要求前沿AI实验室及时向政府报告事件，并引入独立评估员。"
+        },
+        {
+          "k": "本地关联",
+          "v": "建议覆盖在澳洲部署模型和代理的前沿AI开发者，涉及本地数据安全。"
+        },
+        {
+          "k": "边界",
+          "v": "这是委员会提前建议；完整报告将在11月30日或之前提交。"
+        }
+      ],
+      "src": "📎 Parliament of Australia · SBS News",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Joint Select Committee on Artificial Intelligence",
+          "url": "https://static.aph.gov.au/-/media/Committees/ai_ctte/JSC_AI_letter_20261012_Final.pdf",
+          "claim": "建议及时报告AI事件",
+          "quote": "monitor and report incidents to the Australian Government in a timely manner"
+        },
+        {
+          "type": "primary",
+          "publisher": "Joint Select Committee on Artificial Intelligence",
+          "url": "https://static.aph.gov.au/-/media/Committees/ai_ctte/JSC_AI_letter_20261012_Final.pdf",
+          "claim": "建议对在澳洲运营的前沿AI实验室设置独立评估员",
+          "quote": "independent evaluators for frontier labs that operate in Australia."
+        },
+        {
+          "type": "independent",
+          "publisher": "SBS News",
+          "url": "https://www.sbs.com.au/news/video/crossbench-cries-foul-over-pmos-ai-letter-edits/nxptv4c3p",
+          "claim": "独立报道确认联合委员会已向总理提出AI行动建议",
+          "quote": "A joint parliamentary committee on AI has urged the PM to move quickly on the technology in a rare bipartisan move."
+        }
+      ]
+    },
+    {
+      "slug": "01-apple-homeview",
+      "idx": "02",
+      "catText": "家庭AI",
+      "accent": "#FF7E3B",
+      "country": "US",
+      "eventDate": "2026-10-13",
+      "bg": {
+        "top": "家庭AI",
+        "mid": "HOMEVIEW",
+        "bot": "2026.10.14",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Apple发布HomeView，澳洲列入首批上市地区"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "新的家庭屏幕搭载Siri AI；澳洲版支持英语，11月13日开始供货。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "HomeView把娱乐、视频通话和智能家居控制放到一块7英寸屏幕上。"
+        },
+        {
+          "k": "条件",
+          "v": "Siri读取个人信息需要搭配支持Apple Intelligence的iPhone或iPad。"
+        },
+        {
+          "k": "边界",
+          "v": "官方演示展示的是产品设想，实际家庭环境中的表现还需上市后验证。"
+        },
+        {
+          "k": "功能条件",
+          "v": "Siri AI在HomeView软件27.2中以Beta形式提供；个人信息仍需配对支持Apple Intelligence的设备。"
+        }
+      ],
+      "src": "📎 Apple · Reuters via Investing.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+          "claim": "首批供货时间",
+          "quote": "Pre-orders start today, with availability beginning November 13."
+        },
+        {
+          "type": "primary",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+          "claim": "澳洲英语支持",
+          "quote": "Siri AI on HomeView is available in English in the U.S., Australia"
+        },
+        {
+          "type": "independent",
+          "publisher": "Reuters via Investing.com",
+          "url": "https://au.investing.com/news/stock-market-news/apple-to-unveil-new-smart-home-products-showcasing-updated-siri-ai-4686699",
+          "claim": "新设备搭载Siri AI进入智能家居市场",
+          "quote": "including an iPad-like device dubbed the HomeView"
+        },
+        {
+          "type": "primary",
+          "publisher": "Apple",
+          "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+          "claim": "软件Beta条件",
+          "quote": "Siri AI is available in beta in HomeView software version 27.2."
+        }
+      ]
+    },
+    {
+      "slug": "02-character-ai-chapter11",
+      "idx": "03",
+      "catText": "AI服务",
+      "accent": "#7861FF",
+      "country": "US",
+      "eventDate": "2026-10-12",
+      "bg": {
+        "top": "AI服务",
+        "mid": "CHAPTER 11",
+        "bot": "2026.10.14",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Character.AI进入法院监督出售，平台暂时继续运行"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "公司启动Chapter 11程序，订阅与计费暂时不变；这不代表服务能一直保留。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "公司启动自愿Chapter 11程序，寻求法院监督下的出售。"
+        },
+        {
+          "k": "眼下",
+          "v": "官方称服务仍在运行，用户可以通过App或网站导出数据。"
+        },
+        {
+          "k": "后续",
+          "v": "若找不到支持继续运营的买家，平台将停止运营；目前还没有出售结果。"
+        }
+      ],
+      "src": "📎 Character.AI · Ars Technica",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Character.AI",
+          "url": "https://blog.character.ai/an-update-on-character-ai/",
+          "claim": "公司启动法院监督出售程序",
+          "quote": "Character.ai has initiated a voluntary Chapter 11 bankruptcy process to facilitate a court-supervised sale of the company."
+        },
+        {
+          "type": "independent",
+          "publisher": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+          "claim": "独立报道确认破产程序与技术资产报价",
+          "quote": "In a bankruptcy proceeding that kicked off yesterday, Disney has offered to buy some of the technology"
+        }
+      ]
+    },
+    {
+      "slug": "03-sg-cyber-defence",
+      "idx": "04",
+      "catText": "AI安全",
+      "accent": "#119B74",
+      "country": "SG",
+      "eventDate": "2026-10-13",
+      "bg": {
+        "top": "AI安全",
+        "mid": "CYBER DEFENCE",
+        "bot": "2026.10.14",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "新加坡升级国家网络防御，AI将辅助事件研判"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "增强后的NC3将协助更早发现漏洞，并用AI辅助跟踪事件和规划响应。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "新加坡公布国家网络安全指挥中心NC3的能力升级。"
+        },
+        {
+          "k": "AI用途",
+          "v": "AI系统将辅助防御人员跟踪正在发生的事件、研判情况和规划下一步。"
+        },
+        {
+          "k": "边界",
+          "v": "官方明确这些能力还会持续开发和强化，不能写成AI已能自主防住所有攻击。"
+        }
+      ],
+      "src": "📎 Cyber Security Agency of Singapore · CNA",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Cyber Security Agency of Singapore",
+          "url": "https://www.csa.gov.sg/news-events/press-releases/singapore-strengthens-national-cyber-defence-through-enhanced-cybersecurity-command-centre/",
+          "claim": "AI辅助事件跟踪与研判",
+          "quote": "AI-enabled systems will help cyber defenders track ongoing incidents, develop operational assessments, and plan next actions."
+        },
+        {
+          "type": "independent",
+          "publisher": "CNA",
+          "url": "https://www.channelnewsasia.com/watch/cyber-strategy-refresh-addresses-threats-frontier-ai-models-quantum-advancement-6456346",
+          "claim": "独立报道确认防御人员将获得包括AI在内的新工具",
+          "quote": "Defenders will also be equipped with advanced tools, including AI, to help with the effort."
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "澳洲AI安全建议 / Apple家庭AI屏幕 / Character.AI寻求出售 / 新加坡网络防御"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "date": "2026-10-16",
+  "summary": {
+    "hook": [
+      {
+        "text": "Meta放出816B开放权重模型Muse Spark Open"
+      },
+      {
+        "text": "美国八州分别起诉OpenAI，质疑用户安全保护"
+      },
+      {
+        "text": "六名METR评估员进入Anthropic，结果可独立发表"
+      },
+      {
+        "text": "微软法律Copilot正式开放20多项专用技能"
+      }
+    ],
+    "sub": "10月14日至15日：Meta开放模型权重、八州起诉OpenAI、METR进入Anthropic，以及微软法律AI工具正式开放。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "开放模型",
+        "numColor": "#FF3B6F",
+        "t": "Meta放出816B开放权重模型Muse Spark Open"
+      },
+      {
+        "num": "02",
+        "cat": "AI监管",
+        "numColor": "#FF7E3B",
+        "t": "美国八州分别起诉OpenAI，质疑用户安全保护"
+      },
+      {
+        "num": "03",
+        "cat": "AI安全",
+        "numColor": "#7861FF",
+        "t": "六名METR评估员进入Anthropic，结果可独立发表"
+      },
+      {
+        "num": "04",
+        "cat": "AI办公",
+        "numColor": "#119B74",
+        "t": "微软法律Copilot正式开放20多项专用技能"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-muse-spark-open",
+      "idx": "01",
+      "country": "US",
+      "eventDate": "2026-10-15",
+      "catText": "开放模型",
+      "accent": "#FF3B6F",
+      "bg": {
+        "top": "开放模型",
+        "mid": "MUSE SPARK OPEN",
+        "bot": "2026.10.16",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Meta放出816B开放权重模型Muse Spark Open"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "权重已经发布；Meta称可用两台M5 Ultra Mac Studio装下模型，商用仍受许可约束。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "Meta发布816B总参数、42B激活参数、1M上下文的Muse Spark Open权重。"
+        },
+        {
+          "k": "部署",
+          "v": "Meta称两台M5 Ultra Mac Studio可容纳整个模型；这不是本次实机测试结果。"
+        },
+        {
+          "k": "边界",
+          "v": "采用有限商用的Muse Model License；权重可下载不等于任何用途都免费。"
+        }
+      ],
+      "src": "📎 Meta AI Research · 9to5Mac · Engadget",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Meta AI Research",
+          "url": "https://research.meta.ai/blog/muse-spark-open",
+          "claim": "权重在Muse Model License下发布，商用受限",
+          "quote": "with limited commercial terms"
+        },
+        {
+          "type": "independent",
+          "publisher": "Engadget",
+          "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+          "claim": "本地运行约需1TB内存",
+          "quote": "a staggering 1TB of RAM"
+        }
+      ],
+      "sourceQuote": "816B total parameters (42B active) and a 1M-token context window"
+    },
+    {
+      "slug": "02-states-sue-openai",
+      "idx": "02",
+      "country": "US",
+      "eventDate": "2026-10-14",
+      "catText": "AI监管",
+      "accent": "#FF7E3B",
+      "bg": {
+        "top": "AI监管",
+        "mid": "STATE LAWSUITS",
+        "bot": "2026.10.16",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "美国八州分别起诉OpenAI，质疑用户安全保护"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "诉方指控ChatGPT误导用户并缺少保护；OpenAI表示已有年龄分层保护措施。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "10月14日，八州分别在本州法院起诉OpenAI。"
+        },
+        {
+          "k": "争议",
+          "v": "指控涉及未成年人等脆弱用户保护及安全宣传，不是法院已认定的事实。"
+        },
+        {
+          "k": "回应",
+          "v": "OpenAI向Bloomberg Law表示已有年龄分层保护，并会继续增加防护。"
+        }
+      ],
+      "src": "📎 Montana DOJ · Bloomberg Law",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Iowa Attorney General",
+          "url": "https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-announces-lawsuit-against-openai-for-deceiving-iowa-parents-and-iowans",
+          "claim": "八州分别提起诉讼，Iowa以本州消费者欺诈法起诉",
+          "quote": "A bipartisan group of states have also individually sued OpenAI."
+        },
+        {
+          "type": "independent",
+          "publisher": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/privacy-and-data-security/half-dozen-states-hit-openai-with-kids-online-safety-lawsuits",
+          "claim": "Bloomberg Law报道八州分别提起诉讼",
+          "quote": "all brought individual lawsuits against OpenAI"
+        }
+      ],
+      "sourceQuote": "A bipartisan group of states have also individually sued OpenAI."
+    },
+    {
+      "slug": "03-anthropic-metr",
+      "idx": "03",
+      "country": "US",
+      "eventDate": "2026-10-15",
+      "catText": "AI安全",
+      "accent": "#7861FF",
+      "bg": {
+        "top": "AI安全",
+        "mid": "EMBEDDED EVALUATORS",
+        "bot": "2026.10.16",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "六名METR评估员进入Anthropic，结果可独立发表"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "METR可自行发表风险评估；Anthropic仍可要求对预设敏感类别作遮盖。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "六名METR员工获得硬件、办公位及与内部风险评估团队大致相当的访问。"
+        },
+        {
+          "k": "发表权",
+          "v": "无需Anthropic事先批准；客户数据等狭窄类别可要求遮盖。"
+        },
+        {
+          "k": "边界",
+          "v": "这是评估安排，不是METR已经给模型作出安全认证。"
+        }
+      ],
+      "src": "📎 Anthropic · Reuters",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "claim": "Anthropic无权否决发表，但可要求涂黑",
+          "quote": "Anthropic can’t veto publication, but we can require them to redact information"
+        },
+        {
+          "type": "independent",
+          "publisher": "Reuters",
+          "url": "https://ca.finance.yahoo.com/news/anthropic-grants-ai-evaluator-metr-173515886.html/",
+          "claim": "六名METR员工获公司硬件、办公位和近似内部风险团队的工具访问",
+          "quote": "Six METR employees have been provided company hardware, office space and access to internal tools and systems"
+        }
+      ],
+      "sourceQuote": "Anthropic can’t veto publication, but we can require them to redact information"
+    },
+    {
+      "slug": "04-copilot-legal",
+      "idx": "04",
+      "country": "US",
+      "eventDate": "2026-10-15",
+      "catText": "AI办公",
+      "accent": "#119B74",
+      "bg": {
+        "top": "AI办公",
+        "mid": "COPILOT FOR LEGAL",
+        "bot": "2026.10.16",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "微软法律Copilot正式开放20多项专用技能"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "合同审阅、修订和多文件任务进入Word与Cowork，法律判断仍由使用者作出。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "从4月Legal Agent预览，扩展为一般可用的20多项法律技能及合作伙伴插件。"
+        },
+        {
+          "k": "操作",
+          "v": "Word可把建议落成原生修订；Cowork处理跨合同和文件的多步骤任务。"
+        },
+        {
+          "k": "边界",
+          "v": "插件分批推出；微软称Word修改须由用户批准，不能当作法律正确性保证。"
+        }
+      ],
+      "src": "📎 Microsoft · LawSites",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Microsoft",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/4564246",
+          "claim": "宣布20多项专用法律技能一般可用及新插件",
+          "quote": "Today, we’re announcing the general availability of more than 20 purpose-built legal skills and new partner-built plugins"
+        },
+        {
+          "type": "independent",
+          "publisher": "LawSites / Bob Ambrogi",
+          "url": "https://www.lawnext.com/2026/10/microsoft-launches-copilot-for-legal-becoming-the-fourth-ai-giant-in-five-months-to-build-out-a-legal-vertical.html",
+          "claim": "独立报道微软推出20多项法律技能",
+          "quote": "offering more than 20 legal-specific skills in Microsoft Copilot"
+        }
+      ],
+      "sourceQuote": "more than 20 purpose-built legal skills"
+    }
+  ],
+  "mp": {
+    "title": "Meta开放模型权重 / 八州起诉OpenAI / METR独立评估 / 微软法律Copilot"
+  }
+}
