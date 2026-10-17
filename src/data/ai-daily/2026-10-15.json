@@ -1,0 +1,341 @@
+{
+  "date": "2026-10-15",
+  "selectionScorecardSha256": "dbd90114dda4774d64e811fadbddaba6f95fd6d95d18af010977f4e0d512f816",
+  "summary": {
+    "hook": [
+      {
+        "text": "AERO提醒学校：AI不能代替学生思考"
+      },
+      {
+        "text": "塔州拟设社区基金，要求AI数据中心回馈当地"
+      },
+      {
+        "text": "Anthropic新加坡办公室开放，MOU覆盖模型评估"
+      },
+      {
+        "text": "YouTube Music开始给AI生成歌曲加标签"
+      },
+      {
+        "text": "Google Play让AI自建应用进入私人应用库"
+      }
+    ],
+    "sub": "10月13日至14日的五项变化：学校AI使用、社区回报、模型评估、音乐标识和私人应用分发。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "澳洲教育",
+        "numColor": "#FF3B6F",
+        "t": "AERO提醒学校：AI不能代替学生思考"
+      },
+      {
+        "num": "02",
+        "cat": "澳洲AI基建",
+        "numColor": "#FF7E3B",
+        "t": "塔州拟设社区基金，要求AI数据中心回馈当地"
+      },
+      {
+        "num": "03",
+        "cat": "AI合作",
+        "numColor": "#7861FF",
+        "t": "Anthropic新加坡办公室开放，MOU覆盖模型评估"
+      },
+      {
+        "num": "04",
+        "cat": "AI音乐",
+        "numColor": "#119B74",
+        "t": "YouTube Music开始给AI生成歌曲加标签"
+      },
+      {
+        "num": "05",
+        "cat": "AI开发",
+        "numColor": "#FF3B6F",
+        "t": "Google Play让AI自建应用进入私人应用库"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-aero-schools",
+      "idx": "01",
+      "country": "AU",
+      "eventDate": "2026-10-14",
+      "catText": "澳洲教育",
+      "accent": "#FF3B6F",
+      "bg": {
+        "top": "澳洲教育",
+        "mid": "AI & LEARNING",
+        "bot": "2026.10.15",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "AERO提醒学校：AI不能代替学生思考"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "AERO于10月14日发布学校AI使用建议，重点是学习风险、使用规则和评估方式。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "新文件",
+          "v": "AERO发布教师/学校及政策制定者两份说明，强调学习证据与风险观察。"
+        },
+        {
+          "k": "年龄建议",
+          "v": "Donovan向ABC建议小学最初三年避免AI、中学阶段介绍AI；这不是全国禁令。"
+        },
+        {
+          "k": "学习检查",
+          "v": "本文建议分别观察作业完成和独立掌握，不能只看工具在场时的结果。"
+        }
+      ],
+      "src": "📎 AERO · ABC News",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "AERO",
+          "url": "https://www.edresearch.edu.au/summaries-explainers/explainers/ai-schools-considerations-school-leaders-and-teachers",
+          "claim": "学校AI学习成果研究仍有限",
+          "quote": "There’s still limited research on the impact of AI use on student learning outcomes in school settings."
+        },
+        {
+          "type": "independent",
+          "publisher": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-14/ai-in-schools-warning-affecting-long-term-learning/107263444",
+          "claim": "受访者建议小学最初三年避免AI",
+          "quote": "AI should be avoided completely in the first three years of primary school"
+        }
+      ],
+      "sourceQuote": "prioritising evidence-based teaching and learning"
+    },
+    {
+      "slug": "02-tas-community-fund",
+      "idx": "02",
+      "country": "AU",
+      "eventDate": "2026-10-14",
+      "catText": "澳洲AI基建",
+      "accent": "#FF7E3B",
+      "bg": {
+        "top": "澳洲AI基建",
+        "mid": "COMMUNITY FUND",
+        "bot": "2026.10.15",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "塔州拟设社区基金，要求AI数据中心回馈当地"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "塔州公布社区基金安排，出资额和执行机制仍待确定。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "安排",
+          "v": "大型AI和数据中心开发方被预期向地方社区基金出资。"
+        },
+        {
+          "k": "用途",
+          "v": "当地基础设施、技能培训、社区组织及参与机会。"
+        },
+        {
+          "k": "未定事项",
+          "v": "出资标准和执行机制未明确，不能当作已开征税费。"
+        }
+      ],
+      "src": "📎 Premier of Tasmania · ABC News",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Premier of Tasmania",
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/october/major-ai-investment-must-deliver-for-tasmanian-communities",
+          "claim": "政府将设立地方社区基金",
+          "quote": "The Tasmanian Government will establish a Local Community Benefit Fund"
+        },
+        {
+          "type": "independent",
+          "publisher": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-14/tas-ai-data-centres-community-fund/107263128",
+          "claim": "金额及执行机制尚未明确",
+          "quote": "It is not yet clear how the companies will be made to pay"
+        }
+      ],
+      "sourceQuote": "Publicly report their water and energy use each quarter."
+    },
+    {
+      "slug": "03-anthropic-singapore",
+      "idx": "03",
+      "country": "SG",
+      "eventDate": "2026-10-14",
+      "catText": "AI合作",
+      "accent": "#7861FF",
+      "bg": {
+        "top": "AI合作",
+        "mid": "ANTHROPIC SG",
+        "bot": "2026.10.15",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Anthropic新加坡办公室开放，MOU覆盖模型评估"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "办公室14日开放；13日签署的MOU列出AI安全等合作方向。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "新变化",
+          "v": "新加坡办公室10月14日开放并招聘，MOU在13日签署。"
+        },
+        {
+          "k": "合作",
+          "v": "AI安全、网络安全、模型评估与负责任采用。"
+        },
+        {
+          "k": "边界",
+          "v": "公告没有披露招聘人数、投入金额或交付时间表。"
+        }
+      ],
+      "src": "📎 Anthropic · CNA",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/singapore-office-opening",
+          "claim": "办公室已开放并招聘",
+          "quote": "Our Singapore office is now open and hiring."
+        },
+        {
+          "type": "independent",
+          "publisher": "CNA",
+          "url": "https://www.channelnewsasia.com/singapore/anthropic-office-safety-agreement-government-deal-6456671",
+          "claim": "MOU已签署，办公室14日开放",
+          "quote": "the firm behind frontier model Claude opened its Singapore office on Wednesday"
+        }
+      ],
+      "sourceQuote": "AI safety, security, and model evaluation"
+    },
+    {
+      "slug": "04-youtube-music-labels",
+      "idx": "04",
+      "country": "US",
+      "eventDate": "2026-10-14",
+      "catText": "AI音乐",
+      "accent": "#119B74",
+      "bg": {
+        "top": "AI音乐",
+        "mid": "AI MUSIC",
+        "bot": "2026.10.15",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "YouTube Music开始给AI生成歌曲加标签"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "播放页将显示AI标签，点开可看说明；检测效果没有公开量化。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "新变化",
+          "v": "YouTube Music逐步在播放页加入AI音乐标签。"
+        },
+        {
+          "k": "依据",
+          "v": "音乐合作方的信息与YouTube自有检测工具。"
+        },
+        {
+          "k": "边界",
+          "v": "没有公开准确率或全量覆盖承诺，也未给主应用具体日期。"
+        }
+      ],
+      "src": "📎 YouTube · Engadget / Yahoo",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "YouTube",
+          "url": "https://blog.youtube/news-and-events/youtube-music-ai-labels/",
+          "claim": "标签点击后显示更多说明",
+          "quote": "Tapping the label opens a simple menu that shares more information."
+        },
+        {
+          "type": "independent",
+          "publisher": "Engadget / Yahoo",
+          "url": "https://tech.yahoo.com/audio/articles/youtube-music-adds-labels-ai-170112275.html",
+          "claim": "播放器中的标签与点开说明",
+          "quote": "Tapping the label opens up a menu"
+        }
+      ],
+      "sourceQuote": "created primarily using generative AI"
+    },
+    {
+      "slug": "05-play-personal-apps",
+      "idx": "05",
+      "country": "US",
+      "eventDate": "2026-10-13",
+      "catText": "AI开发",
+      "accent": "#FF3B6F",
+      "bg": {
+        "top": "AI开发",
+        "mid": "PERSONAL APPS",
+        "bot": "2026.10.15",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Google Play让AI自建应用进入私人应用库"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "普通Google账号可运行私人Android应用；澳洲支持范围尚未确认。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "私人使用",
+          "v": "AI Studio生成的Android应用可经Play在自己的设备启动，无需开发者账号。"
+        },
+        {
+          "k": "范围",
+          "v": "先在含美国的部分市场面向18岁以上；澳洲支持未确认。"
+        },
+        {
+          "k": "公开发布",
+          "v": "向亲友分享仍待开放，公开分发需开发者账号与审核。"
+        }
+      ],
+      "src": "📎 Google · 9to5Google",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Google",
+          "url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/",
+          "claim": "先在部分市场向成人推出",
+          "quote": "select markets, including the U.S., for users 18 and over."
+        },
+        {
+          "type": "independent",
+          "publisher": "9to5Google",
+          "url": "https://9to5google.com/2026/10/13/google-play-vibe-coded/?extended-comments=1",
+          "claim": "新增私人应用库",
+          "quote": "A “Your personal library” section allows you to access apps across multiple devices"
+        }
+      ],
+      "sourceQuote": "no developer account required."
+    }
+  ],
+  "mp": {
+    "title": "学校AI使用建议 / 塔州社区基金 / Anthropic新加坡 / AI歌曲标签 / 私人AI应用"
+  }
+}
