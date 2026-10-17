@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-16T23:49:00.038Z",
+  "lockedAt": "2026-10-17T00:00:42.106Z",
   "version": 1,
   "slugs": [
     {
@@ -961,6 +961,10 @@
     {
       "type": "article",
       "slug": "qwen-3-6-plus-agentic-coding-guide"
+    },
+    {
+      "type": "article",
+      "slug": "royal-childrens-hospital-ed-staffing-funding-2026"
     },
     {
       "type": "article",
