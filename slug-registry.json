@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-17T23:38:20.195Z",
+  "lockedAt": "2026-10-18T11:23:46.250Z",
   "version": 1,
   "slugs": [
     {
@@ -477,6 +477,10 @@
     {
       "type": "article",
       "slug": "australia-frontier-ai-safety-standards-2026"
+    },
+    {
+      "type": "article",
+      "slug": "canterbury-hospital-surgery-referrals-email-2026"
     },
     {
       "type": "article",
