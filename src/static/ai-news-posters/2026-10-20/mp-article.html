@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 日报 2026-10-20 · 公众号文章（内部）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --mp-primary: #ff5757;
+  --mp-highlight: #ffce44;
+  --mp-dark: #10162f;
+}
+</style>
+<link rel="stylesheet" href="../../_lib/mp-page.v1.css">
+</head>
+<body>
+<div class="page">
+  <div class="topbar">
+    <div>
+      <h1>📰 AI 日报 · <span>公众号文章</span> · 2026-10-20</h1>
+      <div class="sub">左侧 375px 手机预览 · 右侧进度 + 操作。点「📋 复制富文本」后粘到公众号编辑器，图片自动抓取 re-host。</div>
+    </div>
+    <div class="acts">
+      <a class="btn" href="./">← 回海报库</a>
+      <button class="btn" id="btn-copy-html">📋 复制富文本</button>
+      <button class="btn primary" id="btn-download-all" disabled>⬇ 下载 4 张 PNG</button>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-bar">
+          <span><span class="dot"></span>mp.weixin.qq.com</span>
+          <span>375px · 预览</span>
+        </div>
+        <article class="mp" id="mp-article">
+<div class="mp-title">TorchNeuron将开放公测，Modal测试Vera，Anthropic承诺公益股份</div>
+<div class="mp-meta">
+  <span class="author">JR Academy AI 日报</span>
+  <span>·</span><span>2026-10-20</span>
+  <span>·</span><span>阅读约 4 分钟</span>
+</div>
+<div class="mp-lead">AWS计划开放新的PyTorch后端，Modal披露代理沙箱CPU测试，Anthropic提出附条件的公益股份承诺。三条均保留一手记录与独立报道，性能数字不作独立实测结论。</div>
+<img class="mp-img" src="./poster-0.png" alt="图 1 · 合集海报" data-poster="poster-0" data-file="mp-01-summary.png">
+<div class="mp-caption">图 1 · 合集海报</div>
+<hr class="mp-divider">
+<div class="mp-hook">01 · AI开发</div>
+<div class="mp-h2">AWS宣布TorchNeuron，计划10月20日开放公测</div>
+<img class="mp-img" src="./poster-1.png" alt="图 2 · 海报 01" data-poster="poster-1" data-file="mp-02-01-torchneuron.png">
+<div class="mp-caption">图 2 · 海报 01</div>
+<div class="mp-oneline"><strong>一句话</strong>：原生PyTorch后端接入Trainium；设备切换变简单，初版兼容范围仍要核对。</div>
+<p>10月19日，AWS工程师在PyTorch官网公布TorchNeuron，计划在10月20日以Apache 2.0许可证开放公测。它把Trainium接入PyTorch的标准设备接口，支持Trainium2和Trainium3，以及eager执行和torch.compile。公告中的日期是公测计划，本报道未验证安装包已经开放。</p>
+<p>对照官方示例，模型可以用.to(&#x27;neuron&#x27;)选择设备；使用编译模式时，还要指定Neuron后端。GeekWire采访AWS负责人后报道，此前开发者需要修改代码，调用芯片专用接口。现在的变化是减少这层适配，不等于所有现有项目都能直接迁移。</p>
+<p>初版明确未支持稀疏张量、动态和符号形状等功能。准备迁移的团队可以先拿自己的算子清单逐项对照，再核对硬件区域和完整任务成本；本次公告没有给出对所有模型都成立的节省比例。</p>
+<div class="mp-source">来源：<a href="https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/">PyTorch / AWS工程师</a> · <a href="https://www.geekwire.com/2026/amazon-challenges-nvidias-software-advantage-with-new-tool-for-its-ai-chips/">GeekWire</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">02 · 代理基础设施</div>
+<div class="mp-h2">Modal计划用Vera CPU运行代理沙箱，测试仍是公司自报</div>
+<img class="mp-img" src="./poster-2.png" alt="图 3 · 海报 02" data-poster="poster-2" data-file="mp-03-02-modal-vera.png">
+<div class="mp-caption">图 3 · 海报 02</div>
+<div class="mp-oneline"><strong>一句话</strong>：新披露的是CPU并发测试和采用计划，不是大模型推理速度翻倍。</div>
+<p>Modal在10月19日发布Vera CPU测试，表示准备为AI代理沙箱加入这款英伟达Arm处理器。此前它长期运行x86机器；引入Arm还需要调整基础设施和镜像构建系统。Reuters当天报道，Modal计划把Vera与现有Intel、AMD硬件混用，而非全面替换。</p>
+<p>这次测试针对代理执行任务时的CPU负载。代理除了等模型回答，还会安装依赖、搜索文件、运行程序。Modal从50个任务中去掉网络调用，在并发容器里测试；公司称，早期结果中Vera的任务吞吐量最高可达等效x86 GNR机器的两倍。</p>
+<p>这个数字来自Modal自己的基准，不能解释为所有代理完成任务都快一倍，也不是GPU推理测试。本报道没有独立复测。对正在排查代理延迟的团队，更有用的是先分开记录模型等待与CPU执行耗时，确认瓶颈后再比较硬件。</p>
+<div class="mp-source">来源：<a href="https://modal.com/blog/nvidia-vera-sandboxes">Modal</a> · <a href="https://live.euronext.com/en/financial-news/nvidia-wins-fast-growing-ai-startup-modal-new-central-processors">Reuters / Euronext转载</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">03 · AI治理</div>
+<div class="mp-h2">Anthropic承诺5%股份设公益基金，仍需股东批准</div>
+<img class="mp-img" src="./poster-3.png" alt="图 4 · 海报 03" data-poster="poster-3" data-file="mp-04-03-anthropic-fund.png">
+<div class="mp-caption">图 4 · 海报 03</div>
+<div class="mp-oneline"><strong>一句话</strong>：股份承诺附有批准条件，基金治理和实际分配办法尚未公布。</div>
+<p>10月18日，Anthropic宣布将5%股份承诺给新的公益基金，前提是股东批准。公司称基金采用全资LLC结构，可能向非营利组织或特定人群提供支持，并把AI对劳动力市场的影响列为潜在用途之一。</p>
+<p>官方还写明：估值每比设定基准高出50%，董事会可酌情追加2%股份；这不是自动追加。基金结构、治理和估值门槛细节将在未来几个月披露。TechCrunch报道引用Dario Amodei的说法，将公众对AI的疑虑称为一场信任危机。</p>
+<p>目前没有已公布的澳洲申请资格或付款安排，不能把股份比例直接当成已经发放的补助。后续要看的是股东批准、治理文件和实际分配办法；这次公告本身没有改变Claude的产品功能。</p>
+<div class="mp-source">来源：<a href="https://www.anthropic.com/news/public-benefit-fund">Anthropic</a> · <a href="https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/">TechCrunch</a></div>
+<hr class="mp-divider">
+<div class="mp-quickview">
+  <h3>发布状态</h3>
+  <ul>
+    <li>TorchNeuron：已宣布，公测按官方10月20日计划。</li>
+    <li>Modal Vera：采用计划与公司自测，未独立复测。</li>
+    <li>Anthropic基金：附股东批准条件，分配办法待公布。</li>
+  </ul>
+</div>
+<div class="mp-cta">
+  <div class="big">核对自己的任务，再判断是否需要迁移</div>
+  <div class="sub">公测时间、硬件可用性与功能支持以对应官方更新为准。</div>
+</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="card">
+        <h2>🎯 发稿就绪 <span class="tag">READY</span></h2>
+        <div class="render-status done" id="render-status">✅ 文章已就绪，点「📋 复制富文本」粘到公众号</div>
+        <p style="margin-top:10px">海报走同目录 <code>./poster-0.png</code> ~ <code>./poster-3.png</code>（CI 部署时 puppeteer 产出，WeChat 粘贴时自动抓取 re-host）。本地 <code>bun run render:posters</code> 手动生成。</p>
+      </div>
+
+      <div class="card">
+        <h2>📊 稿件信息 <span class="tag">META</span></h2>
+        <div class="stat-grid">
+          <div class="stat-item"><div class="v">1630</div><div class="k">字数</div></div>
+          <div class="stat-item"><div class="v">4</div><div class="k">海报</div></div>
+          <div class="stat-item"><div class="v">3</div><div class="k">新闻</div></div>
+          <div class="stat-item"><div class="v">4</div><div class="k">分钟读</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>🚀 发稿 2 步 <span class="tag">FLOW</span></h2>
+        <ol>
+          <li><strong>点「📋 复制富文本」</strong>：图片 URL 自动转成 <code>https://jr-academy-ai.github.io/...</code> 绝对地址。</li>
+          <li><strong>粘到公众号编辑器</strong>：<code>mp.weixin.qq.com</code> → <code>⌘/Ctrl+V</code> → 图文自动 re-host → 预览 → 发布。</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h2>⚙️ 日志 <span class="tag">LOG</span></h2>
+        <div id="log"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="../../_lib/mp-inline.v1.js"></script>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：所有复制/粘贴逻辑在 ../../_lib/mp-inline.v1.js。
+ * 数据来源：src/data/ai-daily/2026-10-20.json → build/pipelines/ai-daily.pipeline.ts 生成。
+ * 请勿手改此文件。
+ * ------------------------------------------------------------------ */
+MpInline.init({
+  articleSel: '#mp-article',
+  copyBtnSel: '#btn-copy-html',
+  brand: {"primary":"#ff5757","highlight":"#ffce44","dark":"#10162f","onDark":"#ffffff"},
+  onStatus: (msg, kind) => {
+    const el = document.getElementById('render-status');
+    if (el) { el.textContent = msg; el.className = 'render-status ' + (kind || ''); }
+  },
+  onLog: (msg) => {
+    const log = document.getElementById('log');
+    if (log) log.textContent += msg + '\n';
+  },
+});
+</script>
+</body>
+</html>

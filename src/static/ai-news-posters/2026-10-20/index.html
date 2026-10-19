@@ -1,0 +1,317 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-10-20（Canvas 版）</title>
+<meta name="description" content="2026-10-20 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-10-20.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-10-20",
+  "summary": {
+    "hook": [
+      {
+        "text": "TorchNeuron计划开放公测"
+      },
+      {
+        "text": "Modal测试Vera代理沙箱"
+      },
+      {
+        "text": "Anthropic承诺公益股份"
+      }
+    ],
+    "sub": "公测计划、CPU基准和附条件股份承诺，分别核对实际改变。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "AI开发",
+        "numColor": "#119B74",
+        "t": "AWS宣布TorchNeuron，计划10月20日开放公测"
+      },
+      {
+        "num": "02",
+        "cat": "代理基础设施",
+        "numColor": "#7861FF",
+        "t": "Modal计划用Vera CPU运行代理沙箱，测试仍是公司自报"
+      },
+      {
+        "num": "03",
+        "cat": "AI治理",
+        "numColor": "#FF3B6F",
+        "t": "Anthropic承诺5%股份设公益基金，仍需股东批准"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-torchneuron",
+      "idx": "01",
+      "country": "US",
+      "eventDate": "2026-10-19",
+      "catText": "AI开发",
+      "accent": "#119B74",
+      "bg": {
+        "top": "AI开发",
+        "mid": "TORCHNEURON",
+        "bot": "2026.10.20",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "AWS宣布TorchNeuron，计划10月20日开放公测"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "原生PyTorch后端接入Trainium；设备切换变简单，初版兼容范围仍要核对。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "计划10月20日开放公测，把Trainium接入PyTorch标准设备接口。"
+        },
+        {
+          "k": "怎么用",
+          "v": "设备选neuron；编译模式还需指定Neuron后端。"
+        },
+        {
+          "k": "限制",
+          "v": "初版不支持部分功能，不能把改一行等同于完成迁移。"
+        }
+      ],
+      "src": "PyTorch / AWS工程师 · GeekWire",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "PyTorch / AWS工程师",
+          "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+          "claim": "10月19日宣布，Apache 2.0及20日计划公测；不是已经验证可下载",
+          "quote": "TorchNeuron will be released as open source under Apache 2.0 at github.com/aws-neuron/torch-neuronx, going live as public Beta on Oct. 20."
+        },
+        {
+          "type": "primary",
+          "publisher": "PyTorch / AWS工程师",
+          "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+          "claim": "初版不支持的功能包括稀疏张量、动态及符号形状",
+          "quote": "sparse tensors and sparse ops"
+        },
+        {
+          "type": "independent",
+          "publisher": "GeekWire",
+          "url": "https://www.geekwire.com/2026/amazon-challenges-nvidias-software-advantage-with-new-tool-for-its-ai-chips/",
+          "claim": "记者采访AWS负责人，说明迁移前需要的芯片接口适配",
+          "quote": "Until now, developers who wanted to run PyTorch code on Trainium had to modify it"
+        }
+      ],
+      "sourceQuote": "TorchNeuron will be released as open source under Apache 2.0 at github.com/aws-neuron/torch-neuronx, going live as public Beta on Oct. 20.",
+      "mp": {
+        "h2": "AWS宣布TorchNeuron，计划10月20日开放公测",
+        "paragraphs": [
+          "10月19日，AWS工程师在PyTorch官网公布TorchNeuron，计划在10月20日以Apache 2.0许可证开放公测。它把Trainium接入PyTorch的标准设备接口，支持Trainium2和Trainium3，以及eager执行和torch.compile。公告中的日期是公测计划，本报道未验证安装包已经开放。",
+          "对照官方示例，模型可以用.to(&#x27;neuron&#x27;)选择设备；使用编译模式时，还要指定Neuron后端。GeekWire采访AWS负责人后报道，此前开发者需要修改代码，调用芯片专用接口。现在的变化是减少这层适配，不等于所有现有项目都能直接迁移。",
+          "初版明确未支持稀疏张量、动态和符号形状等功能。准备迁移的团队可以先拿自己的算子清单逐项对照，再核对硬件区域和完整任务成本；本次公告没有给出对所有模型都成立的节省比例。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/\">PyTorch / AWS工程师</a> · <a href=\"https://www.geekwire.com/2026/amazon-challenges-nvidias-software-advantage-with-new-tool-for-its-ai-chips/\">GeekWire</a>"
+      }
+    },
+    {
+      "slug": "02-modal-vera",
+      "idx": "02",
+      "country": "US",
+      "eventDate": "2026-10-19",
+      "catText": "代理基础设施",
+      "accent": "#7861FF",
+      "bg": {
+        "top": "代理基础设施",
+        "mid": "MODAL VERA",
+        "bot": "2026.10.20",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Modal计划用Vera CPU运行代理沙箱，测试仍是公司自报"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "新披露的是CPU并发测试和采用计划，不是大模型推理速度翻倍。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "Modal发布CPU并发测试，并计划为沙箱加入Arm Vera。"
+        },
+        {
+          "k": "测试范围",
+          "v": "50个任务去掉网络调用，测CPU工作负载，不是模型推理。"
+        },
+        {
+          "k": "边界",
+          "v": "最高两倍为公司基准；保留Intel/AMD，不是全面替换。"
+        }
+      ],
+      "src": "Modal · Reuters / Euronext转载",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Modal",
+          "url": "https://modal.com/blog/nvidia-vera-sandboxes",
+          "claim": "计划为Modal Sandboxes推出Vera支持，而非已证明所有用户可用",
+          "quote": "We’re very excited to roll out support for Vera CPUs to power Modal Sandboxes"
+        },
+        {
+          "type": "primary",
+          "publisher": "Modal",
+          "url": "https://modal.com/blog/nvidia-vera-sandboxes",
+          "claim": "测试任务去掉网络调用",
+          "quote": "stripped of all network calls"
+        },
+        {
+          "type": "primary",
+          "publisher": "Modal",
+          "url": "https://modal.com/blog/nvidia-vera-sandboxes",
+          "claim": "最高吞吐量比较来自公司自己的早期测试",
+          "quote": "Our early benchmarking runs show up to double the task throughput on Vera compared with an equivalent x86 GNR machine"
+        },
+        {
+          "type": "independent",
+          "publisher": "Reuters / Euronext转载",
+          "url": "https://live.euronext.com/en/financial-news/nvidia-wins-fast-growing-ai-startup-modal-new-central-processors",
+          "claim": "Reuters采访CEO，确认保留现有供应商的混合硬件策略",
+          "quote": "it is not abandoning its existing suppliers."
+        }
+      ],
+      "sourceQuote": "We’re very excited to roll out support for Vera CPUs to power Modal Sandboxes",
+      "mp": {
+        "h2": "Modal计划用Vera CPU运行代理沙箱，测试仍是公司自报",
+        "paragraphs": [
+          "Modal在10月19日发布Vera CPU测试，表示准备为AI代理沙箱加入这款英伟达Arm处理器。此前它长期运行x86机器；引入Arm还需要调整基础设施和镜像构建系统。Reuters当天报道，Modal计划把Vera与现有Intel、AMD硬件混用，而非全面替换。",
+          "这次测试针对代理执行任务时的CPU负载。代理除了等模型回答，还会安装依赖、搜索文件、运行程序。Modal从50个任务中去掉网络调用，在并发容器里测试；公司称，早期结果中Vera的任务吞吐量最高可达等效x86 GNR机器的两倍。",
+          "这个数字来自Modal自己的基准，不能解释为所有代理完成任务都快一倍，也不是GPU推理测试。本报道没有独立复测。对正在排查代理延迟的团队，更有用的是先分开记录模型等待与CPU执行耗时，确认瓶颈后再比较硬件。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://modal.com/blog/nvidia-vera-sandboxes\">Modal</a> · <a href=\"https://live.euronext.com/en/financial-news/nvidia-wins-fast-growing-ai-startup-modal-new-central-processors\">Reuters / Euronext转载</a>"
+      }
+    },
+    {
+      "slug": "03-anthropic-fund",
+      "idx": "03",
+      "country": "US",
+      "eventDate": "2026-10-18",
+      "catText": "AI治理",
+      "accent": "#FF3B6F",
+      "bg": {
+        "top": "AI治理",
+        "mid": "PUBLIC BENEFIT",
+        "bot": "2026.10.20",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Anthropic承诺5%股份设公益基金，仍需股东批准"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "股份承诺附有批准条件，基金治理和实际分配办法尚未公布。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "承诺",
+          "v": "5%股份划给新基金，以股东批准为前提。"
+        },
+        {
+          "k": "追加条件",
+          "v": "估值高出基准50%时，可由董事会酌情追加2%。"
+        },
+        {
+          "k": "未公布",
+          "v": "治理、受助资格和实际付款安排仍待说明。"
+        }
+      ],
+      "src": "Anthropic · TechCrunch",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "claim": "5%股份承诺需要股东批准",
+          "quote": "Subject to stockholder approval, 5% of Anthropic’s shares will be committed today"
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "claim": "每次追加2%取决于董事会酌情决定",
+          "quote": "with an additional 2% added at the board’s discretion for every 50% increase in the company’s value above a set baseline."
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+          "claim": "报道引用Amodei对公众信任问题的表述",
+          "quote": "fundamentally a crisis of trust."
+        }
+      ],
+      "sourceQuote": "Subject to stockholder approval, 5% of Anthropic’s shares will be committed today",
+      "mp": {
+        "h2": "Anthropic承诺5%股份设公益基金，仍需股东批准",
+        "paragraphs": [
+          "10月18日，Anthropic宣布将5%股份承诺给新的公益基金，前提是股东批准。公司称基金采用全资LLC结构，可能向非营利组织或特定人群提供支持，并把AI对劳动力市场的影响列为潜在用途之一。",
+          "官方还写明：估值每比设定基准高出50%，董事会可酌情追加2%股份；这不是自动追加。基金结构、治理和估值门槛细节将在未来几个月披露。TechCrunch报道引用Dario Amodei的说法，将公众对AI的疑虑称为一场信任危机。",
+          "目前没有已公布的澳洲申请资格或付款安排，不能把股份比例直接当成已经发放的补助。后续要看的是股东批准、治理文件和实际分配办法；这次公告本身没有改变Claude的产品功能。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.anthropic.com/news/public-benefit-fund\">Anthropic</a> · <a href=\"https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/\">TechCrunch</a>"
+      }
+    }
+  ],
+  "mp": {
+    "title": "TorchNeuron将开放公测，Modal测试Vera，Anthropic承诺公益股份",
+    "lead": "AWS计划开放新的PyTorch后端，Modal披露代理沙箱CPU测试，Anthropic提出附条件的公益股份承诺。三条均保留一手记录与独立报道，性能数字不作独立实测结论。",
+    "meta": {
+      "author": "JR Academy AI 日报",
+      "readTime": "4 分钟"
+    },
+    "quickview": {
+      "title": "发布状态",
+      "items": [
+        "TorchNeuron：已宣布，公测按官方10月20日计划。",
+        "Modal Vera：采用计划与公司自测，未独立复测。",
+        "Anthropic基金：附股东批准条件，分配办法待公布。"
+      ]
+    },
+    "cta": {
+      "big": "核对自己的任务，再判断是否需要迁移",
+      "sub": "公测时间、硬件可用性与功能支持以对应官方更新为准。"
+    }
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-10-20"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
