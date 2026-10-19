@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-18T11:23:46.250Z",
+  "lockedAt": "2026-10-19T00:08:04.152Z",
   "version": 1,
   "slugs": [
     {
@@ -936,6 +936,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-10-19"
+    },
+    {
+      "type": "article",
       "slug": "kmart-nail-glue-button-battery-accc-case-2026"
     },
     {
@@ -949,6 +953,10 @@
     {
       "type": "article",
       "slug": "npm-publish-security-claude-code-leak"
+    },
+    {
+      "type": "article",
+      "slug": "nsw-unapproved-peptides-ed-presentations-2026"
     },
     {
       "type": "article",
