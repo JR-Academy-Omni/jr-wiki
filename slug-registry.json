@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-20T23:39:54.456Z",
+  "lockedAt": "2026-10-20T23:59:15.732Z",
   "version": 1,
   "slugs": [
     {
@@ -993,6 +993,10 @@
     {
       "type": "article",
       "slug": "python-depth-for-ai-projects"
+    },
+    {
+      "type": "article",
+      "slug": "queensland-emobility-survey-2026"
     },
     {
       "type": "article",
