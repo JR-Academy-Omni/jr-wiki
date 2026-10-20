@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-19T00:08:04.152Z",
+  "lockedAt": "2026-10-20T00:08:03.507Z",
   "version": 1,
   "slugs": [
     {
@@ -389,6 +389,14 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-10-16"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-19"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-20"
     },
     {
       "type": "article",
@@ -940,6 +948,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-10-20"
+    },
+    {
+      "type": "article",
       "slug": "kmart-nail-glue-button-battery-accc-case-2026"
     },
     {
@@ -949,6 +961,10 @@
     {
       "type": "article",
       "slug": "mcp-protocol-security-ai-agent-rce"
+    },
+    {
+      "type": "article",
+      "slug": "nab-workforce-restructure-2026"
     },
     {
       "type": "article",
