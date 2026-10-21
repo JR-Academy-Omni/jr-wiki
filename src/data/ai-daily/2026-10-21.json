@@ -1,0 +1,354 @@
+{
+  "date": "2026-10-21",
+  "summary": {
+    "hook": [
+      {
+        "text": "FWC启用AI披露规则"
+      },
+      {
+        "text": "DeepInfer / TorchTPU开源"
+      },
+      {
+        "text": "Gemini连接车内个人信息"
+      }
+    ],
+    "sub": "生效规则、开源范围和账户条件，分别看清实际变化。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "澳洲职场",
+        "numColor": "#FF5757",
+        "t": "FWC的AI文件规则已生效：披露用途，自己核验"
+      },
+      {
+        "num": "02",
+        "cat": "推理部署",
+        "numColor": "#119B74",
+        "t": "DeepSeek开源DeepInfer，公开的是离线推理引擎"
+      },
+      {
+        "num": "03",
+        "cat": "AI开发",
+        "numColor": "#7861FF",
+        "t": "TorchTPU代码开放，PyTorch多了一条TPU原生路径"
+      },
+      {
+        "num": "04",
+        "cat": "个人AI",
+        "numColor": "#D5821D",
+        "t": "Gemini车载个性化开始推出，读取哪些应用由用户选择"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-fwc-genai",
+      "idx": "01",
+      "country": "AU",
+      "eventDate": "2026-10-20",
+      "catText": "澳洲职场",
+      "accent": "#FF5757",
+      "bg": {
+        "top": "澳洲职场",
+        "mid": "FWC GENAI",
+        "bot": "2026.10.21",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "FWC的AI文件规则已生效：披露用途，自己核验"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "10月20日起适用；AI可以协助起草，提交者仍须检查事实与引用。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "生效",
+          "v": "10月20日起，案件文件使用生成式AI须披露用途。"
+        },
+        {
+          "k": "核验",
+          "v": "自己检查准确性、相关性及真实依据，并声明已检查。"
+        },
+        {
+          "k": "证人材料",
+          "v": "须反映本人知识与用语，不能把生成内容当亲历事实。"
+        }
+      ],
+      "src": "FWC · FWC规则说明 · ABC News",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "FWC",
+          "url": "https://www.fwc.gov.au/about-us/news-and-media/news/new-genai-requirements-commission-cases",
+          "claim": "官方当天确认新要求开始适用",
+          "quote": "New requirements for the use of generative artificial intelligence (GenAI) in Commission cases apply from today, 20 October 2026."
+        },
+        {
+          "type": "primary",
+          "publisher": "FWC规则说明",
+          "url": "https://www.fwc.gov.au/genai",
+          "claim": "须声明已自行检查",
+          "quote": "state in the document that you have completed these checks."
+        },
+        {
+          "type": "independent",
+          "publisher": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-10-20/asx-markets-business-live-news-october-20-2026/107283924",
+          "claim": "记者当天报道规则开始适用",
+          "quote": "New rules to cut down on AI-powered legal cases are kicking in today."
+        }
+      ],
+      "sourceQuote": "New requirements for the use of generative artificial intelligence (GenAI) in Commission cases apply from today, 20 October 2026.",
+      "mp": {
+        "h2": "FWC的AI文件规则已生效：披露用途，自己核验",
+        "paragraphs": [
+          "澳洲Fair Work Commission（FWC，公平工作委员会）10月20日确认，案件文件使用生成式AI的新要求当天生效。指导说明已于8月发布，这次是开始适用，并非刚刚通过一部新的AI法律。ABC当天也报道了这项变化。",
+          "用AI创建、撰写或编辑提交材料，需要说明用了AI以及如何使用；提交者还须自行检查内容准确、相关，有真实证据和法律依据，并在文件中声明已完成检查。证人陈述另须基于本人知识、反映本人用语且据其所知属实。专业代表引用判例时还须附链接。",
+          "对准备劳动争议材料的人，实际多出的是披露和核验步骤。AI整理出来的判例名称，仍需找到原文确认。FWC也提醒不要把个人或机密案件信息输入公开AI工具；这份新闻概述不替代个案法律意见。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.fwc.gov.au/about-us/news-and-media/news/new-genai-requirements-commission-cases\">FWC</a> · <a href=\"https://www.fwc.gov.au/genai\">FWC规则说明</a> · <a href=\"https://www.abc.net.au/news/2026-10-20/asx-markets-business-live-news-october-20-2026/107283924\">ABC News</a>"
+      }
+    },
+    {
+      "slug": "02-deepinfer",
+      "idx": "02",
+      "country": "CN",
+      "eventDate": "2026-10-20",
+      "catText": "推理部署",
+      "accent": "#119B74",
+      "bg": {
+        "top": "推理部署",
+        "mid": "DEEPINFER",
+        "bot": "2026.10.21",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "DeepSeek开源DeepInfer，公开的是离线推理引擎"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "支持指定模型和硬件，完整在线服务仍需补齐缓存、拆分调度和负载均衡。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "开放内容",
+          "v": "生产推理框架的离线版本，以Apache 2.0发布。"
+        },
+        {
+          "k": "适用范围",
+          "v": "V4.1-Flash；SM100 GPU或Ascend 950 NPU。"
+        },
+        {
+          "k": "仍需补齐",
+          "v": "完整服务还缺KV缓存系统、拆分部署及副本负载均衡。"
+        }
+      ],
+      "src": "DeepSeek官方仓库 · TechTarget",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "DeepSeek官方仓库",
+          "url": "https://github.com/deepseek-ai/DeepInfer",
+          "claim": "公开范围为离线推理",
+          "quote": "This open-source release provides offline inference with the core features needed for serving at scale."
+        },
+        {
+          "type": "primary",
+          "publisher": "DeepSeek官方仓库",
+          "url": "https://github.com/deepseek-ai/DeepInfer",
+          "claim": "完整服务并非全部包含",
+          "quote": "Required for a complete inference service (not included in this release):"
+        },
+        {
+          "type": "independent",
+          "publisher": "TechTarget",
+          "url": "https://www.techtarget.com/ai/news/366652363/DeepSeek-makes-DeepInfer-open-source-to-cut-AI-costs",
+          "claim": "记者确认开源并讨论企业成本背景",
+          "quote": "DeepSeek on Tuesday made its in-house proprietary AI inference framework, DeepInfer, open source"
+        }
+      ],
+      "sourceQuote": "This open-source release provides offline inference with the core features needed for serving at scale.",
+      "mp": {
+        "h2": "DeepSeek开源DeepInfer，公开的是离线推理引擎",
+        "paragraphs": [
+          "DeepSeek于10月20日开放DeepInfer代码。官方仓库称，这是支撑其大规模服务的推理框架，本次公开版本提供离线推理。TechTarget当天报道了开源消息，并采访分析师讨论企业推理成本。",
+          "当前仓库列出的模型是DeepSeek-V4.1-Flash，硬件为NVIDIA SM100 GPU和华为Ascend 950 NPU。公开功能包括优化内核、异步调度、确定性采样与结构化输出，代码使用Apache 2.0许可证。",
+          "开源引擎还不是完整的在线服务。README明确列出未包含的KV缓存系统、VE/Prefill/Decode拆分，以及预填充和解码副本的负载均衡。澳洲开发团队评估时，需要把这些组件和硬件要求一起算入部署工作；本报道没有复现性能基准，也不推断具体省下多少费用。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://github.com/deepseek-ai/DeepInfer\">DeepSeek官方仓库</a> · <a href=\"https://www.techtarget.com/ai/news/366652363/DeepSeek-makes-DeepInfer-open-source-to-cut-AI-costs\">TechTarget</a>"
+      }
+    },
+    {
+      "slug": "03-torchtpu",
+      "idx": "03",
+      "country": "US",
+      "eventDate": "2026-10-20",
+      "catText": "AI开发",
+      "accent": "#7861FF",
+      "bg": {
+        "top": "AI开发",
+        "mid": "TORCHTPU",
+        "bot": "2026.10.21",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "TorchTPU代码开放，PyTorch多了一条TPU原生路径"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Google与Meta协作的原生后端开源；已有架构介绍不等于今天才开始研发。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "10月20日公开TorchTPU代码，增加TPU原生后端。"
+        },
+        {
+          "k": "执行方式",
+          "v": "支持eager调试与torch.compile编译路径。"
+        },
+        {
+          "k": "迁移判断",
+          "v": "仍需核对算子、精度、资源和项目实际工作负载。"
+        }
+      ],
+      "src": "Google Cloud · PyTorch团队 · TechCrunch",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus",
+          "claim": "开源代码已公开",
+          "quote": "is now available as open source on GitHub."
+        },
+        {
+          "type": "primary",
+          "publisher": "PyTorch团队",
+          "url": "https://pytorch.org/blog/introducing-torchtpu/",
+          "claim": "原生TPU后端机制",
+          "quote": "a native and principled PyTorch backend for Google TPUs."
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+          "claim": "记者确认开源",
+          "quote": "is now available as an open-source project."
+        }
+      ],
+      "sourceQuote": "is now available as open source on GitHub.",
+      "mp": {
+        "h2": "TorchTPU代码开放，PyTorch多了一条TPU原生路径",
+        "paragraphs": [
+          "Google在10月20日的PyTorch大会宣布，TorchTPU已作为开源项目公开。它与Meta的PyTorch团队共同开发，让TPU成为PyTorch的原生设备选项。TechCrunch同日报道开源。这次新增的是代码公开，不能把4月已有的技术介绍说成今天首次出现。",
+          "官方说明把eager执行和torch.compile都纳入路径：开发者可以沿用熟悉的接口调试模型，再用编译模式优化执行。Google同时列出vLLM、SGLang、TorchTitan和Hugging Face等工具的整合。",
+          "开发团队可以开始对照自己的模型评估TPU后端，检查算子支持、数值精度、硬件资源和完整工作负载。公司所说的少量代码改动，不足以证明任意模型都能无成本迁移。本报道未在TPU上做独立测试。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus\">Google Cloud</a> · <a href=\"https://pytorch.org/blog/introducing-torchtpu/\">PyTorch团队</a> · <a href=\"https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/\">TechCrunch</a>"
+      }
+    },
+    {
+      "slug": "04-gemini-car",
+      "idx": "04",
+      "country": "US",
+      "eventDate": "2026-10-20",
+      "catText": "个人AI",
+      "accent": "#D5821D",
+      "bg": {
+        "top": "个人AI",
+        "mid": "GEMINI CARS",
+        "bot": "2026.10.21",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Gemini车载个性化开始推出，读取哪些应用由用户选择"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Android Auto先分批推出，Google built-in车型还要等未来数月。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "先后顺序",
+          "v": "Android Auto先开始推出；Google built-in未来数月跟进。"
+        },
+        {
+          "k": "用途",
+          "v": "经授权后结合邮件、日历等信息回答车内问题。"
+        },
+        {
+          "k": "条件",
+          "v": "18岁以上合资格个人账户；应用连接由用户开启。"
+        }
+      ],
+      "src": "Google Android · Ars Technica",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Google Android",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/",
+          "claim": "应用连接由用户选择开启",
+          "quote": "Your apps aren’t connected until you choose to turn it on"
+        },
+        {
+          "type": "primary",
+          "publisher": "Google Android",
+          "url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/",
+          "claim": "Google built-in延后推出",
+          "quote": "in the coming months on cars with Google built-in."
+        },
+        {
+          "type": "independent",
+          "publisher": "Ars Technica",
+          "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+          "claim": "记者确认个性化扩展到车内且可选",
+          "quote": "it is still, thankfully, an optional feature."
+        }
+      ],
+      "sourceQuote": "Your apps aren’t connected until you choose to turn it on",
+      "mp": {
+        "h2": "Gemini车载个性化开始推出，读取哪些应用由用户选择",
+        "paragraphs": [
+          "Google于10月20日开始向Android Auto推出Gemini的Personal Intelligence，让助手在获准后结合Gmail、日历、照片、地图等信息回答问题。Ars Technica同日报道了这项车载扩展。Gemini此前已能在车内使用，新增的是个人信息连接。",
+          "Google给出的场景是去机场途中询问登机口和航班状态，由助手结合邮件等信息作答。这是公司展示的用途，本报道未实测。Android Auto从当天开始分批推出；使用Google built-in的车型则安排在未来数月，两个时间不能混写。",
+          "官方注明，范围是年满18岁的合资格个人Google账户，不含Workspace商业、企业或教育账户，并列有地域排除。澳洲未列入这些排除地区，但仍要核对账户、设备及推出进度。应用连接需自行开启，也可随时关闭；决定是否启用前，可以先检查愿意授权哪些信息。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/\">Google Android</a> · <a href=\"https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/\">Ars Technica</a>"
+      }
+    }
+  ],
+  "mp": {
+    "title": "澳洲FWC要求披露AI起草，DeepInfer与TorchTPU开源，Gemini接入车内个人信息",
+    "lead": "澳洲劳动争议文件新增AI披露要求；DeepSeek和Google分别开放推理引擎与PyTorch后端；Gemini开始把个人信息连接带进车载场景。",
+    "meta": {
+      "author": "JR Academy AI 日报",
+      "readTime": "5 分钟"
+    },
+    "quickview": {
+      "title": "这次具体改了什么",
+      "items": [
+        "FWC：AI协助起草也要披露并自行核验。",
+        "DeepInfer：离线引擎开放，在线服务仍需组件。",
+        "TorchTPU：原生后端代码公开，迁移仍需验证。",
+        "Gemini：个人信息连接进入车载，分批推出。"
+      ]
+    },
+    "cta": {
+      "big": "按实际任务检查适用条件",
+      "sub": "规则以FWC官方说明为准；开源范围、账户与设备支持以产品当前文档为准。"
+    }
+  }
+}

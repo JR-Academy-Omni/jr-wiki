@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 日报 2026-10-21 · 公众号文章（内部）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --mp-primary: #ff5757;
+  --mp-highlight: #ffce44;
+  --mp-dark: #10162f;
+}
+</style>
+<link rel="stylesheet" href="../../_lib/mp-page.v1.css">
+</head>
+<body>
+<div class="page">
+  <div class="topbar">
+    <div>
+      <h1>📰 AI 日报 · <span>公众号文章</span> · 2026-10-21</h1>
+      <div class="sub">左侧 375px 手机预览 · 右侧进度 + 操作。点「📋 复制富文本」后粘到公众号编辑器，图片自动抓取 re-host。</div>
+    </div>
+    <div class="acts">
+      <a class="btn" href="./">← 回海报库</a>
+      <button class="btn" id="btn-copy-html">📋 复制富文本</button>
+      <button class="btn primary" id="btn-download-all" disabled>⬇ 下载 5 张 PNG</button>
+    </div>
+  </div>
+
+  <div class="layout">
+
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-bar">
+          <span><span class="dot"></span>mp.weixin.qq.com</span>
+          <span>375px · 预览</span>
+        </div>
+        <article class="mp" id="mp-article">
+<div class="mp-title">澳洲FWC要求披露AI起草，DeepInfer与TorchTPU开源，Gemini接入车内个人信息</div>
+<div class="mp-meta">
+  <span class="author">JR Academy AI 日报</span>
+  <span>·</span><span>2026-10-21</span>
+  <span>·</span><span>阅读约 5 分钟</span>
+</div>
+<div class="mp-lead">澳洲劳动争议文件新增AI披露要求；DeepSeek和Google分别开放推理引擎与PyTorch后端；Gemini开始把个人信息连接带进车载场景。</div>
+<img class="mp-img" src="./poster-0.png" alt="图 1 · 合集海报" data-poster="poster-0" data-file="mp-01-summary.png">
+<div class="mp-caption">图 1 · 合集海报</div>
+<hr class="mp-divider">
+<div class="mp-hook">01 · 澳洲职场</div>
+<div class="mp-h2">FWC的AI文件规则已生效：披露用途，自己核验</div>
+<img class="mp-img" src="./poster-1.png" alt="图 2 · 海报 01" data-poster="poster-1" data-file="mp-02-01-fwc-genai.png">
+<div class="mp-caption">图 2 · 海报 01</div>
+<div class="mp-oneline"><strong>一句话</strong>：10月20日起适用；AI可以协助起草，提交者仍须检查事实与引用。</div>
+<p>澳洲Fair Work Commission（FWC，公平工作委员会）10月20日确认，案件文件使用生成式AI的新要求当天生效。指导说明已于8月发布，这次是开始适用，并非刚刚通过一部新的AI法律。ABC当天也报道了这项变化。</p>
+<p>用AI创建、撰写或编辑提交材料，需要说明用了AI以及如何使用；提交者还须自行检查内容准确、相关，有真实证据和法律依据，并在文件中声明已完成检查。证人陈述另须基于本人知识、反映本人用语且据其所知属实。专业代表引用判例时还须附链接。</p>
+<p>对准备劳动争议材料的人，实际多出的是披露和核验步骤。AI整理出来的判例名称，仍需找到原文确认。FWC也提醒不要把个人或机密案件信息输入公开AI工具；这份新闻概述不替代个案法律意见。</p>
+<div class="mp-source">来源：<a href="https://www.fwc.gov.au/about-us/news-and-media/news/new-genai-requirements-commission-cases">FWC</a> · <a href="https://www.fwc.gov.au/genai">FWC规则说明</a> · <a href="https://www.abc.net.au/news/2026-10-20/asx-markets-business-live-news-october-20-2026/107283924">ABC News</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">02 · 推理部署</div>
+<div class="mp-h2">DeepSeek开源DeepInfer，公开的是离线推理引擎</div>
+<img class="mp-img" src="./poster-2.png" alt="图 3 · 海报 02" data-poster="poster-2" data-file="mp-03-02-deepinfer.png">
+<div class="mp-caption">图 3 · 海报 02</div>
+<div class="mp-oneline"><strong>一句话</strong>：支持指定模型和硬件，完整在线服务仍需补齐缓存、拆分调度和负载均衡。</div>
+<p>DeepSeek于10月20日开放DeepInfer代码。官方仓库称，这是支撑其大规模服务的推理框架，本次公开版本提供离线推理。TechTarget当天报道了开源消息，并采访分析师讨论企业推理成本。</p>
+<p>当前仓库列出的模型是DeepSeek-V4.1-Flash，硬件为NVIDIA SM100 GPU和华为Ascend 950 NPU。公开功能包括优化内核、异步调度、确定性采样与结构化输出，代码使用Apache 2.0许可证。</p>
+<p>开源引擎还不是完整的在线服务。README明确列出未包含的KV缓存系统、VE/Prefill/Decode拆分，以及预填充和解码副本的负载均衡。澳洲开发团队评估时，需要把这些组件和硬件要求一起算入部署工作；本报道没有复现性能基准，也不推断具体省下多少费用。</p>
+<div class="mp-source">来源：<a href="https://github.com/deepseek-ai/DeepInfer">DeepSeek官方仓库</a> · <a href="https://www.techtarget.com/ai/news/366652363/DeepSeek-makes-DeepInfer-open-source-to-cut-AI-costs">TechTarget</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">03 · AI开发</div>
+<div class="mp-h2">TorchTPU代码开放，PyTorch多了一条TPU原生路径</div>
+<img class="mp-img" src="./poster-3.png" alt="图 4 · 海报 03" data-poster="poster-3" data-file="mp-04-03-torchtpu.png">
+<div class="mp-caption">图 4 · 海报 03</div>
+<div class="mp-oneline"><strong>一句话</strong>：Google与Meta协作的原生后端开源；已有架构介绍不等于今天才开始研发。</div>
+<p>Google在10月20日的PyTorch大会宣布，TorchTPU已作为开源项目公开。它与Meta的PyTorch团队共同开发，让TPU成为PyTorch的原生设备选项。TechCrunch同日报道开源。这次新增的是代码公开，不能把4月已有的技术介绍说成今天首次出现。</p>
+<p>官方说明把eager执行和torch.compile都纳入路径：开发者可以沿用熟悉的接口调试模型，再用编译模式优化执行。Google同时列出vLLM、SGLang、TorchTitan和Hugging Face等工具的整合。</p>
+<p>开发团队可以开始对照自己的模型评估TPU后端，检查算子支持、数值精度、硬件资源和完整工作负载。公司所说的少量代码改动，不足以证明任意模型都能无成本迁移。本报道未在TPU上做独立测试。</p>
+<div class="mp-source">来源：<a href="https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus">Google Cloud</a> · <a href="https://pytorch.org/blog/introducing-torchtpu/">PyTorch团队</a> · <a href="https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/">TechCrunch</a></div>
+<hr class="mp-divider">
+<div class="mp-hook">04 · 个人AI</div>
+<div class="mp-h2">Gemini车载个性化开始推出，读取哪些应用由用户选择</div>
+<img class="mp-img" src="./poster-4.png" alt="图 5 · 海报 04" data-poster="poster-4" data-file="mp-05-04-gemini-car.png">
+<div class="mp-caption">图 5 · 海报 04</div>
+<div class="mp-oneline"><strong>一句话</strong>：Android Auto先分批推出，Google built-in车型还要等未来数月。</div>
+<p>Google于10月20日开始向Android Auto推出Gemini的Personal Intelligence，让助手在获准后结合Gmail、日历、照片、地图等信息回答问题。Ars Technica同日报道了这项车载扩展。Gemini此前已能在车内使用，新增的是个人信息连接。</p>
+<p>Google给出的场景是去机场途中询问登机口和航班状态，由助手结合邮件等信息作答。这是公司展示的用途，本报道未实测。Android Auto从当天开始分批推出；使用Google built-in的车型则安排在未来数月，两个时间不能混写。</p>
+<p>官方注明，范围是年满18岁的合资格个人Google账户，不含Workspace商业、企业或教育账户，并列有地域排除。澳洲未列入这些排除地区，但仍要核对账户、设备及推出进度。应用连接需自行开启，也可随时关闭；决定是否启用前，可以先检查愿意授权哪些信息。</p>
+<div class="mp-source">来源：<a href="https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/">Google Android</a> · <a href="https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/">Ars Technica</a></div>
+<hr class="mp-divider">
+<div class="mp-quickview">
+  <h3>这次具体改了什么</h3>
+  <ul>
+    <li>FWC：AI协助起草也要披露并自行核验。</li>
+    <li>DeepInfer：离线引擎开放，在线服务仍需组件。</li>
+    <li>TorchTPU：原生后端代码公开，迁移仍需验证。</li>
+    <li>Gemini：个人信息连接进入车载，分批推出。</li>
+  </ul>
+</div>
+<div class="mp-cta">
+  <div class="big">按实际任务检查适用条件</div>
+  <div class="sub">规则以FWC官方说明为准；开源范围、账户与设备支持以产品当前文档为准。</div>
+</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="card">
+        <h2>🎯 发稿就绪 <span class="tag">READY</span></h2>
+        <div class="render-status done" id="render-status">✅ 文章已就绪，点「📋 复制富文本」粘到公众号</div>
+        <p style="margin-top:10px">海报走同目录 <code>./poster-0.png</code> ~ <code>./poster-4.png</code>（CI 部署时 puppeteer 产出，WeChat 粘贴时自动抓取 re-host）。本地 <code>bun run render:posters</code> 手动生成。</p>
+      </div>
+
+      <div class="card">
+        <h2>📊 稿件信息 <span class="tag">META</span></h2>
+        <div class="stat-grid">
+          <div class="stat-item"><div class="v">2111</div><div class="k">字数</div></div>
+          <div class="stat-item"><div class="v">5</div><div class="k">海报</div></div>
+          <div class="stat-item"><div class="v">4</div><div class="k">新闻</div></div>
+          <div class="stat-item"><div class="v">5</div><div class="k">分钟读</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>🚀 发稿 2 步 <span class="tag">FLOW</span></h2>
+        <ol>
+          <li><strong>点「📋 复制富文本」</strong>：图片 URL 自动转成 <code>https://jr-academy-ai.github.io/...</code> 绝对地址。</li>
+          <li><strong>粘到公众号编辑器</strong>：<code>mp.weixin.qq.com</code> → <code>⌘/Ctrl+V</code> → 图文自动 re-host → 预览 → 发布。</li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h2>⚙️ 日志 <span class="tag">LOG</span></h2>
+        <div id="log"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="../../_lib/mp-inline.v1.js"></script>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：所有复制/粘贴逻辑在 ../../_lib/mp-inline.v1.js。
+ * 数据来源：src/data/ai-daily/2026-10-21.json → build/pipelines/ai-daily.pipeline.ts 生成。
+ * 请勿手改此文件。
+ * ------------------------------------------------------------------ */
+MpInline.init({
+  articleSel: '#mp-article',
+  copyBtnSel: '#btn-copy-html',
+  brand: {"primary":"#ff5757","highlight":"#ffce44","dark":"#10162f","onDark":"#ffffff"},
+  onStatus: (msg, kind) => {
+    const el = document.getElementById('render-status');
+    if (el) { el.textContent = msg; el.className = 'render-status ' + (kind || ''); }
+  },
+  onLog: (msg) => {
+    const log = document.getElementById('log');
+    if (log) log.textContent += msg + '\n';
+  },
+});
+</script>
+</body>
+</html>
