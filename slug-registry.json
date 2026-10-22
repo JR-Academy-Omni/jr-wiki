@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-22T00:03:06.683Z",
+  "lockedAt": "2026-10-22T01:06:52.012Z",
   "version": 1,
   "slugs": [
     {
@@ -401,6 +401,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-10-21"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-22"
     },
     {
       "type": "article",
@@ -2257,6 +2261,16 @@
       "type": "chapter",
       "book": "kiro-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "06-mcp-custom-integration"
+    },
+    {
+      "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "07-team-collaboration"
     },
     {
       "type": "chapter",
