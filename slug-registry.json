@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-22T00:03:06.683Z",
+  "lockedAt": "2026-10-23T23:37:22.409Z",
   "version": 1,
   "slugs": [
     {
@@ -401,6 +401,14 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-10-21"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-22"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-10-23"
     },
     {
       "type": "article",
@@ -961,6 +969,14 @@
     {
       "type": "article",
       "slug": "it-daily-2026-10-22"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-10-23"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-10-24"
     },
     {
       "type": "article",
