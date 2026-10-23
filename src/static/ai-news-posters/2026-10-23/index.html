@@ -1,0 +1,278 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-10-23（Canvas 版）</title>
+<meta name="description" content="2026-10-23 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-10-23.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-10-23",
+  "summary": {
+    "hook": [
+      {
+        "text": "Duet开放候补"
+      },
+      {
+        "text": "Decisions API正式开放"
+      },
+      {
+        "text": "Skills交给AAIF"
+      }
+    ],
+    "sub": "主动代理、有限答案决策与技能治理，三项变化及其使用边界。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "主动代理",
+        "numColor": "#FF5757",
+        "t": "Claude Duet会主动找任务，发送和付款仍要先批准"
+      },
+      {
+        "num": "02",
+        "cat": "开发接口",
+        "numColor": "#119B74",
+        "t": "Decisions API正式开放，专门处理有限答案的小决策"
+      },
+      {
+        "num": "03",
+        "cat": "开放标准",
+        "numColor": "#7861FF",
+        "t": "Agent Skills交给AAIF，变化在治理而非首次开源"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-claude-duet",
+      "idx": "01",
+      "catText": "主动代理",
+      "accent": "#FF5757",
+      "bg": {
+        "top": "主动代理",
+        "mid": "AGENTS",
+        "bot": "2026.10.23",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Claude Duet会主动找任务，发送和付款仍要先批准"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "美国Pro/Max候补研究预览；后台检查计入共享额度。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "开放",
+          "v": "10月21日开放美国Pro/Max候补。"
+        },
+        {
+          "k": "动作",
+          "v": "发消息、付款、签署、删除前等待批准。"
+        },
+        {
+          "k": "边界",
+          "v": "后台检查耗用额度，澳洲可用未获确认。"
+        }
+      ],
+      "src": "Anthropic · MacRumors",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "claim": "美国Pro/Max候补",
+          "quote": "We’re starting today with Pro and Max users in the US."
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "claim": "后台计入共享额度",
+          "quote": "Its background checks count toward those limits"
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "claim": "重要动作等待批准",
+          "quote": "waits for your approval."
+        },
+        {
+          "type": "independent",
+          "publisher": "MacRumors",
+          "url": "https://www.macrumors.com/2026/10/21/anthropic-claude-duet/",
+          "claim": "独立报道美国限定",
+          "quote": "It’s limited to Pro and Max subscribers in the United States"
+        }
+      ]
+    },
+    {
+      "slug": "02-decisions-api",
+      "idx": "02",
+      "catText": "开发接口",
+      "accent": "#119B74",
+      "bg": {
+        "top": "开发接口",
+        "mid": "DECISIONS",
+        "bot": "2026.10.23",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Decisions API正式开放，专门处理有限答案的小决策"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "分类、路由和下一步选择，可分别评估。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "10月22日正式开放，基于GPT-6 Luna。"
+        },
+        {
+          "k": "接口",
+          "v": "三类输出：概率、选择和分数。"
+        },
+        {
+          "k": "更新",
+          "v": "GPT-Live集成、缓存、JSON、每次400问。"
+        }
+      ],
+      "src": "OpenAI · TechCrunch",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/decisions-api/",
+          "claim": "正式开放",
+          "quote": "Today, we’re making the Decisions API generally available."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/decisions-api/",
+          "claim": "单请求上限400",
+          "quote": "ask up to 400 questions per request"
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/decisions-api/",
+          "claim": "驻留地区",
+          "quote": "inference residency in the US and EU"
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+          "claim": "独立确认全面开放",
+          "quote": "the Decisions API became available to all customers on Thursday."
+        }
+      ]
+    },
+    {
+      "slug": "03-agent-skills",
+      "idx": "03",
+      "catText": "开放标准",
+      "accent": "#7861FF",
+      "bg": {
+        "top": "开放标准",
+        "mid": "SKILLS",
+        "bot": "2026.10.23",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Agent Skills交给AAIF，变化在治理而非首次开源"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "此前已开放；本次移交名称、域名与GitHub组织。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "10月22日捐赠给Linux Foundation旗下AAIF。"
+        },
+        {
+          "k": "范围",
+          "v": "移交名称、Logo、GitHub组织及域名。"
+        },
+        {
+          "k": "边界",
+          "v": "新版本流程与安全指引仍是路线图。"
+        }
+      ],
+      "src": "Anthropic · Simon Willison",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "claim": "移交治理",
+          "quote": "we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation"
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "claim": "无需加盟",
+          "quote": "You can continue to use the standard or contribute to it without joining the AAIF."
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "claim": "路线图处于提案阶段",
+          "quote": "We’ve proposed starting with a roadmap covering versioned releases, a formal proposal process, and security guidance"
+        },
+        {
+          "type": "independent",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+          "claim": "此前已经开放而不是本次才开源",
+          "quote": "when Anthropic first declared skills to be an \"open standard\""
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "Claude Duet开放候补 / Decisions API正式开放 / Agent Skills转交AAIF"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-10-23"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
