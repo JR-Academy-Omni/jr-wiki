@@ -1,0 +1,337 @@
+{
+  "date": "2026-10-27",
+  "summary": {
+    "hook": [
+      {
+        "text": "Terra发布"
+      },
+      {
+        "text": "Anthropic递表"
+      },
+      {
+        "text": "算力融资"
+      }
+    ],
+    "sub": "模型选择、上市申请与两项融资，逐项核对完成状态。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "模型",
+        "numColor": "#FF5757",
+        "t": "GPT-6.1 Terra发布，标准API价格低于前代"
+      },
+      {
+        "num": "02",
+        "cat": "上市",
+        "numColor": "#119B74",
+        "t": "Anthropic递交S-1，上市价格尚未确定"
+      },
+      {
+        "num": "03",
+        "cat": "算力融资",
+        "numColor": "#7861FF",
+        "t": "SpaceX签约GPU融资租赁，设备尚待交付"
+      },
+      {
+        "num": "04",
+        "cat": "股权融资",
+        "numColor": "#D67935",
+        "t": "Meta启动股权发行，ATM计划还未签约"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-terra",
+      "idx": "01",
+      "catText": "模型",
+      "accent": "#FF5757",
+      "bg": {
+        "top": "模型",
+        "mid": "MODEL",
+        "bot": "2026.10.27",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "GPT-6.1 Terra发布，标准API价格低于前代"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "厂商基准需与自己的任务验收分开。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "GPT-6.1 Terra发布，标准API价格低于前代"
+        },
+        {
+          "k": "核对",
+          "v": "厂商基准需与自己的任务验收分开。"
+        }
+      ],
+      "src": "📎 openai.com · thenextweb.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "claim": "与前代及Sol的标准API价格比较",
+          "quote": "standard API prices are 50% lower than those of GPT-5.6 Terra and GPT-6.1 Sol"
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "claim": "订阅计划开放范围",
+          "quote": "all Plus, Pro, Enterprise, and Edu users"
+        },
+        {
+          "type": "independent",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-gpt-6-1-terra-computer-use",
+          "claim": "10月26日模型发布",
+          "quote": "OpenAI on Monday released GPT-6.1 Terra"
+        }
+      ],
+      "mp": {
+        "paragraphs": [
+          "OpenAI称，新模型结合视觉推理与电脑操作能力；标准API价格比GPT-5.6 Terra和GPT-6.1 Sol低50%。它开始向ChatGPT Work和Codex的Plus、Pro、Enterprise及Edu用户开放。The Next Web同日独立报道了发布。",
+          "对开发团队，实际要比较的是自己的任务能否完成、需要多少次重试，以及最终成本。官方基准中的速度和成功率属于OpenAI测评，不能直接当作你的业务表现。复杂编码任务如何选，发布页仍将GPT-6.1 Sol和GPT-6 Astra列为更合适的选择。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://openai.com/index/introducing-gpt-6-1-terra/\">OpenAI</a>；<a href=\"https://thenextweb.com/news/openai-gpt-6-1-terra-computer-use\">The Next Web</a>"
+      }
+    },
+    {
+      "slug": "02-anthropic-s1",
+      "idx": "02",
+      "catText": "上市",
+      "accent": "#119B74",
+      "bg": {
+        "top": "上市",
+        "mid": "IPO",
+        "bot": "2026.10.27",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Anthropic递交S-1，上市价格尚未确定"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "递表、注册生效与上市应分别核对。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "Anthropic递交S-1，上市价格尚未确定"
+        },
+        {
+          "k": "核对",
+          "v": "递表、注册生效与上市应分别核对。"
+        }
+      ],
+      "src": "📎 www.anthropic.com · www.sec.gov · techcrunch.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "claim": "已提交注册申请",
+          "quote": "filed a registration statement on Form S-1"
+        },
+        {
+          "type": "primary",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "claim": "注册尚未生效",
+          "quote": "has not yet become effective"
+        },
+        {
+          "type": "primary",
+          "publisher": "SEC S-1",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+          "claim": "F类股在一般事项上的投票权；特定董事选举另有安排",
+          "quote": "50.1% of the total voting power"
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "claim": "募资额和发行价未披露",
+          "quote": "Anthropic hasn’t yet disclosed how much it hopes to raise nor its proposed share price."
+        }
+      ],
+      "mp": {
+        "paragraphs": [
+          "Anthropic在10月26日宣布已向美国证券交易委员会提交S-1，拟以ANT为代码在纳斯达克全球精选市场上市。公司公告明确，发行股数和价格区间尚未确定，注册声明也尚未生效。TechCrunch独立报道了递表。",
+          "S-1封面披露，创始人实体Founder LLC持有的F类股，将在一般提交股东表决的事项上拥有合计50.1%的投票权；文件对特定董事选举另有安排。这是控制权结构的披露，不能据此推测发行价或上市后的回报。需要了解Claude供应商治理的团队，现在可以查阅公开申请文件。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.anthropic.com/news/s1-sec\">Anthropic</a>；<a href=\"https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm\">SEC S-1</a>；<a href=\"https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/\">TechCrunch</a>"
+      }
+    },
+    {
+      "slug": "03-spacex-gpu-lease",
+      "idx": "03",
+      "catText": "算力融资",
+      "accent": "#7861FF",
+      "bg": {
+        "top": "算力融资",
+        "mid": "COMPUTE",
+        "bot": "2026.10.27",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "SpaceX签约GPU融资租赁，设备尚待交付"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "预计年底前交割，租约随设备交付起算。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "SpaceX签约GPU融资租赁，设备尚待交付"
+        },
+        {
+          "k": "核对",
+          "v": "预计年底前交割，租约随设备交付起算。"
+        }
+      ],
+      "src": "📎 www.apollo.com · techcrunch.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Apollo",
+          "url": "https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever",
+          "claim": "约400亿美元主融资租赁",
+          "quote": "approximately $40 billion master finance lease"
+        },
+        {
+          "type": "primary",
+          "publisher": "Apollo",
+          "url": "https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever",
+          "claim": "芯片型号",
+          "quote": "NVIDIA Vera Rubin"
+        },
+        {
+          "type": "primary",
+          "publisher": "Apollo",
+          "url": "https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever",
+          "claim": "预计交割",
+          "quote": "prior to year-end 2026"
+        },
+        {
+          "type": "primary",
+          "publisher": "Apollo",
+          "url": "https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever",
+          "claim": "预计设备交付与租约起算窗口",
+          "quote": "first half of 2027"
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+          "claim": "有约束力的融资承诺",
+          "quote": "binding commitment for roughly $40 billion"
+        }
+      ],
+      "mp": {
+        "paragraphs": [
+          "Apollo在10月26日公告，SpaceX已取得一项有约束力的承诺，拟与Apollo管理的实体订立约400亿美元GPU及配套设备主融资租赁。公告指向NVIDIA Vera Rubin芯片。TechCrunch独立报道了这项安排。",
+          "交易仍需满足交割条件，预计2026年底前完成；各期租约预计在2027年上半年设备交付后起算。因此，400亿美元指向融资租赁安排，不能写成新增算力已经上线。对关注算力采购的企业，这份公告提供了设备融资路径，但没有给出澳洲客户的供应时间或价格。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.apollo.com/insights-news/pressreleases/2026/10/spacex-secures--40-billion-in-the-largest-gpu-financing-ever\">Apollo</a>；<a href=\"https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/\">TechCrunch</a>"
+      }
+    },
+    {
+      "slug": "04-meta-equity",
+      "idx": "04",
+      "catText": "股权融资",
+      "accent": "#D67935",
+      "bg": {
+        "top": "股权融资",
+        "mid": "CAPITAL",
+        "bot": "2026.10.27",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Meta启动股权发行，ATM计划还未签约"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "350亿美元承销发行与600亿美元计划分开。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "变化",
+          "v": "Meta启动股权发行，ATM计划还未签约"
+        },
+        {
+          "k": "核对",
+          "v": "350亿美元承销发行与600亿美元计划分开。"
+        }
+      ],
+      "src": "📎 www.sec.gov · www.irishtimes.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Meta SEC FWP",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431036/d116268dfwp.htm",
+          "claim": "承销发行规模",
+          "quote": "Approximately $35 billion of underwritten public offerings"
+        },
+        {
+          "type": "primary",
+          "publisher": "Meta SEC FWP",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431036/d116268dfwp.htm",
+          "claim": "ATM规模",
+          "quote": "approximately $60 billion at-the-market"
+        },
+        {
+          "type": "primary",
+          "publisher": "Meta SEC FWP",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431036/d116268dfwp.htm",
+          "claim": "ATM协议尚未签署",
+          "quote": "has not entered into any agreement"
+        },
+        {
+          "type": "independent",
+          "publisher": "Financial Times via The Irish Times",
+          "url": "https://www.irishtimes.com/business/2026/10/26/meta-plans-95bn-stock-offering-to-bankroll-ai-expansion/",
+          "claim": "周一启动融资",
+          "quote": "Meta kicked off that fundraising process on Monday"
+        }
+      ],
+      "mp": {
+        "paragraphs": [
+          "Meta的10月26日SEC文件列出约350亿美元承销公开发行，组成包括约225亿美元A类普通股，以及约125亿美元对应强制可转换优先股的存托股。文件将融资与AI基础设施投入联系起来。Financial Times经The Irish Times刊发的报道独立确认了融资启动。",
+          "另一个约600亿美元的ATM计划，要等此前宣布的C类股开始交易后再推出。文件写明，公司尚未就这项计划签订协议。因此，两项规模相加得到的约950亿美元，不能表述为当天到账；普通股远期发售部分，Meta也不预计最初就收到售股款。"
+        ],
+        "sourceHtml": "来源：<a href=\"https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431036/d116268dfwp.htm\">Meta SEC FWP</a>；<a href=\"https://www.irishtimes.com/business/2026/10/26/meta-plans-95bn-stock-offering-to-bankroll-ai-expansion/\">Financial Times via The Irish Times</a>"
+      }
+    }
+  ],
+  "mp": {
+    "title": "Terra发布 / Anthropic递表 / SpaceX签GPU租赁 / Meta启动股权融资",
+    "lead": "OpenAI发布Terra；Anthropic、SpaceX和Meta分别推进上市申请、GPU租赁与股权融资。",
+    "meta": {
+      "author": "JR Academy",
+      "readTime": "4 分钟"
+    },
+    "cta": {
+      "big": "阅读公告时核对完成状态",
+      "sub": "模型可用性、注册生效、融资交割与设备交付分别以原始公告为准。"
+    }
+  }
+}
