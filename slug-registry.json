@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-28T23:42:03.000Z",
+  "lockedAt": "2026-10-29T01:05:41.035Z",
   "version": 1,
   "slugs": [
     {
@@ -1001,6 +1001,10 @@
     {
       "type": "article",
       "slug": "it-daily-2026-10-28"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-10-29"
     },
     {
       "type": "article",
@@ -2300,6 +2304,16 @@
     },
     {
       "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "06-workflows"
+    },
+    {
+      "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "07-kiro-web-and-crew"
+    },
+    {
+      "type": "chapter",
       "book": "lovable-guide",
       "slug": "01-what-is-lovable"
     },
@@ -2730,10 +2744,6 @@
     {
       "type": "story",
       "slug": "bob-civil-to-devops"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-10-29"
     }
   ]
 }
