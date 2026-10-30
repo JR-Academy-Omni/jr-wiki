@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-28T23:42:03.000Z",
+  "lockedAt": "2026-10-30T23:38:56.974Z",
   "version": 1,
   "slugs": [
     {
@@ -1001,6 +1001,18 @@
     {
       "type": "article",
       "slug": "it-daily-2026-10-28"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-10-29"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-10-30"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-10-31"
     },
     {
       "type": "article",
@@ -2730,10 +2742,6 @@
     {
       "type": "story",
       "slug": "bob-civil-to-devops"
-    },
-    {
-      "type": "article",
-      "slug": "it-daily-2026-10-29"
     }
   ]
 }
