@@ -1,0 +1,26 @@
+{
+	"country": "MY",
+	"year": 2027,
+	"source": "https://publicholidays.com.my/2027-dates/",
+	"note": "Malaysia federal public holidays (national entries only; state-only days excluded, matching the 2026 file). Islamic holidays are estimates subject to moon sighting — re-verify against the BKPP / Jabatan Perdana Menteri official gazette before each January. Cross-checked 2026-11-02 with ecentral.my/cuti-2027 (CNY 6 Feb, Merdeka 31 Aug, Malaysia Day 16 Sep, Deepavali 28 Oct, Christmas 25 Dec).",
+	"holidays": [
+		{ "date": "2027-01-01", "name": "New Year's Day", "localName": "Hari Tahun Baru", "type": "Public" },
+		{ "date": "2027-02-06", "name": "Chinese New Year", "localName": "Tahun Baru Cina", "type": "Public" },
+		{ "date": "2027-02-07", "name": "Chinese New Year Holiday", "localName": "Cuti Tahun Baru Cina", "type": "Public" },
+		{ "date": "2027-02-08", "name": "Chinese New Year Holiday", "localName": "Cuti Tahun Baru Cina", "type": "Public" },
+		{ "date": "2027-03-10", "name": "Hari Raya Aidilfitri", "localName": "Hari Raya Aidilfitri", "type": "Public" },
+		{ "date": "2027-03-11", "name": "Hari Raya Aidilfitri Holiday", "localName": "Cuti Hari Raya Aidilfitri", "type": "Public" },
+		{ "date": "2027-05-01", "name": "Labour Day", "localName": "Hari Pekerja", "type": "Public" },
+		{ "date": "2027-05-17", "name": "Hari Raya Haji", "localName": "Hari Raya Haji", "type": "Public" },
+		{ "date": "2027-05-20", "name": "Wesak Day", "localName": "Hari Wesak", "type": "Public" },
+		{ "date": "2027-06-06", "name": "Awal Muharram", "localName": "Tahun Baru Hijrah", "type": "Public" },
+		{ "date": "2027-06-07", "name": "Agong's Birthday", "localName": "Hari Jadi Agong", "type": "Public" },
+		{ "date": "2027-06-07", "name": "Awal Muharram Holiday", "localName": "Cuti Tahun Baru Hijrah", "type": "Public" },
+		{ "date": "2027-08-15", "name": "Prophet Muhammad's Birthday", "localName": "Hari Mawlid Nabi Muhammad", "type": "Public" },
+		{ "date": "2027-08-16", "name": "Prophet Muhammad's Birthday Holiday", "localName": "Cuti Hari Mawlid Nabi Muhammad", "type": "Public" },
+		{ "date": "2027-08-31", "name": "Merdeka Day", "localName": "Hari Merdeka", "type": "Public" },
+		{ "date": "2027-09-16", "name": "Malaysia Day", "localName": "Hari Malaysia", "type": "Public" },
+		{ "date": "2027-10-28", "name": "Deepavali", "localName": "Deepavali", "type": "Public" },
+		{ "date": "2027-12-25", "name": "Christmas Day", "localName": "Hari Krismas", "type": "Public" }
+	]
+}

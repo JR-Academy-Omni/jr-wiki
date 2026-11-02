@@ -2,6 +2,12 @@
 
 JR Academy Headless 内容仓库。Markdown 存 GitHub，元数据存 MongoDB，后端从 GitHub 实时读 .md 渲染。官网前端零改动零部署。
 
+## 定时任务提交规则（2026-11-02 Owner 定）
+
+- 所有定时 / 自动内容任务（`/weekly-book-expand`、`/it-daily-news`、`/weekly-holidays` 等）**直接提交并 push 到 `main`，不建分支、不开 PR**。开工前先 `git checkout main && git pull origin main`（云端会话常从 detached HEAD 开始）。
+- 扩章前先看目标书在 `main` 上的现有章节，并 `gh pr list --state open` 检查是否已有同书同章的 PR；已有就换一本书，不重复写。
+- 原因：2026-07 ～ 10 月扩章任务一直开 PR 不合并，kiro-guide 第 6/7 章被重复写了 8 遍（PR #9–#18）。
+
 ---
 
 ## 🚨🚨🚨 反幻觉硬规则（2026-05-22 真翻车后立的 — 所有内容生成 skill 共用）
