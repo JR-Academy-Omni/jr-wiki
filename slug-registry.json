@@ -2756,6 +2756,16 @@
       "type": "chapter",
       "book": "openhands-guide",
       "slug": "07-automations-cost-tracking"
+    },
+    {
+      "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "06-workflows"
+    },
+    {
+      "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "07-kiro-web-and-crew"
     }
   ]
 }
