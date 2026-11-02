@@ -2746,6 +2746,16 @@
     {
       "type": "story",
       "slug": "bob-civil-to-devops"
+    },
+    {
+      "type": "chapter",
+      "book": "openhands-guide",
+      "slug": "06-planning-mode"
+    },
+    {
+      "type": "chapter",
+      "book": "openhands-guide",
+      "slug": "07-automations-cost-tracking"
     }
   ]
 }
