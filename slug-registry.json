@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-10-31T23:36:54.633Z",
+  "lockedAt": "2026-11-02T23:36:13.217Z",
   "version": 1,
   "slugs": [
     {
@@ -1020,6 +1020,14 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-11-02"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-11-03"
+    },
+    {
+      "type": "article",
       "slug": "kmart-nail-glue-button-battery-accc-case-2026"
     },
     {
@@ -1181,6 +1189,10 @@
     {
       "type": "article",
       "slug": "uni-news-adelaide-2026-09-19"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-adelaide-2026-11-03"
     },
     {
       "type": "article",
@@ -1605,6 +1617,10 @@
     {
       "type": "article",
       "slug": "uni-news-uq-2026-09-18"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-uq-2026-11-03"
     },
     {
       "type": "article",
@@ -2316,6 +2332,16 @@
     },
     {
       "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "06-workflows"
+    },
+    {
+      "type": "chapter",
+      "book": "kiro-guide",
+      "slug": "07-kiro-web-and-crew"
+    },
+    {
+      "type": "chapter",
       "book": "lovable-guide",
       "slug": "01-what-is-lovable"
     },
@@ -2523,6 +2549,16 @@
       "type": "chapter",
       "book": "openhands-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "openhands-guide",
+      "slug": "06-planning-mode"
+    },
+    {
+      "type": "chapter",
+      "book": "openhands-guide",
+      "slug": "07-automations-cost-tracking"
     },
     {
       "type": "chapter",
@@ -2746,26 +2782,6 @@
     {
       "type": "story",
       "slug": "bob-civil-to-devops"
-    },
-    {
-      "type": "chapter",
-      "book": "openhands-guide",
-      "slug": "06-planning-mode"
-    },
-    {
-      "type": "chapter",
-      "book": "openhands-guide",
-      "slug": "07-automations-cost-tracking"
-    },
-    {
-      "type": "chapter",
-      "book": "kiro-guide",
-      "slug": "06-workflows"
-    },
-    {
-      "type": "chapter",
-      "book": "kiro-guide",
-      "slug": "07-kiro-web-and-crew"
     }
   ]
 }
