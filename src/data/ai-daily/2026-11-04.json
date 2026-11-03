@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-04",
+  "summary": {
+    "hook": [{"text":"CrowdStrike近5亿美元买两家AI安全公司"},{"text":"Netflix上线AI Discover测试页"},{"text":"Grok Bot额度被收紧"}],
+    "sub": "三条都有公司官方页面作一手来源，配TechCrunch独立报道核对。",
+    "items": [
+      {"num":"01","cat":"AI安全","numColor":"#FF5757","t":"CrowdStrike收购Fiddler AI与Dreadnode，补齐智能体观测与安全测试"},
+      {"num":"02","cat":"产品","numColor":"#7861FF","t":"Netflix在美国TV端测试AI Discover标签页，先做按心情推荐"},
+      {"num":"03","cat":"成本","numColor":"#119B74","t":"Musk确认Grok Bot用量上限被收紧：服务成本相对收入过高"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-crowdstrike-fiddler-dreadnode",
+      "idx": "01",
+      "catText": "AI安全",
+      "accent": "#FF5757",
+      "bg": {"top":"AI安全","mid":"AGENT SECURITY","bot":"2026.11.04","topRight":""},
+      "title": [{"text":"CrowdStrike收购Fiddler AI与Dreadnode"}],
+      "oneline": [{"text":"两笔合计近5亿美元，一家做智能体观测，一家做AI安全测试，都并入Falcon平台。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"CrowdStrike宣布收购Fiddler AI和Dreadnode，前者将成为Falcon Observe。"},
+        {"k":"为什么重要","v":"企业开始为AI智能体买上线前评估、运行监控和攻击测试三类工具。"},
+        {"k":"使用边界","v":"官方未披露价格，约4亿和9500万美元来自WSJ经TechCrunch转述；交割时间未公布。"}
+      ],
+      "src": "📎 crowdstrike.com · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"CrowdStrike 官方博客","url":"https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/","claim":"Fiddler并入Falcon平台并命名Falcon Observe","quote":"It will become part of the CrowdStrike Falcon® platform as CrowdStrike Falcon® Observe, generally available in Q4 FY27."},
+        {"type":"primary","publisher":"CrowdStrike 官方博客","url":"https://www.crowdstrike.com/en-us/blog/crowdstrike-to-acquire-fiddler/","claim":"收购Dreadnode","quote":"CrowdStrike to Acquire Dreadnode to Bring Automated AI Security Testing to the Falcon Platform."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/","claim":"Fiddler业务","quote":"makes observability software for monitoring AI agents inside enterprises"},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/","claim":"Fiddler将帮客户上线前评估智能体","quote":"evaluate agents before they're deployed"}
+      ]
+    },
+    {
+      "slug": "02-netflix-ai-discover",
+      "idx": "02",
+      "catText": "产品",
+      "accent": "#7861FF",
+      "bg": {"top":"产品","mid":"AI DISCOVER","bot":"2026.11.04","topRight":""},
+      "title": [{"text":"Netflix测试AI Discover标签页"}],
+      "oneline": [{"text":"美国英语用户在支持的电视上先试，首个功能是按心情和主题找片。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Netflix在TV端加入AI Discover标签页，每个片名旁有Tune Your Recommendations按钮。"},
+        {"k":"为什么重要","v":"这是一个小范围试验区，Netflix靠用户反馈决定哪些功能进主应用。"},
+        {"k":"使用边界","v":"仅美国、英语、支持的电视；官方称未来几周扩大，具体时间未给。"}
+      ],
+      "src": "📎 about.netflix.com · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Netflix 官方新闻","url":"https://about.netflix.com/en/news/introducing-ai-discover","claim":"AI Discover是什么","quote":"a new tab on our TV app where a small group of members can try new ways to find their next great watch."},
+        {"type":"primary","publisher":"Netflix 官方新闻","url":"https://about.netflix.com/en/news/introducing-ai-discover","claim":"上线范围","quote":"AI Discover will begin rolling out in the US to members who use Netflix in English on supported TVs"},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/","claim":"首个功能为按心情推荐","quote":"something light"}
+      ]
+    },
+    {
+      "slug": "03-grok-bot-limits",
+      "idx": "03",
+      "catText": "成本",
+      "accent": "#119B74",
+      "bg": {"top":"成本","mid":"GROK BOT","bot":"2026.11.04","topRight":""},
+      "title": [{"text":"Grok Bot用量上限被收紧，Musk称服务成本太高"}],
+      "oneline": [{"text":"周末有用户发现每周额度突然跳满，Musk确认不是故障。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"部分用户称额度从约50%直接变成100%，Musk回复这是有意调整。"},
+        {"k":"为什么重要","v":"智能体产品按任务长时间运行，服务成本比聊天高，额度会随成本调整。"},
+        {"k":"使用边界","v":"新的额度数值和订阅档位变化都没有公布。"}
+      ],
+      "src": "📎 x.com · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Elon Musk 的 X 帖子（经 TechCrunch 引用）","url":"https://x.com/elonmusk/status/2116992258520064397","claim":"确认限额是有意调整","quote":"The cost of serving Grok Bot was unsustainably high relative to revenue"},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs","claim":"Musk回复说这不是故障","quote":"The cost of serving Grok Bot was unsustainably high relative to revenue"}
+      ]
+    }
+  ],
+  "mp": {"title": "CrowdStrike近5亿美元买AI安全公司 / Netflix测试AI Discover / Grok Bot额度收紧"}
+}
