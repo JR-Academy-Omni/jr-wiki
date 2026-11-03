@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-11-02T23:36:13.217Z",
+  "lockedAt": "2026-11-03T23:38:37.158Z",
   "version": 1,
   "slugs": [
     {
@@ -417,6 +417,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-10-28"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-11-04"
     },
     {
       "type": "article",
@@ -1025,6 +1029,10 @@
     {
       "type": "article",
       "slug": "it-daily-2026-11-03"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-11-04"
     },
     {
       "type": "article",
