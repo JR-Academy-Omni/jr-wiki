@@ -1,0 +1,287 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-05",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "UNSW 新南威尔士大学",
+    "hookSub": "10 月 29 日-11 月 4 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "UNSW 与 CATL 签署谅解备忘录，计划在西悉尼建立可再生能源培训与创新中心。",
+      "UNSW 在 SCOPR 调查中连续第五年居全澳大学创业与衍生公司榜首，2025 年有 25 家衍生公司。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "与 CATL 合作",
+        "data": "CATL"
+      },
+      {
+        "num": "02",
+        "title": "衍生公司榜首",
+        "data": "第五年"
+      },
+      {
+        "num": "03",
+        "title": "XPRIZE Connect 扩展",
+        "data": "印度和印尼"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "产学合作",
+      "h2Main": "与 CATL 合作",
+      "h2Sub": "西悉尼拟建 CIRETI 中心",
+      "h2Highlight": "CATL",
+      "lead": "10 月 29 日 UNSW 官网发布：UNSW 与宁德时代（CATL）签署谅解备忘录，合作发展清洁能源转型所需技能，并拟在西悉尼建立可再生能源综合培训与创新中心。",
+      "bullets": [
+        {
+          "k": "签约方",
+          "v": "UNSW Sydney 与 Contemporary Amperex Technology Co., Limited (CATL)"
+        },
+        {
+          "k": "形式",
+          "v": "<b>Memorandum of Understanding</b>，建立战略合作关系"
+        },
+        {
+          "k": "中心",
+          "v": "Centre for Integrated Renewable Energy Training and Innovation (CIRETI)，位于 Western Sydney"
+        },
+        {
+          "k": "重点",
+          "v": "初期聚焦电池储能技术的技能与人才培养，以及技术演示和合作研究"
+        },
+        {
+          "k": "表态",
+          "v": "CATL 澳新总经理 Zane Zhou 和 UNSW 的 Professor Stephen Rodda 均在报道中表态"
+        }
+      ],
+      "sourceQuote": "Contemporary Amperex Technology Co., Limited (CATL) and UNSW Sydney (UNSW) have signed a Memorandum of Understanding to form a strategic partnership and advance the skills and capabilities needed for Australia’s clean energy transition.",
+      "source": "UNSW Newsroom · 2026-10-29",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/10/catl-and-unsw-to-invigorate-australias-clean-energy-transition"
+    },
+    {
+      "idx": "02",
+      "category": "校园动态",
+      "h2Main": "衍生公司榜首",
+      "h2Sub": "连续第五年 · 25 家衍生公司",
+      "h2Highlight": "第五年",
+      "lead": "10 月 29 日 UNSW 官网发布：UNSW 在 SCOPR 调查中连续第五年居全澳大学创业与衍生公司榜首，2025 年有 25 家衍生公司，专利申请 75 件。",
+      "bullets": [
+        {
+          "k": "调查",
+          "v": "Survey of Commercialisation Outcomes from Public Research (SCOPR)，由 Knowledge Commercialisation Australasia 开展"
+        },
+        {
+          "k": "排名",
+          "v": "连续 <b>五年</b> 居全澳大学创业与衍生公司榜首"
+        },
+        {
+          "k": "数量",
+          "v": "2025 年有 <b>25</b> 家衍生公司，涵盖量子安全、清洁能源、健康和 AI"
+        },
+        {
+          "k": "全澳",
+          "v": "官网写全澳 2025 年新增 102 家公司，约四分之一来自 UNSW"
+        },
+        {
+          "k": "专利",
+          "v": "UNSW 新专利申请 75 件，为各机构最高"
+        }
+      ],
+      "sourceQuote": "UNSW has been named Australia’s number one university for startups and spinouts for the fifth year running by the Survey of Commercialisation Outcomes from Public Research (SCOPR).",
+      "source": "UNSW Newsroom · 2026-10-29",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/10/unsw-ranked-number-one-for-spinouts-for-the-fifth-year-in-a-row"
+    },
+    {
+      "idx": "03",
+      "category": "国际合作",
+      "h2Main": "XPRIZE Connect 扩展",
+      "h2Sub": "进入印度和印尼的高中",
+      "h2Highlight": "印度和印尼",
+      "lead": "11 月 4 日 UNSW 官网发布：UNSW 与非营利机构 XPRIZE 的合作扩展，把 XPRIZE Connect 学术拓展项目带到印度和印尼的高中。",
+      "bullets": [
+        {
+          "k": "项目",
+          "v": "<b>XPRIZE Connect</b>，面向高中生的学术拓展项目"
+        },
+        {
+          "k": "扩展",
+          "v": "从澳洲扩展到 India 和 Indonesia"
+        },
+        {
+          "k": "试点",
+          "v": "2024 年澳洲试点有 <b>238</b> 名学生、11 所高中参加"
+        },
+        {
+          "k": "成果",
+          "v": "90% 的参与学校提交了最终方案，共 39 份"
+        },
+        {
+          "k": "形式",
+          "v": "学生自学并发展想法，最后做 pitch"
+        }
+      ],
+      "sourceQuote": "The expansion follows a successful Australian pilot in 2024, which saw 238 students from 11 high schools engage with the program.",
+      "source": "UNSW Newsroom · 2026-11-04",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-sydney-expands-xprize-connect-program-to-india-and-indonesia"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 官网 10 月 29 日-11 月 4 日三条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "与 CATL 合作",
+        "body": "UNSW 与 CATL 签署谅解备忘录，拟在西悉尼建立可再生能源培训与创新中心，初期聚焦电池储能。"
+      },
+      {
+        "n": "02",
+        "title": "衍生公司榜首",
+        "body": "UNSW 在 SCOPR 调查中连续第五年居全澳大学衍生公司榜首，2025 年有 25 家衍生公司。"
+      },
+      {
+        "n": "03",
+        "title": "XPRIZE Connect 扩展",
+        "body": "UNSW 把 XPRIZE Connect 高中项目扩展到印度和印尼，2024 年澳洲试点有 238 名学生参加。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11 / 05"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 本周三条 我筛过了",
+      "body": "10 月 29 日到 11 月 4 日 UNSW 官网新闻里，我挑了三条读完：和宁德时代的合作备忘录、衍生公司调查榜单、XPRIZE Connect 扩到印度和印尼。\n\n下面一张图一条，数字和原话都对着官网抄的，官网没写的我就不写。",
+      "tags": "#UNSW #新南威尔士大学 #悉尼留学 #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UNSW 和宁德时代签约了",
+      "body": "10 月 29 号 UNSW 官网发的合作消息。\n\n官方原文：Contemporary Amperex Technology Co., Limited (CATL) and UNSW Sydney (UNSW) have signed a Memorandum of Understanding to form a strategic partnership and advance the skills and capabilities needed for Australia’s clean energy transition.\n\n官网写拟在西悉尼建 CIRETI 中心，初期聚焦电池储能的技能和人才培养。注意官网用的是拟建，不是已建成。\n\n读电气、新能源的同学可以关注 🔋",
+      "tags": "#UNSW #新南威尔士大学 #悉尼留学 #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "UNSW 衍生公司连续五年榜首",
+      "body": "10 月 29 号 UNSW 官网发的。\n\n官方原文：UNSW has been named Australia’s number one university for startups and spinouts for the fifth year running by the Survey of Commercialisation Outcomes from Public Research (SCOPR).\n\n2025 年有 25 家衍生公司，涵盖量子安全、清洁能源、健康和 AI。官网写全澳新增 102 家公司，约四分之一来自 UNSW。\n\n对创业感兴趣的同学可以看看他们的衍生公司 🚀",
+      "tags": "#UNSW #新南威尔士大学 #悉尼留学 #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "UNSW 的高中项目扩到海外",
+      "body": "11 月 4 号 UNSW 官网发的。\n\n官方原文：The expansion follows a successful Australian pilot in 2024, which saw 238 students from 11 high schools engage with the program.\n\nXPRIZE Connect 是面向高中生的项目，学生自学后做一个最终 pitch。官网写这次扩展到印度和印尼的高中。\n\n家里有在读高中的同学，可以看看官网原文 🌏",
+      "tags": "#UNSW #新南威尔士大学 #悉尼留学 #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW 日报 评论区聊聊",
+      "body": "这三条是 UNSW 官网新闻，没有奖学金或招生公告。\n\n读新能源、创业、教育的同学，你们更想看哪个方向？评论区扣 1 / 2 / 3，我按票数排下次选题。",
+      "tags": "#UNSW #新南威尔士大学 #悉尼留学 #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW 与 CATL 清洁能源合作、连续五年衍生公司榜首、XPRIZE Connect 扩展",
+    "lead": "10 月 29 日-11 月 4 日，新南威尔士大学官网发布三条消息：UNSW 与 CATL 签署谅解备忘录，拟在西悉尼建立可再生能源培训与创新中心；UNSW 在 SCOPR 调查中连续第五年居全澳大学创业与衍生公司榜首；XPRIZE Connect 项目扩展到印度和印尼。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 4 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 与 CATL 合作：西悉尼拟建 CIRETI 中心",
+        "paragraphs": [
+          "10 月 29 日，UNSW 官网发布与 CATL 的合作消息。官方原文：Contemporary Amperex Technology Co., Limited (CATL) and UNSW Sydney (UNSW) have signed a Memorandum of Understanding to form a strategic partnership and advance the skills and capabilities needed for Australia’s clean energy transition.",
+          "官网写到，双方合作内容包括在新州西悉尼发展 Centre for Integrated Renewable Energy Training and Innovation（CIRETI）。官网称这是拟建中心，初期聚焦支持电池储能技术的技能与人才培养，以及技术演示和合作研究。",
+          "CATL Australia and New Zealand 总经理 Zane Zhou 表示，未来澳洲清洁能源劳动力将围绕电池集成展开；UNSW 的 Professor Stephen Rodda（Pro Vice-Chancellor, Industry and Innovation）也在报道中表态。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-10-29 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/10/catl-and-unsw-to-invigorate-australias-clean-energy-transition\">www.unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 衍生公司榜首：连续第五年 · 25 家衍生公司",
+        "paragraphs": [
+          "10 月 29 日，UNSW 官网发布 SCOPR 调查结果。官方原文：UNSW has been named Australia’s number one university for startups and spinouts for the fifth year running by the Survey of Commercialisation Outcomes from Public Research (SCOPR).",
+          "官网写到，SCOPR 由 Knowledge Commercialisation Australasia 每年开展。UNSW 2025 年的 25 家衍生公司涵盖量子安全、清洁能源、健康和 AI。调查显示 2025 年全澳新增 102 家公司，带来近 $1 billion 的行业合同；UNSW 的 Dr Dax Kukulj 说，全澳大学衍生公司约四分之一来自 UNSW，并且 UNSW 2025 年的新专利申请数最高，为 75 件。",
+          "官网举了两个例子：做航运路线优化的 CounterCurrent，以及用量子物理验证关键基础设施未被篡改的 Quantum Lock，后者获得 $400,000 资助。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-10-29 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/10/unsw-ranked-number-one-for-spinouts-for-the-fifth-year-in-a-row\">www.unsw.edu.au</a>"
+      },
+      {
+        "h2": "03 XPRIZE Connect 扩展：进入印度和印尼的高中",
+        "paragraphs": [
+          "11 月 4 日，UNSW 官网发布项目扩展消息。官方原文：The expansion follows a successful Australian pilot in 2024, which saw 238 students from 11 high schools engage with the program.",
+          "官网写到，UNSW 与全球非营利机构 XPRIZE 的合作扩展，把 XPRIZE Connect 学术拓展项目带到印度和印尼的高中。项目是自学式体验，学生围绕自己关心的问题培养批判性思维、创造性解决问题和沟通能力，最后做 pitch。",
+          "澳洲试点中，90% 的参与学校的学生提交了共 39 份最终方案。XPRIZE Connect 9 月在雅加达的澳大利亚大使馆正式启动，有 127 名来自印尼各地学校的代表参加。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-04 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-sydney-expands-xprize-connect-program-to-india-and-indonesia\">www.unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "UNSW 与 CATL 签署谅解备忘录，拟在西悉尼建立可再生能源培训与创新中心，初期聚焦电池储能。",
+        "UNSW 在 SCOPR 调查中连续第五年居全澳大学衍生公司榜首，2025 年有 25 家衍生公司。",
+        "UNSW 把 XPRIZE Connect 高中项目扩展到印度和印尼，2024 年澳洲试点有 238 名学生参加。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "10 月 29 日-11 月 4 日 新南威尔士大学官网有三条消息，我都读完了。\n\nCATL 合作：官方原文：Contemporary Amperex Technology Co., Limited (CATL) and UNSW Sydney (UNSW) have signed a Memorandum of Understanding to form a strategic partnership and advance the skills and capabilities needed for Australia’s clean energy transition.\n\n衍生公司榜单：官方原文：UNSW has been named Australia’s number one university for startups and spinouts for the fifth year running by the Survey of Commercialisation Outcomes from Public Research (SCOPR).\n\nXPRIZE Connect：官方原文：The expansion follows a successful Australian pilot in 2024, which saw 238 students from 11 high schools engage with the program.\n\n想让我下次盯哪个学院，评论区扣 1。",
+        "tags": [
+          "#UNSW",
+          "#新南威尔士大学",
+          "#悉尼留学",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出（榜首排名为官网原文 number one 的复述，未用于营销表达）"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "仅复述官网科研内容，未作疗效承诺"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

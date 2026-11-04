@@ -1,0 +1,287 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-05",
+  "school": "monash",
+  "summary": {
+    "hookMain": "Monash 莫纳什大学",
+    "hookSub": "10 月 29 日-11 月 3 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "Monash 与东南大学苏州联合国际学院迎来首批 288 名本科工程新生，另有 444 名研究生。",
+      "MIPS 参与 $14.5 million 的 Heart Foundation 资助池，研究绝经如何影响 tirzepatide 对心脏的作用。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "苏州首批本科生",
+        "data": "288"
+      },
+      {
+        "num": "02",
+        "title": "心脏健康科研",
+        "data": "$14.5 million"
+      },
+      {
+        "num": "03",
+        "title": "退休与孤独感",
+        "data": "7,434"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "招生",
+      "h2Main": "苏州首批本科生",
+      "h2Sub": "288 名本科 · 2+2 工程项目",
+      "h2Highlight": "288",
+      "lead": "10 月 29 日 Monash 官网发布：Monash 与东南大学在苏州的联合国际学院迎来首批 288 名本科工程新生和 444 名研究生，本科为 2+2 模式，后两年在墨尔本 Clayton 校区。",
+      "bullets": [
+        {
+          "k": "新生",
+          "v": "首批 <b>288</b> 名本科工程学生，另有 444 名研究生"
+        },
+        {
+          "k": "合作方",
+          "v": "Southeast University (SEU)，Joint International School (Suzhou)"
+        },
+        {
+          "k": "模式",
+          "v": "<b>2+2</b>：前两年在苏州 SEU，后两年到 Monash Clayton 校区"
+        },
+        {
+          "k": "专业",
+          "v": "Bachelor of Intelligent Manufacturing、New Energy Science and Engineering、Robotics Engineering"
+        },
+        {
+          "k": "招生",
+          "v": "每个专业每年招 100 名学生，通过中国高考录取"
+        }
+      ],
+      "sourceQuote": "The three specialised “2+2” undergraduate engineering programs will allow students to complete their initial two years of foundational and specialised study at SEU in Suzhou before progressing to Monash University’s Clayton campus in Melbourne, Australia, for their final two years.",
+      "source": "Monash News · 2026-10-29",
+      "sourceUrl": "https://www.monash.edu/news/articles/monash-suzhou-welcomes-inaugural-cohort-of-288-undergraduate-engineering-students"
+    },
+    {
+      "idx": "02",
+      "category": "科研合作",
+      "h2Main": "心脏健康科研",
+      "h2Sub": "$14.5 million 资助池",
+      "h2Highlight": "$14.5 million",
+      "lead": "11 月 3 日 Monash 官网发布：MIPS 参与 Heart Foundation 的 $14.5 million 资助池，Rebecca Ritchie 教授将研究绝经如何影响 Mounjaro 对心脏的作用。",
+      "bullets": [
+        {
+          "k": "机构",
+          "v": "Monash Institute of Pharmaceutical Sciences (MIPS)"
+        },
+        {
+          "k": "资金",
+          "v": "Heart Foundation 资助池共 <b>$14.5 million</b>"
+        },
+        {
+          "k": "负责人",
+          "v": "Professor Rebecca Ritchie，MIPS Drug Discovery Biology 主题负责人"
+        },
+        {
+          "k": "课题",
+          "v": "研究绝经如何改变 Mounjaro 在体重超重女性中的心脏获益"
+        },
+        {
+          "k": "团队",
+          "v": "Dr Miles De Blasio、A/Prof Mary Kavurma、A/Prof Neale Cohen、Dr Alicia Jones"
+        }
+      ],
+      "sourceQuote": "The Monash Institute of Pharmaceutical Sciences (MIPS) is sharing in a pool of $14.5 million in Heart Foundation grants to support vital new research aimed at improving cardiovascular health.",
+      "source": "Monash News · 2026-11-03",
+      "sourceUrl": "https://www.monash.edu/news/articles/mips-research-targets-post-menopause-heart-health"
+    },
+    {
+      "idx": "03",
+      "category": "科研成果",
+      "h2Main": "退休与孤独感",
+      "h2Sub": "追踪 7,434 人近二十年",
+      "h2Highlight": "7,434",
+      "lead": "11 月 2 日 Monash 官网发布：Monash 牵头的研究追踪 7,434 名 55 至 75 岁的澳洲人近二十年，发现退休前后三年孤独感没有变化。",
+      "bullets": [
+        {
+          "k": "数据",
+          "v": "HILDA Survey，追踪 <b>7,434</b> 名 55-75 岁澳洲人近二十年"
+        },
+        {
+          "k": "作者",
+          "v": "Dr Johannes Kunz，Monash Centre for Health Economics"
+        },
+        {
+          "k": "结论",
+          "v": "退休前三年和退休后三年，孤独感没有变化"
+        },
+        {
+          "k": "比例",
+          "v": "约六分之一（<b>17.5%</b>）的老年人报告高度孤独"
+        },
+        {
+          "k": "建议",
+          "v": "研究者认为减少孤独感的政策应关注整体老龄化，而非退休本身"
+        }
+      ],
+      "sourceQuote": "Researchers tracked 7,434 Australians aged 55 to 75 across nearly two decades, using data from the Household, Income and Labour Dynamics in Australia (HILDA) Survey.",
+      "source": "Monash News · 2026-11-02",
+      "sourceUrl": "https://www.monash.edu/news/articles/retirement-does-not-make-older-australians-more-lonely"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 官网 10 月 29 日-11 月 3 日三条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "苏州首批本科生",
+        "body": "Monash 与东南大学苏州联合国际学院迎来首批 288 名本科工程新生，2+2 模式，后两年在 Clayton 校区。"
+      },
+      {
+        "n": "02",
+        "title": "心脏健康科研",
+        "body": "MIPS 参与 $14.5 million 的 Heart Foundation 资助池，Rebecca Ritchie 教授研究绝经对 tirzepatide 心脏作用的影响。"
+      },
+      {
+        "n": "03",
+        "title": "退休与孤独感",
+        "body": "Monash 研究追踪 7,434 名 55-75 岁澳洲人近二十年，发现退休前后三年孤独感没有变化。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11 / 05"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash 本周三条 我筛过了",
+      "body": "10 月 29 日到 11 月 3 日莫纳什官网新闻里，我挑了三条读完：苏州联合学院首批本科生、一个心脏健康科研项目、一项退休与孤独感的研究。\n\n下面一张图一条，数字和原话都对着官网抄的，官网没写的我就不写。",
+      "tags": "#莫纳什大学 #Monash #墨尔本留学 #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "Monash 苏州首批本科生到了",
+      "body": "10 月 29 号莫纳什官网发的消息。\n\n官方原文：The three specialised “2+2” undergraduate engineering programs will allow students to complete their initial two years of foundational and specialised study at SEU in Suzhou before progressing to Monash University’s Clayton campus in Melbourne, Australia, for their final two years.\n\n首批 288 名本科生，另有 444 名研究生。三个专业：智能制造、新能源科学与工程、机器人工程，每个专业每年招 100 人，走高考。\n\n家里有高中生的同学可以看看官网原文 🎓",
+      "tags": "#莫纳什大学 #Monash #墨尔本留学 #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "Monash 药学院拿到心脏项目",
+      "body": "11 月 3 号莫纳什官网发的。\n\n官方原文：The Monash Institute of Pharmaceutical Sciences (MIPS) is sharing in a pool of $14.5 million in Heart Foundation grants to support vital new research aimed at improving cardiovascular health.\n\nRebecca Ritchie 教授牵头，研究绝经怎么改变 Mounjaro 的心脏获益。官网写这个课题要补的是现有试验没测过的部分。\n\n学药学、生物医学的同学可以关注这个组 🔬",
+      "tags": "#莫纳什大学 #Monash #墨尔本留学 #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "Monash 研究：退休不更孤独",
+      "body": "11 月 2 号莫纳什官网发的研究。\n\n官方原文：Researchers tracked 7,434 Australians aged 55 to 75 across nearly two decades, using data from the Household, Income and Labour Dynamics in Australia (HILDA) Survey.\n\n结论是退休前三年和退休后三年，孤独感没有变化。官网写约 17.5% 的老年人报告高度孤独。\n\n学卫生经济、公共政策的同学，这个数据集 HILDA 值得了解 📈",
+      "tags": "#莫纳什大学 #Monash #墨尔本留学 #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "Monash 日报 评论区聊聊",
+      "body": "这三条是莫纳什官网新闻，没有奖学金公告。\n\n想读工程、药学、健康经济的同学，你们更想看哪个方向？评论区扣 1 / 2 / 3，我按票数排下次选题。",
+      "tags": "#莫纳什大学 #Monash #墨尔本留学 #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "Monash 苏州首批 288 名本科生、MIPS 心脏健康项目、退休与孤独感研究",
+    "lead": "10 月 29 日-11 月 3 日，莫纳什大学官网发布三条消息：Monash 与东南大学在苏州迎来首批 288 名本科工程新生，采用 2+2 模式；MIPS 参与 $14.5 million 的 Heart Foundation 资助池；Monash 牵头的研究追踪 7,434 名澳洲人，发现退休前后孤独感没有变化。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 4 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 苏州首批本科生：288 名本科 · 2+2 工程项目",
+        "paragraphs": [
+          "10 月 29 日，Monash 官网发布苏州联合国际学院迎新消息：Monash 与东南大学（SEU）在苏州的 Joint International School 迎来首批 288 名本科工程新生和 444 名研究生。",
+          "官网写到，在 14 年以上的联合研究生教育基础上，联合学院现在覆盖本科、硕士和博士。官方原文：The three specialised “2+2” undergraduate engineering programs will allow students to complete their initial two years of foundational and specialised study at SEU in Suzhou before progressing to Monash University’s Clayton campus in Melbourne, Australia, for their final two years.",
+          "三个本科项目是 Bachelor of Intelligent Manufacturing、Bachelor of New Energy Science and Engineering 和 Bachelor of Robotics Engineering，每个项目每年招收 100 名学生，通过中国高考录取。"
+        ],
+        "sourceHtml": "Monash News · 2026-10-29 · <a href=\"https://www.monash.edu/news/articles/monash-suzhou-welcomes-inaugural-cohort-of-288-undergraduate-engineering-students\">www.monash.edu</a>"
+      },
+      {
+        "h2": "02 心脏健康科研：$14.5 million 资助池",
+        "paragraphs": [
+          "11 月 3 日，Monash 官网发布科研消息。官方原文：The Monash Institute of Pharmaceutical Sciences (MIPS) is sharing in a pool of $14.5 million in Heart Foundation grants to support vital new research aimed at improving cardiovascular health.",
+          "官网写到，MIPS Drug Discovery Biology 主题负责人 Professor Rebecca Ritchie 将带队研究：绝经如何改变减重药物 Mounjaro 在体重超重女性中的心脏获益。官网说，现有试验没有检验 tirzepatide 对心脏功能的直接影响，也没有检验绝经是否改变心脏的反应。",
+          "研究将测量 tirzepatide 在绝经后条件下对心脏收缩、舒张和运动能力的影响。团队成员包括 Monash 的 Dr Miles De Blasio、Heart Research Institute 的 Associate Professor Mary Kavurma、Baker Heart and Diabetes Institute 的 Associate Professor Neale Cohen，以及 Monash Health 的 Dr Alicia Jones。"
+        ],
+        "sourceHtml": "Monash News · 2026-11-03 · <a href=\"https://www.monash.edu/news/articles/mips-research-targets-post-menopause-heart-health\">www.monash.edu</a>"
+      },
+      {
+        "h2": "03 退休与孤独感：追踪 7,434 人近二十年",
+        "paragraphs": [
+          "11 月 2 日，Monash 官网发布一项退休与孤独感的研究。官方原文：Researchers tracked 7,434 Australians aged 55 to 75 across nearly two decades, using data from the Household, Income and Labour Dynamics in Australia (HILDA) Survey.",
+          "官网写到，第一作者 Dr Johannes Kunz 来自 Monash 的 Centre for Health Economics。研究发现，受访者的孤独感在退休前三年和退休后三年没有变化；约六分之一（17.5%）的老年人报告「经常感到非常孤独」。",
+          "Dr Kunz 说，孤独感从 60 多岁后期开始持续上升，政策应关注整个晚年阶段的社会连接，而不是只盯着退休这个节点。研究论文已在官网附上链接。"
+        ],
+        "sourceHtml": "Monash News · 2026-11-02 · <a href=\"https://www.monash.edu/news/articles/retirement-does-not-make-older-australians-more-lonely\">www.monash.edu</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "Monash 与东南大学苏州联合国际学院迎来首批 288 名本科工程新生，2+2 模式，后两年在 Clayton 校区。",
+        "MIPS 参与 $14.5 million 的 Heart Foundation 资助池，Rebecca Ritchie 教授研究绝经对 tirzepatide 心脏作用的影响。",
+        "Monash 研究追踪 7,434 名 55-75 岁澳洲人近二十年，发现退休前后三年孤独感没有变化。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "10 月 29 日-11 月 3 日 莫纳什官网有三条消息，我都读完了。\n\n苏州联合学院：官方原文：The three specialised “2+2” undergraduate engineering programs will allow students to complete their initial two years of foundational and specialised study at SEU in Suzhou before progressing to Monash University’s Clayton campus in Melbourne, Australia, for their final two years.\n\n心脏健康科研：官方原文：The Monash Institute of Pharmaceutical Sciences (MIPS) is sharing in a pool of $14.5 million in Heart Foundation grants to support vital new research aimed at improving cardiovascular health.\n\n退休与孤独感：官方原文：Researchers tracked 7,434 Australians aged 55 to 75 across nearly two decades, using data from the Household, Income and Labour Dynamics in Australia (HILDA) Survey.\n\n想让我下次盯哪个学院，评论区扣 1。",
+        "tags": [
+          "#莫纳什大学",
+          "#Monash",
+          "#墨尔本留学",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "仅复述官网科研内容，未作疗效承诺"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}
