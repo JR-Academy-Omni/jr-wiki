@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-05",
+  "summary": {
+    "hook": [{"text":"Google学校版：不开AI就没有Search"},{"text":"Anthropic开源FlashProve验证模型身份"},{"text":"Fal估值翻倍到160亿美元"}],
+    "sub": "三条都有官方页面作一手来源，配TechCrunch独立报道核对。",
+    "items": [
+      {"num":"01","cat":"教育","numColor":"#FF5757","t":"Google宣布K-12学生账号AI默认关闭，限制AI的学校将无法使用Search"},
+      {"num":"02","cat":"研究","numColor":"#7861FF","t":"Anthropic开源FlashProve原型，用密码学指纹证明输出来自哪个模型"},
+      {"num":"03","cat":"融资","numColor":"#119B74","t":"AI推理平台Fal融资13亿美元，估值160亿美元"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-google-k12-ai-search",
+      "idx": "01",
+      "catText": "教育",
+      "accent": "#FF5757",
+      "bg": {"top":"教育","mid":"K-12 AI CONTROLS","bot":"2026.11.05","topRight":""},
+      "title": [{"text":"Google：学校不开AI，学生就没有Search"}],
+      "oneline": [{"text":"K-12学生账号的Gemini等产品默认全关，选择完全限制AI的学校将用不了Search。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Google调整Gemini、Gemini Notebook、Classroom里的Gemini和Search的管控方式。"},
+        {"k":"为什么重要","v":"Search与AI绑定，引来参议员和前FTC主席批评，Google称给学校更多选择。"},
+        {"k":"使用边界","v":"具体细节几个月内再告知学校；我没能打开Google在X上的澄清帖。"}
+      ],
+      "src": "📎 blog.google · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Google 官方博客","url":"https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/","claim":"K-12学生账号相关产品默认关闭","quote":"Access to these products will be entirely off for K-12 student accounts until school administrators explicitly turn them on."},
+        {"type":"primary","publisher":"Google 官方博客","url":"https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/","claim":"Guided Learning在Classroom全球上线","quote":"Starting today, Guided Learning is globally available in Google Classroom"},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/","claim":"完全限制AI的学校将无法使用Search","quote":"schools choosing to restrict AI altogether will no longer be able to access Google Search"}
+      ]
+    },
+    {
+      "slug": "02-anthropic-flashprove",
+      "idx": "02",
+      "catText": "研究",
+      "accent": "#7861FF",
+      "bg": {"top":"研究","mid":"FLASHPROVE","bot":"2026.11.05","topRight":""},
+      "title": [{"text":"Anthropic开源FlashProve：证明输出来自哪个模型"}],
+      "oneline": [{"text":"实验室发布模型指纹，之后每次输出都能对照验证，且不暴露权重。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Anthropic 11月2日发布开源研究原型FlashProve，做可证明推理。"},
+        {"k":"为什么重要","v":"用户能核对拿到的是不是约定的模型，防偷换成便宜模型。"},
+        {"k":"使用边界","v":"官方称这是研究原型，TechCrunch称Anthropic没有在任何实验室部署的计划。"}
+      ],
+      "src": "📎 anthropic.com · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Anthropic 研究博客","url":"https://www.anthropic.com/research/provable-inference","claim":"发布FlashProve开源原型","quote":"Today, we release FlashProve: an open-source performant prototype for provable inference."},
+        {"type":"primary","publisher":"Anthropic 研究博客","url":"https://www.anthropic.com/research/provable-inference","claim":"这是研究原型，有技术限制","quote":"This release is a research prototype, and has the following technical limitations:"},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/","claim":"可证明推理的定义","quote":"a cryptographic proof, essentially a mathematical guarantee, that a given output came from a specific model"}
+      ]
+    },
+    {
+      "slug": "03-fal-series-f",
+      "idx": "03",
+      "catText": "融资",
+      "accent": "#119B74",
+      "bg": {"top":"融资","mid":"FAL $16B","bot":"2026.11.05","topRight":""},
+      "title": [{"text":"Fal融资13亿美元，估值翻倍到160亿"}],
+      "oneline": [{"text":"Bessemer领投F轮，Nvidia继续投资，估值是4月的两倍。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Fal宣布E轮与F轮，F轮由Bessemer领投，Nvidia继续投资。"},
+        {"k":"为什么重要","v":"推理需求在涨：据Bloomberg，Fal今年早些时候年化收入已超8亿美元。"},
+        {"k":"使用边界","v":"Fal官方页未披露金额和估值，13亿与160亿美元来自TechCrunch转述Bloomberg。"}
+      ],
+      "src": "📎 fal.ai · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Fal 官方博客","url":"https://fal.ai/blog/series-e-f","claim":"F轮由Bessemer领投，Nvidia继续投资","quote":"Series F, led by Bessemer Venture Partners with continued investment from NVIDIA."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/","claim":"估值160亿美元，为4月的两倍","quote":"The deal values Fal at $16 billion, double its $8 billion valuation in April, Bloomberg reported."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/","claim":"年化收入超过8亿美元","quote":"Fal surpassed $800 million in annualized revenue earlier this year, Bloomberg's report noted."}
+      ]
+    }
+  ],
+  "mp": {"title": "Google学校版不开AI就没Search / Anthropic开源FlashProve / Fal估值160亿"}
+}
