@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-11-04T23:38:22.230Z",
+  "lockedAt": "2026-11-05T01:04:52.706Z",
   "version": 1,
   "slugs": [
     {
@@ -2267,6 +2267,16 @@
       "type": "chapter",
       "book": "github-copilot-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "github-copilot-guide",
+      "slug": "06-multi-model-guide"
+    },
+    {
+      "type": "chapter",
+      "book": "github-copilot-guide",
+      "slug": "07-ai-code-review"
     },
     {
       "type": "chapter",
