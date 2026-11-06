@@ -1,0 +1,63 @@
+---
+title: "墨大Fulbright 访学、南极中层水、毕业季演出"
+description: "10 月 27 日 - 11 月 2 日UMelb 官网发布三条消息：Fulbright 访学；南极中层水；毕业季演出。下面逐条拆，原文都对着官网核过。"
+publishDate: 2026-11-07
+tags:
+  - uni-news
+  - umelb
+  - 墨尔本大学
+  - University of Melbourne
+author: "JR Academy 大学日报"
+keywords: "墨尔本大学, University of Melbourne, UMELB, 澳洲留学, 大学新闻, 奖学金, 校园动态"
+---
+<!-- 由 build/pipelines/uni-news.pipeline.ts 自动生成 -->
+
+> 学校：**墨尔本大学 / University of Melbourne**
+> 日期：**2026-11-07**
+> 同步素材：公众号发稿页见 `https://jiangren.com.au/blog/uni-news-umelb-2026-11-07` 对应运营链路，官网 blog 为这篇 markdown 正文。
+
+10 月 27 日 - 11 月 2 日UMelb 官网发布三条消息：Fulbright 访学；南极中层水；毕业季演出。下面逐条拆，原文都对着官网核过。
+
+## 01. 01 AI 专家来墨大访学：Fulbright 学者
+
+**一句话**：11 月 2 日 UMelb 官网发布：Fulbright 学者、AI 专家 Professor William C Regli 将到墨大 Melbourne National Security and Defence（MNSD）访学。
+
+11 月 2 日，UMelb 官网发布消息。官方原文：The University of Melbourne will soon host Fulbright Scholar and artificial intelligence (AI) expert Professor William C Regli at Melbourne National Security and Defence (MNSD).
+
+Regli 目前是 University of Maryland 计算机科学教授，此前担任该校 Applied Research Laboratory for Intelligence and Security（ARLIS）首任执行主任。他曾任白宫科技政策办公室 AI 风险建模高级顾问，以及 DARPA Defense Sciences Office 副主任。
+
+墨大副校长（Global, Culture and Engagement）Professor Michael Wesley 表示，这次访学是交流美澳两国战略议题视角的机会，重点包括负责任地使用 AI、理解并降低风险。接待单位 MNSD 于 2026 年 8 月成立。
+
+> 来源：[UMelb Newsroom · 2026-11-02](https://www.unimelb.edu.au/newsroom/news/2026/november/fulbright-scholar-to-strengthen-research-ties-with-the-united-states)
+
+## 02. 02 南极中层水突然变咸：Nature Climate Change
+
+**一句话**：10 月 28 日 UMelb 官网发布：墨大与印度科学研究所（IISc）牵头的研究发现，南极中层水（AAIW）的盐度和密度长期趋势出现快速逆转。
+
+10 月 28 日，UMelb 官网发布消息。官方原文：The Antarctic Intermediate Water (AAIW) – a vast layer of freshwater spanning much of the Southern Hemisphere’s four oceans – has rapidly reversed its long-term trends in salinity and density, according to new research led by the University of Melbourne and the Indian Institute of Science.
+
+研究描述，1995 到 2015 年，南极夏季融冰让 AAIW 保持稳定；2016 到 2024 年，淡水输入减少，这层水变得更咸、更密、更深。团队分析了全球 Argo 计划约 4000 个机器人浮标，以及卫星和大气数据。
+
+Gayen 副教授说，AAIW 上一次转变是在约 13 万年前的末次间冰期，「那次转变用了几千年，不是二十年」。官网写到，2016 年之前南极夏季融化的淡水量是亚马孙河年径流量（约 6600 立方公里）的三倍。
+
+> 来源：[UMelb Newsroom · 2026-10-28](https://www.unimelb.edu.au/newsroom/news/2026/october/antarctic-sea-ice-loss-batters-oceans-freshwater-engine)
+
+## 03. 03 Southbank 毕业季开幕：10-11 月 低价或免费
+
+**一句话**：10 月 27 日 UMelb 官网发布：10 月下旬到 11 月，墨大 Southbank 校区举办 2026 Graduating Season，有公开音乐会、沉浸式装置、现场戏剧和艺术设计展。
+
+10 月 27 日，UMelb 官网发布消息。官方原文：Throughout late October and November, the University of Melbourne's Southbank campus will host the 2026 Graduating Season, a dynamic array of public concerts, immersive installations, live theatre, and art and design exhibitions.
+
+活动覆盖舞蹈、戏剧、音乐剧、艺术、爵士、声乐、打击乐和互动作曲等方向，官网写明大部分是低价或免费活动。
+
+Faculty of Fine Arts and Music 院长 Professor Marie Sierra 表示，Graduating Season 给毕业生一个面向公众检验新作品、积累观众的平台。VCA Dance 负责人 Dr Derrick Brown-Appenzeller 提到，参与艺术活动对心理和情绪健康有帮助。
+
+> 来源：[UMelb Newsroom · 2026-10-27](https://www.unimelb.edu.au/newsroom/news/2026/october/celebration-of-artistic-excellence-premieres-at-southbank-campus)
+
+## 4. 今日速览
+
+- Fulbright 学者、AI 专家 Professor William C Regli 将到墨大 Melbourne National Security and Defence（MNSD）访学。
+- 墨大与印度科学研究所（IISc）牵头的研究发现，南极中层水（AAIW）的盐度和密度长期趋势出现快速逆转。
+- 10 月下旬到 11 月，墨大 Southbank 校区举办 2026 Graduating Season，有公开音乐会、沉浸式装置、现场戏剧和艺术设计展。
+
+如果你在看 UMELB 的申请、奖学金或研究机会，这篇可以直接当作今天的速查版。

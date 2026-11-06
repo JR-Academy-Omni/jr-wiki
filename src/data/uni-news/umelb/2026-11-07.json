@@ -1,0 +1,286 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-07",
+  "school": "umelb",
+  "summary": {
+    "hookMain": "UMelb 墨尔本大学",
+    "hookSub": "10 月 27 日 - 11 月 2 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "Fulbright 学者、AI 专家 Professor William C Regli 将到墨大 Melbourne National Security and Defence（MNSD）访学。",
+      "墨大与印度科学研究所（IISc）牵头的研究发现，南极中层水（AAIW）的盐度和密度长期趋势出现快速逆转。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "Fulbright 访学",
+        "data": "30 年经验"
+      },
+      {
+        "num": "02",
+        "title": "南极中层水",
+        "data": "2016-2024"
+      },
+      {
+        "num": "03",
+        "title": "毕业季演出",
+        "data": "10-11 月"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术交流",
+      "h2Main": "AI 专家来墨大访学",
+      "h2Sub": "Fulbright 学者",
+      "h2Highlight": "Fulbright",
+      "lead": "11 月 2 日 UMelb 官网发布：Fulbright 学者、AI 专家 Professor William C Regli 将到墨大 Melbourne National Security and Defence（MNSD）访学。",
+      "bullets": [
+        {
+          "k": "人物",
+          "v": "Professor William C Regli，University of Maryland 计算机科学教授"
+        },
+        {
+          "k": "经验",
+          "v": "在先进 AI、自主系统、国防创新、国家安全和 AI 风险领域有 30 多年经验"
+        },
+        {
+          "k": "履历",
+          "v": "曾任白宫科技政策办公室 AI 风险建模高级顾问，也曾任 DARPA Defense Sciences Office 副主任"
+        },
+        {
+          "k": "接待单位",
+          "v": "MNSD，2026 年 8 月成立，负责协调墨大国防相关的跨学科研究和产业合作"
+        },
+        {
+          "k": "项目",
+          "v": "Fulbright Scholarship 是美国的旗舰国际交流项目"
+        }
+      ],
+      "sourceQuote": "The University of Melbourne will soon host Fulbright Scholar and artificial intelligence (AI) expert Professor William C Regli at Melbourne National Security and Defence (MNSD).",
+      "source": "UMelb Newsroom · 2026-11-02",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/november/fulbright-scholar-to-strengthen-research-ties-with-the-united-states"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "南极中层水突然变咸",
+      "h2Sub": "Nature Climate Change",
+      "h2Highlight": "变咸",
+      "lead": "10 月 28 日 UMelb 官网发布：墨大与印度科学研究所（IISc）牵头的研究发现，南极中层水（AAIW）的盐度和密度长期趋势出现快速逆转。",
+      "bullets": [
+        {
+          "k": "期刊",
+          "v": "Nature Climate Change"
+        },
+        {
+          "k": "团队",
+          "v": "Associate Professor Bishakhdatta Gayen（墨大 / IISc）与 IISc 博士生 Kaushik Mishra 牵头，南安普顿大学 Professor Alberto Naveira Garabato 合著"
+        },
+        {
+          "k": "变化",
+          "v": "1995-2015 年由南极夏季融冰维持；2016-2024 年淡水输入减少，这层水变得更咸、更密、更深"
+        },
+        {
+          "k": "数据",
+          "v": "分析了全球 Argo 计划约 4000 个机器人浮标的数据，以及卫星和大气数据"
+        },
+        {
+          "k": "对比",
+          "v": "上一次转变发生在约 13 万年前的末次间冰期，当时用了几千年"
+        }
+      ],
+      "sourceQuote": "The Antarctic Intermediate Water (AAIW) – a vast layer of freshwater spanning much of the Southern Hemisphere’s four oceans – has rapidly reversed its long-term trends in salinity and density, according to new research led by the University of Melbourne and the Indian Institute of Science.",
+      "source": "UMelb Newsroom · 2026-10-28",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/october/antarctic-sea-ice-loss-batters-oceans-freshwater-engine"
+    },
+    {
+      "idx": "03",
+      "category": "校园动态",
+      "h2Main": "Southbank 毕业季开幕",
+      "h2Sub": "10-11 月 低价或免费",
+      "h2Highlight": "毕业季",
+      "lead": "10 月 27 日 UMelb 官网发布：10 月下旬到 11 月，墨大 Southbank 校区举办 2026 Graduating Season，有公开音乐会、沉浸式装置、现场戏剧和艺术设计展。",
+      "bullets": [
+        {
+          "k": "时间",
+          "v": "2026 年 10 月下旬至 11 月"
+        },
+        {
+          "k": "地点",
+          "v": "墨大 Southbank 校区，Melbourne Arts Precinct"
+        },
+        {
+          "k": "内容",
+          "v": "舞蹈、戏剧、音乐剧、艺术、爵士、声乐、打击乐、互动作曲等"
+        },
+        {
+          "k": "票价",
+          "v": "官网写的是 low-or-no-cost events，低价或免费"
+        },
+        {
+          "k": "意义",
+          "v": "Faculty of Fine Arts and Music 院长 Professor Marie Sierra 说这是毕业生面向公众检验新作品的平台"
+        }
+      ],
+      "sourceQuote": "Throughout late October and November, the University of Melbourne's Southbank campus will host the 2026 Graduating Season, a dynamic array of public concerts, immersive installations, live theatre, and art and design exhibitions.",
+      "source": "UMelb Newsroom · 2026-10-27",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/october/celebration-of-artistic-excellence-premieres-at-southbank-campus"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UMelb 官网三条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "Fulbright 访学",
+        "body": "Fulbright 学者、AI 专家 Professor William C Regli 将到墨大 Melbourne National Security and Defence（MNSD）访学。"
+      },
+      {
+        "n": "02",
+        "title": "南极中层水",
+        "body": "墨大与印度科学研究所（IISc）牵头的研究发现，南极中层水（AAIW）的盐度和密度长期趋势出现快速逆转。"
+      },
+      {
+        "n": "03",
+        "title": "毕业季演出",
+        "body": "10 月下旬到 11 月，墨大 Southbank 校区举办 2026 Graduating Season，有公开音乐会、沉浸式装置、现场戏剧和艺术设计展。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/07"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "墨大这周三条 我筛过了",
+      "body": "10 月 27 日 - 11 月 2 日墨尔本大学官网有三条消息，我挑出来读完了。\n\n分别是：Fulbright 访学、南极中层水、毕业季演出。\n\n下面一张图一条，细节都对着官网抄的，官网没写的我就不写。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "AI 风险专家要来墨大了",
+      "body": "11 月 2 号墨大官网发的消息。\n\n官方原文：The University of Melbourne will soon host Fulbright Scholar and artificial intelligence (AI) expert Professor William C Regli.\n\n他在 AI、自主系统和国家安全方向做了 30 多年，之前在白宫科技政策办公室做过 AI 风险建模顾问。接待他的是今年 8 月刚成立的 MNSD。\n\n读 CS 或者对 AI 安全感兴趣的同学可以留意一下后续讲座 🤖",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "南极这层水 8 年就变了",
+      "body": "10 月 28 号墨大官网发的研究。\n\n官方原文：The Antarctic Intermediate Water (AAIW) has rapidly reversed its long-term trends in salinity and density.\n\n团队用了约 4000 个 Argo 浮标的数据，发现 2016-2024 年这层水变得更咸、更密、更深。上一次这种转变在约 13 万年前，花了几千年。\n\n学海洋、环境科学的同学可以去读原文 🌊",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "墨大毕业季演出可以去看",
+      "body": "10 月 27 号墨大官网发的消息。\n\n官方原文：Southbank campus will host the 2026 Graduating Season, a dynamic array of public concerts, immersive installations, live theatre, and art and design exhibitions.\n\n时间是 10 月下旬到 11 月，官网写的是低价或免费活动。舞蹈、爵士、音乐剧都有。\n\n期末考完想放松一下的，我打算挑一场爵士去 🎷",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "墨大日报 评论区聊聊",
+      "body": "这三条都是墨尔本大学官网的新闻，不是奖学金公告。\n\n你们更想看哪类：奖学金、招生、还是科研动态？评论区扣 1 / 2 / 3，我按票数排下周选题。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "墨大Fulbright 访学、南极中层水、毕业季演出",
+    "lead": "10 月 27 日 - 11 月 2 日UMelb 官网发布三条消息：Fulbright 访学；南极中层水；毕业季演出。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 3 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 AI 专家来墨大访学：Fulbright 学者",
+        "paragraphs": [
+          "11 月 2 日，UMelb 官网发布消息。官方原文：The University of Melbourne will soon host Fulbright Scholar and artificial intelligence (AI) expert Professor William C Regli at Melbourne National Security and Defence (MNSD).",
+          "Regli 目前是 University of Maryland 计算机科学教授，此前担任该校 Applied Research Laboratory for Intelligence and Security（ARLIS）首任执行主任。他曾任白宫科技政策办公室 AI 风险建模高级顾问，以及 DARPA Defense Sciences Office 副主任。",
+          "墨大副校长（Global, Culture and Engagement）Professor Michael Wesley 表示，这次访学是交流美澳两国战略议题视角的机会，重点包括负责任地使用 AI、理解并降低风险。接待单位 MNSD 于 2026 年 8 月成立。"
+        ],
+        "sourceHtml": "UMelb Newsroom · 2026-11-02 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/november/fulbright-scholar-to-strengthen-research-ties-with-the-united-states\">www.unimelb.edu.au</a>"
+      },
+      {
+        "h2": "02 南极中层水突然变咸：Nature Climate Change",
+        "paragraphs": [
+          "10 月 28 日，UMelb 官网发布消息。官方原文：The Antarctic Intermediate Water (AAIW) – a vast layer of freshwater spanning much of the Southern Hemisphere’s four oceans – has rapidly reversed its long-term trends in salinity and density, according to new research led by the University of Melbourne and the Indian Institute of Science.",
+          "研究描述，1995 到 2015 年，南极夏季融冰让 AAIW 保持稳定；2016 到 2024 年，淡水输入减少，这层水变得更咸、更密、更深。团队分析了全球 Argo 计划约 4000 个机器人浮标，以及卫星和大气数据。",
+          "Gayen 副教授说，AAIW 上一次转变是在约 13 万年前的末次间冰期，「那次转变用了几千年，不是二十年」。官网写到，2016 年之前南极夏季融化的淡水量是亚马孙河年径流量（约 6600 立方公里）的三倍。"
+        ],
+        "sourceHtml": "UMelb Newsroom · 2026-10-28 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/october/antarctic-sea-ice-loss-batters-oceans-freshwater-engine\">www.unimelb.edu.au</a>"
+      },
+      {
+        "h2": "03 Southbank 毕业季开幕：10-11 月 低价或免费",
+        "paragraphs": [
+          "10 月 27 日，UMelb 官网发布消息。官方原文：Throughout late October and November, the University of Melbourne's Southbank campus will host the 2026 Graduating Season, a dynamic array of public concerts, immersive installations, live theatre, and art and design exhibitions.",
+          "活动覆盖舞蹈、戏剧、音乐剧、艺术、爵士、声乐、打击乐和互动作曲等方向，官网写明大部分是低价或免费活动。",
+          "Faculty of Fine Arts and Music 院长 Professor Marie Sierra 表示，Graduating Season 给毕业生一个面向公众检验新作品、积累观众的平台。VCA Dance 负责人 Dr Derrick Brown-Appenzeller 提到，参与艺术活动对心理和情绪健康有帮助。"
+        ],
+        "sourceHtml": "UMelb Newsroom · 2026-10-27 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/october/celebration-of-artistic-excellence-premieres-at-southbank-campus\">www.unimelb.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "Fulbright 学者、AI 专家 Professor William C Regli 将到墨大 Melbourne National Security and Defence（MNSD）访学。",
+        "墨大与印度科学研究所（IISc）牵头的研究发现，南极中层水（AAIW）的盐度和密度长期趋势出现快速逆转。",
+        "10 月下旬到 11 月，墨大 Southbank 校区举办 2026 Graduating Season，有公开音乐会、沉浸式装置、现场戏剧和艺术设计展。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "10 月 27 日 - 11 月 2 日墨尔本大学官网有三条消息，我都读完了。\n\n第1条：Fulbright 访学。官方原文：The University of Melbourne will soon host Fulbright Scholar and artificial intelligence (AI) expert Professor William C Regli at Melbourne National Security and Defence (MNSD).\n\n第2条：南极中层水。官方原文：The Antarctic Intermediate Water (AAIW) – a vast layer of freshwater spanning much of the Southern Hemisphere’s four oceans – has rapidly reversed its long-term trends in salinity and density, according to new research led by the University of Melbourne and the Indian Institute of Science.\n\n第3条：毕业季演出。官方原文：Throughout late October and November, the University of Melbourne's Southbank campus will host the 2026 Graduating Season, a dynamic array of public concerts, immersive installations, live theatre, and art and design exhibitions.\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": [
+          "#墨尔本大学",
+          "#UniMelb",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-07",
+  "school": "monash",
+  "summary": {
+    "hookMain": "Monash 莫纳什大学",
+    "hookSub": "11 月 5 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "包括 Monash 网络安全专家在内的国际团队获得近 $5 million 的 ARC 资助，研究如何防范量子计算带来的安全威胁。",
+      "Monash、Monash 马来西亚校区与 Global Finance & Technology Network（GFTN）签署谅解备忘录，覆盖金融科技教育、科研转化和创业。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "量子安全",
+        "data": "约 $5M"
+      },
+      {
+        "num": "02",
+        "title": "金融科技合作",
+        "data": "MoU"
+      },
+      {
+        "num": "03",
+        "title": "物种恢复",
+        "data": "61%"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "量子安全 ARC Hub",
+      "h2Sub": "约 $5 million",
+      "h2Highlight": "量子安全",
+      "lead": "11 月 5 日 Monash 官网发布：包括 Monash 网络安全专家在内的国际团队获得近 $5 million 的 ARC 资助，研究如何防范量子计算带来的安全威胁。",
+      "bullets": [
+        {
+          "k": "项目",
+          "v": "ARC Research Hub for Quantum Safety Testing（QuST）"
+        },
+        {
+          "k": "合作",
+          "v": "由昆士兰大学（UQ）牵头，UNSW 研究者参与"
+        },
+        {
+          "k": "Monash 负责人",
+          "v": "信息技术学院 Dr Muhammed Esgin"
+        },
+        {
+          "k": "方向",
+          "v": "开发自动化测试和认证技术，帮机构评估系统是否准备好应对量子计算带来的安全挑战"
+        },
+        {
+          "k": "背景",
+          "v": "官网写网络攻击估计每年让澳洲经济损失 $33 billion"
+        }
+      ],
+      "sourceQuote": "An international team of researchers, including cybersecurity experts from Monash University, has secured almost $5 million in Australian Research Council (ARC) funding to help safeguard Australia’s critical digital infrastructure against emerging security threats posed by advances in quantum computing.",
+      "source": "Monash News · 2026-11-05",
+      "sourceUrl": "https://www.monash.edu/news/articles/tested-in-australia-monash-joins-$4.9-million-arc-hub-to-strengthen-quantum-safety"
+    },
+    {
+      "idx": "02",
+      "category": "校企合作",
+      "h2Main": "莫大签金融科技合作",
+      "h2Sub": "与 GFTN 签 MoU",
+      "h2Highlight": "金融科技",
+      "lead": "11 月 5 日 Monash 官网发布：Monash、Monash 马来西亚校区与 Global Finance & Technology Network（GFTN）签署谅解备忘录，覆盖金融科技教育、科研转化和创业。",
+      "bullets": [
+        {
+          "k": "签约方",
+          "v": "Monash University、Monash University Malaysia、GFTN"
+        },
+        {
+          "k": "GFTN",
+          "v": "非营利组织，联合主办 Singapore FinTech Festival"
+        },
+        {
+          "k": "合作内容",
+          "v": "金融科技与新兴技术方向的能力建设、教育和课程开发"
+        },
+        {
+          "k": "马来西亚校区",
+          "v": "通过 Fintech Impact Lab 贡献金融科技经验"
+        },
+        {
+          "k": "表态",
+          "v": "校长 Professor Sharon Pickering 说 Monash 定位为 a university of the Indo-Pacific"
+        }
+      ],
+      "sourceQuote": "Monash University, Monash University Malaysia and the Global Finance & Technology Network (GFTN) have signed a memorandum of understanding covering financial technology education, research translation and entrepreneurship.",
+      "source": "Monash News · 2026-11-05",
+      "sourceUrl": "https://www.monash.edu/news/articles/monash-and-global-financial-technology-network-to-collaborate-on-financial-technology-education-and-entrepreneurship-across-indo-pacific"
+    },
+    {
+      "idx": "03",
+      "category": "科研",
+      "h2Main": "小种群也能救回来",
+      "h2Sub": "61% 恢复到 100 只以上",
+      "h2Highlight": "61%",
+      "lead": "11 月 5 日 Monash 官网发布：Monash 与伦敦动物学会合作研究发现，野外不足 50 只的物种并不必然灭绝，主动保护能让它们恢复。",
+      "bullets": [
+        {
+          "k": "期刊",
+          "v": "Proceedings of the Royal Society B"
+        },
+        {
+          "k": "样本",
+          "v": "评估了 141 个有足够追踪记录的鸟类和哺乳动物物种"
+        },
+        {
+          "k": "有保护",
+          "v": "51 个获得直接保护的物种中，61% 恢复到至少 100 只"
+        },
+        {
+          "k": "无保护",
+          "v": "未获直接支持的物种中 37% 灭绝"
+        },
+        {
+          "k": "案例",
+          "v": "Lord Howe woodhen 从 1970 年代末的 23 只恢复到如今 1600 多只"
+        }
+      ],
+      "sourceQuote": "Species reduced to fewer than 50 individuals in the wild are not automatically doomed to extinction, according to a major study co-authored by researchers at the Zoological Society of London and Monash University.",
+      "source": "Monash News · 2026-11-05",
+      "sourceUrl": "https://www.monash.edu/news/articles/small-populations,-big-potential-new-research-overturns-extinction-assumptions"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 官网三条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "量子安全",
+        "body": "包括 Monash 网络安全专家在内的国际团队获得近 $5 million 的 ARC 资助，研究如何防范量子计算带来的安全威胁。"
+      },
+      {
+        "n": "02",
+        "title": "金融科技合作",
+        "body": "Monash、Monash 马来西亚校区与 Global Finance & Technology Network（GFTN）签署谅解备忘录，覆盖金融科技教育、科研转化和创业。"
+      },
+      {
+        "n": "03",
+        "title": "物种恢复",
+        "body": "Monash 与伦敦动物学会合作研究发现，野外不足 50 只的物种并不必然灭绝，主动保护能让它们恢复。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/07"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "莫大这周三条 我筛过了",
+      "body": "11 月 5 日莫纳什大学官网有三条消息，我挑出来读完了。\n\n分别是：量子安全、金融科技合作、物种恢复。\n\n下面一张图一条，细节都对着官网抄的，官网没写的我就不写。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "莫大拿了量子安全的钱",
+      "body": "11 月 5 号莫大官网发的消息。\n\n官方原文：An international team of researchers, including cybersecurity experts from Monash University, has secured almost $5 million in Australian Research Council (ARC) funding.\n\n项目叫 QuST，UQ 牵头，莫大和 UNSW 参与，做量子安全的测试和认证。莫大负责人是 IT 学院的 Dr Muhammed Esgin。\n\n读网安方向的同学，我觉得后量子密码这块值得多看看 🔐",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "莫大和新加坡金融科技组织签约",
+      "body": "11 月 5 号莫大官网发的消息。\n\n官方原文：Monash University, Monash University Malaysia and the Global Finance & Technology Network (GFTN) have signed a memorandum of understanding.\n\nGFTN 是联合主办 Singapore FinTech Festival 的非营利组织，这次合作重点是金融科技教育和创业。\n\n我在纠结要不要往 fintech 方向选课，这条先收藏 💳",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "只剩 50 只的物种还能救",
+      "body": "11 月 5 号莫大官网发的研究。\n\n官方原文：Species reduced to fewer than 50 individuals in the wild are not automatically doomed to extinction.\n\n141 个物种里，受到直接保护的 51 个有 61% 恢复到至少 100 只。澳洲 Lord Howe woodhen 从 23 只回到 1600 多只。\n\n生物专业的同学看完有点被治愈到 🐦",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "莫大日报 评论区聊聊",
+      "body": "这三条都是莫纳什大学官网的新闻，不是奖学金公告。\n\n你们更想看哪类：奖学金、招生、还是科研动态？评论区扣 1 / 2 / 3，我按票数排下周选题。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "莫大量子安全、金融科技合作、物种恢复",
+    "lead": "11 月 5 日Monash 官网发布三条消息：量子安全；金融科技合作；物种恢复。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 3 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 量子安全 ARC Hub：约 $5 million",
+        "paragraphs": [
+          "11 月 5 日，Monash 官网发布消息。官方原文：An international team of researchers, including cybersecurity experts from Monash University, has secured almost $5 million in Australian Research Council (ARC) funding to help safeguard Australia’s critical digital infrastructure against emerging security threats posed by advances in quantum computing.",
+          "Hub 全称 ARC Research Hub for Quantum Safety Testing（QuST），由昆士兰大学牵头，UNSW 研究者参与，Monash 部分由信息技术学院 Dr Muhammed Esgin 负责。",
+          "Monash 的后量子密码团队在这一方向做了二十年，相关工作对美国 NIST 制定的国际标准有贡献。Esgin 说，安全不只是造新技术，还要能验证它确实按预期工作。"
+        ],
+        "sourceHtml": "Monash News · 2026-11-05 · <a href=\"https://www.monash.edu/news/articles/tested-in-australia-monash-joins-$4.9-million-arc-hub-to-strengthen-quantum-safety\">www.monash.edu</a>"
+      },
+      {
+        "h2": "02 莫大签金融科技合作：与 GFTN 签 MoU",
+        "paragraphs": [
+          "11 月 5 日，Monash 官网发布消息。官方原文：Monash University, Monash University Malaysia and the Global Finance & Technology Network (GFTN) have signed a memorandum of understanding covering financial technology education, research translation and entrepreneurship.",
+          "GFTN 是非营利组织，连接金融、政府和科技领域，联合主办 Singapore FinTech Festival，教育合作方包括新加坡国立大学。",
+          "协议的重点在教育：金融科技与新兴技术方向的能力建设和课程开发。Monash 马来西亚校区会通过 Fintech Impact Lab 参与，这个实验室把研究人员、学生和业界放在一起做应用研究。"
+        ],
+        "sourceHtml": "Monash News · 2026-11-05 · <a href=\"https://www.monash.edu/news/articles/monash-and-global-financial-technology-network-to-collaborate-on-financial-technology-education-and-entrepreneurship-across-indo-pacific\">www.monash.edu</a>"
+      },
+      {
+        "h2": "03 小种群也能救回来：61% 恢复到 100 只以上",
+        "paragraphs": [
+          "11 月 5 日，Monash 官网发布消息。官方原文：Species reduced to fewer than 50 individuals in the wild are not automatically doomed to extinction, according to a major study co-authored by researchers at the Zoological Society of London and Monash University.",
+          "研究梳理了 1950 年以来野外数量曾跌破 50 只的鸟类和哺乳动物，其中 141 个物种有足够的追踪记录。获得直接保护（如控制入侵捕食者、恢复栖息地、圈养繁殖、迁地）的 51 个物种里，61% 恢复到至少 100 只；没有直接支持的物种中 37% 灭绝。",
+          "第一作者是 Monash 生物科学学院 Dr Donal Smith。澳洲的 Lord Howe woodhen 从 1970 年代末的 23 只恢复到现在 1600 多只。"
+        ],
+        "sourceHtml": "Monash News · 2026-11-05 · <a href=\"https://www.monash.edu/news/articles/small-populations,-big-potential-new-research-overturns-extinction-assumptions\">www.monash.edu</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "包括 Monash 网络安全专家在内的国际团队获得近 $5 million 的 ARC 资助，研究如何防范量子计算带来的安全威胁。",
+        "Monash、Monash 马来西亚校区与 Global Finance & Technology Network（GFTN）签署谅解备忘录，覆盖金融科技教育、科研转化和创业。",
+        "Monash 与伦敦动物学会合作研究发现，野外不足 50 只的物种并不必然灭绝，主动保护能让它们恢复。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "11 月 5 日莫纳什大学官网有三条消息，我都读完了。\n\n第1条：量子安全。官方原文：An international team of researchers, including cybersecurity experts from Monash University, has secured almost $5 million in Australian Research Council (ARC) funding to help safeguard Australia’s critical digital infrastructure against emerging security threats posed by advances in quantum computing.\n\n第2条：金融科技合作。官方原文：Monash University, Monash University Malaysia and the Global Finance & Technology Network (GFTN) have signed a memorandum of understanding covering financial technology education, research translation and entrepreneurship.\n\n第3条：物种恢复。官方原文：Species reduced to fewer than 50 individuals in the wild are not automatically doomed to extinction, according to a major study co-authored by researchers at the Zoological Society of London and Monash University.\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": [
+          "#莫纳什大学",
+          "#Monash",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

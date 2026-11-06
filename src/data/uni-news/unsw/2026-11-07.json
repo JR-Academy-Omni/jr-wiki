@@ -1,0 +1,286 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-07",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "UNSW 新南威尔士大学",
+    "hookSub": "11 月 5-6 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "The George Institute 与 UNSW 研究发现，把普通食盐换成富钾盐，全球每年可能避免数百万例死亡。",
+      "2026 UNSW Press Bragg Prize 由三位作者共享，获奖作品分别写海洋和挑战者号航天飞机事故。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "富钾盐",
+        "data": "近 300 万"
+      },
+      {
+        "num": "02",
+        "title": "Bragg 奖",
+        "data": "3 位作者"
+      },
+      {
+        "num": "03",
+        "title": "夜间出行",
+        "data": "20+ 区域"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "换一种盐能救命",
+      "h2Sub": "Nature Health",
+      "h2Highlight": "Nature Health",
+      "lead": "11 月 5 日 UNSW 官网发布：The George Institute 与 UNSW 研究发现，把普通食盐换成富钾盐，全球每年可能避免数百万例死亡。",
+      "bullets": [
+        {
+          "k": "期刊",
+          "v": "Nature Health"
+        },
+        {
+          "k": "范围",
+          "v": "评估了 193 个国家"
+        },
+        {
+          "k": "结论",
+          "v": "每年可避免近 300 万例死亡和 1000 万例新发心血管及肾脏疾病"
+        },
+        {
+          "k": "原理",
+          "v": "用氯化钾替代部分氯化钠，外观、味道和烹饪方式与普通盐相同"
+        },
+        {
+          "k": "背景",
+          "v": "WHO 在 2025 年认可使用富钾盐降低血压和心血管疾病风险"
+        }
+      ],
+      "sourceQuote": "Switching from regular table salt to potassium-enriched salt could prevent millions of deaths worldwide each year, according to the first study on the potential global impact, published today in Nature Health.",
+      "source": "UNSW Newsroom · 2026-11-05",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/healthier-form-of-salt-could-prevent-millions-of-deaths-from-stroke-and-heart-disease"
+    },
+    {
+      "idx": "02",
+      "category": "校园动态",
+      "h2Main": "Bragg 科普写作奖",
+      "h2Sub": "三位作者共享",
+      "h2Highlight": "三位作者",
+      "lead": "11 月 6 日 UNSW 官网发布：2026 UNSW Press Bragg Prize 由三位作者共享，获奖作品分别写海洋和挑战者号航天飞机事故。",
+      "bullets": [
+        {
+          "k": "奖项",
+          "v": "UNSW Press Bragg Prize，非虚构科普写作奖"
+        },
+        {
+          "k": "获奖者",
+          "v": "James Bradley、Fiona Pepper、Jonathan Webb"
+        },
+        {
+          "k": "作品一",
+          "v": "James Bradley 的 An Oceanic Tempo，最早发表在 Aeon"
+        },
+        {
+          "k": "作品二",
+          "v": "Jonathan Webb 与 Fiona Pepper 的 Challenger: The Disaster Five People Saw Coming"
+        },
+        {
+          "k": "历史",
+          "v": "该奖 2012 年设立，今年是设奖以来头一回由多部作品共享"
+        }
+      ],
+      "sourceQuote": "Three writers have shared the 2026 UNSW Press Bragg Prize for science writing for their work on oceans and the Challenger space shuttle disaster.",
+      "source": "UNSW Newsroom · 2026-11-06",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/from-the-sky-to-the-ocean-science-writers-share-UNSW-Press-Bragg-prize"
+    },
+    {
+      "idx": "03",
+      "category": "科研",
+      "h2Main": "夜生活从出门就开始",
+      "h2Sub": "交通 厕所 人行道",
+      "h2Highlight": "夜生活",
+      "lead": "11 月 6 日 UNSW 官网发布：新州推动夜间经济之际，UNSW 研究关注容易被忽视的部分：回家交通、厕所、通畅的人行道和免费体验。",
+      "bullets": [
+        {
+          "k": "研究者",
+          "v": "建成环境专家 Dr Fatemeh Aminpour"
+        },
+        {
+          "k": "研究对象",
+          "v": "神经多样性成年人在 City of Sydney 公共开放空间的体验"
+        },
+        {
+          "k": "背景",
+          "v": "City of Sydney 正就在 20 多个区域设立娱乐区征求意见"
+        },
+        {
+          "k": "发现",
+          "v": "交通不可靠会让人放弃进城；厕所是参与者高度重视的配套"
+        },
+        {
+          "k": "说明",
+          "v": "Aminpour 表示研究并非对新州夜间经济改革的评估"
+        }
+      ],
+      "sourceQuote": "As NSW seeks to grow its night-time economy, UNSW research points to the less visible parts of the experience: transport home, the availability of toilets, clear footpaths and free experiences.",
+      "source": "UNSW Newsroom · 2026-11-06",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/your-night-out-starts-before-you-leave-home"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 官网三条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "富钾盐",
+        "body": "The George Institute 与 UNSW 研究发现，把普通食盐换成富钾盐，全球每年可能避免数百万例死亡。"
+      },
+      {
+        "n": "02",
+        "title": "Bragg 奖",
+        "body": "2026 UNSW Press Bragg Prize 由三位作者共享，获奖作品分别写海洋和挑战者号航天飞机事故。"
+      },
+      {
+        "n": "03",
+        "title": "夜间出行",
+        "body": "新州推动夜间经济之际，UNSW 研究关注容易被忽视的部分：回家交通、厕所、通畅的人行道和免费体验。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/07"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW这周三条 我筛过了",
+      "body": "11 月 5-6 日新南威尔士大学官网有三条消息，我挑出来读完了。\n\n分别是：富钾盐、Bragg 奖、夜间出行。\n\n下面一张图一条，细节都对着官网抄的，官网没写的我就不写。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UNSW 研究：换盐也能护心",
+      "body": "11 月 5 号 UNSW 官网发的研究。\n\n官方原文：Switching from regular table salt to potassium-enriched salt could prevent millions of deaths worldwide each year.\n\n研究算了 193 个国家，每年可避免近 300 万例死亡。富钾盐外观和味道跟普通盐一样。\n\n我自己做饭盐放得重，打算去超市看看有没有卖 🧂",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "UNSW 科普写作奖出炉",
+      "body": "11 月 6 号 UNSW 官网发的消息。\n\n官方原文：Three writers have shared the 2026 UNSW Press Bragg Prize for science writing.\n\n一篇写海洋节律，一篇写挑战者号事故。这个奖 2012 年设立，今年头一回共享。\n\n想练英文科普阅读的同学，可以把这两篇加进书单 📚",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "晚上进城 你卡在哪一步",
+      "body": "11 月 6 号 UNSW 官网发的研究。\n\n官方原文：UNSW research points to the less visible parts of the experience: transport home, the availability of toilets, clear footpaths and free experiences.\n\n研究者访谈的参与者说，回家的车不靠谱，就干脆不去了。\n\n住得远的同学晚上进城最担心什么？我是末班车 🚆",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW日报 评论区聊聊",
+      "body": "这三条都是新南威尔士大学官网的新闻，不是奖学金公告。\n\n你们更想看哪类：奖学金、招生、还是科研动态？评论区扣 1 / 2 / 3，我按票数排下周选题。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW富钾盐、Bragg 奖、夜间出行",
+    "lead": "11 月 5-6 日UNSW 官网发布三条消息：富钾盐；Bragg 奖；夜间出行。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 3 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 换一种盐能救命：Nature Health",
+        "paragraphs": [
+          "11 月 5 日，UNSW 官网发布消息。官方原文：Switching from regular table salt to potassium-enriched salt could prevent millions of deaths worldwide each year, according to the first study on the potential global impact, published today in Nature Health.",
+          "研究评估了 193 个国家把食盐供应换成富钾盐的健康收益，结论是全球每年可避免近 300 万例死亡和 1000 万例新发心血管及肾脏疾病。UNSW Conjoint Professor Bruce Neal 说，在多数国家可避免多达十分之一的心血管死亡。",
+          "富钾盐是用氯化钾替代部分氯化钠，外观、味道和烹饪方式与普通盐相同。WHO 在 2025 年认可用它降低血压和心血管疾病风险。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-05 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/healthier-form-of-salt-could-prevent-millions-of-deaths-from-stroke-and-heart-disease\">www.unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 Bragg 科普写作奖：三位作者共享",
+        "paragraphs": [
+          "11 月 6 日，UNSW 官网发布消息。官方原文：Three writers have shared the 2026 UNSW Press Bragg Prize for science writing for their work on oceans and the Challenger space shuttle disaster.",
+          "James Bradley 的 An Oceanic Tempo 最早发表在 Aeon，借海洋的节律和周期讨论时间。Jonathan Webb 与 Fiona Pepper 的作品是 Challenger: The Disaster Five People Saw Coming。",
+          "这个奖 2012 年设立，今年是设奖以来头一回共享。Bradley 说，气候变化、塑料、绿色转型都和人类时间尺度与地球时间尺度的错位有关。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-06 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/from-the-sky-to-the-ocean-science-writers-share-UNSW-Press-Bragg-prize\">www.unsw.edu.au</a>"
+      },
+      {
+        "h2": "03 夜生活从出门就开始：交通 厕所 人行道",
+        "paragraphs": [
+          "11 月 6 日，UNSW 官网发布消息。官方原文：As NSW seeks to grow its night-time economy, UNSW research points to the less visible parts of the experience: transport home, the availability of toilets, clear footpaths and free experiences.",
+          "City of Sydney 正在就 20 多个区域设立娱乐区征求意见。Dr Fatemeh Aminpour 的研究对象是神经多样性成年人在 City of Sydney 公共开放空间的体验。",
+          "参与者提到，交通不可靠会让进城显得太冒险；夜间关闭的厕所会影响路线规划。Aminpour 说研究不是对新州夜间经济改革的评估，但能给规划者提供参考。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-06 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/your-night-out-starts-before-you-leave-home\">www.unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "The George Institute 与 UNSW 研究发现，把普通食盐换成富钾盐，全球每年可能避免数百万例死亡。",
+        "2026 UNSW Press Bragg Prize 由三位作者共享，获奖作品分别写海洋和挑战者号航天飞机事故。",
+        "新州推动夜间经济之际，UNSW 研究关注容易被忽视的部分：回家交通、厕所、通畅的人行道和免费体验。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "11 月 5-6 日新南威尔士大学官网有三条消息，我都读完了。\n\n第1条：富钾盐。官方原文：Switching from regular table salt to potassium-enriched salt could prevent millions of deaths worldwide each year, according to the first study on the potential global impact, published today in Nature Health.\n\n第2条：Bragg 奖。官方原文：Three writers have shared the 2026 UNSW Press Bragg Prize for science writing for their work on oceans and the Challenger space shuttle disaster.\n\n第3条：夜间出行。官方原文：As NSW seeks to grow its night-time economy, UNSW research points to the less visible parts of the experience: transport home, the availability of toilets, clear footpaths and free experiences.\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": [
+          "#新南威尔士大学",
+          "#UNSW",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}
