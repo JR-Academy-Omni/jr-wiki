@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-07",
+  "summary": {
+    "hook": [{"text":"Claude上线个人理财工具"},{"text":"Meta收购AI编程工具Conductor"},{"text":"Dropbox拟收购Tigris做AI存储"}],
+    "sub": "三条都有官方页面作一手来源，配TechCrunch独立报道核对。",
+    "items": [
+      {"num":"01","cat":"产品","numColor":"#FF5757","t":"Claude推出Personal Finance测试版，通过Plaid只读连接银行和信用卡账户"},
+      {"num":"02","cat":"收购","numColor":"#7861FF","t":"Meta收购并行编程Agent工具Conductor，云服务11月20日关闭"},
+      {"num":"03","cat":"基础设施","numColor":"#119B74","t":"Dropbox宣布拟收购Tigris Data，推出S3兼容的对象存储"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-claude-personal-finance",
+      "idx": "01",
+      "catText": "产品",
+      "accent": "#FF5757",
+      "bg": {"top":"产品","mid":"PERSONAL FINANCE","bot":"2026.11.07","topRight":""},
+      "title": [{"text":"Claude能直接看你的银行流水了"}],
+      "oneline": [{"text":"通过Plaid只读连接银行卡和信用卡，用自然语言问钱花哪了。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Anthropic 11月5日发布Personal Finance测试版，美国Pro、Max、Ultra用户可用。"},
+        {"k":"为什么重要","v":"Claude可读最多两年交易记录，按类别汇总支出，官方称这些对话不用于训练。"},
+        {"k":"使用边界","v":"官方说明不提供投资建议，回答可能出错，重要数字要和银行核对。"}
+      ],
+      "src": "📎 claude.com · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Claude 官方博客","url":"https://claude.com/resources/articles/introducing-personal-finance-in-claude","claim":"美国Pro/Max/Ultra测试版","quote":"Personal Finance starts rolling out in beta this week, on the Pro, Max, and Ultra plans in the US."},
+        {"type":"primary","publisher":"Claude 官方博客","url":"https://claude.com/resources/articles/introducing-personal-finance-in-claude","claim":"不提供投资建议","quote":"Personal Finance helps you understand your money, and it isn't designed to give investment advice."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/","claim":"通过Plaid连接账户","quote":"users can connect their bank and credit card accounts through Plaid and ask Claude questions about their finances."}
+      ]
+    },
+    {
+      "slug": "02-meta-acquires-conductor",
+      "idx": "02",
+      "catText": "收购",
+      "accent": "#7861FF",
+      "bg": {"top":"收购","mid":"META x CONDUCTOR","bot":"2026.11.07","topRight":""},
+      "title": [{"text":"Meta收购并行编程Agent工具Conductor"}],
+      "oneline": [{"text":"Conductor能在Mac上并行跑Claude Code、Codex和Cursor，现已停止新用户注册。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Meta 11月4日向TechCrunch确认收购，未透露交易金额。"},
+        {"k":"为什么重要","v":"多Agent并行编排成了大厂收购目标，Conductor本身不做模型。"},
+        {"k":"对你的影响","v":"云服务11月13日只读、20日关闭；本地版维护到2027年初。"}
+      ],
+      "src": "📎 conductor.build · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Conductor 官方更新日志","url":"https://www.conductor.build/changelog/0.93.0-conductor-is-joining-meta","claim":"云服务关闭时间","quote":"Conductor Cloud goes read-only on November 13 and shuts down on November 20."},
+        {"type":"primary","publisher":"Conductor 官方更新日志","url":"https://www.conductor.build/changelog/0.93.0-conductor-is-joining-meta","claim":"本地版维护期","quote":"Local Conductor keeps getting new models and critical bug fixes until early 2027."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/","claim":"Meta确认收购但不透露细节","quote":"Meta confirmed the acquisition to TechCrunch but wouldn't comment further or provide additional details about the deal."}
+      ]
+    },
+    {
+      "slug": "03-dropbox-tigris-data",
+      "idx": "03",
+      "catText": "基础设施",
+      "accent": "#119B74",
+      "bg": {"top":"基础设施","mid":"DBX AGENT CLOUD","bot":"2026.11.07","topRight":""},
+      "title": [{"text":"Dropbox拟收购Tigris，卖起AI对象存储"}],
+      "oneline": [{"text":"新业务DBX Agent Cloud先上线S3兼容对象存储，可单独购买。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Dropbox 11月5日宣布拟收购Tigris Data，TechCrunch报道金额为3.5亿美元。"},
+        {"k":"为什么重要","v":"Dropbox从网盘转向给开发者和Agent卖底层存储，后续加文件系统和内容处理。"},
+        {"k":"使用边界","v":"交易尚未完成，预计2026年第四季度交割；Tigris现有客户安排未公布。"}
+      ],
+      "src": "📎 blog.dropbox.com · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Dropbox 官方博客","url":"https://blog.dropbox.com/topics/company/dropboxs-next-chapter","claim":"收购目的","quote":"The planned acquisition of Tigris would accelerate this expansion"},
+        {"type":"primary","publisher":"Dropbox 官方博客","url":"https://blog.dropbox.com/topics/company/dropboxs-next-chapter","claim":"S3兼容对象存储","quote":"The object storage offering is S3-compatible"},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/","claim":"交割时间","quote":"expected to close in the fourth quarter of 2026"},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/","claim":"收购金额","quote":"a $350 million acquisition of cloud technology company Tigris Data"}
+      ]
+    }
+  ],
+  "mp": {"title": "Claude能看你的银行流水了，Meta收购Conductor，Dropbox拟收购Tigris"}
+}
