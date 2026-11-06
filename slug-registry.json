@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-11-05T23:37:04.872Z",
+  "lockedAt": "2026-11-06T23:37:40.742Z",
   "version": 1,
   "slugs": [
     {
@@ -1052,6 +1052,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-11-07"
+    },
+    {
+      "type": "article",
       "slug": "kmart-nail-glue-button-battery-accc-case-2026"
     },
     {
@@ -1328,6 +1332,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-monash-2026-11-07"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-umelb-2026-04-24"
     },
     {
@@ -1429,6 +1437,10 @@
     {
       "type": "article",
       "slug": "uni-news-umelb-2026-11-05"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-11-07"
     },
     {
       "type": "article",
@@ -1541,6 +1553,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-11-05"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-11-07"
     },
     {
       "type": "article",
