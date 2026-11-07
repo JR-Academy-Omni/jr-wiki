@@ -1,222 +1,250 @@
 {
   "schemaVersion": "3.0",
-  "rangeStart": "2026-08-23",
-  "rangeEnd": "2026-11-21",
+  "rangeStart": "2026-11-08",
+  "rangeEnd": "2027-02-06",
   "rangeDays": 91,
-  "generatedAt": "2026-08-23T09:09:49+10:00",
+  "generatedAt": "2026-11-08T09:00:00+11:00",
   "countries": [
-    { "code": "GLOBAL", "label": "全球华人", "flag": "🌏" },
-    { "code": "CN", "label": "中国", "flag": "🇨🇳" },
-    { "code": "AU", "label": "澳洲", "flag": "🇦🇺" },
-    { "code": "SG", "label": "新加坡", "flag": "🇸🇬" },
-    { "code": "MY", "label": "马来西亚", "flag": "🇲🇾" },
-    { "code": "US", "label": "美国", "flag": "🇺🇸" },
-    { "code": "GB", "label": "英国", "flag": "🇬🇧" }
+    {
+      "code": "GLOBAL",
+      "label": "全球华人",
+      "flag": "🌏"
+    },
+    {
+      "code": "CN",
+      "label": "中国",
+      "flag": "🇨🇳"
+    },
+    {
+      "code": "AU",
+      "label": "澳洲",
+      "flag": "🇦🇺"
+    },
+    {
+      "code": "SG",
+      "label": "新加坡",
+      "flag": "🇸🇬"
+    },
+    {
+      "code": "MY",
+      "label": "马来西亚",
+      "flag": "🇲🇾"
+    },
+    {
+      "code": "US",
+      "label": "美国",
+      "flag": "🇺🇸"
+    },
+    {
+      "code": "GB",
+      "label": "英国",
+      "flag": "🇬🇧"
+    }
   ],
   "holidays": [
-    {
-      "date": "2026-08-25",
-      "country": "MY",
-      "name": "Prophet Muhammad's Birthday",
-      "localName": "Hari Mawlid Nabi Muhammad",
-      "nameZh": "先知穆罕默德诞辰",
-      "type": "public-holiday",
-      "marketingNote": "马来穆斯林重要节日 · 大马学员在庆典中，发祝福避免商业推广"
-    },
-    {
-      "date": "2026-08-31",
-      "country": "MY",
-      "name": "Merdeka Day",
-      "localName": "Hari Merdeka",
-      "nameZh": "马来西亚独立日",
-      "type": "public-holiday",
-      "marketingNote": "大马国庆日 · 爱国情绪旺 · 推「在海外用技能为家人争气」共情故事"
-    },
-    {
-      "date": "2026-08-31",
-      "country": "GB",
-      "name": "Summer Bank Holiday",
-      "localName": "Summer Bank Holiday",
-      "nameZh": "夏季银行假",
-      "type": "public-holiday",
-      "counties": ["GB-ENG", "GB-WLS", "GB-NIR"],
-      "marketingNote": "英格兰/威尔士/北爱夏末长周末 · 英国学员最后一个夏假 · 推秋季开学/求职预热"
-    },
-    {
-      "date": "2026-09-07",
-      "country": "US",
-      "name": "Labor Day",
-      "localName": "Labor Day",
-      "nameZh": "劳动节",
-      "type": "public-holiday",
-      "marketingNote": "美国劳动节 · 秋招季正式开炮，推北美留学生/应届生求职冲刺内容"
-    },
-    {
-      "date": "2026-09-10",
-      "country": "CN",
-      "name": "教师节",
-      "nameZh": "教师节",
-      "type": "marketing-node",
-      "emoji": "🍎",
-      "tier": "B",
-      "seasonal": false,
-      "window": null,
-      "playbook": {
-        "audience": "尊师重道氛围 · 也指向匠人学院的讲师/导师",
-        "angle": "致敬好老师 + 终身学习者本身就是自己最好的老师",
-        "contentIdeas": [
-          "小红书：感谢那个教会我编程的人",
-          "公众号：匠人学院讲师/mentor 介绍专题（真实署名）"
-        ],
-        "productHook": "Faculty/mentorship 卖点 + 师生互动社群",
-        "copyHooks": ["最好的老师，是让你爱上学习的人", "教师节，致敬每一位带过你的 mentor"],
-        "channels": ["小红书", "公众号"],
-        "avoid": "❌ 别硬转化；用真实讲师故事，不编造头衔（反幻觉）"
-      }
-    },
-    {
-      "date": "2026-09-16",
-      "country": "MY",
-      "name": "Malaysia Day",
-      "localName": "Hari Malaysia",
-      "nameZh": "马来西亚日",
-      "type": "public-holiday",
-      "marketingNote": "大马建国纪念日 · 与独立日同属国家认同节点 · 发大马学员成功故事"
-    },
-    {
-      "date": "2026-09-25",
-      "country": "AU",
-      "name": "Friday before AFL Grand Final",
-      "localName": "Friday before AFL Grand Final",
-      "nameZh": "AFL大决赛前假期（维州）",
-      "type": "public-holiday",
-      "counties": ["AU-VIC"],
-      "marketingNote": "仅维州 · AFL决赛狂热周，维州学员心在赛场，发互动内容比硬广更共鸣"
-    },
-    {
-      "date": "2026-09-25",
-      "country": "GLOBAL",
-      "name": "中秋节",
-      "nameZh": "中秋节",
-      "type": "marketing-node",
-      "emoji": "🥮",
-      "tier": "A",
-      "seasonal": false,
-      "window": null,
-      "playbook": {
-        "audience": "全球华人 · 海外华人思乡高峰 + 国内团圆",
-        "angle": "千里共婵娟：海外学员的中秋故事 + 假期温情陪伴，不催学",
-        "contentIdeas": [
-          "小红书：一个人在海外过中秋，但我的代码陪着我（轻松温情）",
-          "公众号：海外华人学员的中秋 + 在异乡靠技能立足的故事",
-          "学习群：中秋互动（晒月饼/AI 做月亮图）+ 福利"
-        ],
-        "productHook": "轻挂 membership；主打品牌温度",
-        "copyHooks": ["千里共婵娟", "无论在哪，愿你的努力都被看见"],
-        "channels": ["小红书", "公众号", "学习群"],
-        "avoid": "❌ 假期主打温情，避免硬促销；用『团圆/思乡』真实情绪不煽情"
-      }
-    },
-    {
-      "date": "2026-09-28",
-      "country": "AU",
-      "name": "King's Birthday",
-      "localName": "King's Birthday",
-      "nameZh": "国王生日（西澳）",
-      "type": "public-holiday",
-      "counties": ["AU-WA"],
-      "marketingNote": "仅西澳州单州假期 · 基数很小可忽略，轻量发学习打卡内容即可"
-    },
-    {
-      "date": "2026-10-01",
-      "country": "CN",
-      "name": "国庆 / 黄金周",
-      "nameZh": "国庆 / 黄金周",
-      "type": "marketing-node",
-      "emoji": "🇨🇳",
-      "tier": "B",
-      "seasonal": true,
-      "window": "2026-10-01~2026-10-07",
-      "playbook": {
-        "audience": "国内 7 天长假用户 · 部分出游部分宅家充电",
-        "angle": "黄金周不一定要出去人挤人，宅家用一个长假补一门技能",
-        "contentIdeas": [
-          "小红书：国庆我没去挤景区，在家学完了一门课",
-          "学习群：黄金周 7 天打卡挑战 + 福利"
-        ],
-        "productHook": "自学档课程黄金周价 + 7 天打卡营",
-        "copyHooks": ["7 天假期，给自己一个不一样的过法", "别人堵在路上，你已经学完一章"],
-        "channels": ["小红书", "学习群"],
-        "avoid": "❌ 长假前 2 天大家在玩，内容轻量；不强催"
-      }
-    },
-    {
-      "date": "2026-10-05",
-      "country": "AU",
-      "name": "Labour Day",
-      "localName": "Labour Day",
-      "nameZh": "劳动节（ACT/NSW/SA）",
-      "type": "public-holiday",
-      "counties": ["AU-ACT", "AU-NSW", "AU-SA"],
-      "marketingNote": "ACT/NSW/SA三州长周末 · 推「假期充电」学习内容，测试秋招话题钩子"
-    },
-    {
-      "date": "2026-10-05",
-      "country": "AU",
-      "name": "King's Birthday",
-      "localName": "King's Birthday",
-      "nameZh": "国王生日（昆州）",
-      "type": "public-holiday",
-      "counties": ["AU-QLD"],
-      "marketingNote": "仅昆州公假 · 基数小，与NSW/ACT同天长周末可捆绑发学习打卡内容"
-    },
-    {
-      "date": "2026-10-12",
-      "country": "US",
-      "name": "Columbus Day",
-      "localName": "Columbus Day",
-      "nameZh": "哥伦布日",
-      "type": "public-holiday",
-      "counties": ["US-AL","US-AZ","US-CO","US-CT","US-GA","US-ID","US-IL","US-IN","US-IA","US-KS","US-KY","US-LA","US-ME","US-MD","US-MA","US-MS","US-MO","US-MT","US-NE","US-NH","US-NJ","US-NM","US-NY","US-NC","US-OH","US-OK","US-PA","US-RI","US-SC","US-TN","US-UT","US-VA","US-WV"],
-      "marketingNote": "美国部分州公假 · 联邦银行休市但科技公司多数正常上班，影响有限可忽略"
-    },
-    {
-      "date": "2026-10-12",
-      "country": "US",
-      "name": "Indigenous Peoples' Day",
-      "localName": "Indigenous Peoples' Day",
-      "nameZh": "原住民日",
-      "type": "public-holiday",
-      "counties": ["US-AK","US-AL","US-CA","US-HI","US-IA","US-LA","US-ME","US-MI","US-MN","US-NC","US-NE","US-NM","US-OK","US-OR","US-SD","US-TX","US-VA","US-VT","US-WI"],
-      "marketingNote": "美国部分州替代哥伦布日 · 多元文化节点 · 可借势发科技行业多元包容话题"
-    },
-    {
-      "date": "2026-11-03",
-      "country": "AU",
-      "name": "Melbourne Cup",
-      "localName": "Melbourne Cup",
-      "nameZh": "墨尔本杯赛马节（维州）",
-      "type": "public-holiday",
-      "counties": ["AU-VIC"],
-      "marketingNote": "仅维州 · 赛马节全民欢乐氛围，可发「停下来学一课」幽默反差内容"
-    },
     {
       "date": "2026-11-08",
       "country": "MY",
       "name": "Deepavali",
       "localName": "Deepavali",
-      "nameZh": "屠妖节（大马）",
+      "nameZh": "屠妖节",
       "type": "public-holiday",
-      "marketingNote": "大马联邦公假 · 印度裔节庆 · 多元文化祝福为主，不推促销"
+      "marketingNote": "马来西亚屠妖节 · 印度裔/华人节庆，发节日祝福+社群互动，轻推广"
     },
     {
       "date": "2026-11-09",
       "country": "SG",
       "name": "Deepavali",
       "localName": "Deepavali",
-      "nameZh": "屠妖节（新加坡）",
+      "nameZh": "屠妖节",
       "type": "public-holiday",
-      "marketingNote": "新加坡全国公假 · 印度裔学员节庆 · 发多元文化祝福，不做商业推送"
+      "marketingNote": "新加坡屠妖节 · 印度裔学员活跃，发节日祝福，避促销硬推"
+    },
+    {
+      "date": "2026-11-11",
+      "country": "US",
+      "name": "Veterans Day",
+      "localName": "Veterans Day",
+      "nameZh": "退伍军人节",
+      "type": "public-holiday",
+      "marketingNote": "美国退伍军人节 · 退伍转职需求高，推职业转型+IT技能内容"
+    },
+    {
+      "date": "2026-11-26",
+      "country": "US",
+      "name": "Thanksgiving Day",
+      "localName": "Thanksgiving Day",
+      "nameZh": "感恩节",
+      "type": "public-holiday",
+      "marketingNote": "美国感恩节 · 北美连假，接黑五预热，发学员感恩故事"
+    },
+    {
+      "date": "2026-11-30",
+      "country": "GB",
+      "name": "Saint Andrew's Day",
+      "localName": "Saint Andrew's Day",
+      "nameZh": "圣安德鲁日",
+      "type": "public-holiday",
+      "marketingNote": "苏格兰公假 · 基数很小可忽略",
+      "counties": [
+        "GB-SCT"
+      ]
+    },
+    {
+      "date": "2026-12-25",
+      "country": "AU",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "nameZh": "圣诞节",
+      "type": "public-holiday",
+      "marketingNote": "澳洲圣诞节 · 年末放假氛围，接年底促销尾声，推gift membership"
+    },
+    {
+      "date": "2026-12-25",
+      "country": "MY",
+      "name": "Christmas Day",
+      "localName": "Hari Krismas",
+      "nameZh": "圣诞节",
+      "type": "public-holiday",
+      "marketingNote": "马来西亚圣诞节 · 年末淡季，推gift membership+年底促销收尾"
+    },
+    {
+      "date": "2026-12-25",
+      "country": "SG",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "nameZh": "圣诞节",
+      "type": "public-holiday",
+      "marketingNote": "新加坡圣诞节 · 多元文化节日，年末放松，推gift membership"
+    },
+    {
+      "date": "2026-12-25",
+      "country": "US",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "nameZh": "圣诞节",
+      "type": "public-holiday",
+      "marketingNote": "美国圣诞节 · 年末休假季，北美学员买课决策期，接年底促销收尾"
+    },
+    {
+      "date": "2026-12-25",
+      "country": "GB",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "nameZh": "圣诞节",
+      "type": "public-holiday",
+      "marketingNote": "英国圣诞节 · 年末公假季，推year-end membership续费和礼品课"
+    },
+    {
+      "date": "2026-12-28",
+      "country": "AU",
+      "name": "St. Stephen's Day",
+      "localName": "Boxing Day",
+      "nameZh": "节礼日",
+      "type": "public-holiday",
+      "marketingNote": "澳洲Boxing Day · 年末购物季第二波，推课程年底优惠和2027预售"
+    },
+    {
+      "date": "2026-12-28",
+      "country": "GB",
+      "name": "St. Stephen's Day",
+      "localName": "Boxing Day",
+      "nameZh": "节礼日",
+      "type": "public-holiday",
+      "marketingNote": "英国节礼日 · 年底购物高峰，推年度最后优惠，接2027预售"
+    },
+    {
+      "date": "2027-01-01",
+      "country": "AU",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "nameZh": "元旦",
+      "type": "public-holiday",
+      "marketingNote": "澳洲元旦 · 新年冲劲最强，推『2027第一步』打卡+年卡转化"
+    },
+    {
+      "date": "2027-01-01",
+      "country": "MY",
+      "name": "New Year's Day",
+      "localName": "Hari Tahun Baru",
+      "nameZh": "元旦",
+      "type": "public-holiday",
+      "marketingNote": "马来元旦 · 推新年学习目标+membership年卡，借新年冲劲"
+    },
+    {
+      "date": "2027-01-01",
+      "country": "SG",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "nameZh": "元旦",
+      "type": "public-holiday",
+      "marketingNote": "新加坡元旦 · 华人新年冲劲浓，推新年学习计划+年卡转化"
+    },
+    {
+      "date": "2027-01-01",
+      "country": "US",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "nameZh": "元旦",
+      "type": "public-holiday",
+      "marketingNote": "美国元旦 · 推年度课程规划和Bootcamp，借新年flag心理"
+    },
+    {
+      "date": "2027-01-01",
+      "country": "GB",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "nameZh": "元旦",
+      "type": "public-holiday",
+      "marketingNote": "英国元旦 · 推新年学习计划，年卡是年初高频购买品"
+    },
+    {
+      "date": "2027-01-02",
+      "country": "GB",
+      "name": "2 January",
+      "localName": "2 January",
+      "nameZh": "一月二日（苏格兰）",
+      "type": "public-holiday",
+      "marketingNote": "苏格兰元旦后补假 · 基数很小可忽略",
+      "counties": [
+        "GB-SCT"
+      ]
+    },
+    {
+      "date": "2027-01-18",
+      "country": "US",
+      "name": "Martin Luther King, Jr. Day",
+      "localName": "Martin Luther King, Jr. Day",
+      "nameZh": "马丁·路德·金纪念日",
+      "type": "public-holiday",
+      "marketingNote": "MLK Day · 多元平权氛围，推diversity in tech内容+学员故事"
+    },
+    {
+      "date": "2027-01-26",
+      "country": "AU",
+      "name": "Australia Day",
+      "localName": "Australia Day",
+      "nameZh": "澳大利亚日",
+      "type": "public-holiday",
+      "marketingNote": "澳洲国庆日 · 澳洲学员连假，轻推广，发本地学员求职成功故事"
+    },
+    {
+      "date": "2027-02-06",
+      "country": "MY",
+      "name": "Chinese New Year",
+      "localName": "Tahun Baru Cina",
+      "nameZh": "农历新年",
+      "type": "public-holiday",
+      "marketingNote": "马来西亚农历新年 · 华人学员连假，主发祝福温情内容，年后开课预告"
+    },
+    {
+      "date": "2027-02-06",
+      "country": "SG",
+      "name": "Chinese New Year",
+      "localName": "Chinese New Year",
+      "nameZh": "农历新年（初一）",
+      "type": "public-holiday",
+      "marketingNote": "新加坡农历新年首日 · 华人最大节，只发祝福不催单，年后见"
     },
     {
       "date": "2026-11-11",
@@ -238,19 +266,226 @@
           "销售页：双11 专属 landing + 限时倒计时"
         ],
         "productHook": "membership 年卡全年最低价 + Bootcamp 早鸟 + 组合包 + 预售",
-        "copyHooks": ["双11 最不后悔的一单", "买的东西会旧，学的本事不会"],
-        "channels": ["小红书", "公众号", "学习群", "销售页", "SEO"],
+        "copyHooks": [
+          "双11 最不后悔的一单",
+          "买的东西会旧，学的本事不会"
+        ],
+        "channels": [
+          "小红书",
+          "公众号",
+          "学习群",
+          "销售页",
+          "SEO"
+        ],
         "avoid": "❌ 价格必须真到底不玩套路；提前 1-2 周预热预售，别只在当天发"
       }
     },
     {
-      "date": "2026-11-11",
+      "date": "2026-11-26",
       "country": "US",
-      "name": "Veterans Day",
-      "localName": "Veterans Day",
-      "nameZh": "退伍军人节",
-      "type": "public-holiday",
-      "marketingNote": "美国全国公假 · 致敬退役军人 · 可发「职业转型」退役学员从军营到科技的故事"
+      "name": "感恩节",
+      "nameZh": "感恩节",
+      "type": "marketing-node",
+      "emoji": "🦃",
+      "tier": "B",
+      "seasonal": false,
+      "playbook": {
+        "audience": "北美华人/留学生 · 感恩回馈氛围",
+        "angle": "感恩社群与学员：回馈老用户，讲学员成长里被帮助的故事",
+        "contentIdeas": [
+          "小红书/公众号：感恩节，谢谢一路陪我学习的社群",
+          "学习群：感恩回馈福利 + 老学员专属"
+        ],
+        "productHook": "老学员回馈 + 接黑五促销预热",
+        "copyHooks": [
+          "感恩有你，一起走到这里",
+          "这一年，谢谢没放弃的自己"
+        ],
+        "channels": [
+          "小红书",
+          "公众号",
+          "学习群"
+        ],
+        "avoid": "❌ 北美节点为主，国内用户共鸣弱；和黑五连着做别割裂"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "country": "Global",
+      "name": "黑色星期五",
+      "nameZh": "黑色星期五",
+      "type": "marketing-node",
+      "emoji": "🏷️",
+      "tier": "A",
+      "seasonal": true,
+      "window": "2026-11-27~2026-11-30",
+      "playbook": {
+        "audience": "海外华人/留学生/本地求职者 · 黑五促销心智 · 英文站重点",
+        "angle": "Black Friday：海外用户的双11，英文站 + 海外华人课程促销主场",
+        "contentIdeas": [
+          "小红书：Black Friday 海外党买什么——我买了门求职课",
+          "英文站/公众号：Black Friday course deals + 求职冲刺包"
+        ],
+        "productHook": "英文站 IT 培训 Black Friday 价 + 求职匠 + membership",
+        "copyHooks": [
+          "Black Friday: invest in the one thing that appreciates",
+          "黑五最保值的一单"
+        ],
+        "channels": [
+          "小红书",
+          "公众号",
+          "英文站销售页",
+          "SEO"
+        ],
+        "avoid": "❌ 英文文案要地道（反 AI 味）；和双11/双12 节奏区分开针对海外人群"
+      }
+    },
+    {
+      "date": "2026-12-12",
+      "country": "CN",
+      "name": "双12",
+      "nameZh": "双12",
+      "type": "marketing-node",
+      "emoji": "🎁",
+      "tier": "B",
+      "seasonal": false,
+      "playbook": {
+        "audience": "双11 没下手 / 年底冲动消费用户",
+        "angle": "双11 返场 + 年底最后一波：错过双11 的最后上车机会",
+        "contentIdeas": [
+          "小红书：双11 没买的，双12 补上",
+          "学习群：双12 返场价 + 年底冲刺班预告"
+        ],
+        "productHook": "membership 双12 返场价 + 年底班",
+        "copyHooks": [
+          "双11 犹豫的，双12 别再错过",
+          "今年最后一次上车"
+        ],
+        "channels": [
+          "小红书",
+          "学习群"
+        ],
+        "avoid": "❌ 力度别超双11 伤老用户；定位『返场』不另起大促"
+      }
+    },
+    {
+      "date": "2026-12-25",
+      "country": "Global",
+      "name": "圣诞节",
+      "nameZh": "圣诞节",
+      "type": "marketing-node",
+      "emoji": "🎄",
+      "tier": "B",
+      "seasonal": false,
+      "playbook": {
+        "audience": "海外华人/留学生 · 年末放松氛围",
+        "angle": "年末温情 + 给自己的圣诞礼物：盘点这一年学到的东西",
+        "contentIdeas": [
+          "小红书：今年圣诞，我送自己的礼物是学会了 X",
+          "公众号：年末学员成长盘点 + 圣诞福利"
+        ],
+        "productHook": "gift membership + 年末福利价",
+        "copyHooks": [
+          "最好的圣诞礼物是更好的自己",
+          "Merry Christmas，也祝你越学越强"
+        ],
+        "channels": [
+          "小红书",
+          "公众号"
+        ],
+        "avoid": "❌ 海外节点为主；温情为主不硬卖"
+      }
+    },
+    {
+      "date": "2026-12-31",
+      "country": "Global",
+      "name": "跨年 / 年度盘点",
+      "nameZh": "跨年 / 年度盘点",
+      "type": "marketing-node",
+      "emoji": "🎇",
+      "tier": "A",
+      "seasonal": false,
+      "playbook": {
+        "audience": "全球华人 · 年末总结 + 立新年 flag 的人",
+        "angle": "年度学习盘点 + 2027 flag：把『今年学到了什么』变成内容，顺势导向新年计划",
+        "contentIdeas": [
+          "小红书：2026 我的学习年度报告（晒成长）",
+          "公众号：匠人学院年度学员成长盘点 + 2027 路线图",
+          "学习群：年度打卡王评选 + 跨年立 flag 活动"
+        ],
+        "productHook": "2027 年卡预售 + 新年第一期 Bootcamp 预约",
+        "copyHooks": [
+          "2026 你学会了什么？",
+          "跨年不只许愿，给 2027 定个可执行的学习计划"
+        ],
+        "channels": [
+          "小红书",
+          "公众号",
+          "学习群"
+        ],
+        "avoid": "❌ 盘点要真有内容（晒真实成长数据/学员作品），别空喊『展望未来』套话"
+      }
+    },
+    {
+      "date": "2027-01-01",
+      "country": "Global",
+      "name": "元旦 / 跨年",
+      "nameZh": "元旦 / 跨年",
+      "type": "marketing-node",
+      "emoji": "🎆",
+      "tier": "A",
+      "seasonal": false,
+      "playbook": {
+        "audience": "全球华人 · 想立 flag 重启学习的职场人",
+        "angle": "新年第一个学习 flag —— 把『今年要学 AI』变成可执行的第一步",
+        "contentIdeas": [
+          "小红书：2027 我的技能 flag，第一条就是搞懂 AI",
+          "公众号：年度学习计划模板 + 匠人学院路线图自测",
+          "学习群：发『新年第一课』直播/打卡活动"
+        ],
+        "productHook": "membership 年卡『一杯咖啡价开启 2027 全年学习』+ AI 入门 Bootcamp 引流课",
+        "copyHooks": [
+          "别再让『今年要学 AI』停在朋友圈 flag 里",
+          "2027 第一个对自己有用的决定"
+        ],
+        "channels": [
+          "小红书",
+          "公众号",
+          "学习群"
+        ],
+        "avoid": "❌ 不喊空泛口号；flag 后面必须给一个具体可点的第一步"
+      }
+    },
+    {
+      "date": "2027-02-06",
+      "country": "Global",
+      "name": "春节",
+      "nameZh": "春节",
+      "type": "marketing-node",
+      "emoji": "🧧",
+      "tier": "S",
+      "seasonal": true,
+      "window": "2027-02-05~2027-02-13",
+      "playbook": {
+        "audience": "全球华人 · 海外留学生/移民思乡 + 国内亲友团聚 + 春节后求职季前夜",
+        "angle": "团圆 + 蓄力：假期不卷，但『年后第一份工作/第一个技能』的种子现在种",
+        "contentIdeas": [
+          "小红书：海外过年的程序员，年夜饭后偷偷给自己报了门课",
+          "公众号：春节温情学员故事（在海外靠技能站稳脚跟）",
+          "学习群：新春红包/抽免费课名额，节后开班预告"
+        ],
+        "productHook": "年后开班的 Bootcamp 预约 + membership 春节福利价",
+        "copyHooks": [
+          "过个好年，年后我们一起上岸",
+          "团圆之后，给自己一个新开始"
+        ],
+        "channels": [
+          "小红书",
+          "公众号",
+          "学习群"
+        ],
+        "avoid": "❌ 春节期间避免硬转化/催单，主打温情和『年后见』；除夕到初三只发祝福不发促销"
+      }
     }
   ]
 }
