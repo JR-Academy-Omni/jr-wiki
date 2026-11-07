@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-11-06T23:37:40.742Z",
+  "lockedAt": "2026-11-07T23:37:07.043Z",
   "version": 1,
   "slugs": [
     {
@@ -1053,6 +1053,10 @@
     {
       "type": "article",
       "slug": "it-daily-2026-11-07"
+    },
+    {
+      "type": "article",
+      "slug": "it-daily-2026-11-08"
     },
     {
       "type": "article",
