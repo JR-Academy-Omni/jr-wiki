@@ -1,0 +1,229 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-08",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "Adelaide 阿德莱德大学",
+    "hookSub": "11 月 3-5 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "阿大调查 17 个国家和地区 374 名 2-12 岁儿童的家长，69% 的孩子说喜欢鲨鱼。",
+      "阿大 CASR 调查了 57 起直角碰撞：37 起在让行标志路口，20 起在停车标志路口。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "儿童与鲨鱼",
+        "data": "69%"
+      },
+      {
+        "num": "02",
+        "title": "路口事故",
+        "data": "57 起"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "孩子怎么看鲨鱼",
+      "h2Sub": "17 个国家和地区",
+      "h2Highlight": "鲨鱼",
+      "lead": "11 月 5 日 Adelaide University 官网发布：一项调查了 17 个国家和地区家长的研究，关注儿童对鲨鱼的态度。",
+      "bullets": [
+        {
+          "k": "样本",
+          "v": "374 名 2-12 岁儿童的家长，来自 17 个国家和地区"
+        },
+        {
+          "k": "喜欢",
+          "v": "69% 的孩子说喜欢鲨鱼"
+        },
+        {
+          "k": "害怕",
+          "v": "13.9% 的孩子明确把鲨鱼和可怕联系在一起或说害怕"
+        },
+        {
+          "k": "负责人",
+          "v": "School of Physics, Chemistry and Earth Sciences 的环境心理学家 Dr Brianna Le Busque"
+        }
+      ],
+      "sourceQuote": "Nor was there a significant association between parents’ reported fear of sharks and their children’s fear associations.",
+      "source": "Adelaide Newsroom · 2026-11-05",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/young-children-like-sharks--but-fear-grows-with-age/"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "直角碰撞原因",
+      "h2Sub": "CASR 调查",
+      "h2Highlight": "直角碰撞",
+      "lead": "11 月 3 日 Adelaide University 官网发布：Centre for Automotive Safety Research 与州政府合作，调查让行和停车标志路口的直角碰撞。",
+      "bullets": [
+        {
+          "k": "机构",
+          "v": "Adelaide University 的 Centre for Automotive Safety Research (CASR)，与州政府合作"
+        },
+        {
+          "k": "规模",
+          "v": "57 起事故：37 起在 give way 标志路口，20 起在 stop 标志路口"
+        },
+        {
+          "k": "时间",
+          "v": "事故发生在 2014 至 2023 年"
+        },
+        {
+          "k": "作者",
+          "v": "第一作者、Research Fellow Dr James Thompson"
+        },
+        {
+          "k": "报告",
+          "v": "报告主体于 2023 年 11 月完成，不涵盖之后的变化"
+        }
+      ],
+      "sourceQuote": "This report was substantially completed in November 2023 and does not consider developments after that date.",
+      "source": "Adelaide Newsroom · 2026-11-03",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/driver-error--external-factors-lead-right-angle-crash-causes/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "Adelaide 官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "儿童与鲨鱼",
+        "body": "阿大调查 17 个国家和地区 374 名 2-12 岁儿童的家长，69% 的孩子说喜欢鲨鱼。"
+      },
+      {
+        "n": "02",
+        "title": "路口事故",
+        "body": "阿大 CASR 调查了 57 起直角碰撞：37 起在让行标志路口，20 起在停车标志路口。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/08"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿大这周两条 我读完了",
+      "body": "11 月 3-5 号阿德莱德大学官网有两条研究新闻，我挑出来读完了。\n\n分别是：儿童与鲨鱼、路口事故。\n\n下面一张图一条，细节都对着官网抄的。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "小孩其实挺喜欢鲨鱼",
+      "body": "11 月 5 号阿大官网的研究。\n\n调查了 17 个国家和地区 374 个 2-12 岁孩子的家长，69% 的孩子说喜欢鲨鱼，13.9% 说害怕。\n\n官方原文：Nor was there a significant association between parents’ reported fear of sharks and their children’s fear associations.\n\n你小时候怕鲨鱼吗 🦈",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "阿德莱德路口事故调查",
+      "body": "11 月 3 号阿大官网的消息。\n\nCASR 调查了 57 起直角碰撞，37 起在让行标志路口，20 起在停车标志路口。\n\nToorak Gardens 的 Kensington Road 那个路口记录了 35 起。\n\n在阿德莱德开车的同学过路口多看一眼 🚗",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "读心理和交通的可以看看",
+      "body": "这两条都是阿大的科研新闻。\n\n鲨鱼那篇是环境心理学，事故那篇是交通安全研究，CASR 是阿大自己的研究中心。\n\n我在纠结研究生选心理还是工程，你们会怎么选",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "阿大日报 评论区聊聊",
+      "body": "这两条都是阿德莱德大学官网的科研新闻，不是奖学金公告。\n\n你们更想看哪类：奖学金、招生、还是科研动态？评论区扣 1 / 2 / 3，我按票数排下周选题。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "阿大鲨鱼恐惧研究、路口事故调查",
+    "lead": "11 月 3-5 日 Adelaide 官网发布两条消息：儿童与鲨鱼；路口事故。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 3 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 阿大研究：小孩子喜欢鲨鱼，年龄越大越怕",
+        "paragraphs": [
+          "11 月 5 日，Adelaide University 官网发布研究：团队调查了 374 名 2 至 12 岁儿童的家长，来自 17 个国家和地区。69% 的孩子说喜欢鲨鱼，13.9% 的孩子明确把鲨鱼和可怕联系在一起或表示害怕。",
+          "研究负责人是 School of Physics, Chemistry and Earth Sciences 的环境心理学家 Dr Brianna Le Busque。",
+          "官方原文：Nor was there a significant association between parents’ reported fear of sharks and their children’s fear associations."
+        ],
+        "sourceHtml": "Adelaide Newsroom · 2026-11-05 · <a href=\"https://adelaide.edu.au/about/news/2026/young-children-like-sharks--but-fear-grows-with-age/\">adelaide.edu.au</a>"
+      },
+      {
+        "h2": "02 阿大 CASR 调查 57 起路口直角碰撞，驾驶失误和外部因素是主因",
+        "paragraphs": [
+          "11 月 3 日，Adelaide University 官网发布消息：Centre for Automotive Safety Research（CASR）与州政府合作，调查了 57 起直角碰撞事故，其中 37 起发生在 give way 标志路口，20 起在 stop 标志路口，时间跨度为 2014 至 2023 年。",
+          "报告第一作者是 Research Fellow Dr James Thompson。文章提到 Toorak Gardens 的 Kensington Road 与 George Street/Giles Street 路口记录了 35 起直角碰撞。",
+          "官方原文：This report was substantially completed in November 2023 and does not consider developments after that date."
+        ],
+        "sourceHtml": "Adelaide Newsroom · 2026-11-03 · <a href=\"https://adelaide.edu.au/about/news/2026/driver-error--external-factors-lead-right-angle-crash-causes/\">adelaide.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "阿大调查 17 个国家和地区 374 名 2-12 岁儿童的家长，69% 的孩子说喜欢鲨鱼。",
+        "阿大 CASR 调查了 57 起直角碰撞：37 起在让行标志路口，20 起在停车标志路口。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 合集（主推）",
+        "body": "11 月 3-5 日阿德莱德大学官网有两条消息，我都读完了。\n\n第1条：儿童与鲨鱼。官方原文：Nor was there a significant association between parents’ reported fear of sharks and their children’s fear associations.\n\n第2条：路口事故。官方原文：This report was substantially completed in November 2023 and does not consider developments after that date.\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": [
+          "#阿德莱德大学",
+          "#Adelaide",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

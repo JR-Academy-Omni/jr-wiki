@@ -1,0 +1,282 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-08",
+  "school": "uq",
+  "summary": {
+    "hookMain": "UQ 昆士兰大学",
+    "hookSub": "11 月 3-4 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "药学院 Timothy Tanzer 拿到 $30,000 研究资助，将去瑞士 Lausanne 的 ITA 总部做 12 周研究。",
+      "QAAFI 团队 2024、2025 年在 UQ Gatton 测了 36 个小麦品种的用水，用了自动驾驶机器人和无人机传感。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "反兴奋剂",
+        "data": "$30,000"
+      },
+      {
+        "num": "02",
+        "title": "小麦用水",
+        "data": "36 个品种"
+      },
+      {
+        "num": "03",
+        "title": "规划工具",
+        "data": "开源"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "反兴奋剂研究资助",
+      "h2Sub": "Lausanne 实习 12 周",
+      "h2Highlight": "反兴奋剂",
+      "lead": "11 月 3 日 UQ 官网发布：药学院 Timothy Tanzer 通过 UQ 与 International Testing Agency 的合作拿到研究资助。",
+      "bullets": [
+        {
+          "k": "金额",
+          "v": "$30,000 research grant"
+        },
+        {
+          "k": "合作方",
+          "v": "International Testing Agency (ITA)"
+        },
+        {
+          "k": "人选",
+          "v": "School of Pharmacy and Pharmaceutical Sciences 的 Timothy Tanzer"
+        },
+        {
+          "k": "实习",
+          "v": "ITA 瑞士 Lausanne 总部 12 周，2026 年 11 月下旬至 2027 年 2 月"
+        },
+        {
+          "k": "课题",
+          "v": "分析过去四届奥运会的 Therapeutic Use Exemptions"
+        }
+      ],
+      "sourceQuote": "The project will analyse Therapeutic Use Exemptions from the past four Olympic Games.",
+      "source": "UQ News · 2026-11-03",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-uq-researcher-awarded-international-anti-doping-grant"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "小麦用水研究",
+      "h2Sub": "Gatton 校区实验",
+      "h2Highlight": "小麦用水",
+      "lead": "11 月 3 日 UQ 官网发布：QAAFI 团队在 Gatton 校区测试不同种植密度下小麦品种的用水。",
+      "bullets": [
+        {
+          "k": "研究者",
+          "v": "Queensland Alliance for Agriculture and Food Innovation 的 Dr Raul Gimenez"
+        },
+        {
+          "k": "规模",
+          "v": "2024 和 2025 年在 UQ Gatton 测试 36 个小麦品种"
+        },
+        {
+          "k": "设备",
+          "v": "自动驾驶高地隙机器人上的电磁感应传感器 + 无人机传感系统"
+        },
+        {
+          "k": "资助",
+          "v": "Grains Research and Development Corporation、UQ 和 Department of Primary Industries"
+        }
+      ],
+      "sourceQuote": "Experiments in 2024 and 2025 at UQ Gatton assessed water use by 36 wheat varieties planted at different densities.",
+      "source": "UQ News · 2026-11-03",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-unpacking-wheats-water-use-drought-research"
+    },
+    {
+      "idx": "03",
+      "category": "科研",
+      "h2Main": "土地与水规划工具",
+      "h2Sub": "prioritizr 扩展",
+      "h2Highlight": "规划工具",
+      "lead": "11 月 4 日 UQ 官网发布：环境学院博士生 Sandra Neubert 的研究扩展了 UQ 开发的空间规划软件 prioritizr。",
+      "bullets": [
+        {
+          "k": "研究者",
+          "v": "School of the Environment 的 PhD 候选人 Sandra Neubert"
+        },
+        {
+          "k": "基础",
+          "v": "UQ 的 Dr Jeffrey Hanson 开发的 prioritizr"
+        },
+        {
+          "k": "用途",
+          "v": "开源，可用于不同国家的陆地、淡水和海洋规划"
+        },
+        {
+          "k": "评价",
+          "v": "Professor Anthony Richardson 说它能帮助各国和社区实现全球生物多样性目标"
+        },
+        {
+          "k": "发表",
+          "v": "Journal of Applied Ecology"
+        }
+      ],
+      "sourceQuote": "It is an extension to prioritizr, spatial planning software developed at UQ by Dr Jeffrey Hanson.",
+      "source": "UQ News · 2026-11-04",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-new-way-navigate-tough-land-and-water-use-decisions"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UQ 官网三条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "反兴奋剂",
+        "body": "药学院 Timothy Tanzer 拿到 $30,000 研究资助，将去瑞士 Lausanne 的 ITA 总部做 12 周研究。"
+      },
+      {
+        "n": "02",
+        "title": "小麦用水",
+        "body": "QAAFI 团队 2024、2025 年在 UQ Gatton 测了 36 个小麦品种的用水，用了自动驾驶机器人和无人机传感。"
+      },
+      {
+        "n": "03",
+        "title": "规划工具",
+        "body": "环境学院 PhD 候选人 Sandra Neubert 扩展了 UQ 的开源空间规划软件 prioritizr，可用于陆地、淡水和海洋规划。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/08"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "昆大这周三条 我读完了",
+      "body": "11 月 3-4 号昆士兰大学官网有三条消息，我挑出来读完了。\n\n分别是：反兴奋剂研究、小麦用水、规划工具。\n\n下面一张图一条，细节都对着官网抄的，官网没写的我不写。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "药学院拿到反兴奋剂资助",
+      "body": "11 月 3 号昆大官网的消息。\n\n药学院 Timothy Tanzer 拿到 $30,000 研究资助，要去瑞士 Lausanne 的 ITA 总部做 12 周研究，11 月下旬到明年 2 月。\n\n官方原文：The project will analyse Therapeutic Use Exemptions from the past four Olympic Games.\n\n学药学的同学有没有想过这条路 💊",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "Gatton 测了 36 种小麦",
+      "body": "11 月 3 号昆大官网的消息。\n\n官方原文：Experiments in 2024 and 2025 at UQ Gatton assessed water use by 36 wheat varieties planted at different densities.\n\n用的是自动驾驶机器人上的传感器加无人机。\n\n农科的同学去过 Gatton 校区吗 🌾",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "博士生做了个开源规划工具",
+      "body": "11 月 4 号昆大官网的消息。\n\n环境学院博士生 Sandra Neubert 扩展了 UQ 自己开发的 prioritizr，可以用在陆地、淡水和海洋规划。\n\n研究发在 Journal of Applied Ecology。\n\n我在想读环境的话要不要先学点 R，你们怎么看",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "昆大日报 评论区聊聊",
+      "body": "这三条都是昆士兰大学官网的科研新闻，不是奖学金公告。\n\n你们更想看哪类：奖学金、招生、还是科研动态？评论区扣 1 / 2 / 3，我按票数排下周选题。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "昆大反兴奋剂研究、小麦用水、土地规划工具",
+    "lead": "11 月 3-4 日 UQ 官网发布三条消息：反兴奋剂；小麦用水；规划工具。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 3 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 UQ 药学院研究者拿到 $30,000 国际反兴奋剂研究资助",
+        "paragraphs": [
+          "11 月 3 日，UQ 官网发布消息：School of Pharmacy and Pharmaceutical Sciences 的 Timothy Tanzer 通过 UQ 与 International Testing Agency（ITA）的合作，获得 $30,000 研究资助。",
+          "他将在 ITA 位于瑞士 Lausanne 的总部做 12 周研究实习，时间是 2026 年 11 月下旬至 2027 年 2 月。",
+          "官方原文：The project will analyse Therapeutic Use Exemptions from the past four Olympic Games."
+        ],
+        "sourceHtml": "UQ News · 2026-11-03 · <a href=\"https://news.uq.edu.au/2026-11-uq-researcher-awarded-international-anti-doping-grant\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "02 UQ Gatton 实验 36 个小麦品种，研究干旱下的用水",
+        "paragraphs": [
+          "11 月 3 日，UQ 官网发布消息。官方原文：Experiments in 2024 and 2025 at UQ Gatton assessed water use by 36 wheat varieties planted at different densities.",
+          "研究由 Queensland Alliance for Agriculture and Food Innovation 的 Dr Raul Gimenez 参与，团队使用了装在自动驾驶高地隙机器人上的电磁感应传感器，以及无人机传感系统。",
+          "项目经费来自 Grains Research and Development Corporation、The University of Queensland 和 Department of Primary Industries。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-03 · <a href=\"https://news.uq.edu.au/2026-11-unpacking-wheats-water-use-drought-research\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "03 UQ 博士生做了开源规划工具，帮助权衡土地和水资源使用",
+        "paragraphs": [
+          "11 月 4 日，UQ 官网发布消息：School of the Environment 的 PhD 候选人 Sandra Neubert 开发了一个帮助权衡土地和水资源使用的工具。官方原文：It is an extension to prioritizr, spatial planning software developed at UQ by Dr Jeffrey Hanson.",
+          "这个工具是开源的，可以用在不同国家的陆地、淡水和海洋规划中。研究发表在 Journal of Applied Ecology。",
+          "Professor Anthony Richardson 表示，这个工具可以帮助各国和社区实现全球生物多样性目标。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-04 · <a href=\"https://news.uq.edu.au/2026-11-new-way-navigate-tough-land-and-water-use-decisions\">news.uq.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "药学院 Timothy Tanzer 拿到 $30,000 研究资助，将去瑞士 Lausanne 的 ITA 总部做 12 周研究。",
+        "QAAFI 团队 2024、2025 年在 UQ Gatton 测了 36 个小麦品种的用水，用了自动驾驶机器人和无人机传感。",
+        "环境学院 PhD 候选人 Sandra Neubert 扩展了 UQ 的开源空间规划软件 prioritizr，可用于陆地、淡水和海洋规划。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 合集（主推）",
+        "body": "11 月 3-4 日昆士兰大学官网有三条消息，我都读完了。\n\n第1条：反兴奋剂。官方原文：The project will analyse Therapeutic Use Exemptions from the past four Olympic Games.\n\n第2条：小麦用水。官方原文：Experiments in 2024 and 2025 at UQ Gatton assessed water use by 36 wheat varieties planted at different densities.\n\n第3条：规划工具。官方原文：It is an extension to prioritizr, spatial planning software developed at UQ by Dr Jeffrey Hanson.\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": [
+          "#昆士兰大学",
+          "#UQ",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

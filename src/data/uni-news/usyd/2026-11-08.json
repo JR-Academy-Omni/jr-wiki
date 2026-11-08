@@ -1,0 +1,278 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-08",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "USYD 悉尼大学",
+    "hookSub": "11 月 5-6 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "悉大纪念 PhD 授予 75 周年：1951 年 5 月 2 日 Eleanor Clara Gyarfas 获得 PhD。",
+      "2022 年 Archibald Prize 得主 Blak Douglas 受聘为悉尼音乐学院原住民驻校艺术家，教迪吉里杜管。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "PhD 75 年",
+        "data": "1951"
+      },
+      {
+        "num": "02",
+        "title": "驻校艺术家",
+        "data": "2022 Archibald"
+      },
+      {
+        "num": "03",
+        "title": "公益短课",
+        "data": "40 个名额"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "校园动态",
+      "h2Main": "悉大 PhD 75 年",
+      "h2Sub": "Eleanor Gyarfas",
+      "h2Highlight": "PhD",
+      "lead": "11 月 6 日悉大官网发布：学校纪念 PhD 学位授予 75 周年，回顾 Eleanor Clara Gyarfas 的故事。",
+      "bullets": [
+        {
+          "k": "人物",
+          "v": "Eleanor Clara Gyarfas，1951 年 5 月 2 日获得 PhD"
+        },
+        {
+          "k": "项目",
+          "v": "前一年 Professorial Board 批准两年制 PhD，规章刊于 1949 Calendar Supplement"
+        },
+        {
+          "k": "人数",
+          "v": "到 1950 年已有 20 名学生入读"
+        },
+        {
+          "k": "后来",
+          "v": "她以 Fulbright Scholar 身份去了 University of Illinois"
+        }
+      ],
+      "sourceQuote": "That early PhD program became the blueprint for what was to come for countless future students.",
+      "source": "USYD News · 2026-11-06",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/06/pioneering-the-phd.html"
+    },
+    {
+      "idx": "02",
+      "category": "校园动态",
+      "h2Main": "Blak Douglas 驻校",
+      "h2Sub": "悉尼音乐学院",
+      "h2Highlight": "驻校",
+      "lead": "11 月 5 日悉大官网发布：Blak Douglas 受聘为 Sydney Conservatorium of Music 的原住民驻校艺术家。",
+      "bullets": [
+        {
+          "k": "获奖",
+          "v": "2022 年凭 Moby Dickens 获 Archibald Prize"
+        },
+        {
+          "k": "项目",
+          "v": "加入 2021 年设立的 Indigenous Artists-in-Residence program"
+        },
+        {
+          "k": "经历",
+          "v": "他说自己吹迪吉里杜管超过 26 年"
+        },
+        {
+          "k": "院长",
+          "v": "Sydney Conservatorium of Music 院长 Professor Anna Reid"
+        }
+      ],
+      "sourceQuote": "Archibald Prize winner Blak Douglas has been appointed Indigenous Artist-in-Residence at the Sydney Conservatorium of Music",
+      "source": "USYD News · 2026-11-05",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/05/archibald-winner-blak-douglas-didgeridoo-sydney-con-music-indigenous.html"
+    },
+    {
+      "idx": "03",
+      "category": "课程",
+      "h2Main": "捐赠高管短课",
+      "h2Sub": "7 家慈善机构",
+      "h2Highlight": "短课",
+      "lead": "11 月 6 日悉大官网发布：7 家慈善机构将获得 40 个 Sydney Executive Plus 短课名额。",
+      "bullets": [
+        {
+          "k": "规模",
+          "v": "7 家慈善机构共 40 个名额，总价值超过 $50,000"
+        },
+        {
+          "k": "机构",
+          "v": "包括 Wayside Chapel、SecondBite、Murdoch Children's Research Institute、Bandu、SmackTalk、R U OK? 和 Foodbank"
+        },
+        {
+          "k": "课程",
+          "v": "四门 Sydney Executive Plus 短课（sprints），全部线上"
+        },
+        {
+          "k": "证书",
+          "v": "完成后获得 University of Sydney digital microcredential"
+        },
+        {
+          "k": "单价",
+          "v": "对企业每个名额最高 $1,395"
+        }
+      ],
+      "sourceQuote": "The donated places cover four Sydney Executive Plus short courses, known as sprints.",
+      "source": "USYD News · 2026-11-06",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/06/university-of-sydney-donates-50000-plus-skills-package-to-charities.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "USYD 官网三条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "PhD 75 年",
+        "body": "悉大纪念 PhD 授予 75 周年：1951 年 5 月 2 日 Eleanor Clara Gyarfas 获得 PhD。"
+      },
+      {
+        "n": "02",
+        "title": "驻校艺术家",
+        "body": "2022 年 Archibald Prize 得主 Blak Douglas 受聘为悉尼音乐学院原住民驻校艺术家，教迪吉里杜管。"
+      },
+      {
+        "n": "03",
+        "title": "公益短课",
+        "body": "悉大给 7 家慈善机构捐了 40 个 Sydney Executive Plus 线上短课名额，总价值超过 $50,000。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/08"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "悉大这周三条 我读完了",
+      "body": "11 月 5-6 号悉尼大学官网有三条消息，我挑出来读完了。\n\n分别是：PhD 75 年、驻校艺术家、公益短课。\n\n下面一张图一条，细节都对着官网抄的。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "悉大 PhD 已经 75 年了",
+      "body": "11 月 6 号悉大官网的文章。\n\n1951 年 5 月 2 号，Eleanor Clara Gyarfas 拿到悉大 PhD；1950 年这个项目已经有 20 个学生。\n\n官方原文：That early PhD program became the blueprint for what was to come for countless future students.\n\n我自己还在纠结要不要读博，你们呢 🎓",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "Archibald 得主来教迪吉里杜管",
+      "body": "11 月 5 号悉大官网的消息。\n\nBlak Douglas 2022 年凭 Moby Dickens 拿了 Archibald Prize，现在成了悉尼音乐学院的原住民驻校艺术家。\n\n他说自己吹迪吉里杜管超过 26 年了。\n\n在 Con 上课的同学可以留意一下 🎶",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "悉大捐了 40 个短课名额",
+      "body": "11 月 6 号悉大官网的消息。\n\n7 家慈善机构拿到 40 个 Sydney Executive Plus 名额，总价值超过 $50,000，全部线上。\n\n官方原文：The donated places cover four Sydney Executive Plus short courses, known as sprints.\n\n注意这是给慈善机构的，不是学生报名通道。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "悉大日报 评论区聊聊",
+      "body": "这三条都是悉尼大学官网的消息。\n\n你们更想看哪类：奖学金、招生、还是校园动态？评论区扣 1 / 2 / 3，我按票数排下周选题。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "悉大 PhD 75 年、Blak Douglas 驻校、公益短课",
+    "lead": "11 月 5-6 日 USYD 官网发布三条消息：PhD 75 年；驻校艺术家；公益短课。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 3 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 悉大 PhD 学位 75 年：从 1951 年的第一位女博士说起",
+        "paragraphs": [
+          "11 月 6 日，悉尼大学官网发布文章，纪念学校授予 PhD 学位 75 周年。Eleanor Clara Gyarfas 是悉大首位获得 PhD 的女性，学位于 1951 年 5 月 2 日授予。",
+          "此前 Professorial Board 批准了两年制 PhD 项目，正式规章刊登在 1949 Calendar Supplement；到 1950 年已有 20 名学生入读。她后来以 Fulbright Scholar 身份去了美国 University of Illinois。",
+          "官方原文：That early PhD program became the blueprint for what was to come for countless future students."
+        ],
+        "sourceHtml": "USYD News · 2026-11-06 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/06/pioneering-the-phd.html\">www.sydney.edu.au</a>"
+      },
+      {
+        "h2": "02 Archibald 奖得主 Blak Douglas 到悉尼音乐学院教迪吉里杜管",
+        "paragraphs": [
+          "11 月 5 日，悉尼大学官网发布消息。官方原文：Archibald Prize winner Blak Douglas has been appointed Indigenous Artist-in-Residence at the Sydney Conservatorium of Music.",
+          "Blak Douglas 在 2022 年凭作品 Moby Dickens 获得 Archibald Prize。他加入的是音乐学院 2021 年设立的 Indigenous Artists-in-Residence program，他说自己吹迪吉里杜管已超过 26 年。",
+          "Sydney Conservatorium of Music 院长是 Professor Anna Reid。"
+        ],
+        "sourceHtml": "USYD News · 2026-11-05 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/05/archibald-winner-blak-douglas-didgeridoo-sydney-con-music-indigenous.html\">www.sydney.edu.au</a>"
+      },
+      {
+        "h2": "03 悉大向 7 家慈善机构捐赠价值超 $50,000 的高管教育课程",
+        "paragraphs": [
+          "11 月 6 日，悉尼大学官网发布消息：学校向 7 家慈善机构捐赠价值超过 $50,000 的高管教育课程，共 40 个名额。",
+          "官方原文：The donated places cover four Sydney Executive Plus short courses, known as sprints. 四门课全部线上，完成后获得 University of Sydney digital microcredential；面向企业时每个名额最高 $1,395。",
+          "受赠机构包括 Wayside Chapel、SecondBite、Murdoch Children's Research Institute、Bandu、SmackTalk、R U OK? 和 Foodbank。这些名额给的是慈善机构，不是面向学生的公开招生。"
+        ],
+        "sourceHtml": "USYD News · 2026-11-06 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/06/university-of-sydney-donates-50000-plus-skills-package-to-charities.html\">www.sydney.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "悉大纪念 PhD 授予 75 周年：1951 年 5 月 2 日 Eleanor Clara Gyarfas 获得 PhD。",
+        "2022 年 Archibald Prize 得主 Blak Douglas 受聘为悉尼音乐学院原住民驻校艺术家，教迪吉里杜管。",
+        "悉大给 7 家慈善机构捐了 40 个 Sydney Executive Plus 线上短课名额，总价值超过 $50,000。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 合集（主推）",
+        "body": "11 月 5-6 日悉尼大学官网有三条消息，我都读完了。\n\n第1条：PhD 75 年。官方原文：That early PhD program became the blueprint for what was to come for countless future students.\n\n第2条：驻校艺术家。官方原文：Archibald Prize winner Blak Douglas has been appointed Indigenous Artist-in-Residence at the Sydney Conservatorium of Music\n\n第3条：公益短课。官方原文：The donated places cover four Sydney Executive Plus short courses, known as sprints.\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": [
+          "#悉尼大学",
+          "#USYD",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}
