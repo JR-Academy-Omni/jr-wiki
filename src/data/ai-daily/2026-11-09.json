@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-09",
+  "summary": {
+    "hook": [{"text":"OpenAI发布GPT-6 Cyber"},{"text":"中期选举后AI股大跌"},{"text":"Meta Muse视频通话全美开放"}],
+    "sub": "安全模型、算力股和AI陪伴产品各一条，均用一手页面加独立媒体核对。",
+    "items": [
+      {"num":"01","cat":"模型","numColor":"#FF5757","t":"OpenAI发布网络安全专用模型GPT-6 Cyber，仅限Daybreak Red审批用户"},
+      {"num":"02","cat":"市场","numColor":"#7861FF","t":"民主党中期选举大胜后AI股暴跌，Nvidia单日跌约9.3%，纳指跌5.52%"},
+      {"num":"03","cat":"产品","numColor":"#119B74","t":"Meta Muse Voice向全美用户开放，可与AI头像实时视频通话"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-openai-gpt-6-cyber",
+      "idx": "01",
+      "catText": "模型",
+      "accent": "#FF5757",
+      "bg": {"top":"模型","mid":"GPT-6 CYBER","bot":"2026.11.09","topRight":""},
+      "title": [{"text":"OpenAI发布网络安全专用模型GPT-6 Cyber"}],
+      "oneline": [{"text":"专攻漏洞挖掘和利用，只开放给通过Daybreak Red审批的组织。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"OpenAI 11月5日发布GPT-6 Cyber，官方在Preparedness Framework下把它的网络安全能力评为Critical。"},
+        {"k":"价格","v":"API输入每百万token 20美元，输出100美元，VentureBeat称高于Anthropic和Google同类模型。"},
+        {"k":"使用边界","v":"需Daybreak Red访问权限和审批，还要身份验证、使用限制和IP白名单。"}
+      ],
+      "src": "📎 deploymentsafety.openai.com · developers.openai.com · venturebeat.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"OpenAI Deployment Safety","url":"https://deploymentsafety.openai.com/gpt-6-cyber","claim":"能力评级为Critical","quote":"Like GPT-6 Astra, we classify GPT-6 Cyber as Critical in Cybersecurity under our Preparedness Framework."},
+        {"type":"primary","publisher":"OpenAI Deployment Safety","url":"https://deploymentsafety.openai.com/gpt-6-cyber","claim":"仅限审批用户","quote":"Like past models, GPT-6 Cyber is available only to approved Daybreak Red users and organizations."},
+        {"type":"primary","publisher":"OpenAI 开发者文档","url":"https://developers.openai.com/api/docs/models/gpt-6-cyber","claim":"需要Daybreak Red访问权限","quote":"Your organization needs Daybreak Red access and approval to use GPT-6-Cyber. Your account team can confirm access."},
+        {"type":"independent","publisher":"VentureBeat","url":"https://venturebeat.com/technology/openai-launches-gpt-6-cyber-with-stronger-exploit-research-and-higher-api-price-than-anthropic-and-google","claim":"API价格","quote":"lists GPT-6 Cyber at $20 per million input tokens and $100 per million output tokens,"},
+        {"type":"independent","publisher":"VentureBeat","url":"https://venturebeat.com/technology/openai-launches-gpt-6-cyber-with-stronger-exploit-research-and-higher-api-price-than-anthropic-and-google","claim":"与竞品价格对比","quote":"Its base input and output rates are twice Mythos 5.1’s and five times Argon Cyber Permissive’s."}
+      ]
+    },
+    {
+      "slug": "02-ai-stocks-midterm-selloff",
+      "idx": "02",
+      "catText": "市场",
+      "accent": "#7861FF",
+      "bg": {"top":"市场","mid":"AI SELLOFF","bot":"2026.11.09","topRight":""},
+      "title": [{"text":"中期选举后AI股暴跌，纳指单日跌5.52%"}],
+      "oneline": [{"text":"市场担心数据中心建设变慢、变贵，芯片和算力股领跌。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"11月5日Nvidia跌约9.3%，Micron跌17.5%，AMD跌17.3%，费城半导体指数跌超12%。"},
+        {"k":"为什么","v":"民主党拿下国会，部分民主党人呼吁限制或暂停新建数据中心，电价已成政治议题。"},
+        {"k":"对你的影响","v":"算力扩张节奏可能放慢，但目前只是市场判断，政策还没落地。"}
+      ],
+      "src": "📎 cnbc.com · foxbusiness.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html","claim":"个股跌幅","quote":"Nvidia lost 9.3%, with AMD shedding 17.3%, Microsoft 3.6%, Micron 17.5%, Broadcom 10.4%, Tesla 10.8% and SpaceX 9.1%."},
+        {"type":"primary","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/06/ai-data-center-midterms-selloff.html","claim":"数据中心运营商跌幅","quote":"Nebius dropped 15%, Iren fell 17% and CoreWeave 10% on Thursday."},
+        {"type":"independent","publisher":"Fox Business","url":"https://www.foxbusiness.com/markets/stocks-nov-5-2026","claim":"纳指跌幅","quote":"the Nasdaq Composite had its worst day since April 2025, closing 5.52% lower."},
+        {"type":"independent","publisher":"Fox Business","url":"https://www.foxbusiness.com/markets/stocks-nov-5-2026","claim":"Nvidia与半导体指数","quote":"Nvidia sank about 9.26%, while the Philadelphia Semiconductor Index plunged more than 12%."},
+        {"type":"independent","publisher":"Fox Business","url":"https://www.foxbusiness.com/markets/stocks-nov-5-2026","claim":"市场解读","quote":"The market's interpretation is that the AI infrastructure buildout will become slower and more expensive."}
+      ]
+    },
+    {
+      "slug": "03-meta-muse-voice",
+      "idx": "03",
+      "catText": "产品",
+      "accent": "#119B74",
+      "bg": {"top":"产品","mid":"MUSE VOICE","bot":"2026.11.09","topRight":""},
+      "title": [{"text":"Meta Muse Voice全美开放，能和AI头像视频通话"}],
+      "oneline": [{"text":"手机、网页和Mac上都能和Muse实时语音、视频聊天。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Meta 11月5日宣布Muse Voice向全美用户开放，9月Connect大会首次亮相。"},
+        {"k":"技术细节","v":"Meta称头像以448x768、每秒25帧推流，延迟约870毫秒。"},
+        {"k":"使用边界","v":"Muse并不能看到用户，只是听声音做反应；仅限18岁以上，暂只在美国。"}
+      ],
+      "src": "📎 research.meta.ai · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Meta AI Research 博客","url":"https://research.meta.ai/blog/bringing-your-muse-to-life","claim":"头像推流规格","quote":"streams 448x768 portrait video at 25 frames per second with approximately 870 ms of latency"},
+        {"type":"primary","publisher":"Meta AI Research 博客","url":"https://research.meta.ai/blog/bringing-your-muse-to-life","claim":"年龄限制","quote":"Muse is for users aged 18+."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/","claim":"全美开放","quote":"is now available to everyone in the U.S., the company announced on Thursday."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/","claim":"支持平台","quote":"the real-time conversations are supported on mobile, web, and Mac"}
+      ]
+    }
+  ],
+  "mp": {"title": "OpenAI发布GPT-6 Cyber，中期选举后AI股大跌，Meta Muse视频通话全美开放"}
+}
