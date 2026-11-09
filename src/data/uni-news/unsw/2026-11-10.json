@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-10",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "UNSW 新南威尔士大学",
+    "hookSub": "11 月 3-9 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "Riversleigh 世界遗产区入选 IUGS 第三批 100 处地质遗产地，UNSW 在这里发掘化石四十多年。",
+      "UNSW 筛查生物固体中的 47 种化学物；采矿工程教授 Serkan Saydam 讨论太空采矿的收益归属。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "地质遗产", "data": "200+ 新物种" },
+      { "num": "02", "title": "生物固体", "data": "47 种化学物" },
+      { "num": "03", "title": "太空采矿", "data": "收益归谁" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "Riversleigh 入选地质遗产",
+      "h2Sub": "IUGS 第三批 100 处",
+      "h2Highlight": "IUGS",
+      "lead": "11 月 9 日 UNSW 官网发布：昆士兰西北部 Riversleigh 世界遗产区入选 IUGS 地质遗产地，UNSW 研究者在这里发掘化石四十多年。",
+      "bullets": [
+        { "k": "认定", "v": "国际地质科学联合会（IUGS）第三批 100 处地质遗产地" },
+        { "k": "同批", "v": "来自 47 个国家的 100 处新地点" },
+        { "k": "位置", "v": "昆士兰西北部 Waanyi 土地" },
+        { "k": "化石", "v": "保存在淡水石灰岩中，跨越 2500 万年演化" },
+        { "k": "发现", "v": "已发现 200 多个动植物新物种" }
+      ],
+      "sourceQuote": "Riversleigh is one of 100 new sites from 47 countries recognised by the Union",
+      "source": "UNSW Newsroom · 2026-11-09",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/riversleigh-recognised-among-world-s-top-geological-sites"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "生物固体化学物筛查",
+      "h2Sub": "47 种化学物",
+      "h2Highlight": "47 种",
+      "lead": "11 月 5 日 UNSW 官网发布：研究团队基于已有文献，筛查生物固体（处理后的污水污泥）中 47 种化学物在土壤里的去向和留存时间。",
+      "bullets": [
+        { "k": "对象", "v": "生物固体，即处理后用作肥料的污水污泥" },
+        { "k": "用途", "v": "澳洲约 80% 的生物固体回用于农田" },
+        { "k": "方法", "v": "基于已有文献的筛查评估，不是新的田间实验" },
+        { "k": "发现", "v": "部分 PFAS、卡马西平、三氯生等可能在土壤中留存数月或更久" },
+        { "k": "说明", "v": "研究未显示农场受害、食物不安全或人体暴露" }
+      ],
+      "sourceQuote": "About 80% of biosolids produced in Australia are reused on farmland",
+      "source": "UNSW Newsroom · 2026-11-05",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/new-study-examines-chemicals-persist-biosolids"
+    },
+    {
+      "idx": "03",
+      "category": "科研",
+      "h2Main": "太空采矿谁受益",
+      "h2Sub": "Serkan Saydam 观点",
+      "h2Highlight": "太空采矿",
+      "lead": "11 月 3 日 UNSW 官网刊出采矿工程教授 Serkan Saydam 的观点：太空采矿成产业之前，应先定好资源归属和收益分配。",
+      "bullets": [
+        { "k": "人物", "v": "UNSW 采矿工程教授 Serkan Saydam" },
+        { "k": "资源", "v": "月球、火星、小行星上的硅、钛、稀土等" },
+        { "k": "燃料", "v": "氦-3 可能成为核聚变的非放射性燃料" },
+        { "k": "担忧", "v": "开采能力可能集中在少数富裕国家和公司" },
+        { "k": "主张", "v": "兼顾可持续与伦理，考虑环境、文化和排放影响" }
+      ],
+      "sourceQuote": "Most of the mining activities are currently done in the low-income countries on Earth, except Australia and Canada",
+      "source": "UNSW Newsroom · 2026-11-03",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/Who-gets-benefit-mining-outer-space"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 官网三条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "地质遗产", "body": "Riversleigh 世界遗产区入选 IUGS 第三批 100 处地质遗产地，已发现 200 多个动植物新物种。" },
+      { "n": "02", "title": "生物固体", "body": "UNSW 筛查生物固体中 47 种化学物，部分可能在土壤中留存数月或更久；澳洲约 80% 生物固体回用于农田。" },
+      { "n": "03", "title": "太空采矿", "body": "Serkan Saydam 教授认为太空采矿成产业前，应先定好资源归属和收益分配。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/10"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW这周三条 我读完了",
+      "body": "11 月 3-9 日新南威尔士大学官网有三条消息，我挑出来读完了。\n\n分别是：化石地质遗产、生物固体里的化学物、太空采矿。\n\n下面一张图一条，细节都对着官网抄的，官网没写的我就不写。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UNSW挖了四十年的化石地",
+      "body": "11 月 9 号 UNSW 官网发的消息。\n\n官方原文：Riversleigh is one of 100 new sites from 47 countries recognised by the Union.\n\n昆士兰西北部的 Riversleigh，化石跨越 2500 万年，已发现 200 多个动植物新物种。\n\n读地质或古生物的同学，这个名字可以记一下 🦴",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "农田肥料里的47种化学物",
+      "body": "11 月 5 号 UNSW 官网发的研究。\n\n官方原文：About 80% of biosolids produced in Australia are reused on farmland.\n\n团队基于已有文献筛查了 47 种化学物，部分可能在土壤里留存数月或更久。作者也说了，研究没有显示食物不安全。\n\n学环境工程的同学，这类筛查方法挺适合拿来写课程报告参考 📄",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "去太空采矿 收益归谁",
+      "body": "11 月 3 号 UNSW 官网刊出的观点。\n\n采矿工程教授 Serkan Saydam 说：Most of the mining activities are currently done in the low-income countries on Earth, except Australia and Canada.\n\n他担心太空采矿的能力集中在少数国家和公司，主张先把归属和分配规则定下来。\n\n这个话题我觉得很适合拿来练英文辩论 🚀",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW日报 评论区聊聊",
+      "body": "这三条都是新南威尔士大学官网的科研新闻，不是奖学金公告。\n\n你们更想看哪类：奖学金、招生、还是科研动态？评论区扣 1 / 2 / 3，我按票数排下周选题。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW地质遗产、生物固体、太空采矿",
+    "lead": "11 月 3-9 日 UNSW 官网发布三条消息：Riversleigh 地质遗产；生物固体化学物筛查；太空采矿收益归属。下面逐条拆，原文都对着官网核过。",
+    "meta": { "readTime": "约 3 分钟" },
+    "newsBodies": [
+      {
+        "h2": "01 Riversleigh 入选地质遗产：IUGS 第三批 100 处",
+        "paragraphs": [
+          "11 月 9 日，UNSW 官网发布消息。官方原文：Riversleigh is one of 100 new sites from 47 countries recognised by the Union.",
+          "Riversleigh 世界遗产区位于昆士兰西北部 Waanyi 土地上，化石保存在淡水石灰岩中，跨越 2500 万年演化。UNSW 研究者和合作方在这里做了四十多年化石发掘，已发现 200 多个动植物新物种。",
+          "研究者表示，已采集的石灰岩还有大量待研究，进度受限于经费。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-09 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/riversleigh-recognised-among-world-s-top-geological-sites\">www.unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 生物固体化学物筛查：47 种化学物",
+        "paragraphs": [
+          "11 月 5 日，UNSW 官网发布消息。官方原文：About 80% of biosolids produced in Australia are reused on farmland.",
+          "研究团队基于已有文献，对生物固体中的 47 种化学物做了筛查评估。部分 PFAS、卡马西平、三氯卡班、三氯生、佳乐麝香和吐纳麝香可能在土壤中留存数月或更久。",
+          "作者强调，研究并未显示农场受害、食物不安全或人体暴露；各处理厂浓度差异较大，监测应按场地进行。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-05 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/new-study-examines-chemicals-persist-biosolids\">www.unsw.edu.au</a>"
+      },
+      {
+        "h2": "03 太空采矿谁受益：Serkan Saydam 观点",
+        "paragraphs": [
+          "11 月 3 日，UNSW 官网刊出采矿工程教授 Serkan Saydam 的观点：太空采矿成产业之前，应先定好资源归属和收益分配。",
+          "月球、火星和小行星上的资源可支撑未来太空定居点，也可提供硅、钛、稀土等可再生能源技术用料；文中提到氦-3 可能成为核聚变的非放射性燃料。",
+          "Saydam 原话：Most of the mining activities are currently done in the low-income countries on Earth, except Australia and Canada. 他主张太空采矿兼顾可持续与伦理。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-03 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/Who-gets-benefit-mining-outer-space\">www.unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "Riversleigh 世界遗产区入选 IUGS 第三批 100 处地质遗产地，已发现 200 多个动植物新物种。",
+        "UNSW 筛查生物固体中 47 种化学物，部分可能在土壤中留存数月或更久。",
+        "Serkan Saydam 教授认为太空采矿成产业前，应先定好资源归属和收益分配。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "11 月 3-9 日新南威尔士大学官网有三条消息，我都读完了。\n\n第1条：Riversleigh 地质遗产。官方原文：Riversleigh is one of 100 new sites from 47 countries recognised by the Union.\n\n第2条：生物固体化学物。官方原文：About 80% of biosolids produced in Australia are reused on farmland.\n\n第3条：太空采矿。Serkan Saydam 教授原话：Most of the mining activities are currently done in the low-income countries on Earth, except Australia and Canada.\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": ["#新南威尔士大学", "#UNSW", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
