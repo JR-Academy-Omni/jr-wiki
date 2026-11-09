@@ -1,0 +1,306 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-11-10（Canvas 版）</title>
+<meta name="description" content="2026-11-10 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-11-10.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-11-10",
+  "summary": {
+    "hook": [
+      {
+        "text": "Anthropic传砸34亿美元买燃气发电机"
+      },
+      {
+        "text": "Meta收购多Agent编程工具Conductor"
+      },
+      {
+        "text": "Thinking Machines发布Inkling 2 Small"
+      }
+    ],
+    "sub": "算力电力、AI编程工具、开源大模型各一条，均用一手页面或首发报道加独立媒体核对。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "算力",
+        "numColor": "#FF5757",
+        "t": "FT报道Anthropic以34亿美元锁定1.7GW燃气发电机，给数据中心供电，公司未回应"
+      },
+      {
+        "num": "02",
+        "cat": "收购",
+        "numColor": "#7861FF",
+        "t": "Meta收购Conductor，这款应用能同时跑多个编程Agent，云服务11月20日关停"
+      },
+      {
+        "num": "03",
+        "cat": "模型",
+        "numColor": "#119B74",
+        "t": "Thinking Machines发布594B参数MoE模型Inkling 2 Small，承诺以Apache 2.0开放权重"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-gas-generators",
+      "idx": "01",
+      "catText": "算力",
+      "accent": "#FF5757",
+      "bg": {
+        "top": "算力",
+        "mid": "1.7GW POWER",
+        "bot": "2026.11.10",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "传Anthropic花34亿美元买燃气发电机供数据中心"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "FT援引知情人士报道，接手OnePWR的卡特彼勒发电机订单，公司未置评。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "FT 11月8日报道，Anthropic以34亿美元从OnePWR锁定1.7GW重型燃气发电机。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "AI公司开始自己找电，电网接入慢，现场燃气发电成了数据中心的备选方案。"
+        },
+        {
+          "k": "还没确认",
+          "v": "Anthropic和OnePWR拒绝置评，Reuters称无法独立核实，选址未披露。"
+        }
+      ],
+      "src": "📎 investing.com · finance.yahoo.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Investing.com（转述FT首发报道）",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-reportedly-strikes-34-billion-deal-for-gasfired-power-at-data-centres-5010208",
+          "claim": "34亿美元燃气发电机交易",
+          "quote": "Anthropic has struck a $3.4 billion deal to secure gas-fired generators for its data centres."
+        },
+        {
+          "type": "primary",
+          "publisher": "Investing.com（转述FT首发报道）",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-reportedly-strikes-34-billion-deal-for-gasfired-power-at-data-centres-5010208",
+          "claim": "1.7GW与OnePWR",
+          "quote": "secured commitments for 1.7 gigawatts of heavy-duty generators from San Antonio-based OnePWR Solutions"
+        },
+        {
+          "type": "primary",
+          "publisher": "Investing.com（转述FT首发报道）",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-reportedly-strikes-34-billion-deal-for-gasfired-power-at-data-centres-5010208",
+          "claim": "发电机来自卡特彼勒",
+          "quote": "OnePWR had ordered the generators from Caterpillar about two years ago."
+        },
+        {
+          "type": "independent",
+          "publisher": "Yahoo Finance（转载Gadget Review）",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-just-made-3-4-161351943.html",
+          "claim": "双方未置评",
+          "quote": "Anthropic and OnePWR declined to comment."
+        },
+        {
+          "type": "independent",
+          "publisher": "Yahoo Finance（转载Gadget Review）",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-just-made-3-4-161351943.html",
+          "claim": "Reuters无法核实",
+          "quote": "Reuters said it could not independently verify the account."
+        },
+        {
+          "type": "independent",
+          "publisher": "Yahoo Finance（转载Gadget Review）",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-just-made-3-4-161351943.html",
+          "claim": "未收购OnePWR",
+          "quote": "Anthropic did not acquire OnePWR."
+        }
+      ]
+    },
+    {
+      "slug": "02-meta-acquires-conductor",
+      "idx": "02",
+      "catText": "收购",
+      "accent": "#7861FF",
+      "bg": {
+        "top": "收购",
+        "mid": "CONDUCTOR",
+        "bot": "2026.11.10",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Meta收购多Agent编程工具Conductor"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Conductor能让多个编程Agent在各自隔离的代码副本里并行干活。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Conductor 11月4日宣布加入Meta，交易条款未披露。"
+        },
+        {
+          "k": "产品怎么用",
+          "v": "开发者可同时运行多个编程Agent，每个Agent在独立的代码库副本里工作。"
+        },
+        {
+          "k": "对用户的影响",
+          "v": "云服务11月13日只读、11月20日关停；本地Mac版可用到2027年初。"
+        }
+      ],
+      "src": "📎 conductor.build · siliconangle.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Conductor 官方公告",
+          "url": "https://www.conductor.build/announcement",
+          "claim": "加入Meta",
+          "quote": "I have big news: Conductor is joining Meta."
+        },
+        {
+          "type": "independent",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/04/meta-acquires-ai-coding-startup-conductor-whose-app-runs-several-coding-agents-at-once/",
+          "claim": "条款未披露",
+          "quote": "Terms were not disclosed."
+        },
+        {
+          "type": "independent",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/04/meta-acquires-ai-coding-startup-conductor-whose-app-runs-several-coding-agents-at-once/",
+          "claim": "产品功能",
+          "quote": "lets a developer run several coding agents at once, each in an isolated copy of the codebase."
+        },
+        {
+          "type": "independent",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/04/meta-acquires-ai-coding-startup-conductor-whose-app-runs-several-coding-agents-at-once/",
+          "claim": "云服务关停时间",
+          "quote": "The cloud service goes read-only on Nov. 13 and shuts on Nov. 20."
+        },
+        {
+          "type": "independent",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/04/meta-acquires-ai-coding-startup-conductor-whose-app-runs-several-coding-agents-at-once/",
+          "claim": "本地版可用期",
+          "quote": "Local copies of the Mac app keep working until early 2027."
+        }
+      ]
+    },
+    {
+      "slug": "03-inkling-2-small",
+      "idx": "03",
+      "catText": "模型",
+      "accent": "#119B74",
+      "bg": {
+        "top": "模型",
+        "mid": "INKLING 2",
+        "bot": "2026.11.10",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Thinking Machines发布Inkling 2 Small，68小时完成预训练"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "594B总参数、17B激活的MoE模型，先闭源上Tinker，再开放权重。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Thinking Machines 11月5日发布Inkling 2 Small，支持图像输入和可调推理强度。"
+        },
+        {
+          "k": "技术细节",
+          "v": "594B总参数、17B激活；在NVIDIA GB300 NVL72机架上训练68小时。"
+        },
+        {
+          "k": "开源计划",
+          "v": "先通过Tinker以闭源权重提供，外部安全测试后以Apache 2.0开放完整权重。"
+        }
+      ],
+      "src": "📎 thinkingmachines.ai · siliconangle.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Thinking Machines 官方公告",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "claim": "模型规格",
+          "quote": "It is a Mixture-of-Experts model with 594B total parameters, 17B active, and supports image inputs and variable effort."
+        },
+        {
+          "type": "primary",
+          "publisher": "Thinking Machines 官方公告",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "claim": "训练时长与硬件",
+          "quote": "It ran for 68 hours on NVIDIA GB300 NVL72 racks, which enabled high expert parallelism."
+        },
+        {
+          "type": "primary",
+          "publisher": "Thinking Machines 官方公告",
+          "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+          "claim": "先闭源上Tinker",
+          "quote": "Inkling 2 Small will initially be available through Tinker, with closed weights,"
+        },
+        {
+          "type": "independent",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/?p=853407",
+          "claim": "68小时预训练",
+          "quote": "completed the initial pre-training phase in 68 hours"
+        },
+        {
+          "type": "independent",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/?p=853407",
+          "claim": "开放权重计划",
+          "quote": "plans to release the model's weights under an open-source license next week."
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "传Anthropic砸34亿美元买发电机，Meta收购Conductor，Inkling 2 Small发布"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-11-10"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
