@@ -1,0 +1,289 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-11",
+  "school": "uq",
+  "summary": {
+    "hookMain": "UQ 昆士兰大学",
+    "hookSub": "11 月 5 日 - 11 月 11 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "UQ 化学工程学院博士生 Cole Walchle 把生物塑料 PHB 做成了一种「superstructure」水凝胶，可用于医疗技术和术后恢复。",
+      "源自 UQ 昆士兰脑研究所（QBI）的 MND 疗法 NUN-004 将进入全国二期临床试验。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "生物塑料水凝胶",
+        "data": "P3HB-HEAA"
+      },
+      {
+        "num": "02",
+        "title": "MND 二期试验",
+        "data": "75 人"
+      },
+      {
+        "num": "03",
+        "title": "课堂数字排毒",
+        "data": "Year 5 NAPLAN"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "生物塑料变医用水凝胶",
+      "h2Sub": "UQ 博士生的发现",
+      "h2Highlight": "水凝胶",
+      "lead": "11 月 11 日 UQ 官网发布：UQ 化学工程学院博士生 Cole Walchle 把生物塑料 PHB 做成了一种「superstructure」水凝胶，可用于医疗技术和术后恢复。",
+      "bullets": [
+        {
+          "k": "研究者",
+          "v": "Cole Walchle，UQ School of Chemical Engineering 博士生"
+        },
+        {
+          "k": "材料",
+          "v": "用接枝技术把生物塑料 PHB 变成水凝胶 P3HB-HEAA"
+        },
+        {
+          "k": "背景",
+          "v": "很多生物塑料太脆，目前没法商业化"
+        },
+        {
+          "k": "用途",
+          "v": "组织工程、伤口恢复、药物缓释、卫生用品和特种涂层"
+        },
+        {
+          "k": "待验证",
+          "v": "官网写到还需进一步研究，尤其是它能否生物降解"
+        }
+      ],
+      "sourceQuote": "Biomaterials engineers have created a ‘superstructure’ hydrogel that could be an eco-friendly tool used in medical technologies and as a recovery aid for surgical procedures.",
+      "source": "UQ News · 2026-11-11",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-researchers-transforming-bioplastics-superstructure-medical-hydrogels"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "MND 疗法进二期试验",
+      "h2Sub": "75 人 · 6 个临床点",
+      "h2Highlight": "二期",
+      "lead": "11 月 10 日 UQ 官网发布：源自 UQ 昆士兰脑研究所（QBI）的 MND 疗法 NUN-004 将进入全国二期临床试验。",
+      "bullets": [
+        {
+          "k": "规模",
+          "v": "75 名参与者，6 个澳洲临床点"
+        },
+        {
+          "k": "城市",
+          "v": "Sunshine Coast、Sydney、Newcastle、Brisbane、Perth"
+        },
+        {
+          "k": "疗法",
+          "v": "蛋白类疗法 NUN-004，抑制受体 EphA4"
+        },
+        {
+          "k": "来源",
+          "v": "QBI 的 Emeritus Professors Perry Bartlett 和 Andrew Boyd 25 年以上的研究"
+        },
+        {
+          "k": "公司",
+          "v": "NuNerve，由 UQ 商业化公司 UniQuest 和 Estate Peter Goodenough Unit Trust 成立"
+        }
+      ],
+      "sourceQuote": "An Australian-developed therapy aimed at halting motor neurone disease progression and restoring function will advance to a national Phase 2 clinical trial.",
+      "source": "UQ News · 2026-11-10",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-national-clinical-trial-australian-developed-mnd-therapy"
+    },
+    {
+      "idx": "03",
+      "category": "教育政策",
+      "h2Main": "澳洲课堂要数字排毒",
+      "h2Sub": "UQ 教授解读",
+      "h2Highlight": "数字排毒",
+      "lead": "11 月 5 日 UQ 官网发布：UQ Professor Jason Lodge 撰文分析联邦政府推动的学校「digital detox」报告。",
+      "bullets": [
+        {
+          "k": "作者",
+          "v": "Professor Jason Lodge（UQ Analysis 栏目）"
+        },
+        {
+          "k": "计划",
+          "v": "减少学生使用屏幕的时间，限制学校里的 AI 使用"
+        },
+        {
+          "k": "NAPLAN",
+          "v": "部分 Year 5 NAPLAN 考试将恢复纸笔作答，目前全部在线"
+        },
+        {
+          "k": "工作组",
+          "v": "新设工作组研究学校数字排毒，明年向部长们汇报三次"
+        },
+        {
+          "k": "AI",
+          "v": "小学和高中评估中将限制生成式 AI"
+        }
+      ],
+      "sourceQuote": "The federal government is pushing for a “digital detox” in schools.",
+      "source": "UQ News · 2026-11-05",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-australian-classrooms-are-getting-digital-detox-what-does-mean-schools-and-students"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UQ 官网三条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "生物塑料水凝胶",
+        "body": "UQ 化学工程学院博士生 Cole Walchle 把生物塑料 PHB 做成了一种「superstructure」水凝胶，可用于医疗技术和术后恢复。"
+      },
+      {
+        "n": "02",
+        "title": "MND 二期试验",
+        "body": "源自 UQ 昆士兰脑研究所（QBI）的 MND 疗法 NUN-004 将进入全国二期临床试验。"
+      },
+      {
+        "n": "03",
+        "title": "课堂数字排毒",
+        "body": "UQ Professor Jason Lodge 撰文分析联邦政府推动的学校「digital detox」报告。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/11"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 这周三条 我筛过了",
+      "body": "11 月 5 日到 11 日昆士兰大学官网有三条消息，我挑出来读完了。\n\n分别是：生物塑料水凝胶、MND 临床试验、课堂数字排毒。\n\n下面一张图一条，细节都对着官网抄的，官网没写的我就不写。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UQ 博士生把脆塑料变成凝胶",
+      "body": "11 月 11 号 UQ 官网发的消息。\n\n官方原文：Biomaterials engineers have created a ‘superstructure’ hydrogel that could be an eco-friendly tool used in medical technologies.\n\n做出来的是 UQ 化工学院一位博士生。原材料 PHB 太脆没法商用，他用接枝的办法做成了水凝胶。能不能降解官网说还要再研究。\n\n读化工的同学，这就是 PhD 课题的样子 🧪",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "UQ 25 年的研究进二期了",
+      "body": "11 月 10 号 UQ 官网发的消息。\n\n官方原文：An Australian-developed therapy aimed at halting motor neurone disease progression and restoring function will advance to a national Phase 2 clinical trial.\n\n这个疗法叫 NUN-004，来自 QBI 两位教授 25 年以上的研究。试验 75 人，分布在 6 个临床点。\n\n读神经科学的同学，QBI 的研究可以关注一下 🧠",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "澳洲中小学要少用 AI 了",
+      "body": "11 月 5 号 UQ 官网发的分析文章。\n\n官方原文：The federal government is pushing for a “digital detox” in schools.\n\n报告提到部分 Year 5 NAPLAN 要回到纸笔，小学和高中评估要限制生成式 AI。\n\n读教育硕士、以后想当老师的同学可以看看，我觉得这会影响以后实习上课的方式 ✏️",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "UQ 日报 评论区聊聊",
+      "body": "这三条都是昆士兰大学官网的新闻，不是奖学金公告。\n\n你们更想看哪类：奖学金、招生、还是科研动态？评论区扣 1 / 2 / 3，我按票数排下周选题。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 合集（主推）",
+        "body": "11 月 5 日 - 11 月 11 日 昆士兰大学官网的消息，我都读完了。\n\n第1条：生物塑料水凝胶。官方原文：Biomaterials engineers have created a ‘superstructure’ hydrogel that could be an eco-friendly tool used in medical technologies and as a recovery aid for surgical procedures.\n\n第2条：MND 二期试验。官方原文：An Australian-developed therapy aimed at halting motor neurone disease progression and restoring function will advance to a national Phase 2 clinical trial.\n\n第3条：课堂数字排毒。官方原文：The federal government is pushing for a “digital detox” in schools.\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": [
+          "#昆士兰大学",
+          "#UQ",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  },
+  "mp": {
+    "title": "UQ生物塑料水凝胶、MND 二期试验、课堂数字排毒",
+    "lead": "11 月 5 日 - 11 月 11 日 UQ 官网发布三条消息：生物塑料水凝胶；MND 二期试验；课堂数字排毒。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 3 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 生物塑料变医用水凝胶：UQ 博士生的发现",
+        "paragraphs": [
+          "11 月 11 日，UQ 官网发布消息。官方原文：Biomaterials engineers have created a ‘superstructure’ hydrogel that could be an eco-friendly tool used in medical technologies and as a recovery aid for surgical procedures.",
+          "Cole Walchle 是 UQ 化学工程学院的博士生，他在实验一种现有生物塑料时发现了这种凝胶材料。他说原本的聚合物来自生物、可降解，但太脆，没法商业化。",
+          "这种叫 P3HB-HEAA 的凝胶材料，可能用在手术场景、药物缓释、卫生用品和特种涂层上。",
+          "Walchle 也说，还需要进一步研究才能完全了解这种材料，尤其是它的生物降解能力。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-11 · <a href=\"https://news.uq.edu.au/2026-11-researchers-transforming-bioplastics-superstructure-medical-hydrogels\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "02 MND 疗法进二期试验：75 人 · 6 个临床点",
+        "paragraphs": [
+          "11 月 10 日，UQ 官网发布消息。官方原文：An Australian-developed therapy aimed at halting motor neurone disease progression and restoring function will advance to a national Phase 2 clinical trial.",
+          "这次 75 人的试验建立在早期试验结果之上，研究源自 UQ 昆士兰脑研究所（QBI），由临床阶段生物技术公司 NuNerve 推进。",
+          "NUN-004 是一种蛋白类疗法，用来抑制受体 EphA4，这个受体过度活跃与运动神经元退化有关。Emeritus Professor Perry Bartlett 说，目前没有获批的方法被证明能在广泛 MND 人群中阻止或逆转病程。",
+          "试验会在 Sunshine Coast、Sydney、Newcastle、Brisbane 和 Perth 的 6 个临床点招募 75 名参与者，评估功能变化、安全性和耐受性等指标。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-10 · <a href=\"https://news.uq.edu.au/2026-11-national-clinical-trial-australian-developed-mnd-therapy\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "03 澳洲课堂要数字排毒：UQ 教授解读",
+        "paragraphs": [
+          "11 月 5 日，UQ 官网发布消息。官方原文：The federal government is pushing for a “digital detox” in schools.",
+          "文章写到，政府新报告列出了对课堂数字技术的担忧，包括 AI 可能损害孩子的批判性思维、专注力和解决问题的能力。政府计划减少学生的屏幕时间，限制学校里的 AI 使用。",
+          "州和联邦教育部长已同意考虑全国性的屏幕使用限制。报告还提出：部分 Year 5 NAPLAN 考试恢复纸笔作答；新设工作组，明年向部长们汇报三次；小学和高中评估限制生成式 AI。",
+          "Lodge 认为，这会让学校减少对技术的依赖、回到纸笔，老师在课堂上使用技术的时间会有硬性上限，部分老师可能需要大改教学方式。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-05 · <a href=\"https://news.uq.edu.au/2026-11-australian-classrooms-are-getting-digital-detox-what-does-mean-schools-and-students\">news.uq.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "UQ 化学工程学院博士生 Cole Walchle 把生物塑料 PHB 做成了一种「superstructure」水凝胶，可用于医疗技术和术后恢复。",
+        "源自 UQ 昆士兰脑研究所（QBI）的 MND 疗法 NUN-004 将进入全国二期临床试验。",
+        "UQ Professor Jason Lodge 撰文分析联邦政府推动的学校「digital detox」报告。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  }
+}

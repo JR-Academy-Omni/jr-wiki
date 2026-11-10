@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-11",
+  "school": "umelb",
+  "summary": {
+    "hookMain": "UMelb 墨尔本大学",
+    "hookSub": "11 月 4 日 - 11 月 9 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "墨大代表团参加在土耳其安塔利亚开幕的联合国年度气候大会 COP31。",
+      "墨大研究发现，澳洲房贷利率长期高于按资本市场融资成本推算的基准。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "COP31 代表团",
+        "data": "11 月 9 日开幕"
+      },
+      {
+        "num": "02",
+        "title": "房贷利率研究",
+        "data": "约 $6000 / 年"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "大学动态",
+      "h2Main": "墨大代表团去 COP31",
+      "h2Sub": "土耳其安塔利亚",
+      "h2Highlight": "COP31",
+      "lead": "11 月 9 日 UMelb 官网发布：墨大代表团参加在土耳其安塔利亚开幕的联合国年度气候大会 COP31。",
+      "bullets": [
+        {
+          "k": "会议",
+          "v": "联合国年度气候大会 COP31，在土耳其安塔利亚举行"
+        },
+        {
+          "k": "谈判",
+          "v": "澳洲气候变化与能源部长 Chris Bowen 主导本届谈判"
+        },
+        {
+          "k": "牵头",
+          "v": "Melbourne Climate Futures（MCF），主任 Professor Kathryn Bowen"
+        },
+        {
+          "k": "伙伴",
+          "v": "太平洋区域环境署 SPREP 下属的 Pacific Climate Change Centre 与墨大签有谅解备忘录"
+        },
+        {
+          "k": "人数",
+          "v": "除 Bowen 和 Peel 两位教授外，另有 7 位墨大研究人员和研究生参会"
+        }
+      ],
+      "sourceQuote": "A University of Melbourne delegation is driving world-leading climate policy through strong partnerships at the United Nations’ annual climate conference, which starts in Antalya, Türkiye, today.",
+      "source": "UMelb Newsroom · 2026-11-09",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/november/melbourne-experts-strengthening-climate-partnerships-and-policy-at-cop31"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "澳洲房贷每年多付 $6000",
+      "h2Sub": "International Review of Finance",
+      "h2Highlight": "$6000",
+      "lead": "11 月 4 日 UMelb 官网发布：墨大研究发现，澳洲房贷利率长期高于按资本市场融资成本推算的基准。",
+      "bullets": [
+        {
+          "k": "论文",
+          "v": "On Bank Pricing of Single-family Residential Home Loans: Are Australian Households Paying Too Much?"
+        },
+        {
+          "k": "数据范围",
+          "v": "1998 年至 2025 年澳洲房贷定价"
+        },
+        {
+          "k": "测算",
+          "v": "按自住业主平均贷款 $731,000 计算，每年还款约比预期多 $6000"
+        },
+        {
+          "k": "可负担性",
+          "v": "研究估计房贷定价摩擦让住房可负担性下降约 14%"
+        },
+        {
+          "k": "作者",
+          "v": "墨大 Professor Piyush Tiwari 牵头，DePaul University 的 Professor James D. Shilling 合著，发表于 International Review of Finance"
+        }
+      ],
+      "sourceQuote": "Australian mortgage holders may be paying substantially higher interest rates than can be explained by banks’ underlying funding costs, according to new research from the University of Melbourne.",
+      "source": "UMelb Newsroom · 2026-11-04",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/november/the-mortgage-mark-up-costing-australian-homebuyers"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UMelb 官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "COP31 代表团",
+        "body": "墨大代表团参加在土耳其安塔利亚开幕的联合国年度气候大会 COP31。"
+      },
+      {
+        "n": "02",
+        "title": "房贷利率研究",
+        "body": "墨大研究发现，澳洲房贷利率长期高于按资本市场融资成本推算的基准。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/11"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "墨大这周两条 我筛过了",
+      "body": "11 月 4 日到 9 日墨尔本大学官网就这两条跟学生沾边，我都读完了。\n\n一条是 COP31 气候大会，一条是澳洲房贷利率研究。\n\n下面一张图一条，细节都对着官网抄的，官网没写的我就不写。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "墨大有研究生在 COP31 现场",
+      "body": "11 月 9 号墨大官网发的消息。\n\n官方原文：A University of Melbourne delegation is driving world-leading climate policy through strong partnerships at the United Nations’ annual climate conference.\n\n今年 COP31 在土耳其安塔利亚，澳洲部长 Chris Bowen 主导谈判。墨大除了两位教授，还有 7 位研究人员和研究生去了现场。\n\n读环境、国际关系的同学，这种参会机会可以问问自己导师 🌏",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "澳洲房贷每年多付 6000",
+      "body": "11 月 4 号墨大官网发的研究。\n\n官方原文：Australian mortgage holders may be paying substantially higher interest rates than can be explained by banks’ underlying funding costs.\n\n论文看了 1998-2025 年的数据，按平均贷款 $731,000 算，每年还款约比预期多 $6000。\n\n学金融的可以去搜论文原文，发在 International Review of Finance 📊",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "两条看下来我的想法",
+      "body": "这周墨大官网新闻不多，我只挑了两条。\n\n学环境、政策、法律的可以留意 COP31 那条，墨大有教授和研究生在现场。学金融、地产的可以去读房贷那篇论文。\n\n我自己打算把房贷那篇找来读，毕业后想在澳洲买房的话迟早要懂这些 🏠",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "墨大日报 评论区聊聊",
+      "body": "这两条都是墨尔本大学官网的新闻，不是奖学金公告。\n\n你们更想看哪类：奖学金、招生、还是科研动态？评论区扣 1 / 2 / 3，我按票数排下周选题。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 合集（主推）",
+        "body": "11 月 4 日 - 11 月 9 日 墨尔本大学官网的消息，我都读完了。\n\n第1条：COP31 代表团。官方原文：A University of Melbourne delegation is driving world-leading climate policy through strong partnerships at the United Nations’ annual climate conference, which starts in Antalya, Türkiye, today.\n\n第2条：房贷利率研究。官方原文：Australian mortgage holders may be paying substantially higher interest rates than can be explained by banks’ underlying funding costs, according to new research from the University of Melbourne.\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": [
+          "#墨尔本大学",
+          "#UniMelb",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  },
+  "mp": {
+    "title": "墨大COP31 代表团、房贷利率研究",
+    "lead": "11 月 4 日 - 11 月 9 日 UMelb 官网发布两条消息：COP31 代表团；房贷利率研究。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 3 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 墨大代表团去 COP31：土耳其安塔利亚",
+        "paragraphs": [
+          "11 月 9 日，UMelb 官网发布消息。官方原文：A University of Melbourne delegation is driving world-leading climate policy through strong partnerships at the United Nations’ annual climate conference, which starts in Antalya, Türkiye, today.",
+          "本届 COP31 由澳洲气候变化与能源部长 Chris Bowen 主导谈判。10 月在斐济和图瓦卢举行的会前谈判之后，太平洋国家在这次大会上的声音更受关注。",
+          "墨大的 Melbourne Climate Futures（MCF）由 Professor Kathryn Bowen 领导，与太平洋区域环境署 SPREP 有长期合作，包括让气候变化对健康的影响更受重视。",
+          "墨尔本法学院的 Professor Jacqueline Peel 主持 COP Universities Alliance，过去 18 个月一直向联邦政府提供政策建议。两位教授之外，还有 7 位墨大研究人员和研究生在现场参加官方边会、与谈判代表交流。"
+        ],
+        "sourceHtml": "UMelb Newsroom · 2026-11-09 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/november/melbourne-experts-strengthening-climate-partnerships-and-policy-at-cop31\">www.unimelb.edu.au</a>"
+      },
+      {
+        "h2": "02 澳洲房贷每年多付 $6000：International Review of Finance",
+        "paragraphs": [
+          "11 月 4 日，UMelb 官网发布消息。官方原文：Australian mortgage holders may be paying substantially higher interest rates than can be explained by banks’ underlying funding costs, according to new research from the University of Melbourne.",
+          "论文研究了 1998 到 2025 年的澳洲房贷定价，发现实际利率和按资本市场融资成本推算的基准利率之间一直有缺口，信用风险上升时缺口更大。",
+          "按 ABS 季度数据，自住业主平均贷款额是 $731,000。研究估计按这个贷款额，每年还款大约比预期多 $6000。",
+          "研究认为，部分差价来自合理的风险定价，但相当一部分来自融资成本变化传导不完整、不及时。作者估计这种定价摩擦让住房可负担性下降约 14%。"
+        ],
+        "sourceHtml": "UMelb Newsroom · 2026-11-04 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/november/the-mortgage-mark-up-costing-australian-homebuyers\">www.unimelb.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "墨大代表团参加在土耳其安塔利亚开幕的联合国年度气候大会 COP31。",
+        "墨大研究发现，澳洲房贷利率长期高于按资本市场融资成本推算的基准。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-11",
+  "school": "monash",
+  "summary": {
+    "hookMain": "Monash 莫纳什大学",
+    "hookSub": "11 月 2 日 - 11 月 5 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "莫大研究发现，澳洲低收入社区的孩子越来越难获得心理服务，贫富家庭之间的差距十年间明显扩大。",
+      "Monash Institute of Pharmaceutical Sciences（MIPS）分享 Heart Foundation 总额 $14.5 million 的资助池，研究心血管健康。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "心理服务差距",
+        "data": "14→23 个百分点"
+      },
+      {
+        "num": "02",
+        "title": "绝经与心脏",
+        "data": "$14.5m 资助池"
+      },
+      {
+        "num": "03",
+        "title": "节能融资",
+        "data": "$14.34b / 三年"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "心理服务差距在拉大",
+      "h2Sub": "儿童受影响更明显",
+      "h2Highlight": "差距",
+      "lead": "11 月 5 日 Monash 官网发布：莫大研究发现，澳洲低收入社区的孩子越来越难获得心理服务，贫富家庭之间的差距十年间明显扩大。",
+      "bullets": [
+        {
+          "k": "数据",
+          "v": "2014-2023 年拿到 Mental Health Treatment Plan 的 540 万澳洲儿童和成人的 Medicare 与税务关联数据"
+        },
+        {
+          "k": "儿童",
+          "v": "最高与最低收入组的差距从 14 个百分点扩大到 23 个百分点"
+        },
+        {
+          "k": "成人",
+          "v": "差距从 8 个百分点扩大到 15 个百分点；2023 年低收入成人 40%、高收入成人 55% 在三个月内获得心理服务"
+        },
+        {
+          "k": "2023",
+          "v": "最低收入社区的孩子不到三分之一在三个月内获得 Medicare 补贴的心理服务，最富裕社区超过一半"
+        },
+        {
+          "k": "研究者",
+          "v": "Associate Professor Nicole Black，Monash Business School 卫生经济学中心"
+        }
+      ],
+      "sourceQuote": "Australian children from poorer communities are increasingly missing out on psychological care, with the gap in treatment between wealthy and disadvantaged families widening substantially over the past decade, according to Monash University research.",
+      "source": "Monash News · 2026-11-05",
+      "sourceUrl": "https://www.monash.edu/news/articles/income-divide-in-access-to-psychological-care-widens,-with-children-hardest-hit"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "绝经与心脏健康研究",
+      "h2Sub": "Heart Foundation 资助",
+      "h2Highlight": "心脏",
+      "lead": "11 月 3 日 Monash 官网发布：Monash Institute of Pharmaceutical Sciences（MIPS）分享 Heart Foundation 总额 $14.5 million 的资助池，研究心血管健康。",
+      "bullets": [
+        {
+          "k": "资助",
+          "v": "Heart Foundation 总额 $14.5 million 的资助池，MIPS 是获资助单位之一"
+        },
+        {
+          "k": "负责人",
+          "v": "Professor Rebecca Ritchie，MIPS Drug Discovery Biology 主题负责人"
+        },
+        {
+          "k": "研究问题",
+          "v": "绝经如何改变减重药 Mounjaro（tirzepatide）对超重女性心脏的益处"
+        },
+        {
+          "k": "测量",
+          "v": "绝经后条件下，tirzepatide 对心脏收缩、舒张和体力耐受的影响"
+        },
+        {
+          "k": "团队",
+          "v": "Dr Miles De Blasio、Heart Research Institute、Baker Heart and Diabetes Institute 和 Monash Health 的研究者"
+        }
+      ],
+      "sourceQuote": "The Monash Institute of Pharmaceutical Sciences (MIPS) is sharing in a pool of $14.5 million in Heart Foundation grants to support vital new research aimed at improving cardiovascular health.",
+      "source": "Monash News · 2026-11-03",
+      "sourceUrl": "https://www.monash.edu/news/articles/mips-research-targets-post-menopause-heart-health"
+    },
+    {
+      "idx": "03",
+      "category": "科研",
+      "h2Main": "房屋节能可以跟房子走",
+      "h2Sub": "Property Linked Finance",
+      "h2Highlight": "节能",
+      "lead": "11 月 2 日 Monash 官网发布：莫大研究称，让房主通过与房产挂钩的费用来支付节能改造的融资模式，三年内可能带来额外 $14.34 billion 的节能支出。",
+      "bullets": [
+        {
+          "k": "调查",
+          "v": "调查了 2239 名澳洲人对 Property Linked Finance（PLF）的态度"
+        },
+        {
+          "k": "机制",
+          "v": "卖房时剩余还款可以转给新房主"
+        },
+        {
+          "k": "吸引力",
+          "v": "约 60% 的新购房者和 50% 的房东觉得这个模式有吸引力"
+        },
+        {
+          "k": "模拟",
+          "v": "自住业主采用率从 51% 升到 72%，房东从 52% 升到 74%，新购房者从 75% 升到 88%"
+        },
+        {
+          "k": "作者",
+          "v": "Dr Fernanda Mata，Monash 商业与经济学院 BehaviourWorks Australia"
+        }
+      ],
+      "sourceQuote": "A financing model that allows homeowners to pay for home energy upgrades through a charge linked to their property could generate an additional $14.34 billion in spending on home energy improvements over three years, according to new Monash University research.",
+      "source": "Monash News · 2026-11-02",
+      "sourceUrl": "https://www.monash.edu/news/articles/property-linked-finance-model-could-boost-uptake-of-home-energy-upgrades"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 官网三条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "心理服务差距",
+        "body": "莫大研究发现，澳洲低收入社区的孩子越来越难获得心理服务，贫富家庭之间的差距十年间明显扩大。"
+      },
+      {
+        "n": "02",
+        "title": "绝经与心脏",
+        "body": "Monash Institute of Pharmaceutical Sciences（MIPS）分享 Heart Foundation 总额 $14.5 million 的资助池，研究心血管健康。"
+      },
+      {
+        "n": "03",
+        "title": "节能融资",
+        "body": "莫大研究称，让房主通过与房产挂钩的费用来支付节能改造的融资模式，三年内可能带来额外 $14.34 billion 的节能支出。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/11"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "莫大这周三条 我筛过了",
+      "body": "11 月 2 日到 5 日莫纳什大学官网有三条研究新闻，我挑出来读完了。\n\n分别是：心理服务收入差距、绝经与心脏、房屋节能融资。\n\n下面一张图一条，细节都对着官网抄的，官网没写的我就不写。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "看过 GP 也不一定约得上",
+      "body": "11 月 5 号莫大官网发的研究。\n\n官方原文：Australian children from poorer communities are increasingly missing out on psychological care.\n\n研究用了 540 万人的数据，儿童组贫富差距从 14 个百分点拉到 23 个百分点。很多人已经看过 GP、拿到计划，还是没约上。\n\n留学压力大的话别硬扛，学校的 counselling 可以先问问 💬",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "莫大药学院拿到心脏研究资助",
+      "body": "11 月 3 号莫大官网发的消息。\n\n官方原文：The Monash Institute of Pharmaceutical Sciences (MIPS) is sharing in a pool of $14.5 million in Heart Foundation grants.\n\n注意是共享这个资助池，不是莫大单独拿 $14.5m。项目看绝经后女性心脏对 tirzepatide 的反应。\n\n读药学、生物医学的同学，Parkville 校区的 MIPS 可以关注一下 🔬",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "装太阳能板的钱跟房子走",
+      "body": "11 月 2 号莫大官网发的研究。\n\n官方原文：A financing model that allows homeowners to pay for home energy upgrades through a charge linked to their property could generate an additional $14.34 billion in spending.\n\n简单说就是卖房时剩下的还款转给新房主。调查了 2239 人，约 60% 新购房者觉得有吸引力。\n\n租房的我更关心房东会不会因此愿意装隔热 ☀️",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "莫大日报 评论区聊聊",
+      "body": "这三条都是莫纳什大学官网的研究新闻，不是奖学金公告。\n\n你们更想看哪类：奖学金、招生、还是科研动态？评论区扣 1 / 2 / 3，我按票数排下周选题。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 合集（主推）",
+        "body": "11 月 2 日 - 11 月 5 日 莫纳什大学官网的消息，我都读完了。\n\n第1条：心理服务差距。官方原文：Australian children from poorer communities are increasingly missing out on psychological care, with the gap in treatment between wealthy and disadvantaged families widening substantially over the past decade, according to Monash University research.\n\n第2条：绝经与心脏。官方原文：The Monash Institute of Pharmaceutical Sciences (MIPS) is sharing in a pool of $14.5 million in Heart Foundation grants to support vital new research aimed at improving cardiovascular health.\n\n第3条：节能融资。官方原文：A financing model that allows homeowners to pay for home energy upgrades through a charge linked to their property could generate an additional $14.34 billion in spending on home energy improvements over three years, according to new Monash University research.\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": [
+          "#莫纳什大学",
+          "#Monash",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  },
+  "mp": {
+    "title": "莫大心理服务差距、绝经心脏研究、房屋节能融资",
+    "lead": "11 月 2 日 - 11 月 5 日 Monash 官网发布三条消息：心理服务差距；绝经与心脏；节能融资。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 3 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 心理服务差距在拉大：儿童受影响更明显",
+        "paragraphs": [
+          "11 月 5 日，Monash 官网发布消息。官方原文：Australian children from poorer communities are increasingly missing out on psychological care, with the gap in treatment between wealthy and disadvantaged families widening substantially over the past decade, according to Monash University research.",
+          "研究使用了 540 万名在 2014 到 2023 年间拿到 Mental Health Treatment Plan 的澳洲儿童和成人的 Medicare 与税务关联数据，发现与收入相关的不平等在十年里几乎翻倍。",
+          "儿童组最高和最低收入之间的差距从 14 个百分点扩大到 23 个百分点；成人组从 8 个扩大到 15 个百分点。",
+          "Associate Professor Nicole Black 指出，这些人已经看过 GP、拿到了计划，但很多人仍没有获得心理服务，低收入社区的比例更高。整体看，2014 到 2023 年儿童在三个月内使用心理服务的比例从 63% 降到 45%，成人从 58% 降到 48%。"
+        ],
+        "sourceHtml": "Monash News · 2026-11-05 · <a href=\"https://www.monash.edu/news/articles/income-divide-in-access-to-psychological-care-widens,-with-children-hardest-hit\">www.monash.edu</a>"
+      },
+      {
+        "h2": "02 绝经与心脏健康研究：Heart Foundation 资助",
+        "paragraphs": [
+          "11 月 3 日，Monash 官网发布消息。官方原文：The Monash Institute of Pharmaceutical Sciences (MIPS) is sharing in a pool of $14.5 million in Heart Foundation grants to support vital new research aimed at improving cardiovascular health.",
+          "Professor Rebecca Ritchie 将牵头研究绝经如何改变减重药 Mounjaro 对超重女性心脏的益处。",
+          "官网写到，tirzepatide 能降低整体心血管风险，但现有试验没有考察它对心脏功能的直接影响，也没有测试绝经是否改变心脏的反应。这项研究会测量绝经后条件下心脏收缩、舒张和体力耐受的变化。",
+          "团队还包括莫大 Dr Miles De Blasio、Heart Research Institute 的 Associate Professor Mary Kavurma、Baker Heart and Diabetes Institute 的 Associate Professor Neale Cohen，以及 Monash Health 的 Dr Alicia Jones。"
+        ],
+        "sourceHtml": "Monash News · 2026-11-03 · <a href=\"https://www.monash.edu/news/articles/mips-research-targets-post-menopause-heart-health\">www.monash.edu</a>"
+      },
+      {
+        "h2": "03 房屋节能可以跟房子走：Property Linked Finance",
+        "paragraphs": [
+          "11 月 2 日，Monash 官网发布消息。官方原文：A financing model that allows homeowners to pay for home energy upgrades through a charge linked to their property could generate an additional $14.34 billion in spending on home energy improvements over three years, according to new Monash University research.",
+          "官网写到，高昂的前期成本和回本的不确定性，让不少澳洲人不愿意装太阳能板、做隔热这类节能改造。",
+          "研究调查了 2239 名澳洲人。PLF 让房主通过与房产挂钩的费用分期支付节能改造，卖房时剩余还款可以转给新房主。约 60% 的新购房者、50% 的房东觉得有吸引力。",
+          "市场模拟显示，在已经考虑节能改造的人群里，自住业主的采用率从 51% 升到 72%，房东从 52% 升到 74%，新购房者从 75% 升到 88%。"
+        ],
+        "sourceHtml": "Monash News · 2026-11-02 · <a href=\"https://www.monash.edu/news/articles/property-linked-finance-model-could-boost-uptake-of-home-energy-upgrades\">www.monash.edu</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "莫大研究发现，澳洲低收入社区的孩子越来越难获得心理服务，贫富家庭之间的差距十年间明显扩大。",
+        "Monash Institute of Pharmaceutical Sciences（MIPS）分享 Heart Foundation 总额 $14.5 million 的资助池，研究心血管健康。",
+        "莫大研究称，让房主通过与房产挂钩的费用来支付节能改造的融资模式，三年内可能带来额外 $14.34 billion 的节能支出。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  }
+}
