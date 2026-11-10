@@ -1,3 +1,7 @@
+## 官网域名规则（Owner 2026-11-10）
+
+现行官网为 `https://jracademy.ai`，Admin 为 `https://admin.jracademy.ai`。新写及修订的官网、课程、文章、分享、canonical 和操作文档链接统一使用新域名，保持既有路径与参数。主业务 API 继续使用 `https://api.jiangren.com.au`；不得机械替换 API、网关、邮件、视频或静态资源服务地址。旧官网仅作为跳转来源、兼容配置或带日期的历史证据，不再作为新增前端链接的默认值。Curriculum 继续禁止抓取与索引，不进入 sitemap，不接 GA/GA4/GTM。本规则不授权修改运行配置、部署或外部平台操作。
+
 # CLAUDE.md — jr-wiki
 
 JR Academy Headless 内容仓库。Markdown 存 GitHub，元数据存 MongoDB，后端从 GitHub 实时读 .md 渲染。官网前端零改动零部署。
@@ -63,18 +67,18 @@ jr-wiki 的 GitHub Pages 服务的是 **运营工具页**，不是对外产品�
 - `/uni-news-social/events/{DATE}.html` + `{DATE}-covers.html` — 校园活动预览
 - `/_preview/` — 内容管理内部预览
 
-**真正对外的公开内容**（对应的 markdown 正文）走 **jiangren.com.au**：
-- `jiangren.com.au/blog/{slug}` ← posts 集合（由 Next.js 主站做 SEO）
-- `jiangren.com.au/wiki/{slug}` ← wikis 集合（由主站做 SEO）
+**真正对外的公开内容**（对应的 markdown 正文）走 **jracademy.ai**：
+- `jracademy.ai/blog/{slug}` ← posts 集合（由 Next.js 主站做 SEO）
+- `jracademy.ai/wiki/{slug}` ← wikis 集合（由主站做 SEO）
 
-换言之：**SEO 归 jiangren.com.au Next.js 主站负责，GitHub Pages 链接不参与索引。**
+换言之：**SEO 归 jracademy.ai Next.js 主站负责，GitHub Pages 链接不参与索引。**
 
 ### 如何兑现
 
 1. **`dist/robots.txt`**（由 `build.ts` 生成）: `User-agent: *\nDisallow: /`
 2. **`public/robots.txt`**: 同样 `Disallow: /`（保底）
 3. **所有静态 HTML** 必须带 `<meta name="robots" content="noindex, nofollow">`（模板已默认带；新 HTML 必须延续）
-4. **禁止**在 jr-wiki 里加 sitemap.xml / RSS / JSON-LD / OpenGraph（那些留给 jiangren.com.au）
+4. **禁止**在 jr-wiki 里加 sitemap.xml / RSS / JSON-LD / OpenGraph（那些留给 jracademy.ai）
 5. **禁止**把 GitHub Pages 链接放进对外对用户可见的页面（只在运营工具 / 内部 dashboard 里引用）
 
 ### 新功能检查清单

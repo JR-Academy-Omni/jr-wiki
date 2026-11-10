@@ -110,13 +110,13 @@ PosterRenderer.renderAll({ DATE: '{DATE}', SUMMARY, NEWS });
 - 标题 em 黄色高亮块（`layoutTokens` 按 token 换行 + `fillRect` 画背景）
 - 一句话黄底 + 红色加粗
 - 3 条 bullets（左色边 + b-key 大写 mono + b-val 正文）
-- 底栏分隔线 + 左侧 src/brand 文字 + **右下角 168×168 二维码**（自动指向 `https://jiangren.com.au/blog/ai-daily-{DATE}`）
+- 底栏分隔线 + 左侧 src/brand 文字 + **右下角 168×168 二维码**（自动指向 `https://jracademy.ai/blog/ai-daily-{DATE}`）
 - 页面外壳（header / 全部下载按钮 / grid / lightbox / toast / 复制链接）
 - `await document.fonts.ready` 之后才画
 - 下载按钮 = `canvas.toDataURL('image/png')`
 
 ### 🚨 二维码（硬规）
-- 每张海报右下角，168×168 像素，内容 = `https://jiangren.com.au/blog/ai-daily-{YYYY-MM-DD}`
+- 每张海报右下角，168×168 像素，内容 = `https://jracademy.ai/blog/ai-daily-{YYYY-MM-DD}`
 - 6 张海报指向同一篇当天文章（不做 per-item anchor）
 - 白底黑块、3px 黑描边、16px quiet zone
 - **由库自动画**，你只需要保证 `<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>` 加在库 `<script>` 之前
@@ -130,7 +130,7 @@ PosterRenderer.renderAll({ DATE: '{DATE}', SUMMARY, NEWS });
 | 尺寸 | **1242 × 1660**（3:4 竖版）锁死，不给备选 |
 | 产出数量 | **1 合集（summary）+ 5 单图 = 6 张 / 天** |
 | 下载 | 每张图下方「⬇ 下载 PNG」= `canvas.toDataURL('image/png')`（**严禁 html2canvas**） |
-| 二维码 | 每张海报**右下角 ≥160×160**，内容固定 = `https://jiangren.com.au/blog/ai-daily-{YYYY-MM-DD}` |
+| 二维码 | 每张海报**右下角 ≥160×160**，内容固定 = `https://jracademy.ai/blog/ai-daily-{YYYY-MM-DD}` |
 | 输出目录 | `src/static/ai-news-posters/{YYYY-MM-DD}/index.html` |
 | 汇总 hub | `src/static/ai-news-posters/index.html`（仿 `posters.html` 的卡片列表） |
 
@@ -223,7 +223,7 @@ PosterRenderer.renderAll({ DATE: '{DATE}', SUMMARY, NEWS });
 ### 必须有的元素（每张都必须）
 - **日期 bar**（顶栏 `YYYY-MM-DD`）
 - **番号**（单图显示 `01 / 05`，合集显示 `DIGEST`）
-- **brand bar 底栏**（`📰 JR Academy AI 日报 · jiangren.com.au/blog`）
+- **brand bar 底栏**（`📰 JR Academy AI 日报 · jracademy.ai/blog`）
 
 不要放二维码 / 联系方式 / 绝对化用语（和 xhs-poster 聚光合规一致）。
 

@@ -123,7 +123,7 @@ jr-wiki 目前承载了 4 条主力定时内容 pipeline（2026-04 盘点）：
 |---|---|---|---|
 | **xhs-poster** | 小红书 5 图 carousel | `static/{type}/{DATE}/index.html` | `/ai-news-posters/2026-04-23/` |
 | **mp-article** | 公众号长文（inline style） | `static/{type}/{DATE}/mp-article.html` | `.../mp-article.html` |
-| **blog** | 网站博客（Astro SSG） | `content/articles/{slug}.md` + Astro 渲染 | `jiangren.com.au/blog/...` |
+| **blog** | 网站博客（Astro SSG） | `content/articles/{slug}.md` + Astro 渲染 | `jracademy.ai/blog/...` |
 | **rss** | 订阅推送 | `rss.xml` | `/feed.xml` |
 | **sitemap** | Google 索引 | `sitemap.xml` | `/sitemap.xml` |
 | **api** (v2) | 对 jr-academy 暴露原始数据 | JSON endpoint | `/api/...` |

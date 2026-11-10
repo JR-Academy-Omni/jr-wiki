@@ -236,5 +236,5 @@ v1 的"不覆盖历史"规则不再适用 —— 90 天窗口天然每周滚动�
 
 - ❌ 不生成海报、小红书、MP 文章
 - ❌ 不写 markdown 到 articles/
-- ❌ 不进 jiangren.com.au（纯 admin 内部工具）
+- ❌ 不进 jracademy.ai（纯 admin 内部工具）
 - ❌ 不抓小众到可忽略的地方性假日单独做投放建议（比如 US-MO Truman Day 只有密苏里州政府放假） —— 诚实说"可忽略"，别硬编营销话术
