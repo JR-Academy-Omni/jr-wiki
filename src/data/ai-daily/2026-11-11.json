@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-11",
+  "summary": {
+    "hook": [{"text":"Anthropic发布Fable 5.2和Mythos 5.2"},{"text":"Meta推出低价Agent模型Muse Ember"},{"text":"Bay拿5000万美元拦截高风险Agent操作"}],
+    "sub": "两个新模型、一家Agent安全公司，均用官方页面加独立媒体核对。",
+    "items": [
+      {"num":"01","cat":"模型","numColor":"#FF5757","t":"Anthropic发布Fable 5.2和Mythos 5.2，Fable 5.2每百万token输入8美元、输出40美元"},
+      {"num":"02","cat":"模型","numColor":"#7861FF","t":"Meta发布Muse Ember，每百万输入token 0.1美元，专做Agent的重复小步骤"},
+      {"num":"03","cat":"安全","numColor":"#119B74","t":"以色列公司Bay结束隐身，融资5000万美元，在Agent动作执行前做风险检查"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-anthropic-fable-mythos-5-2",
+      "idx": "01",
+      "catText": "模型",
+      "accent": "#FF5757",
+      "bg": {"top":"模型","mid":"FABLE 5.2","bot":"2026.11.11","topRight":""},
+      "title": [{"text":"Anthropic发布Fable 5.2和Mythos 5.2"}],
+      "oneline": [{"text":"能力相同、护栏不同，Fable公开可用，Mythos只给受信任研究者。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"11月9日发布两款新旗舰模型，Fable 5.2价格为输入8美元、输出40美元每百万token。"},
+        {"k":"为什么重要","v":"价格比上一代低20%，Terminal-Bench-Science得分74.6%，比Fable 5.1高22%。"},
+        {"k":"对你的影响","v":"API模型ID为claude-fable-5-2，生物和网络安全类请求会被拦截或转给其他模型。"}
+      ],
+      "src": "📎 platform.claude.com · siliconangle.com · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Claude官方文档（Models overview）","url":"https://platform.claude.com/docs/en/about-claude/models/overview","claim":"Fable 5.2定价","quote":"$8 / input MTok, $40 / output MTok"},
+        {"type":"primary","publisher":"Claude官方文档（Models overview）","url":"https://platform.claude.com/docs/en/about-claude/models/overview","claim":"Fable 5.2退役时间","quote":"Not sooner than November 9, 2027"},
+        {"type":"independent","publisher":"SiliconANGLE","url":"https://siliconangle.com/2026/11/09/anthropic-launches-fable-5-2-and-mythos-5-2-with-science-coding-upgrades/","claim":"两款模型核心能力相同、护栏不同","quote":"The difference is that Fable 5.2 blocks certain biology and cybersecurity use cases, while Mythos 5.2 includes more relaxed guardrails."},
+        {"type":"independent","publisher":"SiliconANGLE","url":"https://siliconangle.com/2026/11/09/anthropic-launches-fable-5-2-and-mythos-5-2-with-science-coding-upgrades/","claim":"Mythos 5.2访问限制","quote":"The latter model is only available to trusted researchers through a pair of limited-access programs."},
+        {"type":"independent","publisher":"SiliconANGLE","url":"https://siliconangle.com/2026/11/09/anthropic-launches-fable-5-2-and-mythos-5-2-with-science-coding-upgrades/","claim":"Terminal-Bench-Science成绩","quote":"Fable 5.2 scored 74.6% on Terminal-Bench-Science 0.1, a 22% improvement over Fable 5.1."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/","claim":"Fable输入价格下调","quote":"lowering the cost of Fable from $10 to $8 per million input tokens"}
+      ]
+    },
+    {
+      "slug": "02-meta-muse-ember",
+      "idx": "02",
+      "catText": "模型",
+      "accent": "#7861FF",
+      "bg": {"top":"模型","mid":"MUSE EMBER","bot":"2026.11.11","topRight":""},
+      "title": [{"text":"Meta发布低价Agent执行模型Muse Ember"}],
+      "oneline": [{"text":"每百万输入token 0.1美元，Meta称以约三分之一成本追平Haiku 5.5最高分。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"11月9日上线Meta Model API和Muse Code，模型ID为muse-ember-1.0。"},
+        {"k":"为什么重要","v":"定位Agent里的工具调用、路由、抽取等高频小步骤，价格压到输入0.1、输出0.5美元。"},
+        {"k":"还没确认","v":"跑分多为Meta内部评测，FrontierCode 2.0上仍落后Haiku 5.5。"}
+      ],
+      "src": "📎 research.meta.ai · techcrunch.com · siliconangle.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Meta官方博客","url":"https://research.meta.ai/blog/muse-ember","claim":"定价与可用渠道","quote":"Muse Ember is available today on the Meta Model API, at $0.10 per million input tokens and $0.50 per million output tokens."},
+        {"type":"primary","publisher":"Meta官方博客","url":"https://research.meta.ai/blog/muse-ember","claim":"适用任务","quote":"tool calls, coding subtasks, routing, extraction, and long document parsing."},
+        {"type":"primary","publisher":"Meta官方博客","url":"https://research.meta.ai/blog/muse-ember","claim":"与Haiku对比","quote":"it matches Haiku's best score at about a third of the cost and beats every Luna setting."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution","claim":"比同类便宜","quote":"At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna."},
+        {"type":"independent","publisher":"SiliconANGLE","url":"https://siliconangle.com/2026/11/09/meta-introduces-muse-ember-to-power-cost-efficient-ai-agents/","claim":"七项跑分领先","quote":"Muse Ember outperformed Haiku and Luna across seven of the benchmarks."}
+      ]
+    },
+    {
+      "slug": "03-bay-agent-security-50m",
+      "idx": "03",
+      "catText": "融资",
+      "accent": "#119B74",
+      "bg": {"top":"融资","mid":"$50M BAY","bot":"2026.11.11","topRight":""},
+      "title": [{"text":"Bay融资5000万美元，在Agent动手前先拦一道"}],
+      "oneline": [{"text":"以色列Agent安全公司结束隐身，Battery Ventures领投3700万美元A轮。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"11月10日公布A轮3700万加此前未公开的1300万种子轮，共5000万美元。"},
+        {"k":"为什么重要","v":"Agent每次要执行动作都先交给本地程序检查，风险高的直接不让跑。"},
+        {"k":"对你的影响","v":"企业落地Agent，权限管控和执行前审查正在变成独立的安全品类。"}
+      ],
+      "src": "📎 bay.io · siliconangle.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Bay官方博客","url":"https://www.bay.io/blog","claim":"融资5000万美元结束隐身","quote":"Bay Emerges From Stealth With $50M After Fortune 100 Companies Used Its Platform to Triple Autonomous AI Agent Use"},
+        {"type":"primary","publisher":"Bay官网","url":"https://www.bay.io/","claim":"产品作用","quote":"Risky actions stop before they complete. Everything else keeps moving."},
+        {"type":"independent","publisher":"SiliconANGLE","url":"https://siliconangle.com/2026/11/10/ai-security-startup-bay-launches-with-50m-to-vet-agent-actions-before-they-run/","claim":"A轮领投方","quote":"Battery Ventures LP led the larger $37 million Series A round"},
+        {"type":"independent","publisher":"SiliconANGLE","url":"https://siliconangle.com/2026/11/10/ai-security-startup-bay-launches-with-50m-to-vet-agent-actions-before-they-run/","claim":"种子轮","quote":"The remaining $13 million came from a previously undisclosed seed round co-led by YL Ventures Ltd. and Striker Venture Partners."},
+        {"type":"independent","publisher":"SiliconANGLE","url":"https://siliconangle.com/2026/11/10/ai-security-startup-bay-launches-with-50m-to-vet-agent-actions-before-they-run/","claim":"执行前拦截","quote":"Anything judged too risky never runs."}
+      ]
+    }
+  ],
+  "mp": {"title": "Anthropic发布Fable 5.2，Meta推低价Agent模型Muse Ember，Bay融资5000万美元做Agent安全"}
+}
