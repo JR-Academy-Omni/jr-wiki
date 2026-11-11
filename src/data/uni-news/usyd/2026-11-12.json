@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-12",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "USYD 悉尼大学",
+    "hookSub": "11 月 6 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "NSW 警方的模拟训练向大学生开放，35 名来自不同学科的悉大学生参加。",
+      "悉大副校长 Adam Bridgeman 谈 AI 时代的教学：考核分成两条车道。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "警方模拟训练", "data": "35 名学生" },
+      { "num": "02", "title": "AI 与考核", "data": "两条车道" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "校园",
+      "h2Main": "警方模拟训练向学生开放",
+      "h2Sub": "35 名学生参加",
+      "h2Highlight": "35 名",
+      "lead": "11 月 6 日悉大官网发布：NSW 警方的模拟训练向大学生开放，35 名来自不同学科的悉大学生参加。",
+      "bullets": [
+        { "k": "人数", "v": "35 名学生参加模拟训练" },
+        { "k": "学科", "v": "法律、社工、心理、医学、文科、数据科学" },
+        { "k": "形式", "v": "行业专家讲座加真实场景的实践体验" },
+        { "k": "对象", "v": "向所有学位的学生开放" },
+        { "k": "后续", "v": "项目明年继续" }
+      ],
+      "sourceQuote": "Open to students from all degrees, it combined lectures from industry experts with practical experience through realistic scenarios.",
+      "source": "University of Sydney News · 2026-11-06",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/06/nsw-police-open-simulation-training-to-university-students.html"
+    },
+    {
+      "idx": "02",
+      "category": "教学",
+      "h2Main": "AI 时代怎么考核",
+      "h2Sub": "考核分两条车道",
+      "h2Highlight": "两条车道",
+      "lead": "11 月 6 日悉大官网刊出副校长（教学）Adam Bridgeman 的专访：悉大对 AI 的做法是从限制使用转向培养学生的判断力。",
+      "bullets": [
+        { "k": "人物", "v": "副校长（教学）Adam Bridgeman" },
+        { "k": "转变", "v": "从限制 AI 使用，转向培养判断力和批判性参与" },
+        { "k": "车道一", "v": "有人监考的线下考核，AI 使用受控" },
+        { "k": "车道二", "v": "允许使用 AI 的考核" },
+        { "k": "Cogniti", "v": "全球学校和大学约有 5,000 个 agent 在用" }
+      ],
+      "sourceQuote": "The key shift we're making is to move from restricting AI use to developing student judgement and critical engagement.",
+      "source": "University of Sydney News · 2026-11-06",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/06/from-learning-to-leadership.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "悉大官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "警方模拟训练", "body": "NSW 警方的模拟训练向大学生开放，35 名悉大学生参加，项目面向所有学位，明年继续。" },
+      { "n": "02", "title": "AI 与考核", "body": "副校长 Adam Bridgeman 介绍两条车道：一条是有人监考、AI 受控的线下考核，一条允许使用 AI。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/12"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "悉大这周两条 我读完了",
+      "body": "11 月 6 号悉尼大学官网发了两条跟在读学生关系比较近的消息，我都读完了。\n\n一条是警方模拟训练向学生开放，一条是 AI 时代考核怎么改。\n\n下面一张图一条，细节对着官网写，官网没写的我不写。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "悉大学生去警方模拟训练",
+      "body": "11 月 6 号悉大官网发的。\n\n官方原文：Open to students from all degrees, it combined lectures from industry experts with practical experience through realistic scenarios.\n\n这次有 35 名学生参加，来自法律、社工、心理、医学、文科和数据科学。官网还写了一句 The program will continue next year。\n\n我自己读商科，看到 all degrees 有点心动，下学期选课时想去查查这门 Industry and Community Project Unit 👀",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "悉大考核分两条车道",
+      "body": "也是 11 月 6 号官网的专访，讲 AI 时代怎么教、怎么考。\n\n副校长 Adam Bridgeman 原话：The key shift we're making is to move from restricting AI use to developing student judgement and critical engagement.\n\n官网说的两条车道：一条是有人监考的线下考核，AI 使用受控；另一条允许用 AI。\n\n每门课具体归哪条，还是得看自己那门课的 unit outline。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "Cogniti 约5000个agent在用",
+      "body": "同一篇专访里还提到悉大的 Cogniti。\n\n官方原文：Approximately 5,000 agents are currently in use in schools and universities around the world.\n\n文章还提到一份新的绿皮书 Education in the Age of AI。\n\n我打算期末前把自己那几门课的 AI 使用说明重新翻一遍，免得交作业时踩线 📄",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "悉大日报 评论区聊聊",
+      "body": "这两条都是悉尼大学官网的校园和教学新闻，不是奖学金公告。\n\n你们课上现在允许用 AI 写作业吗？评论区说说自己学院的情况，我想攒一攒做个对比。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "悉大警方模拟训练向学生开放、AI 时代考核分两条车道",
+    "lead": "11 月 6 日悉尼大学官网发布两条消息：NSW 警方模拟训练向大学生开放；副校长 Adam Bridgeman 谈 AI 时代的教学和考核。下面逐条拆，原文都对着官网核过。",
+    "meta": { "readTime": "约 2 分钟" },
+    "newsBodies": [
+      {
+        "h2": "01 警方模拟训练向学生开放：35 名学生参加",
+        "paragraphs": [
+          "11 月 6 日，悉尼大学官网发布消息：NSW 警方的模拟训练向大学生开放。官方原文：The simulation involved 35 students from a range of disciplines.",
+          "参加的学生来自法律、社工、心理、医学、文科和数据科学。这次模拟是一个学期的 Industry and Community Project Unit 的收尾环节。",
+          "官方原文：Open to students from all degrees, it combined lectures from industry experts with practical experience through realistic scenarios. 官网同时写明项目明年继续。"
+        ],
+        "sourceHtml": "University of Sydney News · 2026-11-06 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/06/nsw-police-open-simulation-training-to-university-students.html\">www.sydney.edu.au</a>"
+      },
+      {
+        "h2": "02 AI 时代怎么考核：两条车道",
+        "paragraphs": [
+          "11 月 6 日，悉尼大学官网刊出副校长（教学）Adam Bridgeman 的专访。他的原话：The key shift we're making is to move from restricting AI use to developing student judgement and critical engagement.",
+          "考核采用两条车道的做法。官方原文：One lane uses supervised, in-person assessments where AI use is controlled. 另一条车道的考核允许使用 AI。",
+          "文中提到悉大的 Cogniti：Approximately 5,000 agents are currently in use in schools and universities around the world. 文章还提到一份新的绿皮书 Education in the Age of AI。"
+        ],
+        "sourceHtml": "University of Sydney News · 2026-11-06 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/06/from-learning-to-leadership.html\">www.sydney.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "NSW 警方模拟训练向大学生开放，35 名悉大学生参加，面向所有学位，明年继续。",
+        "悉大考核分两条车道：有人监考、AI 受控的线下考核，以及允许使用 AI 的考核。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 6 号悉尼大学官网有两条消息，我都读完了。\n\n第1条：警方模拟训练向学生开放。官方原文：Open to students from all degrees, it combined lectures from industry experts with practical experience through realistic scenarios. 这次 35 名学生参加，项目明年继续。\n\n第2条：AI 时代的考核。副校长 Adam Bridgeman 原话：The key shift we're making is to move from restricting AI use to developing student judgement and critical engagement.\n\n你们学院现在怎么管 AI 写作业，评论区聊聊。",
+        "tags": ["#悉尼大学", "#USYD", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

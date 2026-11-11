@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-12",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "Adelaide 阿德莱德大学",
+    "hookSub": "11 月 11 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "看教学视频时为什么走神：研究跟踪了 8 门课的 53 名大学生。",
+      "大麦休眠到发芽的关键蛋白复合体，三维结构被解析出来。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "视频课走神", "data": "53 名学生" },
+      { "num": "02", "title": "大麦蛋白结构", "data": "3D 结构" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "看视频课为什么走神",
+      "h2Sub": "53 名学生参与",
+      "h2Highlight": "53 名",
+      "lead": "11 月 11 日阿大官网发布：Centre for Change and Complexity in Learning 的研究者考察了大学生看教学视频时的走神情况。",
+      "bullets": [
+        { "k": "机构", "v": "Centre for Change and Complexity in Learning" },
+        { "k": "样本", "v": "来自 8 门不同课程的 53 名大学生" },
+        { "k": "材料", "v": "两周内观看 26 段短视频" },
+        { "k": "数据", "v": "共 317 份想法报告" },
+        { "k": "发现", "v": "计划、时间管理和努力调节得分高的学生，走神更少" }
+      ],
+      "sourceQuote": "investigated the impact of self-awareness on 53 university students from eight different courses.",
+      "source": "Adelaide University News · 2026-11-11",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/understanding-a-wandering-mind-in-video-learning-/"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "大麦发芽的蛋白结构",
+      "h2Sub": "3D 结构被解析",
+      "h2Highlight": "3D 结构",
+      "lead": "11 月 11 日阿大官网发布：阿大和 Plant Synthetic Biology Australia 的研究者解析了控制大麦从休眠到发芽的一个关键蛋白复合体。",
+      "bullets": [
+        { "k": "团队", "v": "Adelaide University 与 Plant Synthetic Biology Australia" },
+        { "k": "对象", "v": "控制大麦从休眠转向发芽的分子机制" },
+        { "k": "成果", "v": "关键蛋白复合体的三维四级结构" },
+        { "k": "期刊", "v": "Kinases and Phosphatases" },
+        { "k": "应用", "v": "植物生物技术、作物育种、食品生产" }
+      ],
+      "sourceQuote": "have uncovered new insights into the molecular machinery controlling the dormancy-to-germination transition in barley",
+      "source": "Adelaide University News · 2026-11-11",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/new-3d-protein-complex-discovery-offers-pathway-to-climate-resil/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿大官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "视频课走神", "body": "研究跟踪 8 门课的 53 名大学生，收到 317 份想法报告；计划和时间管理得分高的学生走神更少。" },
+      { "n": "02", "title": "大麦蛋白结构", "body": "阿大与 Plant Synthetic Biology Australia 解析了控制大麦休眠到发芽的关键蛋白复合体三维结构。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/12"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿大这周两条 我读完了",
+      "body": "11 月 11 号阿德莱德大学官网发了两条研究新闻，我都读完了。\n\n一条讲看教学视频为什么走神，一条讲大麦发芽的蛋白结构。\n\n下面一张图一条，数字都对着官网抄，官网没写的我不写。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "看网课走神 阿大做了研究",
+      "body": "11 月 11 号阿大官网发的。\n\n官方原文：investigated the impact of self-awareness on 53 university students from eight different courses.\n\n53 名学生两周里看了 26 段短视频。官网还有一句：The participants reported a total of 317 thought reports, averaging out to three per participant.\n\n我看 lecture recording 经常看着看着就开始想晚饭吃什么，读到这条有点被点名的感觉 😅",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "谁看视频课不容易走神",
+      "body": "还是上面那项研究。\n\n官网的说法是，在计划、时间管理和努力调节上得分更高的学生（students who scored higher on planning and time management and effort regulation），走神更少。\n\n我期末前打算试一下：每段录播开看之前先写下这段要搞懂的两个问题，看完对一遍。有没有用，考完回来说。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "大麦怎么决定发芽",
+      "body": "同一天阿大官网的另一条。\n\n官方原文：have uncovered new insights into the molecular machinery controlling the dormancy-to-germination transition in barley.\n\n团队解析了一个关键蛋白复合体的三维结构，论文发在 Kinases and Phosphatases。官网提到这可能影响植物生物技术、作物育种和食品生产。\n\n读农学、生物技术或者酿造方向的同学可以去翻原文 🌾",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "阿大日报 评论区聊聊",
+      "body": "这两条都是阿德莱德大学官网的科研新闻，不是奖学金公告。\n\n你们看录播课一般开几倍速？会不会走神？评论区说说，我想看看大家的办法。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "阿大研究：看视频课为什么走神、大麦发芽的蛋白结构",
+    "lead": "11 月 11 日阿德莱德大学官网发布两条研究消息：大学生看教学视频时的走神；控制大麦休眠到发芽的蛋白复合体结构。下面逐条拆，原文都对着官网核过。",
+    "meta": { "readTime": "约 2 分钟" },
+    "newsBodies": [
+      {
+        "h2": "01 看视频课为什么走神：53 名学生参与",
+        "paragraphs": [
+          "11 月 11 日，阿德莱德大学官网发布消息。Centre for Change and Complexity in Learning 的研究者，官方原文：investigated the impact of self-awareness on 53 university students from eight different courses.",
+          "研究为期两周，学生观看了 26 段短视频。官方原文：The participants reported a total of 317 thought reports, averaging out to three per participant.",
+          "按官网的介绍，在计划、时间管理和努力调节上得分更高的学生，走神更少。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-11 · <a href=\"https://adelaide.edu.au/about/news/2026/understanding-a-wandering-mind-in-video-learning-/\">adelaide.edu.au</a>"
+      },
+      {
+        "h2": "02 大麦发芽的蛋白结构：3D 结构被解析",
+        "paragraphs": [
+          "11 月 11 日，阿德莱德大学官网发布消息。阿大与 Plant Synthetic Biology Australia 的研究者，官方原文：have uncovered new insights into the molecular machinery controlling the dormancy-to-germination transition in barley.",
+          "研究结果发表在期刊 Kinases and Phosphatases，揭示了一个关键蛋白复合体的三维四级结构（reveal the three-dimensional (3D) quaternary structure of a critical protein complex）。",
+          "研究者表示：Our new protein structural models could influence plant biotechnology, crop breeding, food production. 官网提到这项工作可能对作物育种以及酿造和蒸馏行业有帮助。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-11 · <a href=\"https://adelaide.edu.au/about/news/2026/new-3d-protein-complex-discovery-offers-pathway-to-climate-resil/\">adelaide.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "阿大研究跟踪 8 门课的 53 名大学生看教学视频，计划和时间管理得分高的学生走神更少。",
+        "阿大与 Plant Synthetic Biology Australia 解析了控制大麦休眠到发芽的关键蛋白复合体三维结构。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 11 号阿德莱德大学官网有两条研究新闻，我都读完了。\n\n第1条：看教学视频为什么走神。官方原文：investigated the impact of self-awareness on 53 university students from eight different courses. 计划和时间管理得分高的学生走神更少。\n\n第2条：大麦发芽的蛋白结构。官方原文：have uncovered new insights into the molecular machinery controlling the dormancy-to-germination transition in barley.\n\n你们看录播课会走神吗，评论区聊聊。",
+        "tags": ["#阿德莱德大学", "#Adelaide", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
