@@ -1,0 +1,306 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-11-12（Canvas 版）</title>
+<meta name="description" content="2026-11-12 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-11-12.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-11-12",
+  "summary": {
+    "hook": [
+      {
+        "text": "Google一年内第四次发TPU"
+      },
+      {
+        "text": "DeepMind发布Gemini Robotics 2.5"
+      },
+      {
+        "text": "AlphaGenome 2开放非商业研究"
+      }
+    ],
+    "sub": "三条都来自Google：芯片、机器人、基因组，均用官方博客加独立媒体核对。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "芯片",
+        "numColor": "#FF5757",
+        "t": "Google发布TPU 8tx和TPU 8i Max，8tx与AMD合作设计，主打保密推理"
+      },
+      {
+        "num": "02",
+        "cat": "机器人",
+        "numColor": "#7861FF",
+        "t": "DeepMind发布Gemini Robotics 2.5，测试覆盖200多项任务，通过机器人合作伙伴推出"
+      },
+      {
+        "num": "03",
+        "cat": "科研",
+        "numColor": "#119B74",
+        "t": "DeepMind发布AlphaGenome 2，用超过1亿个细胞图谱训练，API开放给非商业研究"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-google-tpu-8tx-8i-max",
+      "idx": "01",
+      "catText": "芯片",
+      "accent": "#FF5757",
+      "bg": {
+        "top": "芯片",
+        "mid": "TPU 8TX",
+        "bot": "2026.11.12",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Google发布TPU 8tx和TPU 8i Max两款新芯片"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "第八代TPU再添两个型号，一个做保密推理，一个把两颗8i合成一颗。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "11月9日Google公布TPU 8tx和TPU 8i Max，称一年内已推出四套新TPU系统。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "8tx与AMD合作设计，面向安全和保密推理；8i Max的算力、SRAM和HBM带宽是8i的两倍。"
+        },
+        {
+          "k": "还没确认",
+          "v": "两份来源都没给出上市或交付时间，性能数字来自Google自述。"
+        }
+      ],
+      "src": "📎 blog.google · techcrunch.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Google官方博客",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "claim": "一年内四套新TPU系统",
+          "quote": "marking four new TPU systems in a single year"
+        },
+        {
+          "type": "primary",
+          "publisher": "Google官方博客",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "claim": "TPU 8tx定位",
+          "quote": "TPU 8tx, our third eighth-generation system, is optimized for secure and confidential inference"
+        },
+        {
+          "type": "primary",
+          "publisher": "Google官方博客",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "claim": "TPU 8i Max规格",
+          "quote": "delivering double the compute, double the SRAM and double the HBM bandwidth of TPU 8i"
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "claim": "两款新型号属于第八代",
+          "quote": "The new units, TPU 8tx and TPU 8i Max, are part of the company’s eighth generation of chips"
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "claim": "8tx与AMD合作设计",
+          "quote": "TPU 8tx, designed with AMD, is based on the TPU 8t chip"
+        },
+        {
+          "type": "independent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "claim": "8i Max由两颗8i组合",
+          "quote": "TPU 8i Max basically combines two of the inference-focused TPU 8i chips the company launched in April"
+        }
+      ]
+    },
+    {
+      "slug": "02-gemini-robotics-2-5",
+      "idx": "02",
+      "catText": "机器人",
+      "accent": "#7861FF",
+      "bg": {
+        "top": "机器人",
+        "mid": "ROBOTICS 2.5",
+        "bot": "2026.11.12",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "DeepMind发布Gemini Robotics 2.5"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "官方称这是它迄今最强的视觉-语言-动作模型，先给机器人合作伙伴用。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "11月10日DeepMind发布Gemini Robotics 2.5，测试覆盖200多项不同任务。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "官方称成功率按任务类型提高30%到100%；Apollo 2人形机器人装汽车零件成功率96%。"
+        },
+        {
+          "k": "还没确认",
+          "v": "目前通过机器人合作伙伴推出，官方没说是否广泛开放；96%只是单个场景的数字。"
+        }
+      ],
+      "src": "📎 deepmind.google · siliconangle.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Google DeepMind官方博客",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+          "claim": "发布Gemini Robotics 2.5",
+          "quote": "Today, we are introducing Gemini Robotics 2.5, our most capable vision-language-action (VLA) model to date."
+        },
+        {
+          "type": "primary",
+          "publisher": "Google DeepMind官方博客",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+          "claim": "成功率提升幅度",
+          "quote": "Gemini Robotics 2.5 achieves a 30% to 100% higher success rate depending on the type of task"
+        },
+        {
+          "type": "primary",
+          "publisher": "Google DeepMind官方博客",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+          "claim": "Apollo 2装配案例",
+          "quote": "Apptronik’s Apollo 2 humanoid pick and pack automotive parts with a 96% success rate"
+        },
+        {
+          "type": "independent",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/",
+          "claim": "测试任务数量",
+          "quote": "The new robotics AI model was tested across over 200 distinct tasks"
+        },
+        {
+          "type": "independent",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/",
+          "claim": "推出渠道",
+          "quote": "Gemini Robotics 2.5 is rolling out today via DeepMind’s robotics partners"
+        }
+      ]
+    },
+    {
+      "slug": "03-alphagenome-2",
+      "idx": "03",
+      "catText": "科研",
+      "accent": "#119B74",
+      "bg": {
+        "top": "科研",
+        "mid": "ALPHAGENOME 2",
+        "bot": "2026.11.12",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "DeepMind发布AlphaGenome 2，预测DNA变异怎么影响细胞"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "用超过1亿个细胞图谱训练，API今天起开放给非商业研究。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "11月11日DeepMind发布AlphaGenome 2，训练数据覆盖68种组织、超过1亿个单细胞图谱。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "官方称它找出的、会改变细胞基因表达的变异数量接近原来的两倍。"
+        },
+        {
+          "k": "使用边界",
+          "v": "目前通过AlphaGenome API开放给非商业研究，未获批用于临床或诊断。"
+        }
+      ],
+      "src": "📎 deepmind.google · siliconangle.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Google DeepMind官方博客",
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "claim": "变异识别能力",
+          "quote": "AlphaGenome 2 identifies nearly twice as many variants that change gene expression in cells"
+        },
+        {
+          "type": "primary",
+          "publisher": "Google DeepMind官方博客",
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "claim": "训练数据规模",
+          "quote": "Trained on more than 100 million individual cell profiles across 68 tissues"
+        },
+        {
+          "type": "primary",
+          "publisher": "Google DeepMind官方博客",
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "claim": "可用范围",
+          "quote": "AlphaGenome 2 is available today for non-commercial research via the AlphaGenome API"
+        },
+        {
+          "type": "independent",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/",
+          "claim": "模型用途",
+          "quote": "a next-generation AI model that can predict how DNA sequences and their variations affect human cell types"
+        },
+        {
+          "type": "independent",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model/",
+          "claim": "不可用于临床",
+          "quote": "the model is not approved for clinical or diagnostic use"
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "Google发两款新TPU，DeepMind推Gemini Robotics 2.5和AlphaGenome 2"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-11-12"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
