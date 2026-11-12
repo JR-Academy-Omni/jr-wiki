@@ -1,0 +1,306 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-11-13（Canvas 版）</title>
+<meta name="description" content="2026-11-13 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-11-13.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-11-13",
+  "summary": {
+    "hook": [
+      {
+        "text": "澳洲要设AI安全监管机构"
+      },
+      {
+        "text": "Apple卖49.99美元AI用量包"
+      },
+      {
+        "text": "美团开源1.6万亿参数LongCat-2.5"
+      }
+    ],
+    "sub": "监管、收费、开源各一条，均用一手原文加独立媒体核对。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "监管",
+        "numColor": "#FF5757",
+        "t": "Albanese宣布设AI安全监管机构，AI安全事件须强制报告，起因是OpenAI agent访问Medicare统计网站"
+      },
+      {
+        "num": "02",
+        "cat": "产品",
+        "numColor": "#7861FF",
+        "t": "Apple推出一次性购买的AI用量包，目前只能在Logic Pro里买，12个月后过期"
+      },
+      {
+        "num": "03",
+        "cat": "开源",
+        "numColor": "#119B74",
+        "t": "美团以MIT许可证开源LongCat-2.5，1.6万亿总参数的多模态MoE模型，主打agent编程"
+      }
+    ]
+  },
+  "mp": {
+    "title": "澳洲要设AI安全监管机构，Apple开卖AI用量包，美团开源LongCat-2.5"
+  },
+  "news": [
+    {
+      "slug": "01-australia-ai-safety-regulator",
+      "idx": "01",
+      "catText": "监管",
+      "accent": "#FF5757",
+      "bg": {
+        "top": "监管",
+        "mid": "AI SAFETY AU",
+        "bot": "2026.11.13",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "澳洲宣布设立AI安全监管机构"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "AI公司违规可被重罚，安全事件须强制报告，模型要接受独立评估。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "11月10日Albanese宣布，政府将提议设立专门的AI安全监管机构，可对违规AI公司处以重罚。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "起因是OpenAI的技术6月访问了Medicare统计网站，公司直到9月才通知联邦政府。"
+        },
+        {
+          "k": "还没确认",
+          "v": "罚款金额、适用门槛和立法时间都还没公布，官方只说细节将适时发布。"
+        }
+      ],
+      "src": "📎 pm.gov.au · sbs.com.au",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "澳大利亚总理办公室",
+          "url": "https://pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+          "claim": "设立专门监管机构",
+          "quote": "The Government will propose these protections be enforced by a new targeted regulator for AI safety"
+        },
+        {
+          "type": "primary",
+          "publisher": "澳大利亚总理办公室",
+          "url": "https://pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+          "claim": "可处重罚",
+          "quote": "The regulator would be able to enforce significant penalties for AI companies that fail to comply"
+        },
+        {
+          "type": "primary",
+          "publisher": "澳大利亚总理办公室",
+          "url": "https://pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+          "claim": "立法细节未定",
+          "quote": "Further details of the legislation will become available in due course"
+        },
+        {
+          "type": "independent",
+          "publisher": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr",
+          "claim": "OpenAI访问Medicare网站",
+          "quote": "The US-based OpenAI's technology accessed a Medicare statistics website in June"
+        },
+        {
+          "type": "independent",
+          "publisher": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr",
+          "claim": "9月才通报",
+          "quote": "the firm did not inform federal authorities about the incident until September."
+        },
+        {
+          "type": "independent",
+          "publisher": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ai-safeguards-open-ai-medicare-breach-albanese/2pbsdc5nr",
+          "claim": "接受18条建议",
+          "quote": "Albanese said the government would accept all 18 recommendations from a rapid review into the OpenAI breach."
+        }
+      ]
+    },
+    {
+      "slug": "02-apple-intelligence-usage-packs",
+      "idx": "02",
+      "catText": "产品",
+      "accent": "#7861FF",
+      "bg": {
+        "top": "产品",
+        "mid": "USAGE PACK",
+        "bot": "2026.11.13",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Apple开卖AI用量包，一次49.99美元"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Creator Studio月度AI额度用完后，可以花钱买额外用量。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "Apple推出一次性购买的AI用量包，9to5Mac报道售价49.99美元，目前只有Logic Pro能买。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "Apple Intelligence第一次出现按用量付费，未用完的额度逐月滚存，12个月后过期。"
+        },
+        {
+          "k": "还没确认",
+          "v": "Apple没写一个包到底含多少额外用量，支持文档里也没写价格。"
+        }
+      ],
+      "src": "📎 support.apple.com · 9to5mac.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/127888",
+          "claim": "一次性购买、不支持家人共享",
+          "quote": "Intelligence usage packs are available as a one-time purchase. They don't support Family Sharing and can be used only by the Apple Account you were using for iCloud"
+        },
+        {
+          "type": "primary",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/127888",
+          "claim": "超出月度额度后才消耗",
+          "quote": "Additional usage gets consumed for relevant features only after you've reached your monthly limit in any given month."
+        },
+        {
+          "type": "primary",
+          "publisher": "Apple Support",
+          "url": "https://support.apple.com/en-us/127888",
+          "claim": "12个月过期",
+          "quote": "expire 12 months after purchase."
+        },
+        {
+          "type": "independent",
+          "publisher": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/",
+          "claim": "售价49.99美元",
+          "quote": "The only option is a $49.99 one-time purchase of an 'intelligence usage pack.'"
+        },
+        {
+          "type": "independent",
+          "publisher": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/09/apple-launches-50-intelligence-usage-packs-for-select-ai-features/",
+          "claim": "目前只有Logic Pro",
+          "quote": "Right now the only app that lets you buy additional AI usage is Logic Pro"
+        }
+      ]
+    },
+    {
+      "slug": "03-meituan-longcat-2-5-open-weights",
+      "idx": "03",
+      "catText": "开源",
+      "accent": "#119B74",
+      "bg": {
+        "top": "开源",
+        "mid": "LONGCAT-2.5",
+        "bot": "2026.11.13",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "美团以MIT许可证开源LongCat-2.5"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "1.6万亿总参数的多模态MoE模型，把视觉理解和agent编程放进一个模型。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "11月9日美团在Hugging Face发布LongCat-2.5权重，距模型首次亮相一周。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "MIT许可证可商用、可改，专家权重和激活做了W4A4量化，原生支持INT4计算。"
+        },
+        {
+          "k": "还没确认",
+          "v": "跑分来自官方数据，限时API价格何时结束未说明。"
+        }
+      ],
+      "src": "📎 huggingface.co · venturebeat.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Meituan LongCat（Hugging Face）",
+          "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
+          "claim": "模型定位与参数规模",
+          "quote": "LongCat-2.5 is a native multimodal MoE model for long-horizon agentic tasks, with 1.6 trillion total parameters"
+        },
+        {
+          "type": "primary",
+          "publisher": "Meituan LongCat（Hugging Face）",
+          "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
+          "claim": "W4A4量化",
+          "quote": "LongCat-2.5 applies W4A4 quantization to expert weights and activations, enabling native INT4 computation"
+        },
+        {
+          "type": "independent",
+          "publisher": "VentureBeat",
+          "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+          "claim": "11月9日发布权重",
+          "quote": "Meituan released the weights for LongCat-2.5 on Nov. 9, one week after introducing the model."
+        },
+        {
+          "type": "independent",
+          "publisher": "VentureBeat",
+          "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+          "claim": "MIT许可证",
+          "quote": "The Chinese food delivery and e-commerce company published the checkpoint on Hugging Face under the MIT License"
+        },
+        {
+          "type": "independent",
+          "publisher": "VentureBeat",
+          "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+          "claim": "限时API价格",
+          "quote": "lists a limited-time rate of $0.006 per million cached input tokens alongside $0.30 for uncached input"
+        }
+      ]
+    }
+  ],
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-11-13"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
