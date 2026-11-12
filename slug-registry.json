@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-11-12T01:05:07.139Z",
+  "lockedAt": "2026-11-12T23:37:03.713Z",
   "version": 1,
   "slugs": [
     {
@@ -445,6 +445,10 @@
     {
       "type": "article",
       "slug": "ai-daily-2026-11-12"
+    },
+    {
+      "type": "article",
+      "slug": "ai-daily-2026-11-13"
     },
     {
       "type": "article",
@@ -1092,6 +1096,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-11-13"
+    },
+    {
+      "type": "article",
       "slug": "kmart-nail-glue-button-battery-accc-case-2026"
     },
     {
@@ -1616,6 +1624,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-unsw-2026-11-13"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-uq-2026-04-22"
     },
     {
@@ -1737,6 +1749,10 @@
     {
       "type": "article",
       "slug": "uni-news-uq-2026-11-11"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-uq-2026-11-13"
     },
     {
       "type": "article",
@@ -2926,18 +2942,6 @@
     {
       "type": "story",
       "slug": "bob-civil-to-devops"
-    },
-    {
-      "type": "article",
-      "slug": "ai-daily-2026-11-13"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uq-2026-11-13"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-unsw-2026-11-13"
     }
   ]
 }
