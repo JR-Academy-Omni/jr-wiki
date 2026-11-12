@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-13",
+  "school": "uq",
+  "summary": {
+    "hookMain": "UQ 昆士兰大学",
+    "hookSub": "11 月 10-12 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "UQ 与昆州消防局全尺寸火烧 12 米长 CLT 木天花板，研究木结构建筑防火。",
+      "QAAFI 找无醇葡萄酒缺失的香气；斜长石晶体为判断火山喷发提供线索。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "木结构火烧", "data": "12 米 CLT" },
+      { "num": "02", "title": "无醇葡萄酒", "data": "香气化合物" },
+      { "num": "03", "title": "火山晶体", "data": "28 块岩石" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "火烧木结构天花板",
+      "h2Sub": "12 米 CLT 全尺寸测试",
+      "h2Highlight": "12 米",
+      "lead": "11 月 12 日 UQ 官网发布：研究团队与昆士兰消防局合作，对 12 米长的 CLT 木天花板隔间做全尺寸火烧测试。",
+      "bullets": [
+        { "k": "材料", "v": "12 米长交叉层压木（CLT）天花板隔间" },
+        { "k": "地点", "v": "昆士兰消防局布里斯班港训练场，消防员监督" },
+        { "k": "变量", "v": "通风、天花板障碍物、天花板高度变化" },
+        { "k": "项目", "v": "博士生 Josh Madden 课题，属 ARC 木材研究中心" },
+        { "k": "合作", "v": "UQ 与 QFD 信息共享始于 2014 年" }
+      ],
+      "sourceQuote": "Full-scale fire tests on specially designed-timber ceilings could help University of Queensland researchers pave the way for safer buildings that are less likely to collapse during a fire.",
+      "source": "UQ News · 2026-11-12",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-improving-safety-timber-buildings-setting-them-fire"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "无醇葡萄酒缺了啥",
+      "h2Sub": "找关键香气化合物",
+      "h2Highlight": "香气",
+      "lead": "11 月 12 日 UQ 官网发布：QAAFI 团队招募白葡萄酒爱好者试喝，寻找能让无醇/低醇葡萄酒更受欢迎的香气化合物。",
+      "bullets": [
+        { "k": "团队", "v": "昆士兰农业与食品创新联盟（QAAFI）" },
+        { "k": "问题", "v": "无醇/低醇葡萄酒与传统葡萄酒存在明显感官差距" },
+        { "k": "方法", "v": "常喝白葡萄酒的人评价加入香气化合物后的效果" },
+        { "k": "酵母", "v": "测试产乙醇更少的非酿酒酵母" },
+        { "k": "资助", "v": "Heather Smyth 教授带领，Wine Australia 资助" }
+      ],
+      "sourceQuote": "Reducing alcohol content changes a wine's sensory characteristics considerably",
+      "source": "UQ News · 2026-11-12",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-white-wine-drinkers-help-pinpoint-whats-missing-no-and-low-alcohol-drinks"
+    },
+    {
+      "idx": "03",
+      "category": "科研",
+      "h2Main": "晶体预示火山喷发",
+      "h2Sub": "Nature Communications",
+      "h2Highlight": "晶体",
+      "lead": "11 月 10 日 UQ 官网发布：UQ 团队研究中安第斯山脉火山岩中的斜长石晶体，为判断火山何时可能喷发提供线索。",
+      "bullets": [
+        { "k": "样本", "v": "7 座火山和 2 次古超级喷发的 28 块代表性岩石" },
+        { "k": "考察", "v": "智利和阿根廷境内 230 公里的中安第斯山脉" },
+        { "k": "晶体", "v": "最新的斜长石晶体只有头发丝宽" },
+        { "k": "命名", "v": "plagioclase eruptibility field" },
+        { "k": "作者", "v": "博士生 Daniela Parra-Encalada 领衔，Terese Ubide 副教授" }
+      ],
+      "sourceQuote": "Every volcanic rock sample we collected during our field trip across a 230-kilometre stretch of the Central Andes in Chile and Argentina carried evidence of the same process.",
+      "source": "UQ News · 2026-11-10",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-crystals-hint-volcanos-ability-erupt"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UQ 官网三条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "木结构火烧", "body": "UQ 与昆州消防局全尺寸火烧 12 米 CLT 木天花板，研究木结构建筑在火灾中的表现。" },
+      { "n": "02", "title": "无醇葡萄酒", "body": "QAAFI 招募白葡萄酒爱好者试喝，找无醇/低醇葡萄酒缺失的关键香气。" },
+      { "n": "03", "title": "火山晶体", "body": "UQ 团队分析 28 块火山岩，发现斜长石晶体可提示火山喷发能力。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/13"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ这周三条 全是硬核实验",
+      "body": "11 月 10-12 日昆士兰大学官网发了三条，我挑出来读完了。\n\n木天花板火烧、无醇葡萄酒、火山晶体。\n\n下面一张图一条，细节对着官网写，官网没说的我不补。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UQ真把木天花板点着了",
+      "body": "11 月 12 号 UQ 官网的消息。\n\n团队搭了 12 米长的 CLT 木天花板隔间，在昆州消防局的布里斯班港训练场点火，每次改一点通风和天花板高度。\n\n这是博士生 Josh Madden 的课题。读土木的同学，这种全尺寸实验在课本里很少见到 🔥",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #土木工程 #澳洲大学"
+    },
+    "p3": {
+      "title": "无醇葡萄酒为啥不好喝",
+      "body": "11 月 12 号 UQ 官网发的研究。\n\n博士生 Huanhuan Li 原话：Reducing alcohol content changes a wine's sensory characteristics considerably.\n\n团队招常喝白葡萄酒的人试喝，看加香气化合物能不能补回「酒味」，也在试产乙醇更少的酵母。\n\n学食品科学的同学，这个方向挺有意思 🍷",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #食品科学 #澳洲大学"
+    },
+    "p4": {
+      "title": "头发丝宽的晶体看火山",
+      "body": "11 月 10 号 UQ 官网的消息，论文发在 Nature Communications。\n\n团队分析了 7 座火山和 2 次古超级喷发的 28 块岩石，考察范围是智利和阿根廷 230 公里的中安第斯山脉。\n\n领衔的是博士生 Daniela Parra-Encalada。地质方向的同学可以去翻原文 🌋",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #地球科学 #澳洲大学"
+    },
+    "p5": {
+      "title": "UQ日报 你们想看哪类",
+      "body": "这三条都是科研新闻，还挺多博士生做主力的。\n\n下次想看奖学金、招生还是科研？评论区扣 1 / 2 / 3，我按票数排。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UQ木结构火烧、无醇葡萄酒、火山晶体",
+    "lead": "11 月 10-12 日 UQ 官网发布三条科研消息：木结构天花板火烧测试；无醇葡萄酒香气研究；斜长石晶体与火山喷发。下面逐条拆，原文都对着官网核过。",
+    "meta": { "readTime": "约 3 分钟" },
+    "newsBodies": [
+      {
+        "h2": "01 火烧木结构天花板：12 米 CLT 全尺寸测试",
+        "paragraphs": [
+          "11 月 12 日，UQ 官网发布消息。官方原文：Full-scale fire tests on specially designed-timber ceilings could help University of Queensland researchers pave the way for safer buildings that are less likely to collapse during a fire.",
+          "团队搭建 12 米长的 CLT 天花板隔间并点火，由昆士兰消防局消防员在布里斯班港训练场监督，每次测试调整通风、天花板障碍物和高度变化。",
+          "这是博士生 Josh Madden 的课题，隶属 UQ 土木工程学院管理的 ARC 木材研究中心；UQ 与 QFD 的信息共享始于 2014 年。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-12 · <a href=\"https://news.uq.edu.au/2026-11-improving-safety-timber-buildings-setting-them-fire\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "02 无醇葡萄酒缺了啥：找关键香气化合物",
+        "paragraphs": [
+          "11 月 12 日，UQ 官网发布消息。官方原文：Researchers at The University of Queensland are on a quest to identify key aroma compounds that could make no and low-alcohol (NOLO) wine more attractive to drinkers.",
+          "QAAFI 博士生 Huanhuan Li 招募常喝白葡萄酒的人，评估加入香气化合物后的像酒程度、果香和接受度，同时测试产乙醇更少的非酿酒酵母。",
+          "研究由 Heather Smyth 教授带领，Wine Australia 资助。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-12 · <a href=\"https://news.uq.edu.au/2026-11-white-wine-drinkers-help-pinpoint-whats-missing-no-and-low-alcohol-drinks\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "03 晶体预示火山喷发：Nature Communications",
+        "paragraphs": [
+          "11 月 10 日，UQ 官网发布消息。官方原文：University of Queensland researchers have shown tiny crystals are a window to activity inside volcanoes and could provide clues to when they might erupt.",
+          "团队分析了 7 座火山和 2 次古超级喷发的 28 块代表性岩石，野外考察覆盖智利和阿根廷境内 230 公里的中安第斯山脉；最新的斜长石晶体只有头发丝宽。",
+          "研究由 UQ 环境学院博士生 Daniela Parra-Encalada 领衔，资深作者为 Terese Ubide 副教授。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-10 · <a href=\"https://news.uq.edu.au/2026-11-crystals-hint-volcanos-ability-erupt\">news.uq.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "UQ 与昆州消防局全尺寸火烧 12 米 CLT 木天花板。",
+        "QAAFI 找无醇/低醇葡萄酒缺失的关键香气。",
+        "斜长石晶体可提示火山喷发能力，研究登 Nature Communications。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "11 月 10-12 日昆士兰大学官网有三条科研消息，我都读完了。\n\n第1条：12 米 CLT 木天花板全尺寸火烧测试，在昆州消防局训练场做的。\n\n第2条：无醇葡萄酒香气研究。原话：Reducing alcohol content changes a wine's sensory characteristics considerably.\n\n第3条：28 块火山岩里的斜长石晶体，可提示火山喷发能力。\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": ["#昆士兰大学", "#UQ", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

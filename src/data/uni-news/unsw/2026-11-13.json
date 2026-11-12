@@ -1,0 +1,283 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-13",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "UNSW 新南威尔士大学",
+    "hookSub": "11 月 10-11 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "UNSW 与 DY New Energy 研发退役 EV 电池快速体检，每个电芯不到三分钟。",
+      "五位研究者获 Heart Foundation $2.12 million；MapAI Explore 11 月在澳洲上线。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "EV 电池体检",
+        "data": "<3 分钟"
+      },
+      {
+        "num": "02",
+        "title": "心脏研究",
+        "data": "$2.12m"
+      },
+      {
+        "num": "03",
+        "title": "MapAI",
+        "data": "空间数据"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "EV 电池三分钟体检",
+      "h2Sub": "$1.3 million 项目",
+      "h2Highlight": "三分钟",
+      "lead": "11 月 10 日 UNSW 官网发布：UNSW 与 DY New Energy 合作，研发退役 EV 电池快速健康检测平台。",
+      "bullets": [
+        {
+          "k": "项目",
+          "v": "$1.3 million，TRaCE Lab to Market Fund 支持"
+        },
+        {
+          "k": "测试",
+          "v": "真实环境中测试 500 多块电池"
+        },
+        {
+          "k": "现状",
+          "v": "完整充放电测试每包约 10 小时、约 $120"
+        },
+        {
+          "k": "原型",
+          "v": "每电芯不到三分钟，实验室准确率超 90%"
+        },
+        {
+          "k": "目标",
+          "v": "成本降到每包 $25 以下"
+        }
+      ],
+      "sourceQuote": "The prototype platform instead sends short electrical pulses through each battery cell and measures how it responds.",
+      "source": "UNSW Newsroom · 2026-11-10",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-researchers-working-to-speed-up-ev-battery-health-checks"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "心脏研究获资助",
+      "h2Sub": "Heart Foundation",
+      "h2Highlight": "$2.12 million",
+      "lead": "11 月 11 日 UNSW 官网发布：五位 UNSW 研究者获 Heart Foundation 共 $2.12 million 资助，研究心脏病预防、检测和治疗。",
+      "bullets": [
+        {
+          "k": "金额",
+          "v": "五位研究者共获 $2.12 million"
+        },
+        {
+          "k": "全澳",
+          "v": "本轮 $14.5 million 资助 67 个心血管项目"
+        },
+        {
+          "k": "背景",
+          "v": "心脏病每年在澳洲导致 42,000 人死亡"
+        },
+        {
+          "k": "偏远",
+          "v": "偏远地区心血管死亡率比城市高 60%"
+        },
+        {
+          "k": "项目",
+          "v": "SWISH 研究使用约 20 分硬币大小的传感器"
+        }
+      ],
+      "sourceQuote": "Five UNSW researchers have received $2.12 million from The Heart Foundation",
+      "source": "UNSW Newsroom · 2026-11-11",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-researchers-awarded-2m-for-work-in-heart-health"
+    },
+    {
+      "idx": "03",
+      "category": "科研",
+      "h2Main": "MapAI 问空间数据",
+      "h2Sub": "City Futures 研发",
+      "h2Highlight": "MapAI",
+      "lead": "UNSW 官网发布：City Futures Research Centre 研发的 AI 地图平台 MapAI Explore 11 月在澳洲上线。",
+      "bullets": [
+        {
+          "k": "来源",
+          "v": "UNSW City Futures Research Centre 三年研究"
+        },
+        {
+          "k": "负责人",
+          "v": "Scientia Professor Christopher Pettit"
+        },
+        {
+          "k": "用法",
+          "v": "用自然语言问地块、规划等空间问题"
+        },
+        {
+          "k": "定位",
+          "v": "配合现有制图软件和专业人员，不取代他们"
+        },
+        {
+          "k": "使用",
+          "v": "个人可免费起步，每月有额度"
+        }
+      ],
+      "sourceQuote": "MapAI is like having a spatial analyst in your back pocket, backed by your GIS team's expertise and methods.",
+      "source": "UNSW Newsroom · 2026-11",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-developed-ai-tool-makes-complex-spatial-data-easier-to-use"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 官网三条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "EV 电池体检",
+        "body": "原型每个电芯不到三分钟估算健康度，实验室准确率超过 90%。"
+      },
+      {
+        "n": "02",
+        "title": "心脏研究",
+        "body": "五位 UNSW 研究者获 Heart Foundation $2.12 million 资助。"
+      },
+      {
+        "n": "03",
+        "title": "MapAI",
+        "body": "City Futures 研发的 MapAI Explore 11 月在澳洲上线，可用自然语言问空间数据。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/13"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW这周三条 我读完了",
+      "body": "11 月新南威尔士大学官网三条消息，我挑出来读完了。\n\nEV 电池体检、心脏研究资助、AI 地图工具。\n\n下面一张图一条，细节对着官网写，官网没说的我不补。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "旧电动车电池三分钟体检",
+      "body": "11 月 10 号 UNSW 官网的消息。\n\n现在完整测一个电池包约 10 小时、约 $120。UNSW 的原型每个电芯不到三分钟，实验室准确率超过 90%。\n\n项目 $1.3 million，合作方是 DY New Energy。学电气和能源的同学可以关注 🔋",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "UNSW心脏研究拿了212万",
+      "body": "11 月 11 号 UNSW 官网的消息。\n\n官方原文：Five UNSW researchers have received $2.12 million from The Heart Foundation.\n\n其中一个项目用的传感器只有 20 分硬币大小。读医学和生物医学工程的同学可以看看这些课题组 ❤️",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "用大白话问地图数据",
+      "body": "UNSW 官网发的，MapAI Explore 11 月在澳洲上线。\n\n可以直接问「火车站 800 米内有多少住宅用地」这种问题，个人可免费起步。\n\n读城市规划的同学，我觉得写作业时可以试试 🗺️",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW日报 评论区聊聊",
+      "body": "这三条都偏工程和医学。\n\n下次想看奖学金、招生还是科研？评论区扣 1 / 2 / 3，我按票数排。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW EV电池体检、心脏研究资助、MapAI",
+    "lead": "11 月 UNSW 官网三条消息：退役 EV 电池快速检测；五位研究者获心脏研究资助；MapAI Explore 上线。下面逐条拆，原文都对着官网核过。",
+    "meta": {
+      "readTime": "约 3 分钟"
+    },
+    "newsBodies": [
+      {
+        "h2": "01 EV 电池三分钟体检：$1.3 million 项目",
+        "paragraphs": [
+          "11 月 10 日，UNSW 官网发布消息。UNSW 与 DY New Energy 合作，开展 $1.3 million 项目，计划在真实环境中测试 500 多块电池。",
+          "官方原文：The prototype platform instead sends short electrical pulses through each battery cell and measures how it responds. 现有完整充放电测试每包约 10 小时、约 $120；原型每个电芯不到三分钟，实验室准确率超过 90%，目标成本每包 $25 以下。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-10 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-researchers-working-to-speed-up-ev-battery-health-checks\">www.unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 心脏研究获资助：$2.12 million",
+        "paragraphs": [
+          "11 月 11 日，UNSW 官网发布消息：五位 UNSW 研究者获 Heart Foundation 共 $2.12 million 资助，属于本轮全澳 67 个项目、$14.5 million 的拨款。",
+          "官方原文：Heart disease remains a leading cause of death in Australia, responsible for 42,000 deaths each year. 偏远地区心血管死亡率比城市高 60%。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-11 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-researchers-awarded-2m-for-work-in-heart-health\">www.unsw.edu.au</a>"
+      },
+      {
+        "h2": "03 MapAI：用自然语言问空间数据",
+        "paragraphs": [
+          "MapAI Explore 于 11 月在澳洲上线，来自 UNSW City Futures Research Centre 三年研究，首席研究者为 Christopher Pettit 教授。",
+          "官方原文：MapAI is like having a spatial analyst in your back pocket, backed by your GIS team's expertise and methods. 个人用户可免费起步，每月有额度。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-developed-ai-tool-makes-complex-spatial-data-easier-to-use\">www.unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "原型每个电芯不到三分钟估算 EV 电池健康度。",
+        "五位 UNSW 研究者获 Heart Foundation $2.12 million。",
+        "MapAI Explore 11 月在澳洲上线。"
+      ]
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "11 月新南威尔士大学官网三条消息，我都读完了。\n\n第1条：退役 EV 电池体检，原型每个电芯不到三分钟。\n\n第2条：五位研究者获 Heart Foundation $2.12 million。\n\n第3条：MapAI Explore 上线，可以用大白话问空间数据。\n\n想让我下周盯哪所学校，评论区扣 1。",
+        "tags": [
+          "#新南威尔士大学",
+          "#UNSW",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}
