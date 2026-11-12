@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-11-11T23:37:05.004Z",
+  "lockedAt": "2026-11-12T01:05:07.139Z",
   "version": 1,
   "slugs": [
     {
@@ -2143,6 +2143,16 @@
       "type": "chapter",
       "book": "cline-guide",
       "slug": "05-faq"
+    },
+    {
+      "type": "chapter",
+      "book": "cline-guide",
+      "slug": "06-cli-and-automation"
+    },
+    {
+      "type": "chapter",
+      "book": "cline-guide",
+      "slug": "07-local-models-and-kanban"
     },
     {
       "type": "chapter",
