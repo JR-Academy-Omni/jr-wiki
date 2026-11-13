@@ -1,0 +1,226 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-14",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "Adelaide 阿德莱德大学",
+    "hookSub": "11 月 12 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "阿大牵头全国颈痛试验 ReconNECKt，提供 12 周免费远程治疗。",
+      "阿大疫苗学教授 Helen Marshall 获任南澳首席科学家。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "颈痛试验",
+        "data": "12 周免费"
+      },
+      {
+        "num": "02",
+        "title": "南澳首席科学家",
+        "data": "任期 3 年"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研招募",
+      "h2Main": "阿大颈痛试验在招人",
+      "h2Sub": "12 周免费远程治疗",
+      "h2Highlight": "12 周免费",
+      "lead": "11 月 12 日阿大官网发布：阿大牵头全国试验 ReconNECKt，比较两种慢性颈痛治疗方式。",
+      "bullets": [
+        {
+          "k": "治疗",
+          "v": "12 周免费 telehealth，由 allied health 临床人员提供"
+        },
+        {
+          "k": "内容",
+          "v": "个性化建议、知识讲解和居家练习"
+        },
+        {
+          "k": "随访",
+          "v": "参与者跟踪 12 个月"
+        },
+        {
+          "k": "条件",
+          "v": "18 岁以上、颈痛至少三个月、不是事故或重伤导致"
+        }
+      ],
+      "sourceQuote": "To be eligible for the study, participants must be aged 18 or over, have experienced neck pain for at least three months and have pain that was not caused by an accident or significant injury.",
+      "source": "Adelaide University News · 2026-11-12",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/a-pain-in-the-neck--new-adelaide-university-trial-offers-hope/"
+    },
+    {
+      "idx": "02",
+      "category": "校园",
+      "h2Main": "阿大教授任南澳首席科学家",
+      "h2Sub": "2027 年 3 月 1 日上任",
+      "h2Highlight": "3 月 1 日",
+      "lead": "11 月 12 日阿大官网发布：疫苗学教授 Helen Marshall AM 获任南澳大利亚州首席科学家，任期三年。",
+      "bullets": [
+        {
+          "k": "人物",
+          "v": "Helen Marshall AM，阿大疫苗学教授"
+        },
+        {
+          "k": "任期",
+          "v": "三年，2027 年 3 月 1 日开始"
+        },
+        {
+          "k": "职责",
+          "v": "就 STEM、科研和创新向南澳政府提供独立建议"
+        },
+        {
+          "k": "接任",
+          "v": "接替 Craig Simmons 教授"
+        }
+      ],
+      "sourceQuote": "Renowned Adelaide University medical researcher Professor Helen Marshall AM has been appointed South Australia's new Chief Scientist for a three-year term, commencing on 1 March 2027.",
+      "source": "Adelaide University News · 2026-11-12",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/adelaide-university-researcher-named-sa-chief-scientist/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿大官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "颈痛试验",
+        "body": "ReconNECKt 试验提供 12 周免费远程治疗并随访 12 个月，要求 18 岁以上、颈痛至少三个月且非事故导致。"
+      },
+      {
+        "n": "02",
+        "title": "南澳首席科学家",
+        "body": "疫苗学教授 Helen Marshall 获任南澳首席科学家，2027 年 3 月 1 日起任期三年。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/14"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿大这周两条 我读完了",
+      "body": "11 月 12 号阿德莱德大学官网发了两条，我挑出来整理了一下。\n\n一条是颈痛的全国试验在招参与者，一条是阿大教授当上南澳首席科学家。\n\n下面一张图一条，细节对着官网原文写。",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "天天低头 颈痛试验在招人",
+      "body": "11 月 12 号官网发的，阿大牵头的全国试验叫 ReconNECKt。\n\n官方原文：Participants will receive 12 weeks of free treatment from an allied health clinician via telehealth.\n\n参与者还会被跟踪 12 个月。\n\n我赶 due 的时候脖子是真的僵 😵 不过要不要报名还是看自己情况。",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "颈痛试验 资格看这句",
+      "body": "资格条件官网写得很清楚。\n\n官方原文：participants must be aged 18 or over, have experienced neck pain for at least three months and have pain that was not caused by an accident or significant injury.\n\n报名方式和其他细节以阿大官网那篇文章为准。",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "阿大教授任南澳首席科学家",
+      "body": "同一天官网的另一条：疫苗学教授 Helen Marshall AM 获任南澳首席科学家。\n\n官方原文：has been appointed South Australia's new Chief Scientist for a three-year term, commencing on 1 March 2027.\n\n她会就 STEM、科研和创新给南澳政府提供独立建议，接替 Craig Simmons 教授。",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "阿大日报 评论区聊聊",
+      "body": "这两条一条是科研试验招募，一条是人事任命，不是奖学金或招生公告。\n\n你们写作业时脖子和肩膀怎么缓解？评论区交流一下 🙋",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "阿大颈痛试验提供 12 周免费远程治疗、Helen Marshall 获任南澳首席科学家",
+    "lead": "11 月 12 日阿德莱德大学官网发布两条消息：阿大牵头的全国颈痛试验 ReconNECKt 招募参与者；疫苗学教授 Helen Marshall 获任南澳首席科学家。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 ReconNECKt 颈痛试验：12 周免费远程治疗",
+        "paragraphs": [
+          "11 月 12 日，阿德莱德大学官网发布：阿大牵头全国试验 ReconNECKt，比较两种慢性颈痛的治疗方式，参与者跟踪 12 个月。",
+          "官方原文：Participants will receive 12 weeks of free treatment from an allied health clinician via telehealth, including personalised advice, education and exercises they can complete at home.",
+          "资格条件，官方原文：To be eligible for the study, participants must be aged 18 or over, have experienced neck pain for at least three months and have pain that was not caused by an accident or significant injury.",
+          "文中引用的背景数据：World Health Organization data shows that approximately 1.71 billion people globally live with musculoskeletal conditions, with 222 million people living with chronic neck pain."
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-12 · <a href=\"https://adelaide.edu.au/about/news/2026/a-pain-in-the-neck--new-adelaide-university-trial-offers-hope/\">adelaide.edu.au</a>"
+      },
+      {
+        "h2": "02 Helen Marshall 获任南澳首席科学家",
+        "paragraphs": [
+          "11 月 12 日，阿德莱德大学官网发布人事消息。官方原文：Renowned Adelaide University medical researcher Professor Helen Marshall AM has been appointed South Australia's new Chief Scientist for a three-year term, commencing on 1 March 2027.",
+          "官方原文：As incoming Chief Scientist, Professor Marshall will provide independent advice to the South Australian Government on matters relating to science, technology, engineering and mathematics, research and innovation.",
+          "她将接替 Craig Simmons 教授。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-12 · <a href=\"https://adelaide.edu.au/about/news/2026/adelaide-university-researcher-named-sa-chief-scientist/\">adelaide.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "ReconNECKt 颈痛试验：12 周免费远程治疗，随访 12 个月，18 岁以上、颈痛至少三个月可参加。",
+        "疫苗学教授 Helen Marshall 获任南澳首席科学家，2027 年 3 月 1 日起任期三年。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 12 号阿德莱德大学官网有两条消息，我都读完了。\n\n第1条：阿大牵头的颈痛试验 ReconNECKt。官方原文：Participants will receive 12 weeks of free treatment from an allied health clinician via telehealth. 资格是 18 岁以上、颈痛至少三个月、不是事故或重伤导致。\n\n第2条：疫苗学教授 Helen Marshall 获任南澳首席科学家，2027 年 3 月 1 日起任期三年。\n\n你们赶 due 时脖子怎么缓解？评论区聊聊。",
+        "tags": [
+          "#阿德莱德大学",
+          "#AdelaideUniversity",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}
