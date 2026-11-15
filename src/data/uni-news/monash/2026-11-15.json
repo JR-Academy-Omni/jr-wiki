@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-15",
+  "school": "monash",
+  "summary": {
+    "hookMain": "莫纳什大学 Monash",
+    "hookSub": "11 月 12–13 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "两名 Monash 本科生获 Order of Australia Association Foundation Scholarship，每人 $45,000。",
+      "Monash 研究：蛋白 Granzyme K 与心、肝、肾的衰老损伤有关。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "OAAF 奖学金",
+        "data": "$45,000"
+      },
+      {
+        "num": "02",
+        "title": "器官衰老研究",
+        "data": "Immunity"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学生荣誉",
+      "h2Main": "两名本科生获奖学金",
+      "h2Sub": "每人 $45,000 加导师指导",
+      "h2Highlight": "$45,000",
+      "lead": "11 月 12 日 Monash 官网发布：本科生 Lara Abboud 和 Jesse Wrobel 获得 Order of Australia Association Foundation Scholarship。",
+      "bullets": [
+        {
+          "k": "获奖人",
+          "v": "Lara Abboud、Jesse Wrobel"
+        },
+        {
+          "k": "名额",
+          "v": "全澳大学共选出 6 名本科二年级获奖学生"
+        },
+        {
+          "k": "资助",
+          "v": "每人 $45,000，外加一名 Order of Australia 成员的导师指导"
+        },
+        {
+          "k": "评选看点",
+          "v": "学业成绩与社区贡献"
+        }
+      ],
+      "sourceQuote": "They are among six undergraduate second-year award students recipients chosen from across Australian universities, with each student receiving $45,000 in financial support, as well as mentorship from a member of the Order of Australia.",
+      "source": "Monash News · 2026-11-12",
+      "sourceUrl": "https://www.monash.edu/news/articles/monash-students-win-the-order-of-australia-association-foundation-scholarship"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "器官衰老找到推手",
+      "h2Sub": "Granzyme K 与心肝肾衰老有关",
+      "h2Highlight": "Granzyme K",
+      "lead": "11 月 13 日 Monash 官网发布：Monash Biomedicine Discovery Institute 团队在 Immunity 期刊发表研究，发现 Granzyme K 与器官衰老损伤有关。",
+      "bullets": [
+        {
+          "k": "期刊",
+          "v": "Immunity"
+        },
+        {
+          "k": "发现",
+          "v": "Granzyme K 与心、肝、肾的衰老迹象有关"
+        },
+        {
+          "k": "负责人",
+          "v": "Monash Biomedicine Discovery Institute 的 Nicole La Gruta 教授"
+        },
+        {
+          "k": "研究方法",
+          "v": "临床前小鼠模型，对比有无 Granzyme K 的老年小鼠"
+        }
+      ],
+      "sourceQuote": "Published in Immunity, the research discovered a link between the protein Granzyme K and signs of ageing in the heart, liver and kidneys.",
+      "source": "Monash News · 2026-11-13",
+      "sourceUrl": "https://www.monash.edu/news/articles/monash-scientists-identify-protein-driving-age-related-organ-damage"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "OAAF 奖学金",
+        "body": "Lara Abboud 和 Jesse Wrobel 获 Order of Australia Association Foundation Scholarship，每人 $45,000 资助加导师指导。"
+      },
+      {
+        "n": "02",
+        "title": "器官衰老研究",
+        "body": "Monash 团队在 Immunity 发表研究：蛋白 Granzyme K 与心、肝、肾的衰老迹象有关，研究基于小鼠模型。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/15"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash这周两条 我读完了",
+      "body": "11 月 12 号和 13 号 Monash 官网各发了一条，我挑出来整理了。\n\n一条是两名本科生拿到 $45,000 奖学金，一条是器官衰老的新研究。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "两名本科生各拿4.5万澳币",
+      "body": "11 月 12 号 Monash 官网：Lara Abboud 和 Jesse Wrobel 获得 Order of Australia Association Foundation Scholarship。\n\n官方原文：They are among six undergraduate second-year award students recipients chosen from across Australian universities, with each student receiving $45,000 in financial support, as well as mentorship from a member of the Order of Australia.\n\n新闻里写的评选看点是学业成绩加社区贡献。\n\n申请资格新闻里没写，想申请的同学去基金会官网核对 📌",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "他们读什么专业",
+      "body": "Lara 读的是 Bachelor of Education (Honours) 中学教育，加 Bachelor of Arts 历史专业。\n\nJesse 读的是 Bachelor of Engineering (Honours) 加 Bachelor of Commerce。\n\n两个人都有很多社区志愿经历，我看完觉得课外这块真的要早点积累。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "一种蛋白和器官衰老有关",
+      "body": "11 月 13 号 Monash 官网的研究，发表在 Immunity 期刊。\n\n官方原文：Published in Immunity, the research discovered a link between the protein Granzyme K and signs of ageing in the heart, liver and kidneys.\n\n研究用的是小鼠模型，没有这种蛋白的老年小鼠器官衰老迹象更少。\n\n读生物医学的同学可以去看原文 🔬",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "Monash日报 评论区聊聊",
+      "body": "一条奖学金获奖新闻，一条科研发现。\n\n你们今年申了哪些奖学金？评论区说说你们在准备什么。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "两名 Monash 本科生各获 $45,000 奖学金；研究发现一种蛋白推动器官衰老",
+    "lead": "11 月 12 日和 13 日，莫纳什大学官网发布两条消息：两名本科生获得 Order of Australia Association Foundation Scholarship；Monash Biomedicine Discovery Institute 发现 Granzyme K 与器官衰老损伤有关。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 OAAF 奖学金：两名 Monash 本科生各获 $45,000",
+        "paragraphs": [
+          "11 月 12 日，Monash 官网发布：Lara Abboud 和 Jesse Wrobel 获得 Order of Australia Association Foundation Scholarship。官方原文：They are among six undergraduate second-year award students recipients chosen from across Australian universities, with each student receiving $45,000 in financial support, as well as mentorship from a member of the Order of Australia.",
+          "官方介绍，这个奖学金 recognises academic excellence alongside extensive contribution to their community。奖项由总督 Sam Mostyn AC 在堪培拉总督府宣布。",
+          "Lara 就读 Bachelor of Education (Honours) 中学教育和 Bachelor of Arts（历史）；Jesse 就读 Bachelor of Engineering (Honours) 和 Bachelor of Commerce。新闻没有写申请资格和申请方式，具体请以基金会官网为准。"
+        ],
+        "sourceHtml": "Monash News · 2026-11-12 · <a href=\"https://www.monash.edu/news/articles/monash-students-win-the-order-of-australia-association-foundation-scholarship\">monash.edu</a>"
+      },
+      {
+        "h2": "02 器官衰老研究：Granzyme K 与心肝肾衰老有关",
+        "paragraphs": [
+          "11 月 13 日，Monash 官网发布：Published in Immunity, the research discovered a link between the protein Granzyme K and signs of ageing in the heart, liver and kidneys.",
+          "Granzyme K 是免疫细胞产生的一种蛋白，官方原文：Granzyme K is a protein produced by immune cells, with levels known to increase significantly with age in both mice and humans.",
+          "Nicole La Gruta 教授：What's particularly exciting is that mice without this protein showed reduced signs of organ ageing, even though their immune systems continued to age normally. 研究基于临床前小鼠模型。"
+        ],
+        "sourceHtml": "Monash News · 2026-11-13 · <a href=\"https://www.monash.edu/news/articles/monash-scientists-identify-protein-driving-age-related-organ-damage\">monash.edu</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "Lara Abboud 和 Jesse Wrobel 获 Order of Australia Association Foundation Scholarship，每人 $45,000 资助加导师指导。",
+        "Monash 团队在 Immunity 发表研究：蛋白 Granzyme K 与心、肝、肾的衰老迹象有关，研究基于小鼠模型。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 12 号和 13 号 Monash 官网有两条消息，我都读完了。\n\n第1条：两名本科生获 Order of Australia Association Foundation Scholarship。官方原文：They are among six undergraduate second-year award students recipients chosen from across Australian universities, with each student receiving $45,000 in financial support, as well as mentorship from a member of the Order of Australia.\n\n第2条：Granzyme K 研究。官方原文：Published in Immunity, the research discovered a link between the protein Granzyme K and signs of ageing in the heart, liver and kidneys.\n\n这个奖学金的申请资格官网新闻里没写，想了解的话去基金会官网核对。评论区聊聊你们在看哪些奖学金。",
+        "tags": [
+          "#莫纳什大学",
+          "#Monash",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

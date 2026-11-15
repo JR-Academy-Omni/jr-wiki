@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-15",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "新南威尔士大学 UNSW",
+    "hookSub": "11 月 11–12 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "澳洲加入 Horizon Europe，UNSW 与斯图加特大学、Fraunhofer IAO 签署合作意向书。",
+      "UNSW 与 Surf Life Saving Australia 开发 AI 工具 RipEye，识别离岸流。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "Horizon Europe 合作",
+        "data": "$155 billion"
+      },
+      {
+        "num": "02",
+        "title": "RipEye 离岸流 AI",
+        "data": "47%"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研合作",
+      "h2Main": "UNSW 联手德国机构",
+      "h2Sub": "澳洲加入 $155 billion 的 Horizon Europe",
+      "h2Highlight": "$155 billion",
+      "lead": "11 月 12 日 UNSW 官网发布：UNSW 与 University of Stuttgart、Fraunhofer Institute for Industrial Engineering IAO 签署合作意向书，同期澳洲在布鲁塞尔签约加入 Horizon Europe。",
+      "bullets": [
+        {
+          "k": "合作方",
+          "v": "University of Stuttgart、Fraunhofer IAO"
+        },
+        {
+          "k": "方向",
+          "v": "联合研究、博士培养、产业合作"
+        },
+        {
+          "k": "Horizon Europe",
+          "v": "欧盟科研与创新资助计划，规模 $155 billion"
+        },
+        {
+          "k": "意义",
+          "v": "澳洲研究人员和机构可获得资助并参与全球项目"
+        }
+      ],
+      "sourceQuote": "Horizon Europe is the European Union’s flagship research and innovation funding program, worth $155 billion.",
+      "source": "UNSW Newsroom · 2026-11-12",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-partners-with-german-research-heavyweights-australia-joins-horizon-europe"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "AI 帮你认离岸流",
+      "h2Sub": "离岸流涉及 47% 海滩溺亡",
+      "h2Highlight": "47%",
+      "lead": "11 月 11 日 UNSW 官网发布：UNSW 与 Surf Life Saving Australia 开发 AI 工具 RipEye，可以从海滩照片识别离岸流。",
+      "bullets": [
+        {
+          "k": "工具",
+          "v": "RipEye：AI Live Scan + Spot the Rip 小游戏"
+        },
+        {
+          "k": "数据",
+          "v": "2025 National Drowning Report 记录 66 起海滩溺亡，47% 与离岸流有关"
+        },
+        {
+          "k": "项目",
+          "v": "UNSW 牵头的 ARC Linkage Project，与 SLSA 合作"
+        },
+        {
+          "k": "试用",
+          "v": "今年夏天在部分 SLSA 俱乐部试用"
+        }
+      ],
+      "sourceQuote": "Rip currents remain one of Australia’s deadliest beach hazards, contributing to 47% of the 66 beach drowning deaths recorded in the 2025 National Drowning Report.",
+      "source": "UNSW Newsroom · 2026-11-11",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/Using-AI-learn-spot-dangerous-rips-beaches"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "Horizon Europe 合作",
+        "body": "澳洲签约加入 Horizon Europe，UNSW 与斯图加特大学、Fraunhofer IAO 签合作意向书，覆盖联合研究、博士培养和产业合作。"
+      },
+      {
+        "n": "02",
+        "title": "RipEye 离岸流 AI",
+        "body": "UNSW 与 Surf Life Saving Australia 开发 RipEye，从海滩照片识别离岸流；2025 年 66 起海滩溺亡中 47% 与离岸流有关。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/15"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW这周两条 我读完了",
+      "body": "11 月 11 号和 12 号 UNSW 官网各发了一条，我挑出来整理了。\n\n一条是 UNSW 跟德国机构的科研合作，一条是认离岸流的 AI 工具。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UNSW联手德国 搞科研合作",
+      "body": "11 月 12 号 UNSW 官网：UNSW 与 University of Stuttgart、Fraunhofer IAO 签了合作意向书，正好赶上澳洲签约加入 Horizon Europe。\n\n官方原文：Horizon Europe is the European Union’s flagship research and innovation funding program, worth $155 billion.\n\n合作方向写的是联合研究、博士培养和产业合作。\n\n想读 PhD 的同学可以留意后续项目 🎓",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "澳洲科研占全球3%",
+      "body": "UNSW 校长 Attila Brungs 的原话：\n\nAustralia produces about 3% of the world’s research and innovation, which means we must connect with the other 97%.\n\n具体会开哪些博士项目、怎么申请，新闻里没写，后续还是要看 UNSW 官网。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "拍张海滩照 AI帮你认离岸流",
+      "body": "11 月 11 号 UNSW 官网：UNSW 和 Surf Life Saving Australia 开发了 AI 工具 RipEye。\n\n官方原文：Rip currents remain one of Australia’s deadliest beach hazards, contributing to 47% of the 66 beach drowning deaths recorded in the 2025 National Drowning Report.\n\n工具包括 AI Live Scan 识别照片里的离岸流，还有 Spot the Rip 小游戏练眼力。\n\n今年夏天会先在部分 SLSA 俱乐部试用 🌊",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW日报 评论区聊聊",
+      "body": "一条科研合作，一条海滩安全。\n\n刚来澳洲的同学，去海边记得在红黄旗之间游。你们头一回去 Bondi 是什么感受？评论区说说。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "澳洲加入 Horizon Europe，UNSW 联手德国机构；AI 工具 RipEye 帮你认出离岸流",
+    "lead": "11 月 11 日和 12 日，新南威尔士大学官网发布两条消息：UNSW 与斯图加特大学、Fraunhofer IAO 签署合作意向书；UNSW 与 Surf Life Saving Australia 开发 AI 工具 RipEye。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 Horizon Europe：UNSW 与德国机构签合作意向书",
+        "paragraphs": [
+          "11 月 12 日，UNSW 官网发布：UNSW 与 University of Stuttgart、Fraunhofer IAO 签署 Letter of Intent。官方原文：The partnership between Australia and Germany will explore joint research, doctoral education and industry engagement.",
+          "同期澳洲在布鲁塞尔签约加入 Horizon Europe。官方原文：Horizon Europe is the European Union’s flagship research and innovation funding program, worth $155 billion.",
+          "UNSW 校长 Attila Brungs：Australia produces about 3% of the world’s research and innovation, which means we must connect with the other 97%. 具体项目和申请方式新闻未公布，以 UNSW 官网后续信息为准。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-12 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-partners-with-german-research-heavyweights-australia-joins-horizon-europe\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 RipEye：拍张海滩照片，AI 识别离岸流",
+        "paragraphs": [
+          "11 月 11 日，UNSW 官网发布：UNSW 与 Surf Life Saving Australia（SLSA）开发 AI 工具 RipEye。官方原文：Rip currents remain one of Australia’s deadliest beach hazards, contributing to 47% of the 66 beach drowning deaths recorded in the 2025 National Drowning Report.",
+          "RipEye 包含两部分：AI Live Scan 识别海滩照片中可能的离岸流，Spot the Rip 小游戏帮人练习识别。",
+          "官方原文：The tool will be trialled with selected SLSA clubs this summer, with the aim of eventually using it to support public beach safety education and surf living saving patrol operations."
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-11 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/Using-AI-learn-spot-dangerous-rips-beaches\">unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "澳洲签约加入 Horizon Europe，UNSW 与斯图加特大学、Fraunhofer IAO 签合作意向书，覆盖联合研究、博士培养和产业合作。",
+        "UNSW 与 Surf Life Saving Australia 开发 RipEye，从海滩照片识别离岸流；2025 年 66 起海滩溺亡中 47% 与离岸流有关。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 11 号和 12 号 UNSW 官网有两条消息，我都读完了。\n\n第1条：UNSW 与德国机构签合作意向书。官方原文：Horizon Europe is the European Union’s flagship research and innovation funding program, worth $155 billion.\n\n第2条：AI 工具 RipEye。官方原文：Rip currents remain one of Australia’s deadliest beach hazards, contributing to 47% of the 66 beach drowning deaths recorded in the 2025 National Drowning Report.\n\n夏天要去海边的同学，你们会认离岸流吗？评论区聊聊。",
+        "tags": [
+          "#新南威尔士大学",
+          "#UNSW",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

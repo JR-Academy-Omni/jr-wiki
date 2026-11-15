@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-15",
+  "school": "umelb",
+  "summary": {
+    "hookMain": "墨尔本大学 UniMelb",
+    "hookSub": "11 月 11–12 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "研究：40–55 岁女性对弹性工作的需求高于其他群体。",
+      "墨大成为 Melanesia Bio-Cultural Network 的机构依托，网络连接 10 个社区组织。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "弹性工作研究",
+        "data": "40–55 岁"
+      },
+      {
+        "num": "02",
+        "title": "Melanesia 保育网络",
+        "data": "10 个组织"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "中年女性弹性工作缺口",
+      "h2Sub": "6,000 多名在职者参与调查",
+      "h2Highlight": "6,000 多名",
+      "lead": "11 月 12 日墨大官网发布 Working for Women Research Partnership 的新研究，聚焦 40 到 55 岁女性的弹性工作需求。",
+      "bullets": [
+        {
+          "k": "对象",
+          "v": "40–55 岁女性"
+        },
+        {
+          "k": "样本",
+          "v": "6,000 多名在职者的全国调查 + 397 名中年女性深度访谈"
+        },
+        {
+          "k": "合作方",
+          "v": "联邦政府 Office for Women、墨大 Faculty of Arts、悉尼大学、UTS"
+        },
+        {
+          "k": "周期",
+          "v": "Partnership 从 2025 年到 2030 年，共五年"
+        }
+      ],
+      "sourceQuote": "New research from the Working for Women Research Partnership (WFWRP) shows overlapping life demands make women aged 40–55 more likely than other groups to both want and need workplace flexibility.",
+      "source": "UniMelb Newsroom · 2026-11-12",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/november/study-finds-mid-life-women-face-unique-need-for-workplace-flexibility"
+    },
+    {
+      "idx": "02",
+      "category": "科研合作",
+      "h2Main": "原住民保育网络启动",
+      "h2Sub": "连接 10 个社区组织",
+      "h2Highlight": "10 个",
+      "lead": "11 月 11 日墨大官网发布：由原住民主导的 Melanesia Bio-Cultural Network（MBCN）在墨大年度 Oceania Oration 上启动。",
+      "bullets": [
+        {
+          "k": "规模",
+          "v": "连接 10 个社区组织"
+        },
+        {
+          "k": "地区",
+          "v": "所罗门群岛、布干维尔自治区、巴布亚新几内亚、瓦努阿图、新喀里多尼亚"
+        },
+        {
+          "k": "墨大角色",
+          "v": "网络的机构依托，由 Oceania Institute 等三个研究所支持"
+        },
+        {
+          "k": "前三年重点",
+          "v": "加强原住民社区联系、支持与研究机构合作、参与区域政策讨论"
+        }
+      ],
+      "sourceQuote": "The MBCN connects 10 community organisations across the region, including Solomon Islands, the Autonomous Region of Bougainville, Papua New Guinea, Vanuatu and New Caledonia.",
+      "source": "UniMelb Newsroom · 2026-11-11",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/november/indigenous-led-network-strengthens-conservation-in-melanesia"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "墨大官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "弹性工作研究",
+        "body": "WFWRP 研究：40–55 岁女性比其他群体更想要也更需要弹性工作，想要的和实际拥有的差距明显。"
+      },
+      {
+        "n": "02",
+        "title": "Melanesia 保育网络",
+        "body": "Melanesia Bio-Cultural Network 在墨大 Oceania Oration 上启动，连接所罗门群岛、巴新、瓦努阿图等地 10 个社区组织。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/15"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "墨大这周两条 我读完了",
+      "body": "11 月 11 号和 12 号墨大官网各发了一条，我挑出来整理了。\n\n一条是中年女性弹性工作的全国研究，一条是 Melanesia 原住民保育网络在墨大启动。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "中年女性更需要弹性工作",
+      "body": "11 月 12 号墨大官网发的研究，来自 Working for Women Research Partnership。\n\n官方原文：New research from the Working for Women Research Partnership (WFWRP) shows overlapping life demands make women aged 40–55 more likely than other groups to both want and need workplace flexibility.\n\n样本是 6,000 多名在职者的全国调查，加上 397 名中年女性的深度访谈。\n\n读社会学、HR 或性别研究的同学可以收藏 📚",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "想要的弹性和实际有差距",
+      "body": "研究作者之一 Brendan Churchill 副教授的原话：\n\nThere is a large, measurable gap between the flexibility mid‑life women want and what they have, and some sectors show urgent need for change.\n\n他还说这是职场的问题，不是女性个人的问题：Fixing this requires employer action, not individual sacrifice.\n\n我自己读完觉得，找实习时问清楚弹性安排也挺有用的。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "墨大牵头 原住民保育网络",
+      "body": "11 月 11 号墨大官网：Melanesia Bio-Cultural Network 在年度 Oceania Oration 上启动。\n\n官方原文：The MBCN connects 10 community organisations across the region, including Solomon Islands, the Autonomous Region of Bougainville, Papua New Guinea, Vanuatu and New Caledonia.\n\n墨大是这个网络的机构依托，通过 Oceania Institute、Melbourne Biodiversity Institute 和 Indigenous Knowledge Institute 提供支持。\n\n读环境或人类学的同学可以关注一下 🌿",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "墨大日报 评论区聊聊",
+      "body": "这两条都是科研和社区合作，不是奖学金或招生公告。\n\n你们专业有没有讨论弹性工作或者原住民知识的课？评论区说说。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "墨大研究：中年女性弹性工作缺口明显；Melanesia 原住民保育网络在墨大启动",
+    "lead": "11 月 11 日和 12 日，墨尔本大学官网发布两条消息：一项覆盖 6,000 多名在职者的弹性工作研究，以及在 Oceania Oration 上启动的 Melanesia Bio-Cultural Network。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 弹性工作研究：中年女性想要的和实际有差距",
+        "paragraphs": [
+          "11 月 12 日，墨大官网发布 Working for Women Research Partnership（WFWRP）的新研究。官方原文：New research from the Working for Women Research Partnership (WFWRP) shows overlapping life demands make women aged 40–55 more likely than other groups to both want and need workplace flexibility.",
+          "研究结合了 6,000 多名在职者的全国代表性调查，以及 397 名不同背景中年女性的深度访谈，讨论职业高峰、家庭照护和健康问题（包括围绝经期和绝经）叠加在一起的「midlife collision」。",
+          "报告作者 Brendan Churchill 副教授：There is a large, measurable gap between the flexibility mid‑life women want and what they have, and some sectors show urgent need for change. 他补充：Fixing this requires employer action, not individual sacrifice."
+        ],
+        "sourceHtml": "UniMelb Newsroom · 2026-11-12 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/november/study-finds-mid-life-women-face-unique-need-for-workplace-flexibility\">unimelb.edu.au</a>"
+      },
+      {
+        "h2": "02 Melanesia 保育网络：墨大成为机构依托",
+        "paragraphs": [
+          "11 月 11 日，墨大官网发布：Melanesia Bio-Cultural Network（MBCN）在年度 Oceania Oration 上启动。官方原文：The MBCN connects 10 community organisations across the region, including Solomon Islands, the Autonomous Region of Bougainville, Papua New Guinea, Vanuatu and New Caledonia.",
+          "墨大是这个网络的机构依托，通过 Oceania Institute、Melbourne Biodiversity Institute 和 Indigenous Knowledge Institute 提供支持，包括资金以及基于原住民方法论、数据主权的研究和政策参与。",
+          "MBCN 负责人 Jeffrey Noro 博士：We're building on decades of grassroots activism and it's a look to the future."
+        ],
+        "sourceHtml": "UniMelb Newsroom · 2026-11-11 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/november/indigenous-led-network-strengthens-conservation-in-melanesia\">unimelb.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "WFWRP 研究：40–55 岁女性比其他群体更想要也更需要弹性工作，想要的和实际拥有的差距明显。",
+        "Melanesia Bio-Cultural Network 在墨大 Oceania Oration 上启动，连接所罗门群岛、巴新、瓦努阿图等地 10 个社区组织。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 11 号和 12 号墨大官网有两条消息，我都读完了。\n\n第1条：中年女性弹性工作研究。官方原文：There is a large, measurable gap between the flexibility mid‑life women want and what they have, and some sectors show urgent need for change.\n\n第2条：Melanesia Bio-Cultural Network 在墨大启动。官方原文：The MBCN connects 10 community organisations across the region, including Solomon Islands, the Autonomous Region of Bougainville, Papua New Guinea, Vanuatu and New Caledonia.\n\n你们 essay 会用这种劳动市场研究当素材吗？评论区聊聊。",
+        "tags": [
+          "#墨尔本大学",
+          "#UniMelb",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}
