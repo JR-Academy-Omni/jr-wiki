@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-16",
+  "school": "uq",
+  "summary": {
+    "hookMain": "UQ 昆士兰大学",
+    "hookSub": "11 月 12–16 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "UQ 研究：昆州 GP 诊断成人 ADHD，需要培训和 Medicare 配套。",
+      "UQ 失语症研究中心 QARC 获 Engagement Australia 研究影响力奖。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "ADHD 改革", "data": "77% GP 支持" },
+      { "num": "02", "title": "QARC 获奖", "data": "121 份申报" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "ADHD 改革要配套",
+      "h2Sub": "GP 培训 + Medicare 支持",
+      "h2Highlight": "Medicare",
+      "lead": "11 月 16 日 UQ 官网发布研究：昆州从 2025 年 12 月起允许 GP 诊断并开始治疗成人 ADHD，研究者认为还需要培训和 Medicare 配套。",
+      "bullets": [
+        { "k": "调查", "v": "2024 年研究调查了 213 名澳洲 GP" },
+        { "k": "支持度", "v": "77% 支持 GP 在 ADHD 照护中承担更多角色" },
+        { "k": "障碍", "v": "知识经验不足 70%，时间不够 68%" },
+        { "k": "评估时长", "v": "按澳洲指南，详细评估可能需要 2 到 3 小时、分几次完成" }
+      ],
+      "sourceQuote": "Unlike other states, Queensland GPs aren’t required to undertake any extra ADHD-specific training.",
+      "source": "UQ News · 2026-11-16",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-adhd-reform-needs-gp-training-and-medicare-support-study-finds"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "QARC 拿下研究影响力奖",
+      "h2Sub": "121 份申报里胜出",
+      "h2Highlight": "121 份",
+      "lead": "11 月 12 日 UQ 官网宣布：昆士兰失语症研究中心 QARC 获得 2026 Engagement Australia Excellence Awards 的 Outstanding Engagement for Research Impact 奖。",
+      "bullets": [
+        { "k": "奖项", "v": "Outstanding Engagement for Research Impact" },
+        { "k": "规模", "v": "本届 8 个类别共 121 份申报" },
+        { "k": "方向", "v": "改善失语症人群的生活结果" },
+        { "k": "成果", "v": "嵌入常规医院照护的高剂量失语症治疗服务、Aphasia Tech Hub" }
+      ],
+      "sourceQuote": "QARC was recognised for its approach to improving outcomes for people living with aphasia, a common communication disability.",
+      "source": "UQ News · 2026-11-12",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-uqs-qarc-wins-engagement-australia-awards"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UQ官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "ADHD 改革", "body": "213 名 GP 的调查里 77% 支持承担更多 ADHD 照护，但昆州 GP 不强制额外培训，Medicare 也不利于长时间问诊。" },
+      { "n": "02", "title": "QARC 获奖", "body": "UQ 失语症研究中心在 121 份申报中拿下 Outstanding Engagement for Research Impact 奖。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/16"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ这周两条 我读完了",
+      "body": "11 月 12 号和 16 号 UQ 官网各发了一条，我挑出来整理了。\n\n一条讲成人 ADHD 在昆州找 GP 诊断，一条是失语症研究中心拿奖。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "昆州GP能看成人ADHD了",
+      "body": "16 号 UQ 官网发的研究。昆州从 2025 年 12 月起允许 GP 诊断并开始治疗成人 ADHD。\n\n官方原文：Unlike other states, Queensland GPs aren’t required to undertake any extra ADHD-specific training.\n\n研究者的意思是，改革方向对，但培训和配套得跟上 🩺",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "213名GP里77%愿意接",
+      "body": "文章引用的 2024 年调查：213 名澳洲 GP，77% 支持 GP 在 ADHD 照护里多承担一些。\n\n卡点是知识经验不足（70%）和时间不够（68%）。\n\n官方原文：The current Medicare model penalises GPs for longer consultations.\n\n读公共卫生或医学的同学，这篇拿来做 policy 讨论挺合适。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "UQ失语症中心拿了大奖",
+      "body": "12 号 UQ 官网宣布，QARC 拿到 2026 Engagement Australia Excellence Awards 的研究影响力奖。\n\n本届 8 个类别一共 121 份申报。\n\n官方原文：QARC was recognised for its approach to improving outcomes for people living with aphasia, a common communication disability.\n\n读言语病理的同学可以多关注这个中心 🗣️",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "UQ日报 评论区聊聊",
+      "body": "这两条都是科研和医疗政策，不是奖学金或招生公告。\n\n你们在澳洲看过 GP 吗？问诊时间够不够用？评论区说说。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UQ 研究：昆州 GP 诊断成人 ADHD 需要培训和 Medicare 配套；QARC 获研究影响力奖",
+    "lead": "11 月 12 日和 16 日，昆士兰大学官网发布两条消息：一项关于成人 ADHD 改革的研究，以及失语症研究中心 QARC 获奖。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 ADHD 改革：GP 需要培训，也需要 Medicare 支持",
+        "paragraphs": [
+          "11 月 16 日，UQ 官网发布研究：昆州从 2025 年 12 月起允许 GP 诊断并开始治疗成人 ADHD。官方原文：Unlike other states, Queensland GPs aren’t required to undertake any extra ADHD-specific training.",
+          "文章引用的 2024 年调查覆盖 213 名澳洲 GP，77% 支持 GP 承担更多 ADHD 照护；主要障碍是知识经验不足（70%）和时间不够（68%）。按澳洲指南，详细评估可能需要 2 到 3 小时、分几次完成。",
+          "官方原文：Diagnosing ADHD in adults is generally considered more complex and time-consuming than diagnosing ADHD in children. 官方原文：The current Medicare model penalises GPs for longer consultations."
+        ],
+        "sourceHtml": "UQ News · 2026-11-16 · <a href=\"https://news.uq.edu.au/2026-11-adhd-reform-needs-gp-training-and-medicare-support-study-finds\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "02 QARC 获 Engagement Australia 研究影响力奖",
+        "paragraphs": [
+          "11 月 12 日，UQ 官网宣布：昆士兰失语症研究中心 QARC 获得 2026 Engagement Australia Excellence Awards 的 Outstanding Engagement for Research Impact 奖，本届 8 个类别共收到 121 份申报。",
+          "官方原文：QARC was recognised for its approach to improving outcomes for people living with aphasia, a common communication disability.",
+          "QARC 的成果包括嵌入常规医院照护的高剂量失语症治疗服务，以及 Aphasia Tech Hub。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-12 · <a href=\"https://news.uq.edu.au/2026-11-uqs-qarc-wins-engagement-australia-awards\">news.uq.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "ADHD 改革：77% 的受访 GP 支持承担更多照护，但培训和 Medicare 配套还没跟上。",
+        "QARC：在 121 份申报中获研究影响力奖。"
+      ]
+    },
+    "meta": { "readTime": "约 2 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 12 号和 16 号 UQ 官网有两条消息，我都读完了。\n\n第1条：成人 ADHD 改革。官方原文：Unlike other states, Queensland GPs aren’t required to undertake any extra ADHD-specific training.\n\n第2条：失语症研究中心 QARC 获奖。官方原文：QARC was recognised for its approach to improving outcomes for people living with aphasia, a common communication disability.\n\n你们在澳洲看 GP 的体验怎么样？评论区聊聊。",
+        "tags": ["#昆士兰大学", "#UQ", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "正文涉及 ADHD 医疗政策新闻，仅转述官方研究，无疗效承诺" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

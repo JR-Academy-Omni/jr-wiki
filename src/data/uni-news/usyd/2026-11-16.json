@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-16",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "USYD 悉尼大学",
+    "hookSub": "11 月 10–13 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "悉大药学院 BMJ 研究：pregabalin 滥用比预期明显回落。",
+      "公共卫生学院 Ying Zhang 教授出任 China Studies Centre 主任。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "Pregabalin 研究", "data": "-47% 中毒来电" },
+      { "num": "02", "title": "中国研究中心", "data": "119 名 HDR" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "Pregabalin 滥用回落",
+      "h2Sub": "中毒来电比预期少 47%",
+      "h2Highlight": "47%",
+      "lead": "11 月 13 日悉尼大学官网发布药学院 Rose Cairns 副教授团队的 BMJ 研究：对比此前趋势，pregabalin 处方和故意中毒来电都明显低于预期。",
+      "bullets": [
+        { "k": "处方", "v": "比预期低 25%" },
+        { "k": "故意中毒来电", "v": "比预期低 47%" },
+        { "k": "数据", "v": "2016–2024 年，227,864 人获配 3,441,851 张处方，4,871 通过量来电" },
+        { "k": "因果", "v": "研究者表示无法认定干预措施与下降存在因果关系" }
+      ],
+      "sourceQuote": "Pregabalin use and overdose peaked in 2018 before declining.",
+      "source": "University of Sydney News · 2026-11-13",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/13/pregabalin-misuse-declines-in-australia.html"
+    },
+    {
+      "idx": "02",
+      "category": "人事",
+      "h2Main": "中国研究中心换帅",
+      "h2Sub": "流行病学家 Ying Zhang 接任",
+      "h2Highlight": "Ying Zhang",
+      "lead": "11 月 10 日悉尼大学官网宣布：公共卫生学院 Ying Zhang 教授出任 China Studies Centre 主任，研究方向是气候变化与健康、社区韧性和全球健康。",
+      "bullets": [
+        { "k": "新主任", "v": "Ying Zhang 教授，Sydney School of Public Health 流行病学家" },
+        { "k": "前任", "v": "David Goodman 教授，任期到 2026 年底结束" },
+        { "k": "规模", "v": "支持 100 多名研究人员和 119 名 HDR 研究生" },
+        { "k": "合作", "v": "合作覆盖 14 个学院" }
+      ],
+      "sourceQuote": "Professor Zhang succeeds Professor David Goodman, who will conclude his term as Director at the end of 2026.",
+      "source": "University of Sydney News · 2026-11-10",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/10/new-director-appointed-to-the-china-studies-centre.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "悉大官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "Pregabalin 研究", "body": "BMJ 研究：处方比预期低 25%，故意中毒来电比预期低 47%，使用和过量在 2018 年见顶。" },
+      { "n": "02", "title": "中国研究中心", "body": "Ying Zhang 教授接任 China Studies Centre 主任，中心支持 100 多名研究人员和 119 名 HDR 研究生。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/16"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "悉大这周两条 我读完了",
+      "body": "11 月 10 号和 13 号悉大官网各发了一条，我挑出来整理了。\n\n一条是药学院发在 BMJ 的研究，一条是 China Studies Centre 换了新主任。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "悉大BMJ研究 这个药滥用降了",
+      "body": "13 号悉大官网发的，药学院 Rose Cairns 副教授团队。\n\n官方原文：Pregabalin is a gabapentinoid drug used to treat nerve pain, epilepsy, and anxiety disorders.\n\n对比之前的趋势，处方量比预期低 25%，故意中毒来电比预期低 47% 💊",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "9年数据 2018年是峰值",
+      "body": "研究数据从 2016 到 2024 年：227,864 人，3,441,851 张处方，4,871 通过量来电。\n\n官方原文：Pregabalin use and overdose peaked in 2018 before declining.\n\n研究者自己也说了，不能直接认定是处方限制带来的下降。读药学的同学写 report 时这个边界要守住。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "悉大中国研究中心换主任",
+      "body": "10 号悉大官网宣布，公共卫生学院的 Ying Zhang 教授出任 China Studies Centre 主任。\n\n官方原文：Professor Zhang succeeds Professor David Goodman, who will conclude his term as Director at the end of 2026.\n\n中心现在支持 100 多名研究人员和 119 名 HDR 研究生。想读中国相关方向研究的同学可以留意 📚",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "悉大日报 评论区聊聊",
+      "body": "这两条是科研和人事消息，不是奖学金或招生公告。\n\n有在读公共卫生或药学的同学吗？你们课上会讨论这类处方政策吗？评论区说说。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "悉大 BMJ 研究：pregabalin 滥用比预期回落；Ying Zhang 教授出任 China Studies Centre 主任",
+    "lead": "11 月 10 日和 13 日，悉尼大学官网发布两条消息：药学院一项关于 pregabalin 的 BMJ 研究，以及 China Studies Centre 新主任任命。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 Pregabalin 滥用回落：中毒来电比预期少 47%",
+        "paragraphs": [
+          "11 月 13 日，悉尼大学官网发布药学院 Rose Cairns 副教授团队发表在 BMJ 的研究。官方原文：Pregabalin is a gabapentinoid drug used to treat nerve pain, epilepsy, and anxiety disorders.",
+          "对比此前趋势，处方量比预期低 25%，故意中毒来电比预期低 47%。数据覆盖 2016 到 2024 年：227,864 人获配 3,441,851 张处方，毒物中心收到 4,871 通过量来电。",
+          "官方原文：Pregabalin use and overdose peaked in 2018 before declining. 研究者表示，无法据此认定处方限制和公众宣传与下降之间存在因果关系。"
+        ],
+        "sourceHtml": "University of Sydney News · 2026-11-13 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/13/pregabalin-misuse-declines-in-australia.html\">sydney.edu.au</a>"
+      },
+      {
+        "h2": "02 China Studies Centre 新主任：Ying Zhang 教授",
+        "paragraphs": [
+          "11 月 10 日，悉尼大学官网宣布公共卫生学院 Ying Zhang 教授出任 China Studies Centre 主任，研究方向是气候变化与健康、社区韧性和全球健康。",
+          "官方原文：Professor Zhang succeeds Professor David Goodman, who will conclude his term as Director at the end of 2026.",
+          "官方原文：It now supports more than 100 researchers and 119 higher degree by research students。中心的合作覆盖 14 个学院。"
+        ],
+        "sourceHtml": "University of Sydney News · 2026-11-10 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/10/new-director-appointed-to-the-china-studies-centre.html\">sydney.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "Pregabalin：处方比预期低 25%，故意中毒来电比预期低 47%。",
+        "China Studies Centre：Ying Zhang 教授接任主任。"
+      ]
+    },
+    "meta": { "readTime": "约 2 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 10 号和 13 号悉大官网有两条消息，我都读完了。\n\n第1条：pregabalin 滥用回落。官方原文：Pregabalin use and overdose peaked in 2018 before declining.\n\n第2条：China Studies Centre 新主任。官方原文：Professor Zhang succeeds Professor David Goodman, who will conclude his term as Director at the end of 2026.\n\n读药学或公共卫生的同学，评论区聊聊你们课上怎么讨论处方政策。",
+        "tags": ["#悉尼大学", "#USYD", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "正文转述官方药物研究，未提供用药建议" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
