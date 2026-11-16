@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-16",
+  "summary": {
+    "hook": [
+      { "text": "Claude进视频会议做记录" },
+      { "text": "Perplexity Teammates上Mac" },
+      { "text": "Norwest募40亿美元押AI" }
+    ],
+    "sub": "两条agent产品、一条资本动向，均用一手原文加独立媒体核对。",
+    "items": [
+      { "num": "01", "cat": "产品", "numColor": "#7861FF", "t": "Claude Meetings测试版上线Team和Enterprise，先支持Google Meet，只存转写不存音频" },
+      { "num": "02", "cat": "Agent", "numColor": "#119B74", "t": "Perplexity的长期任务agent Teammates进入Mac应用，仅限Max订阅" },
+      { "num": "03", "cat": "融资", "numColor": "#FF5757", "t": "Norwest推出第18期基金40亿美元，史上最大，AI是重点方向" }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-claude-meetings",
+      "idx": "01",
+      "catText": "产品",
+      "accent": "#7861FF",
+      "bg": { "top": "产品", "mid": "CLAUDE MEETINGS", "bot": "2026.11.16", "topRight": "" },
+      "title": [ { "text": "Claude能进视频会议了，以可见参会者身份" } ],
+      "oneline": [ { "text": "Team和Enterprise测试版，先支持Google Meet，测试期笔记和转写免费。" } ],
+      "bullets": [
+        { "k": "发生了什么", "v": "Anthropic推出Claude Meetings测试版，Claude作为可见参会者加入通话，边听边起草计划。" },
+        { "k": "为什么重要", "v": "只存转写、摘要和屏幕描述，不存音频；有外部客人时默认不进会。" },
+        { "k": "对你的影响", "v": "开会前先确认所有人同意被转写；ZDR、HIPAA配置的组织测试期用不了。" }
+      ],
+      "src": "📎 claude.com · techcrunch.com",
+      "sourceEvidence": [
+        { "type": "primary", "publisher": "Claude", "url": "https://claude.com/resources/articles/claude-meetings", "claim": "Claude以可见参会者加入视频会议", "quote": "Claude can now join your video calls as a visible participant" },
+        { "type": "primary", "publisher": "Claude", "url": "https://claude.com/resources/articles/claude-meetings", "claim": "测试版范围", "quote": "Claude Meetings is starting to roll out in beta on Team and Enterprise plans." },
+        { "type": "primary", "publisher": "Claude", "url": "https://claude.com/resources/articles/claude-meetings", "claim": "支持平台", "quote": "Support is currently available for Google Meet, with other platforms coming soon." },
+        { "type": "primary", "publisher": "Claude", "url": "https://claude.com/resources/articles/claude-meetings", "claim": "存储内容", "quote": "It saves a transcript, summary, and screen descriptions, not audio." },
+        { "type": "primary", "publisher": "Claude", "url": "https://claude.com/resources/articles/claude-meetings", "claim": "测试期免费", "quote": "During the beta, Claude's notes and transcripts are free on Team and Enterprise plans." },
+        { "type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/", "claim": "会中起草计划", "quote": "As participants talk, it can draft the plan being discussed" },
+        { "type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/", "claim": "外部客人限制", "quote": "It won't join calls with external guests unless authorized by an admin" }
+      ]
+    },
+    {
+      "slug": "02-perplexity-teammates-mac",
+      "idx": "02",
+      "catText": "Agent",
+      "accent": "#119B74",
+      "bg": { "top": "AGENT", "mid": "PERPLEXITY TEAMMATES", "bot": "2026.11.16", "topRight": "" },
+      "title": [ { "text": "Perplexity Teammates进入Mac应用" } ],
+      "oneline": [ { "text": "一组负责长期任务的AI agent，此前只有网页版和iOS，仍限Max订阅。" } ],
+      "bullets": [
+        { "k": "发生了什么", "v": "11月13日9to5Mac报道，Teammates已在Perplexity Mac应用上线，面向Max订阅用户。" },
+        { "k": "为什么重要", "v": "每个teammate在独立环境运行，浏览器会话互相隔离，保存的凭据加密填写。" },
+        { "k": "对你的影响", "v": "Max价格官方页没写；推广期Max含免费Teammates用量，到期后的计费方式还不清楚。" }
+      ],
+      "src": "📎 perplexity.ai · 9to5mac.com",
+      "sourceEvidence": [
+        { "type": "primary", "publisher": "Perplexity", "url": "https://www.perplexity.ai/hub/products/teammates", "claim": "Teammates定义", "quote": "Teammates are a team of AI agents that own ongoing work." },
+        { "type": "primary", "publisher": "Perplexity", "url": "https://www.perplexity.ai/hub/products/teammates", "claim": "推广期免费用量", "quote": "For a promotional period, every Max plan will include free usage for Perplexity teammates." },
+        { "type": "primary", "publisher": "Perplexity Blog", "url": "https://www.perplexity.ai/hub/blog/teammates-are-agents-for-complex-ongoing-work", "claim": "环境隔离", "quote": "Each teammate runs in a separate environment, with browser sessions separate from other teammates." },
+        { "type": "independent", "publisher": "9to5Mac", "url": "https://9to5mac.com/2026/11/13/perplexity-brings-ai-agents-feature-called-teammates-to-the-mac/", "claim": "此前仅iOS和网页", "quote": "Perplexity Teammates were previously limited to iOS and the web." },
+        { "type": "independent", "publisher": "9to5Mac", "url": "https://9to5mac.com/2026/11/13/perplexity-brings-ai-agents-feature-called-teammates-to-the-mac/", "claim": "Mac上线", "quote": "Teammates are now available in the Perplexity Mac app for Max subscribers." }
+      ]
+    },
+    {
+      "slug": "03-norwest-18-fund",
+      "idx": "03",
+      "catText": "融资",
+      "accent": "#FF5757",
+      "bg": { "top": "融资", "mid": "NORWEST 18", "bot": "2026.11.16", "topRight": "" },
+      "title": [ { "text": "Norwest募40亿美元新基金，加码AI" } ],
+      "oneline": [ { "text": "第18期、史上最大，覆盖早期到成长期，科技、医疗、消费三条线。" } ],
+      "bullets": [
+        { "k": "发生了什么", "v": "11月12日Norwest宣布第18期基金40亿美元，管理资本总额到180亿美元。" },
+        { "k": "为什么重要", "v": "TechCrunch点名的AI方向：physical AI、语音AI、agent安全，没公布AI占比。" },
+        { "k": "对你的影响", "v": "agent测试、语音、医疗AI继续是热门赛道，求职选公司可参考资金流向。" }
+      ],
+      "src": "📎 norwest.com · techcrunch.com",
+      "sourceEvidence": [
+        { "type": "primary", "publisher": "Norwest", "url": "https://www.norwest.com/blog/norwest-18/", "claim": "基金规模", "quote": "Today, we’re announcing Norwest 18, a $4 billion fund and the largest in our firm’s history" },
+        { "type": "primary", "publisher": "Norwest", "url": "https://www.norwest.com/blog/norwest-18/", "claim": "管理资本", "quote": "bringing our total capital under management to $18 billion" },
+        { "type": "primary", "publisher": "Norwest", "url": "https://www.norwest.com/blog/norwest-18/", "claim": "阶段与行业", "quote": "spanning venture and growth equity investments across three core sectors: technology, healthcare, and consumer." },
+        { "type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/", "claim": "AI是重点", "quote": "But the big story here is AI, and Norwest’s plans to expand its investment in this area." },
+        { "type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/", "claim": "AI细分方向", "quote": "physical AI, voice AI, agentic cybersecurity, and aerospace." }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "Claude能进视频会议了，Perplexity Teammates上Mac，Norwest募40亿美元押AI"
+  }
+}
