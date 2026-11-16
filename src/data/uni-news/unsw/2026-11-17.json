@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-17",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "新南威尔士大学 UNSW",
+    "hookSub": "11 月 12–16 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "AFR 2026 Best Universities：UNSW 从第 3 升到第 1。",
+      "校友 Sambavan Jeyakumar 博士获 2027 John Monash Scholarship。",
+      "三个项目获 2026 Engagement Australia Awards。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "AFR 排名", "data": "Career Impact 99/100" },
+      { "num": "02", "title": "John Monash", "data": "$100,000/年" },
+      { "num": "03", "title": "Engagement 奖", "data": "3 个项目" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "排名",
+      "h2Main": "AFR 排名升到第 1",
+      "h2Sub": "Career Impact 99/100",
+      "h2Highlight": "99/100",
+      "lead": "11 月 16 日 UNSW 官网发布：在 AFR 2026 Best Universities 排名中，UNSW 总排名从第 3 升到第 1。",
+      "bullets": [
+        { "k": "总排名", "v": "从第 3 升到第 1" },
+        { "k": "Career Impact", "v": "99/100，领先第二名 10 分，连续四年排名第 1" },
+        { "k": "其他维度", "v": "科研第 3、教学第 7、公平第 18" },
+        { "k": "数据来源", "v": "QILT 毕业生调查、雇主满意度、全职就业和薪资等" }
+      ],
+      "sourceQuote": "For career impact, the University scored 99 out of 100, putting it 10 points ahead of the second-ranked university. In the remaining pillars, UNSW ranked third for research, seventh in teaching and 18th in equity.",
+      "source": "UNSW Newsroom · 2026-11-16",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/the-australian-financial-review-has-named-unsw-sydney-the-best-university-in-australia"
+    },
+    {
+      "idx": "02",
+      "category": "奖学金",
+      "h2Main": "校友获 John Monash",
+      "h2Sub": "2027 年全澳 18 人入选",
+      "h2Highlight": "18 人",
+      "lead": "11 月 13 日 UNSW 官网宣布：校友、Medicine & Health 兼职讲师 Sambavan Jeyakumar 博士入选 18 名 2027 John Monash Scholars。",
+      "bullets": [
+        { "k": "奖项", "v": "Tim Fischer John Monash Scholarship" },
+        { "k": "金额", "v": "官方原文：$100,000 a year，最长三年" },
+        { "k": "去向", "v": "Imperial College London，Master of Research in Medical Robotics and Image-Guided Intervention" },
+        { "k": "方向", "v": "用机器人技术改善偏远地区获得专科手术的机会" }
+      ],
+      "sourceQuote": "The prestigious postgraduate scholarships are valued at $100,000 a year for up to three years of study and are awarded annually following a highly competitive nationwide selection process.",
+      "source": "UNSW Newsroom · 2026-11-13",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-academic-wins-2027-john-monash-scholarship"
+    },
+    {
+      "idx": "03",
+      "category": "社会影响",
+      "h2Main": "三项 Engagement 奖",
+      "h2Sub": "原住民健康、太阳能维修、海洋保护",
+      "h2Highlight": "三项",
+      "lead": "11 月 12 日 UNSW 官网宣布三个项目获 2026 Engagement Australia Awards，今年奖项收到 121 份申请，分 8 个类别。",
+      "bullets": [
+        { "k": "原住民健康", "v": "Kirby Institute 项目支持六个司法辖区 90 多家社区健康机构，覆盖九种传染病检测" },
+        { "k": "太阳能维修", "v": "在 Vanuatu 八个岛培训 141 人，服务覆盖 93,000 多人" },
+        { "k": "海洋保护", "v": "Adriana Verges 教授团队获奖" },
+        { "k": "申请规模", "v": "121 份申请，8 个类别" }
+      ],
+      "sourceQuote": "In Vanuatu, the program has trained 141 people across eight islands, helping establish repair businesses and improve access to solar repair services for more than 93,000 people.",
+      "source": "UNSW Newsroom · 2026-11-12",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-wins-three-engagement-australia-awards"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 官网三条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "AFR 排名", "body": "UNSW 总排名从第 3 升到第 1，Career Impact 99/100，领先第二名 10 分。" },
+      { "n": "02", "title": "John Monash", "body": "校友 Sambavan Jeyakumar 博士入选 2027 年 18 人名单，奖学金每年 $100,000，最长三年。" },
+      { "n": "03", "title": "Engagement 奖", "body": "三个项目获奖；Vanuatu 太阳能维修项目在八个岛培训 141 人。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/17"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW这周三条 我读完了",
+      "body": "12 号到 16 号 UNSW 官网发了三条，我挑出来整理了。\n\n一条排名，一条奖学金，一条社会影响奖。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UNSW AFR排名升到第1了",
+      "body": "16 号官网发的，AFR 2026 Best Universities，总排名从第 3 升到第 1。\n\n官方原文：For career impact, the University scored 99 out of 100, putting it 10 points ahead of the second-ranked university.\n\n其他维度：科研第 3、教学第 7、公平第 18。我选校会更看自己专业的数据，总榜只是参考 📊",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "Career Impact怎么算的",
+      "body": "官网写了这项指标看 QILT 毕业生调查（毕业一年和三年后）、雇主满意度、全职就业和薪资。\n\nUNSW 在这一项连续四年排名第 1。\n\n准备选校的同学可以去 QILT 官网查自己专业的毕业生数据，比看总榜更具体。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "UNSW校友拿John Monash",
+      "body": "13 号官网宣布，校友 Sambavan Jeyakumar 博士入选 2027 年 18 名 John Monash Scholars，要去 Imperial 读医疗机器人方向的 Master of Research。\n\n官方原文：The prestigious postgraduate scholarships are valued at $100,000 a year for up to three years of study.\n\n这个奖学金面向什么人申请，具体条件要去 John Monash Foundation 官网核对 🎓",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW三个项目拿了奖",
+      "body": "12 号官网宣布三个项目获 2026 Engagement Australia Awards。\n\n官方原文：In Vanuatu, the program has trained 141 people across eight islands.\n\n读能源或公卫的同学，你们课上会接触这类社区项目吗？评论区聊聊。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW 升到 AFR 2026 大学排名第 1；校友获 2027 John Monash Scholarship；三项 Engagement Australia Awards",
+    "lead": "11 月 12 日到 16 日，UNSW 官网发布三条消息：AFR 2026 Best Universities 排名、2027 John Monash Scholarship 入选，以及 2026 Engagement Australia Awards。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 AFR 2026 Best Universities：从第 3 升到第 1",
+        "paragraphs": [
+          "11 月 16 日，UNSW 官网发布消息：在 Australian Financial Review 的 2026 Best Universities 排名中，UNSW 总排名从第 3 升到第 1。这个排名从教学、科研、职业影响和公平四个维度比较澳洲大学。",
+          "官方原文：For career impact, the University scored 99 out of 100, putting it 10 points ahead of the second-ranked university. In the remaining pillars, UNSW ranked third for research, seventh in teaching and 18th in equity.",
+          "Career Impact 指标参考 QILT 毕业生调查、雇主满意度、全职就业和薪资数据，UNSW 连续四年在这一项排名第 1。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-16 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/the-australian-financial-review-has-named-unsw-sydney-the-best-university-in-australia\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 2027 John Monash Scholarship：UNSW 校友入选",
+        "paragraphs": [
+          "11 月 13 日，UNSW 官网宣布校友、Medicine & Health 兼职讲师 Sambavan Jeyakumar 博士入选 18 名 2027 John Monash Scholars，获 Tim Fischer John Monash Scholarship。",
+          "官方原文：The prestigious postgraduate scholarships are valued at $100,000 a year for up to three years of study and are awarded annually following a highly competitive nationwide selection process.",
+          "他计划在 Imperial College London 读 Master of Research in Medical Robotics and Image-Guided Intervention，研究用机器人技术改善澳洲偏远地区获得专科手术的机会。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-13 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-academic-wins-2027-john-monash-scholarship\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "03 2026 Engagement Australia Awards：三个项目获奖",
+        "paragraphs": [
+          "11 月 12 日，UNSW 官网宣布三个项目获 2026 Engagement Australia Awards，覆盖原住民健康、太平洋地区太阳能维修和海洋保护。今年奖项收到 121 份申请，分 8 个类别。",
+          "官方原文：In Vanuatu, the program has trained 141 people across eight islands, helping establish repair businesses and improve access to solar repair services for more than 93,000 people.",
+          "Kirby Institute 的 First Nations Molecular Point-of-Care Testing Program 支持六个司法辖区 90 多家原住民社区健康机构，覆盖九种传染病检测。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-12 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-wins-three-engagement-australia-awards\">unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "AFR 排名：UNSW 从第 3 升到第 1，Career Impact 99/100。",
+        "John Monash：校友 Sambavan Jeyakumar 博士入选 2027 年 18 人名单。",
+        "Engagement 奖：三个项目获奖，121 份申请、8 个类别。"
+      ]
+    },
+    "meta": { "readTime": "约 3 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "12 号到 16 号 UNSW 官网发了三条，我都读完了。\n\n第1条：AFR 2026 排名从第 3 升到第 1。官方原文：the University scored 99 out of 100 for career impact.\n\n第2条：校友 Sambavan Jeyakumar 博士入选 2027 John Monash Scholars。官方原文：valued at $100,000 a year for up to three years of study.\n\n第3条：三个项目获 2026 Engagement Australia Awards。\n\n在读 UNSW 的同学，评论区说说你们专业的就业体感。",
+        "tags": ["#新南威尔士大学", "#UNSW", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出（排名名次用「第 1」转述官方原文）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

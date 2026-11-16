@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-17",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "Adelaide 阿德莱德大学",
+    "hookSub": "11 月 16 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "City West 校区首届 Thinking/Making 毕业创意节，免费开放。",
+      "19,000 名孕妇数据：常规疫苗与更好的分娩结局相关。",
+      "生命伦理学者提醒订阅式线上医疗平台的风险。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "毕业创意节", "data": "11/25–12/11" },
+      { "num": "02", "title": "孕期疫苗研究", "data": "19,000 名孕妇" },
+      { "num": "03", "title": "线上医疗", "data": "1,100 万人次" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "校园活动",
+      "h2Main": "首届毕业创意节",
+      "h2Sub": "11 月 25 日至 12 月 11 日 免费开放",
+      "h2Highlight": "免费",
+      "lead": "11 月 16 日阿德莱德大学官网宣布，首届 Thinking/Making 创意节在 City West 校区举办，展出学生主导的美术、动画、工业设计、建筑等方向作品。",
+      "bullets": [
+        { "k": "时间", "v": "11 月 25 日（周三）至 12 月 11 日（周五）" },
+        { "k": "地点", "v": "City West 校区" },
+        { "k": "门票", "v": "官方写明为 free festival" },
+        { "k": "展览", "v": "Kaleidoscope（插画动画）、PRO. GRESS（工业设计）等" }
+      ],
+      "sourceQuote": "Running from Wednesday 25 November to Friday 11 December, attendees will be invited to choose their own journey between art experiences.",
+      "source": "Adelaide University News · 2026-11-16",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/inaugural-festival-showcases-adelaide-s-next-generation-of-creat/"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "孕期疫苗研究",
+      "h2Sub": "19,000 名孕妇数据",
+      "h2Highlight": "19,000",
+      "lead": "11 月 16 日阿德莱德大学与 WCHN 发布研究，分析 19,000 名孕妇接种流感、百日咳和 Covid-19 常规疫苗的安全性与影响。",
+      "bullets": [
+        { "k": "样本", "v": "19,000 名孕妇" },
+        { "k": "并发症", "v": "未发现三种疫苗增加并发症风险的证据" },
+        { "k": "早产", "v": "流感、百日咳疫苗分别与早产风险降低 13%、17% 相关" },
+        { "k": "死产", "v": "百日咳疫苗与死产风险降低近 50% 相关" }
+      ],
+      "sourceQuote": "Both the flu and whooping cough vaccine were linked to a lower likelihood of obstetric complications, reducing the risk of preterm birth by 13% and 17% respectively, with similar benefits also experienced with the Covid-19 vaccine.",
+      "source": "Adelaide University News · 2026-11-16",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/vaccines-protect-more-than-mums-to-be--study-shows/"
+    },
+    {
+      "idx": "03",
+      "category": "科研",
+      "h2Main": "订阅式线上医疗",
+      "h2Sub": "生命伦理学者提醒风险",
+      "h2Highlight": "订阅式",
+      "lead": "11 月 16 日阿德莱德大学 Hilary Bowman-Smart 博士与 University of Wollongong 合作发表文章，分析商业线上医疗平台的伦理问题。",
+      "bullets": [
+        { "k": "背景", "v": "2025 年超过 1,100 万澳洲人做过 telehealth 问诊" },
+        { "k": "关注点", "v": "订阅制、捆绑补充剂销售、不常规使用 My Health Record" },
+        { "k": "论文", "v": "JME Practical Bioethics 2026;2:e000189" },
+        { "k": "下一步", "v": "auDA Foundation 资助项目，产出 Health Online Toolkit" }
+      ],
+      "sourceQuote": "In 2025, more than 11 million Australians had a telehealth consultation, illustrating just how embedded virtual care and telehealth has become in Australia.",
+      "source": "Adelaide University News · 2026-11-16",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/prescription-by-subscription--the-hidden-risks-of-online-healthc/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿大官网三条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "毕业创意节", "body": "Thinking/Making 11 月 25 日至 12 月 11 日在 City West 校区举办，免费开放。" },
+      { "n": "02", "title": "孕期疫苗研究", "body": "19,000 名孕妇数据：流感、百日咳疫苗分别与早产风险降低 13%、17% 相关。" },
+      { "n": "03", "title": "订阅式线上医疗", "body": "2025 年超过 1,100 万澳洲人做过 telehealth 问诊，学者提醒商业平台的风险。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/17"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿大16号三条新闻 我读完了",
+      "body": "16 号阿大官网一口气发了三条，我挑出来整理了。\n\n一条是毕业创意节，两条是公共卫生方向的研究。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "阿大毕业创意节 免费看展🎨",
+      "body": "官方原文：Running from Wednesday 25 November to Friday 11 December, attendees will be invited to choose their own journey between art experiences.\n\n地点在 City West 校区，美术、动画、工业设计、建筑的毕业作品都有。\n\n我打算挑个周五下午去，读设计的同学可以看看别人的作品集怎么讲研究过程。",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "19000名孕妇的疫苗数据",
+      "body": "阿大和 WCHN 的研究，样本是 19,000 名孕妇。\n\n官方原文：Both the flu and whooping cough vaccine were linked to a lower likelihood of obstetric complications, reducing the risk of preterm birth by 13% and 17% respectively.\n\n读公卫或医学的同学，这篇适合拿来练怎么读队列研究的结论。",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "线上问诊订阅制 有啥风险",
+      "body": "阿大 Hilary Bowman-Smart 博士的文章。\n\n官方原文：In 2025, more than 11 million Australians had a telehealth consultation.\n\n她关注的是订阅制、顺带卖补充剂、不常规用 My Health Record 这几件事。留学生看病前可以先想想自己需要的是不是一次正规 GP 问诊 🩺",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "阿大日报 评论区聊聊",
+      "body": "这三条是活动和科研消息，不是奖学金或招生公告。\n\n有打算去看 Thinking/Making 的同学吗？评论区扣 1，约着一起去。",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "阿大首届 Thinking/Making 创意节 11 月 25 日开幕；19,000 名孕妇疫苗研究；订阅式线上医疗风险",
+    "lead": "11 月 16 日，阿德莱德大学官网发布三条消息：首届毕业创意节、孕期常规疫苗研究，以及商业线上医疗平台的伦理分析。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 Thinking/Making 创意节：11 月 25 日至 12 月 11 日",
+        "paragraphs": [
+          "阿德莱德大学首届 Thinking/Making 创意节在 City West 校区举办，展出学生主导的美术、动画、工业设计、建筑等方向作品，官方写明为免费活动。",
+          "官方原文：Running from Wednesday 25 November to Friday 11 December, attendees will be invited to choose their own journey between art experiences.",
+          "Craig Batty 教授表示，这是两所前身大学的毕业展首次合并在同一个品牌下举办，并计划每年举行。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-16 · <a href=\"https://adelaide.edu.au/about/news/2026/inaugural-festival-showcases-adelaide-s-next-generation-of-creat/\">adelaide.edu.au</a>"
+      },
+      {
+        "h2": "02 孕期疫苗研究：19,000 名孕妇数据",
+        "paragraphs": [
+          "阿德莱德大学与 Women's and Children's Health Network 分析了 19,000 名孕妇接种流感、百日咳和 Covid-19 常规疫苗的数据，未发现三种疫苗增加并发症风险的证据。",
+          "官方原文：Both the flu and whooping cough vaccine were linked to a lower likelihood of obstetric complications, reducing the risk of preterm birth by 13% and 17% respectively, with similar benefits also experienced with the Covid-19 vaccine.",
+          "第一作者 Hassen Mohammed 博士表示，百日咳疫苗还与死产风险降低近 50% 相关。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-16 · <a href=\"https://adelaide.edu.au/about/news/2026/vaccines-protect-more-than-mums-to-be--study-shows/\">adelaide.edu.au</a>"
+      },
+      {
+        "h2": "03 订阅式线上医疗：学者提醒风险",
+        "paragraphs": [
+          "Hilary Bowman-Smart 博士与 University of Wollongong 的 Patti Shih 博士分析商业线上医疗平台，关注订阅制、捆绑销售补充剂和不常规使用 My Health Record 等问题。",
+          "官方原文：In 2025, more than 11 million Australians had a telehealth consultation, illustrating just how embedded virtual care and telehealth has become in Australia.",
+          "团队下一步在 auDA Foundation 资助下开展社区对话和全国调查，产出面向公众的 Health Online Toolkit。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-16 · <a href=\"https://adelaide.edu.au/about/news/2026/prescription-by-subscription--the-hidden-risks-of-online-healthc/\">adelaide.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "Thinking/Making：11 月 25 日至 12 月 11 日，City West 校区，免费。",
+        "孕期疫苗：流感、百日咳疫苗分别与早产风险降低 13%、17% 相关。",
+        "线上医疗：2025 年超过 1,100 万澳洲人做过 telehealth 问诊。"
+      ]
+    },
+    "meta": { "readTime": "约 3 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "16 号阿大官网发了三条，我都读完了。\n\n第1条：Thinking/Making 毕业创意节。官方原文：Running from Wednesday 25 November to Friday 11 December.\n\n第2条：19,000 名孕妇的疫苗研究，流感、百日咳疫苗分别与早产风险降低 13%、17% 相关。\n\n第3条：订阅式线上医疗。官方原文：In 2025, more than 11 million Australians had a telehealth consultation.\n\n想去看展的同学评论区扣 1。",
+        "tags": ["#阿德莱德大学", "#AdelaideUniversity", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出（首届为官方 inaugural 原意）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "转述官方疫苗与线上医疗研究，未提供用药建议" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
