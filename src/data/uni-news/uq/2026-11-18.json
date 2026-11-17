@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-18",
+  "school": "uq",
+  "summary": {
+    "hookMain": "昆士兰大学 UQ",
+    "hookSub": "11 月 12–17 日 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "AFR 2026 Best University Ranking：UQ 总排名第 3，教学全国第 2。",
+      "UQ 与奥克兰大学签 5 年国际合作协议，聚焦原住民研究与教育。",
+      "UQ 与昆州消防部门做 12 米木结构天花板实火测试。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "AFR 排名", "data": "总榜第 3 · 教学第 2" },
+      { "num": "02", "title": "奥克兰合作", "data": "5 年协议" },
+      { "num": "03", "title": "木结构防火", "data": "12 米实火测试" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "排名",
+      "h2Main": "AFR 排名总榜第 3",
+      "h2Sub": "教学维度全国第 2",
+      "h2Highlight": "第 3",
+      "lead": "11 月 16 日 UQ 官网发布：在 Australian Financial Review 2026 Best University Ranking 中，UQ 总排名第 3，教学全国第 2。",
+      "bullets": [
+        { "k": "总排名", "v": "全国第 3" },
+        { "k": "教学", "v": "全国第 2" },
+        { "k": "评估维度", "v": "research、teaching、career impact、equality 四项" },
+        { "k": "数据来源", "v": "公开数据，包括 QS World University Rankings 和 ARWU" }
+      ],
+      "sourceQuote": "The University of Queensland (UQ) has ranked third overall and placed second nationally for teaching in the Australian Financial Review’s (AFR) 2026 Best University Ranking.",
+      "source": "UQ News · 2026-11-16",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-uq-ranked-third-nationally-afr-best-universities-ranking"
+    },
+    {
+      "idx": "02",
+      "category": "国际合作",
+      "h2Main": "UQ 与奥克兰大学签约",
+      "h2Sub": "5 年国际合作协议",
+      "h2Highlight": "5 年",
+      "lead": "11 月 17 日 UQ 官网宣布：UQ 与 Waipapa Taumata Rau, University of Auckland 签署新的 International Cooperation Agreement，期限 5 年。",
+      "bullets": [
+        { "k": "期限", "v": "5 年" },
+        { "k": "合作基础", "v": "两校自 2000 年起保持机构合作，已超过 20 年" },
+        { "k": "合作方向", "v": "原住民研究、原住民教育与教学、原住民治理交流" },
+        { "k": "牵头部门", "v": "UQ Indigenous Engagement 与奥克兰大学 Māori and Pacific 领导团队" }
+      ],
+      "sourceQuote": "The 5-year agreement builds on more than 2 decades of institutional partnership between the universities and establishes a framework for deeper collaboration between UQ's Indigenous Engagement portfolio and the Waipapa Taumata Rau, University of Auckland Māori and Pacific leadership portfolios.",
+      "source": "UQ News · 2026-11-17",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-uq-strengthens-indigenous-partnership-new-zealand"
+    },
+    {
+      "idx": "03",
+      "category": "科研",
+      "h2Main": "给木结构房子放火",
+      "h2Sub": "12 米 CLT 天花板实火测试",
+      "h2Highlight": "12 米",
+      "lead": "11 月 12 日 UQ 官网发布：UQ 消防安全工程团队与 Queensland Fire Department 合作，对 12 米长的交叉层压木（CLT）天花板隔间做实火测试。",
+      "bullets": [
+        { "k": "测试对象", "v": "12 米长 cross-laminated timber 天花板隔间" },
+        { "k": "地点", "v": "QFD 位于 Port of Brisbane 的训练场" },
+        { "k": "监测方式", "v": "隔间内直播摄像头 + 热量和压力传感器" },
+        { "k": "研究归属", "v": "PhD 候选人 Josh Madden 的课题，属于 UQ 土木工程学院管理的 ARC Research Hub" }
+      ],
+      "sourceQuote": "The research team constructed 12-metre long cross-laminated timber (CLT) ceiling compartments and set them alight under the supervision of QFD firefighters at their training ground at the Port of Brisbane.",
+      "source": "UQ News · 2026-11-12",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-improving-safety-timber-buildings-setting-them-fire"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UQ 官网三条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "AFR 排名", "body": "UQ 在 AFR 2026 Best University Ranking 总排名第 3，教学全国第 2。" },
+      { "n": "02", "title": "奥克兰合作", "body": "UQ 与奥克兰大学签 5 年合作协议，方向是原住民研究、教育和治理交流。" },
+      { "n": "03", "title": "木结构防火", "body": "UQ 与昆州消防部门在 Port of Brisbane 对 12 米 CLT 天花板隔间做实火测试。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/18"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ这周三条 我读完了",
+      "body": "12 号到 17 号 UQ 官网发了这三条，我挑出来整理了。\n\n一条排名，一条和新西兰奥克兰大学的合作，一条是土木工程的实火测试。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #布里斯班 #澳洲大学"
+    },
+    "p2": {
+      "title": "UQ AFR总榜第3 教学第2",
+      "body": "16 号官网发的，AFR 2026 Best University Ranking。\n\n官方原文：UQ has ranked third overall and placed second nationally for teaching.\n\n这个榜看 research、teaching、career impact、equality 四项。我选校更在意教学体验，所以教学这一项我会多看一眼 📊",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #布里斯班 #澳洲大学"
+    },
+    "p3": {
+      "title": "这个榜的数据从哪来",
+      "body": "官网写了：AFR 这个排名用的是公开数据，包括 QS World University Rankings 和 ARWU，再汇总成一个整体视角。\n\n所以它不是一套全新的评分，更像几个榜单的综合。\n\n准备选校的同学，还是建议把自己专业的数据单独查一遍。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #布里斯班 #澳洲大学"
+    },
+    "p4": {
+      "title": "UQ和奥克兰大学签了5年",
+      "body": "17 号官网宣布，UQ 和 Waipapa Taumata Rau, University of Auckland 签了新的国际合作协议。\n\n官方原文：The 5-year agreement builds on more than 2 decades of institutional partnership.\n\n合作方向是原住民研究、教育和治理交流。对原住民研究或教育方向感兴趣的同学可以留意后续项目 🤝",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #布里斯班 #澳洲大学"
+    },
+    "p5": {
+      "title": "UQ土木在给木房子放火",
+      "body": "12 号官网发的，UQ 消防安全工程团队和昆州消防部门一起做实火测试。\n\n官方原文：The research team constructed 12-metre long cross-laminated timber (CLT) ceiling compartments and set them alight.\n\n这是一个 PhD 课题。读土木的同学，你们课上会讲木结构防火吗？评论区聊聊 🔥",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #土木工程 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UQ 获 AFR 2026 大学排名第 3、教学全国第 2；与奥克兰大学签 5 年合作协议；12 米木结构实火测试",
+    "lead": "11 月 12 日到 17 日，UQ 官网发布三条消息：AFR 2026 Best University Ranking、与奥克兰大学的新合作协议，以及木结构建筑防火实验。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 AFR 2026 Best University Ranking：总排名第 3",
+        "paragraphs": [
+          "11 月 16 日，UQ 官网发布消息：在 Australian Financial Review 的 2026 Best University Ranking 中，UQ 总排名第 3，教学全国第 2。",
+          "官方原文：The University of Queensland (UQ) has ranked third overall and placed second nationally for teaching in the Australian Financial Review’s (AFR) 2026 Best University Ranking.",
+          "这个排名从 research、teaching、career impact、equality 四个维度评估澳洲大学，数据来自公开来源，包括 QS World University Rankings 和 Academic Ranking of World Universities。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-16 · <a href=\"https://news.uq.edu.au/2026-11-uq-ranked-third-nationally-afr-best-universities-ranking\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "02 UQ 与奥克兰大学签 5 年国际合作协议",
+        "paragraphs": [
+          "11 月 17 日，UQ 官网宣布：UQ 与 Waipapa Taumata Rau, University of Auckland 签署新的 International Cooperation Agreement。两校自 2000 年起保持机构合作。",
+          "官方原文：The 5-year agreement builds on more than 2 decades of institutional partnership between the universities.",
+          "协议将支持原住民研究、原住民教育与教学、原住民治理交流等方向的后续合作，由 UQ Indigenous Engagement 与奥克兰大学 Māori and Pacific 领导团队推进。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-17 · <a href=\"https://news.uq.edu.au/2026-11-uq-strengthens-indigenous-partnership-new-zealand\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "03 12 米 CLT 天花板实火测试",
+        "paragraphs": [
+          "11 月 12 日，UQ 官网发布：UQ 消防安全工程团队与 Queensland Fire Department 合作，在 Port of Brisbane 的 QFD 训练场对木结构天花板隔间做实火测试，研究建筑设计如何影响火势。",
+          "官方原文：The research team constructed 12-metre long cross-laminated timber (CLT) ceiling compartments and set them alight under the supervision of QFD firefighters at their training ground at the Port of Brisbane.",
+          "每个隔间内部用直播摄像头和热量、压力传感器监测。该研究是 PhD 候选人 Josh Madden 的课题，属于 UQ 土木工程学院管理的 ARC Research Hub to Advance Timber for Australia’s Future Built Environment。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-12 · <a href=\"https://news.uq.edu.au/2026-11-improving-safety-timber-buildings-setting-them-fire\">news.uq.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "AFR 排名：UQ 总排名第 3，教学全国第 2。",
+        "奥克兰合作：5 年协议，聚焦原住民研究、教育与治理交流。",
+        "木结构防火：12 米 CLT 天花板隔间实火测试，属于 PhD 课题。"
+      ]
+    },
+    "meta": { "readTime": "约 3 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "12 号到 17 号 UQ 官网发了三条，我都读完了。\n\n第1条：AFR 2026 排名，UQ 总排名第 3、教学全国第 2。官方原文：ranked third overall and placed second nationally for teaching.\n\n第2条：UQ 和奥克兰大学签了 5 年合作协议，方向是原住民研究和教育。\n\n第3条：土木团队和昆州消防部门给 12 米木结构天花板做实火测试。\n\n在读 UQ 的同学，评论区说说你们课堂体验怎么样。",
+        "tags": ["#昆士兰大学", "#UQ", "#澳洲留学", "#布里斯班", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出（名次按官方原文转述）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
