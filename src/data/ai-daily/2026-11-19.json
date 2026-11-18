@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-19",
+  "summary": {
+    "hook": [{"text":"Nvidia季度营收1158亿美元"},{"text":"Gemini Tasks免费开放澳洲"},{"text":"AI模型被「游戏」说法骗去选打击目标"}],
+    "sub": "一份换帅后的首份财报、一个在澳洲就能用的代办功能、一份AI军事安全测试报告，均用一手原文加独立媒体核对。",
+    "items": [
+      {"num":"01","cat":"芯片","numColor":"#76B900","t":"Nvidia三季度营收1158亿美元，数据中心1076亿；下季指引1300亿，不计中国"},
+      {"num":"02","cat":"Agent","numColor":"#3B82F6","t":"Gemini Tasks免费推向美日韩加澳印，能替你打电话、付账单，买东西前要你确认"},
+      {"num":"03","cat":"AI安全","numColor":"#FF5757","t":"Vals测试：AI模型很少拒绝在无人机和卫星图里选打击目标，拒绝了说是游戏就行"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-nvidia-q3-fy27-earnings",
+      "idx": "01",
+      "catText": "芯片",
+      "accent": "#76B900",
+      "bg": {"top":"芯片","mid":"NVIDIA Q3","bot":"2026.11.19","topRight":""},
+      "title": [{"text":"Nvidia三季度营收1158亿美元"}],
+      "oneline": [{"text":"黄仁勋离任后首份财报超预期，下季指引1300亿美元，但没算中国数据中心收入。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"截至10月25日的季度营收1158亿美元，同比涨103%；数据中心1076亿美元，同比涨110%。"},
+        {"k":"为什么重要","v":"比分析师预期高出60多亿美元，下季指引1300亿也高于共识；股价周三仍跌约2%。"},
+        {"k":"对你的影响","v":"算力需求还在涨。指引里不含中国数据中心计算收入，出口管制仍是最大变量。"}
+      ],
+      "src": "📎 nvidianews.nvidia.com · cnbc.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"NVIDIA","url":"https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027","claim":"季度营收","quote":"today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion"},
+        {"type":"primary","publisher":"NVIDIA","url":"https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027","claim":"增速","quote":"up 20% from the previous quarter and up 103% from a year ago."},
+        {"type":"primary","publisher":"NVIDIA","url":"https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027","claim":"数据中心营收","quote":"Data Center revenue of $107.6 billion, up 110% from a year ago"},
+        {"type":"primary","publisher":"NVIDIA","url":"https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027","claim":"下季指引","quote":"Revenue is expected to be $130.0 billion, plus or minus 3%."},
+        {"type":"primary","publisher":"NVIDIA","url":"https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027","claim":"指引不含中国","quote":"NVIDIA is not assuming any Data Center compute revenue from China in its outlook."},
+        {"type":"independent","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html","claim":"超预期","quote":"third-quarter revenue came in at $115.84 billion, more than $6 billion above analysts' expectations of $109.10 billion"},
+        {"type":"independent","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html","claim":"指引高于共识","quote":"fourth-quarter guidance of $130 billion topped the $125.1 billion consensus, according to LSEG."},
+        {"type":"independent","publisher":"CNBC","url":"https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html","claim":"股价反应","quote":"Nvidia shares sank around 2% Wednesday"}
+      ]
+    },
+    {
+      "slug": "02-gemini-tasks-free-rollout",
+      "idx": "02",
+      "catText": "Agent",
+      "accent": "#3B82F6",
+      "bg": {"top":"AGENT","mid":"GEMINI TASKS","bot":"2026.11.19","topRight":""},
+      "title": [{"text":"Gemini Tasks免费开放，澳洲也在列"}],
+      "oneline": [{"text":"在Gemini App把Chat切到Task，就能让它打电话、付账单、跑完一整件事。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Google 11月17日把Tasks免费推向美、日、韩、加、澳、印，底层用Gemini 4 Hydrogen。"},
+        {"k":"为什么重要","v":"它会替你给商家打电话并先表明自己是AI；付款走AP2协议，可设硬性消费上限。"},
+        {"k":"对你的影响","v":"澳洲用户现在就能试。部分高级功能先限美国；Google也承认还会出错。"}
+      ],
+      "src": "📎 blog.google · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Google","url":"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/","claim":"开放范围","quote":"Starting now, this update is rolling out free of charge for hundreds of millions of people across the U.S., Japan, Korea, Canada, Australia, and India, using our new Gemini 4 Hydrogen model."},
+        {"type":"primary","publisher":"Google","url":"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/","claim":"使用入口","quote":"You can try these new capabilities today by switching the toggle from Chat to Task in the Gemini app."},
+        {"type":"primary","publisher":"Google","url":"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/","claim":"高级功能先限美国","quote":"We're also rolling out a set of advanced features, starting in the U.S."},
+        {"type":"primary","publisher":"Google","url":"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/","claim":"打电话会表明AI身份","quote":"On the dealership's end, Gemini disclosed right away that it's an AI."},
+        {"type":"primary","publisher":"Google","url":"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/","claim":"消费上限","quote":"You can also set a hard spending cap upfront, and Gemini is designed to stay within your budget."},
+        {"type":"primary","publisher":"Google","url":"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/","claim":"支付协议","quote":"Gemini now uses the Agent Payments Protocol (AP2) to make purchases like this."},
+        {"type":"primary","publisher":"Google","url":"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/","claim":"仍会出错","quote":"While we've tested tasks extensively to minimize mistakes, we haven't eliminated all of them."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/","claim":"可登录网站","quote":"sign into websites securely if prompted"}
+      ]
+    },
+    {
+      "slug": "03-vals-ai-military-targeting-jailbreak",
+      "idx": "03",
+      "catText": "AI安全",
+      "accent": "#FF5757",
+      "bg": {"top":"AI安全","mid":"TARGETING TEST","bot":"2026.11.19","topRight":""},
+      "title": [{"text":"说是游戏，AI就肯在图里选打击目标"}],
+      "oneline": [{"text":"Vals用无人机和卫星图测试主流模型，拒绝很少见，拒绝后一句「这是游戏」就能绕过。"}],
+      "bullets": [
+        {"k":"发生了什么","v":"Vals 11月17日发报告：让模型在无人机、卫星图里找人和目标，请求没被安全分类器拦过。"},
+        {"k":"为什么重要","v":"图表里GPT-6 Astra选目标比例从6%升到92%，差别只在提示里说这是游戏。"},
+        {"k":"对你的影响","v":"做Agent或审核产品的，别把模型自带拒绝当安全边界，高风险动作要另加人工和规则闸门。"}
+      ],
+      "src": "📎 vals.ai · techcrunch.com",
+      "sourceEvidence": [
+        {"type":"primary","publisher":"Vals AI","url":"https://www.vals.ai/blogs/autonomous-warfare","claim":"测试内容","quote":"We asked AI models to find people and targets in drone and satellite images."},
+        {"type":"primary","publisher":"Vals AI","url":"https://www.vals.ai/blogs/autonomous-warfare","claim":"未被拦截","quote":"None of our requests were ever blocked by a classifier, and refusals from models themselves were uncommon."},
+        {"type":"primary","publisher":"Vals AI","url":"https://www.vals.ai/blogs/autonomous-warfare","claim":"游戏越狱","quote":"When models did refuse, they were trivially jailbroken by being told they were playing a game."},
+        {"type":"primary","publisher":"Vals AI","url":"https://www.vals.ai/blogs/autonomous-warfare","claim":"游戏框架下更愿意","quote":"When told it's a game, models were much more willing to give targets."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/","claim":"越狱方式","quote":"researchers were able to jailbreak them by claiming the battlefield scenarios were part of a game."},
+        {"type":"independent","publisher":"TechCrunch","url":"https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/","claim":"拒绝后仍配合","quote":"Even when models did refuse, they often complied after being told they were playing a game."}
+      ]
+    }
+  ],
+  "mp": {"title": "Nvidia季度营收1158亿美元，Gemini Tasks免费开放澳洲，AI被「游戏」说法骗去选打击目标"}
+}
