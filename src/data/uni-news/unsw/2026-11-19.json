@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-19",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "新南威尔士大学 UNSW",
+    "hookSub": "11 月 17–18 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "QS 可持续发展排名 2027：UNSW 上升 2 位到全球第 5，总分 99.0。",
+      "郝晓菁 Xiaojing Hao 教授获 Hamakawa Award，是首位获此奖的澳洲光伏科学家。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "QS 可持续排名", "data": "全球第 5" },
+      { "num": "02", "title": "Hamakawa Award", "data": "4 项世界纪录技术" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "排名",
+      "h2Main": "QS 可持续排名全球第 5",
+      "h2Sub": "总分从 98.2 升到 99.0",
+      "h2Highlight": "第 5",
+      "lead": "11 月 17 日 UNSW 官网发布：在 2027 QS Sustainability Rankings 中，UNSW 上升 2 位到全球第 5，并保持澳洲排名首位。",
+      "bullets": [
+        { "k": "总排名", "v": "全球第 5，较上年上升 2 位" },
+        { "k": "总分", "v": "98.2（2026）→ 99.0" },
+        { "k": "分项", "v": "Social Impact 并列第 2，Environmental Impact 第 11，Governance 并列第 44" },
+        { "k": "就业相关", "v": "Employability and Opportunities 全球第 14" },
+        { "k": "评估范围", "v": "近 6,000 所大学参评，公布 2,003 所结果" }
+      ],
+      "sourceQuote": "UNSW Sydney has risen two places to fifth globally in the 2027 QS Sustainability Rankings, retaining its position as Australia's top-ranked university.",
+      "source": "UNSW Newsroom · 2026-11-17",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-ranks-first-in-australia-and-fifth-globally-in-qs-sustainability-rankings"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "郝晓菁教授获光伏大奖",
+      "h2Sub": "首位获 Hamakawa Award 的澳洲光伏科学家",
+      "h2Highlight": "Hamakawa Award",
+      "lead": "11 月 18 日 UNSW 官网发布：Scientia Professor Xiaojing Hao 获 World Conference on Photovoltaic Energy Conversion 的 Hamakawa Award。",
+      "bullets": [
+        { "k": "奖项", "v": "WCPEC Hamakawa Award，2014 年设立，不是每年都颁发" },
+        { "k": "意义", "v": "首位获此奖的澳洲光伏科学家" },
+        { "k": "成果", "v": "把 4 种不同的薄膜光伏技术做到世界纪录效率" },
+        { "k": "经历", "v": "2006 年作为博士生进入光伏领域" },
+        { "k": "提名人", "v": "UNSW Scientia Professor Martin Green" }
+      ],
+      "sourceQuote": "UNSW Scientia Professor Xiaojing Hao is the first Australian photovoltaics scientist to receive the Hamakawa Award in recognition of her breakthroughs in developing the next generation of solar energy cells.",
+      "source": "UNSW Newsroom · 2026-11-18",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-scientia-professor-xiaojing-hao-wins-prestigious-engineering-award"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "QS 可持续排名", "body": "UNSW 上升 2 位到全球第 5，总分 99.0；Social Impact 全球并列第 2。" },
+      { "n": "02", "title": "Hamakawa Award", "body": "郝晓菁教授获 WCPEC Hamakawa Award，把 4 种薄膜光伏技术做到世界纪录效率。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/19"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 这两天两条新闻",
+      "body": "11 月 17 号和 18 号 UNSW 官网各发了一条，我整理了一下。\n\n一条是 QS 可持续排名升到全球第 5，一条是郝晓菁教授拿了光伏领域的 Hamakawa Award。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "QS 可持续排名 UNSW 第 5",
+      "body": "2027 QS Sustainability Rankings 出了。\n\n官方原文：UNSW Sydney has risen two places to fifth globally in the 2027 QS Sustainability Rankings, retaining its position as Australia's top-ranked university.\n\n总分从 98.2 升到 99.0。近 6,000 所大学参评，公布了 2,003 所的结果。\n\n这是可持续专项榜，不是综合排名 📊",
+      "tags": "#新南威尔士大学 #UNSW #QS排名 #澳洲留学 #澳洲大学"
+    },
+    "p3": {
+      "title": "分项里我看了就业这一栏",
+      "body": "UNSW 的分项：Social Impact 并列第 2，Environmental Impact 第 11，Governance 并列第 44。\n\nSocial Impact 下面还细分了，官网写 Employability and Opportunities 排全球第 14。\n\n我自己会多看这一栏，毕竟毕业找工作才是大事。不过专项榜只是参考，专业本身更重要。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "郝晓菁教授拿光伏大奖",
+      "body": "11 月 18 号 UNSW 官网：Scientia Professor Xiaojing Hao 获 Hamakawa Award。\n\n官方原文：UNSW Scientia Professor Xiaojing Hao is the first Australian photovoltaics scientist to receive the Hamakawa Award in recognition of her breakthroughs in developing the next generation of solar energy cells.\n\n她 2006 年读博时进入光伏领域，已经把 4 种薄膜光伏技术做到世界纪录效率。\n\n读能源、材料、物理、化学的同学可以关注她的组 ☀️",
+      "tags": "#新南威尔士大学 #UNSW #光伏 #澳洲留学 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW 日报 评论区聊聊",
+      "body": "郝教授在采访里说，希望更多学工程、材料、物理、化学、数据科学的学生加入清洁能源研究。\n\n你们有在 UNSW 读能源方向的吗？评论区说说课程体验。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW QS 可持续排名升至全球第 5；郝晓菁教授获光伏领域 Hamakawa Award",
+    "lead": "11 月 17 日和 18 日，新南威尔士大学官网发布两条消息：QS 可持续发展排名 2027 的结果，以及 Scientia Professor 郝晓菁获 Hamakawa Award。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 QS 可持续排名：UNSW 升到全球第 5",
+        "paragraphs": [
+          "11 月 17 日，UNSW 官网发布：UNSW Sydney has risen two places to fifth globally in the 2027 QS Sustainability Rankings, retaining its position as Australia's top-ranked university.",
+          "总分从 2026 年的 98.2 升到 99.0。分项上，Social Impact 并列全球第 2，Environmental Impact 第 11（上升 7 位），Governance 并列第 44。Social Impact 下的 Employability and Opportunities 排全球第 14。",
+          "这一届近 6,000 所大学参评，公布了 2,003 所的结果。校长 Attila Brungs 教授：Sustainability is embedded across UNSW's strategy and culture."
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-17 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-ranks-first-in-australia-and-fifth-globally-in-qs-sustainability-rankings\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 郝晓菁教授获 Hamakawa Award",
+        "paragraphs": [
+          "11 月 18 日，UNSW 官网发布：UNSW Scientia Professor Xiaojing Hao is the first Australian photovoltaics scientist to receive the Hamakawa Award in recognition of her breakthroughs in developing the next generation of solar energy cells.",
+          "Hamakawa Award 由 World Conference on Photovoltaic Energy Conversion 于 2014 年设立，不是每年都颁发。郝教授 2006 年作为博士生进入光伏领域，已把 4 种不同的薄膜光伏技术做到世界纪录效率。提名人是 UNSW Scientia Professor Martin Green。",
+          "郝教授说：By studying engineering, materials science, physics, chemistry, data science or related disciplines, students can contribute to solving the scientific and engineering problems that will enable the next generation of clean-energy technologies."
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-18 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-scientia-professor-xiaojing-hao-wins-prestigious-engineering-award\">unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "QS 可持续排名 2027：UNSW 上升 2 位到全球第 5，总分 99.0；Social Impact 并列第 2。",
+        "郝晓菁教授获 WCPEC Hamakawa Award，是首位获此奖的澳洲光伏科学家。"
+      ]
+    },
+    "meta": { "readTime": "约 2 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 17 号和 18 号 UNSW 官网有两条消息，我都读完了。\n\n第1条：QS 可持续排名。官方原文：UNSW Sydney has risen two places to fifth globally in the 2027 QS Sustainability Rankings, retaining its position as Australia's top-ranked university.\n\n第2条：郝晓菁教授获 Hamakawa Award，她已经把 4 种薄膜光伏技术做到世界纪录效率。\n\n读能源方向的同学评论区聊聊。",
+        "tags": ["#新南威尔士大学", "#UNSW", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出（「首位」仅为官方原文复述）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

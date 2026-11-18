@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-19",
+  "school": "monash",
+  "summary": {
+    "hookMain": "莫纳什大学 Monash",
+    "hookSub": "11 月 13–18 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "QS 可持续发展排名 2027：Monash 上升 16 位到全球第 21，历史最好。",
+      "两名 Monash 医学生同获 2027 Rhodes Scholarship，其中一位 11 岁从中国农村移居澳洲。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "QS 可持续排名", "data": "全球第 21" },
+      { "num": "02", "title": "Rhodes 奖学金", "data": "2 名医学生" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "排名",
+      "h2Main": "QS 可持续排名升 16 位",
+      "h2Sub": "全球第 21，历史最好名次",
+      "h2Highlight": "16 位",
+      "lead": "11 月 18 日 Monash 官网发布：在 QS World University Rankings: Sustainability 2027 中，Monash 上升 16 位到全球第 21。",
+      "bullets": [
+        { "k": "总排名", "v": "全球第 21，较上年上升 16 位" },
+        { "k": "Social Impact", "v": "全球并列第二" },
+        { "k": "校园用电", "v": "自 2025 年起，四个澳洲校区电力全部来自可再生能源" },
+        { "k": "课程", "v": "100 多个本科和研究生 unit 聚焦可持续" },
+        { "k": "研究", "v": "41 个研究所、中心和 hub 参与可持续与气候研究" }
+      ],
+      "sourceQuote": "Monash University has jumped 16 places to rank 21st globally in the QS World University Rankings: Sustainability 2027 – its highest position to date.",
+      "source": "Monash Newsroom · 2026-11-18",
+      "sourceUrl": "https://www.monash.edu/newsroom/news/2026/monash-achieves-best-performance-to-date-in-qs-world-university-rankings-sustainability-2027"
+    },
+    {
+      "idx": "02",
+      "category": "学生成就",
+      "h2Main": "两名医学生获 Rhodes",
+      "h2Sub": "毕业前一学期在 Bendigo 做邻居",
+      "h2Highlight": "Rhodes",
+      "lead": "11 月 13 日 Monash 官网发布：医学生 Chen Wang 和 Eliza O'Sullivan 同获 2027 Rhodes Scholarship，将去牛津读研。",
+      "bullets": [
+        { "k": "获奖人", "v": "Chen Wang（Australia-at-Large）、Eliza O'Sullivan（维州名额）" },
+        { "k": "名额", "v": "澳洲每年只选 9 人" },
+        { "k": "Chen 的背景", "v": "11 岁随家人从中国农村移居澳洲" },
+        { "k": "Chen 的研究", "v": "Honours 研究用 AI 通过视网膜扫描预测青光眼进展" },
+        { "k": "接下来", "v": "2027 年先在 Bendigo Health 实习，10 月去牛津" }
+      ],
+      "sourceQuote": "Now, both have been named 2027 Rhodes Scholars, among just nine Australians selected each year.",
+      "source": "Monash Newsroom · 2026-11-13",
+      "sourceUrl": "https://www.monash.edu/newsroom/news/2026/two-monash-medical-students-named-rhodes-scholars"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "QS 可持续排名", "body": "Monash 上升 16 位到全球第 21，是历史最好名次；Social Impact 全球并列第二。" },
+      { "n": "02", "title": "Rhodes 奖学金", "body": "医学生 Chen Wang 和 Eliza O'Sullivan 同获 2027 Rhodes Scholarship，澳洲每年只选 9 人。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/19"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash 这周两条 我读完了",
+      "body": "11 月 13 号和 18 号 Monash 官网各发了一条，我挑出来整理了。\n\n一条是 QS 可持续排名升到全球第 21，一条是两个医学生同时拿到 Rhodes Scholarship。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "QS 可持续排名升 16 位",
+      "body": "11 月 18 号 Monash 官网发的。\n\n官方原文：Monash University has jumped 16 places to rank 21st globally in the QS World University Rankings: Sustainability 2027 – its highest position to date.\n\nSocial Impact 这一项是全球并列第二。\n\n这是可持续专项榜，选校时当参考就行 📊",
+      "tags": "#莫纳什大学 #Monash #QS排名 #澳洲留学 #澳洲大学"
+    },
+    "p3": {
+      "title": "Monash 校区电全靠可再生",
+      "body": "排名新闻里提到的几个具体数字我摘出来了：\n\n官方原文：Since 2025, all electricity across its four Australian campuses has been powered by renewables.\n\n另外有 100 多个本科和研究生 unit 聚焦可持续，41 个研究所和中心在做可持续和气候研究。\n\n想选环境类 elective 的同学可以去 handbook 搜搜 🌱",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "从中国农村到牛津 Rhodes",
+      "body": "11 月 13 号 Monash 官网：医学生 Chen Wang 和 Eliza O'Sullivan 同获 2027 Rhodes Scholarship。\n\n官方原文：Now, both have been named 2027 Rhodes Scholars, among just nine Australians selected each year.\n\nChen 11 岁从中国农村随家人移居澳洲，小时候帮家里做翻译。他的 Honours 研究是用 AI 看视网膜扫描预测青光眼进展。\n\n他的原话：I grew up in rural China, so in some ways it feels like things have come full circle. 读完挺受触动的 🩺",
+      "tags": "#莫纳什大学 #Monash #罗德奖学金 #澳洲医学 #澳洲留学"
+    },
+    "p5": {
+      "title": "Monash 日报 评论区聊聊",
+      "body": "这两条一条是排名，一条是学生成就。Rhodes 是去牛津读研的奖学金，不是 Monash 自己的奖学金。\n\n你们身边有在申 Rhodes 或者其他海外读研奖学金的吗？评论区聊聊。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "Monash QS 可持续排名升至全球第 21；两名医学生同获 2027 Rhodes Scholarship",
+    "lead": "11 月 13 日和 18 日，莫纳什大学官网发布两条消息：QS 可持续发展排名 2027 的最好成绩，以及两名医学生同获 Rhodes Scholarship。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 QS 可持续排名：上升 16 位到全球第 21",
+        "paragraphs": [
+          "11 月 18 日，Monash 官网发布：Monash University has jumped 16 places to rank 21st globally in the QS World University Rankings: Sustainability 2027 – its highest position to date.",
+          "其中 Social Impact 全球并列第二，Environmental Impact 也有提升，主要来自 environmental research 指标。",
+          "官网列出的具体做法：自 2025 年起，四个澳洲校区的电力全部来自可再生能源；100 多个本科和研究生 unit 聚焦可持续；41 个研究所、中心和 hub 参与可持续与气候研究。Monash 也承诺 2030 年前实现澳洲校区净零排放。"
+        ],
+        "sourceHtml": "Monash Newsroom · 2026-11-18 · <a href=\"https://www.monash.edu/newsroom/news/2026/monash-achieves-best-performance-to-date-in-qs-world-university-rankings-sustainability-2027\">monash.edu</a>"
+      },
+      {
+        "h2": "02 两名医学生同获 2027 Rhodes Scholarship",
+        "paragraphs": [
+          "11 月 13 日，Monash 官网发布：医学生 Chen Wang 和 Eliza O'Sullivan 毕业前一学期在 Bendigo 实习时住隔壁，如今同获 Rhodes Scholarship。官方原文：Now, both have been named 2027 Rhodes Scholars, among just nine Australians selected each year.",
+          "Chen 获得 Australia-at-Large 名额，Eliza 在 9 月被评为维州 2027 Rhodes Scholar。Chen 11 岁随家人从中国农村移居澳洲，曾任 Monash University Medical Students' Society 主席，Honours 研究用 AI 通过视网膜扫描预测青光眼进展。",
+          "Chen 2027 年将先在 Bendigo Health 开始实习，10 月去牛津。他说：Spending this year in regional Victoria has given me a much deeper appreciation of rural healthcare and the communities it serves.",
+          "Eliza 联合创办了 Rural Rounds，帮助弱势的乡村高中生走向医学职业，在牛津计划读国际卫生与卫生系统设计方向。"
+        ],
+        "sourceHtml": "Monash Newsroom · 2026-11-13 · <a href=\"https://www.monash.edu/newsroom/news/2026/two-monash-medical-students-named-rhodes-scholars\">monash.edu</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "QS 可持续排名 2027：Monash 上升 16 位到全球第 21，历史最好；Social Impact 全球并列第二。",
+        "医学生 Chen Wang 和 Eliza O'Sullivan 同获 2027 Rhodes Scholarship，澳洲每年只选 9 人。"
+      ]
+    },
+    "meta": { "readTime": "约 3 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 13 号和 18 号 Monash 官网有两条消息，我都读完了。\n\n第1条：QS 可持续排名。官方原文：Monash University has jumped 16 places to rank 21st globally in the QS World University Rankings: Sustainability 2027 – its highest position to date.\n\n第2条：两名医学生同获 Rhodes。官方原文：Now, both have been named 2027 Rhodes Scholars, among just nine Australians selected each year.\n\n其中 Chen Wang 11 岁从中国农村来澳洲，评论区聊聊你们怎么看。",
+        "tags": ["#莫纳什大学", "#Monash", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
