@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-11-20T19:07:20.335Z",
+  "lockedAt": "2026-11-20T23:39:10.606Z",
   "version": 1,
   "slugs": [
     {
@@ -1148,6 +1148,10 @@
     },
     {
       "type": "article",
+      "slug": "it-daily-2026-11-21"
+    },
+    {
+      "type": "article",
       "slug": "kmart-nail-glue-button-battery-accc-case-2026"
     },
     {
@@ -1332,6 +1336,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-adelaide-2026-11-21"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-monash-2026-04-21"
     },
     {
@@ -1452,6 +1460,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-monash-2026-11-19"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-umelb-2026-04-24"
     },
     {
@@ -1565,6 +1577,10 @@
     {
       "type": "article",
       "slug": "uni-news-umelb-2026-11-15"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-umelb-2026-11-19"
     },
     {
       "type": "article",
@@ -1697,6 +1713,10 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-11-17"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-unsw-2026-11-19"
     },
     {
       "type": "article",
@@ -1840,6 +1860,10 @@
     },
     {
       "type": "article",
+      "slug": "uni-news-uq-2026-11-21"
+    },
+    {
+      "type": "article",
       "slug": "uni-news-usyd-2026-04-22"
     },
     {
@@ -1953,6 +1977,10 @@
     {
       "type": "article",
       "slug": "uni-news-usyd-2026-11-18"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-11-21"
     },
     {
       "type": "article",
@@ -3038,30 +3066,6 @@
     {
       "type": "story",
       "slug": "bob-civil-to-devops"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-monash-2026-11-19"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-umelb-2026-11-19"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-unsw-2026-11-19"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-adelaide-2026-11-21"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-uq-2026-11-21"
-    },
-    {
-      "type": "article",
-      "slug": "uni-news-usyd-2026-11-21"
     }
   ]
 }
