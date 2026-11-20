@@ -1,0 +1,229 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-21",
+  "school": "uq",
+  "summary": {
+    "hookMain": "昆士兰大学 UQ",
+    "hookSub": "11 月 18–19 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "2027 QS Sustainability Rankings：UQ 上升 22 位到全球第 28。",
+      "残奥泳将 Rachael Watson 结束 3 个月 Churchill Fellowship 欧洲访学，回到布里斯班。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "QS 可持续排名",
+        "data": "全球第 28"
+      },
+      {
+        "num": "02",
+        "title": "Rachael Watson",
+        "data": "欧洲 3 个月"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "排名",
+      "h2Main": "QS 可持续排名升 22 位",
+      "h2Sub": "UQ 排到全球第 28",
+      "h2Highlight": "22 位",
+      "lead": "11 月 19 日 UQ 官网发布：在 2027 QS Sustainability Rankings 中，UQ 上升 22 位，排到全球第 28。",
+      "bullets": [
+        {
+          "k": "总排名",
+          "v": "全球第 28，上升 22 位"
+        },
+        {
+          "k": "分项原文",
+          "v": "UQ ranked equal first for health and wellbeing impact and second nationally for environmental research"
+        },
+        {
+          "k": "评估维度",
+          "v": "environmental impact、social impact、governance 三项"
+        },
+        {
+          "k": "榜单性质",
+          "v": "可持续专项榜，不是综合排名"
+        }
+      ],
+      "sourceQuote": "The University of Queensland (UQ) has risen 22 places to rank 28th globally in the QS Sustainability Rankings.",
+      "source": "UQ News · 2026-11-19",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-uq-rises-22-places-2027-qs-sustainability-rankings"
+    },
+    {
+      "idx": "02",
+      "category": "校园",
+      "h2Main": "残奥泳将的 Churchill 访学",
+      "h2Sub": "Rachael Watson 在欧洲待了 3 个月",
+      "h2Highlight": "Churchill",
+      "lead": "11 月 18 日 UQ 官网专题：残奥游泳运动员 Rachael Watson 以 Churchill Fellow 身份在欧洲待了 3 个月后回到布里斯班，她的目标是 2028 年洛杉矶的第三枚金牌。",
+      "bullets": [
+        {
+          "k": "人物",
+          "v": "残奥游泳运动员 Rachael Watson"
+        },
+        {
+          "k": "目标",
+          "v": "2028 年洛杉矶，第三枚金牌"
+        },
+        {
+          "k": "访学",
+          "v": "以 Churchill Fellow 身份在欧洲 3 个月，已回到布里斯班"
+        },
+        {
+          "k": "她的经历",
+          "v": "她说当初很难找到愿意带残障运动员的教练"
+        },
+        {
+          "k": "Fellowship",
+          "v": "Winston Churchill Memorial Trust 自 1965 年以来已颁出超过 4,500 个 fellowship"
+        }
+      ],
+      "sourceQuote": "Since the Paralympics began in 1960, Australia has not been represented by swimmers in particular classifications",
+      "source": "UQ News · 2026-11-18",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-paralympian-paving-way-more-champions-pool"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "昆士兰大学官网两条 · 内容都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "QS 可持续排名",
+        "body": "2027 QS Sustainability Rankings：UQ 上升 22 位到全球第 28。"
+      },
+      {
+        "n": "02",
+        "title": "Rachael Watson",
+        "body": "残奥泳将 Rachael Watson 结束 3 个月 Churchill Fellowship 欧洲访学，回到布里斯班。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/21"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 这周两条官网新闻",
+      "body": "11 月 18 号和 19 号 UQ 官网各发了一条，我整理了一下。\n\n一条是 QS 可持续排名升了 22 位，一条是残奥游泳运动员 Rachael Watson 的访学故事。\n\n下面一张图一条，数字都对着官网原文。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #布里斯班 #澳洲大学"
+    },
+    "p2": {
+      "title": "UQ QS 可持续排名第 28",
+      "body": "2027 QS Sustainability Rankings 出了。\n\n官方原文：The University of Queensland (UQ) has risen 22 places to rank 28th globally in the QS Sustainability Rankings.\n\n这个榜看三个维度：environmental impact、social impact、governance。\n\n是可持续专项榜，不是综合排名 📊",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #布里斯班 #澳洲大学"
+    },
+    "p3": {
+      "title": "分项我只敢贴原文",
+      "body": "分项那句我直接贴官网英文，不自己翻了，怕翻歪：\n\nUQ ranked equal first for health and wellbeing impact and second nationally for environmental research.\n\n我自己选校的时候专项榜只当参考，更在意专业课表和实习安排。\n\n你们选校会看这种专项榜吗？",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #布里斯班 #澳洲大学"
+    },
+    "p4": {
+      "title": "残奥泳将回布里斯班了",
+      "body": "11 月 18 号 UQ 官网的专题。\n\nRachael Watson 以 Churchill Fellow 身份在欧洲待了 3 个月，现在回到布里斯班，目标是 2028 年洛杉矶的第三枚金牌。\n\n她说当初找一个愿意带残障运动员的教练非常难。\n\n官网还写到 Winston Churchill Memorial Trust 从 1965 年到现在颁了超过 4,500 个 fellowship 🏊",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #布里斯班 #澳洲大学"
+    },
+    "p5": {
+      "title": "UQ 日报 评论区聊聊",
+      "body": "Watson 那篇我读了两遍。她提到从 1960 年有残奥会以来，澳洲在某些分级里一直没有游泳运动员参赛。\n\n期末周看到这种故事还挺提神的。\n\n有在 UQ 读运动科学或者教练方向的姐妹吗？评论区扣 1。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #布里斯班 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UQ QS 可持续排名上升 22 位至全球第 28；残奥泳将 Rachael Watson 结束 3 个月欧洲访学",
+    "lead": "11 月 18 日和 19 日，昆士兰大学官网发布两条消息：2027 QS Sustainability Rankings 的结果，以及残奥游泳运动员 Rachael Watson 的 Churchill Fellowship 故事。下面逐条看，引用的英文都来自官网原文。",
+    "newsBodies": [
+      {
+        "h2": "01 QS 可持续排名升 22 位",
+        "paragraphs": [
+          "11 月 19 日，UQ 官网发布：The University of Queensland (UQ) has risen 22 places to rank 28th globally in the QS Sustainability Rankings.",
+          "分项上，官网原文是：UQ ranked equal first for health and wellbeing impact and second nationally for environmental research. 这个榜单从 environmental impact、social impact 和 governance 三个维度评估大学。",
+          "这是可持续专项榜，不是综合排名。选校时可以当一个参考维度，专业和课程设置还是要去官网逐项看。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-19 · <a href=\"https://news.uq.edu.au/2026-11-uq-rises-22-places-2027-qs-sustainability-rankings\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "02 残奥泳将的 Churchill 访学",
+        "paragraphs": [
+          "11 月 18 日，UQ 官网发布专题 The Paralympian paving the way for more champions in the pool。残奥游泳运动员 Rachael Watson 的目标是 2028 年在洛杉矶拿到第三枚金牌，她刚以 Churchill Fellow 身份在欧洲待了 3 个月，现在回到了布里斯班。",
+          "她在文中说：It was a huge challenge finding a coach who wanted to train an athlete with a disability. 官网还写到，The Winston Churchill Memorial Trust has awarded more than 4,500 fellowships since 1965.",
+          "Watson 认为现行的残奥分级体系可能让一部分游泳运动员处于不利位置。她说：Since the Paralympics began in 1960, Australia has not been represented by swimmers in particular classifications."
+        ],
+        "sourceHtml": "UQ News · 2026-11-18 · <a href=\"https://news.uq.edu.au/2026-11-paralympian-paving-way-more-champions-pool\">news.uq.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "2027 QS Sustainability Rankings：UQ 上升 22 位到全球第 28。",
+        "残奥泳将 Rachael Watson 结束 3 个月 Churchill Fellowship 欧洲访学，回到布里斯班。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 18 号和 19 号 UQ 官网各发了一条，我整理了一下。\n\n第1条：2027 QS Sustainability Rankings：UQ 上升 22 位到全球第 28。\n\n第2条：残奥泳将 Rachael Watson 结束 3 个月 Churchill Fellowship 欧洲访学，回到布里斯班。\n\n有在 UQ 读运动科学或者教练方向的姐妹吗？评论区扣 1。",
+        "tags": [
+          "#昆士兰大学",
+          "#UQ",
+          "#澳洲留学",
+          "#布里斯班",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

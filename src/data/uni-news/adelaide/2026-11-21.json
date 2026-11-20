@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-21",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "Adelaide 阿德莱德大学",
+    "hookSub": "11 月 19–20 日 两条官网研究新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "123 名选民追踪虚假信息感知；超过 50% 表示看到过自己认为是虚假信息的内容。",
+      "气候变化和栖息地流失给蝙蝠种群加压；极端高温可能增加蝙蝠排出的病毒量。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "虚假信息研究",
+        "data": "123 名选民"
+      },
+      {
+        "num": "02",
+        "title": "蝙蝠传播疾病",
+        "data": "3 个学院合作"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "虚假信息感知影响民主信任",
+      "h2Sub": "123 名选民追踪自己看到的信息",
+      "h2Highlight": "民主信任",
+      "lead": "11 月 20 日 Adelaide University 官网发布一项新研究：研究者请 123 名有投票资格的选民追踪自己感知到的虚假信息接触情况。",
+      "bullets": [
+        {
+          "k": "样本",
+          "v": "123 名有投票资格的选民"
+        },
+        {
+          "k": "方法",
+          "v": "参与者追踪自己感知到的虚假信息接触"
+        },
+        {
+          "k": "数据",
+          "v": "超过 50% 的参与者表示看到过自己认为是虚假信息的内容"
+        },
+        {
+          "k": "结论",
+          "v": "经核实的和感知到的虚假信息，都与较低的机构信任和民主满意度相关"
+        },
+        {
+          "k": "作者",
+          "v": "一作 Dr Natasha van Antwerpen，共同作者 Dr Toby Prike"
+        }
+      ],
+      "sourceQuote": "Misinformation, both verified and perceived, was associated with lower institutional trust and democratic satisfaction",
+      "source": "Adelaide University News · 2026-11-20",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/misinformation-perception-shapes-support-of-democracy/"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "蝙蝠传播疾病与气候变化",
+      "h2Sub": "三个学院的研究者合作综述",
+      "h2Highlight": "气候变化",
+      "lead": "11 月 19 日 Adelaide University 官网发布：研究者梳理了蝙蝠传播疾病的传播、预防和管理，指出气候变化和栖息地流失正在给蝙蝠种群带来压力。",
+      "bullets": [
+        {
+          "k": "主题",
+          "v": "蝙蝠传播疾病的传播、预防与管理"
+        },
+        {
+          "k": "一作",
+          "v": "Dr Jessica Stanhope，School of Medicine"
+        },
+        {
+          "k": "压力来源",
+          "v": "气候变化和栖息地流失让全球蝙蝠种群承受更大压力"
+        },
+        {
+          "k": "高温",
+          "v": "Associate Professor Wayne Boardman：极端高温给蝙蝠带来巨大压力，可能增加它们排出的病毒量"
+        },
+        {
+          "k": "本地",
+          "v": "Professor Philip Weinstein 提到 Adelaide 正因城市开发失去成熟树木"
+        }
+      ],
+      "sourceQuote": "Extreme heat places enormous stress on bats, potentially increasing the amount of virus they shed",
+      "source": "Adelaide University News · 2026-11-19",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/climate-change-and-habitat-loss-could-fuel-deadly-bat-borne-dise/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿德莱德大学官网两条 · 内容都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "虚假信息研究",
+        "body": "123 名选民追踪虚假信息感知；超过 50% 表示看到过自己认为是虚假信息的内容。"
+      },
+      {
+        "n": "02",
+        "title": "蝙蝠传播疾病",
+        "body": "气候变化和栖息地流失给蝙蝠种群加压；极端高温可能增加蝙蝠排出的病毒量。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/21"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Adelaide 这周两条研究新闻",
+      "body": "11 月 19 号和 20 号 Adelaide University 官网各发了一条研究新闻，我都点进去看了。\n\n一条讲虚假信息和民主信任，一条讲蝙蝠传播疾病和气候变化。\n\n下面一张图一条，数字和引语都对着官网原文。",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "123 名选民追踪虚假信息",
+      "body": "11 月 20 号官网发的研究。\n\n研究者请 123 名有投票资格的选民，追踪自己感知到的虚假信息接触情况。超过 50% 的参与者表示看到过自己认为是虚假信息的内容。\n\n一作 Dr Natasha van Antwerpen 原话：Misinformation, both verified and perceived, was associated with lower institutional trust and democratic satisfaction.",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "这条研究我想到的选课",
+      "body": "看完虚假信息那条，我在想下学期要不要选一门研究方法课。\n\n让参与者自己追踪记录，这种设计我之前只在课本里见过，真看到研究新闻里这么用还挺有感觉的。\n\n不过我统计底子一般，还在犹豫是先补统计还是直接上 🤔\n\n读心理、传播、政治的同学，你们怎么排的？",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "蝙蝠 高温 病毒 一条综述",
+      "body": "11 月 19 号官网发的。\n\n研究者梳理了蝙蝠传播疾病的传播、预防和管理。一作是 School of Medicine 的 Dr Jessica Stanhope。\n\nAssociate Professor Wayne Boardman 原话：Extreme heat places enormous stress on bats, potentially increasing the amount of virus they shed.\n\nProfessor Philip Weinstein 还提到 Adelaide 正因为城市开发失去成熟树木 🦇",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "Adelaide 日报 评论区聊聊",
+      "body": "两条都是研究新闻，一条社科一条公卫。\n\n蝙蝠那条是 Medicine、Public Health、Animal and Veterinary Sciences 三个学院的老师一起做的，跨学院合作我觉得挺有意思。\n\n有在 Adelaide 读公卫或者兽医的姐妹吗？评论区扣 1，说说你们的课。",
+      "tags": "#阿德莱德大学 #AdelaideUniversity #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "Adelaide University：123 名选民追踪虚假信息感知；气候变化与栖息地流失或加剧蝙蝠传播疾病",
+    "lead": "11 月 19 日和 20 日，阿德莱德大学官网发布两条研究新闻，一条关于虚假信息感知与民主信任，一条关于蝙蝠传播疾病。下面逐条看，引用的英文都来自官网原文。",
+    "newsBodies": [
+      {
+        "h2": "01 虚假信息感知影响民主信任",
+        "paragraphs": [
+          "11 月 20 日，Adelaide University 官网发布研究新闻 Misinformation perception shapes support of democracy。研究者请 123 名有投票资格的选民追踪自己感知到的虚假信息接触情况。",
+          "官网写到，超过 50% 的参与者表示看到过自己认为是虚假信息的内容。一作 Dr Natasha van Antwerpen 说：Misinformation, both verified and perceived, was associated with lower institutional trust and democratic satisfaction.",
+          "共同作者 Dr Toby Prike 说：We should be examining misinformation's relationships with broader attitudes including institutional trust. 读心理学、传播学、政治学的同学可以去官网看全文。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-20 · <a href=\"https://adelaide.edu.au/about/news/2026/misinformation-perception-shapes-support-of-democracy/\">adelaide.edu.au</a>"
+      },
+      {
+        "h2": "02 蝙蝠传播疾病与气候变化",
+        "paragraphs": [
+          "11 月 19 日，Adelaide University 官网发布 Climate change and habitat loss could fuel deadly bat-borne disease。研究者梳理了一批危险的蝙蝠传播疾病的传播、预防和管理。",
+          "一作、School of Medicine 的 Dr Jessica Stanhope 说：Climate change and habitat loss are putting increasing pressure on bat populations around the world.",
+          "School of Animal and Veterinary Sciences 的 Associate Professor Wayne Boardman 说：Extreme heat places enormous stress on bats, potentially increasing the amount of virus they shed. School of Public Health 的 Emeritus Professor Philip Weinstein 提到，Adelaide is currently losing mature trees to urban development."
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-19 · <a href=\"https://adelaide.edu.au/about/news/2026/climate-change-and-habitat-loss-could-fuel-deadly-bat-borne-dise/\">adelaide.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "123 名选民追踪虚假信息感知；超过 50% 表示看到过自己认为是虚假信息的内容。",
+        "气候变化和栖息地流失给蝙蝠种群加压；极端高温可能增加蝙蝠排出的病毒量。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 19 号和 20 号 Adelaide University 官网各发了一条研究新闻，我都点进去看了。\n\n第1条：123 名选民追踪虚假信息感知；超过 50% 表示看到过自己认为是虚假信息的内容。\n\n第2条：气候变化和栖息地流失给蝙蝠种群加压；极端高温可能增加蝙蝠排出的病毒量。\n\n有在 Adelaide 读公卫或者兽医的姐妹吗？评论区扣 1，说说你们的课。",
+        "tags": [
+          "#阿德莱德大学",
+          "#AdelaideUniversity",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

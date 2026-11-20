@@ -1,5 +1,5 @@
 {
-  "lockedAt": "2026-11-18T19:25:31.558Z",
+  "lockedAt": "2026-11-20T19:07:20.335Z",
   "version": 1,
   "slugs": [
     {
@@ -3050,6 +3050,18 @@
     {
       "type": "article",
       "slug": "uni-news-unsw-2026-11-19"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-adelaide-2026-11-21"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-uq-2026-11-21"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-11-21"
     }
   ]
 }
