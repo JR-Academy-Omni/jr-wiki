@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-22",
+  "school": "monash",
+  "summary": {
+    "hookMain": "莫纳什大学 Monash",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "校长在北京中澳 CEO 圆桌上提出：增加政府资助，扩大中澳双向学生流动。",
+      "药学院 MIPS 和 Leica 共建 M-LAB，成像分辨率到 30 纳米，通道从 6 色扩到 16 色。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "中澳 CEO 圆桌", "data": "第 9 届" },
+      { "num": "02", "title": "M-LAB 成像中心", "data": "16 色通道" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "国际合作",
+      "h2Main": "校长赴京出席中澳 CEO 圆桌",
+      "h2Sub": "提出扩大中澳双向学生流动",
+      "h2Highlight": "双向学生流动",
+      "lead": "11 月 21 日 Monash 官网发布：校长 Sharon Pickering 教授在北京出席第 9 届中澳 CEO 圆桌，会议与澳洲总理 Albanese 访华同期举行。",
+      "bullets": [
+        { "k": "会议", "v": "第 9 届 Australia-China CEO Roundtable，北京" },
+        { "k": "主办", "v": "Business Council of Australia 与 China Development Bank" },
+        { "k": "建议一", "v": "建立定期的中澳教育部长级对话" },
+        { "k": "建议二", "v": "增加政府资助，扩大中澳双向学生流动项目" },
+        { "k": "科研合作", "v": "与宝武钢铁、中国钢铁合作研发低排放绿色钢铁" }
+      ],
+      "sourceQuote": "I also called for increased government funding to support the expansion of two-way student mobility experiences between Australia and China.",
+      "source": "Monash Newsroom · 2026-11-21",
+      "sourceUrl": "https://www.monash.edu/newsroom/news/2026/vice-chancellor-advocates-for-closer-dialogue-and-an-expansion-in-student-mobility-at-australia-china-ceo-roundtable"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "MIPS 与 Leica 共建 M-LAB",
+      "h2Sub": "分辨率 30 纳米，通道扩到 16 色",
+      "h2Highlight": "16 色",
+      "lead": "11 月 17 日 Monash 官网发布：Monash 药学研究所 MIPS 与 Leica Microsystems 建立合作，在 Parkville 校区成立 M-LAB 生物成像中心。",
+      "bullets": [
+        { "k": "全称", "v": "MIPS-Leica Advanced Bioimaging（M-LAB）" },
+        { "k": "地点", "v": "Monash Parkville 校区" },
+        { "k": "分辨率", "v": "提升到 30 纳米" },
+        { "k": "颜色通道", "v": "从 6 色扩到 16 个独立通道" },
+        { "k": "新能力", "v": "活体成像，实时追踪代谢过程和分子相互作用" }
+      ],
+      "sourceQuote": "The upgraded facility provides superior speed, enhanced resolution to 30 nanometres, and a dramatic expansion in colour capacity – jumping from six colours up to 16 distinct channels.",
+      "source": "Monash Newsroom · 2026-11-17",
+      "sourceUrl": "https://www.monash.edu/newsroom/news/2026/monash-and-leica-partner-to-create-m-lab,-new-centre-for-imaging-excellence"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "中澳 CEO 圆桌", "body": "校长 Sharon Pickering 在北京提出建立中澳教育部长级对话，并呼吁增加政府资助扩大双向学生流动。" },
+      { "n": "02", "title": "M-LAB 成像中心", "body": "MIPS 与 Leica 在 Parkville 共建 M-LAB，分辨率到 30 纳米，颜色通道从 6 色扩到 16 色，支持活体成像。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/22"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash 本周两条新闻整理",
+      "body": "这周 Monash 官网有两条我觉得值得看，都读完了。\n\n一条是校长去北京参加中澳 CEO 圆桌，提到了学生交流；一条是药学院和 Leica 合作建了新的成像中心。\n\n下面一张图一条，关键句都贴了官网原文。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "校长在北京提了学生交流",
+      "body": "11 月 21 号官网发的：Monash 校长 Sharon Pickering 在北京参加第 9 届中澳 CEO 圆桌。\n\n她提了两条教育建议，一条是建立定期的中澳教育部长级对话。\n\n另一条原文：I also called for increased government funding to support the expansion of two-way student mobility experiences between Australia and China.\n\n注意这是校长的倡议，不是已经落地的新项目或奖学金 🤝",
+      "tags": "#莫纳什大学 #Monash #中澳交流 #澳洲留学 #澳洲大学"
+    },
+    "p3": {
+      "title": "圆桌上还聊了绿色钢铁",
+      "body": "校长在圆桌上还讲了 Monash 的清洁技术研究。\n\n官网写到 Monash 和宝武钢铁、中国钢铁合作做低排放绿色钢铁，另外还有绿色氨合成、电池级锂提取、航空轻量电机和下一代储能。\n\n读化工、材料、能源方向的同学，可以顺着这些关键词去找对应的课题组看看。",
+      "tags": "#莫纳什大学 #Monash #新能源 #澳洲留学 #澳洲大学"
+    },
+    "p4": {
+      "title": "药学院新成像中心 M-LAB",
+      "body": "11 月 17 号官网发的：Monash 药学研究所 MIPS 和 Leica Microsystems 合作，在 Parkville 校区建了 M-LAB。\n\n官方原文：The upgraded facility provides superior speed, enhanced resolution to 30 nanometres, and a dramatic expansion in colour capacity – jumping from six colours up to 16 distinct channels.\n\n还能做活体成像，实时看代谢过程。读药学和生物医学的同学，实验条件又多了一项 🔬",
+      "tags": "#莫纳什大学 #Monash #药学 #澳洲留学 #澳洲大学"
+    },
+    "p5": {
+      "title": "Monash 日报 评论区聊聊",
+      "body": "这两条一条是中澳教育交流的倡议，一条是科研设施，都不是奖学金或招生公告。\n\n我自己更关心交换项目以后会不会变多。你们有想过去对方国家交换一学期吗？评论区说说。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "Monash 校长赴京出席中澳 CEO 圆桌，呼吁扩大双向学生流动；MIPS 与 Leica 共建 M-LAB 成像中心",
+    "lead": "本周 Monash 官网发布两条消息：校长在北京第 9 届中澳 CEO 圆桌上提出两项教育政策建议，以及药学研究所 MIPS 与 Leica Microsystems 合作成立 M-LAB 成像中心。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 校长赴京出席中澳 CEO 圆桌",
+        "paragraphs": [
+          "11 月 21 日，Monash 官网发布：Monash University Vice-Chancellor and President, Professor Sharon Pickering, has joined business and government leaders in Beijing for the 9th Australia-China CEO Roundtable, held alongside Prime Minister Anthony Albanese’s official visit to China.",
+          "圆桌由 Business Council of Australia 和 China Development Bank 主办。校长提出两项教育建议：建立定期的中澳教育部长级对话；以及 I also called for increased government funding to support the expansion of two-way student mobility experiences between Australia and China.",
+          "她还介绍了 Monash 与宝武钢铁、中国钢铁合作的低排放绿色钢铁研究，以及绿色氨合成、电池级锂提取、航空轻量电机和下一代储能等项目，并提到在人工智能治理方面与中方合作。"
+        ],
+        "sourceHtml": "Monash Newsroom · 2026-11-21 · <a href=\"https://www.monash.edu/newsroom/news/2026/vice-chancellor-advocates-for-closer-dialogue-and-an-expansion-in-student-mobility-at-australia-china-ceo-roundtable\">monash.edu</a>"
+      },
+      {
+        "h2": "02 MIPS 与 Leica 共建 M-LAB 成像中心",
+        "paragraphs": [
+          "11 月 17 日，Monash 官网发布：The Monash Institute of Pharmaceutical Sciences (MIPS) and Leica Microsystems have today established a new partnership to advance bioimaging research, innovation and scientific discovery.",
+          "中心全称 MIPS-Leica Advanced Bioimaging（M-LAB），设在 Parkville 校区。官方原文：The upgraded facility provides superior speed, enhanced resolution to 30 nanometres, and a dramatic expansion in colour capacity – jumping from six colours up to 16 distinct channels.",
+          "新设备支持活体成像，可以实时追踪整个生物系统里的代谢过程和分子相互作用。MIPS 所长 Chris Porter 教授表示，合作能帮助团队在接近分子的精度上理解药物和递药系统的转运与沉积。"
+        ],
+        "sourceHtml": "Monash Newsroom · 2026-11-17 · <a href=\"https://www.monash.edu/newsroom/news/2026/monash-and-leica-partner-to-create-m-lab,-new-centre-for-imaging-excellence\">monash.edu</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "校长 Sharon Pickering 在北京第 9 届中澳 CEO 圆桌提出建立教育部长级对话、扩大双向学生流动。",
+        "MIPS 与 Leica 共建 M-LAB：分辨率 30 纳米，颜色通道从 6 色扩到 16 色，支持活体成像。"
+      ]
+    },
+    "meta": { "readTime": "约 2 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "这周 Monash 官网有两条消息，我都读完了。\n\n第1条：校长在北京中澳 CEO 圆桌上提了学生交流。官方原文：I also called for increased government funding to support the expansion of two-way student mobility experiences between Australia and China.\n\n第2条：药学院 MIPS 和 Leica 建了 M-LAB，分辨率到 30 纳米，通道从 6 色扩到 16 色。\n\n你们会考虑交换一学期吗？评论区聊聊。",
+        "tags": ["#莫纳什大学", "#Monash", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出（总理访华仅为官方原文背景复述）" }
+    ]
+  }
+}

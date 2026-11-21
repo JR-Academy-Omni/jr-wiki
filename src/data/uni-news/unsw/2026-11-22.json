@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-22",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "新南威尔士大学 UNSW",
+    "hookSub": "本周 三条官网新闻",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "QS 可持续排名 2027：UNSW 升两位到全球第 5，总分 99.0。",
+      "光伏学者郝晓静教授拿到 Hamakawa Award。",
+      "Wagga Wagga 乡村校区首届全程医学生毕业，15 人里 10 人留在乡村实习。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "QS 可持续排名", "data": "全球第 5" },
+      { "num": "02", "title": "Hamakawa Award", "data": "光伏领域" },
+      { "num": "03", "title": "乡村医学毕业", "data": "15 名" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "排名",
+      "h2Main": "QS 可持续排名升到全球第 5",
+      "h2Sub": "总分从 98.2 涨到 99.0",
+      "h2Highlight": "全球第 5",
+      "lead": "11 月 17 日 UNSW 官网发布：在 QS Sustainability Rankings 2027 中，UNSW 上升两位到全球第 5，继续排澳洲第一。",
+      "bullets": [
+        { "k": "总排名", "v": "上升两位，全球第 5" },
+        { "k": "总分", "v": "98.2（2026）→ 99.0" },
+        { "k": "Social Impact", "v": "并列全球第 2" },
+        { "k": "其他维度", "v": "Environmental Impact 第 11，Governance 并列第 44" },
+        { "k": "评估范围", "v": "评估近 6,000 所大学，公布 2,003 所结果" }
+      ],
+      "sourceQuote": "UNSW Sydney has risen two places to fifth globally in the 2027 QS Sustainability Rankings, retaining its position as Australia’s top-ranked university.",
+      "source": "UNSW Newsroom · 2026-11-17",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-ranks-first-in-australia-and-fifth-globally-in-qs-sustainability-rankings"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "郝晓静教授获 Hamakawa Award",
+      "h2Sub": "四种薄膜光伏技术做到世界纪录",
+      "h2Highlight": "Hamakawa Award",
+      "lead": "11 月 18 日 UNSW 官网发布：Scientia Professor 郝晓静（Xiaojing Hao）获得世界光伏能源转换大会的 Hamakawa Award。",
+      "bullets": [
+        { "k": "奖项", "v": "Hamakawa Award，表彰太阳能转换领域的突出贡献" },
+        { "k": "意义", "v": "首位获得该奖的澳洲光伏科学家（官网原文）" },
+        { "k": "成果", "v": "四种不同的薄膜光伏技术达到世界纪录效率" },
+        { "k": "起点", "v": "2006 年以博士生身份进入光伏领域" },
+        { "k": "下一步", "v": "推进硅基叠层太阳能电池" }
+      ],
+      "sourceQuote": "UNSW Scientia Professor Xiaojing Hao is the first Australian photovoltaics scientist to receive the Hamakawa Award in recognition of her breakthroughs in developing the next generation of solar energy cells.",
+      "source": "UNSW Newsroom · 2026-11-18",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-scientia-professor-xiaojing-hao-wins-prestigious-engineering-award"
+    },
+    {
+      "idx": "03",
+      "category": "学位",
+      "h2Main": "Wagga Wagga 首届全程医学生毕业",
+      "h2Sub": "15 人里 10 人留在乡村实习",
+      "h2Highlight": "首届",
+      "lead": "11 月 20 日 UNSW 官网发布：第一批在 Wagga Wagga 乡村临床校区完成全部双学位医学培训的学生毕业。",
+      "bullets": [
+        { "k": "校区", "v": "UNSW Rural Clinical Campus，Wagga Wagga" },
+        { "k": "课程", "v": "2021 年起在当地提供完整的双学位医学课程" },
+        { "k": "人数", "v": "2026 届 15 人，其中 11 人有乡村背景" },
+        { "k": "去向", "v": "10 人明年在澳洲乡村地区实习，5 人留在 Wagga Wagga Base Hospital" },
+        { "k": "历史", "v": "2000 年建立的澳洲第一所 Rural Clinical School" }
+      ],
+      "sourceQuote": "The 15-strong Class of 2026 includes 11 students with rural backgrounds.",
+      "source": "UNSW Newsroom · 2026-11-20",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/first-unsw-students-complete-full-medical-program-at-wagga-wagga-campus"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 官网三条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "QS 可持续排名", "body": "UNSW 上升两位到全球第 5，总分从 98.2 涨到 99.0，Social Impact 并列全球第 2。" },
+      { "n": "02", "title": "Hamakawa Award", "body": "郝晓静教授获奖，四种薄膜光伏技术做到世界纪录效率，下一步做硅基叠层电池。" },
+      { "n": "03", "title": "乡村医学毕业", "body": "Wagga Wagga 首届 15 名全程医学生毕业，10 人明年在乡村地区实习。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/22"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 本周三条新闻整理",
+      "body": "这周 UNSW 官网发了好几条，我挑了三条读完。\n\n一条排名，一条光伏学者拿奖，一条乡村校区的医学生毕业。\n\n下面一张图一条，关键数字都对着官网原文。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "QS 可持续榜 UNSW 第 5",
+      "body": "11 月 17 号官网发的 QS Sustainability Rankings 2027 结果。\n\n官方原文：UNSW Sydney has risen two places to fifth globally in the 2027 QS Sustainability Rankings, retaining its position as Australia’s top-ranked university.\n\n总分从 98.2 涨到 99.0，Social Impact 并列全球第 2。\n\n这是可持续专项榜，不是 QS 综合排名，选校时别混了 📊",
+      "tags": "#新南威尔士大学 #UNSW #QS排名 #澳洲留学 #澳洲大学"
+    },
+    "p3": {
+      "title": "郝晓静教授拿了光伏大奖",
+      "body": "11 月 18 号官网发的：UNSW 的郝晓静教授获得 Hamakawa Award。\n\n官网说她是首位拿到这个奖的澳洲光伏科学家，四种薄膜光伏技术都做到过世界纪录效率。她 2006 年读博时进入这个领域。\n\n她原话：We need curious, creative and ambitious students who want to tackle challenges that matter.\n\n对新能源感兴趣的同学可以关注她的组 ☀️",
+      "tags": "#新南威尔士大学 #UNSW #光伏 #澳洲留学 #澳洲大学"
+    },
+    "p4": {
+      "title": "乡村校区首届医学生毕业",
+      "body": "11 月 20 号官网发的：第一批在 Wagga Wagga 校区读完全部医学课程的学生毕业了。\n\n官方原文：The 15-strong Class of 2026 includes 11 students with rural backgrounds.\n\n15 人里有 10 人明年在澳洲乡村地区实习，其中 5 人留在 Wagga Wagga Base Hospital。\n\n这个项目的录取要求官网这条没写，想了解的话去 UNSW Medicine 页面看。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲医学 #澳洲留学 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW 日报 评论区聊聊",
+      "body": "这三条是排名、科研和毕业动态，都不是奖学金或招生公告。\n\n我自己最好奇的是乡村校区读书的体验，有没有在悉尼以外校区读过的同学？评论区说说。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW 升至 QS 可持续排名全球第 5；郝晓静教授获 Hamakawa Award；Wagga Wagga 首届全程医学生毕业",
+    "lead": "本周 UNSW 官网发布三条消息：QS 可持续发展排名 2027 结果、光伏学者郝晓静教授获奖，以及乡村临床校区首届全程医学生毕业。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 QS 可持续排名：UNSW 升到全球第 5",
+        "paragraphs": [
+          "11 月 17 日，UNSW 官网发布：UNSW Sydney has risen two places to fifth globally in the 2027 QS Sustainability Rankings, retaining its position as Australia’s top-ranked university.",
+          "官方原文：The University’s overall score increased from 98.2 in 2026 to 99.0. Social Impact 一项 UNSW 并列全球第 2，Environmental Impact 第 11，Governance 并列第 44。",
+          "这个榜今年是第五届，用 50 多项指标评估三个维度。Almost 6000 universities were assessed, with results published for 2003 institutions."
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-17 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-ranks-first-in-australia-and-fifth-globally-in-qs-sustainability-rankings\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 郝晓静教授获 Hamakawa Award",
+        "paragraphs": [
+          "11 月 18 日，UNSW 官网发布：UNSW Scientia Professor Xiaojing Hao is the first Australian photovoltaics scientist to receive the Hamakawa Award in recognition of her breakthroughs in developing the next generation of solar energy cells.",
+          "Hamakawa Award 由世界光伏能源转换大会颁发，表彰在太阳能转换方面有突出研究和技术贡献的科学家与工程师。郝教授 2006 年以博士生身份进入光伏领域，至今已把四种不同的薄膜光伏技术做到世界纪录效率。",
+          "她接下来的目标是推进硅基叠层太阳能电池。她说：We need curious, creative and ambitious students who want to tackle challenges that matter."
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-18 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-scientia-professor-xiaojing-hao-wins-prestigious-engineering-award\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "03 Wagga Wagga 首届全程医学生毕业",
+        "paragraphs": [
+          "11 月 20 日，UNSW 官网发布：UNSW has celebrated a regional education milestone, with the graduation of the first cohort of medical students to do their entire dual-degree training at the UNSW Rural Clinical Campus in Wagga Wagga.",
+          "UNSW Medicine & Health 从 2021 年起在 Wagga Wagga 提供完整的双学位医学课程。官方原文：The 15-strong Class of 2026 includes 11 students with rural backgrounds.",
+          "Ten graduates are set to commence their internships in regional Australia next year, including five locally at Wagga Wagga Base Hospital. Wagga Wagga 是 UNSW 第一个乡村临床校区，也是 2000 年建立的澳洲第一所 Rural Clinical School 所在地。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-20 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/first-unsw-students-complete-full-medical-program-at-wagga-wagga-campus\">unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "QS 可持续排名 2027：UNSW 升两位到全球第 5，总分 99.0，Social Impact 并列全球第 2。",
+        "郝晓静教授获 Hamakawa Award，是首位获得该奖的澳洲光伏科学家。",
+        "Wagga Wagga 首届 15 名全程医学生毕业，10 人明年在乡村地区实习。"
+      ]
+    },
+    "meta": { "readTime": "约 3 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "这周 UNSW 官网有三条消息，我都读完了。\n\n第1条：QS 可持续排名 2027，UNSW 升到全球第 5，总分 99.0。\n\n第2条：郝晓静教授获 Hamakawa Award。官方原文：UNSW Scientia Professor Xiaojing Hao is the first Australian photovoltaics scientist to receive the Hamakawa Award.\n\n第3条：Wagga Wagga 首届全程医学生毕业。官方原文：The 15-strong Class of 2026 includes 11 students with rural backgrounds.\n\n你们会考虑去悉尼以外的校区读书吗？评论区聊聊。",
+        "tags": ["#新南威尔士大学", "#UNSW", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出（「澳洲第一」「首位」「首届」仅为官方原文复述）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
