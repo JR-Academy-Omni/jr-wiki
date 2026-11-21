@@ -1,0 +1,306 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-11-22（Canvas 版）</title>
+<meta name="description" content="2026-11-22 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-11-22.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-11-22",
+  "summary": {
+    "hook": [
+      {
+        "text": "Gemini 4 Neon定价3美元"
+      },
+      {
+        "text": "OpenAI模型改AMD芯片电路"
+      },
+      {
+        "text": "ChatGPT dots开测Plus"
+      }
+    ],
+    "sub": "Google的新中档模型、OpenAI自曝的芯片设计成绩、dots从高价套餐往下放，均用公司原文加独立媒体核对。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "模型",
+        "numColor": "#3B82F6",
+        "t": "Gemini 4 Neon上线API和Gemini App，每百万token输入3美元、输出15美元，1M上下文，夹在Hydrogen和Carbon之间"
+      },
+      {
+        "num": "02",
+        "cat": "芯片",
+        "numColor": "#D97757",
+        "t": "OpenAI称模型改写AMD旗舰GPU IP的RTL代码，PPA最多提升14%，部分改动已进流片设计；数字为自报"
+      },
+      {
+        "num": "03",
+        "cat": "Agent",
+        "numColor": "#10B981",
+        "t": "ChatGPT dots开始给少量Plus用户测试，欧洲经济区、英国、瑞士除外；美国Business Standard同步开放"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gemini-4-neon",
+      "idx": "01",
+      "catText": "模型",
+      "accent": "#3B82F6",
+      "bg": {
+        "top": "模型",
+        "mid": "GEMINI 4 NEON",
+        "bot": "2026.11.22",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Gemini 4 Neon上线，每百万token 3/15美元"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "定位在Hydrogen和Carbon之间，Google称默认档位下每个任务成本比Carbon低32%。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "11月18日起在Gemini API、Antigravity和Gemini App推出，App端限AI Pro和Ultra订阅。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "1M上下文，缓存输入每百万0.15美元；Carbon促销价11月30日结束后，Neon比它便宜25%。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "跑分全是Google自报。中等难度的代码和Agent任务，可以拿自己的用例和Carbon对比一遍。"
+        }
+      ],
+      "src": "📎 blog.google · 9to5google.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "claim": "上线渠道",
+          "quote": "Gemini 4 Neon is rolling out today in the Gemini API in Google AI Studio"
+        },
+        {
+          "type": "primary",
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "claim": "API价格与上下文",
+          "quote": "$15 per million output tokens, with a 1 million-token context window."
+        },
+        {
+          "type": "primary",
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "claim": "比Carbon每任务成本低32%",
+          "quote": "At its default high thinking level, it pairs a high Artificial Analysis Intelligence Index score with a 32% lower cost per task than Carbon."
+        },
+        {
+          "type": "independent",
+          "publisher": "9to5Google",
+          "url": "https://9to5google.com/2026/11/18/gemini-4-neon/",
+          "claim": "价格对比",
+          "quote": "Neon is priced at $3/1M input tokens and $15/1M output tokens, or twice as expensive as Hydrogen."
+        },
+        {
+          "type": "independent",
+          "publisher": "9to5Google",
+          "url": "https://9to5google.com/2026/11/18/gemini-4-neon/",
+          "claim": "Carbon促销价结束后",
+          "quote": "After the promotional pricing, it will be $4/1M input and $20/1M output, with Neon 25% cheaper as a result."
+        }
+      ]
+    },
+    {
+      "slug": "02-openai-amd-chip-design",
+      "idx": "02",
+      "catText": "芯片",
+      "accent": "#D97757",
+      "bg": {
+        "top": "芯片",
+        "mid": "OPENAI × AMD",
+        "bot": "2026.11.22",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "OpenAI模型改写AMD GPU电路，PPA最多+14%"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "模型改写SystemVerilog RTL代码，再用Synopsys工具验证行为不变，部分改动已进流片设计。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI称在AMD旗舰GPU IP上，相对高度优化的基线，PPA最多提升14%，用时不到5个月。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "芯片设计里最耗人力的RTL优化开始交给模型，AMD下一代CPU关键模块也有个位数提升。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "14%是模块级最好成绩，基线没公开，GPU也没有成品芯片实测，两家还有资本关系。"
+        }
+      ],
+      "src": "📎 openai.com · alphasignal.ai",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+          "claim": "PPA最多提升14%",
+          "quote": "seen up to 14% improvement relative to heavily optimized baselines on the flagship GPU IP"
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+          "claim": "改写RTL代码",
+          "quote": "Our model identified further improvements by rewriting the code that describes the chip’s circuits (SystemVerilog RTL)."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+          "claim": "改动进入流片设计",
+          "quote": "AMD has already included some of these changes in a recent design it sent for manufacturing"
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+          "claim": "CPU个位数提升",
+          "quote": "AMD also verified single-digit percentage gains in PPA across key blocks of its upcoming next-generation flagship CPU"
+        },
+        {
+          "type": "independent",
+          "publisher": "AlphaSignal",
+          "url": "https://alphasignal.ai/news/openai-s-models-rewrote-amd-s-gpu-circuits-and-gained-14-in-five-months",
+          "claim": "基线未公开",
+          "quote": "OpenAI has not published the block-level baselines"
+        },
+        {
+          "type": "independent",
+          "publisher": "Analytics India Magazine",
+          "url": "https://analyticsindiamag.com/ai-news/openai-and-amd-achieve-a-year-of-chip-design-progress-in-under-five-months",
+          "claim": "不到5个月",
+          "quote": "delivered roughly a year of chip-design progress in less than five months"
+        }
+      ]
+    },
+    {
+      "slug": "03-chatgpt-dots-plus",
+      "idx": "03",
+      "catText": "Agent",
+      "accent": "#10B981",
+      "bg": {
+        "top": "Agent",
+        "mid": "DOTS × PLUS",
+        "bot": "2026.11.22",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "ChatGPT dots开始给Plus用户测试"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "常驻Agent从Pro和企业版往下放，先给少量Plus用户，欧洲经济区、英国、瑞士不在范围内。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI向部分Plus用户灰度推出dots，美国Business Standard成员同步开放，有用量限制。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "dots是能跨对话持续推进任务的Agent，此前只在Pro、Business Premium和企业版。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "澳洲不在排除名单里，但属于随机灰度，客服没法手动开通；Plus用量额度还没公布。"
+        }
+      ],
+      "src": "📎 help.openai.com · 9to5mac.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001530",
+          "claim": "dots是什么",
+          "quote": "Your dot is an always-on agent in ChatGPT that can take on ongoing responsibility"
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001530",
+          "claim": "Plus资格与地区",
+          "quote": "selected Plus users aged 18 and older in markets excluding the European Economic Area, Switzerland, and the UK."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001530",
+          "claim": "Business Standard开放",
+          "quote": "Dots are rolling out to eligible ChatGPT Business Standard members in the United States."
+        },
+        {
+          "type": "primary",
+          "publisher": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/20001530",
+          "claim": "企业版计费",
+          "quote": "Starting January 14, 2027, billing begins for all enabled dots."
+        },
+        {
+          "type": "independent",
+          "publisher": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access/",
+          "claim": "Plus额度未明",
+          "quote": "It's not yet clear whether ChatGPT Plus and Business Standard users will have the same Dots usage allowances"
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "Gemini 4 Neon定价3美元，OpenAI模型改AMD芯片电路，ChatGPT dots开测Plus"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-11-22"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
