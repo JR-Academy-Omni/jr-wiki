@@ -1,9 +1,9 @@
 {
   "schemaVersion": "3.0",
-  "rangeStart": "2026-11-15",
-  "rangeEnd": "2027-02-13",
+  "rangeStart": "2026-11-22",
+  "rangeEnd": "2027-02-20",
   "rangeDays": 91,
-  "generatedAt": "2026-11-15T09:00:00+11:00",
+  "generatedAt": "2026-11-22T10:07:32.347594+11:00",
   "countries": [
     {
       "code": "GLOBAL",
@@ -45,213 +45,6 @@
     {
       "date": "2026-11-26",
       "country": "US",
-      "name": "Thanksgiving Day",
-      "localName": "Thanksgiving Day",
-      "nameZh": "感恩节",
-      "type": "public-holiday",
-      "marketingNote": "美国感恩节 · 北美学员休假，配合黑五预热；感恩学员故事温情向"
-    },
-    {
-      "date": "2026-11-30",
-      "country": "GB",
-      "name": "Saint Andrew's Day",
-      "localName": "Saint Andrew's Day",
-      "nameZh": "圣安德鲁节（苏格兰）",
-      "type": "public-holiday",
-      "marketingNote": "苏格兰节日，仅苏格兰放假，基数很小可忽略"
-    },
-    {
-      "date": "2026-12-25",
-      "country": "AU",
-      "name": "Christmas Day",
-      "localName": "Christmas Day",
-      "nameZh": "圣诞节",
-      "type": "public-holiday",
-      "marketingNote": "澳洲圣诞 · 大量学员休假，轻量年末陪伴为主，可顺带挂年终课程"
-    },
-    {
-      "date": "2026-12-25",
-      "country": "SG",
-      "name": "Christmas Day",
-      "localName": "Christmas Day",
-      "nameZh": "圣诞节",
-      "type": "public-holiday",
-      "marketingNote": "新加坡圣诞假 · 学员外出居多，节日温情内容为主，不强推"
-    },
-    {
-      "date": "2026-12-25",
-      "country": "MY",
-      "name": "Christmas Day",
-      "localName": "Hari Krismas",
-      "nameZh": "圣诞节",
-      "type": "public-holiday",
-      "marketingNote": "马来西亚圣诞 · 华人+基督徒学员节日，温情内容适合发，轻推年末课程"
-    },
-    {
-      "date": "2026-12-25",
-      "country": "US",
-      "name": "Christmas Day",
-      "localName": "Christmas Day",
-      "nameZh": "圣诞节",
-      "type": "public-holiday",
-      "marketingNote": "美国圣诞 · 北美学员休假，年末温情陪伴内容，不强推"
-    },
-    {
-      "date": "2026-12-25",
-      "country": "GB",
-      "name": "Christmas Day",
-      "localName": "Christmas Day",
-      "nameZh": "圣诞节",
-      "type": "public-holiday",
-      "marketingNote": "英国圣诞 · 英区学员休假，年末温情内容为主，配合年底促销收尾"
-    },
-    {
-      "date": "2026-12-28",
-      "country": "AU",
-      "name": "St. Stephen's Day",
-      "localName": "Boxing Day",
-      "nameZh": "节礼日",
-      "type": "public-holiday",
-      "marketingNote": "澳洲节礼日长周末 · 假期氛围浓，轻量陪伴内容，不强推课程"
-    },
-    {
-      "date": "2026-12-28",
-      "country": "GB",
-      "name": "St. Stephen's Day",
-      "localName": "Boxing Day",
-      "nameZh": "节礼日",
-      "type": "public-holiday",
-      "marketingNote": "英国节礼日 · 长假延续，购物日心智可轻推年末课程优惠"
-    },
-    {
-      "date": "2027-01-01",
-      "country": "AU",
-      "name": "New Year's Day",
-      "localName": "New Year's Day",
-      "nameZh": "元旦",
-      "type": "public-holiday",
-      "marketingNote": "澳洲元旦 · 新年开工前，推『新年第一课』引流内容效果好"
-    },
-    {
-      "date": "2027-01-01",
-      "country": "SG",
-      "name": "New Year's Day",
-      "localName": "New Year's Day",
-      "nameZh": "元旦",
-      "type": "public-holiday",
-      "marketingNote": "新加坡元旦 · 新年氛围助推『重启学习』引流内容"
-    },
-    {
-      "date": "2027-01-01",
-      "country": "MY",
-      "name": "New Year's Day",
-      "localName": "Hari Tahun Baru",
-      "nameZh": "元旦",
-      "type": "public-holiday",
-      "marketingNote": "马来元旦 · 推新年学习 flag 内容，东南亚学员共鸣强"
-    },
-    {
-      "date": "2027-01-01",
-      "country": "US",
-      "name": "New Year's Day",
-      "localName": "New Year's Day",
-      "nameZh": "元旦",
-      "type": "public-holiday",
-      "marketingNote": "美国元旦 · 北美华人新年 flag 氛围，推新年第一课内容"
-    },
-    {
-      "date": "2027-01-01",
-      "country": "GB",
-      "name": "New Year's Day",
-      "localName": "New Year's Day",
-      "nameZh": "元旦",
-      "type": "public-holiday",
-      "marketingNote": "英国元旦 · 推新年学习计划内容，英区华人共鸣"
-    },
-    {
-      "date": "2027-01-02",
-      "country": "GB",
-      "name": "2 January",
-      "localName": "2 January",
-      "nameZh": "苏格兰新年假日",
-      "type": "public-holiday",
-      "marketingNote": "苏格兰1月2日假日，仅苏格兰，基数很小可忽略"
-    },
-    {
-      "date": "2027-01-18",
-      "country": "US",
-      "name": "Martin Luther King, Jr. Day",
-      "localName": "Martin Luther King, Jr. Day",
-      "nameZh": "马丁路德金日",
-      "type": "public-holiday",
-      "marketingNote": "美国 MLK 假日 · 职场多元主题适合，可发 Women/Diversity in Tech 内容"
-    },
-    {
-      "date": "2027-01-26",
-      "country": "AU",
-      "name": "Australia Day",
-      "localName": "Australia Day",
-      "nameZh": "澳大利亚日",
-      "type": "public-holiday",
-      "marketingNote": "澳洲国庆日 · 澳籍/PR 学员休假，轻量本地化内容，不强推课程"
-    },
-    {
-      "date": "2027-02-06",
-      "country": "SG",
-      "name": "Chinese New Year",
-      "localName": "Chinese New Year",
-      "nameZh": "春节（农历新年）",
-      "type": "public-holiday",
-      "marketingNote": "新加坡农历新年 · 华人节日，主打温情；年后求职季热点可预热"
-    },
-    {
-      "date": "2027-02-06",
-      "country": "MY",
-      "name": "Chinese New Year",
-      "localName": "Tahun Baru Cina",
-      "nameZh": "农历新年（春节）",
-      "type": "public-holiday",
-      "marketingNote": "马来华人新年 · 重要节日，主打温情，年后求职内容预热"
-    },
-    {
-      "date": "2027-02-07",
-      "country": "MY",
-      "name": "Chinese New Year Holiday",
-      "localName": "Cuti Tahun Baru Cina",
-      "nameZh": "农历新年假期",
-      "type": "public-holiday",
-      "marketingNote": "马来农历新年补假 · 假日氛围，轻量内容，不催转化"
-    },
-    {
-      "date": "2027-02-08",
-      "country": "SG",
-      "name": "Chinese New Year",
-      "localName": "Chinese New Year",
-      "nameZh": "春节第二天",
-      "type": "public-holiday",
-      "marketingNote": "新加坡农历新年第二天 · 假日氛围，仅发祝福，不催转化"
-    },
-    {
-      "date": "2027-02-08",
-      "country": "MY",
-      "name": "Chinese New Year Holiday",
-      "localName": "Cuti Tahun Baru Cina",
-      "nameZh": "农历新年补假",
-      "type": "public-holiday",
-      "marketingNote": "马来农历新年尾声 · 可发『年后开工第一周』预热内容"
-    },
-    {
-      "date": "2027-02-12",
-      "country": "US",
-      "name": "Lincoln's Birthday",
-      "localName": "Lincoln's Birthday",
-      "nameZh": "林肯诞辰日（州级）",
-      "type": "public-holiday",
-      "marketingNote": "部分州观察日，受众极少，基数很小可忽略"
-    },
-    {
-      "date": "2026-11-26",
-      "country": "US",
       "name": "感恩节",
       "nameZh": "感恩节",
       "type": "marketing-node",
@@ -279,6 +72,15 @@
       }
     },
     {
+      "date": "2026-11-26",
+      "country": "US",
+      "name": "Thanksgiving Day",
+      "localName": "Thanksgiving Day",
+      "nameZh": "感恩节",
+      "type": "public-holiday",
+      "marketingNote": "美国感恩节 · 北美学员连假，接黑五预热老学员回馈内容"
+    },
+    {
       "date": "2026-11-27",
       "country": "GLOBAL",
       "name": "黑色星期五",
@@ -287,6 +89,7 @@
       "emoji": "🏷️",
       "tier": "A",
       "seasonal": true,
+      "window": "2026-11-27~2026-11-30",
       "playbook": {
         "audience": "海外华人/留学生/本地求职者 · 黑五促销心智 · 英文站重点",
         "angle": "Black Friday：海外用户的双11，英文站 + 海外华人课程促销主场",
@@ -306,8 +109,16 @@
           "SEO"
         ],
         "avoid": "❌ 英文文案要地道（反 AI 味）；和双11/双12 节奏区分开针对海外人群"
-      },
-      "window": "2026-11-27~2026-11-30"
+      }
+    },
+    {
+      "date": "2026-11-30",
+      "country": "GB",
+      "name": "Saint Andrew's Day",
+      "localName": "Saint Andrew's Day",
+      "nameZh": "圣安德鲁节",
+      "type": "public-holiday",
+      "marketingNote": "苏格兰地区假日 · 基数很小可忽略"
     },
     {
       "date": "2026-12-12",
@@ -364,6 +175,69 @@
         ],
         "avoid": "❌ 海外节点为主；温情为主不硬卖"
       }
+    },
+    {
+      "date": "2026-12-25",
+      "country": "AU",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "nameZh": "圣诞节",
+      "type": "public-holiday",
+      "marketingNote": "澳洲圣诞长假 · 年末礼物心智强，推 gift membership 和年度盘点"
+    },
+    {
+      "date": "2026-12-25",
+      "country": "SG",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "nameZh": "圣诞节",
+      "type": "public-holiday",
+      "marketingNote": "新加坡圣诞公假 · 多元文化氛围，轻推广温情内容"
+    },
+    {
+      "date": "2026-12-25",
+      "country": "MY",
+      "name": "Christmas Day",
+      "localName": "Hari Krismas",
+      "nameZh": "圣诞节",
+      "type": "public-holiday",
+      "marketingNote": "马来圣诞公假 · 多元文化社区，温情内容为主不催学"
+    },
+    {
+      "date": "2026-12-25",
+      "country": "US",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "nameZh": "圣诞节",
+      "type": "public-holiday",
+      "marketingNote": "美国圣诞 · 年末送礼心智最强，推 gift membership 和新年课程"
+    },
+    {
+      "date": "2026-12-25",
+      "country": "GB",
+      "name": "Christmas Day",
+      "localName": "Christmas Day",
+      "nameZh": "圣诞节",
+      "type": "public-holiday",
+      "marketingNote": "英国圣诞 · 长假氛围，推年末礼物会员和新年学习 flag"
+    },
+    {
+      "date": "2026-12-28",
+      "country": "AU",
+      "name": "St. Stephen's Day",
+      "localName": "Boxing Day",
+      "nameZh": "节礼日",
+      "type": "public-holiday",
+      "marketingNote": "澳洲 Boxing Day 移假 · 购物季高峰，蹭促销心智推课程"
+    },
+    {
+      "date": "2026-12-28",
+      "country": "GB",
+      "name": "St. Stephen's Day",
+      "localName": "Boxing Day",
+      "nameZh": "节礼日",
+      "type": "public-holiday",
+      "marketingNote": "英国 Boxing Day 移假 · 购物节心智强，可搭双12尾声促销"
     },
     {
       "date": "2026-12-31",
@@ -426,6 +300,78 @@
       }
     },
     {
+      "date": "2027-01-01",
+      "country": "AU",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "nameZh": "元旦",
+      "type": "public-holiday",
+      "marketingNote": "澳洲元旦公假 · 新年 flag 心智强，推年卡和 2027 学习计划"
+    },
+    {
+      "date": "2027-01-01",
+      "country": "SG",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "nameZh": "元旦",
+      "type": "public-holiday",
+      "marketingNote": "新加坡元旦公假 · 新年计划心智，轻推课程和年卡"
+    },
+    {
+      "date": "2027-01-01",
+      "country": "MY",
+      "name": "New Year's Day",
+      "localName": "Hari Tahun Baru",
+      "nameZh": "元旦",
+      "type": "public-holiday",
+      "marketingNote": "马来元旦公假 · 新年目标心智，轻推广"
+    },
+    {
+      "date": "2027-01-01",
+      "country": "US",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "nameZh": "元旦",
+      "type": "public-holiday",
+      "marketingNote": "美国元旦公假 · 新年目标热，推年卡和 AI 课程"
+    },
+    {
+      "date": "2027-01-01",
+      "country": "GB",
+      "name": "New Year's Day",
+      "localName": "New Year's Day",
+      "nameZh": "元旦",
+      "type": "public-holiday",
+      "marketingNote": "英国元旦公假 · 新年计划心智，推学习年卡"
+    },
+    {
+      "date": "2027-01-02",
+      "country": "GB",
+      "name": "2 January",
+      "localName": "2 January",
+      "nameZh": "元旦后补假",
+      "type": "public-holiday",
+      "marketingNote": "苏格兰专属补假 · 基数很小可忽略"
+    },
+    {
+      "date": "2027-01-18",
+      "country": "US",
+      "name": "Martin Luther King, Jr. Day",
+      "localName": "Martin Luther King, Jr. Day",
+      "nameZh": "马丁·路德·金纪念日",
+      "type": "public-holiday",
+      "marketingNote": "美国法定节日 · 职场公平叙事可共鸣，推职场转型学员故事"
+    },
+    {
+      "date": "2027-01-26",
+      "country": "AU",
+      "name": "Australia Day",
+      "localName": "Australia Day",
+      "nameZh": "澳大利亚日",
+      "type": "public-holiday",
+      "marketingNote": "澳洲国庆 · 本地归属感强，推澳洲 IT 求职和移民职场内容"
+    },
+    {
       "date": "2027-02-06",
       "country": "GLOBAL",
       "name": "春节",
@@ -434,6 +380,7 @@
       "emoji": "🧧",
       "tier": "S",
       "seasonal": true,
+      "window": "2027-02-05~2027-02-13",
       "playbook": {
         "audience": "全球华人 · 海外留学生/移民思乡 + 国内亲友团聚 + 春节后求职季前夜",
         "angle": "团圆 + 蓄力：假期不卷，但『年后第一份工作/第一个技能』的种子现在种",
@@ -453,8 +400,98 @@
           "学习群"
         ],
         "avoid": "❌ 春节期间避免硬转化/催单，主打温情和『年后见』；除夕到初三只发祝福不发促销"
-      },
-      "window": "2027-02-05~2027-02-13"
+      }
+    },
+    {
+      "date": "2027-02-06",
+      "country": "SG",
+      "name": "Chinese New Year",
+      "localName": "Chinese New Year",
+      "nameZh": "农历新年",
+      "type": "public-holiday",
+      "marketingNote": "新加坡春节公假 · 华人拜年氛围，温情内容不催学"
+    },
+    {
+      "date": "2027-02-06",
+      "country": "MY",
+      "name": "Chinese New Year",
+      "localName": "Tahun Baru Cina",
+      "nameZh": "农历新年",
+      "type": "public-holiday",
+      "marketingNote": "马来春节公假 · 华人长假，轻推广主打社群温情互动"
+    },
+    {
+      "date": "2027-02-07",
+      "country": "MY",
+      "name": "Chinese New Year Holiday",
+      "localName": "Cuti Tahun Baru Cina",
+      "nameZh": "农历新年假期",
+      "type": "public-holiday",
+      "marketingNote": "马来春节延假 · 长假延续，主打品牌温度不催单"
+    },
+    {
+      "date": "2027-02-08",
+      "country": "SG",
+      "name": "Chinese New Year",
+      "localName": "Chinese New Year",
+      "nameZh": "农历新年",
+      "type": "public-holiday",
+      "marketingNote": "新加坡春节公假 · 华人拜年氛围，温情内容不催学"
+    },
+    {
+      "date": "2027-02-08",
+      "country": "MY",
+      "name": "Chinese New Year Holiday",
+      "localName": "Cuti Tahun Baru Cina",
+      "nameZh": "农历新年假期",
+      "type": "public-holiday",
+      "marketingNote": "马来春节延假 · 长假延续，主打品牌温度不催单"
+    },
+    {
+      "date": "2027-02-12",
+      "country": "US",
+      "name": "Lincoln's Birthday",
+      "localName": "Lincoln's Birthday",
+      "nameZh": "林肯诞辰",
+      "type": "public-holiday",
+      "marketingNote": "美国部分州假日 · 基数很小可忽略"
+    },
+    {
+      "date": "2027-02-14",
+      "country": "GLOBAL",
+      "name": "情人节",
+      "nameZh": "情人节",
+      "type": "marketing-node",
+      "emoji": "💝",
+      "tier": "B",
+      "seasonal": false,
+      "playbook": {
+        "audience": "情侣/朋友互送 · 也包括『对自己好』的单身职场人",
+        "angle": "把一门课/会员当礼物送给在意的人（或自己）—— 知识是不贬值的礼物",
+        "contentIdeas": [
+          "小红书：送对象一份会浪漫一辈子的礼物——一起搞懂 AI",
+          "公众号：程序员情侣的过节方式（轻松向）"
+        ],
+        "productHook": "gift membership（送会员）+ 双人组队学习",
+        "copyHooks": [
+          "最不贬值的情人节礼物",
+          "送花会谢，送本事不会"
+        ],
+        "channels": [
+          "小红书",
+          "公众号"
+        ],
+        "avoid": "❌ 别硬塞，教育产品蹭情人节要轻；不打扰为主"
+      }
+    },
+    {
+      "date": "2027-02-15",
+      "country": "US",
+      "name": "Presidents Day",
+      "localName": "Washington's Birthday",
+      "nameZh": "总统日",
+      "type": "public-holiday",
+      "marketingNote": "美国总统日 · 长周末，北美学员有空，推英文求职课程"
     }
   ]
 }
