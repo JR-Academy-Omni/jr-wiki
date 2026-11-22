@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-23",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "悉尼大学 USYD",
+    "hookSub": "11 月 19-20 日 两条医学科研新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "流行病学家 Karen Canfell 拿下 NSW 州长癌症研究奖年度最高荣誉。",
+      "Charles Perkins Centre 的滴鼻剂在老年小鼠身上改善了学习和记忆。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "癌症研究大奖", "data": "年度最高荣誉" },
+      { "num": "02", "title": "滴鼻剂研究", "data": "小鼠实验" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "Canfell 获州长癌症研究奖",
+      "h2Sub": "2026 NSW Premier's Awards 年度最高荣誉",
+      "h2Highlight": "最高荣誉",
+      "lead": "11 月 20 日悉大官网发布：流行病学家 Karen Canfell AC 教授获 2026 NSW Premier's Awards for Outstanding Cancer Research 的年度最高荣誉。",
+      "bullets": [
+        { "k": "奖项", "v": "Premier's Outstanding Cancer Researcher of the Year" },
+        { "k": "主办", "v": "Cancer Institute of NSW 联合主办" },
+        { "k": "研究方向", "v": "宫颈癌预防与筛查政策、HPV 筛查、弱势群体公平可及" },
+        { "k": "所在单位", "v": "Sydney School of Public Health，Cancer Elimination Collaboration 负责人" }
+      ],
+      "sourceQuote": "Few Australians have made such a significant contribution to cancer research and prevention as Professor Karen Canfell.",
+      "source": "University of Sydney News · 2026-11-20",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/20/karen-canfell-named-premiers-outstanding-cancer-researcher-of-the-year.html"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "滴鼻剂改善小鼠记忆",
+      "h2Sub": "绕开血脑屏障，目前仍是临床前研究",
+      "h2Highlight": "临床前",
+      "lead": "11 月 19 日悉大官网发布：Charles Perkins Centre 的 Greg Neely 教授团队用滴鼻方式把 BDNF 的 mRNA 送进大脑，在老年小鼠身上改善了学习和记忆。",
+      "bullets": [
+        { "k": "思路", "v": "经鼻腔给药，绕开血脑屏障" },
+        { "k": "结果", "v": "老年小鼠学习和记忆改善；阿尔茨海默模型小鼠的严重认知下降得到保护" },
+        { "k": "斑块", "v": "没有减少淀粉样斑块，可能与现有抗淀粉样疗法互补" },
+        { "k": "论文", "v": "发表在 Advanced Science，属于临床前研究" }
+      ],
+      "sourceQuote": "The researchers found nose drops improved learning and memory in aged mice.",
+      "source": "University of Sydney News · 2026-11-19",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/19/experimental-nose-drops-tested-in-mice-could-prevent-alzheimer-s.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "悉大官网两条 · 内容都来自官方原文",
+    "items": [
+      { "n": "01", "title": "癌症研究大奖", "body": "Karen Canfell AC 教授获 2026 NSW 州长癌症研究奖年度最高荣誉，研究方向是宫颈癌预防与筛查。" },
+      { "n": "02", "title": "滴鼻剂研究", "body": "Charles Perkins Centre 团队的 BDNF mRNA 滴鼻剂改善了老年小鼠的学习和记忆，目前是临床前研究。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/23"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "悉大这周两条医学新闻",
+      "body": "11 月 19、20 号悉大官网发了两条医学科研新闻，我都读完了。\n\n一条是公共卫生学院的教授拿了州长癌症研究奖，一条是滴鼻剂在小鼠身上改善记忆。\n\n下面一张图一条，内容对着官网原文。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "州长癌症研究奖给了她",
+      "body": "悉大流行病学家 Karen Canfell AC 教授拿到 2026 NSW Premier's Awards for Outstanding Cancer Research 的年度最高荣誉。\n\n官方原文：Few Australians have made such a significant contribution to cancer research and prevention as Professor Karen Canfell.\n\n她做的是宫颈癌预防和筛查政策。",
+      "tags": "#悉尼大学 #USYD #公共卫生 #澳洲留学 #澳洲大学"
+    },
+    "p3": {
+      "title": "读公卫的可以关注这个组",
+      "body": "Canfell 教授在 Sydney School of Public Health 带 Cancer Elimination Collaboration，方向包括 HPV 筛查和让弱势群体也能用上筛查。\n\n她本人的获奖感言：This award is incredibly meaningful to me and our team.\n\n我自己在犹豫读 MPH 要不要偏流行病方向，这种组的论文可以先翻一翻 📚",
+      "tags": "#悉尼大学 #USYD #MPH #澳洲留学 #澳洲大学"
+    },
+    "p4": {
+      "title": "滴鼻剂让老鼠记性变好",
+      "body": "Charles Perkins Centre 的 Greg Neely 教授团队，用滴鼻的方式把 BDNF 的 mRNA 送进大脑，绕开血脑屏障。\n\n官方原文：The researchers found nose drops improved learning and memory in aged mice.\n\n注意这是小鼠实验，属于临床前研究，论文发在 Advanced Science，离人用还有距离 🐭",
+      "tags": "#悉尼大学 #USYD #生物医学 #澳洲留学 #澳洲大学"
+    },
+    "p5": {
+      "title": "悉大日报 评论区聊聊",
+      "body": "这两条都是医学科研，不是奖学金或招生公告。\n\n在悉大读医学、公卫、生物的同学，你们实验室最近在做什么？评论区说说。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "悉大流行病学家 Karen Canfell 获 NSW 州长癌症研究奖最高荣誉；滴鼻剂在小鼠实验中改善记忆",
+    "lead": "11 月 19 日和 20 日，悉尼大学官网发布两条医学科研新闻：一项州级癌症研究大奖，以及 Charles Perkins Centre 的一项阿尔茨海默临床前研究。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 Karen Canfell 获州长癌症研究奖年度最高荣誉",
+        "paragraphs": [
+          "11 月 20 日，悉大官网发布：流行病学家 Karen Canfell AC 教授获 2026 NSW Premier's Awards for Outstanding Cancer Research 的最高荣誉 Premier's Outstanding Cancer Researcher of the Year，奖项由 Cancer Institute of NSW 联合主办。",
+          "官方原文：Few Australians have made such a significant contribution to cancer research and prevention as Professor Karen Canfell.",
+          "Canfell 教授在 Sydney School of Public Health 负责 Cancer Elimination Collaboration，研究影响了澳洲和国际上的宫颈癌预防与筛查政策，也包括 HPV 筛查和弱势群体的公平可及。她的获奖感言：This award is incredibly meaningful to me and our team."
+        ],
+        "sourceHtml": "University of Sydney News · 2026-11-20 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/20/karen-canfell-named-premiers-outstanding-cancer-researcher-of-the-year.html\">sydney.edu.au</a>"
+      },
+      {
+        "h2": "02 实验性滴鼻剂在小鼠身上改善学习和记忆",
+        "paragraphs": [
+          "11 月 19 日，悉大官网发布：Charles Perkins Centre 的 Greg Neely 教授团队开发了一种实验性滴鼻剂，经鼻腔把 brain-derived neurotrophic factor（BDNF）的 mRNA 送入大脑。",
+          "官方原文：The researchers found nose drops improved learning and memory in aged mice. 另一句原文：Reduced BDNF levels are associated with ageing and Alzheimer’s disease.",
+          "研究中这种方法没有减少淀粉样斑块，因此可能与现有抗淀粉样疗法互补。论文发表在 Advanced Science，目前仍是临床前研究。"
+        ],
+        "sourceHtml": "University of Sydney News · 2026-11-19 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/19/experimental-nose-drops-tested-in-mice-could-prevent-alzheimer-s.html\">sydney.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "Karen Canfell AC 教授获 2026 NSW 州长癌症研究奖年度最高荣誉。",
+        "Charles Perkins Centre 的 BDNF mRNA 滴鼻剂改善了老年小鼠的学习和记忆，属于临床前研究。"
+      ]
+    },
+    "meta": { "readTime": "约 2 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 19、20 号悉大官网两条医学新闻，我都读完了。\n\n第1条：Karen Canfell AC 教授拿到 2026 NSW 州长癌症研究奖年度最高荣誉。\n\n第2条：Charles Perkins Centre 的滴鼻剂在老年小鼠身上改善了学习和记忆，目前是临床前研究。\n\n读医学和公卫的同学，你们关注哪个方向？评论区聊聊。",
+        "tags": ["#悉尼大学", "#USYD", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出（「最高荣誉」为奖项名称复述）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出（未使用治疗类表述，注明为小鼠临床前研究）" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-23",
+  "school": "uq",
+  "summary": {
+    "hookMain": "昆士兰大学 UQ",
+    "hookSub": "11 月 19-20 日 两条科研新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "UQ 物理团队用 1.8 吨电梯配重改变引力场，隔墙传出一个单词。",
+      "机械工程毕业班学生做出测草莓表皮强度的原型设备。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "引力传信息", "data": "1 bit / 分钟" },
+      { "num": "02", "title": "学生测草莓", "data": "毕业设计" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "用引力穿墙发消息",
+      "h2Sub": "1.8 吨配重 + 重力仪，一小时传一个单词",
+      "h2Highlight": "引力",
+      "lead": "11 月 19 日 UQ 官网发布：物理团队在 Parnell Building 隔着砖墙，用引力场变化传出了单词 Gravity。",
+      "bullets": [
+        { "k": "方法", "v": "在两层楼之间移动 1.8 吨电梯配重，分别代表二进制 0 和 1" },
+        { "k": "接收", "v": "隔壁房间的重力仪检测引力场变化并解码" },
+        { "k": "速率", "v": "每分钟 1 bit，一个单词用了约一小时" },
+        { "k": "论文", "v": "发表在 Science Advances" }
+      ],
+      "sourceQuote": "We have shown experimentally that information can be encoded in the gravitational field and recovered at the other end.",
+      "source": "UQ News · 2026-11-19",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-uq-researchers-send-unblockable-message-using-gravity"
+    },
+    {
+      "idx": "02",
+      "category": "校园动态",
+      "h2Main": "学生做了个测草莓的设备",
+      "h2Sub": "机械工程毕业班 × 昆州草莓育种项目",
+      "h2Highlight": "毕业班",
+      "lead": "11 月 20 日 UQ 官网发布：机械工程大四学生为昆州 Department of Primary Industries 的草莓育种项目做了测表皮强度的原型工具。",
+      "bullets": [
+        { "k": "痛点", "v": "育种人员原来按 1-9 分手工打分，多数草莓都在 7-9 分，难区分品种" },
+        { "k": "原理", "v": "橡胶轮贴着表皮转动，测力和扭矩" },
+        { "k": "现状", "v": "仍是原型，比手工慢一些，但更简单" },
+        { "k": "团队", "v": "QAAFI 研究人员带队，机械工程毕业班学生参与" }
+      ],
+      "sourceQuote": "The new device takes a bit longer than the manual way of testing but is so much better and simple to use.",
+      "source": "UQ News · 2026-11-20",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-strawberry-skins-strength-measured-student-device"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UQ 官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "引力传信息", "body": "移动 1.8 吨电梯配重改变引力场，隔壁重力仪解码，速率每分钟 1 bit，论文发在 Science Advances。" },
+      { "n": "02", "title": "学生测草莓", "body": "机械工程毕业班为昆州草莓育种项目做了测表皮强度的原型设备，原来靠 1-9 分手工打分。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/23"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 这周两条科研新闻",
+      "body": "11 月 19、20 号 UQ 官网发了两条挺好玩的科研新闻，我都读完了。\n\n一条是用引力隔墙传消息，一条是工科学生给草莓做体检。\n\n下面一张图一条，细节都对着官网原文。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "用引力穿墙发了个单词",
+      "body": "UQ 物理团队在 Parnell Building 里，把 1.8 吨的电梯配重在两层楼之间挪来挪去，0 和 1 就这么编出来了。\n\n隔壁房间放了台重力仪，把单词 Gravity 解了出来。\n\n官方原文：We have shown experimentally that information can be encoded in the gravitational field and recovered at the other end.",
+      "tags": "#昆士兰大学 #UQ #物理 #澳洲留学 #澳洲大学"
+    },
+    "p3": {
+      "title": "一小时才传完一个词",
+      "body": "速率是每分钟 1 bit，所以一个单词花了大概一小时 😂\n\n论文发在 Science Advances。团队提到，信号穿墙不怕遮挡，隧道里没信号的场景可能用得上。\n\n读物理的同学，这种实验课题我觉得比刷题有意思多了。",
+      "tags": "#昆士兰大学 #UQ #科研 #澳洲留学 #澳洲大学"
+    },
+    "p4": {
+      "title": "工科毕业设计：测草莓",
+      "body": "UQ 机械工程大四学生给昆州草莓育种项目做了个原型设备，用橡胶轮贴着表皮转，测力和扭矩。\n\n以前育种人员按 1-9 分手工打分，结果大多数草莓都在 7-9 分，根本分不开。\n\n官方原文：The new device takes a bit longer than the manual way of testing but is so much better and simple to use. 🍓",
+      "tags": "#昆士兰大学 #UQ #机械工程 #澳洲留学 #澳洲大学"
+    },
+    "p5": {
+      "title": "UQ 日报 评论区聊聊",
+      "body": "这两条都是科研和学生项目，不是奖学金或招生公告。\n\n我在纠结毕业设计要不要选和企业、政府合作的课题，你们怎么选的？评论区说说。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UQ 物理团队用引力隔墙传出单词；机械工程学生为草莓育种做出测表皮强度设备",
+    "lead": "11 月 19 日和 20 日，昆士兰大学官网发布两条科研新闻：一条是利用引力场传递信息的实验，一条是本科毕业班学生参与的农业工程项目。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 用引力场隔墙传出单词 Gravity",
+        "paragraphs": [
+          "11 月 19 日，UQ 官网发布：物理团队在 Parnell Building 里，把 1.8 吨的电梯配重在两层楼之间移动，用位置代表二进制 0 和 1。隔壁房间的重力仪检测到引力场变化，解码出单词 Gravity。",
+          "官方原文：We have shown experimentally that information can be encoded in the gravitational field and recovered at the other end.",
+          "这次实验的速率是每分钟 1 bit，一个单词用了约一小时。研究发表在 Science Advances。团队的建模认为，在较理想的假设下，量子传感器有望把距离和速率继续往上推。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-19 · <a href=\"https://news.uq.edu.au/2026-11-uq-researchers-send-unblockable-message-using-gravity\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "02 机械工程毕业班为草莓育种做测量设备",
+        "paragraphs": [
+          "11 月 20 日，UQ 官网发布：机械工程大四学生为昆州 Department of Primary Industries 的 Australian Strawberry Breeding Program 做了测草莓表皮强度的原型工具，项目由 QAAFI 研究人员带队。",
+          "育种人员原来按 1-9 分手工评估表皮韧性，但多数草莓都在 7-9 分，品种之间很难区分。新设备让橡胶轮贴着表皮转动，测量力和扭矩。",
+          "DPI 育种人员的评价：The new device takes a bit longer than the manual way of testing but is so much better and simple to use."
+        ],
+        "sourceHtml": "UQ News · 2026-11-20 · <a href=\"https://news.uq.edu.au/2026-11-strawberry-skins-strength-measured-student-device\">news.uq.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "UQ 物理团队移动 1.8 吨电梯配重改变引力场，隔墙传出单词 Gravity，速率每分钟 1 bit。",
+        "机械工程毕业班学生为昆州草莓育种项目做出测表皮强度的原型设备。"
+      ]
+    },
+    "meta": { "readTime": "约 2 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 19、20 号 UQ 官网两条科研新闻，我都读完了。\n\n第1条：物理团队挪动 1.8 吨电梯配重，用引力隔墙传出单词 Gravity，每分钟 1 bit。\n\n第2条：机械工程大四学生给昆州草莓育种项目做了测表皮强度的原型设备。\n\n你们的毕业设计做的什么课题？评论区聊聊。",
+        "tags": ["#昆士兰大学", "#UQ", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

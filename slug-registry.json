@@ -3086,6 +3086,18 @@
     {
       "type": "story",
       "slug": "bob-civil-to-devops"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-uq-2026-11-23"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-usyd-2026-11-23"
+    },
+    {
+      "type": "article",
+      "slug": "uni-news-adelaide-2026-11-23"
     }
   ]
 }

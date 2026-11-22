@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-23",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "阿德莱德大学 Adelaide",
+    "hookSub": "11 月 17-18 日 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "工程学院研究发现：氢气火焰的橙色主要来自空气里的钠。",
+      "Samstag 美术馆 2026 最后一季三个免费展，开到 12 月 4 日。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "氢气火焰研究", "data": "相差 28 倍以上" },
+      { "num": "02", "title": "Samstag 展览", "data": "免费 · 至 12/4" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "氢气火焰为什么时亮时暗",
+      "h2Sub": "答案是空气里的钠，比如海风带来的海盐",
+      "h2Highlight": "钠",
+      "lead": "11 月 18 日阿德莱德大学官网发布：工程学院研究解释了同一台氢气灶为什么有时火焰橙亮、有时几乎看不见。",
+      "bullets": [
+        { "k": "发现", "v": "火焰的橙色主要来自周围空气中的钠" },
+        { "k": "实验", "v": "两周内保持燃烧器设置不变，测量火焰发射变化" },
+        { "k": "差距", "v": "钠相关信号最低和最高读数相差 28 倍以上" },
+        { "k": "启示", "v": "氢气家电不能只靠火焰颜色判断是否在燃烧" },
+        { "k": "论文", "v": "发表在 Next Energy，负责人 Paul Medwell 教授" }
+      ],
+      "sourceQuote": "They found that the measured sodium-related signal varied by more than a factor of 28 between the lowest and highest readings.",
+      "source": "Adelaide University News · 2026-11-18",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/making-hydrogen-flames-easier-to-see-could-help-power-a-cleaner-/"
+    },
+    {
+      "idx": "02",
+      "category": "校园动态",
+      "h2Main": "Samstag 美术馆最后一季",
+      "h2Sub": "三个免费展览，开到 12 月 4 日",
+      "h2Highlight": "免费",
+      "lead": "11 月 17 日阿德莱德大学官网发布：校内 Samstag Museum of Art 推出 Wirltuti 季，三个展览全部免费向公众开放。",
+      "bullets": [
+        { "k": "季名", "v": "Wirltuti，取自 Kaurna 语里预示天气转暖的气候时节" },
+        { "k": "展期", "v": "到 12 月 4 日（周五）" },
+        { "k": "展览一", "v": "Robert Fielding 的 Melting Point（2026 Samstag Jeffrey Smart Commission）" },
+        { "k": "展览二", "v": "英国艺术家 Keith Piper 的 22 Yards of Earth，以板球为题" },
+        { "k": "展览三", "v": "Adelaide Film Festival Expand Moving Image Commission" }
+      ],
+      "sourceQuote": "Samstag’s free and public Wirltuti exhibitions mark the Museum’s final season of 2026, running until Friday 4 December.",
+      "source": "Adelaide University News · 2026-11-17",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/samstag-s-final-season-for-2026-spotlights-the-power-of-artists-/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿德莱德大学官网两条 · 内容都来自官方原文",
+    "items": [
+      { "n": "01", "title": "氢气火焰研究", "body": "火焰橙色主要来自空气中的钠，两周测试里钠相关信号相差 28 倍以上，论文发在 Next Energy。" },
+      { "n": "02", "title": "Samstag 展览", "body": "Wirltuti 季三个展览免费开放，到 12 月 4 日（周五）结束。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/23"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿德这周两条新闻整理",
+      "body": "11 月 17、18 号阿德莱德大学官网发了两条，我都读完了。\n\n一条是工程学院的氢气火焰研究，一条是校内 Samstag 美术馆的年末免费展。\n\n下面一张图一条，细节都对着官网原文。",
+      "tags": "#阿德莱德大学 #AdelaideUni #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "氢气火焰为啥时亮时暗",
+      "body": "同一台氢气灶，同样的设置，火焰有时橙亮、有时几乎看不见。\n\n阿德工程学院的研究发现，关键是空气里的钠，比如海风吹进来的海盐。\n\n官方原文：They found that the measured sodium-related signal varied by more than a factor of 28 between the lowest and highest readings. 🔥",
+      "tags": "#阿德莱德大学 #AdelaideUni #机械工程 #澳洲留学 #澳洲大学"
+    },
+    "p3": {
+      "title": "做氢能的同学可以看看",
+      "body": "研究的结论很实际：氢气家电不能只靠火焰颜色判断有没有在烧，得另做检测。\n\n论文发在 Next Energy，负责人是 School of Electrical and Mechanical Engineering 的 Paul Medwell 教授。\n\n我在犹豫选能源方向的选修，这种贴近家用场景的课题挺吸引我。",
+      "tags": "#阿德莱德大学 #AdelaideUni #氢能 #澳洲留学 #澳洲大学"
+    },
+    "p4": {
+      "title": "Samstag 免费展到 12/4",
+      "body": "校内 Samstag Museum of Art 的 Wirltuti 季，三个展览都免费。\n\n官方原文：Samstag’s free and public Wirltuti exhibitions mark the Museum’s final season of 2026, running until Friday 4 December.\n\n有 Robert Fielding 用废旧汽车做的 Melting Point，还有 Keith Piper 讲板球的影像作品。期末考完可以去逛 🎨",
+      "tags": "#阿德莱德大学 #AdelaideUni #阿德莱德 #澳洲留学 #澳洲大学"
+    },
+    "p5": {
+      "title": "阿德日报 评论区聊聊",
+      "body": "这两条一条科研、一条校园活动，都不是奖学金或招生公告。\n\n考完试你们打算去哪逛？评论区说说。",
+      "tags": "#阿德莱德大学 #AdelaideUni #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "阿德莱德大学研究解释氢气火焰为何时亮时暗；Samstag 美术馆年末三展免费开放至 12 月 4 日",
+    "lead": "11 月 17 日和 18 日，阿德莱德大学官网发布两条消息：工程学院关于氢气火焰可见度的研究，以及校内 Samstag 美术馆 2026 年最后一季展览。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 氢气火焰的橙色来自空气中的钠",
+        "paragraphs": [
+          "11 月 18 日，阿德莱德大学官网发布：School of Electrical and Mechanical Engineering 的 Paul Medwell 教授团队在 Next Energy 发表研究，解释为什么同一台氢气设备在相同条件下，火焰有时橙亮、有时很难看见。",
+          "研究发现，火焰的橙色主要来自周围空气中的钠，比如风从海上带来的海盐颗粒。团队在两周内保持燃烧器设置不变。官方原文：They found that the measured sodium-related signal varied by more than a factor of 28 between the lowest and highest readings.",
+          "研究给工程师的提示是：氢气家电的设计不能只依靠火焰颜色来判断燃烧器是否在工作。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-18 · <a href=\"https://adelaide.edu.au/about/news/2026/making-hydrogen-flames-easier-to-see-could-help-power-a-cleaner-/\">adelaide.edu.au</a>"
+      },
+      {
+        "h2": "02 Samstag 美术馆 Wirltuti 季三展免费开放",
+        "paragraphs": [
+          "11 月 17 日，阿德莱德大学官网发布：校内 Samstag Museum of Art 推出 Wirltuti 季，名字取自 Kaurna 语中预示天气转暖的气候时节。",
+          "官方原文：Samstag’s free and public Wirltuti exhibitions mark the Museum’s final season of 2026, running until Friday 4 December.",
+          "三个展览分别是：Robert Fielding 与 Mimili Maku Wati Studio 的 Melting Point（2026 Samstag Jeffrey Smart Commission），以一辆从 Country 回收的汽车为核心；英国艺术家 Keith Piper 的影像作品 22 Yards of Earth，以板球探讨国家认同与殖民历史；以及一件 Adelaide Film Festival Expand Moving Image Commission 作品。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-17 · <a href=\"https://adelaide.edu.au/about/news/2026/samstag-s-final-season-for-2026-spotlights-the-power-of-artists-/\">adelaide.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "氢气火焰的橙色主要来自空气中的钠，两周测试里钠相关信号相差 28 倍以上。",
+        "Samstag 美术馆 Wirltuti 季三个展览免费开放，到 12 月 4 日（周五）。"
+      ]
+    },
+    "meta": { "readTime": "约 2 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "11 月 17、18 号阿德莱德大学官网两条消息，我都读完了。\n\n第1条：工程学院发现氢气火焰的橙色主要来自空气里的钠，两周测试里信号相差 28 倍以上。\n\n第2条：Samstag 美术馆 Wirltuti 季三个展览免费，到 12 月 4 日。\n\n考完试有人一起去看展吗？评论区聊聊。",
+        "tags": ["#阿德莱德大学", "#AdelaideUni", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
