@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-23",
+  "summary": {
+    "hook": [
+      { "text": "GPT-6.2 Astra和Sol上线" },
+      { "text": "Stanford教授创业Noeri募1.1亿" },
+      { "text": "Corma三个月成网络安全独角兽" }
+    ],
+    "sub": "OpenAI一周前的新模型我们漏写了，今天补上；另外两笔是同一天公布的AI融资，均用公司原文加独立媒体核对。",
+    "items": [
+      { "num": "01", "cat": "模型", "numColor": "#10A37F", "t": "GPT-6.2 Astra和Sol上线ChatGPT Plus、Pro及API，Astra每百万token输入8美元、输出40美元，Sol维持2/10美元" },
+      { "num": "02", "cat": "融资", "numColor": "#8B5CF6", "t": "Yejin Choi和Carlos Guestrin创办的Noeri募资1.1亿美元，Menlo Ventures领投，做在工作中自我改进的企业AI" },
+      { "num": "03", "cat": "安全", "numColor": "#EF4444", "t": "Corma完成1.25亿美元A轮，估值10亿美元，NEA领投；出隐身状态才三个月，自训网络防御基础模型" }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpt-6-2-astra-sol",
+      "idx": "01",
+      "catText": "模型",
+      "accent": "#10A37F",
+      "bg": { "top": "模型", "mid": "GPT-6.2", "bot": "2026.11.23", "topRight": "" },
+      "title": [{ "text": "GPT-6.2 Astra和Sol上线，Astra每百万token 8/40美元" }],
+      "oneline": [{ "text": "Astra管最难的长任务，Sol管日常工作；两个都被OpenAI评为网络安全Critical级。" }],
+      "bullets": [
+        { "k": "发生了什么", "v": "Plus、Pro、Enterprise、Edu用户可在ChatGPT Work和Codex使用，API模型名gpt-6.2-astra和gpt-6.2-sol。" },
+        { "k": "为什么重要", "v": "Astra每百万token输入8美元、输出40美元；Sol沿用上一代2/10美元。" },
+        { "k": "对你的影响", "v": "跑分全是OpenAI自报。安全研究类请求会被拦得更严，做渗透测试的先实测再切换。" }
+      ],
+      "src": "📎 openai.com · next.ink · digitaltrends.com",
+      "sourceEvidence": [
+        { "type": "primary", "publisher": "OpenAI", "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/", "claim": "ChatGPT可用套餐", "quote": "Starting today, GPT-6.2 Astra and Sol are available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex." },
+        { "type": "primary", "publisher": "OpenAI", "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/", "claim": "Astra API价格", "quote": "$8 for input, $0.40 for cached input, and $40 for output, all per million tokens." },
+        { "type": "primary", "publisher": "OpenAI", "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/", "claim": "Sol API价格不变", "quote": "GPT‑6.2 Sol carries forward GPT‑6.1 Sol's rates of $2 for input, $0.10 for cached input, and $10 for output per million tokens." },
+        { "type": "primary", "publisher": "OpenAI", "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/", "claim": "AI自我改进风险评级", "quote": "GPT-6.2 Astra is our first externally released model to meet the High threshold for AI Self-improvement." },
+        { "type": "independent", "publisher": "Next.ink", "url": "https://next.ink/brief-article/avec-gpt-6-2-sol-et-astra-openai-promet-de-la-qualite-et-des-economies/", "claim": "Sol价格", "quote": "GPT-6.2 Sol revient à 2 dollars pour 1 million de tokens en entrée, et 10 dollars pour 1 million de tokens en sortie" }
+      ]
+    },
+    {
+      "slug": "02-noeri-110m",
+      "idx": "02",
+      "catText": "融资",
+      "accent": "#8B5CF6",
+      "bg": { "top": "融资", "mid": "NOERI $110M", "bot": "2026.11.23", "topRight": "" },
+      "title": [{ "text": "Stanford教授创办Noeri，首轮募1.1亿美元" }],
+      "oneline": [{ "text": "Yejin Choi和Carlos Guestrin任联合CEO，做能在工作中自我组织、自我改进的企业AI系统。" }],
+      "bullets": [
+        { "k": "发生了什么", "v": "11月16日公布1.1亿美元融资，Menlo Ventures领投，在Palo Alto和Zurich招研究员和工程师。" },
+        { "k": "为什么重要", "v": "卖点是企业自己拥有、边用边进化的AI，而不是租通用大模型。" },
+        { "k": "对你的影响", "v": "目前只能邮件联系，没有公开产品、价格或独立测评，先观望。" }
+      ],
+      "src": "📎 noeri.ai · thesaasnews.com · letsdatascience.com",
+      "sourceEvidence": [
+        { "type": "primary", "publisher": "Noeri", "url": "https://noeri.ai/", "claim": "融资金额", "quote": "Noeri raises $110 million to advance the future of plural intelligence." },
+        { "type": "independent", "publisher": "The SaaS News", "url": "https://www.thesaasnews.com/news/noeri-raises-110m-unknown/", "claim": "领投方", "quote": "Noeri raises $110M in funding led by Menlo Ventures" },
+        { "type": "independent", "publisher": "The SaaS News", "url": "https://www.thesaasnews.com/news/noeri-raises-110m-unknown/", "claim": "创始人", "quote": "Founded in 2026 by Stanford computer science professors Yejin Choi and Carlos Guestrin" },
+        { "type": "independent", "publisher": "The SaaS News", "url": "https://www.thesaasnews.com/news/noeri-raises-110m-unknown/", "claim": "招聘地点", "quote": "The company is actively hiring researchers and engineers in Palo Alto and Zurich" }
+      ]
+    },
+    {
+      "slug": "03-corma-series-a",
+      "idx": "03",
+      "catText": "安全",
+      "accent": "#EF4444",
+      "bg": { "top": "安全", "mid": "CORMA $1B", "bot": "2026.11.23", "topRight": "" },
+      "title": [{ "text": "Corma完成1.25亿美元A轮，估值10亿美元" }],
+      "oneline": [{ "text": "NEA领投，红杉、Khosla、Coatue跟投；出隐身状态才三个月，自训网络防御基础模型。" }],
+      "bullets": [
+        { "k": "发生了什么", "v": "11月16日公布A轮，累计融资1.85亿美元，此前种子轮6000万美元由红杉领投。" },
+        { "k": "为什么重要", "v": "不套通用大模型，自己训安全专用模型，以Agent形式接入企业现有安全工具。" },
+        { "k": "对你的影响", "v": "做SOC和云安全的可以留意：安全专用模型正在变成独立赛道。" }
+      ],
+      "src": "📎 corma.ai · thenextweb.com",
+      "sourceEvidence": [
+        { "type": "primary", "publisher": "Corma", "url": "https://corma.ai/blog/three-months-in", "claim": "金额、估值与投资方", "quote": "Today, we're announcing a $125 million Series A at a $1 billion valuation, led by NEA, with continued participation from Sequoia Capital, Khosla Ventures, and Coatue." },
+        { "type": "primary", "publisher": "Corma", "url": "https://corma.ai/blog/three-months-in", "claim": "累计融资", "quote": "This brings our total funding to $185 million." },
+        { "type": "primary", "publisher": "Corma", "url": "https://corma.ai/blog/three-months-in", "claim": "资金用途", "quote": "The new funding will allow us to accelerate the scaling of our foundation models and spike our compute capacity." },
+        { "type": "independent", "publisher": "The Next Web", "url": "https://thenextweb.com/news/corma-series-a-125m-1bn-valuation-nea", "claim": "累计融资", "quote": "The round takes Corma's total funding to $185m." },
+        { "type": "independent", "publisher": "The Next Web", "url": "https://thenextweb.com/news/corma-series-a-125m-1bn-valuation-nea", "claim": "种子轮", "quote": "$60m seed round led by Sequoia Capital" }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "GPT-6.2 Astra和Sol上线，Stanford教授创业Noeri募1.1亿美元，Corma三个月成安全独角兽"
+  }
+}
