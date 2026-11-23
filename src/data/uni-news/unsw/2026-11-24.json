@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-24",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "新南威尔士大学 UNSW",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "UNSW 在堪培拉成立公共政策研究生院，首批公开课程 2027 年开课。",
+      "理论物理学家 Victor Flambaum 获美国物理学会 2027 Ramsey 奖。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "公共政策研究生院", "data": "2027 开课" },
+      { "num": "02", "title": "Ramsey 物理奖", "data": "50+ 实验室" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "课程",
+      "h2Main": "UNSW 成立公共政策研究生院",
+      "h2Sub": "首批公开课程 2027 年开课",
+      "h2Highlight": "2027",
+      "lead": "11 月 23 日 UNSW 官网发布：UNSW Graduate School of Public Policy 成立，设在 UNSW 新的 Canberra City Campus。",
+      "bullets": [
+        { "k": "学院", "v": "UNSW Graduate School of Public Policy" },
+        { "k": "地点", "v": "UNSW Canberra City Campus" },
+        { "k": "面向", "v": "公务员、政治幕僚、议员及非营利和私营部门政策从业者" },
+        { "k": "在建项目", "v": "高管培训、专业证书、Graduate Certificate（数据与证据决策）、Executive Master" },
+        { "k": "开课", "v": "首批公开课程 2027 年开始" }
+      ],
+      "sourceQuote": "The first public courses begin in 2027. It is developing executive education, professional certificates, a Graduate Certificate focused on data and evidence in policymaking, and an Executive Master for strategic public leadership, with short courses designed to stack into longer qualifications.",
+      "source": "UNSW Newsroom · 2026-11-23",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-launches-graduate-school-of-public-policy-for-the-nations-future-leaders"
+    },
+    {
+      "idx": "02",
+      "category": "学术荣誉",
+      "h2Main": "Flambaum 获 2027 Ramsey 奖",
+      "h2Sub": "美国物理学会颁发",
+      "h2Highlight": "Ramsey 奖",
+      "lead": "11 月 19 日 UNSW 官网发布：理论物理学家 Victor Flambaum 获美国物理学会 2027 Norman F. Ramsey Prize。",
+      "bullets": [
+        { "k": "获奖人", "v": "Scientia Professor Victor Flambaum，UNSW 理论物理讲席教授" },
+        { "k": "颁奖方", "v": "American Physical Society" },
+        { "k": "领域", "v": "原子、分子与光物理，基本定律与对称性精密检验" },
+        { "k": "引用", "v": "论文被引近 50,000 次" },
+        { "k": "影响", "v": "全球 50 多个实验室开展了基于其理论的实验" }
+      ],
+      "sourceQuote": "UNSW Sydney Scientia Professor Victor Flambaum has been named the winner of the 2027 Norman F. Ramsey Prize for seminal contributions to physics.",
+      "source": "UNSW Newsroom · 2026-11-19",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/unsw-physicist-wins-norman-f-ramsey-prize"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "公共政策研究生院", "body": "设在堪培拉城市校区，在建 Graduate Certificate 和 Executive Master 等项目，首批公开课程 2027 年开课。" },
+      { "n": "02", "title": "Ramsey 物理奖", "body": "Victor Flambaum 获美国物理学会 2027 Norman F. Ramsey Prize，全球 50 多个实验室做过基于其理论的实验。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/24"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 本周两条新闻整理",
+      "body": "UNSW 官网这周有两条我觉得值得看，都读完了。\n\n一条是新成立了公共政策研究生院，另一条是物理系教授拿了美国物理学会的奖。\n\n下面一张图一条，关键句贴了官网原文。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UNSW 新开公共政策研究生院",
+      "body": "11 月 23 号官网发的：UNSW 成立 Graduate School of Public Policy，设在堪培拉的 Canberra City Campus。\n\n开课时间官网原文：The first public courses begin in 2027.\n\n主要面向公务员、政治幕僚和政策从业者，在建的有 Graduate Certificate 和 Executive Master。原文没写学费和国际生招生安排，想读的话建议等官方课程页出来再看 📌",
+      "tags": "#新南威尔士大学 #UNSW #公共政策 #澳洲硕士 #澳洲大学"
+    },
+    "p3": {
+      "title": "这个学院教什么",
+      "body": "官网列的内容挺实务的：预算和立法流程、采购、大型公共服务、地缘政治。\n\n还有 AI 治理、网络风险、能源转型和财政取舍这几块。\n\n顾问委员会主席是前新州部长 Rob Stokes。我在纠结政策方向值不值得读，感觉更适合已经工作几年的人。",
+      "tags": "#新南威尔士大学 #UNSW #AI治理 #澳洲留学 #澳洲大学"
+    },
+    "p4": {
+      "title": "UNSW 物理教授拿了 Ramsey 奖",
+      "body": "11 月 19 号官网发的，原文：UNSW Sydney Scientia Professor Victor Flambaum has been named the winner of the 2027 Norman F. Ramsey Prize for seminal contributions to physics.\n\n这个奖是美国物理学会发的。他做的方向包括超精密离子钟和核钟，官网说可用于下一代 GPS 和自动驾驶系统。\n\n他说全球 50 多个实验室做过基于他们理论的实验 🔭",
+      "tags": "#新南威尔士大学 #UNSW #物理 #澳洲留学 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW 日报 评论区聊聊",
+      "body": "这两条一条是新学院，一条是学术奖项，都不是奖学金公告。\n\n你们会考虑读公共政策这类偏实务的硕士吗？还是更想读技术方向？评论区说说。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW 成立公共政策研究生院，首批公开课程 2027 年开课；物理学家 Victor Flambaum 获 2027 Ramsey 奖",
+    "lead": "本周 UNSW 官网发布两条消息：在堪培拉城市校区成立 Graduate School of Public Policy，以及理论物理学家 Victor Flambaum 获美国物理学会 2027 Norman F. Ramsey Prize。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 UNSW 成立公共政策研究生院",
+        "paragraphs": [
+          "11 月 23 日，UNSW 官网发布：UNSW Graduate School of Public Policy 成立，面向公务员、政治幕僚、议员以及非营利和私营部门的政策从业者，设在 UNSW 新的 Canberra City Campus。",
+          "课程内容覆盖预算与立法流程、采购、大型公共服务和地缘政治，并包括 AI 治理、网络风险、能源转型和财政取舍。执行院长为 Rebecca Razavi，顾问委员会主席为前新州部长 Rob Stokes，成员包括 Productivity Commission 主席 Danielle Wood。",
+          "课程安排官网原文：The School is already delivering tailored programs for government agencies. The first public courses begin in 2027. It is developing executive education, professional certificates, a Graduate Certificate focused on data and evidence in policymaking, and an Executive Master for strategic public leadership, with short courses designed to stack into longer qualifications. 学费与入学要求官网暂未公布，请以后续官方课程页为准。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-23 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-launches-graduate-school-of-public-policy-for-the-nations-future-leaders\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 Victor Flambaum 获 2027 Ramsey 奖",
+        "paragraphs": [
+          "11 月 19 日，UNSW 官网发布：UNSW Sydney Scientia Professor Victor Flambaum has been named the winner of the 2027 Norman F. Ramsey Prize for seminal contributions to physics.",
+          "该奖由美国物理学会每年颁发，表彰原子、分子与光物理以及基本定律和对称性精密检验方面的工作。官网写到，他是该奖 2017 年设立以来首位获奖的澳洲研究者。",
+          "他的研究涉及基本常数变化、基本对称性破缺，以及用于下一代 GPS 和自动驾驶系统的超精密离子钟和核钟。Flambaum 教授表示：It is rewarding that experiments based on our ideas and calculations have been carried out in more than 50 laboratories around the world."
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-19 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/unsw-physicist-wins-norman-f-ramsey-prize\">unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "UNSW Graduate School of Public Policy 成立，设在堪培拉城市校区，首批公开课程 2027 年开课。",
+        "Victor Flambaum 获美国物理学会 2027 Norman F. Ramsey Prize。"
+      ]
+    },
+    "meta": { "readTime": "约 2 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "UNSW 官网这周两条，我都读完了。\n\n第1条：UNSW 在堪培拉成立公共政策研究生院。官方原文：The first public courses begin in 2027.\n\n第2条：理论物理学家 Victor Flambaum 拿了美国物理学会 2027 Norman F. Ramsey Prize。\n\n你们会考虑读公共政策这类偏实务的硕士吗？评论区聊聊。",
+        "tags": ["#新南威尔士大学", "#UNSW", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

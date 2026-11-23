@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-24",
+  "school": "monash",
+  "summary": {
+    "hookMain": "莫纳什大学 Monash",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "Monash 牵头的 CREST Hub 启动：5 所大学 + 6 家企业，研究锂、硅等关键材料分离。",
+      "Clarivate 2026 高被引学者名单公布，26 位 Monash 学者入选。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "CREST 关键材料中心", "data": "2027 招 9 名 PhD" },
+      { "num": "02", "title": "高被引学者", "data": "26 人入选" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "Monash 牵头 CREST 关键材料中心",
+      "h2Sub": "2027 年预计再招 9 名 PhD",
+      "h2Highlight": "9 名 PhD",
+      "lead": "11 月 20 日 Monash 官网发布：ARC 关键能源分离材料研究中心（CREST Hub）正式启动，由 Monash 牵头，联合 5 所澳洲大学和 6 家企业。",
+      "bullets": [
+        { "k": "全称", "v": "ARC Research Hub for Critical Energy Separation Materials（CREST Hub）" },
+        { "k": "规模", "v": "5 所澳洲大学 + 6 家行业伙伴" },
+        { "k": "方向", "v": "膜分离、金属提取环保溶剂、氨运输材料、CO2 转化、低碳硅金属" },
+        { "k": "现状", "v": "2026 年 6 月开始运作，已立 4 个项目、招收 4 名 PhD" },
+        { "k": "2027", "v": "预计再有 9 名 PhD 入学" }
+      ],
+      "sourceQuote": "Since commencing in June 2026, the CREST Hub has established four research projects, appointed its first research staff and enrolled four PhD students. A further nine PhD students are expected to commence in 2027, alongside growth in its research workforce.",
+      "source": "Monash Newsroom · 2026-11-20",
+      "sourceUrl": "https://www.monash.edu/newsroom/news/2026/monash-led-national-research-hub-to-advance-australias-critical-materials-technologies"
+    },
+    {
+      "idx": "02",
+      "category": "学术荣誉",
+      "h2Main": "26 位学者入选高被引名单",
+      "h2Sub": "10 个学院里有 7 个上榜",
+      "h2Highlight": "26 位",
+      "lead": "11 月 19 日 Monash 官网发布：26 位 Monash 学者入选 Clarivate 2026 Highly Cited Researchers（HiCi）名单。",
+      "bullets": [
+        { "k": "名单", "v": "Clarivate 2026 Highly Cited Researchers" },
+        { "k": "人数", "v": "26 位 Monash 学者" },
+        { "k": "新增", "v": "今年新招入的 3 位入选者，含理学院 Benjamin Cook 教授" },
+        { "k": "AI 方向", "v": "信息技术学院 Geoff Webb 教授今年新上榜" },
+        { "k": "覆盖", "v": "10 个学院中有 7 个有学者上榜" }
+      ],
+      "sourceQuote": "Twenty-six Monash University academics have been recognised for their global research influence as part of Clarivate’s 2026 list of Highly Cited (HiCi) Researchers.",
+      "source": "Monash Newsroom · 2026-11-19",
+      "sourceUrl": "https://www.monash.edu/newsroom/news/2026/monash-researchers-named-among-the-most-influential-in-their-fields"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "Monash 官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "CREST 关键材料中心", "body": "Monash 牵头，5 所大学 + 6 家企业，研究锂、硅等关键材料分离；已招 4 名 PhD，2027 年预计再招 9 名。" },
+      { "n": "02", "title": "高被引学者", "body": "26 位 Monash 学者入选 Clarivate 2026 HiCi 名单，10 个学院里 7 个上榜，AI 方向 Geoff Webb 教授新上榜。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/24"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "Monash 本周两条新闻整理",
+      "body": "Monash 官网这周有两条我觉得值得看，都读完了。\n\n一条是新的关键材料研究中心启动，和读博的同学有关；另一条是高被引学者名单出来了。\n\n下面一张图一条，关键句贴了官网原文。",
+      "tags": "#莫纳什大学 #Monash #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "Monash 新材料中心要招博士",
+      "body": "11 月 20 号官网发的：Monash 牵头的 CREST Hub 正式启动，5 所澳洲大学加 6 家企业一起做。\n\n关于博士名额，官网原文：A further nine PhD students are expected to commence in 2027, alongside growth in its research workforce.\n\n目前已经招了 4 名 PhD。注意原文只说预计 2027 年再有 9 人入学，没写申请方式和奖学金，想申的话建议直接看中心主页或联系导师 📌",
+      "tags": "#莫纳什大学 #Monash #澳洲读博 #PhD申请 #澳洲大学"
+    },
+    "p3": {
+      "title": "这个中心具体研究什么",
+      "body": "方向挺具体的：从复杂矿石和回收废料里分离有价值材料的膜技术、金属提取用的环保溶剂、氨的运输材料，还有把二氧化碳转成氢运输材料。\n\n有个重点是低碳生产硅金属，官网说这种材料用在太阳能板、手机、电动车、电池和 AI 基础设施上。\n\n读化工、材料、能源方向的同学，可以顺着这些关键词去找对应课题组。我也在犹豫要不要先发邮件问问组里老师。",
+      "tags": "#莫纳什大学 #Monash #化工 #新能源 #澳洲大学"
+    },
+    "p4": {
+      "title": "26 位学者上了高被引名单",
+      "body": "11 月 19 号官网发的，原文：Twenty-six Monash University academics have been recognised for their global research influence as part of Clarivate’s 2026 list of Highly Cited (HiCi) Researchers.\n\n10 个学院里有 7 个有人上榜。信息技术学院做 AI 的 Geoff Webb 教授今年新上榜。\n\n选导师的时候这份名单可以当个参考，但还是要看研究方向对不对口 🔍",
+      "tags": "#莫纳什大学 #Monash #选导师 #澳洲留学 #澳洲大学"
+    },
+    "p5": {
+      "title": "Monash 日报 评论区聊聊",
+      "body": "这两条都是科研向的，不是奖学金或招生公告。\n\n想读博的同学，你们选导师更看论文引用还是看组里氛围？我是越来越觉得后者重要。评论区说说。",
+      "tags": "#莫纳什大学 #Monash #澳洲读博 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "Monash 牵头的 CREST 关键材料中心启动，2027 年预计再招 9 名 PhD；26 位学者入选 2026 高被引名单",
+    "lead": "本周 Monash 官网发布两条消息：Monash 牵头的 ARC CREST Hub 正式启动，以及 26 位学者入选 Clarivate 2026 高被引学者名单。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 CREST 关键材料研究中心启动",
+        "paragraphs": [
+          "11 月 20 日，Monash 官网发布：The ARC Research Hub for Critical Energy Separation Materials (CREST Hub), officially launched today, bringing together five Australian universities and six industry partners to develop technologies that could make resource recovery more efficient, reduce energy consumption, and strengthen Australia's position in emerging clean energy industries.",
+          "中心由 Monash 牵头，主任为 Matthew Hill 教授，并纳入 Monash 与 CSIRO 联合的 Membrane Pilot Facility。研究方向包括膜分离技术、金属提取环保溶剂、氨的安全运输材料、二氧化碳转化，以及低碳生产硅金属。",
+          "人才培养方面，官网原文：Since commencing in June 2026, the CREST Hub has established four research projects, appointed its first research staff and enrolled four PhD students. A further nine PhD students are expected to commence in 2027, alongside growth in its research workforce. 官网未写明申请方式和资助细节，有意向的同学请以中心官方页面为准。"
+        ],
+        "sourceHtml": "Monash Newsroom · 2026-11-20 · <a href=\"https://www.monash.edu/newsroom/news/2026/monash-led-national-research-hub-to-advance-australias-critical-materials-technologies\">monash.edu</a>"
+      },
+      {
+        "h2": "02 26 位学者入选 2026 高被引名单",
+        "paragraphs": [
+          "11 月 19 日，Monash 官网发布：Twenty-six Monash University academics have been recognised for their global research influence as part of Clarivate’s 2026 list of Highly Cited (HiCi) Researchers.",
+          "今年 Monash 新增 3 位入选者，其中包括通过 EMERGE @ Monash 计划从纽约加入理学院的 Benjamin Cook 教授。信息技术学院 AI 研究者 Geoff Webb 教授今年首次上榜。入选方向覆盖可持续发展、神经心理学、心血管疾病、女性生殖健康、地球演化、电化学和天体物理。",
+          "副校长 Robyn Ward 教授表示：It’s fantastic to see such a broad range of disciplines represented, with seven of our 10 faculties featuring on the list."
+        ],
+        "sourceHtml": "Monash Newsroom · 2026-11-19 · <a href=\"https://www.monash.edu/newsroom/news/2026/monash-researchers-named-among-the-most-influential-in-their-fields\">monash.edu</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "CREST Hub 启动：Monash 牵头，5 所大学 + 6 家企业；已招 4 名 PhD，2027 年预计再招 9 名。",
+        "26 位 Monash 学者入选 Clarivate 2026 高被引名单，10 个学院中 7 个上榜。"
+      ]
+    },
+    "meta": { "readTime": "约 2 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "Monash 官网这周两条，我都读完了。\n\n第1条：Monash 牵头的 CREST Hub 启动，做锂、硅等关键材料分离。官方原文：A further nine PhD students are expected to commence in 2027, alongside growth in its research workforce.\n\n第2条：26 位 Monash 学者入选 Clarivate 2026 高被引名单，10 个学院里 7 个上榜。\n\n想读博的同学，你们选导师更看引用还是组里氛围？评论区聊聊。",
+        "tags": ["#莫纳什大学", "#Monash", "#澳洲读博", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}
