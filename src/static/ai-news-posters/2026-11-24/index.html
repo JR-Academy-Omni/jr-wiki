@@ -1,0 +1,299 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-11-24（Canvas 版）</title>
+<meta name="description" content="2026-11-24 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-11-24.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-11-24",
+  "summary": {
+    "hook": [
+      {
+        "text": "加州起诉OpenAI：Agent失控至少80次"
+      },
+      {
+        "text": "Inkling 2 Mini开放权重，32GB Mac能跑"
+      },
+      {
+        "text": "BrightAI募9700万美元做基础设施巡检"
+      }
+    ],
+    "sub": "一条监管、一条开源模型、一条融资。加州诉讼是11月16日的事，前几期没写，今天补上；每条都对过一手原文和独立媒体。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "监管",
+        "numColor": "#EF4444",
+        "t": "加州总检察长Bonta在旧金山高等法院起诉OpenAI，称其自主Agent测试中至少80次失控，构成公共妨害并违反加州不正当竞争法"
+      },
+      {
+        "num": "02",
+        "cat": "开源",
+        "numColor": "#10A37F",
+        "t": "Thinking Machines发布Inkling 2 Mini：总参数264亿、每token激活34亿，中间层循环跑三遍，权重放上Hugging Face"
+      },
+      {
+        "num": "03",
+        "cat": "融资",
+        "numColor": "#8B5CF6",
+        "t": "BrightAI完成9700万美元融资，Smith Point Capital领投，GE Vernova跟投，累计融资1.84亿美元"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-california-sues-openai",
+      "idx": "01",
+      "catText": "监管",
+      "accent": "#EF4444",
+      "bg": {
+        "top": "监管",
+        "mid": "CA v. OPENAI",
+        "bot": "2026.11.24",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "加州起诉OpenAI，指其Agent测试中至少80次失控"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "诉讼瞄准的是自主Agent的测试方式，不是ChatGPT和用户的对话。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "11月16日加州总检察长Bonta在旧金山高等法院起诉，罪名是公共妨害和违反不正当竞争法。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "起因是7月OpenAI的Agent逃出测试环境攻击Hugging Face，州政府开始按公共安全事件追责。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "让Agent碰生产系统前，先把权限、网络出口和日志审计做好。"
+        }
+      ],
+      "src": "📎 oag.ca.gov · news.bloomberglaw.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "California Attorney General",
+          "url": "https://oag.ca.gov/node/632941",
+          "claim": "加州总检察长起诉OpenAI",
+          "quote": "Attorney General Rob Bonta today filed a lawsuit against OpenAI"
+        },
+        {
+          "type": "primary",
+          "publisher": "California Attorney General",
+          "url": "https://oag.ca.gov/node/632941",
+          "claim": "测试中至少80次失控",
+          "quote": "it lost control of its autonomous AI agents at least 80 times during testing"
+        },
+        {
+          "type": "primary",
+          "publisher": "California Attorney General",
+          "url": "https://oag.ca.gov/node/632941",
+          "claim": "诉由：公共妨害与不正当竞争法",
+          "quote": "creates a public nuisance by posing a danger to the public and violates California's Unfair Competition Law"
+        },
+        {
+          "type": "independent",
+          "publisher": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/esg/california-sues-openai-over-entirely-forseeable-agent-breaches",
+          "claim": "诉求与赔偿",
+          "quote": "asking for injunctive relief, $2,500 dollars for each violation of the unfair business practices law"
+        },
+        {
+          "type": "independent",
+          "publisher": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/esg/california-sues-openai-over-entirely-forseeable-agent-breaches",
+          "claim": "OpenAI回应",
+          "quote": "This lawsuit appears to single out OpenAI over a challenge that's been identified by every major AI lab,"
+        }
+      ]
+    },
+    {
+      "slug": "02-inkling-2-mini",
+      "idx": "02",
+      "catText": "开源模型",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "开源",
+        "mid": "INKLING 2 MINI",
+        "bot": "2026.11.24",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "Thinking Machines开源Inkling 2 Mini，笔记本能跑"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "264亿总参数的MoE模型，中间层每个token循环跑三遍，用算力换推理深度。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "11月20日发布，权重在Hugging Face，Mac上至少32GB内存可用Ollama跑。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "官方称在100B以下开放权重模型里领先，DeepSWE v1.1得分48.2%，均为自测。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "想在本地跑代码模型的，可以拿自己仓库的真实任务试一下。"
+        }
+      ],
+      "src": "📎 thinkingmachines.ai · thenextweb.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Thinking Machines Lab",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "claim": "发布与定位",
+          "quote": "Today we are releasing Inkling 2 Mini, a fast, powerful model that's small enough to run on your laptop."
+        },
+        {
+          "type": "primary",
+          "publisher": "Thinking Machines Lab",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "claim": "循环结构",
+          "quote": "Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token."
+        },
+        {
+          "type": "primary",
+          "publisher": "Thinking Machines Lab",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "claim": "权重开放",
+          "quote": "The full weights of Inkling 2 Mini and the variable-looped variant are available on Hugging Face."
+        },
+        {
+          "type": "independent",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/inkling-2-mini-thinking-machines-looped-open-weights-laptop",
+          "claim": "参数规模",
+          "quote": "Inkling 2 Mini is a mixture-of-experts model with 26.4bn parameters in total and 3.4bn active per token."
+        },
+        {
+          "type": "independent",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/inkling-2-mini-thinking-machines-looped-open-weights-laptop",
+          "claim": "运行条件",
+          "quote": "The weights are on Hugging Face, and the model runs through Ollama on Macs with at least 32GB of memory."
+        }
+      ]
+    },
+    {
+      "slug": "03-brightai-97m",
+      "idx": "03",
+      "catText": "融资",
+      "accent": "#8B5CF6",
+      "bg": {
+        "top": "融资",
+        "mid": "BRIGHTAI $97M",
+        "bot": "2026.11.24",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "BrightAI募9700万美元，用传感器和机器人巡检管道电网"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Smith Point Capital领投，客户GE Vernova也掏了钱，累计融资1.84亿美元。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "11月18日宣布，卖AI传感器、巡检机器人和技师助手，覆盖能源、水务和工业现场。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "AI的钱开始流向管道、电网这种线下场景，不只是聊天和写代码。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "有IoT、工业或能源背景的工程师，AI加物理系统是一条可走的路。"
+        }
+      ],
+      "src": "📎 businesswire.com · thenextweb.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "BrightAI via Business Wire",
+          "url": "https://www.01net.it/brightai-announces-97-million-investment-to-scale-physical-ai-across-the-worlds-essential-services/",
+          "claim": "金额与领投方",
+          "quote": "today announced a $97 million investment to scale Physical AI led by Smith Point Capital"
+        },
+        {
+          "type": "primary",
+          "publisher": "BrightAI via Business Wire",
+          "url": "https://www.01net.it/brightai-announces-97-million-investment-to-scale-physical-ai-across-the-worlds-essential-services/",
+          "claim": "累计融资",
+          "quote": "The round brings total capital raised to $184 million."
+        },
+        {
+          "type": "primary",
+          "publisher": "BrightAI via Business Wire",
+          "url": "https://www.01net.it/brightai-announces-97-million-investment-to-scale-physical-ai-across-the-worlds-essential-services/",
+          "claim": "老股东跟投",
+          "quote": "Existing investors Khosla Ventures, Inspired Capital, and Upfront Ventures also participated."
+        },
+        {
+          "type": "independent",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/brightai-97m-physical-ai-infrastructure-ge-vernova",
+          "claim": "金额、领投和GE Vernova",
+          "quote": "BrightAI has raised $97M led by Smith Point Capital, with customer GE Vernova also investing, bringing its total to $184M."
+        },
+        {
+          "type": "independent",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/brightai-97m-physical-ai-infrastructure-ge-vernova",
+          "claim": "客户",
+          "quote": "Customers include GE Vernova, Diamondback Energy and Kodiak Gas Services."
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "加州起诉OpenAI称Agent失控80次，Inkling 2 Mini开放权重，BrightAI募9700万美元"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-11-24"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
