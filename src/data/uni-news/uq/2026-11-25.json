@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-25",
+  "school": "uq",
+  "summary": {
+    "hookMain": "昆士兰大学 UQ",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "UQ 在 2027 QS Sustainability Rankings 上升 22 位，排名全球第 28。",
+      "在 The Australian 2027 Research Magazine 中，UQ 在 27 个研究领域位列全澳领先机构。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "QS 可持续排名",
+        "data": "全球第 28"
+      },
+      {
+        "num": "02",
+        "title": "研究杂志榜单",
+        "data": "27 个领域全澳第一"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "排名",
+      "h2Main": "QS 可持续排名升 22 位",
+      "h2Sub": "全球第 28，健康与福祉影响并列第一",
+      "h2Highlight": "第 28",
+      "lead": "11 月 19 日 UQ 官网发布：UQ 在 2027 QS Sustainability Rankings 上升 22 位，排名全球第 28。",
+      "bullets": [
+        {
+          "k": "排名",
+          "v": "2027 QS Sustainability Rankings 全球第 28（上升 22 位）"
+        },
+        {
+          "k": "单项",
+          "v": "健康与福祉影响（health and wellbeing impact）并列第一"
+        },
+        {
+          "k": "全澳",
+          "v": "环境研究（environmental research）全澳第二"
+        },
+        {
+          "k": "评估维度",
+          "v": "环境影响、社会影响、治理"
+        },
+        {
+          "k": "官网提到的研究",
+          "v": "下一代电池、碳转化技术、珊瑚礁韧性、可持续农业、生态修复"
+        }
+      ],
+      "sourceQuote": "The University of Queensland (UQ) has risen 22 places to rank 28th globally in the QS Sustainability Rankings.",
+      "source": "UQ News · 2026-11-19",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-uq-rises-22-places-2027-qs-sustainability-rankings"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "27 个研究领域全澳第一",
+      "h2Sub": "18 位研究者进全澳前 250",
+      "h2Highlight": "27 个",
+      "lead": "11 月 25 日 UQ 官网发布：在 The Australian 2027 Research Magazine 中，UQ 在 27 个研究领域位列全澳领先机构。",
+      "bullets": [
+        {
+          "k": "领先领域",
+          "v": "27 个研究领域全澳第一"
+        },
+        {
+          "k": "研究者",
+          "v": "18 位进入全澳前 250 名研究者，其中 3 位进入前 20"
+        },
+        {
+          "k": "创新",
+          "v": "全澳 25 家最具创新力研究机构中排第 8"
+        },
+        {
+          "k": "影响力",
+          "v": "15 所被评为 making waves 的大学中排第 6"
+        },
+        {
+          "k": "方法",
+          "v": "基于公开数据，覆盖 8 大学科下 250 个研究领域"
+        }
+      ],
+      "sourceQuote": "UQ placed 8th among Australia’s 25 most inventive research institutions.",
+      "source": "UQ News · 2026-11-25",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-uq-recognised-among-australias-research-leaders-australians-2027-research-magazine"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "昆士兰官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "QS 可持续排名升 22 位",
+        "body": "2027 QS Sustainability Rankings 全球第 28（上升 22 位）；健康与福祉影响（health and wellbeing impact）并列第一；环境研究（environmental research）全澳第二。"
+      },
+      {
+        "n": "02",
+        "title": "27 个研究领域全澳第一",
+        "body": "27 个研究领域全澳第一；18 位进入全澳前 250 名研究者，其中 3 位进入前 20；全澳 25 家最具创新力研究机构中排第 8。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/25"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 本周两条排名新闻",
+      "body": "UQ 官网这周两条都和排名有关，我都读完了。\n\n一条是 QS 可持续排名，一条是 The Australian 的研究杂志榜单。\n\n下面一张图一条，关键句贴了官网原文。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UQ 可持续排名升了 22 位",
+      "body": "11 月 19 号官网发的，原文：The University of Queensland (UQ) has risen 22 places to rank 28th globally in the QS Sustainability Rankings.\n\n单项里健康与福祉影响并列榜首，环境研究全澳第二 🌏",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "这份可持续排名看什么",
+      "body": "官网说这个排名看三块：环境影响、社会影响、治理。\n\n官网举的研究例子有下一代电池、碳转化、珊瑚礁韧性、可持续农业和生态修复。\n\n读环境、能源方向的同学，可以顺着这几个关键词去找课题组。我自己更在意的是具体哪个组在做，排名只是参考。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "27 个研究领域全澳领先",
+      "body": "11 月 25 号官网发的：The Australian 2027 Research Magazine 里，UQ 在 27 个研究领域被评为全澳领先机构。\n\n还有 18 位研究者进了全澳前 250，其中 3 位在前 20。\n\n原文还有一句：UQ placed 8th among Australia’s 25 most inventive research institutions.",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "UQ 日报 评论区聊聊",
+      "body": "这两条都是排名类，不是奖学金或招生公告。\n\n你们选校的时候会看专业领域排名，还是只看综合排名？评论区说说。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UQ 在 2027 QS 可持续排名升 22 位至全球第 28；27 个研究领域位列全澳第一",
+    "lead": "本周 UQ 官网发布两条排名消息：QS 可持续排名升至全球第 28，以及 The Australian 2027 Research Magazine 结果。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 QS 可持续排名升 22 位",
+        "paragraphs": [
+          "11 月 19 日，UQ 官网发布：The University of Queensland (UQ) has risen 22 places to rank 28th globally in the QS Sustainability Rankings.",
+          "单项方面，官网原文：UQ ranked equal first for health and wellbeing impact and second nationally for environmental research. 该排名从环境影响、社会影响和治理三个维度评估大学。",
+          "官网列举的相关研究包括下一代电池、碳转化技术、珊瑚礁韧性、可持续农业和生态修复。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-19 · <a href=\"https://news.uq.edu.au/2026-11-uq-rises-22-places-2027-qs-sustainability-rankings\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "02 27 个研究领域全澳第一",
+        "paragraphs": [
+          "11 月 25 日，UQ 官网发布：The Australian 2027 Research Magazine 名单中，18 位 UQ 研究者进入全澳前 250 名研究者，其中 3 位进入前 20。",
+          "UQ 在 27 个研究领域被评为全澳领先机构。另外官网原文：UQ placed 8th among Australia’s 25 most inventive research institutions.",
+          "该杂志基于公开数据，评估 8 大学科下 250 个研究领域的表现。UQ 还在 15 所因研究公共影响力被评为 making waves 的大学中排第 6。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-25 · <a href=\"https://news.uq.edu.au/2026-11-uq-recognised-among-australias-research-leaders-australians-2027-research-magazine\">news.uq.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "UQ 在 2027 QS Sustainability Rankings 上升 22 位，排名全球第 28。",
+        "在 The Australian 2027 Research Magazine 中，UQ 在 27 个研究领域位列全澳领先机构。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "昆士兰官网这周两条，我都读完了。\n\n第1条：UQ 在 2027 QS Sustainability Rankings 上升 22 位，排名全球第 28。\n\n第2条：在 The Australian 2027 Research Magazine 中，UQ 在 27 个研究领域位列全澳领先机构。\n\n你们选校的时候会看专业领域排名，还是只看综合排名？评论区说说。",
+        "tags": [
+          "#昆士兰大学",
+          "#UQ",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "xhsCopy / drafts 未检出；排名事实（官方原文 equal first）仅在 mp 正文引用"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

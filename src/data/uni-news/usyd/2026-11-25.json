@@ -1,0 +1,229 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-25",
+  "school": "usyd",
+  "summary": {
+    "hookMain": "悉尼大学 USYD",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "癌症流行病学家 Karen Canfell AC 教授获 2026 NSW Premier’s Awards for Outstanding Cancer Research 的年度杰出癌症研究者奖。",
+      "Charles Perkins Centre 的 Greg Neely 教授团队在 Advanced Science 发表研究，用鼻腔 mRNA 递送 BDNF，改善了老年小鼠的学习和记忆。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "癌症研究大奖",
+        "data": "NSW 年度杰出研究者"
+      },
+      {
+        "num": "02",
+        "title": "mRNA 鼻滴剂",
+        "data": "小鼠临床前研究"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术荣誉",
+      "h2Main": "Canfell 获 NSW 癌症研究最高奖",
+      "h2Sub": "公共卫生学院宫颈癌消除研究",
+      "h2Highlight": "最高奖",
+      "lead": "11 月 20 日悉尼大学官网发布：癌症流行病学家 Karen Canfell AC 教授获 2026 NSW Premier’s Awards for Outstanding Cancer Research 的年度杰出癌症研究者奖。",
+      "bullets": [
+        {
+          "k": "奖项",
+          "v": "2026 NSW Premier’s Awards for Outstanding Cancer Research 年度杰出癌症研究者"
+        },
+        {
+          "k": "联合主办",
+          "v": "Cancer Institute of NSW"
+        },
+        {
+          "k": "所在单位",
+          "v": "Sydney School of Public Health，领导 Cancer Elimination Collaboration"
+        },
+        {
+          "k": "相关政策",
+          "v": "文章提到澳洲 2017 年转向基于 HPV 的宫颈癌筛查"
+        }
+      ],
+      "sourceQuote": "Few Australians have made such a significant contribution to cancer research and prevention as Professor Karen Canfell.",
+      "source": "University of Sydney News · 2026-11-20",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/20/karen-canfell-named-premiers-outstanding-cancer-researcher-of-the-year.html"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "mRNA 鼻滴剂改善老年小鼠记忆",
+      "h2Sub": "仍是临床前研究",
+      "h2Highlight": "mRNA",
+      "lead": "11 月 19 日悉尼大学官网发布：Charles Perkins Centre 的 Greg Neely 教授团队在 Advanced Science 发表研究，用鼻腔 mRNA 递送 BDNF，改善了老年小鼠的学习和记忆。",
+      "bullets": [
+        {
+          "k": "团队",
+          "v": "Charles Perkins Centre，Greg Neely 教授实验室；第一作者 Maria Bergamasco 博士"
+        },
+        {
+          "k": "期刊",
+          "v": "Advanced Science（2026）"
+        },
+        {
+          "k": "方法",
+          "v": "经鼻腔递送 BDNF 的 mRNA，绕过血脑屏障"
+        },
+        {
+          "k": "阶段",
+          "v": "临床前研究，仅在小鼠中测试"
+        },
+        {
+          "k": "计划",
+          "v": "Neely 教授希望未来两年内开展人体试验"
+        }
+      ],
+      "sourceQuote": "The treatment uses mRNA technology similar to that developed for use in COVID-19 vaccines.",
+      "source": "University of Sydney News · 2026-11-19",
+      "sourceUrl": "https://www.sydney.edu.au/news-opinion/news/2026/11/19/experimental-nose-drops-tested-in-mice-could-prevent-alzheimer-s.html"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "悉尼官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "Canfell 获 NSW 癌症研究最高奖",
+        "body": "2026 NSW Premier’s Awards for Outstanding Cancer Research 年度杰出癌症研究者；Cancer Institute of NSW；Sydney School of Public Health，领导 Cancer Elimination Collaboration。"
+      },
+      {
+        "n": "02",
+        "title": "mRNA 鼻滴剂改善老年小鼠记忆",
+        "body": "Charles Perkins Centre，Greg Neely 教授实验室；第一作者 Maria Bergamasco 博士；Advanced Science（2026）；经鼻腔递送 BDNF 的 mRNA，绕过血脑屏障。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/25"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "USYD 本周两条科研新闻",
+      "body": "悉尼大学官网这周两条，都是医学健康方向，我都读完了。\n\n一条是癌症研究大奖，一条是 mRNA 鼻滴剂的小鼠实验。\n\n下面一张图一条，关键句贴了官网原文。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "公共卫生学院教授拿了大奖",
+      "body": "11 月 20 号官网发的：Karen Canfell 教授拿了 2026 NSW Premier 癌症研究年度杰出研究者。\n\n她在 Sydney School of Public Health 领导 Cancer Elimination Collaboration，做宫颈癌消除相关研究 🎗️",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "读公卫的可以关注这个组",
+      "body": "文章提到澳洲 2017 年转向基于 HPV 的宫颈癌筛查。\n\n读公共卫生、流行病学的同学，如果想找研究方向，这个组可以列进清单。我也在犹豫要不要先去听听学院的公开讲座再说。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "mRNA 鼻滴剂的小鼠实验",
+      "body": "11 月 19 号官网发的：Charles Perkins Centre 团队用鼻腔递送 BDNF 的 mRNA，改善了老年小鼠的学习和记忆。\n\n原文：The treatment uses mRNA technology similar to that developed for use in COVID-19 vaccines.\n\n注意这还是临床前研究，只在小鼠里做过。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "USYD 日报 评论区聊聊",
+      "body": "这两条都是科研新闻，不是奖学金或招生公告。\n\n读医学健康方向的同学，你们会因为导师的研究方向选学校吗？评论区说说。",
+      "tags": "#悉尼大学 #USYD #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "悉尼大学 Karen Canfell 获 2026 NSW 癌症研究年度杰出研究者；mRNA 鼻滴剂改善老年小鼠记忆",
+    "lead": "本周悉尼大学官网发布两条医学健康方向的科研消息。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 Canfell 获 NSW 癌症研究最高奖",
+        "paragraphs": [
+          "11 月 20 日，悉尼大学官网发布：癌症流行病学家 Karen Canfell AC 教授获 2026 NSW Premier’s Awards for Outstanding Cancer Research 年度杰出癌症研究者，该奖由 Cancer Institute of NSW 联合主办。",
+          "Canfell 教授在 Sydney School of Public Health 领导 Cancer Elimination Collaboration。文章提到澳洲在 2017 年转向基于 HPV 的宫颈癌筛查。",
+          "医学与健康学院院长评价：Few Australians have made such a significant contribution to cancer research and prevention as Professor Karen Canfell."
+        ],
+        "sourceHtml": "University of Sydney News · 2026-11-20 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/20/karen-canfell-named-premiers-outstanding-cancer-researcher-of-the-year.html\">sydney.edu.au</a>"
+      },
+      {
+        "h2": "02 mRNA 鼻滴剂改善老年小鼠记忆",
+        "paragraphs": [
+          "11 月 19 日，悉尼大学官网发布：Charles Perkins Centre 的 Greg Neely 教授团队在 Advanced Science 发表研究，第一作者为 Maria Bergamasco 博士。",
+          "研究经鼻腔递送 BDNF 的 mRNA，绕过血脑屏障，改善了老年小鼠的学习和记忆。官网原文：The treatment uses mRNA technology similar to that developed for use in COVID-19 vaccines.",
+          "这项研究仍处于临床前阶段，只在小鼠中测试。官网原文：The treatment also appeared well tolerated in mice, with no major side effects detected during the study. Neely 教授希望在未来两年内开展人体试验。"
+        ],
+        "sourceHtml": "University of Sydney News · 2026-11-19 · <a href=\"https://www.sydney.edu.au/news-opinion/news/2026/11/19/experimental-nose-drops-tested-in-mice-could-prevent-alzheimer-s.html\">sydney.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "癌症流行病学家 Karen Canfell AC 教授获 2026 NSW Premier’s Awards for Outstanding Cancer Research 的年度杰出癌症研究者奖。",
+        "Charles Perkins Centre 的 Greg Neely 教授团队在 Advanced Science 发表研究，用鼻腔 mRNA 递送 BDNF，改善了老年小鼠的学习和记忆。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "悉尼官网这周两条，我都读完了。\n\n第1条：癌症流行病学家 Karen Canfell AC 教授获 2026 NSW Premier’s Awards for Outstanding Cancer Research 的年度杰出癌症研究者奖。\n\n第2条：Charles Perkins Centre 的 Greg Neely 教授团队在 Advanced Science 发表研究，用鼻腔 mRNA 递送 BDNF，改善了老年小鼠的学习和记忆。\n\n读医学健康方向的同学，你们会因为导师的研究方向选学校吗？评论区说说。",
+        "tags": [
+          "#悉尼大学",
+          "#USYD",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

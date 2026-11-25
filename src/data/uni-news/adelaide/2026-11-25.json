@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-25",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "阿德莱德大学 Adelaide",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "Anthony Thomas AC FAA 教授获 $250,000 Prime Minister’s Prize for Science。",
+      "经济学院 Kym Anderson 教授在 Journal of Wine Economics 发表研究，分析全球葡萄酒消费下滑。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "总理科学奖",
+        "data": "$250,000"
+      },
+      {
+        "num": "02",
+        "title": "葡萄酒研究",
+        "data": "消费降四分之一"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术荣誉",
+      "h2Main": "物理学家获总理科学奖",
+      "h2Sub": "奖金 $250,000，两个领域首次共享",
+      "h2Highlight": "$250,000",
+      "lead": "11 月 25 日阿德莱德大学官网发布：Anthony Thomas AC FAA 教授获 $250,000 Prime Minister’s Prize for Science。",
+      "bullets": [
+        {
+          "k": "奖项",
+          "v": "$250,000 Prime Minister’s Prize for Science"
+        },
+        {
+          "k": "获奖理由",
+          "v": "一生致力于揭示宇宙的基本组成"
+        },
+        {
+          "k": "共享",
+          "v": "与肿瘤学家 Georgina Long AO 教授共享，文章称这是该奖首次由两个研究领域共同获得"
+        },
+        {
+          "k": "人才培养",
+          "v": "他联合创办的 CSSM 已培养 120 多名研究生"
+        },
+        {
+          "k": "引用",
+          "v": "研究引用超过 40,000 次"
+        }
+      ],
+      "sourceQuote": "He shared the honours with world renowned oncologist Professor Georgina Long AO.",
+      "source": "Adelaide University News · 2026-11-25",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/adelaide-university-physicist-wins-australia-s-top-prize-for-sci/"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "全球葡萄酒危机有没有出路",
+      "h2Sub": "经济学院 Kym Anderson 教授新研究",
+      "h2Highlight": "葡萄酒危机",
+      "lead": "11 月 25 日阿德莱德大学官网发布：经济学院 Kym Anderson 教授在 Journal of Wine Economics 发表研究，分析全球葡萄酒消费下滑。",
+      "bullets": [
+        {
+          "k": "作者",
+          "v": "Kym Anderson 教授，School of Economics，Wine Economics Research Centre 执行主任"
+        },
+        {
+          "k": "消费",
+          "v": "自 1960 年代以来全球葡萄酒消费下降四分之一，啤酒和烈酒消费量各翻一倍"
+        },
+        {
+          "k": "分化",
+          "v": "2013–2022 年高端酒销售额年增 3.1%，非高端酒每年下降 2.2%"
+        },
+        {
+          "k": "定义",
+          "v": "非高端酒指每瓶 750ml 零售价 US$10 及以下"
+        },
+        {
+          "k": "东亚",
+          "v": "占全球葡萄酒消费不到 4%，但拥有约五分之一的饮酒年龄人口"
+        }
+      ],
+      "sourceQuote": "The current wine crisis is present across all major wine-producing countries.",
+      "source": "Adelaide University News · 2026-11-25",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/is-there-a-way-out-of-the-current-global-wine-crisis-/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿德莱德官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "物理学家获总理科学奖",
+        "body": "$250,000 Prime Minister’s Prize for Science；一生致力于揭示宇宙的基本组成；与肿瘤学家 Georgina Long AO 教授共享，文章称这是该奖首次由两个研究领域共同获得。"
+      },
+      {
+        "n": "02",
+        "title": "全球葡萄酒危机有没有出路",
+        "body": "Kym Anderson 教授，School of Economics，Wine Economics Research Centre 执行主任；自 1960 年代以来全球葡萄酒消费下降四分之一，啤酒和烈酒消费量各翻一倍；2013–2022 年高端酒销售额年增 3.1%，非高端酒每年下降 2.2%。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/25"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿德莱德本周两条新闻",
+      "body": "阿德莱德大学官网这周两条，我都读完了。\n\n一条是物理学家拿了总理科学奖，一条是经济学院的葡萄酒研究。\n\n下面一张图一条，关键句贴了官网原文。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "物理教授拿了总理科学奖",
+      "body": "11 月 25 号官网发的：Anthony Thomas 教授获 $250,000 Prime Minister’s Prize for Science。\n\n官网原文：He shared the honours with world renowned oncologist Professor Georgina Long AO.\n\n文章说这是这个奖历史上头一回由两个研究领域共享 🔭",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "他带出了 120 多名研究生",
+      "body": "他联合创办的亚原子结构研究中心 CSSM，官网说已经培养了 120 多名研究生。\n\n读物理想读研的同学可以去看看这个中心。我自己是理论物理劝退型选手，但看到这个数字还是挺佩服的。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "葡萄酒消费掉了四分之一",
+      "body": "11 月 25 号官网发的，经济学院 Kym Anderson 教授的研究：1960 年代以来全球葡萄酒消费下降了四分之一，啤酒和烈酒各翻了一倍。\n\n2013 到 2022 年，高端酒销售额每年涨 3.1%，便宜酒每年跌 2.2%。\n\n读经济或者葡萄酒相关专业的可以找原文看看。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "阿德莱德日报 评论区聊聊",
+      "body": "这两条都是科研向，不是奖学金或招生公告。\n\n在阿德莱德读书的同学，你们会去酒庄周末游吗？评论区说说。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "阿德莱德大学 Anthony Thomas 教授获 $250,000 总理科学奖；经济学院研究全球葡萄酒危机",
+    "lead": "本周阿德莱德大学官网发布两条消息：物理学家 Anthony Thomas 教授获总理科学奖，以及经济学院关于全球葡萄酒消费的研究。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 物理学家获总理科学奖",
+        "paragraphs": [
+          "11 月 25 日，阿德莱德大学官网发布：Anthony Thomas AC FAA 教授获 $250,000 Prime Minister’s Prize for Science，表彰他一生在揭示宇宙基本组成上的贡献，颁奖仪式在堪培拉国会大厦举行。",
+          "官网原文：He shared the honours with world renowned oncologist Professor Georgina Long AO. 文章称这是该奖历史上首次由两个研究领域共同获得。",
+          "他联合创办的 ARC Special Research Centre for the Subatomic Structure of Matter（CSSM）已培养 120 多名研究生，个人研究引用超过 40,000 次。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-25 · <a href=\"https://adelaide.edu.au/about/news/2026/adelaide-university-physicist-wins-australia-s-top-prize-for-sci/\">adelaide.edu.au</a>"
+      },
+      {
+        "h2": "02 全球葡萄酒危机有没有出路",
+        "paragraphs": [
+          "11 月 25 日，阿德莱德大学官网发布：经济学院 Kym Anderson 教授在 Journal of Wine Economics 发表研究。官网原文：The current wine crisis is present across all major wine-producing countries.",
+          "研究指出，自 1960 年代以来全球葡萄酒消费下降了四分之一，而啤酒和烈酒消费量各翻了一倍。2013 到 2022 年间，高端葡萄酒销售额每年增长 3.1%，非高端酒（每瓶 750ml 零售 US$10 及以下）每年下降 2.2%。",
+          "东亚占全球葡萄酒消费不到 4%，但拥有全球约五分之一的饮酒年龄人口。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-25 · <a href=\"https://adelaide.edu.au/about/news/2026/is-there-a-way-out-of-the-current-global-wine-crisis-/\">adelaide.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "Anthony Thomas AC FAA 教授获 $250,000 Prime Minister’s Prize for Science。",
+        "经济学院 Kym Anderson 教授在 Journal of Wine Economics 发表研究，分析全球葡萄酒消费下滑。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "阿德莱德官网这周两条，我都读完了。\n\n第1条：Anthony Thomas AC FAA 教授获 $250,000 Prime Minister’s Prize for Science。\n\n第2条：经济学院 Kym Anderson 教授在 Journal of Wine Economics 发表研究，分析全球葡萄酒消费下滑。\n\n在阿德莱德读书的同学，你们会去酒庄周末游吗？评论区说说。",
+        "tags": [
+          "#阿德莱德大学",
+          "#Adelaide",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}
