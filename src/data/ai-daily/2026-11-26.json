@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-26",
+  "summary": {
+    "hook": [
+      {"text": "42州总检察长阻止Character.AI拍卖用户聊天"},
+      {"text": "Anthropic推出Claude Ship管PR"},
+      {"text": "Megaspeed进入美国实体清单"}
+    ],
+    "sub": "一条破产拍卖、一条开发工具、一条出口管制。每条都对过一手原文和独立媒体，原文没写的地方文中直接说明。",
+    "items": [
+      {"num": "01", "cat": "隐私", "numColor": "#EF4444", "t": "42州总检察长介入Character.AI破产程序，反对把用户聊天记录和个人数据随资产拍卖，拍卖定在12月1日"},
+      {"num": "02", "cat": "开发工具", "numColor": "#D97757", "t": "Anthropic推出Claude Ship测试版，在GitHub上自动审查、修复PR，并按团队规则批准常规改动"},
+      {"num": "03", "cat": "芯片", "numColor": "#76B900", "t": "美国商务部把Megaspeed列入实体清单，司法部调查其是否把Nvidia芯片违规运往中国"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-characterai-chat-auction",
+      "idx": "01",
+      "catText": "隐私",
+      "accent": "#EF4444",
+      "bg": {"top": "隐私", "mid": "CHATS FOR SALE?", "bot": "2026.11.26", "topRight": ""},
+      "title": [{"text": "42州总检察长阻止Character.AI拍卖用户聊天"}],
+      "oneline": [{"text": "破产资产里包括用户聊天和个人数据，其中210多万账号登记为未成年人。"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "Character.AI 10月申请破产，聊天记录随资产定于12月1日拍卖，各州请求法院驳回出售条款。"},
+        {"k": "为什么重要", "v": "公司曾承诺不出售用户数据，各州认为破产不能用来绕开这类消费者保护。"},
+        {"k": "对你的影响", "v": "做AI聊天产品，隐私政策要写清公司被收购或破产时数据怎么处理。"}
+      ],
+      "src": "📎 oag.ca.gov · techcrunch.com",
+      "sourceEvidence": [
+        {"type": "primary", "publisher": "California Attorney General", "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns", "claim": "42位总检察长联合反对出售", "quote": "joined a bipartisan coalition of 42 attorneys general in opposing Character.AI’s plan to sell its platform"},
+        {"type": "primary", "publisher": "California Attorney General", "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns", "claim": "超过210万账号登记为未成年人", "quote": "more than 2.1 million of them registered to minors"},
+        {"type": "primary", "publisher": "California Attorney General", "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns", "claim": "12月1日拍卖", "quote": "are set to be sold at auction on December 1, 2026"},
+        {"type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/", "claim": "唯一披露的竞买方", "quote": "Only one anonymous bidder for the chat data has been disclosed so far: Smirks and Pangs Acquisition LLC (Smirks)"},
+        {"type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/", "claim": "10月申请第11章破产", "quote": "Character.ai, which filed for Chapter 11 bankruptcy in October"}
+      ]
+    },
+    {
+      "slug": "02-anthropic-claude-ship",
+      "idx": "02",
+      "catText": "开发工具",
+      "accent": "#D97757",
+      "bg": {"top": "开发工具", "mid": "CLAUDE SHIP", "bot": "2026.11.26", "topRight": ""},
+      "title": [{"text": "Anthropic推出Claude Ship管PR"}],
+      "oneline": [{"text": "三个agent：审查、修复、按规则批准，面向GitHub仓库。"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "Claude Ship面向Team和Enterprise计划；Code Review已正式可用，PR Steward和Claude Approvals是测试版。"},
+        {"k": "为什么重要", "v": "批准规则写成仓库里的策略文件，Claude可按规则自己批准常规改动。"},
+        {"k": "对你的影响", "v": "按token计费，先用只观察模式跑一段，再决定是否接进分支保护。"}
+      ],
+      "src": "📎 claude.com · theneuron.ai",
+      "sourceEvidence": [
+        {"type": "primary", "publisher": "Anthropic (claude.com)", "url": "https://claude.com/resources/articles/introducing-claude-ship", "claim": "审查、修复并按团队策略判断能否合并", "quote": "It can review PRs, fix them, and decide what's ready to merge based on policies each team sets."},
+        {"type": "primary", "publisher": "Anthropic (claude.com)", "url": "https://claude.com/resources/articles/introducing-claude-ship", "claim": "可用计划", "quote": "Claude Ship is available on Claude Team and Enterprise plans for repositories on GitHub."},
+        {"type": "primary", "publisher": "Anthropic (claude.com)", "url": "https://claude.com/resources/articles/introducing-claude-ship", "claim": "各组件状态", "quote": "Code Review is generally available, and PR Steward and Claude Approvals are in beta."},
+        {"type": "primary", "publisher": "Anthropic (claude.com)", "url": "https://claude.com/resources/articles/introducing-claude-ship", "claim": "按token计费", "quote": "Claude Ship usage is billed on tokens, so turning it on can add to an organization's costs."},
+        {"type": "independent", "publisher": "The Neuron", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-24-2026/", "claim": "审查、修复、按团队规则批准", "quote": "Claude Ship can review proposed code changes, fix problems, and approve changes permitted by a team's rules."}
+      ]
+    },
+    {
+      "slug": "03-megaspeed-entity-list",
+      "idx": "03",
+      "catText": "芯片",
+      "accent": "#76B900",
+      "bg": {"top": "芯片", "mid": "ENTITY LIST", "bot": "2026.11.26", "topRight": ""},
+      "title": [{"text": "Megaspeed进入美国实体清单"}],
+      "oneline": [{"text": "司法部调查其是否把Nvidia芯片运往中国，新加坡执法部门参与过核查。"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "商务部把Megaspeed列入实体清单，同批共7家实体，来自新加坡、马来西亚和泰国。"},
+        {"k": "为什么重要", "v": "这是黄仁勋风波的核心公司；司法部称调查针对潜在出口管制违规。"},
+        {"k": "对你的影响", "v": "在东南亚采购GPU算力的团队，要核对供应商是否在清单上。"}
+      ],
+      "src": "📎 justice.gov · semafor.com · techcrunch.com",
+      "sourceEvidence": [
+        {"type": "primary", "publisher": "U.S. Department of Justice", "url": "https://www.justice.gov/opa/pr/joint-statement-department-commerce-and-department-justice-megaspeed-investigation", "claim": "商务部2024年开始调查", "quote": "the Department of Commerce initiated an investigation into Megaspeed in 2024 for potential export control violations."},
+        {"type": "primary", "publisher": "U.S. Department of Justice", "url": "https://www.justice.gov/opa/pr/joint-statement-department-commerce-and-department-justice-megaspeed-investigation", "claim": "Nvidia把Megaspeed列入禁售名单", "quote": "In June 2025, Nvidia placed Megaspeed on its “no sell” list."},
+        {"type": "independent", "publisher": "Semafor", "url": "https://www.semafor.com/article/11/23/2026/commerce-to-add-megaspeed-to-trade-blacklist", "claim": "商务部列入实体清单", "quote": "The Commerce Department placed Megaspeed on the Entity List."},
+        {"type": "independent", "publisher": "Semafor", "url": "https://www.semafor.com/article/11/23/2026/commerce-to-add-megaspeed-to-trade-blacklist", "claim": "同批7家实体", "quote": "seven total entities were added to the list from Singapore, Malaysia, and Thailand"},
+        {"type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/", "claim": "司法部长暗示Nvidia不是调查对象", "quote": "U.S. Attorney General Todd Blanche has suggested Nvidia isn't a target of an investigation"}
+      ]
+    }
+  ],
+  "mp": {
+    "title": "42州阻止Character.AI拍卖用户聊天 / Anthropic推出Claude Ship / Megaspeed进入实体清单"
+  }
+}
