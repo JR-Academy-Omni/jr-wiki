@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-25",
+  "summary": {
+    "hook": [
+      {"text": "Nvidia董事会恢复黄仁勋CEO职务"},
+      {"text": "Amazon买下Decart推理优化技术"},
+      {"text": "弗吉尼亚和俄勒冈起诉SpaceX，指向Grok"}
+    ],
+    "sub": "一条人事、一条收购、一条诉讼。每条都对过一手原文和独立媒体，原文没写的地方文中直接说明。",
+    "items": [
+      {"num": "01", "cat": "芯片", "numColor": "#76B900", "t": "Nvidia董事会恢复黄仁勋总裁、CEO和董事职务，距他11月12日辞职11天；公司另设首席合规官岗位"},
+      {"num": "02", "cat": "收购", "numColor": "#FF9900", "t": "Amazon签约收购以色列公司Decart的推理优化技术DOS和创始团队，用于优化推理和自研芯片性能"},
+      {"num": "03", "cat": "监管", "numColor": "#EF4444", "t": "弗吉尼亚和俄勒冈总检察长分别起诉SpaceX，称Grok生成包括儿童在内的性化图像，安全宣传误导"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-nvidia-reinstates-huang",
+      "idx": "01",
+      "catText": "芯片",
+      "accent": "#76B900",
+      "bg": {"top": "芯片", "mid": "HUANG IS BACK", "bot": "2026.11.25", "topRight": ""},
+      "title": [{"text": "Nvidia董事会恢复黄仁勋CEO职务"}],
+      "oneline": [{"text": "辞职11天后回归，董事会称收到美国政府高层意见。"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "董事会恢复黄仁勋总裁、CEO和董事职务，并称其回归不构成国家安全风险。"},
+        {"k": "为什么重要", "v": "独立董事委员会的调查继续，Nvidia还要新设首席合规官，事情没有结束。"},
+        {"k": "对你的影响", "v": "做GPU采购和云资源规划的团队，短期看供货和路线图，不必因为人事反复改计划。"}
+      ],
+      "src": "📎 nvidianews.nvidia.com · theneuron.ai",
+      "sourceEvidence": [
+        {"type": "primary", "publisher": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director", "claim": "黄仁勋恢复总裁、CEO和董事职务", "quote": "Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board."},
+        {"type": "primary", "publisher": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director", "claim": "Nvidia新设首席合规官", "quote": "NVIDIA is commencing a search to fill a new position, Chief Compliance Officer"},
+        {"type": "independent", "publisher": "The Neuron", "url": "https://www.theneuron.ai/news/jensen-huang-returns-nvidia-ceo/", "claim": "董事会一致决定恢复其职务", "quote": "the board had unanimously reinstated him as president, CEO, and a director"},
+        {"type": "independent", "publisher": "The Neuron", "url": "https://www.theneuron.ai/news/jensen-huang-returns-nvidia-ceo/", "claim": "11月12日宣布辞职", "quote": "Nvidia announced Huang's resignation on Nov. 12."}
+      ]
+    },
+    {
+      "slug": "02-amazon-decart-dos",
+      "idx": "02",
+      "catText": "收购",
+      "accent": "#FF9900",
+      "bg": {"top": "收购", "mid": "AMAZON × DECART", "bot": "2026.11.25", "topRight": ""},
+      "title": [{"text": "Amazon买下Decart推理优化技术"}],
+      "oneline": [{"text": "买的是DOS技术和创始团队，目标是让模型在自研芯片上跑得更省。"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "Amazon签约收购Decart Optimization Stack背后的专有技术和创始团队，尚需监管审批。"},
+        {"k": "为什么重要", "v": "TechCrunch称Amazon准备把Trainium芯片卖给客户，与Nvidia竞争，推理优化是关键一环。"},
+        {"k": "对你的影响", "v": "在AWS上跑推理的团队，接下来值得对比Trainium和GPU实例的单位token成本。"}
+      ],
+      "src": "📎 aboutamazon.com · techcrunch.com",
+      "sourceEvidence": [
+        {"type": "primary", "publisher": "About Amazon", "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization", "claim": "Amazon签约收购DOS专有技术", "quote": "Amazon announced it has signed an agreement to purchase the proprietary technology behind the Decart Optimization Stack (DOS)"},
+        {"type": "primary", "publisher": "About Amazon", "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization", "claim": "交易需监管审批", "quote": "Completion of the transaction is subject to customary closing conditions, including regulatory clearance."},
+        {"type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/", "claim": "收购技术和创始团队", "quote": "Amazon will acquire the technology behind DOS, as well as Decart’s founding team"},
+        {"type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/", "claim": "Amazon准备向客户出售Trainium", "quote": "is preparing to start selling them to customers as a competitor to Nvidia."}
+      ]
+    },
+    {
+      "slug": "03-states-sue-spacex-grok",
+      "idx": "03",
+      "catText": "监管",
+      "accent": "#EF4444",
+      "bg": {"top": "监管", "mid": "STATES v. GROK", "bot": "2026.11.25", "topRight": ""},
+      "title": [{"text": "两州起诉SpaceX，指Grok生成性化图像"}],
+      "oneline": [{"text": "弗吉尼亚和俄勒冈是最早因Grok起诉SpaceX的州。"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "两州总检察长分别在里士满和Multnomah县法院起诉，称Grok生成包括儿童在内的性化图像。"},
+        {"k": "为什么重要", "v": "诉状还指SpaceX把Grok图像生成宣传为总体安全，属误导宣传。"},
+        {"k": "对你的影响", "v": "做图像生成产品的团队，安全宣传要和实际拦截能力对得上，否则就是法律风险。"}
+      ],
+      "src": "📎 oag.state.va.us · cnbc.com",
+      "sourceEvidence": [
+        {"type": "primary", "publisher": "Virginia Attorney General", "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform", "claim": "指控未能阻止Grok生成性化图像", "quote": "failed to prevent Grok from generating sexualized images of people, including children"},
+        {"type": "primary", "publisher": "Virginia Attorney General", "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform", "claim": "弗吉尼亚起诉法院", "quote": "Attorney General Jones’ lawsuit was filed in the Circuit Court for the City of Richmond."},
+        {"type": "independent", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html", "claim": "首批起诉SpaceX的州", "quote": "Virginia and Oregon are the first states to sue Elon Musk's SpaceX"},
+        {"type": "independent", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html", "claim": "诉讼请求", "quote": "Both Virginia and Oregon are seeking injunctions, civil penalties, disgorgement and legal costs"}
+      ]
+    }
+  ],
+  "mp": {"title": "Nvidia恢复黄仁勋CEO职务，Amazon买下Decart推理优化技术，两州起诉SpaceX指向Grok"}
+}
