@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-26",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "新南威尔士大学 UNSW",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "Green Fellowships 第二批四位学者加入 UNSW，第三轮 2027 年 2 月开放申请。",
+      "计算机科学与工程学院 46 篇论文入选 NeurIPS 2026。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "Green Fellowships", "data": "四位学者" },
+      { "num": "02", "title": "NeurIPS 2026", "data": "46 篇论文" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "Green Fellowships 第二批学者加入",
+      "h2Sub": "第三轮 2027 年 2 月开放申请",
+      "h2Highlight": "四位学者",
+      "lead": "11 月 25 日 UNSW 官网发布：Green Fellowships Program 第二批四位学者加入学校，覆盖法律、健康、社会科学和人文。",
+      "bullets": [
+        { "k": "项目", "v": "以 Scientia Professor Martin Green 命名，面向中期到资深研究者" },
+        { "k": "申请规模", "v": "2025 年启动，已有 600 多位学者申请" },
+        { "k": "Dr Navid Bavi", "v": "机械生物学，从 UCLA 加入生物医学学院" },
+        { "k": "Professor Megan Bowman", "v": "可持续金融法，从 King's College London 加入" },
+        { "k": "下一轮", "v": "第三轮申请 2027 年 2 月开放" }
+      ],
+      "sourceQuote": "Applications for the third round of the Green Fellowships Program will open in February 2027.",
+      "source": "UNSW Newsroom · 2026-11-25",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/green-fellows-to-bring-international-expertise-to-unsw"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "UNSW 计算机学院 46 篇论文入选 NeurIPS",
+      "h2Sub": "Main Track 34 篇",
+      "h2Highlight": "46 篇",
+      "lead": "11 月 17 日 UNSW 官网发布：计算机科学与工程学院有 46 篇论文被 NeurIPS 2026 接收。",
+      "bullets": [
+        { "k": "Main Track", "v": "34 篇" },
+        { "k": "Evaluations and Datasets Track", "v": "11 篇" },
+        { "k": "Position Paper Track", "v": "1 篇" },
+        { "k": "大会整体", "v": "投稿 30,709 篇，接收 7,900 篇，接收率 25.7%" }
+      ],
+      "sourceQuote": "This achievement highlights the breadth and impact of research from UNSW’s computer science community on the global stage.",
+      "source": "UNSW · 2026-11-17",
+      "sourceUrl": "https://www.unsw.edu.au/news/2026/11/cse-researchers-present-46-papers-at-neurips-2026"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW 官网两条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "Green Fellowships", "body": "第二批四位学者加入，研究方向涵盖法律、健康、社会科学和人文，第三轮申请 2027 年 2 月开放。" },
+      { "n": "02", "title": "NeurIPS 2026", "body": "计算机科学与工程学院 46 篇论文入选，其中 Main Track 34 篇。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/26"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 本周两条科研新闻",
+      "body": "UNSW 官网这周有两条科研相关的，都读完了。\n\n一条是 Green Fellowships 第二批学者到岗，另一条是计算机学院 46 篇论文入选 NeurIPS 2026。\n\n下面一张图一条，关键句贴了官网原文。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UNSW 又引进四位学者",
+      "body": "11 月 25 号官网发的：Green Fellowships Program 第二批四位学者加入 UNSW，方向有机械生物学、可持续金融法、社会不平等研究和流行病学。\n\n项目 2025 年启动，官网说已有 600 多位学者申请。\n\n注意这个项目招的是研究者，不是学生。想读研的同学可以顺便看看自己感兴趣的导师方向有没有新人 📌",
+      "tags": "#新南威尔士大学 #UNSW #澳洲科研 #澳洲留学 #澳洲大学"
+    },
+    "p3": {
+      "title": "第二批学者都是谁",
+      "body": "官网列了四位：\n\nDr Navid Bavi，研究细胞怎么感知力，从 UCLA 来，在生物医学学院。\n\nProfessor Megan Bowman，可持续金融法，研究被 IPCC 报告引用，从 King's College London 来。\n\nProfessor Rosalind Gill 研究社会不平等和新技术，Professor Jeff Kwong 做疫苗可预防疾病流行病学。\n\n下一轮官网原文：Applications for the third round of the Green Fellowships Program will open in February 2027.",
+      "tags": "#新南威尔士大学 #UNSW #澳洲科研 #澳洲留学 #澳洲大学"
+    },
+    "p4": {
+      "title": "UNSW 46 篇论文进 NeurIPS",
+      "body": "11 月 17 号官网发的：计算机科学与工程学院有 46 篇论文被 NeurIPS 2026 接收。\n\n拆开看，Main Track 34 篇，Evaluations and Datasets Track 11 篇，Position Paper Track 1 篇。\n\n大会整体投稿 30,709 篇，接收 7,900 篇，接收率 25.7% 🔭",
+      "tags": "#新南威尔士大学 #UNSW #NeurIPS #澳洲留学 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW 日报 评论区聊聊",
+      "body": "这两条都是科研动态，不是奖学金或招生公告。\n\n学计算机的同学，你们更想去偏研究的实验室，还是直接进工业界？我自己还在纠结，评论区说说。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW Green Fellowships 第二批四位学者加入，计算机学院 46 篇论文入选 NeurIPS 2026",
+    "lead": "本周 UNSW 官网发布两条科研消息：Green Fellowships Program 第二批四位学者加入学校，以及计算机科学与工程学院 46 篇论文入选 NeurIPS 2026。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 Green Fellowships 第二批四位学者加入",
+        "paragraphs": [
+          "11 月 25 日，UNSW 官网发布：Green Fellowships Program 第二批四位学者加入学校。项目以 UNSW Scientia Professor Martin Green 命名，面向做全球性重大问题研究的中期到资深研究者，通过国际竞争性招聘选拔。2025 年启动，官网写到已有 600 多位学者申请。",
+          "本批四位：Dr Navid Bavi（机械生物学，从 UCLA 加入生物医学学院）、Professor Megan Bowman（可持续金融法，从 King's College London 加入）、Professor Rosalind Gill（社会不平等与新技术文化研究，目前在 Goldsmiths, University of London）、Professor Jeff Kwong（疫苗可预防疾病流行病学，从 University of Toronto 加入人口健康学院）。",
+          "后续安排官网原文：Applications for the third round of the Green Fellowships Program will open in February 2027. 这个项目招的是研究者，不是学生。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-25 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/green-fellows-to-bring-international-expertise-to-unsw\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 计算机学院 46 篇论文入选 NeurIPS 2026",
+        "paragraphs": [
+          "11 月 17 日，UNSW 官网发布：计算机科学与工程学院有 46 篇论文被 NeurIPS 2026 接收，其中 Main Track 34 篇，Evaluations and Datasets Track 11 篇，Position Paper Track 1 篇。",
+          "页面给出的大会整体数字：投稿 30,709 篇，接收 7,900 篇，接收率 25.7%。页面没有写明举办城市和日期，也没有说明哪些作者是学生。",
+          "官网总结：This achievement highlights the breadth and impact of research from UNSW’s computer science community on the global stage."
+        ],
+        "sourceHtml": "UNSW · 2026-11-17 · <a href=\"https://www.unsw.edu.au/news/2026/11/cse-researchers-present-46-papers-at-neurips-2026\">unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "Green Fellowships 第二批四位学者加入 UNSW，第三轮申请 2027 年 2 月开放。",
+        "计算机科学与工程学院 46 篇论文入选 NeurIPS 2026。"
+      ]
+    },
+    "meta": { "readTime": "约 2 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "UNSW 官网这周两条科研新闻，我都读完了。\n\n第1条：Green Fellowships Program 第二批四位学者加入，官方原文：Applications for the third round of the Green Fellowships Program will open in February 2027.\n\n第2条：计算机科学与工程学院 46 篇论文入选 NeurIPS 2026，其中 Main Track 34 篇。\n\n学计算机的同学更想做研究还是进工业界？评论区聊聊。",
+        "tags": ["#新南威尔士大学", "#UNSW", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出" }
+    ]
+  }
+}

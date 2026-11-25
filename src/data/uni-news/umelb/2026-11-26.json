@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-26",
+  "school": "umelb",
+  "summary": {
+    "hookMain": "墨尔本大学 UniMelb",
+    "hookSub": "11 月 三条官网消息",
+    "hookSubHighlight": "三条",
+    "subLines": [
+      "海外学生转校限制从 6 个月临时延长到 12 个月，2026 年 10 月 2 日起生效。",
+      "墨大官网 11 月 24 日：31 位 Pathways to Politics 校友参加维州大选，比 2022 年多 60%。",
+      "濒危珊瑚蛙研究：基因组选育有望提高下一代存活时间约 9%。"
+    ],
+    "previewCards": [
+      { "num": "01", "title": "海外生转校限制", "data": "6 → 12 个月" },
+      { "num": "02", "title": "Pathways to Politics", "data": "31 位校友参选" },
+      { "num": "03", "title": "珊瑚蛙基因组研究", "data": "存活期约 +9%" }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "签证",
+      "h2Main": "海外学生转校限制延长到 12 个月",
+      "h2Sub": "2026.10.02 至 2027.06.30 临时适用",
+      "h2Highlight": "12 个月",
+      "lead": "墨大学生事务官网的国际学生转校政策页写明：澳洲联邦政府把海外学生转校限制期从 6 个月临时延长到 12 个月。想从墨大转到别的院校，要先读满主修课程 12 个月，或符合页面列出的放行情形。",
+      "bullets": [
+        { "k": "适用时间", "v": "2026 年 10 月 2 日至 2027 年 6 月 30 日" },
+        { "k": "限制期", "v": "由 6 个月临时延长到 <b>12 个月</b>" },
+        { "k": "转出条件", "v": "完成主修课程 12 个月，或符合放行情形" },
+        { "k": "申请结果", "v": "提交后 10 个工作日内通知，放行信不收费" },
+        { "k": "到期之后", "v": "官网写明预计恢复为 6 个月" }
+      ],
+      "sourceQuote": "From 2 October 2026 to 30 June 2027, the Australian Government has temporarily extended the overseas student transfer restriction period from 6 months to 12 months.",
+      "source": "UniMelb Students · International student transfer policy",
+      "sourceUrl": "https://students.unimelb.edu.au/support-and-wellbeing/international-student-support/changing-courses-or-providers/international-student-transfer-policy"
+    },
+    {
+      "idx": "02",
+      "category": "校园动态",
+      "h2Main": "31 位校友参加维州大选",
+      "h2Sub": "Pathways to Politics for Women",
+      "h2Highlight": "31 位",
+      "lead": "11 月 24 日墨大官网发布：Pathways to Politics for Women 有 31 位校友参加维州州选，是该项目校友在单次州选中参选人数最多的一次，比 2022 年的 19 位多 60%。",
+      "bullets": [
+        { "k": "参选人数", "v": "31 位，2022 年为 19 位，高 60%" },
+        { "k": "议席范围", "v": "Legislative Assembly 和 Legislative Council，覆盖墨尔本市区和维州乡镇" },
+        { "k": "政党", "v": "五个政党加独立候选人" },
+        { "k": "累计数据", "v": "2016 年以来校友参选 282 次，107 次当选" },
+        { "k": "2027 年项目", "v": "官网邀请有兴趣的女性登记意向" }
+      ],
+      "sourceQuote": "Pathways to Politics for Women is celebrating a record 31 of its alums contesting the Victorian state election – the largest number of graduates to ever stand in a single state election.",
+      "source": "UniMelb Newsroom · 2026-11-24",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/november/record-31-pathways-to-politics-alums-contest-victorian-election"
+    },
+    {
+      "idx": "03",
+      "category": "科研",
+      "h2Main": "基因组选育帮濒危珊瑚蛙抗病",
+      "h2Sub": "墨大联合 JCU、Zoos Victoria 等",
+      "h2Highlight": "抗病",
+      "lead": "11 月 18 日墨大官网发布：研究团队首次证明，农业常用的基因组选育技术有望帮助南部珊瑚蛙（southern corroboree frog）提高对壶菌病的抵抗力。",
+      "bullets": [
+        { "k": "研究对象", "v": "极危物种 southern corroboree frog，因壶菌病被认为功能性灭绝" },
+        { "k": "核心发现", "v": "感染后的存活时间有差异，其中一部分可遗传" },
+        { "k": "模型结果", "v": "下一代平均存活时间可能提高约 <b>9%</b>" },
+        { "k": "合作方", "v": "墨大、James Cook University、NSW 政府、Zoos Victoria、Taronga" },
+        { "k": "下一步", "v": "用更多繁育个体验证预测，并检验野外效果" }
+      ],
+      "sourceQuote": "Researchers have shown for the first time that genomic selection — a breeding technique widely used in agriculture — could help one of Australia’s most threatened frogs become more resilient to a deadly disease.",
+      "source": "UniMelb Newsroom · 2026-11-18",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/november/genomic-breakthrough-offers-new-hope-for-southern-corroboree-frog"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "墨大官网三条 · 数据都来自官方原文",
+    "items": [
+      { "n": "01", "title": "海外生转校限制", "body": "2026.10.02 至 2027.06.30，限制期临时从 6 个月延长到 12 个月。" },
+      { "n": "02", "title": "Pathways to Politics", "body": "31 位校友参加维州大选，比 2022 年的 19 位多 60%。" },
+      { "n": "03", "title": "珊瑚蛙基因组研究", "body": "模型显示下一代存活时间可能提高约 9%，还要继续验证。" }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/26"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "墨大 11 月三条官网消息",
+      "body": "这周翻了墨大官网，挑了三条跟留学生关系比较近的。\n\n一条是转校限制期临时延长，一条是维州大选里的墨大校友，还有一条是濒危青蛙的基因研究。\n\n后面一张图一条，细节都对着官网原文。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "海外生转校限制变 12 个月",
+      "body": "墨大学生事务官网的国际学生转校政策页写着：\n\nFrom 2 October 2026 to 30 June 2027, the Australian Government has temporarily extended the overseas student transfer restriction period from 6 months to 12 months.\n\n也就是说这段时间想从墨大转到别的院校，要先读满主修课程 12 个月，或者符合页面列出的放行情形。官网还写了，到 2027 年 6 月 30 日之后预计恢复为 6 个月。\n\n已经在考虑转校的同学，先去官网把放行情形读一遍 📌",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学签证 #澳洲大学"
+    },
+    "p3": {
+      "title": "转校申请怎么走",
+      "body": "还是转校这条，官网页面上写的流程信息：\n\n提交放行申请后，10 个工作日内会收到结果；放行信不收费。\n\n如果申请被拒，官网写明学生会被告知理由，并且满 12 个月后可以自由转校。批准的话，墨大会通知内政部并取消在墨大的 CoE，之后是否需要新签证，要自己向内政部咨询。\n\n具体能不能放行，我没法替你判断，以官网列出的情形为准。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "31 位校友参加维州大选",
+      "body": "11 月 24 号墨大官网发的：\n\nPathways to Politics for Women is celebrating a record 31 of its alums contesting the Victorian state election.\n\n比 2022 年的 19 位多 60%，覆盖五个政党和独立候选人。官网还写到，2016 年以来这个项目的校友参选 282 次，107 次当选。\n\n官网说 2027 年的项目可以登记意向。读政治或公共政策的同学可以去看看 🗳️",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "珊瑚蛙基因研究 墨大参与",
+      "body": "11 月 18 号官网的一条科研新闻：\n\nResearchers have shown for the first time that genomic selection could help one of Australia’s most threatened frogs become more resilient to a deadly disease.\n\n模型显示，下一代平均存活时间可能提高约 9%，同时不用牺牲遗传多样性。不过官网也说了，下一步还要验证，并看实验室里的存活优势能不能带到野外。\n\n读生物、兽医的同学评论区聊聊 🐸",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #科研 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "墨大官网三条：海外学生转校限制临时延长到 12 个月，31 位校友参加维州大选，珊瑚蛙抗病基因研究",
+    "lead": "这次从墨尔本大学官网挑了三条：国际学生转校政策页的临时调整、Pathways to Politics 校友参加维州大选，以及一项濒危珊瑚蛙的基因组研究。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 海外学生转校限制期临时延长到 12 个月",
+        "paragraphs": [
+          "墨大学生事务官网的国际学生转校政策页写明：From 2 October 2026 to 30 June 2027, the Australian Government has temporarily extended the overseas student transfer restriction period from 6 months to 12 months.",
+          "想从墨大转到其他院校，需要完成主修课程 12 个月，或符合页面列出的放行情形。官网同时写明，这个临时限制预计在 2027 年 6 月 30 日后恢复为 6 个月。",
+          "流程上，提交放行申请后 10 个工作日内会收到结果，放行信不收费；获批后墨大会通知内政部并取消墨大的 CoE，是否需要新签证要向内政部咨询。被拒的话，官网写明学生满 12 个月后可以自由转校。"
+        ],
+        "sourceHtml": "UniMelb Students · <a href=\"https://students.unimelb.edu.au/support-and-wellbeing/international-student-support/changing-courses-or-providers/international-student-transfer-policy\">students.unimelb.edu.au</a>"
+      },
+      {
+        "h2": "02 31 位 Pathways to Politics 校友参加维州大选",
+        "paragraphs": [
+          "11 月 24 日，墨大官网发布：Pathways to Politics for Women is celebrating a record 31 of its alums contesting the Victorian state election – the largest number of graduates to ever stand in a single state election.",
+          "这个数字比 2022 年的 19 位高 60%。31 位女性在 Legislative Assembly 和 Legislative Council 的议席中参选，覆盖墨尔本市区和维州乡镇，代表五个政党和独立候选人。",
+          "官网还给出累计数据：2016 年项目成立以来，校友参选 282 次，107 次当选；目前有 75 位校友在澳洲各地议会和地方议会任职。想参加 2027 年项目的女性，可以在官网登记意向。"
+        ],
+        "sourceHtml": "UniMelb Newsroom · 2026-11-24 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/november/record-31-pathways-to-politics-alums-contest-victorian-election\">unimelb.edu.au</a>"
+      },
+      {
+        "h2": "03 基因组选育有望帮濒危珊瑚蛙抗壶菌病",
+        "paragraphs": [
+          "11 月 18 日，墨大官网发布：Researchers have shown for the first time that genomic selection — a breeding technique widely used in agriculture — could help one of Australia’s most threatened frogs become more resilient to a deadly disease.",
+          "南部珊瑚蛙因壶菌病被认为功能性灭绝，人工繁育让物种得以延续，但放归野外仍然困难。研究发现，感染后的存活时间有差异，其中一部分是可遗传的；模型显示，下一代平均存活时间可能提高约 9%，同时管理近亲繁殖、保留遗传多样性。",
+          "团队来自墨大、James Cook University、NSW 政府、Zoos Victoria 和 Taronga Conservation Society。下一步要用更多繁育个体的基因组数据验证预测，并检验实验室里的存活优势能不能转化为野外表现。"
+        ],
+        "sourceHtml": "UniMelb Newsroom · 2026-11-18 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/november/genomic-breakthrough-offers-new-hope-for-southern-corroboree-frog\">unimelb.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "三条速览",
+      "items": [
+        "海外学生转校限制期 2026.10.02 至 2027.06.30 临时从 6 个月延长到 12 个月。",
+        "31 位 Pathways to Politics 校友参加维州大选，比 2022 年的 19 位多 60%。",
+        "珊瑚蛙基因组研究：模型显示下一代存活时间可能提高约 9%，仍待验证。"
+      ]
+    },
+    "meta": { "readTime": "约 3 分钟" },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 三条合集（主推）",
+        "body": "这周翻了墨大官网，挑了三条。\n\n第1条：转校限制期。官方原文：From 2 October 2026 to 30 June 2027, the Australian Government has temporarily extended the overseas student transfer restriction period from 6 months to 12 months.\n\n第2条：Pathways to Politics 有 31 位校友参加维州大选，比 2022 年的 19 位多 60%。\n\n第3条：墨大参与的珊瑚蛙基因组研究，模型显示下一代存活时间可能提高约 9%，还要继续验证。\n\n正在考虑转校的同学，建议先把官网放行情形读一遍。评论区聊聊你最关心哪条。",
+        "tags": ["#墨尔本大学", "#UniMelb", "#澳洲留学", "#留学日常", "#澳洲大学"]
+      }
+    ],
+    "sensitivityScan": [
+      { "category": "绝对化", "rule": "最 / 第一 / 唯一 / 100% / 首个", "result": "未检出（「最关心」为问句，「首次」为官方原文 for the first time 的复述）" },
+      { "category": "教育承诺", "rule": "包过 / 保录取 / 稳上 / 必中", "result": "未检出" },
+      { "category": "引流", "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号", "result": "未检出" },
+      { "category": "封号红线", "rule": "品牌名 / 域名 / 二维码", "result": "未检出" },
+      { "category": "AI 味", "rule": "首先其次 / 值得注意的是 / 综上所述", "result": "未检出" },
+      { "category": "医疗化妆品", "rule": "治疗 / 速效 / 纯天然", "result": "未检出（珊瑚蛙为动物疾病研究）" },
+      { "category": "政治金融", "rule": "保本 / 稳赚 / 年化 / 荐股", "result": "未检出（维州大选为校友参选的新闻复述，无立场表达）" }
+    ]
+  }
+}
