@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-27",
+  "school": "uq",
+  "summary": {
+    "hookMain": "昆士兰大学 UQ",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "UQ 分子生物科学研究所 Mark Smythe 教授获 2026 总理创新奖。",
+      "UQ 讲师 Allanah Hunt 博士获首届 AustLit Creative Writing Fellowship。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "总理创新奖",
+        "data": "创办 6 家公司"
+      },
+      {
+        "num": "02",
+        "title": "AustLit 写作奖金",
+        "data": "每人 $15,000"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术荣誉",
+      "h2Main": "UQ 教授获 2026 总理创新奖",
+      "h2Sub": "30 年创办 6 家生物科技公司",
+      "h2Highlight": "6 家",
+      "lead": "11 月 25 日 UQ 官网发布：UQ 分子生物科学研究所 Mark Smythe 教授获 2026 Prime Minister’s Prize for Innovation。",
+      "bullets": [
+        {
+          "k": "奖项",
+          "v": "2026 Prime Minister’s Prize for Innovation"
+        },
+        {
+          "k": "单位",
+          "v": "UQ Institute for Molecular Bioscience"
+        },
+        {
+          "k": "创业",
+          "v": "联合创办 6 家公司，含 Protagonist Therapeutics、Infensa Bioscience"
+        },
+        {
+          "k": "药物",
+          "v": "参与研发 3 款已上市药物"
+        },
+        {
+          "k": "培养",
+          "v": "支持了 50 多位如今在澳洲和海外工作的科学家"
+        }
+      ],
+      "sourceQuote": "Professor Smythe has co-founded 6 companies, including Protagonist Therapeutics, Infensa Bioscience and Vast Bioscience, and has contributed to the development of 3 marketed drugs.",
+      "source": "UQ News · 2026-11-25",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-uq-professor-awarded-prime-ministers-prize-innovation"
+    },
+    {
+      "idx": "02",
+      "category": "学术荣誉",
+      "h2Main": "UQ 讲师获首届 AustLit 写作奖金",
+      "h2Sub": "两位入选者各获 $15,000",
+      "h2Highlight": "$15,000",
+      "lead": "11 月 23 日 UQ 官网发布：UQ 传播与艺术学院 Allanah Hunt 博士是首届 AustLit Creative Writing Fellowships 的两位获得者之一。",
+      "bullets": [
+        {
+          "k": "项目",
+          "v": "首届 AustLit Creative Writing Fellowships"
+        },
+        {
+          "k": "人数",
+          "v": "两位获得者"
+        },
+        {
+          "k": "金额",
+          "v": "每人 $15,000，用于借助 AustLit 资源和数据集开展写作项目"
+        },
+        {
+          "k": "Hunt 的项目",
+          "v": "以原住民视角为中心的短篇犯罪小说集，使用 AustLit 的 BlackWords 数据集"
+        },
+        {
+          "k": "AustLit",
+          "v": "设在 UQ 传播与艺术学院的澳洲文学在线数据库"
+        }
+      ],
+      "sourceQuote": "Dr Allanah Hunt, a queer Kurnu-Barkindji and Malyangapa writer, editor and UQ lecturer, and award-winning novelist Sophie Overett, will each receive $15,000 to develop their next writing projects using AustLit resources and datasets.",
+      "source": "UQ News · 2026-11-23",
+      "sourceUrl": "https://news.uq.edu.au/2026-11-uq-lecturer-among-first-austlit-creative-writing-fellows"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UQ 官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "总理创新奖",
+        "body": "UQ IMB 的 Mark Smythe 教授获 2026 总理创新奖，联合创办 6 家公司，参与研发 3 款已上市药物。"
+      },
+      {
+        "n": "02",
+        "title": "AustLit 写作奖金",
+        "body": "首届 AustLit Creative Writing Fellowships 两位获得者各获 $15,000，UQ 讲师 Allanah Hunt 博士是其中之一。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/27"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UQ 本周两条新闻整理",
+      "body": "UQ 官网这周两条，我都读完了。\n\n一条是总理科学奖里的创新奖，另一条是文学方向的写作奖金。\n\n下面一张图一条，关键句贴了官网原文。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "UQ 教授拿了总理创新奖",
+      "body": "11 月 25 号官网发的：UQ 分子生物科学研究所的 Mark Smythe 教授获 2026 Prime Minister’s Prize for Innovation。\n\n原文：Professor Smythe has co-founded 6 companies, including Protagonist Therapeutics, Infensa Bioscience and Vast Bioscience, and has contributed to the development of 3 marketed drugs.\n\n做科研也能做出公司，这条对读生物医药的同学挺有启发 🧪",
+      "tags": "#昆士兰大学 #UQ #生物医药 #澳洲读博 #澳洲大学"
+    },
+    "p3": {
+      "title": "他带出了 50 多位科学家",
+      "body": "UQ 校长在官网说，他 supported the development of more than 50 scientists who are now working in Australia and overseas.\n\n我自己读研最纠结的就是走学术还是去业界，看到这种两条路都走通的例子会想多了解一下 IMB 的课题组。\n\n想申 IMB 的同学可以先去看看组里在做什么。",
+      "tags": "#昆士兰大学 #UQ #选导师 #澳洲读研 #澳洲大学"
+    },
+    "p4": {
+      "title": "UQ 讲师拿到写作奖金",
+      "body": "11 月 23 号官网发的：首届 AustLit Creative Writing Fellowships 出结果，两位获得者里有 UQ 讲师 Allanah Hunt 博士。\n\n原文：will each receive $15,000 to develop their next writing projects using AustLit resources and datasets.\n\n这是给作家的创作资助，不是学生奖学金，别看错了 📚",
+      "tags": "#昆士兰大学 #UQ #澳洲文学 #创意写作 #澳洲大学"
+    },
+    "p5": {
+      "title": "UQ 日报 评论区聊聊",
+      "body": "这两条都是荣誉类新闻，不涉及招生或学生奖学金。\n\n你们读研读博更想留在学术圈，还是想像 Smythe 教授一样去做公司？评论区说说。",
+      "tags": "#昆士兰大学 #UQ #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UQ 教授 Mark Smythe 获 2026 总理创新奖；UQ 讲师获首届 AustLit 写作奖金 $15,000",
+    "lead": "本周 UQ 官网发布两条消息：IMB 的 Mark Smythe 教授获 2026 总理创新奖，以及 UQ 讲师 Allanah Hunt 博士获首届 AustLit Creative Writing Fellowship。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 Mark Smythe 教授获 2026 总理创新奖",
+        "paragraphs": [
+          "11 月 25 日，UQ 官网发布：Professor Mark Smythe received the 2026 Prize for Innovation for delivering substantial health and economic benefits to Australia over a 30-year career.",
+          "Smythe 教授来自 UQ 分子生物科学研究所（IMB），同时是 Infensa Bioscience 的 CEO。官网原文：Professor Smythe has co-founded 6 companies, including Protagonist Therapeutics, Infensa Bioscience and Vast Bioscience, and has contributed to the development of 3 marketed drugs.",
+          "UQ 校长 Deborah Terry 教授在官网表示，他 supported the development of more than 50 scientists who are now working in Australia and overseas in key roles driving pharmaceutical innovation."
+        ],
+        "sourceHtml": "UQ News · 2026-11-25 · <a href=\"https://news.uq.edu.au/2026-11-uq-professor-awarded-prime-ministers-prize-innovation\">news.uq.edu.au</a>"
+      },
+      {
+        "h2": "02 UQ 讲师获首届 AustLit 写作奖金",
+        "paragraphs": [
+          "11 月 23 日，UQ 官网发布：A University of Queensland academic is one of two recipients of the inaugural AustLit Creative Writing Fellowships, an initiative supporting Australian writers to create original works inspired by the nation's leading literary database.",
+          "官网原文：Dr Allanah Hunt, a queer Kurnu-Barkindji and Malyangapa writer, editor and UQ lecturer, and award-winning novelist Sophie Overett, will each receive $15,000 to develop their next writing projects using AustLit resources and datasets.",
+          "Hunt 博士的项目是一部以原住民视角为中心的短篇犯罪小说集，会使用 AustLit 的 BlackWords 数据集。AustLit 是设在 UQ 传播与艺术学院的澳洲文学在线数据库。"
+        ],
+        "sourceHtml": "UQ News · 2026-11-23 · <a href=\"https://news.uq.edu.au/2026-11-uq-lecturer-among-first-austlit-creative-writing-fellows\">news.uq.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "UQ IMB 的 Mark Smythe 教授获 2026 总理创新奖，联合创办 6 家公司，参与研发 3 款已上市药物。",
+        "首届 AustLit Creative Writing Fellowships 两位获得者各获 $15,000，UQ 讲师 Allanah Hunt 博士是其中之一。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "UQ 官网这周两条，我都读完了。\n\n第1条：IMB 的 Mark Smythe 教授获 2026 总理创新奖，官方原文：Professor Smythe has co-founded 6 companies, including Protagonist Therapeutics, Infensa Bioscience and Vast Bioscience, and has contributed to the development of 3 marketed drugs.\n\n第2条：UQ 讲师 Allanah Hunt 博士获首届 AustLit 写作奖金，两位获得者各 $15,000。\n\n你们读博后想留学术圈还是去业界？评论区聊聊。",
+        "tags": [
+          "#昆士兰大学",
+          "#UQ",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}
