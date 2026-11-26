@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-27",
+  "summary": {
+    "hook": [
+      {"text": "GPU卖家拒绝中国租户"},
+      {"text": "ChatGPT与Codex共用额度"},
+      {"text": "纽约禁售AI聊天玩具五年"}
+    ],
+    "sub": "一条算力供应链、一条订阅额度、一条儿童产品监管。每条都对过一手原文和独立媒体，原文没写的地方文中直接说明。",
+    "items": [
+      {"num": "01", "cat": "芯片", "numColor": "#76B900", "t": "美国远程访问新规11月19日生效，CNBC报道GPU卖家要求算力不得租给中国公司"},
+      {"num": "02", "cat": "产品", "numColor": "#10A37F", "t": "OpenAI合并ChatGPT的Chat和Work，12月起Plus、Pro、Business共享ChatGPT与Codex额度"},
+      {"num": "03", "cat": "监管", "numColor": "#EF4444", "t": "纽约州长签署法律，五年内禁止制造和销售内置AI聊天机器人的玩具"}
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-gpu-remote-access-china",
+      "idx": "01",
+      "catText": "芯片",
+      "accent": "#76B900",
+      "bg": {"top": "芯片", "mid": "NO CHINESE RENTERS", "bot": "2026.11.27", "topRight": ""},
+      "title": [{"text": "GPU卖家要求买家不得把算力租给中国公司"}],
+      "oneline": [{"text": "美国商务部远程访问新规生效一周，二手链条开始自查租户。"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "BIS远程访问新规11月19日生效，CNBC称卖家告诉云厂商：算力租给中国公司就不供货。"},
+        {"k": "为什么重要", "v": "以前卡的是芯片运到哪，现在连谁远程用算力也要管。"},
+        {"k": "对你的影响", "v": "租海外GPU的团队，合同里会多出租户身份和用途条款。"}
+      ],
+      "src": "📎 bis.gov · cnbc.com",
+      "sourceEvidence": [
+        {"type": "primary", "publisher": "U.S. Bureau of Industry and Security", "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology", "claim": "新规目的是防止通过第三国远程访问绕开限制", "quote": "existing restrictions on access to sensitive American technology cannot be circumvented"},
+        {"type": "independent", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html", "claim": "卖家拒绝向租给中国公司的买家供货", "quote": "they won't supply Nvidia chips if any of the computing capacity will be rented to Chinese companies"},
+        {"type": "independent", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html", "claim": "生效日期", "quote": "came into effect on Nov. 19"}
+      ]
+    },
+    {
+      "slug": "02-chatgpt-codex-shared-usage",
+      "idx": "02",
+      "catText": "产品",
+      "accent": "#10A37F",
+      "bg": {"top": "产品", "mid": "ONE USAGE METER", "bot": "2026.11.27", "topRight": ""},
+      "title": [{"text": "ChatGPT合并Chat与Work，和Codex共用额度"}],
+      "oneline": [{"text": "12月起Plus、Pro、Business三档共用一个额度池，Instant聊天不计入。"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "OpenAI开始向少量Pro用户推合并后的Chat与Work，额度共用一个计量。"},
+        {"k": "为什么重要", "v": "额度池大小没公布，OpenAI承认少数重度用户会更早撞上限。"},
+        {"k": "对你的影响", "v": "Codex写代码和ChatGPT做研究会互相抢额度，到设置-用量里盯剩余量。"}
+      ],
+      "src": "📎 help.openai.com · techcrunch.com",
+      "sourceEvidence": [
+        {"type": "primary", "publisher": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/20001625", "claim": "12月起三档计划共享ChatGPT与Codex额度", "quote": "Starting in December, Plus, Pro, and Business plans' usage allowance"},
+        {"type": "primary", "publisher": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/20001625", "claim": "Instant聊天不消耗额度", "quote": "Instant chat will not draw from your usage."},
+        {"type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/", "claim": "共用一个用量计量", "quote": "Chat and Work will share a single usage meter across ChatGPT"},
+        {"type": "independent", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/", "claim": "重度用户可能更早撞上限", "quote": "a small fraction of its heaviest users may hit their limits sooner."}
+      ]
+    },
+    {
+      "slug": "03-new-york-ai-toy-ban",
+      "idx": "03",
+      "catText": "监管",
+      "accent": "#EF4444",
+      "bg": {"top": "监管", "mid": "AI TOY BAN", "bot": "2026.11.27", "topRight": ""},
+      "title": [{"text": "纽约禁售AI聊天玩具五年"}],
+      "oneline": [{"text": "签署后90天生效，每项违规每天最高罚1.5万美元。"}],
+      "bullets": [
+        {"k": "发生了什么", "v": "纽约州长11月24日签署法律，五年内禁止制造、分销和销售内置AI聊天机器人的玩具。"},
+        {"k": "为什么重要", "v": "加州之后第二个州，测试发现部分玩具会谈露骨话题、告诉孩子去哪找火柴。"},
+        {"k": "对你的影响", "v": "做面向儿童的AI硬件，美国两大州市场已关门，产品要改形态或改人群。"}
+      ],
+      "src": "📎 governor.ny.gov · nbcnews.com",
+      "sourceEvidence": [
+        {"type": "primary", "publisher": "New York Governor's Office", "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot", "claim": "五年禁令范围", "quote": "a five-year moratorium on the manufacturing, distribution and sale of toys"},
+        {"type": "primary", "publisher": "New York Governor's Office", "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot", "claim": "罚款金额", "quote": "civil penalties up to $15,000 per day for each violation"},
+        {"type": "primary", "publisher": "New York Governor's Office", "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot", "claim": "生效时间", "quote": "the new law takes effect 90 days after signing"},
+        {"type": "independent", "publisher": "NBC News", "url": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962", "claim": "加州之后第二个州", "quote": "the second state to ban the toys after California."}
+      ]
+    }
+  ],
+  "mp": {
+    "title": "GPU卖家拒绝中国租户 / ChatGPT与Codex共用额度 / 纽约禁售AI聊天玩具五年"
+  }
+}
