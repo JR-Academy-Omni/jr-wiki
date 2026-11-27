@@ -1,0 +1,340 @@
+<!doctype html>
+
+<!-- 由 build/pipelines/ai-daily.pipeline.ts 自动生成 -->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI 每日头条海报 · 2026-11-28（Canvas 版）</title>
+<meta name="description" content="2026-11-28 AI 日报 · 1 张合集 + 5 张单图海报，Canvas 2D 原生绘制，自带二维码扫码看原文。">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="../_lib/poster-renderer.v2.js"></script>
+</head>
+<body>
+<script>
+/* ------------------------------------------------------------------
+ * 薄壳页面：只放数据 + 一次 renderAll() 调用。
+ * 所有画法 / UI / 事件都在 ../_lib/poster-renderer.v2.js 里。
+ * 数据来源：src/data/ai-daily/2026-11-28.json
+ * 由 build/pipelines/ai-daily.pipeline.ts 自动生成，请勿手改此文件。
+ * ------------------------------------------------------------------ */
+
+const POSTER_DATA = {
+  "date": "2026-11-28",
+  "summary": {
+    "hook": [
+      {
+        "text": "FCC批准SpaceX百万颗算力卫星"
+      },
+      {
+        "text": "苹果全球下架Talkie"
+      },
+      {
+        "text": "加拿大算力基金加到10亿"
+      },
+      {
+        "text": "OpenAI试点Private Inference"
+      }
+    ],
+    "sub": "一条太空算力，一条AI陪伴应用的儿童安全，一条政府算力补贴，一条企业数据隐私。每条都对过一手原文和独立媒体，原文没写的地方文中直接说明。",
+    "items": [
+      {
+        "num": "01",
+        "cat": "算力",
+        "numColor": "#3B82F6",
+        "t": "FCC有条件批准SpaceX部署最多100万颗卫星做轨道数据中心，2033年前须先发第一颗"
+      },
+      {
+        "num": "02",
+        "cat": "安全",
+        "numColor": "#EF4444",
+        "t": "ABC调查Talkie向儿童发不当内容后，苹果把这款MiniMax旗下AI陪伴应用从全球App Store下架"
+      },
+      {
+        "num": "03",
+        "cat": "政策",
+        "numColor": "#F59E0B",
+        "t": "加拿大AI Compute Access Fund追加7亿加元到10亿，用本国算力最高补80%"
+      },
+      {
+        "num": "04",
+        "cat": "产品",
+        "numColor": "#10A37F",
+        "t": "OpenAI开始和首批企业客户试点Private Inference，查询跑在隔离硬件上，OpenAI看不到数据"
+      }
+    ]
+  },
+  "news": [
+    {
+      "slug": "01-fcc-spacex-starmind",
+      "idx": "01",
+      "catText": "算力",
+      "accent": "#3B82F6",
+      "bg": {
+        "top": "算力",
+        "mid": "DATA CENTERS IN SPACE",
+        "bot": "2026.11.28",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "FCC批准SpaceX部署百万颗算力卫星"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "Starmind星座获有条件授权，2033年前要先发第一颗。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "FCC 11月25日授权SpaceX部署最多100万颗卫星，作为轨道上的数据中心。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "这是监管层第一次按百万量级批准太空算力，但600公里以上的豁免被暂缓。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "短期不改变你的云账单，2033年前只要求发射一颗，里程碑才是看点。"
+        }
+      ],
+      "src": "📎 fcc.gov · cnbc.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "FCC Space Bureau (DA 26-1273)",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "claim": "授权100万颗卫星作为太空数据中心",
+          "quote": "a constellation of 1,000,000 NGSO satellites to operate as data centers in space."
+        },
+        {
+          "type": "primary",
+          "publisher": "FCC Space Bureau (DA 26-1273)",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+          "claim": "2035年前须部署10%",
+          "quote": "SpaceX must deploy 10% of the maximum number of authorized space stations"
+        },
+        {
+          "type": "independent",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "claim": "亚马逊质疑该计划",
+          "quote": "lofty ambition rather than a real plan."
+        }
+      ]
+    },
+    {
+      "slug": "02-apple-removes-talkie",
+      "idx": "02",
+      "catText": "安全",
+      "accent": "#EF4444",
+      "bg": {
+        "top": "安全",
+        "mid": "APP STORE REMOVAL",
+        "bot": "2026.11.28",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "苹果全球下架MiniMax旗下Talkie"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "ABC调查发现聊天机器人向儿童发不当信息，苹果随后下架。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "ABC与调查新闻局报道Talkie向儿童发性暗示信息，苹果随后全球下架。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "年龄靠用户自报，平台方开始为AI陪伴应用的内容直接下架。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "做AI陪伴或社交产品，年龄核验和对话安全要当上架门槛来做。"
+        }
+      ],
+      "src": "📎 abc.net.au · reuters.com · thenextweb.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "ABC News (original investigation)",
+          "url": "https://www.abc.net.au/news/2026-11-25/chinese-ai-companion-app-talkie-child-harm-allegations/107416128",
+          "claim": "MiniMax未回应ABC",
+          "quote": "MiniMax did not respond to the ABC's requests for comment."
+        },
+        {
+          "type": "independent",
+          "publisher": "Reuters (via Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/apple-pulls-minimax-ai-chatbot-from-app-store-over-child-safety-concerns-5052028",
+          "claim": "苹果全球下架Talkie",
+          "quote": "removed MiniMax’s popular chatbot app Talkie from its App Store worldwide"
+        },
+        {
+          "type": "independent",
+          "publisher": "Reuters (via Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/apple-pulls-minimax-ai-chatbot-from-app-store-over-child-safety-concerns-5052028",
+          "claim": "年龄靠用户自报",
+          "quote": "child safety advocates have criticised its lax verification safeguards, which allow users to self-report their age."
+        },
+        {
+          "type": "independent",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/apple-removes-minimax-talkie-app-store-child-safety",
+          "claim": "下架由ABC报道引发",
+          "quote": "The move followed an ABC and Bureau of Investigative Journalism report on the chatbot’s messages to children."
+        }
+      ]
+    },
+    {
+      "slug": "03-canada-ai-compute-fund",
+      "idx": "03",
+      "catText": "政策",
+      "accent": "#F59E0B",
+      "bg": {
+        "top": "政策",
+        "mid": "C$1B COMPUTE FUND",
+        "bot": "2026.11.28",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "加拿大AI算力基金追加到10亿加元"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "中小企业买本国主权算力，政府最高报销80%。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "加拿大ISED 11月26日宣布追加7亿加元，AI Compute Access Fund总额到10亿。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "补贴向加拿大本国拥有和运营的算力倾斜，算力主权开始用钱来引导。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "500人以下的加拿大公司，算力开销10万到500万加元可申请，首轮限健康与生命科学。"
+        }
+      ],
+      "src": "📎 canada.ca · betakit.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "Innovation, Science and Economic Development Canada",
+          "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/government-of-canada-boosts-the-ai-compute-access-fund-with-700-million-expansion.html",
+          "claim": "基金总额达到10亿加元",
+          "quote": "bringing the Fund's total to $1 billion."
+        },
+        {
+          "type": "primary",
+          "publisher": "Innovation, Science and Economic Development Canada",
+          "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/government-of-canada-boosts-the-ai-compute-access-fund-with-700-million-expansion.html",
+          "claim": "首轮聚焦健康与生命科学",
+          "quote": "The first call focuses on health and life sciences."
+        },
+        {
+          "type": "independent",
+          "publisher": "BetaKit",
+          "url": "https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/",
+          "claim": "本国主权算力最高补80%",
+          "quote": "up to 80 percent of eligible costs for the same services from a sovereign, Canadian-owned compute provider"
+        },
+        {
+          "type": "independent",
+          "publisher": "BetaKit",
+          "url": "https://betakit.com/feds-will-now-pay-80-percent-of-costs-under-ai-compute-access-fund-if-purchased-from-a-sovereign-provider/",
+          "claim": "申请资格",
+          "quote": "Canadian-incorporated companies with fewer than 500 employees"
+        }
+      ]
+    },
+    {
+      "slug": "04-openai-private-inference",
+      "idx": "04",
+      "catText": "产品",
+      "accent": "#10A37F",
+      "bg": {
+        "top": "产品",
+        "mid": "PRIVATE INFERENCE",
+        "bot": "2026.11.28",
+        "topRight": ""
+      },
+      "title": [
+        {
+          "text": "OpenAI试点Private Inference"
+        }
+      ],
+      "oneline": [
+        {
+          "text": "企业查询跑在隔离硬件上，OpenAI自己也看不到数据。"
+        }
+      ],
+      "bullets": [
+        {
+          "k": "发生了什么",
+          "v": "OpenAI开始和首批企业客户试点Private Inference，目前是预览版。"
+        },
+        {
+          "k": "为什么重要",
+          "v": "金融、医疗、法律这类不敢把数据交给模型厂商的客户，多了一个选项。"
+        },
+        {
+          "k": "对你的影响",
+          "v": "价格、可用模型和开放时间都没公布，企业用户可以先填意向表排队。"
+        }
+      ],
+      "src": "📎 openai.com · the-decoder.com",
+      "sourceEvidence": [
+        {
+          "type": "primary",
+          "publisher": "OpenAI (interest form)",
+          "url": "https://openai.com/de-DE/form/private-intelligence-interest/",
+          "claim": "Private Inference以预览形式提供",
+          "quote": "Private Inference, als Vorschau verfügbar, kombiniert Confidential Computing mit strengen, überprüfbaren Kontrollen."
+        },
+        {
+          "type": "independent",
+          "publisher": "The Decoder",
+          "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+          "claim": "与首批企业客户试点",
+          "quote": "the company is now piloting the previously announced offering with its first enterprise customers"
+        },
+        {
+          "type": "independent",
+          "publisher": "The Decoder",
+          "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+          "claim": "查询在可验证的隔离硬件上处理",
+          "quote": "queries are processed on specially isolated hardware whose security can be independently verified"
+        }
+      ]
+    }
+  ],
+  "mp": {
+    "title": "FCC批准SpaceX百万颗算力卫星，苹果全球下架Talkie，加拿大算力基金加到10亿"
+  },
+  "articleUrl": "https://jiangren.com.au/blog/ai-daily-2026-11-28"
+};
+
+PosterRenderer.renderAll({
+  DATE: POSTER_DATA.date,
+  SUMMARY: POSTER_DATA.summary,
+  NEWS: POSTER_DATA.news,
+  articleUrl: POSTER_DATA.articleUrl,
+  // 高度完全随内容自适应（renderer v2 不再 snap 到离散档位）
+  FLEX_HEIGHT: true,
+});
+</script>
+</body>
+</html>
