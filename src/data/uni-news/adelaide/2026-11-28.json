@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-28",
+  "school": "adelaide",
+  "summary": {
+    "hookMain": "阿德莱德大学 Adelaide",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "Australian Centre for Housing Research（ACHR）分析发现，通过中介租房的人遇到维修拖延和不合理涨租的可能性是直租房东的 2.5 倍以上。",
+      "心理学院研究发现，亲子之间识别彼此情绪表情更准确。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "找中介租房和直租",
+        "data": "2.5 倍"
+      },
+      {
+        "num": "02",
+        "title": "熟悉的人，更能读",
+        "data": "亲子"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "找中介租房和直租房东，差别有多大",
+      "h2Sub": "住房研究中心分析 Australian Housing Conditions Dataset",
+      "h2Highlight": "2.5 倍",
+      "lead": "11 月 26 日阿德莱德大学官网发布：Australian Centre for Housing Research（ACHR）分析发现，通过中介租房的人遇到维修拖延和不合理涨租的可能性是直租房东的 2.5 倍以上。",
+      "bullets": [
+        {
+          "k": "维修与涨租",
+          "v": "通过中介租房的人，遇到维修拖延和不合理涨租的可能性是直租的 2.5 倍以上"
+        },
+        {
+          "k": "使用限制",
+          "v": "通过中介租房的人，房屋使用受限的可能性高 2.4 倍"
+        },
+        {
+          "k": "中介占比",
+          "v": "澳洲约 80% 的私人出租房由中介管理"
+        },
+        {
+          "k": "整体情况",
+          "v": "近 20% 的私人租客遇到过不合理涨租，超过四分之一被限制房屋使用，超过三分之一遇到过维修拖延"
+        },
+        {
+          "k": "发表",
+          "v": "研究发表在 Housing Studies 期刊，负责人为 ACHR 副主任 Amy Clair 副教授，合著者 Sha Liu 博士"
+        }
+      ],
+      "sourceQuote": "In Australia, about 80% of privately rented homes are managed by agents.",
+      "source": "Adelaide University News · 2026-11-28",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/whether-you-rent-directly-from-a-landlord-or-via-an-agent-matter/"
+    },
+    {
+      "idx": "02",
+      "category": "科研",
+      "h2Main": "熟悉的人，更能读懂你的表情",
+      "h2Sub": "心理学院亲子情绪识别研究",
+      "h2Highlight": "亲子",
+      "lead": "11 月 27 日阿德莱德大学官网发布：心理学院研究发现，亲子之间识别彼此情绪表情更准确。",
+      "bullets": [
+        {
+          "k": "作者",
+          "v": "Adelaide University School of Psychology 博士生 Kye Palmer（第一作者）"
+        },
+        {
+          "k": "合作",
+          "v": "Adelaide University、University of Queensland、Victoria University of Wellington"
+        },
+        {
+          "k": "实验",
+          "v": "亲子面对面打开装有贴纸、玩具蜘蛛、破照片、玩具便便的盒子，用表情让对方猜内容"
+        },
+        {
+          "k": "发现",
+          "v": "父母识别自己孩子的表情比其他成年人更准；不认识这个孩子的父母，表现并不比非父母更好"
+        },
+        {
+          "k": "发表",
+          "v": "Journal of Experimental Child Psychology"
+        }
+      ],
+      "sourceQuote": "We found emotional expressions are recognised more accurately within familiar relationships, and that this advantage is not explained by general parenting experience,",
+      "source": "Adelaide University News · 2026-11-28",
+      "sourceUrl": "https://adelaide.edu.au/about/news/2026/familiar-faces-help-children-develop-emotional-understanding/"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "阿德莱德官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "找中介租房和直租房东，差别有多大",
+        "body": "通过中介租房的人，遇到维修拖延和不合理涨租的可能性是直租的 2.5 倍以上；通过中介租房的人，房屋使用受限的可能性高 2.4 倍；澳洲约 80% 的私人出租房由中介管理。"
+      },
+      {
+        "n": "02",
+        "title": "熟悉的人，更能读懂你的表情",
+        "body": "Adelaide University School of Psychology 博士生 Kye Palmer（第一作者）；Adelaide University、University of Queensland、Victoria University of Wellington；亲子面对面打开装有贴纸、玩具蜘蛛、破照片、玩具便便的盒子，用表情让对方猜内容。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/28"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "阿德莱德本周两条研究",
+      "body": "阿德莱德官网这周两条研究新闻，我都读完了。\n\n一条是租房的，跟我们留学生关系挺大；一条是心理学院的亲子情绪研究。\n\n下面一张图一条，关键句贴了官网原文。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "找中介租房更容易被拖维修？",
+      "body": "11 月 26 号官网发的：通过中介租房的人，遇到维修拖延和不合理涨租的可能性是直租房东的 2.5 倍以上，房屋使用受限的可能性高 2.4 倍。\n\n官网原文：In Australia, about 80% of privately rented homes are managed by agents.\n\n所以大部分人其实没得选 🏠",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "租客里三分之一遇过维修拖延",
+      "body": "同一篇研究里的整体数字：近 20% 的私人租客遇到过不合理涨租，超过四分之一被限制房屋使用，超过三分之一遇到过维修拖延。\n\n我自己下次签约前，会先把房子现有问题拍照发邮件留底，报修也全走书面。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "亲子更能读懂彼此表情",
+      "body": "11 月 27 号官网发的，心理学院博士生 Kye Palmer 的研究：父母识别自己孩子的表情，比其他成年人更准。\n\n而且不认识这个孩子的父母，表现并不比没当过父母的人好。\n\n读心理学的同学可以找 Journal of Experimental Child Psychology 的原文看看。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "阿德莱德日报 评论区聊聊",
+      "body": "这两条都是科研向，不是奖学金或招生公告。\n\n在阿德莱德租房的同学，你们是找中介还是直租房东？维修一般等多久？评论区说说。",
+      "tags": "#阿德莱德大学 #Adelaide #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "阿德莱德大学研究：找中介租房，维修拖延和不合理涨租的可能性高出 2.5 倍以上",
+    "lead": "本周阿德莱德大学官网发布两条消息。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 找中介租房和直租房东，差别有多大",
+        "paragraphs": [
+          "11 月 26 日，阿德莱德大学官网发布：Australian Centre for Housing Research（ACHR）分析了 Australian Housing Conditions Dataset，发现通过中介租房的人，遇到维修拖延和不合理涨租的可能性是直接向房东租房的 2.5 倍以上，房屋使用受限的可能性高 2.4 倍。",
+          "官网原文：In Australia, about 80% of privately rented homes are managed by agents. 研究还显示，近 20% 的私人租客遇到过不合理涨租，超过四分之一被限制房屋使用，超过三分之一遇到过维修或修理拖延。",
+          "研究发表在 Housing Studies 期刊，负责人是 ACHR 副主任 Amy Clair 副教授。她说：Management of properties by an agent is common in Australia, and the involvement of professional agents is often suggested as a way of ensuring better standards, but evidence suggests that this is not always the case."
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-28 · <a href=\"https://adelaide.edu.au/about/news/2026/whether-you-rent-directly-from-a-landlord-or-via-an-agent-matter/\">adelaide.edu.au</a>"
+      },
+      {
+        "h2": "02 熟悉的人，更能读懂你的表情",
+        "paragraphs": [
+          "11 月 27 日，阿德莱德大学官网发布：来自 Adelaide University、University of Queensland 和 Victoria University of Wellington 的研究者通过两项研究，比较父母和孩子识别彼此情绪表情的准确度，结果发表在 Journal of Experimental Child Psychology。",
+          "实验里，父母和孩子面对面，轮流打开盒子（贴纸代表开心、玩具蜘蛛代表害怕、破照片代表难过、玩具便便代表恶心），用表情让对方猜盒子里是什么。",
+          "第一作者、心理学院博士生 Kye Palmer 说：We found emotional expressions are recognised more accurately within familiar relationships, and that this advantage is not explained by general parenting experience. 不认识这个孩子的父母，表现并不比非父母更好。"
+        ],
+        "sourceHtml": "Adelaide University News · 2026-11-28 · <a href=\"https://adelaide.edu.au/about/news/2026/familiar-faces-help-children-develop-emotional-understanding/\">adelaide.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "Australian Centre for Housing Research（ACHR）分析发现，通过中介租房的人遇到维修拖延和不合理涨租的可能性是直租房东的 2.5 倍以上。",
+        "心理学院研究发现，亲子之间识别彼此情绪表情更准确。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "阿德莱德官网这周两条，我都读完了。\n\n第1条：Australian Centre for Housing Research（ACHR）分析发现，通过中介租房的人遇到维修拖延和不合理涨租的可能性是直租房东的 2.5 倍以上。\n\n第2条：心理学院研究发现，亲子之间识别彼此情绪表情更准确。\n\n在阿德莱德租房的同学，你们是找中介还是直租房东？维修一般等多久？评论区说说。",
+        "tags": [
+          "#阿德莱德大学",
+          "#Adelaide",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

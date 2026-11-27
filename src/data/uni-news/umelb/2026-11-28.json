@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-28",
+  "school": "umelb",
+  "summary": {
+    "hookMain": "墨尔本大学 UniMelb",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "研究团队在国会大厦发布 The Australian Healthy Housing Handbook，指出发霉、通风差、极端温度和租住不稳定直接导致呼吸系统疾病、心血管疾病和心理健康问题。",
+      "First Peoples' Assembly of Victoria 联合主席 Meriki Onus 发表 2026 Narrm Oration。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "住房危机也是健康",
+        "data": "健康危机"
+      },
+      {
+        "num": "02",
+        "title": "2026 Nar",
+        "data": "Narrm Oration"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "科研",
+      "h2Main": "住房危机也是健康危机",
+      "h2Sub": "The Australian Healthy Housing Handbook 在堪培拉发布",
+      "h2Highlight": "健康危机",
+      "lead": "11 月 26 日墨尔本大学官网发布：研究团队在国会大厦发布 The Australian Healthy Housing Handbook，指出发霉、通风差、极端温度和租住不稳定直接导致呼吸系统疾病、心血管疾病和心理健康问题。",
+      "bullets": [
+        {
+          "k": "影响面",
+          "v": "约 250 万个澳洲家庭受不健康住房影响"
+        },
+        {
+          "k": "四个重点",
+          "v": "改善租客住房条件；收紧租金监管和租客保护；加强建筑规范；提升住房系统的气候韧性"
+        },
+        {
+          "k": "政策呼吁",
+          "v": "全国最低租房标准、结束 no-grounds evictions、卫生部门参与制定建筑规范"
+        },
+        {
+          "k": "发霉成本",
+          "v": "团队估计消除发霉可在未来 20 年减少约 $3.8 billion 卫生支出，并通过更高生产力提升 $5.9 billion 工作年龄人口收入"
+        },
+        {
+          "k": "负责人",
+          "v": "Centre of Research Excellence in Healthy Housing 主任 Rebecca Bentley 教授"
+        }
+      ],
+      "sourceQuote": "The team estimates eliminating mould alone would cut health spending by an estimated $3.8 billion over the next 20 years and lift working-age incomes by $5.9 billion through higher productivity.",
+      "source": "University of Melbourne Newsroom · 2026-11-28",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/november/experts-say-australias-housing-crisis-is-also-a-health-crisis"
+    },
+    {
+      "idx": "02",
+      "category": "校园活动",
+      "h2Main": "2026 Narrm Oration：从鳗鱼养殖谈经济自决",
+      "h2Sub": "Meriki Onus 发表年度演讲",
+      "h2Highlight": "Narrm Oration",
+      "lead": "11 月 27 日墨尔本大学官网发布：First Peoples' Assembly of Victoria 联合主席 Meriki Onus 发表 2026 Narrm Oration。",
+      "bullets": [
+        {
+          "k": "演讲人",
+          "v": "Meriki Onus，Gunnai 和 Gunditjmara 女性，First Peoples' Assembly of Victoria 联合主席"
+        },
+        {
+          "k": "题目",
+          "v": "Lessons from Kooyang Farming and the Future of Economic Self-Determination"
+        },
+        {
+          "k": "主题",
+          "v": "以 Budj Bim 的 Kooyang（鳗鱼）养殖和贸易历史，讨论 Treaty 如何推进第一民族经济自决"
+        },
+        {
+          "k": "重点",
+          "v": "提升第一民族在投资、金融、治理和商业方面的能力"
+        },
+        {
+          "k": "校友",
+          "v": "她持有墨尔本大学 Social Change Leadership 硕士学位"
+        }
+      ],
+      "sourceQuote": "Victoria has secured Australia’s first Treaty.",
+      "source": "University of Melbourne Newsroom · 2026-11-28",
+      "sourceUrl": "https://www.unimelb.edu.au/newsroom/news/2026/november/from-eel-farming-to-economic-self-determination-2026-narrm-oration"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "墨大官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "住房危机也是健康危机",
+        "body": "约 250 万个澳洲家庭受不健康住房影响；改善租客住房条件；收紧租金监管和租客保护；加强建筑规范；提升住房系统的气候韧性；全国最低租房标准、结束 no-grounds evictions、卫生部门参与制定建筑规范。"
+      },
+      {
+        "n": "02",
+        "title": "2026 Narrm Oration：从鳗鱼养殖谈经济自决",
+        "body": "Meriki Onus，Gunnai 和 Gunditjmara 女性，First Peoples' Assembly of Victoria 联合主席；Lessons from Kooyang Farming and the Future of Economic Self-Determination；以 Budj Bim 的 Kooyang（鳗鱼）养殖和贸易历史，讨论 Treaty 如何推进第一民族经济自决。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/28"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "墨大本周两条新闻",
+      "body": "墨大官网这周两条，我都读完了。\n\n一条是健康住房手册，跟租房的我们直接相关；一条是年度 Narrm Oration 演讲。\n\n下面一张图一条，关键句贴了官网原文。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "房子发霉真的会伤身体",
+      "body": "11 月 26 号官网发的：墨大团队在国会大厦发布 The Australian Healthy Housing Handbook。\n\n手册说发霉、通风差、极端温度、租住不稳定，是呼吸系统疾病、心血管疾病和心理健康问题的直接原因。\n\n墨尔本冬天的霉，住过的都懂 😮‍💨",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "只除霉就能省 $3.8B",
+      "body": "官网原文：The team estimates eliminating mould alone would cut health spending by an estimated $3.8 billion over the next 20 years and lift working-age incomes by $5.9 billion through higher productivity.\n\n我现在看房会先闻味道、看墙角和窗框，再决定要不要签。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "从鳗鱼养殖讲到 Treaty",
+      "body": "11 月 27 号官网发的：Meriki Onus 发表 2026 Narrm Oration，题目是 Lessons from Kooyang Farming and the Future of Economic Self-Determination。\n\n她讲 Budj Bim 的鳗鱼养殖历史，聊第一民族的经济自决。她本人是墨大 Social Change Leadership 硕士毕业。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "墨大日报 评论区聊聊",
+      "body": "这两条都不是奖学金或招生公告，偏研究和校园活动。\n\n在墨尔本租房的同学，你们的房子冬天有没有发霉？怎么处理的？评论区说说。",
+      "tags": "#墨尔本大学 #UniMelb #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "墨尔本大学发布健康住房手册：发霉、通风差和租住不稳定直接影响健康",
+    "lead": "本周墨尔本大学官网发布两条消息。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 住房危机也是健康危机",
+        "paragraphs": [
+          "11 月 26 日，墨尔本大学官网发布：研究团队在堪培拉国会大厦发布 The Australian Healthy Housing Handbook，指出发霉、通风差、极端温度和租住不稳定，是呼吸系统疾病、心血管疾病和心理健康问题的直接原因。文章估计约 250 万个澳洲家庭受不健康住房影响。",
+          "手册的四个重点：改善租客住房条件；收紧租金监管和相关租客保护；加强建筑规范，建造健康可持续的住房；提升住房系统的气候韧性。",
+          "官网原文：The team estimates eliminating mould alone would cut health spending by an estimated $3.8 billion over the next 20 years and lift working-age incomes by $5.9 billion through higher productivity."
+        ],
+        "sourceHtml": "University of Melbourne Newsroom · 2026-11-28 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/november/experts-say-australias-housing-crisis-is-also-a-health-crisis\">unimelb.edu.au</a>"
+      },
+      {
+        "h2": "02 2026 Narrm Oration：从鳗鱼养殖谈经济自决",
+        "paragraphs": [
+          "11 月 27 日，墨尔本大学官网发布：Gunnai 和 Gunditjmara 女性、First Peoples' Assembly of Victoria 联合主席 Meriki Onus 发表 2026 Narrm Oration，题目是 Lessons from Kooyang Farming and the Future of Economic Self-Determination。",
+          "演讲以 Gunditjmara 人在 Budj Bim 养殖和贸易 Kooyang（鳗鱼）的历史为线索，讨论 Treaty 如何帮助第一民族恢复能力、实现长期经济繁荣，强调提升第一民族在投资、金融、治理和商业上的专业能力。",
+          "她在演讲中说：Victoria has secured Australia’s first Treaty. Meriki Onus 持有墨尔本大学 Social Change Leadership 硕士学位。"
+        ],
+        "sourceHtml": "University of Melbourne Newsroom · 2026-11-28 · <a href=\"https://www.unimelb.edu.au/newsroom/news/2026/november/from-eel-farming-to-economic-self-determination-2026-narrm-oration\">unimelb.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "研究团队在国会大厦发布 The Australian Healthy Housing Handbook，指出发霉、通风差、极端温度和租住不稳定直接导致呼吸系统疾病、心血管疾病和心理健康问题。",
+        "First Peoples' Assembly of Victoria 联合主席 Meriki Onus 发表 2026 Narrm Oration。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "墨大官网这周两条，我都读完了。\n\n第1条：研究团队在国会大厦发布 The Australian Healthy Housing Handbook，指出发霉、通风差、极端温度和租住不稳定直接导致呼吸系统疾病、心血管疾病和心理健康问题。\n\n第2条：First Peoples' Assembly of Victoria 联合主席 Meriki Onus 发表 2026 Narrm Oration。\n\n在墨尔本租房的同学，你们的房子冬天有没有发霉？怎么处理的？评论区说说。",
+        "tags": [
+          "#墨尔本大学",
+          "#UniMelb",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}

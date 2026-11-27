@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-11-28",
+  "school": "unsw",
+  "summary": {
+    "hookMain": "新南威尔士大学 UNSW",
+    "hookSub": "本周 两条官网新闻",
+    "hookSubHighlight": "两条",
+    "subLines": [
+      "Scientia Professors Justin Gooding、Richard Kingsford、Brian Uy 获 2026 NSW Premier's Prizes for Science & Engineering。",
+      "学生与 TRE Lab 合作举办第二次校园 BioBlitz，45 名参与者记录了 653 条观察、366 个物种。"
+    ],
+    "previewCards": [
+      {
+        "num": "01",
+        "title": "三位教授获 NS",
+        "data": "三位教授"
+      },
+      {
+        "num": "02",
+        "title": "学生拿手机在校园",
+        "data": "366 个物种"
+      }
+    ]
+  },
+  "news": [
+    {
+      "idx": "01",
+      "category": "学术荣誉",
+      "h2Main": "三位教授获 NSW Premier's Prizes",
+      "h2Sub": "化学、生物科学、工程三个类别",
+      "h2Highlight": "三位教授",
+      "lead": "UNSW 官网本周发布：Scientia Professors Justin Gooding、Richard Kingsford、Brian Uy 获 2026 NSW Premier's Prizes for Science & Engineering。",
+      "bullets": [
+        {
+          "k": "Justin Gooding",
+          "v": "Excellence in Chemistry 类别；研究方向电化学、纳米技术和生物传感器，成果包括全球销售的葡萄糖生物传感器"
+        },
+        {
+          "k": "Richard Kingsford AO",
+          "v": "Excellence in Biological Sciences 类别；领导全球规模最大、持续时间最长的水鸟调查"
+        },
+        {
+          "k": "Wild Deserts",
+          "v": "Kingsford 领导的项目，正在恢复 Sturt National Park 400 平方公里的沙漠生态系统"
+        },
+        {
+          "k": "Brian Uy",
+          "v": "Excellence in Engineering 类别，来自 School of Civil and Environmental Engineering，研究钢和钢-混凝土组合结构三十多年"
+        },
+        {
+          "k": "奖项宗旨",
+          "v": "表彰为新南威尔士州带来经济、环境、健康、社会或技术效益的前沿工作"
+        }
+      ],
+      "sourceQuote": "UNSW Sydney Scientia Professors Justin Gooding, Richard Kingsford and Brian Uy were awarded NSW Premier's Prizes for their achievements in Science and Engineering in the fields of cancer research, ecology and structural engineering.",
+      "source": "UNSW Newsroom · 2026-11-28",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/three-unsw-researchers-honoured-with-2026-nsw-premiers-prizes-for-science-engineering"
+    },
+    {
+      "idx": "02",
+      "category": "校园活动",
+      "h2Main": "学生拿手机在校园找物种",
+      "h2Sub": "第二次校园 BioBlitz",
+      "h2Highlight": "366 个物种",
+      "lead": "UNSW 官网本周发布：学生与 TRE Lab 合作举办第二次校园 BioBlitz，45 名参与者记录了 653 条观察、366 个物种。",
+      "bullets": [
+        {
+          "k": "形式",
+          "v": "参与者用手机拍下找到的植物、昆虫和动物，上传到 iNaturalist"
+        },
+        {
+          "k": "规模",
+          "v": "45 名学生、老师和公众，记录 653 条观察，是年初试点的两倍多"
+        },
+        {
+          "k": "质量",
+          "v": "其中 118 条被评为 research-grade"
+        },
+        {
+          "k": "物种",
+          "v": "共 366 个物种，60% 与上次不同"
+        },
+        {
+          "k": "新物种",
+          "v": "今年早些时候在 Kensington 校区发现两个科学界未知的昆虫物种，尚未正式描述"
+        }
+      ],
+      "sourceQuote": "This month, 45 students, teachers and members of the public generated 653 observations, more than double the number of the pilot BioBlitz earlier this year, and 118 of those observations were designated as ‘research-grade’ quality.",
+      "source": "UNSW Newsroom · 2026-11-28",
+      "sourceUrl": "https://www.unsw.edu.au/newsroom/news/2026/11/why-are-these-UNSW-students-waving-their-phones-at-plants"
+    }
+  ],
+  "quickview": {
+    "titleMain": "今日速览",
+    "titleHighlight": "一眼看完",
+    "sub": "UNSW官网两条 · 数据都来自官方原文",
+    "items": [
+      {
+        "n": "01",
+        "title": "三位教授获 NSW Premier's Prizes",
+        "body": "Excellence in Chemistry 类别；研究方向电化学、纳米技术和生物传感器，成果包括全球销售的葡萄糖生物传感器；Excellence in Biological Sciences 类别；领导全球规模最大、持续时间最长的水鸟调查；Kingsford 领导的项目，正在恢复 Sturt National Park 400 平方公里的沙漠生态系统。"
+      },
+      {
+        "n": "02",
+        "title": "学生拿手机在校园找物种",
+        "body": "参与者用手机拍下找到的植物、昆虫和动物，上传到 iNaturalist；45 名学生、老师和公众，记录 653 条观察，是年初试点的两倍多；其中 118 条被评为 research-grade。"
+      }
+    ],
+    "cta": {
+      "big": "关注每日大学日报",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金 + 科研 + 招生一手同步",
+      "badge": "11/28"
+    }
+  },
+  "xhsCopy": {
+    "p1": {
+      "title": "UNSW 本周两条新闻",
+      "body": "UNSW 官网这周两条，我都读完了。\n\n一条是三位教授拿了 NSW Premier's Prizes，一条是学生在校园里拍物种的 BioBlitz。\n\n下面一张图一条，关键句贴了官网原文。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p2": {
+      "title": "三位教授拿了州长奖",
+      "body": "官网本周发的：Justin Gooding、Richard Kingsford、Brian Uy 三位 Scientia Professor 获 2026 NSW Premier's Prizes。\n\n分别是化学、生物科学、工程三个类别。Gooding 教授的成果里有一款全球销售的葡萄糖生物传感器 🔬",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p3": {
+      "title": "土木工程的同学看过来",
+      "body": "Brian Uy 教授来自 School of Civil and Environmental Engineering，研究钢和钢-混凝土组合结构三十多年。\n\nKingsford 教授领导全球规模最大、持续时间最长的水鸟调查。\n\n我在纠结要不要去蹭一节结构方向的讲座，听说很硬核。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p4": {
+      "title": "校园里拍出 366 个物种",
+      "body": "官网原文：This month, 45 students, teachers and members of the public generated 653 observations, more than double the number of the pilot BioBlitz earlier this year.\n\n共 366 个物种，60% 跟上次不同。有个海洋科学的同学说：It's like Pokémon.",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    },
+    "p5": {
+      "title": "UNSW 日报 评论区聊聊",
+      "body": "这两条都不是奖学金或招生公告，偏科研和校园活动。\n\n在 Kensington 的同学，你们在校园里见过最奇怪的虫子是什么？评论区说说。",
+      "tags": "#新南威尔士大学 #UNSW #澳洲留学 #留学日常 #澳洲大学"
+    }
+  },
+  "mp": {
+    "title": "UNSW 三位教授获 2026 NSW Premier's Prizes；校园 BioBlitz 记录 366 个物种",
+    "lead": "本周新南威尔士大学官网发布两条消息。下面逐条拆，原文都对着官网核过。",
+    "newsBodies": [
+      {
+        "h2": "01 三位教授获 NSW Premier's Prizes",
+        "paragraphs": [
+          "UNSW 官网本周发布：UNSW Sydney Scientia Professors Justin Gooding, Richard Kingsford and Brian Uy were awarded NSW Premier's Prizes for their achievements in Science and Engineering in the fields of cancer research, ecology and structural engineering.",
+          "Gooding 教授获 Excellence in Chemistry 类别，研究电化学、纳米技术和生物传感器，成果包括一款全球销售的葡萄糖生物传感器。Kingsford 教授获 Excellence in Biological Sciences 类别，领导全球规模最大、持续时间最长的水鸟调查，以及恢复 Sturt National Park 400 平方公里沙漠生态的 Wild Deserts 项目。",
+          "Uy 教授来自 School of Civil and Environmental Engineering，获 Excellence in Engineering 类别，三十多年研究钢和钢-混凝土组合结构，并主持过 Standards Australia 的组合建筑与桥梁标准委员会。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-28 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/three-unsw-researchers-honoured-with-2026-nsw-premiers-prizes-for-science-engineering\">unsw.edu.au</a>"
+      },
+      {
+        "h2": "02 学生拿手机在校园找物种",
+        "paragraphs": [
+          "UNSW 官网本周发布：一群学生与 Threatened, Rare and Endemic Species（TRE）Lab 合作，举办学校第二次校园 BioBlitz。参与者用手机拍下找到的每一种植物、昆虫和动物，上传到公民科学平台 iNaturalist。",
+          "官网原文：This month, 45 students, teachers and members of the public generated 653 observations, more than double the number of the pilot BioBlitz earlier this year, and 118 of those observations were designated as ‘research-grade’ quality. 共记录 366 个物种，其中 60% 与上次不同。",
+          "海洋科学专业三年级学生 Yonathan Budi 的说法是：It's like Pokémon. 今年早些时候，参与者还在 Kensington 校区发现了两个科学界此前未知的昆虫物种，目前尚未正式描述。"
+        ],
+        "sourceHtml": "UNSW Newsroom · 2026-11-28 · <a href=\"https://www.unsw.edu.au/newsroom/news/2026/11/why-are-these-UNSW-students-waving-their-phones-at-plants\">unsw.edu.au</a>"
+      }
+    ],
+    "quickview": {
+      "title": "两条速览",
+      "items": [
+        "Scientia Professors Justin Gooding、Richard Kingsford、Brian Uy 获 2026 NSW Premier's Prizes for Science & Engineering。",
+        "学生与 TRE Lab 合作举办第二次校园 BioBlitz，45 名参与者记录了 653 条观察、366 个物种。"
+      ]
+    },
+    "meta": {
+      "readTime": "约 2 分钟"
+    },
+    "cta": {
+      "big": "每日澳洲大学资讯",
+      "sub": "10 所澳洲大学 · 每天 3 校 · 奖学金、科研、招生一手同步"
+    }
+  },
+  "drafts": {
+    "sections": [
+      {
+        "heading": "草稿 A · 两条合集（主推）",
+        "body": "UNSW官网这周两条，我都读完了。\n\n第1条：Scientia Professors Justin Gooding、Richard Kingsford、Brian Uy 获 2026 NSW Premier's Prizes for Science & Engineering。\n\n第2条：学生与 TRE Lab 合作举办第二次校园 BioBlitz，45 名参与者记录了 653 条观察、366 个物种。\n\n在 Kensington 的同学，你们在校园里见过最奇怪的虫子是什么？评论区说说。",
+        "tags": [
+          "#新南威尔士大学",
+          "#UNSW",
+          "#澳洲留学",
+          "#留学日常",
+          "#澳洲大学"
+        ]
+      }
+    ],
+    "sensitivityScan": [
+      {
+        "category": "绝对化",
+        "rule": "最 / 第一 / 唯一 / 100% / 首个",
+        "result": "未检出"
+      },
+      {
+        "category": "教育承诺",
+        "rule": "包过 / 保录取 / 稳上 / 必中",
+        "result": "未检出"
+      },
+      {
+        "category": "引流",
+        "rule": "加V / VX / 薇信 / 私信领取 / 关注公众号",
+        "result": "未检出"
+      },
+      {
+        "category": "封号红线",
+        "rule": "品牌名 / 域名 / 二维码",
+        "result": "未检出"
+      },
+      {
+        "category": "AI 味",
+        "rule": "首先其次 / 值得注意的是 / 综上所述",
+        "result": "未检出"
+      },
+      {
+        "category": "医疗化妆品",
+        "rule": "治疗 / 速效 / 纯天然",
+        "result": "未检出"
+      },
+      {
+        "category": "政治金融",
+        "rule": "保本 / 稳赚 / 年化 / 荐股",
+        "result": "未检出"
+      }
+    ]
+  }
+}
